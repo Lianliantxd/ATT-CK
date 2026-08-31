@@ -6,10 +6,10 @@
 
 已写入文件：
 
-1. `README.md`（提交 `eeb0652bfcbfa6f6c92a5a03d26685728539ed5a`）
-2. `ATTACK_literature_2024_2026.csv`（提交 `831e84ec6ced336e7bef34c859d083daefcde516`）
-3. `ATTACK_literature_report_2024_2026.md`（提交 `5f18a7695c67fc0f87c6f4d3d7f8cc7f9ee4f0a5`）
-4. `ATTACK_literature_detailed_2024_2026.md`（提交 `b95fbbb2e1cb9ac74f9c2560fd6be0d46ea2f7e7`）
+1. `README.md`（最终内容提交 `377b0f02e7ea6fe0fc66faf8c601b31c98acd4ec`）
+2. `ATTACK_literature_2024_2026.csv`（最终内容提交 `4c363cc5e48e00d786c077328a605dd13bd4a3b7`）
+3. `ATTACK_literature_report_2024_2026.md`（最终内容提交 `9020ee1a3e0fbe94d6363218efda9d4c701b4667`）
+4. `ATTACK_literature_detailed_2024_2026.md`（最终内容提交 `e822d4a8b3229fbaa96fb4da7760d5a533935d16`）
 5. `GITHUB_SYNC_STATUS.md`（本文件）
 
 不要在聊天中发送 Personal Access Token、SSH 私钥或服务器密码。
