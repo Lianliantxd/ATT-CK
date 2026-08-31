@@ -13,4 +13,3 @@
 5. `GITHUB_SYNC_STATUS.md`（本文件）
 
 不要在聊天中发送 Personal Access Token、SSH 私钥或服务器密码。
-
