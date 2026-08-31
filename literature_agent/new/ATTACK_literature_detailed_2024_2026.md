@@ -724,4 +724,3 @@
 5. **归因/攻击者画像**：MuCamp、TRACE、APTREC、Debapt；需要把技术识别与 group attribution 分开评估。
 
 对你研究内容 3 的直接约束是：`Y_scene`、部分 technique-evidence 标注和边级证据都应由你定义并记录 provenance；不能声称它们是 ATT&CK 或 SAGA 自动提供的现成真值。对研究内容 4，若采用 Bayesian layer，至少应报告 calibration curve、Brier score、ECE、selective risk 和跨工具/跨场景测试。
-
