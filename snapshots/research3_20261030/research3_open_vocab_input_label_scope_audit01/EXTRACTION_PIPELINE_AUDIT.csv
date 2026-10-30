@@ -1,0 +1,168 @@
+stage_id,path,sha256,code_or_source_version,line_start,line_end,input_paths,input_fields,output_fields,operation,static_code_excerpt,check_result,reproducibility,historical_code_executed,evidence_level,missing_link,limitations
+AUTHOR_LABEL_SELECTION,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/benchmark/run_benchmark.py,1fb98f46fdc11b0ba01d63d08128ccd6e72d63a94e22cb4eb0f2197015969bf1,CURRENT_LOCAL_SHA256,64,83,"[""/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/labels.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,labels[scenario_variant-step].metadata.keys → official_technique_labels,"64:     labels=json.loads((SRC/'labels.json').read_text())
+65:     # Only metadata keys are used; commands, full_path, attackmate and descriptions never enter views.
+66:     matrix=json.loads((SRC/'mitre_matrix.json').read_text())
+67:     universe=sorted({normalize_technique_id(x) for x in matrix})
+68:     docs={key:[] for key in universe}
+69:     for key,v in matrix.items():docs[normalize_technique_id(key)].append(v['name']+' '+' '.join(v['tactics']))
+70:     docs={k:' '.join(v) for k,v in docs.items()}
+71:     dump('datasets/official_knowledge_documents.json',docs)
+72:     queries=[];counts=Counter();bad=[];mismatches=[];line_audit=[]
+73:     for line in (SRC/'llm_queries.json').open():
+74:         if not allowed(line):continue
+75:         j=json.loads(line);key=j['scenario']+('_'+j['variant'] if j['variant'] else '')+'-'+j['step'].split('_')[0]
+76:         if key not in labels:bad.append(key);continue
+77:         gold=list(labels[key]['metadata'])
+78:         if set(gold)!=set(j['ground_truth']):mismatches.append(key)
+79:         group=j['scenario']+'-'+j['step'];rep=counts[group];counts[group]+=1
+80:         raw_body=body(j['prompt']); cleaned_prompt=official_clean(j['prompt']);text=body(cleaned_prompt);clean=strict(text)
+81:         loglines=[x.strip() for x in text.splitlines() if x.startswith('        ')]
+82:         sources=[x.strip()[:-1] for x in text.splitlines() if x.startswith('    ') and not x.startswith('        ') and x.endswith(':')]
+83:         q={'sample_id':group+'-r'+str(rep),'scenario_id':j['scenario'],'variant_id':j['variant'],'simulation_id':j['scenario']+('_'+j['variant'] if j['variant'] else ''),'step_id':j['step'],'sampling_replica_id':rep,'log_source_ids':sources,'visible_log_content':text,'strict_log_content':clean,'log_line_count':len(loglines),'official_technique_labels':gold,'normalized_technique_labels':sorted({normalize_technique_id(x) for x in gold}),'tactic_labels':sorted({t for x in gold for t in matrix.get(x,{}).get('tactics',[])}),'attack_knowledge_version':'official-matrix-sha256:'+sha(SRC/'mitre_matrix.json'),'source_hash':hashlib.sha256(cleaned_prompt.encode()).hexdigest(),'raw_query_hash':hashlib.sha256(j['prompt'].encode()).hexdigest(),'label_source':key,'input_view':'official persisted query body; v1'}",COMPLETE_FOR_CHECKED_34_QUERY_IDS;raw logs not reread,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+PARENT_NORMALIZATION,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py,6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4,CURRENT_LOCAL_SHA256,8,12,[],"metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,"validated Txxxx(.xxx) → split(""."")[0]","8: ID = re.compile(r'T\d{4}(?:\.\d{3})?\Z')
+9: 
+10: def normalize_technique_id(value: object):
+11:     text = str(value).strip().upper()
+12:     return text.split('.')[0] if ID.fullmatch(text) else None",MATCHES51_CHECKED_ORIGINAL_LABEL_ASSIGNMENTS,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+AUTHOR_CANDIDATE_TITLE_GROUPING,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/benchmark/run_benchmark.py,1fb98f46fdc11b0ba01d63d08128ccd6e72d63a94e22cb4eb0f2197015969bf1,CURRENT_LOCAL_SHA256,66,71,"[""/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,691 matrix IDs →216parent IDs;append each name+tactics in matrix insertion order,"66:     matrix=json.loads((SRC/'mitre_matrix.json').read_text())
+67:     universe=sorted({normalize_technique_id(x) for x in matrix})
+68:     docs={key:[] for key in universe}
+69:     for key,v in matrix.items():docs[normalize_technique_id(key)].append(v['name']+' '+' '.join(v['tactics']))
+70:     docs={k:' '.join(v) for k,v in docs.items()}
+71:     dump('datasets/official_knowledge_documents.json',docs)",PURE_SELECTED_DOC_REPLAY_MATCHES_SAVED_OFFICIAL_DOCS,BOUNDED_PURE_EXPRESSION_CHECK,False,LEVEL_2_REPRODUCIBLE_TRANSFORMATION_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+DESCRIPTION_EXTENSION,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/benchmark/run_benchmark.py,1fb98f46fdc11b0ba01d63d08128ccd6e72d63a94e22cb4eb0f2197015969bf1,CURRENT_LOCAL_SHA256,161,174,"[""/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,iterate active STIXattack-patterns;normalize parent;append name+description in source order,"161:     # Frozen local description extension: candidate universe unchanged; no modern replacement of author knowledge.
+162:     stixpath=ROOT.parent/'provenance_baserepro_04/data/enterprise-attack-16.1.json.gz'
+163:     stix=json.load(gzip.open(stixpath,'rt'));extended=dict(docs);mapped=Counter();revoked=Counter()
+164:     for obj in stix['objects']:
+165:         if obj.get('type')!='attack-pattern':continue
+166:         ids=[x.get('external_id','') for x in obj.get('external_references',[]) if x.get('source_name')=='mitre-attack']
+167:         for key in ids:
+168:             parent=normalize_technique_id(key)
+169:             if parent not in extended:continue
+170:             if obj.get('revoked') or obj.get('x_mitre_deprecated'):
+171:                 revoked[parent]+=1;continue
+172:             extended[parent]+=' '+obj.get('name','')+' '+obj.get('description','');mapped[parent]+=1
+173:     dump('datasets/extended_knowledge_documents.json',extended)
+174:     dump('ATTACK_KNOWLEDGE_VERSION.json',{'official_commit':json.loads((SRC/'commit.json').read_text())['sha'],'official_matrix_sha256':sha(SRC/'mitre_matrix.json'),'raw_ids':len(matrix),'parent_candidates':len(universe),'official_release_version':'not encoded in matrix; cannot certify exact ATT&CK release','descriptions_in_official_matrix':False,'extension_source':str(stixpath),'extension_sha256':sha(stixpath),'extension_version':'16.1 (existing filename/provenance)','extended_parents':len(mapped),'no_extension_parents':sorted(set(universe)-set(mapped)),'extension_is_not_author_original_knowledge':True})",PURE_SELECTED_DOC_REPLAY_MATCHES_SAVED_FULL_K2;11TARGET_IDS_HAVE_NO_OBJECT,BOUNDED_PURE_EXPRESSION_CHECK,False,LEVEL_2_REPRODUCIBLE_TRANSFORMATION_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+P0_COPY,/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json,b5179799ba0adb5b37388bd3bac7c1a9b0311ded58857620f193a1e732890ff5,CURRENT_LOCAL_SHA256,NOT_AVAILABLE,NOT_AVAILABLE,"[""/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/extended_knowledge_documents.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,source→frozen_p0 copy,JSON copy receipt inspected;not executable code.,SAVED_JSON_EQUAL;manifest source/frozen hashes checked separately,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+BASELINE_K2_COPY,/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/prepare_inputs.py,1107e9906141230d257ba64d718bbda76774e4501e20640630176993cd6bbd14,CURRENT_LOCAL_SHA256,35,47,"[""/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/extended_knowledge_documents.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,K2 copies frozen extension;K3 separate no-title variant,"35:  matrix=json.loads((R.parent/'research3_attack_technique_benchmark01/official_sources/mitre_matrix.json').read_text());ids=sorted({k.split('.')[0] for k in matrix});K0={k:[] for k in ids};tactics={k:[] for k in ids}
+36:  for k,v in matrix.items():K0[k.split('.')[0]].append(v['name']);tactics[k.split('.')[0]].extend(v['tactics'])
+37:  K0={k:' '.join(v) for k,v in K0.items()};K1=json.loads((R/'frozen_p0/datasets/official_knowledge_documents.json').read_text());K2=json.loads((R/'frozen_p0/datasets/extended_knowledge_documents.json').read_text());K3={k:' '.join(tactics[k]) for k in ids};covered=set()
+38:  p=R.parent/'provenance_baserepro_04/data/enterprise-attack-16.1.json.gz';stix=json.load(gzip.open(p,'rt'))
+39:  for obj in stix['objects']:
+40:   if obj.get('type')!='attack-pattern' or obj.get('revoked') or obj.get('x_mitre_deprecated'):continue
+41:   for x in obj.get('external_references',[]):
+42:    if x.get('source_name')!='mitre-attack':continue
+43:    k=x.get('external_id','').split('.')[0]
+44:    if k in K3:K3[k]+=' '+obj.get('description','');covered.add(k)
+45:  for name,value in [('K0_NAMES_ONLY',K0),('K1_NAMES_AND_TACTICS',K1),('K2_DESCRIPTION_16_1',K2),('K3_DESCRIPTION_16_1_WITHOUT_TITLES',K3),('K4_COMMON_COVERAGE_203',{k:K2[k] for k in sorted(covered)})]:
+46:   (R/'knowledge'/(name+'.json')).write_text(json.dumps(value))
+47:  (R/'knowledge/COVERAGE.json').write_text(json.dumps({'full_candidates':ids,'covered':sorted(covered),'missing':sorted(set(ids)-covered),'version':'existing16.1','source':str(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()},indent=2))",K2_EQUALS_FULL_EXTENSION;no subtype priority/sorting introduced for K2,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+UTF8_PREFIX_CAP,/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/mechanism_ir/build_inputs.py,d533af5188a2faa5cf278ef43ae025fd387a44c93bb90d0f781b8c0c2a05f301,CURRENT_LOCAL_SHA256,7,34,"[""/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,"clip(text,1000)=text.encode()[:1000].decode(utf8,errors=ignore)","7: VIEWS=['RAW','LITERAL','LITERAL_PLUS_RELATIONS','RAW_PLUS_LITERAL','CLEAN_FIELDS','ROLE_LABELS_REMOVED','NO_RESULT','NO_ACTION_NORMALIZATION']
+8: CAP=2000;DOC_CAP=1000
+9: VERBS={'execute':r'\bexecut(?:e|es|ed|ing|ion)\b','read':r'\bread(?:s|ing)?\b','write':r'\bwrit(?:e|es|ing)|\bwritten\b','open':r'\bopen(?:s|ed|ing)?\b','connect':r'\bconnect(?:s|ed|ing|ion|ions)?\b','query':r'\bquer(?:y|ies|ied|ying)\b','modify':r'\bmodif(?:y|ies|ied|ying|ication)\b','create':r'\bcreat(?:e|es|ed|ing|ion)\b','delete':r'\bdelet(?:e|es|ed|ing|ion)\b','transfer':r'\btransfer(?:s|red|ring)?\b','encrypt':r'\bencrypt(?:s|ed|ing|ion)?\b','collect':r'\bcollect(?:s|ed|ing|ion)?\b','authenticate':r'\bauthenticat(?:e|es|ed|ing|ion)\b','hide':r'\bhide|\bhiding|\bhidden\b','set':r'\bset(?:s|ting)?\b','rename':r'\brenam(?:e|es|ed|ing)\b','bind':r'\bbind(?:s|ing)?\b'}
+10: OBJECTS=['file','process','account','credential','network','connection','domain','address','port','service','command','data','traffic','registry','memory','permission','directory','user']
+11: def clip(text:str,cap:int)->str:return text.encode()[:cap].decode('utf8',errors='ignore')
+12: def neutral_knowledge()->dict:
+13:  docs=json.loads((BASELINES/'knowledge/K2_DESCRIPTION_16_1.json').read_text());names=json.loads((BASELINES/'knowledge/K0_NAMES_ONLY.json').read_text());notitles=json.loads((BASELINES/'knowledge/K3_DESCRIPTION_16_1_WITHOUT_TITLES.json').read_text());cards=[];source_audit=[];texts={k:{} for k in ['K0_NAMES_ONLY','K2_DESCRIPTION_16_1','K3_WITHOUT_TITLES','MECHANISM_CARD','K2_PLUS_CARD']}
+14:  for tid,doc in sorted(docs.items()):
+15:   acts=[];objects=[]
+16:   for concept,pattern in VERBS.items():
+17:    match=re.search(pattern,doc,re.I)
+18:    if match:acts.append({'concept':concept,'literal':match.group(),'source_span':[match.start(),match.end()],'qualification':'DESCRIPTIVE_MENTION_NOT_UNIVERSAL_NECESSARY_CONDITION'})
+19:   for obj in OBJECTS:
+20:    match=re.search(r'\b'+obj+r's?\b',doc,re.I)
+21:    if match:objects.append({'concept':obj,'literal':match.group(),'source_span':[match.start(),match.end()],'qualification':'DESCRIPTIVE_MENTION_NOT_UNIVERSAL_NECESSARY_CONDITION'})
+22:   card={'technique_id':tid,'technique_name':names[tid],'mechanism_actions':acts,'mechanism_objects':objects,'state_requirements':[],'temporal_requirements':[],'result_requirements':[],'observable_indicators':[],'knowledge_source':[{'version':'ATTACK16.1_K2_frozen','source_file_sha256':sha256(BASELINES/'knowledge/K2_DESCRIPTION_16_1.json'),'document_sha256':h(doc)}],'knowledge_limitations':['NOT_A_COMPLETE_OR_NECESSARY_CONDITION_FORMALIZATION','KNOWLEDGE_COMPATIBLE_IS_NOT_OBSERVATION_SUPPORTED','NO_STEP_GOLD_USED','EMPTY_REQUIREMENTS_MEAN_NOT_FORMALIZED_NOT_UNNECESSARY']}
+23:   cards.append(card)
+24:   for kind,items in [('action',acts),('object',objects)]:
+25:    for item in items:source_audit.append({'technique_id':tid,'kind':kind,'concept':item['concept'],'literal':item['literal'],'source_char_start':item['source_span'][0],'source_char_end':item['source_span'][1],'source_document_sha256':h(doc),'condition_status':item['qualification']})
+26:   excerpts=[]
+27:   for item in acts[:4]:
+28:    a,b=item['source_span'];excerpts.append(doc[max(0,a-35):min(len(doc),b+110)])
+29:   cardtext=names[tid]+'\nKnowledge descriptive examples; requirements UNRESOLVED. actions='+','.join(x['concept'] for x in acts)+' objects='+','.join(x['concept'] for x in objects)+'\n'+' '.join(excerpts)
+30:   texts['K0_NAMES_ONLY'][tid]=clip(names[tid],DOC_CAP);texts['K2_DESCRIPTION_16_1'][tid]=clip(doc,DOC_CAP);texts['K3_WITHOUT_TITLES'][tid]=clip(notitles[tid],DOC_CAP);texts['MECHANISM_CARD'][tid]=clip(cardtext,DOC_CAP)
+31:   # Equal total cap, half allotted to each component; no new facts.
+32:   texts['K2_PLUS_CARD'][tid]=clip(doc,DOC_CAP//2)+'\n'+clip(cardtext,DOC_CAP//2-1)
+33:  jsonl('TECHNIQUE_MECHANISM_CARDS.jsonl',cards);csvout('MECHANISM_CARD_SOURCE_AUDIT.csv',source_audit);save('attack_knowledge/KNOWLEDGE_TEXTS.json',texts)
+34:  save('KNOWLEDGE_VERSION_MANIFEST.json',{'version':'ATTACK16.1','candidate_count':len(docs),'raw_coverage_inherited':json.loads((BASELINES/'knowledge/COVERAGE.json').read_text()),'knowledge_sources':[{'path':str(BASELINES/'knowledge'/n),'sha256':sha256(BASELINES/'knowledge'/n)} for n in ['K0_NAMES_ONLY.json','K2_DESCRIPTION_16_1.json','K3_DESCRIPTION_16_1_WITHOUT_TITLES.json']],'new_version_detection_strategies_added':False,'cards_are_generic_extracts_not_GT_rules':True,'doc_UTF8_byte_cap':DOC_CAP,'actual_model_tokens':'PENDING_TOKENIZER_ACCESS_NOT_A_BYTE_COUNT','neutral_concept_vocabulary':{'actions':VERBS,'objects':OBJECTS},'source_coverage_not_changed_by_discarding_candidates':True})",PURE_SELECTED_DOC_REPLAY_EXACT;T1574_TITLE_PREFIX_EXCLUDES_ALL_BEHAVIOR,BOUNDED_PURE_EXPRESSION_CHECK,False,LEVEL_2_REPRODUCIBLE_TRANSFORMATION_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+DOMAIN_KNOWLEDGE_COPY,/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/prepare_grouped_data.py,a58bfba5aa7e90d975a05c337c9ca255a3af34c2ad6ed9c44048688712bd724e,CURRENT_LOCAL_SHA256,29,59,"[""/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/attack_knowledge/KNOWLEDGE_TEXTS.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,copy K2 todata/KNOWLEDGE_K2;Goldparent normalization andretainraw_ground_truth,"29:  return re.sub(r'\b(?:pid|ppid)=\d+',lambda m:m.group().split('=')[0]+'=<PID>',s)
+30: refs=readl(REF);old=readl(OLDREF);inputs={x['sample_id']:x['views']['RAW'] for x in readl(INPUT)}
+31: assert len(refs)==len(inputs)==975
+32: assert {x['sample_id']:x['ground_truth'] for x in old}=={x['sample_id']:x['ground_truth'] for x in refs}
+33: candidates=sorted(json.loads(KNOWLEDGE.read_text())['K2_DESCRIPTION_16_1']);assert len(candidates)==216
+34: records=[];logic=defaultdict(list);templates=defaultdict(list);exact=defaultdict(list)
+35: for x in refs:
+36:  sid=x['sample_id'];lid=x['scenario_id']+'-'+x['step_id'];text=inputs[sid];gold=sorted({t.split('.')[0] for t in x['ground_truth']})
+37:  assert not (x['scenario_id']=='1' and x['step_id'] in ['35','36','37'])
+38:  assert not re.search(r'\bT\d{4}(?:\.\d{3})?\b',text)
+39:  assert set(gold)<=set(candidates)
+40:  row={'sample_id':sid,'logical_step_id':lid,'scenario_id':x['scenario_id'],'simulation_id':x['simulation_id'],'variant_id':x['variant_id'],'script_group_id':'SCENARIO_'+x['scenario_id']+'_CONSERVATIVE_PROXY','script_identity_status':'UNKNOWN_EXACT_SCRIPT','input_log_text':text,'gold_technique_ids':gold,'knowledge_version':'ATTACK_16_1','split_id':'UNASSIGNED','input_hash':sha(text.encode()),'upstream_reference_input_hash':x['input_hash'],'label_source':'AUTHOR_ASSIGNED_TECHNIQUE','sampling_replica_id':x['sampling_replica_id'],'logical_step_weight':0.2,'input_view':'FROZEN_MECHANISM_RAW_2000_UTF8_BYTES','development_status':'PUBLIC_EXPOSED_DEVELOPMENT'}
+41:  records.append(row);logic[lid].append(row);templates[sha(norm(text).encode())].append(row);exact[row['input_hash']].append(row)
+42: assert len(logic)==195 and all(len(x)==5 for x in logic.values())
+43: assert all(len({tuple(x['gold_technique_ids']) for x in rr})==1 for rr in logic.values())
+44: # Only full query equality after narrow recording-coordinate normalization is evidence.
+45: # No partial generic field overlap or technique label can connect steps.
+46: shared=[(h,x) for h,x in templates.items() if len({z['scenario_id'] for z in x})>1]
+47: parent={lid:lid for lid in logic}
+48: def find(x):
+49:  while parent[x]!=x:x=parent[x]
+50:  return x
+51: def union(a,b):parent[find(b)]=find(a)
+52: for h,rr in shared:
+53:  lids=sorted({z['logical_step_id'] for z in rr})
+54:  for l in lids[1:]:union(lids[0],l)
+55: component={l:find(l) for l in logic}
+56: jsonl(Path('data/P0_INPUTS.jsonl'),[{k:v for k,v in r.items() if k!='gold_technique_ids'} for r in records])
+57: jsonl(Path('data/P0_REFERENCE.jsonl'),[{'sample_id':r['sample_id'],'logical_step_id':r['logical_step_id'],'scenario_id':r['scenario_id'],'gold_technique_ids':r['gold_technique_ids'],'raw_ground_truth':refs[i]['ground_truth'],'label_source':r['label_source']} for i,r in enumerate(records)])
+58: save(Path('data/CANDIDATE_TECHNIQUE_IDS.json'),candidates)
+59: save(Path('data/KNOWLEDGE_K2.json'),json.loads(KNOWLEDGE.read_text())['K2_DESCRIPTION_16_1'])",ALL216_SAVED_DOCS_EQUAL;51GOLD_ID_CHAINS_CHECKED,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+AUDIT_CANDIDATE_PACKAGING,/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/prepare_competitors.py,e5033ad422d03e04efadf8b484a2d276aee22291b5405e5d330a9d358c5847cd,CURRENT_LOCAL_SHA256,12,38,"[""/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/KNOWLEDGE_K2.json""]","metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,selectedhistorical candidateid/description exactequality;seedshuffle,"12:  source=B/'research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_EVIDENCE_CARDS.jsonl'
+13:  rows=[json.loads(s) for s in source.read_text().splitlines()];frozen=json.loads((R/'inputs/FROZEN_CASE_MANIFEST.json').read_text())
+14:  assert [x['sample_id'] for x in rows]==[x['sample_id'] for x in frozen['cases']]
+15:  corpus=json.loads((B/'research3_domain_adaptive_contrastive_learning01/data/KNOWLEDGE_K2.json').read_text())
+16:  packets=[];defs={};sets=[]
+17:  for x in rows:
+18:   competitors=[]
+19:   for c in x['gte_top10']:
+20:    t=c['id'];d=c['description'];assert t in corpus and d==corpus[t]
+21:    assert t not in defs or defs[t]==d;defs[t]=d;competitors.append({'technique_id':t,'frozen_description':d,'description_sha256':hashlib.sha256(d.encode()).hexdigest()})
+22:   assert len({c['technique_id'] for c in competitors})==10
+23:   seed=int(hashlib.sha256(('DEA01|20261029|'+x['sample_id']).encode()).hexdigest()[:16],16)
+24:   competitors.sort(key=lambda c:c['technique_id']);random.Random(seed).shuffle(competitors)
+25:   gold=[c['id'] for c in x['unseen_gold']];ids=[c['technique_id'] for c in competitors]
+26:   assert not set(gold)&set(ids)
+27:   packets.append({'sample_id':x['sample_id'],'logical_step_id':x['logical_step_id'],'gold_technique_ids':gold,
+28:    'competitors_in_actual_review_order':competitors,'shuffle_seed':seed,'coordinator_independent':False,
+29:    'selection_bias':'model-selected candidate set remains biased even without rank/score display',
+30:    'candidate_scope':'Gold targets plus10 shuffled frozen historical candidates;subset of216',
+31:    'candidate_count_reviewed_planned':len(gold)+10,'all_216_reviewed':False,'unreviewed_candidate_count':216-len(gold)-10,
+32:    'blinding_status':'INDEPENDENT_BLIND_REVIEW_NOT_AVAILABLE'})
+33:   sets.append(tuple(sorted(ids)))
+34:  (R/'inputs/SHUFFLED_COMPETITOR_PACKETS.jsonl').write_text(''.join(json.dumps(p,ensure_ascii=False,separators=(',',':'))+'\n' for p in packets))
+35:  dump('inputs/COMPETITOR_FROZEN_DEFINITIONS.json',defs)
+36:  dump('audit/CANDIDATE_PACKAGING_RECEIPT.json',{'created_utc':datetime.now(timezone.utc).isoformat(),'first_pass_seal_sha256':sha(R/'audit/FIRST_PASS_SEAL.json'),
+37:   'first_pass_integrity_verified':True,'source_path':str(source),'source_sha256':sha(source),'packets':len(packets),'candidate_ids':len(defs),
+38:   'unique_candidate_sets':len(set(sets)),'rank_and_score_fields_emitted':False,'independent_coordinator':False,",384PACKETIDS_AND_DESCRIPTIONS_MATCH;no scoring/readjudication,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."
+AUDIT_GOLD_PACKAGING,/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/prepare_first_pass.py,748fdc316f911eb2899c1bcf8f386ac12b6fd732e27c5b7ab65c33a0b27f1193,CURRENT_LOCAL_SHA256,20,51,[],"metadata keys / name / tactics / STIX external_references,description;exact contract in excerpt",author raw IDs / grouped parent ID / serialized text as indicated,copy frozen target definitions andmanifest;no new Gold normalization,"20:  for i,x in enumerate(rows,1):
+21:   assert hashlib.sha256(x['frozen_input_text'].encode()).hexdigest()==x['input_view_hash']
+22:   assert not x['sample_id'].startswith(('1-35-','1-36-','1-37-')) and 'CONV-A01' not in x['sample_id']
+23:   assert [fm[f]['text'] for f in x['visible_fact_ids']]==x['frozen_input_text'].splitlines()
+24:   steps[x['logical_step_id']].append(x)
+25:   manifest.append({'ordinal':i,**{k:x[k] for k in ['sample_id','review_id','logical_step_id','scenario_id','execution_id','execution_id_mapping','view_id','fold_id','gold_technique_ids','input_view','input_view_hash','visible_fact_ids','visible_record_count','visible_record_count_unit','omitted_record_count','coverage_limitations']}})
+26:  for step,rr in steps.items():
+27:   pool={};texts=[]
+28:   for q in rr:
+29:    for fid in q['visible_fact_ids']:
+30:     t=fm[fid]['text']
+31:     if t not in pool:pool[t]=[];texts.append(t)
+32:     pool[t].append(fid)
+33:   aid.append({'step':step,'queries':[{'id':q['review_id'],'sample_id':q['sample_id'],'gold':q['gold_technique_ids']} for q in rr],
+34:               'lines':[{'union_line':i+1,'text':t,'occurrences':pool[t]} for i,t in enumerate(texts)]})
+35:  (R/'inputs/FIRST_PASS_INPUTS.jsonl').write_text(''.join(json.dumps(x,ensure_ascii=False,separators=(',',':'))+'\n' for x in rows))
+36:  (R/'inputs/VISIBLE_FACT_REGISTRY.jsonl').write_text(''.join(json.dumps(x,ensure_ascii=False,separators=(',',':'))+'\n' for x in facts))
+37:  dump('inputs/FROZEN_CASE_MANIFEST.json',{'source':str(paths[0]),'source_sha256':sha(paths[0]),'original_card_source':str(paths[3]),'original_card_sha256':sha(paths[3]),'unique_queries':384,'logical_steps':len(steps),'query_target_assignments':sum(len(x['gold_technique_ids']) for x in rows),'order':'EXACT_FROZEN_ORDER','cases':manifest})
+38:  dump('inputs/GOLD_FROZEN_DEFINITIONS.json',defs);dump('inputs/FIRST_PASS_READING_AID.json',aid)
+39:  dump('audit/FIRST_PASS_SOURCE_HASHES.json',[{'path':str(p.resolve()),'bytes':p.stat().st_size,'sha256':sha(p),'inspection':'whitelisted original log/definition/metadata only' if p!=paths[3] else 'hash only at first pass'} for p in paths])
+40:  print(json.dumps({'queries':len(rows),'steps':len(steps),'Gold_definitions':len(defs),'visible_line_instances':len(facts),'reading_aid_lines':sum(len(a['lines']) for a in aid),'prediction_payload_read':False}))
+41: if __name__=='__main__':main()",PREVIOUS60DELIVERY_HASHES_MATCH;selectedGoldtext equalsdomainK2,STATIC_INSPECTION_AND_EXISTING_ARTIFACT_EQUALITY,False,LEVEL_1_DIRECT_SOURCE_PROOF,author matrix upstream extraction/release not supplied;does not invalidate checked local conversion equality,"Proof is local saved input→output correspondence,not full original data authenticity or causal performance impact."

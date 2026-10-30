@@ -1,0 +1,103 @@
+{
+  "task": "R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01",
+  "authorized": true,
+  "status": "AUTHORIZED_SERVER_ONLY_DOWNLOAD_AND_STATIC_PREPARATION",
+  "dataset_id": "cc9b25e1-efc9-11eb-926b-550bf0943fbb",
+  "repository": "splunk/attack_data",
+  "commit": "671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+  "files": [
+    {
+      "name": "windows-sysmon.log",
+      "repository_path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log",
+      "bytes": 12883992,
+      "sha256": "ee1c7cd9fa20013c82da17f8cb1998197c117ab4c209ab56203290bc90739fda",
+      "git_blob_pointer_sha1": "0cf6c0ab5d3158b89a01158b5728c64cd9aacfce",
+      "metadata_url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log",
+      "download_url": "https://media.githubusercontent.com/media/splunk/attack_data/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log",
+      "local_destination": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset/raw/windows-sysmon.log"
+    },
+    {
+      "name": "4688_windows-security.log",
+      "repository_path": "datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log",
+      "bytes": 11176,
+      "sha256": "81e1d4e381f4dc38b97c48f9fa5b0ab0b098810c321b7d4599029a9f22530259",
+      "git_blob_pointer_sha1": "fa6801c55f7e7f0f82551914332e9773738b2ded",
+      "metadata_url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log",
+      "download_url": "https://media.githubusercontent.com/media/splunk/attack_data/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log",
+      "local_destination": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset/raw/4688_windows-security.log"
+    },
+    {
+      "name": "crowdstrike_falcon.log",
+      "repository_path": "datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log",
+      "bytes": 10681,
+      "sha256": "c4275ab0ef976b0d00ba7840031a06d9f47d1beeaf4c3056d2fc7bb8fe08b38a",
+      "git_blob_pointer_sha1": "7b8073d9297e325fd1998950d819958de0a6a59c",
+      "metadata_url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log",
+      "download_url": "https://media.githubusercontent.com/media/splunk/attack_data/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log",
+      "local_destination": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset/raw/crowdstrike_falcon.log"
+    }
+  ],
+  "total_payload_bytes": 12905849,
+  "maximum_bags": 1,
+  "label_unit": "DATASET_LEVEL_BAG",
+  "declared_subtechniques": [
+    "T1003.003"
+  ],
+  "parent_techniques": [
+    "T1003"
+  ],
+  "license": "Apache-2.0",
+  "license_sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a",
+  "license_url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/LICENSE",
+  "allowed_action_if_approved": "Download exactly three fixed public LFS objects on user-specified server under ATT; verify bytes/hash; static Bag parsing and annotation stripping; retrieve only provenance/statistics, not raw logs.",
+  "not_included": [
+    "GPU or server operation",
+    "new model downloads",
+    "new training",
+    "LLM calls",
+    "upload of raw logs or Gold",
+    "repository clone",
+    "other logs or archives"
+  ],
+  "qualification_now": "E0_METADATA_VERIFIED_BEFORE_SERVER_ACQUISITION",
+  "qualification_after_download": "Conditional E1 feasibility; E2 not promised",
+  "payload_endpoints_tested": false,
+  "payload_endpoint_note": "Fixed-commit GitHub media URL constructed from verified path; actual availability and payload hashes checked only after explicit authorization.",
+  "metadata_files": [
+    {
+      "path": "external_dataset/metadata/4688_windows-security.lfs",
+      "bytes": 130,
+      "sha256": "06126201367df42134ac4dffce205b7b6f00dfdcb34a98f9ba71ed0da16a6c47"
+    },
+    {
+      "path": "external_dataset/metadata/LICENSE",
+      "bytes": 11344,
+      "sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a"
+    },
+    {
+      "path": "external_dataset/metadata/SOURCE_RECEIPTS.json",
+      "bytes": 89441,
+      "sha256": "42b93945e9066ef047fcbbb22f1bd620de15f7e9ffafb349946003bb93aded6d"
+    },
+    {
+      "path": "external_dataset/metadata/atomic_red_team.yml",
+      "bytes": 1259,
+      "sha256": "eebac0c9661cabf3b1bf36f200880516e19db43a1c3680ef17e6db43c78ac4f8"
+    },
+    {
+      "path": "external_dataset/metadata/crowdstrike_falcon.lfs",
+      "bytes": 130,
+      "sha256": "024996eeb06a5a3943a5564b6505b48dc64097a916df49c5c865199cd22d6a80"
+    },
+    {
+      "path": "external_dataset/metadata/windows-sysmon.lfs",
+      "bytes": 133,
+      "sha256": "1002df7512e9df20132bde0ca5b526ae863cf19a81b2f913e9a522d569f305de"
+    }
+  ],
+  "authorization_user_reply": "保存在服务器上，/home/tianxiaodan/code/ATT/，本地没路径",
+  "host": "10.109.119.118",
+  "account": "tianxiaodan",
+  "server_root": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset",
+  "raw_storage_policy": "SERVER_ONLY_NO_LOCAL_RAW_COPY"
+}

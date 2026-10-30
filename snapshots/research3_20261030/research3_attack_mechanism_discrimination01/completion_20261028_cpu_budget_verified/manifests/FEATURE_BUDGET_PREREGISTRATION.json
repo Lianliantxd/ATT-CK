@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-27T16:38:47.181218+00:00",
+  "input_scope": "same existing common P0 native fragments; further shared-prefix reduction only",
+  "algorithms": [
+    "CHAR",
+    "BM25"
+  ],
+  "views": [
+    "RAW",
+    "LITERAL",
+    "LITERAL_PLUS_RELATIONS",
+    "RAW_PLUS_LITERAL"
+  ],
+  "knowledge": [
+    "K0_NAMES_ONLY",
+    "K2_DESCRIPTION_16_1",
+    "K3_WITHOUT_TITLES",
+    "MECHANISM_CARD",
+    "K2_PLUS_CARD"
+  ],
+  "log_caps": {
+    "actual_character_ngram_occurrences_3_4_5": 2048,
+    "actual_BM25_word_tokens": 256
+  },
+  "document_caps": {
+    "actual_character_ngram_occurrences_3_4_5": 1024,
+    "actual_BM25_word_tokens": 128
+  },
+  "same_common_observations_across_all_views": true,
+  "new_GTE_token_lengths": "NOT_MEASURED; feature units are not GTE tokens",
+  "selection": "deterministic maximum feasible native prefix, no Gold or score input",
+  "no_tuning": true,
+  "knowledge_version": "frozen16.1 with216-candidate policy, all13 fallback retained",
+  "claim_limit": "CPU fairness sensitivity only, not neural mechanism effect or independent generalization"
+}

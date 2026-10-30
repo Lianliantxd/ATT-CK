@@ -1,0 +1,8 @@
+fold_id,unseen_query_count,gte_miss,within_unseen_order_gt10,cross_group_block_only_candidate,gte_hit_c4_lost,c4_mixed_seen_hit_unseen_miss
+fold_heldout_1,95,87,76,11,6,33
+fold_heldout_2,50,50,48,2,0,0
+fold_heldout_3,90,73,68,5,12,20
+fold_heldout_4,25,20,20,0,0,0
+fold_heldout_5,10,10,10,0,0,0
+fold_heldout_6,150,119,102,17,14,29
+fold_heldout_7,30,25,25,0,0,0

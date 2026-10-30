@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CANDIDATE_COVERAGE_AUDIT.csv",
+    "match": true
+  },
+  {
+    "path": "KNOWLEDGE_DIFF.csv",
+    "match": true
+  },
+  {
+    "path": "KNOWLEDGE_REPAIR_REPORT.md",
+    "match": true
+  },
+  {
+    "path": "MISSING_SOURCE_REQUIREMENTS.csv",
+    "match": true
+  },
+  {
+    "path": "PARENT_CHILD_MAPPING.csv",
+    "match": true
+  },
+  {
+    "path": "RUN_MANIFEST.json",
+    "match": true
+  },
+  {
+    "path": "SOURCE_RECOVERY_REQUIREMENTS.md",
+    "match": true
+  },
+  {
+    "path": "TEXT_BUDGET_AUDIT.csv",
+    "match": true
+  },
+  {
+    "path": "audit/INPUT_HASH_SNAPSHOT.json",
+    "match": true
+  },
+  {
+    "path": "audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+    "match": true
+  },
+  {
+    "path": "audit/VALIDATION_CHECKS.json",
+    "match": true
+  },
+  {
+    "path": "code/build_knowledge.py",
+    "match": true
+  },
+  {
+    "path": "code/validate_and_seal.py",
+    "match": true
+  },
+  {
+    "path": "code/write_report.py",
+    "match": true
+  },
+  {
+    "path": "knowledge/KNOWLEDGE_V1.json",
+    "match": true
+  },
+  {
+    "path": "knowledge/PARENT_FIRST_1000B_DIAGNOSTIC.json",
+    "match": true
+  },
+  {
+    "path": "knowledge/PARENT_ONLY_FULL.json",
+    "match": true
+  },
+  {
+    "path": "protocol/KNOWLEDGE_VERSION_CONTRACT.md",
+    "match": true
+  },
+  {
+    "path": "results/FINAL_VALIDATION.json",
+    "match": true
+  },
+  {
+    "path": "results/REPAIR_COUNTS.json",
+    "match": true
+  }
+]

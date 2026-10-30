@@ -1,0 +1,6 @@
+#!/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion/bin/python3.14
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

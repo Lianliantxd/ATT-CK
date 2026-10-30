@@ -1,0 +1,21 @@
+{
+  "archive": "/Users/tianxd/Documents/mid-term/rp3_existing_data/cam_lds_zenodo_v2/manifestations_filtered.zip",
+  "sha256": "ba824f500af6d64925792d6a693e54afb761d1cfb5fe515efb2206035772bade",
+  "total_members": 42596,
+  "allowlisted_member_count": 1136,
+  "allowlisted_bytes": 200542770,
+  "excluded_counts": {
+    "DIRECTORY": 25354,
+    "NOT_STEP_LOG": 12498,
+    "OUTSIDE_FROZEN_P0_EXECUTION_STEP_PAIRS": 2308,
+    "ATTACKER_CONTROL_MATERIAL": 1227,
+    "CONV_A01_NOT_AUTHORIZED": 72,
+    "CONTROL_OR_COLLECTD": 1
+  },
+  "body_reads_at_audit": 0,
+  "rule": "exact P0 execution-step pairs; scenario1 steps35,36,37 denied before body reads",
+  "limits": {
+    "member_bytes": 33554432,
+    "compression_ratio": 1000
+  }
+}

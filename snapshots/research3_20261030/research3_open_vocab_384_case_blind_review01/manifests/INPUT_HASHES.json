@@ -1,0 +1,56 @@
+[
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_EVIDENCE_CARDS.jsonl",
+    "bytes": 4198583,
+    "sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80",
+    "content_use": "whitelist extraction only; excluded prediction fields not emitted"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv",
+    "bytes": 3382935,
+    "sha256": "6847ea8d45d888194c444f9940ab21f41dcd49fc58151d4c42a20c95ed4daa1a",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_GOLD_DIAGNOSTICS.csv",
+    "bytes": 3018911,
+    "sha256": "dd3d702b1926773395889e4e0f6698af3d5372ab0f916c1e1a630ecd4f109b73",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/CANDIDATE_COMPARISON.csv.gz",
+    "bytes": 64934597,
+    "sha256": "3f818ac88c38f8ec908a4733ddbaff77c87ef65b6848b55f469479e76fd6644d",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/QUERY_DIAGNOSTICS.csv",
+    "bytes": 2482526,
+    "sha256": "2a3c756c7c799703f0bdfe47016d1156065810b44ccd28beeedc7a88d326018d",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/DIAGNOSTIC_PROTOCOL.json",
+    "bytes": 2482,
+    "sha256": "23a828d8408a9c53ccee8db44fec08d902c8afa9792ad54567caecdaf669b2e1",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/FINAL_VALIDATION.json",
+    "bytes": 1644,
+    "sha256": "37f2c00997dea78cccafa4b05064ffb0884efce7b0e04e9e2788b4e1a3f6dc8a",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/manifests/DELIVERY_SHA256.json",
+    "bytes": 9679,
+    "sha256": "aad9f0b978c37b74bdacc9fae2060b7dd83746d3a87c68fedd965af82a5f158f",
+    "content_use": "hash/existence only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/manifests/DELIVERY_SHA256.json",
+    "bytes": 36760,
+    "sha256": "fbb8d5879d04395f090315e0c037febf2bb096851e393ab88ce9c8ef90ec4df2",
+    "content_use": "hash/existence only"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "assets_checked": 507,
+  "missing_assets": [],
+  "hash_mismatches": [
+    {
+      "artifact_id": "ASSET_0025",
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+      "exists": true,
+      "sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+      "bytes": 33327,
+      "version": "FROZEN_HISTORICAL_ASSET",
+      "role": "legacy delivery member",
+      "content_inspection": "HASH_ONLY",
+      "qualification": "VERSION_DRIFT_BLOCKER_DO_NOT_REPAIR",
+      "limitations": "historical/development asset; a valid hash does not establish semantic truth or independent testing",
+      "expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+      "legacy_hash_status": "MISMATCH"
+    }
+  ],
+  "score_matrix_files": 42,
+  "referenced_source_checkpoints_hash_only": 126,
+  "checkpoint_deserialization_or_execution": false,
+  "candidate_count": 216,
+  "prediction_export_schema_invalid_rows": 0,
+  "new_historical_metrics_recomputed": false,
+  "baseline_audit_rows": 128,
+  "case_counts": {
+    "original_queries": 384,
+    "unique_queries": 384,
+    "logical_steps": 80,
+    "unique_visible_text_hashes": 145,
+    "query_target_Gold_assignments": 520,
+    "inherited_condition_records": 2618,
+    "AI_flag_related_direct_or_partial_queries": 126,
+    "AI_flag_any_direct_queries": 31,
+    "AI_flag_any_partial_queries": 95,
+    "independently_confirmed_relevant_behavior_queries": "NOT_AVAILABLE",
+    "queries_with_qualified_candidate_distinction": "NOT_AVAILABLE",
+    "human_adjudication_required": 384,
+    "currently_ineligible_for_confirmatory_primary_metric": 384,
+    "documented_qualified_independent_reference_records_in_checked_assets": 0,
+    "actual_queries_with_qualified_independent_reference": "NOT_AVAILABLE",
+    "documented_qualified_independent_test_queries_in_checked_assets": 0,
+    "actual_queries_with_independent_test_qualification": "NOT_AVAILABLE",
+    "primary_blocker_counts_exclusive": {
+      "OBSERVATION_INSUFFICIENT": 152,
+      "REFERENCE_MISSING": 198,
+      "LABEL_SCOPE_UNRESOLVED": 34
+    },
+    "qualification_state_counts_nonexclusive": {
+      "CANDIDATE_FOR_HUMAN_ADJUDICATION": 384,
+      "REFERENCE_MISSING": 384,
+      "NOT_ELIGIBLE_FOR_CURRENT_HYPOTHESIS": 384,
+      "OBSERVATION_INSUFFICIENT": 152,
+      "LABEL_SCOPE_UNRESOLVED": 34
+    },
+    "previous_30_case_human_queue_status_counts": {
+      "PENDING": 30
+    },
+    "unit_warning": "query,logical step,author label assignment and AI condition are not interchangeable;AI clues not qualified Gold or correct predictions"
+  },
+  "input_parity": {
+    "query_id_sets_equal": true,
+    "query_count_GTE": 975,
+    "query_count_lexical": 975,
+    "candidate_ids_equal": true,
+    "identical_query_texts": 30,
+    "identical_knowledge_documents": 41,
+    "GTE_query_total_UTF8_bytes": 713884,
+    "lexical_query_total_UTF8_bytes": 4896879,
+    "GTE_query_max_UTF8_bytes": 1580,
+    "lexical_query_max_UTF8_bytes": 27589,
+    "GTE_knowledge_total_UTF8_bytes": 195213,
+    "lexical_knowledge_total_UTF8_bytes": 943088,
+    "labels_equal_after_parent_normalization": 975,
+    "comparison_status": "HISTORICAL_INPUT_BUDGET_PARITY_NOT_ESTABLISHED_NO_REINFERENCE",
+    "payload_policy": "compared already-authorized frozen strings; no new semantic review or source expansion"
+  }
+}

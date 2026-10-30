@@ -1,0 +1,197 @@
+{
+  "audit_date": "2026-10-27",
+  "scope": "local known caches and runtimes; no research logs or server access",
+  "authorization": {
+    "NEW_EXTERNAL_LLM_CALLS": 0,
+    "NEW_MODEL_WEIGHT_DOWNLOADS": "NOT_AUTHORIZED",
+    "UNAPPROVED_GPU_EXPERIMENTS": "NOT_AUTHORIZED",
+    "actual_gpu_inference_calls": 0
+  },
+  "python": {
+    "executable": "/Users/tianxd/opt/miniconda3/bin/python3",
+    "version": "3.8.13 (default, Mar 28 2022, 06:16:26) \n[Clang 12.0.0 ]",
+    "process_machine": "x86_64"
+  },
+  "disk_bytes": {
+    "total": 494384795648,
+    "used": 491283116032,
+    "free": 3101679616
+  },
+  "packages": {
+    "torch": null,
+    "transformers": null,
+    "sentence-transformers": null,
+    "FlagEmbedding": null,
+    "huggingface-hub": null,
+    "tokenizers": null,
+    "safetensors": null,
+    "mlx": null,
+    "mlx-lm": null,
+    "llama-cpp-python": null,
+    "onnxruntime": null,
+    "numpy": "1.24.4",
+    "scikit-learn": null
+  },
+  "bounded_system_probes": {
+    "hardware": {
+      "value": {
+        "chip_type": "Unknown",
+        "machine_model": "Mac15,12",
+        "physical_memory": "24 GB",
+        "number_processors": "proc 8:4:4"
+      },
+      "stderr": "",
+      "code": 0
+    },
+    "displays": {
+      "value": "{\n  \"SPDisplaysDataType\" : [\n    {\n      \"_name\" : \"Apple M3\",\n      \"spdisplays_metal\" : \"spdisplays_supported\",\n      \"spdisplays_vendor\" : \"sppci_vendor_Apple\",\n      \"sppci_bus\" : \"spdisplays_builtin\",\n      \"sppci_cores\" : \"10\",\n      \"sppci_device_type\" : \"spdisplays_gpu\",\n      \"sppci_model\" : \"Apple M3\"\n    }\n  ]\n}",
+      "stderr": "",
+      "code": 0
+    },
+    "memory": {
+      "value": "",
+      "stderr": "sysctl: sysctl fmt -1 1024 1: Operation not permitted",
+      "code": 1
+    },
+    "processes": {
+      "error": "[Errno 1] Operation not permitted: '/bin/ps'"
+    },
+    "listeners": {
+      "value": "Ollama    37120 tianxd    5u  IPv4 0xeb76f17d35e95d4f      0t0  TCP 127.0.0.1:65228 (LISTEN)\nollama    37135 tianxd    3u  IPv4 0x9c4737d78acf5cc7      0t0  TCP 127.0.0.1:11434 (LISTEN)",
+      "stderr": "",
+      "code": 0
+    }
+  },
+  "gguf_header": {
+    "magic": "GGUF",
+    "version": 3,
+    "tensors": 339,
+    "numkv": 26,
+    "metadata": {
+      "general.architecture": "qwen2",
+      "general.type": "model",
+      "general.name": "DeepSeek R1 Distill Qwen 1.5B",
+      "general.basename": "DeepSeek-R1-Distill-Qwen",
+      "general.size_label": "1.5B",
+      "qwen2.block_count": 28,
+      "qwen2.context_length": 131072,
+      "qwen2.embedding_length": 1536,
+      "qwen2.feed_forward_length": 8960,
+      "qwen2.attention.head_count": 12,
+      "qwen2.attention.head_count_kv": 2,
+      "qwen2.rope.freq_base": 10000.0,
+      "qwen2.attention.layer_norm_rms_epsilon": 9.999999974752427e-07,
+      "general.file_type": 15,
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "qwen2",
+      "tokenizer.ggml.tokens": {
+        "element_type": 8,
+        "count": 151936,
+        "values": "NOT_RETAINED"
+      },
+      "tokenizer.ggml.token_type": {
+        "element_type": 5,
+        "count": 151936,
+        "values": "NOT_RETAINED"
+      },
+      "tokenizer.ggml.merges": {
+        "element_type": 8,
+        "count": 151387,
+        "values": "NOT_RETAINED"
+      },
+      "tokenizer.ggml.bos_token_id": 151646,
+      "tokenizer.ggml.eos_token_id": 151643,
+      "tokenizer.ggml.padding_token_id": 151643,
+      "tokenizer.ggml.add_bos_token": true,
+      "tokenizer.ggml.add_eos_token": false,
+      "tokenizer.chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% set ns = namespace(is_first=false, is_tool=false, is_output_first=true, system_prompt='') %}{%- for message in messages %}{%- if message['role'] == 'system' %}{% set ns.system_prompt = message['content'] %}{%- endif %}{%- endfor %}{{bos_token}}{{ns.system_prompt}}{%- for message in messages %}{%- if message['role'] == 'user' %}{%- set ns.is_tool = false -%}{{'<｜User｜>' + message['content']}}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is none %}{%- set ns.is_tool = false -%}{%- for tool in message['tool_calls']%}{%- if not ns.is_first %}{{'<｜Assistant｜><｜tool▁calls▁begin｜><｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{%- set ns.is_first = true -%}{%- else %}{{'\\n' + '<｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{{'<｜tool▁calls▁end｜><｜end▁of▁sentence｜>'}}{%- endif %}{%- endfor %}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is not none %}{%- if ns.is_tool %}{{'<｜tool▁outputs▁end｜>' + message['content'] + '<｜end▁of▁sentence｜>'}}{%- set ns.is_tool = false -%}{%- else %}{% set content = message['content'] %}{% if '</think>' in content %}{% set content = content.split('</think>')[-1] %}{% endif %}{{'<｜Assistant｜>' + content + '<｜end▁of▁sentence｜>'}}{%- endif %}{%- endif %}{%- if message['role'] == 'tool' %}{%- set ns.is_tool = true -%}{%- if ns.is_output_first %}{{'<｜tool▁outputs▁begin｜><｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- set ns.is_output_first = false %}{%- else %}{{'\\n<｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- endif %}{%- endif %}{%- endfor -%}{% if ns.is_tool %}{{'<｜tool▁outputs▁end｜>'}}{% endif %}{% if add_generation_prompt and not ns.is_tool %}{{'<｜Assistant｜>'}}{% endif %}",
+      "general.quantization_version": 2
+    },
+    "header_metadata_end": 5930940
+  },
+  "binaries": {
+    "ollama": "/usr/local/bin/ollama",
+    "llama-cli": null,
+    "llama-server": null,
+    "lms": null
+  },
+  "runtime_status": "LOCAL_CPU_LLM_RESEARCH_EXECUTED_V1_WITH_INVALID_AGENT_PROTOCOL_V2_CACHE_ONLY_PARTIAL",
+  "model_metrics": "Real local CPU V1 inference occurred; valid V2 subset reuses exact nonadaptive cache only; metric qualification and denominators maintained in evaluation reports, no standalone asset-audit accuracy",
+  "evidence_file": "manifests/MODEL_AUDIT_EVIDENCE.json",
+  "environments_created_by_asset_auditor": [],
+  "missing_neural_candidates": "No complete local candidate embedding or reranker in inventoried caches",
+  "local_llm_asset": "deepseek-r1:1.5b Q4_K_M verified manifest/blob; deepseek-r1:7b filename/size inventory only",
+  "runtime": {
+    "ollama_version": "0.35.1",
+    "python_environment": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/venvs/DeepSeek-R1-1.5B-OllamaCPU",
+    "client_dependencies": "Python standard-library urllib; no external model API",
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_gpu": 0,
+      "num_thread": 2,
+      "num_ctx": 8192,
+      "num_predict": 512,
+      "repeat_penalty": 1.05
+    },
+    "preflight": {
+      "classification": "SYNTHETIC_INTERFACE_TEST_NOT_RESEARCH_RESULT",
+      "path": "experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH.json",
+      "device_path": "experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH_devices.json",
+      "wall_seconds": 4.15150904096663,
+      "prompt_eval_count": 32,
+      "eval_count": 22,
+      "json_exact_expected": true,
+      "think_request": false,
+      "response_thinking": null,
+      "size_vram_bytes": 0
+    },
+    "research_metrics": "N/A in asset audit; pilot actual metrics maintained separately by root",
+    "parameter_count": 1777088000,
+    "metadata_source": "manifests/OLLAMA_RUNTIME_METADATA.json",
+    "research_inference_audit": {
+      "research_native_response_count": 54,
+      "research_native_prompt_tokens_known": 130642,
+      "research_native_output_tokens_known": 8265,
+      "research_native_wall_seconds_known": 1999.4604757130146,
+      "all_native_cpu_verified": true,
+      "native_cpu_verified_count": 54,
+      "original_start_unix": 1793082761.3019636,
+      "interrupt": {
+        "own_process_id": 65731,
+        "reason": "Correct omitted knowledge results and full budget/cost accounting; no label driven parameter change",
+        "time_unix": 1793084793.2122822,
+        "interrupted_request_count_upper_bound": 1,
+        "interrupted_tokens": "unknown unless native receipt exists; not fabricated",
+        "V1_qualification": "adaptive conditions INVALID_TOOL_RESULT_FORWARDING; nonadaptive can reuse identical prompts only"
+      },
+      "v2_summary": {
+        "protocol_version": "V2_TOOL_FEEDBACK_REPAIR",
+        "planned_conditions": 35,
+        "recorded_conditions": 35,
+        "completed_conditions": 5,
+        "failed_conditions": 3,
+        "not_executed_budget_conditions": 27,
+        "incomplete_budget_conditions": 0,
+        "interrupted_conditions": 0,
+        "cache_reused_conditions": 8,
+        "new_model_attempts": 0,
+        "total_attempt_upper_bound": 55,
+        "remaining_original_wall_seconds": 0.0,
+        "actual_elapsed_from_original_start_seconds": 4222.931197404861,
+        "local_only": true,
+        "new_external_calls": 0,
+        "num_gpu": 0,
+        "cpu_num_threads": 2
+      },
+      "research_model_attempt_upper_bound": 55,
+      "interrupted_prompt_tokens": null,
+      "interrupted_output_tokens": null,
+      "interrupted_wall_seconds": null,
+      "interrupted_cost": "UNKNOWN_NOT_ZERO",
+      "preflight_excluded_from_research_counts": true,
+      "v1_adaptive_qualification": "INVALID_TOOL_RESULT_FORWARDING",
+      "v2_new_model_attempts": 0
+    }
+  }
+}

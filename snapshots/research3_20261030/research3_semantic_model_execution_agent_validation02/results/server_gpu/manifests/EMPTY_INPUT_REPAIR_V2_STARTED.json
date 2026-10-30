@@ -1,0 +1,10 @@
+{
+  "time_unix": 1793108188.6773102,
+  "wrapper_sha256": "1d39c1fe850e4a9432594507e4b255b9342ae53abaf019330b5683883afdeb3b",
+  "base_runner_sha256": "44dc66b342be78d99a59428c836269ce4876094b9d1c55e6819f62debf7fde94",
+  "reason": "empty input variants despite nonempty source; repair selection without Gold",
+  "only_empty_variants_change": true,
+  "not_selected_by_metric": true,
+  "one_bounded_full_rerun": true,
+  "same_models_candidates_budgets_and_evaluator": true
+}

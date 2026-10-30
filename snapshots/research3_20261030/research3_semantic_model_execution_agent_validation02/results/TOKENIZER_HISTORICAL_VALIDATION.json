@@ -1,0 +1,326 @@
+[
+  {
+    "record": "PILOT_0000_ADAPTIVE_AGENT_M_final.json",
+    "reconstructed_input_tokens": 2547,
+    "API_prompt_eval_count": 2547,
+    "API_cached": 2545,
+    "context_tokens": 2670,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_ADAPTIVE_AGENT_S_final.json",
+    "reconstructed_input_tokens": 2547,
+    "API_prompt_eval_count": 2547,
+    "API_cached": 2545,
+    "context_tokens": 2670,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_DIRECT216_final.json",
+    "reconstructed_input_tokens": 1849,
+    "API_prompt_eval_count": 1849,
+    "API_cached": 0,
+    "context_tokens": 2057,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_FIXED_QUERY_S_final.json",
+    "reconstructed_input_tokens": 5271,
+    "API_prompt_eval_count": 5270,
+    "API_cached": 2547,
+    "context_tokens": 5473,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0000_KNOWLEDGE20_final.json",
+    "reconstructed_input_tokens": 2547,
+    "API_prompt_eval_count": 2547,
+    "API_cached": 1162,
+    "context_tokens": 2668,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_RETRIEVAL100_final.json",
+    "reconstructed_input_tokens": 2447,
+    "API_prompt_eval_count": 2447,
+    "API_cached": 331,
+    "context_tokens": 2660,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_RETRIEVAL20_final.json",
+    "reconstructed_input_tokens": 1567,
+    "API_prompt_eval_count": 1567,
+    "API_cached": 83,
+    "context_tokens": 1774,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_RETRIEVAL50_final.json",
+    "reconstructed_input_tokens": 1889,
+    "API_prompt_eval_count": 1889,
+    "API_cached": 181,
+    "context_tokens": 2074,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_STATIC_EVIDENCE_M_final.json",
+    "reconstructed_input_tokens": 4546,
+    "API_prompt_eval_count": 4546,
+    "API_cached": 2545,
+    "context_tokens": 4766,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0000_STATIC_EVIDENCE_S_final.json",
+    "reconstructed_input_tokens": 4546,
+    "API_prompt_eval_count": 4546,
+    "API_cached": 2545,
+    "context_tokens": 4766,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0001_ADAPTIVE_AGENT_M_final.json",
+    "reconstructed_input_tokens": 3396,
+    "API_prompt_eval_count": 3396,
+    "API_cached": 2473,
+    "context_tokens": 3602,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0001_ADAPTIVE_AGENT_S_final.json",
+    "reconstructed_input_tokens": 3396,
+    "API_prompt_eval_count": 3396,
+    "API_cached": 2476,
+    "context_tokens": 3603,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0001_DIRECT216_final.json",
+    "reconstructed_input_tokens": 1770,
+    "API_prompt_eval_count": 1769,
+    "API_cached": 1162,
+    "context_tokens": 1975,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0001_FIXED_QUERY_S_final.json",
+    "reconstructed_input_tokens": 3024,
+    "API_prompt_eval_count": 3024,
+    "API_cached": 2476,
+    "context_tokens": 3236,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0001_KNOWLEDGE20_final.json",
+    "reconstructed_input_tokens": 2475,
+    "API_prompt_eval_count": 2474,
+    "API_cached": 1162,
+    "context_tokens": 2678,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0001_RETRIEVAL100_final.json",
+    "reconstructed_input_tokens": 2378,
+    "API_prompt_eval_count": 2377,
+    "API_cached": 331,
+    "context_tokens": 2577,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0001_RETRIEVAL20_final.json",
+    "reconstructed_input_tokens": 1495,
+    "API_prompt_eval_count": 1494,
+    "API_cached": 83,
+    "context_tokens": 1677,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0001_RETRIEVAL50_final.json",
+    "reconstructed_input_tokens": 1805,
+    "API_prompt_eval_count": 1804,
+    "API_cached": 181,
+    "context_tokens": 1988,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0001_STATIC_EVIDENCE_M_final.json",
+    "reconstructed_input_tokens": 4100,
+    "API_prompt_eval_count": 4099,
+    "API_cached": 2473,
+    "context_tokens": 4346,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0001_STATIC_EVIDENCE_S_final.json",
+    "reconstructed_input_tokens": 4091,
+    "API_prompt_eval_count": 4091,
+    "API_cached": 2473,
+    "context_tokens": 4299,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_ADAPTIVE_AGENT_M_final.json",
+    "reconstructed_input_tokens": 2329,
+    "API_prompt_eval_count": 2329,
+    "API_cached": 2328,
+    "context_tokens": 2549,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_ADAPTIVE_AGENT_S_final.json",
+    "reconstructed_input_tokens": 2329,
+    "API_prompt_eval_count": 2329,
+    "API_cached": 2327,
+    "context_tokens": 2553,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_DIRECT216_final.json",
+    "reconstructed_input_tokens": 1669,
+    "API_prompt_eval_count": 1669,
+    "API_cached": 1162,
+    "context_tokens": 1880,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_FIXED_QUERY_S_final.json",
+    "reconstructed_input_tokens": 4509,
+    "API_prompt_eval_count": 4508,
+    "API_cached": 2327,
+    "context_tokens": 4675,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0135_KNOWLEDGE20_final.json",
+    "reconstructed_input_tokens": 2329,
+    "API_prompt_eval_count": 2329,
+    "API_cached": 1162,
+    "context_tokens": 2538,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_RETRIEVAL100_final.json",
+    "reconstructed_input_tokens": 2257,
+    "API_prompt_eval_count": 2257,
+    "API_cached": 331,
+    "context_tokens": 2482,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_RETRIEVAL20_final.json",
+    "reconstructed_input_tokens": 1349,
+    "API_prompt_eval_count": 1349,
+    "API_cached": 84,
+    "context_tokens": 1551,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_RETRIEVAL50_final.json",
+    "reconstructed_input_tokens": 1688,
+    "API_prompt_eval_count": 1688,
+    "API_cached": 181,
+    "context_tokens": 1900,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0135_STATIC_EVIDENCE_M_final.json",
+    "reconstructed_input_tokens": 4365,
+    "API_prompt_eval_count": 4364,
+    "API_cached": 2328,
+    "context_tokens": 4559,
+    "prefix_exact": false,
+    "count_delta": 1
+  },
+  {
+    "record": "PILOT_0135_STATIC_EVIDENCE_S_final.json",
+    "reconstructed_input_tokens": 3899,
+    "API_prompt_eval_count": 3899,
+    "API_cached": 2328,
+    "context_tokens": 4112,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0136_DIRECT216_final.json",
+    "reconstructed_input_tokens": 1699,
+    "API_prompt_eval_count": 1699,
+    "API_cached": 1162,
+    "context_tokens": 1905,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0136_KNOWLEDGE20_final.json",
+    "reconstructed_input_tokens": 2403,
+    "API_prompt_eval_count": 2403,
+    "API_cached": 1162,
+    "context_tokens": 2602,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0136_RETRIEVAL100_final.json",
+    "reconstructed_input_tokens": 2295,
+    "API_prompt_eval_count": 2295,
+    "API_cached": 331,
+    "context_tokens": 2502,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0136_RETRIEVAL20_final.json",
+    "reconstructed_input_tokens": 1423,
+    "API_prompt_eval_count": 1423,
+    "API_cached": 83,
+    "context_tokens": 1631,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0136_RETRIEVAL50_final.json",
+    "reconstructed_input_tokens": 1728,
+    "API_prompt_eval_count": 1728,
+    "API_cached": 181,
+    "context_tokens": 1930,
+    "prefix_exact": false,
+    "count_delta": 0
+  },
+  {
+    "record": "PILOT_0136_STATIC_EVIDENCE_S_final.json",
+    "reconstructed_input_tokens": 3416,
+    "API_prompt_eval_count": 3416,
+    "API_cached": 2401,
+    "context_tokens": 3638,
+    "prefix_exact": false,
+    "count_delta": 0
+  }
+]

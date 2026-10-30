@@ -1,0 +1,27 @@
+{
+  "protocol": "P2_FULL",
+  "input_view": "full_authorized_filtered",
+  "knowledge_view": "K2_DESCRIPTION_16_1",
+  "representation": "word",
+  "method": "TFIDF",
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TFIDFTechniqueRetrieval/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_full.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "--representation",
+    "word",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P2_FULL_word_K2_DESCRIPTION_16_1_full_authorized_filtered.jsonl"
+  ],
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P2_FULL_word_K2_DESCRIPTION_16_1_full_authorized_filtered.jsonl",
+  "exit_code": 0,
+  "seconds": 4.236853499896824,
+  "stdout": "{\"n\": 385, \"seconds\": 4.190777708310634, \"representation\": \"word\", \"cache\": \"CacheInfo(hits=0, misses=385, maxsize=8192, currsize=385)\"}\n",
+  "stderr": "",
+  "execution_status": "PROJECT_NEW_INFERENCE",
+  "reference_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_full.jsonl"
+}

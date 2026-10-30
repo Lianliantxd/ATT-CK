@@ -1,0 +1,9 @@
+{
+  "status": "BOTH_MODELS_FULL_P0_COMPLETE",
+  "Gold_loaded": false,
+  "memory": {
+    "GPU_peak_allocated_bytes": 915070464,
+    "GPU_peak_reserved_bytes": 1988100096,
+    "process_peak_RSS_bytes": 2725535744
+  }
+}

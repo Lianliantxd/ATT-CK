@@ -1,0 +1,7 @@
+# Agent成本与收益
+
+唯一研究native响应54：130642输入Token、8265输出Token、1999.4605秒已知API wall。54/54设备记录size_vram=0，CPU2线程。至多1中断请求Token/时间未知，attempt上界55；合成preflight另列。总经过4222.93秒包含开发修复和等待，不是API耗时。V2复用8个旧响应、新调用0；不得将V1和缓存成本相加。
+
+成本表LLM_TOKEN_AND_RUNTIME_REPORT.csv同时保留无效Agent的真实调用开销，以及已获取日志、实际渲染日志和实际API Token。V1知识回传缺陷使成本真实、收益无效；不能据此计算每提高一个准确率百分点的成本。修复后Agent0执行，同模型静态配对0，增量Token/延迟及收益比均N/A。知识工具返回不等于该定义进入模型；V2修复代码存在不等于已完成验证。
+
+确定性全量对照不是LLM成本。S动态2次平均查询，静态1次；M动态4次、静态1次；2695条件的检索/排序耗时、返回行、重复比例与代理预算完整在STATIC_RETRIEVAL_AGENT_CONTROLS.csv。该秒数不含全部主机加载/克隆；逐记录另存host_setup_seconds/host_clone_seconds，不能将其称为完整用户端延迟。所有日志读取均在本地已授权过滤数据上，没有网络日志传输。

@@ -1,0 +1,10 @@
+{
+  "failure": "TimeoutError: The read operation timed out",
+  "operation": "read authorized GitHub media object",
+  "complete_logs": 0,
+  "observed_partial_bytes_at_prior_progress_check": 3014656,
+  "cleanup": "v1 exception handler removed incomplete partial",
+  "automatic_permission_review": "first launch timed out; one permitted retry succeeded",
+  "user_authorization_remains_valid": true,
+  "raw_logs_on_local": false
+}

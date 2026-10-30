@@ -1,0 +1,107 @@
+{
+  "collapse_queries": [
+    {
+      "sample_id": "6-33-r0",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-34-r0",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-33-r1",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-34-r1",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-33-r2",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-34-r2",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-33-r3",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-34-r3",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-33-r4",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    },
+    {
+      "sample_id": "6-34-r4",
+      "raw_ids": [
+        "T1056.004",
+        "T1056.001"
+      ],
+      "parent_ids": [
+        "T1056"
+      ]
+    }
+  ],
+  "same_labels_as_first_benchmark": true,
+  "raw_multilabel_queries": 295,
+  "parent_multilabel_queries": 285
+}

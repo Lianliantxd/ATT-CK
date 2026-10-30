@@ -1,0 +1,27 @@
+{
+  "protocol": "P1_FIXED",
+  "input_view": "fixed_variant_fresh_windows_v2",
+  "knowledge_view": "K2_DESCRIPTION_16_1",
+  "representation": "hybrid",
+  "method": "WordCharacterHybrid",
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/WordCharacterHybrid/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/prediction_fixed_variant.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "--representation",
+    "hybrid",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P1_FIXED_hybrid_K2_DESCRIPTION_16_1_fixed_variant_fresh_windows_v2.jsonl"
+  ],
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P1_FIXED_hybrid_K2_DESCRIPTION_16_1_fixed_variant_fresh_windows_v2.jsonl",
+  "exit_code": 0,
+  "seconds": 9.823732583783567,
+  "stdout": "{\"n\": 975, \"seconds\": 9.551731833256781, \"representation\": \"hybrid\", \"cache\": \"CacheInfo(hits=366, misses=1584, maxsize=8192, currsize=1584)\"}\n",
+  "stderr": "",
+  "execution_status": "PROJECT_NEW_INFERENCE",
+  "reference_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/reference_fixed_variant.jsonl"
+}

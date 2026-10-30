@@ -1,0 +1,14 @@
+{
+  "main_state": "NO_SUPPORTED_ALGORITHMIC_GAIN",
+  "secondary": [
+    "MECHANISM_REPRESENTATION_EXECUTED",
+    "RERANKER_FAILURE_DIAGNOSED",
+    "EXTERNAL_TEST_NOT_READY"
+  ],
+  "positive_significant_neural_input_tests": 0,
+  "negative_significant_neural_input_tests": 0,
+  "no_independent_algorithm_contribution": true,
+  "human_reference": "PENDING",
+  "no_external_test": true,
+  "no_followup_training_started": true
+}

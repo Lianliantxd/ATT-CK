@@ -1,0 +1,22 @@
+[
+  {
+    "method": "B0",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_BASELINE_PREDICTIONS.jsonl",
+    "source_sha256": "4b39682250370908f90816947c1c3ce943db304b4af5d08a597719c924174720",
+    "old_method": "CHAR__RAW__K2_DESCRIPTION_16_1",
+    "records": 975,
+    "input_and_knowledge_exactly_equal": true,
+    "model_updates": 0,
+    "new_forwards": 0
+  },
+  {
+    "method": "B1",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/results/gpu/NEW_EMBEDDING_PREDICTIONS.jsonl",
+    "source_sha256": "f8502dd739c7f42878522e12ace8a16d364473ff4fcfdb08be7477c2185bba7e",
+    "old_method": "GTE_EMBEDDING__RAW__K2_DESCRIPTION_16_1",
+    "records": 975,
+    "input_and_knowledge_exactly_equal": true,
+    "model_updates": 0,
+    "new_forwards": 0
+  }
+]

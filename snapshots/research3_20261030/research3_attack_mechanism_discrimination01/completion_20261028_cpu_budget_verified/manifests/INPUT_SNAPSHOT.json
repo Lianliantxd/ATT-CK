@@ -1,0 +1,108 @@
+{
+  "utc": "2026-10-27T16:38:47.180178+00:00",
+  "sources": [
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/frozen_inputs/PREDICTION_INPUTS.jsonl",
+      "snapshot": "frozen_inputs/BYTE_VIEWS.jsonl",
+      "sha256": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+      "bytes": 8585352
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_LITERAL.jsonl",
+      "snapshot": "frozen_inputs/LITERAL_EVENTS.jsonl",
+      "sha256": "2ab3a7b5fadca299fbfd62517ff310deef9800cad9f041a8742457bb5c1bb59f",
+      "bytes": 11016858
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_RELATIONS.jsonl",
+      "snapshot": "frozen_inputs/RELATIONS.jsonl",
+      "sha256": "8626a546885f459f85b555c8065bd9b1c7fbcd76bbae7263c6c3b7b7125c7142",
+      "bytes": 579150
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/attack_knowledge/KNOWLEDGE_TEXTS.json",
+      "snapshot": "frozen_inputs/KNOWLEDGE.json",
+      "sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+      "bytes": 733003
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_BASELINE_PREDICTIONS.jsonl",
+      "snapshot": "inherited/CPU_PREDICTIONS.jsonl",
+      "sha256": "4b39682250370908f90816947c1c3ce943db304b4af5d08a597719c924174720",
+      "bytes": 117320629
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/results/CPU_RUN_RECEIPT.json",
+      "snapshot": "inherited/CPU_RECEIPT.json",
+      "sha256": "54225d3386a0bfb65c26e137c7fb4094634ad2df20795b3f90402e539fb7e3b9",
+      "bytes": 592
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/DIAGNOSTIC_30_FROZEN_IDS.json",
+      "snapshot": "inherited/DIAGNOSTIC_30.json",
+      "sha256": "266c54b4d6ffcca7f9b2e02bfd2ce7126acff80c2581d1f99f9de61de308bbb8",
+      "bytes": 20342
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/TECHNIQUE_MECHANISM_CARDS.jsonl",
+      "snapshot": "inherited/CARDS.jsonl",
+      "sha256": "9f560e052d6b98bda4fbd77bb3f05252f4409fc5c779464543fc9d266649730e",
+      "bytes": 430991
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/KNOWLEDGE_VERSION_MANIFEST.json",
+      "snapshot": "inherited/KNOWLEDGE_MANIFEST.json",
+      "sha256": "ca0e5f94b4f987e8a15c678bc18528f369e12250f9ed385d3c8b177a04f87850",
+      "bytes": 9093
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/RERANKER_SCORING_VALIDATION.json",
+      "snapshot": "inherited/RERANKER_VALIDATION.json",
+      "sha256": "aa7068d1930a7d1c907ff696e90aa2ee39a35668e89b3b124d3927f17efdcfe9",
+      "bytes": 6586
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/RERANKER_REAL_PREDICTIONS.jsonl",
+      "snapshot": "inherited/NEURAL_RERANKER.jsonl",
+      "sha256": "c49150c642eae993e1e4e4b60b7c030b05e13ed0cdccd61a2590e1bf50e87a57",
+      "bytes": 13153957
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/EMBEDDING_REAL_PREDICTIONS.jsonl",
+      "snapshot": "inherited/NEURAL_EMBEDDING.jsonl",
+      "sha256": "f5bc86016a6319e33643fa90f74f44c6db59bd066ec969a5865b994fce399f04",
+      "bytes": 32861771
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_reference.jsonl",
+      "snapshot": "inherited/REFERENCE.jsonl",
+      "sha256": "d5e1b263172de28600cffb38fcb3c81fc9cf336ac7c743dc5f98d7ebba32cd34",
+      "bytes": 257525
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+      "snapshot": "src/frozen_engine.py",
+      "sha256": "1df6ec406dda9fca4f6fea6a3817582ac17ce4d9e2f199eb8f49b0f4bee1e45b",
+      "bytes": 3235
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py",
+      "snapshot": "src/frozen_evaluator.py",
+      "sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+      "bytes": 2846
+    },
+    {
+      "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/mechanism_ir/extractor.py",
+      "snapshot": "src/frozen_extractor.py",
+      "sha256": "ee8683947297e603ed73a06a289260124a424874aae07ad2c2b61742893f79cd",
+      "bytes": 10082
+    }
+  ],
+  "allowed_P0_samples": 975,
+  "logical_steps": 195,
+  "restricted_steps_body_reads": 0,
+  "access": "existing sanitized allowlisted derived files only; no raw archives or alias copies",
+  "new_model_forwards": 0,
+  "all_parent_predictions_unchanged": true,
+  "completion_strategy": "isolated continuation because requested root already has partial artifacts; preserve concurrent work"
+}

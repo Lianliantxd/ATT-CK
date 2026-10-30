@@ -1,0 +1,27 @@
+{
+  "protocol": "P0",
+  "input_view": "type_audit",
+  "knowledge_view": "K2_DESCRIPTION_16_1",
+  "representation": "bm25",
+  "method": "BM25",
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/BM25TechniqueRetrieval/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_type_audit.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "--representation",
+    "bm25",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_bm25_K2_DESCRIPTION_16_1_type_audit.jsonl"
+  ],
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_bm25_K2_DESCRIPTION_16_1_type_audit.jsonl",
+  "exit_code": 0,
+  "seconds": 0.1885419161990285,
+  "stdout": "{\"n\": 975, \"seconds\": 0.15008354233577847, \"representation\": \"bm25\", \"cache\": \"CacheInfo(hits=611, misses=364, maxsize=8192, currsize=364)\"}\n",
+  "stderr": "",
+  "execution_status": "PROJECT_NEW_INFERENCE",
+  "reference_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_reference.jsonl"
+}

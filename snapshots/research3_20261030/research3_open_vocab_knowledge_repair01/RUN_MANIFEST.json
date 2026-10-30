@@ -1,0 +1,192 @@
+{
+  "task": "R3_OPEN_VOCAB_KNOWLEDGE_REPAIR01",
+  "client_date": "2026-10-29",
+  "execution_status": "PARTIAL_KNOWLEDGE_VERSION_WITH_SOURCE_BLOCKERS",
+  "final_decision": "GO_AFTER_SOURCE_RECOVERY",
+  "counts": {
+    "candidate_count": 216,
+    "source_parent_bodies_available": 203,
+    "source_parent_bodies_missing": 13,
+    "missing_ids": [
+      "T1667",
+      "T1668",
+      "T1669",
+      "T1671",
+      "T1672",
+      "T1673",
+      "T1674",
+      "T1675",
+      "T1677",
+      "T1678",
+      "T1679",
+      "T1680",
+      "T1681"
+    ],
+    "separate_subtype_descriptions": 453,
+    "child_relationships_confirmed": 453,
+    "old_parent_body_start_not_visible": 73,
+    "old_parent_body_not_fully_visible": 164,
+    "new_full_parent_texts_truncated": 0,
+    "diagnostic1000B_texts_truncated": 129,
+    "author_vs_STIX_parent_name_differences": 2,
+    "missing_source_count_beyond_previous_competitor12_audit": 2,
+    "source_release_alignment": "NOT_AVAILABLE",
+    "independent_semantic_reference": "NOT_AVAILABLE",
+    "model_performance_change": null
+  },
+  "authorized_scope": "Usercontinue afterproposal toconstructnewknowledgeversion fromexistinglegalassets;no downloads/training/modelcalls",
+  "new_model_calls": 0,
+  "new_agent_calls": 0,
+  "new_training_runs": 0,
+  "GPU_tasks": 0,
+  "downloads": 0,
+  "network_access": 0,
+  "server_access": 0,
+  "uploads": 0,
+  "old_files_modified": 0,
+  "previous_audit_delivery_hashed_only_except_source_receipts": true,
+  "old_asset_snapshot": "audit/INPUT_HASH_SNAPSHOT.json",
+  "historical_modules_executed": false,
+  "experiment_executed": false,
+  "stop_after_delivery": true,
+  "actual_operations": [
+    "verify36precedingauditdeliveryhashes",
+    "readpinnedlocalSTIXcollection16.1 andauthorcandidate matrix",
+    "readoldfull/shortknowledge forliteral216documentdiff",
+    "constructseparatefullparent203bodieswith453subtypesections;retain13nullbodies",
+    "construct1000byte diagnosticviewwithactualtruncationreceipts",
+    "no query/model/evaluator execution",
+    "independentvalidationanddeliverysealfollow",
+    "independent source/ID/string/relationship validation completed;no historical modules executed;deliveryhash readbacksealed"
+  ],
+  "query_or_raw_log_or_gold_loaded_for_task_processing": false,
+  "hash_only_transport_disclosure": "Preceding deliveryfileswere readasbytes forhashes;some containhistoricalGold/auditinformation. Noquery/rawlog/Goldrecords parsedfornewknowledgeconstruction;notaclaim ofzeroOSbyteaccess.",
+  "required_artifact_paths": [
+    "KNOWLEDGE_REPAIR_REPORT.md",
+    "knowledge/KNOWLEDGE_V1.json",
+    "knowledge/PARENT_ONLY_FULL.json",
+    "knowledge/PARENT_FIRST_1000B_DIAGNOSTIC.json",
+    "CANDIDATE_COVERAGE_AUDIT.csv",
+    "KNOWLEDGE_DIFF.csv",
+    "TEXT_BUDGET_AUDIT.csv",
+    "PARENT_CHILD_MAPPING.csv",
+    "MISSING_SOURCE_REQUIREMENTS.csv",
+    "SOURCE_RECOVERY_REQUIREMENTS.md",
+    "protocol/KNOWLEDGE_VERSION_CONTRACT.md",
+    "RUN_MANIFEST.json",
+    "results/FINAL_VALIDATION.json"
+  ],
+  "manifest_phase": "SEALED_PARTIAL_KNOWLEDGE_VERSION",
+  "sealed_utc": "2026-10-29T11:02:06.998274+00:00",
+  "source_code_hashes": [
+    {
+      "path": "code/build_knowledge.py",
+      "sha256": "6b812b2e3a13a5a004e15316b31658cc7fbc9aa5ddb9143426911eeafa04c718"
+    },
+    {
+      "path": "code/validate_and_seal.py",
+      "sha256": "9ef1284af98d1770b4bf6cb3a84d3fd1136080c6f22b8bf8e76adce0e7381594"
+    },
+    {
+      "path": "code/write_report.py",
+      "sha256": "ef1ba85bc1a45a14643df56c22248b700902ea269eb88973a2b23b901032b15f"
+    }
+  ],
+  "output_hashes_excluding_self_and_delivery": [
+    {
+      "path": "CANDIDATE_COVERAGE_AUDIT.csv",
+      "bytes": 31626,
+      "sha256": "11fd103c183388eee887884c461d208839967d073d16d0131ac83c478b1d0d93"
+    },
+    {
+      "path": "KNOWLEDGE_DIFF.csv",
+      "bytes": 760513,
+      "sha256": "2cf887eddaac67533214081b1a67ddb13097ab4ff8bd6419e6d0d67e91ecdac1"
+    },
+    {
+      "path": "KNOWLEDGE_REPAIR_REPORT.md",
+      "bytes": 7950,
+      "sha256": "c10f2c45839ce9a75c6dc528631b74eff1e8dc85841ccfb3cdc394e69c991548"
+    },
+    {
+      "path": "MISSING_SOURCE_REQUIREMENTS.csv",
+      "bytes": 4270,
+      "sha256": "a2387734631cba0cf216885833eb78fe1303467d997523296db9e88fafea9435"
+    },
+    {
+      "path": "PARENT_CHILD_MAPPING.csv",
+      "bytes": 122097,
+      "sha256": "1a2c70bd5617409a6c922325b3076a7d8d041989574991af92c9ce0f68d134b4"
+    },
+    {
+      "path": "SOURCE_RECOVERY_REQUIREMENTS.md",
+      "bytes": 2027,
+      "sha256": "0d5b40cf939cbe058e57c2227f18fb3c048f0e32070588eecdee7870ecea0249"
+    },
+    {
+      "path": "TEXT_BUDGET_AUDIT.csv",
+      "bytes": 24545,
+      "sha256": "bc36a2e21c9c6b899adf8c1374001b4ada33e55e84cc9173ef328ca93f920620"
+    },
+    {
+      "path": "audit/INPUT_HASH_SNAPSHOT.json",
+      "bytes": 14662,
+      "sha256": "db0b72ad019cc72582d0232e835b15ca02468d2c118eda6d9bac2830065642d7"
+    },
+    {
+      "path": "audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+      "bytes": 8617,
+      "sha256": "930e137d3d8e2724520c38d34bd736b9c446628004658a7a5d48b40e1d8f6731"
+    },
+    {
+      "path": "audit/VALIDATION_CHECKS.json",
+      "bytes": 154351,
+      "sha256": "8b807b94237cdcc06486b8d6e9e8d8dbf0b73a106efd2045fe6744774b7791dc"
+    },
+    {
+      "path": "code/build_knowledge.py",
+      "bytes": 13841,
+      "sha256": "6b812b2e3a13a5a004e15316b31658cc7fbc9aa5ddb9143426911eeafa04c718"
+    },
+    {
+      "path": "code/validate_and_seal.py",
+      "bytes": 8735,
+      "sha256": "9ef1284af98d1770b4bf6cb3a84d3fd1136080c6f22b8bf8e76adce0e7381594"
+    },
+    {
+      "path": "code/write_report.py",
+      "bytes": 13447,
+      "sha256": "ef1ba85bc1a45a14643df56c22248b700902ea269eb88973a2b23b901032b15f"
+    },
+    {
+      "path": "knowledge/KNOWLEDGE_V1.json",
+      "bytes": 1867467,
+      "sha256": "0037771e09613fac9edaddeaea4df5361768900f6e65245b57857eff7b7a51bf"
+    },
+    {
+      "path": "knowledge/PARENT_FIRST_1000B_DIAGNOSTIC.json",
+      "bytes": 183789,
+      "sha256": "b2d9cda1727e9a504088c7d2c279445b666a16206b7379b04c0c4a5a0fc5171d"
+    },
+    {
+      "path": "knowledge/PARENT_ONLY_FULL.json",
+      "bytes": 273585,
+      "sha256": "facfbb0313ba5f8eeffc37ab4422ff8f747262b3729b01f5df17781a3017c388"
+    },
+    {
+      "path": "protocol/KNOWLEDGE_VERSION_CONTRACT.md",
+      "bytes": 3782,
+      "sha256": "40a98d53868e6322a65b4d984369cb7a571bcd10a0a223f2e64e75cccb5285df"
+    },
+    {
+      "path": "results/FINAL_VALIDATION.json",
+      "bytes": 2360,
+      "sha256": "9e8ca63adfca46b9314aa5f76bf4830146f19ecc8af40132f60a7d27a08362a9"
+    },
+    {
+      "path": "results/REPAIR_COUNTS.json",
+      "bytes": 796,
+      "sha256": "79b998ae374c836c8456db5e39d33c8d438ca7e4766608cf25b0bb69ebb29f09"
+    }
+  ]
+}

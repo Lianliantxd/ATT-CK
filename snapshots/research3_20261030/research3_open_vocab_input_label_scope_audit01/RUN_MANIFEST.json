@@ -1,0 +1,923 @@
+{
+  "task_id": "R3_OPEN_VOCAB_INPUT_LABEL_SCOPE_AUDIT01",
+  "client_report_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "execution_status": "PARTIAL_WITH_REFERENCE_AND_DEFINITION_BLOCKERS",
+  "final_decision": "GO_AFTER_SOURCE_RECOVERY",
+  "required_artifact_paths": [
+    "INPUT_LABEL_SCOPE_AUDIT_REPORT.md",
+    "ASSET_SOURCE_INVENTORY.csv",
+    "TECHNIQUE_DEFINITION_AUDIT.csv",
+    "GOLD_SCOPE_AUDIT.csv",
+    "EXTRACTION_PIPELINE_AUDIT.csv",
+    "PARENT_CHILD_MAPPING_AUDIT.csv",
+    "AFFECTED_QUERY_MAP.csv",
+    "DEFINITION_IMPACT_SUMMARY.csv",
+    "REPAIRABILITY_REGISTER.csv",
+    "HUMAN_ADJUDICATION_QUEUE.csv",
+    "protocol/INPUT_LABEL_AUDIT_PROTOCOL.md",
+    "protocol/BLOCKER_REGISTER.json",
+    "protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md",
+    "RUN_MANIFEST.json",
+    "results/FINAL_VALIDATION.json"
+  ],
+  "counts": {
+    "all_frozen_queries": 384,
+    "all_logical_steps": 80,
+    "all_target_gold_assignments": 520,
+    "target_techniques_checked": 12,
+    "gold_scope_queries": 34,
+    "gold_scope_logical_steps": 8,
+    "scope_flagged_query_gold_assignments": 34,
+    "scope_query_all_author_parent_assignments_checked": 51,
+    "scope_query_prior_target_gold_assignments": 46,
+    "scope_query_original_label_assignments_checked": 51,
+    "unique_affected_queries": 379,
+    "affected_logical_steps": 79,
+    "affected_gold_assignments": 515,
+    "affected_candidate_pairs": 1700,
+    "affected_competitor_instances": 1171,
+    "multi_defect_queries": 327,
+    "affected_intersect_gold_scope": 34,
+    "affected_intersect_AI_insufficient": 251,
+    "triple_intersection": 0,
+    "defect_count_distribution": {
+      "1": 52,
+      "2": 60,
+      "3": 128,
+      "4": 87,
+      "5": 45,
+      "6": 7
+    },
+    "T1574_affected_queries": 130,
+    "affected_actual_model_error_causes_unknown": 379,
+    "known_query_prediction_errors_causally_attributed_to_definition_defects": null,
+    "affected_queries_unconfirmed": 0,
+    "comparison_input_defects_confirmed": 12,
+    "causes_confirmed_in_bounded_pipeline": {
+      "TEXT_TRUNCATION_CONFIRMED": 1,
+      "DESCRIPTION_NOT_IN_CURRENT_SOURCE": 11
+    },
+    "exact_matrix_vs_STIX_release_mismatch_count": null,
+    "local_source_ID_coverage_gaps_for_target_techniques": 11,
+    "mapping_errors_found_in_checked_original_label_chains": 0
+  },
+  "resources": {
+    "new_model_calls": 0,
+    "new_agent_calls": 0,
+    "new_training_runs": 0,
+    "GPU_tasks": 0,
+    "server_access": 0,
+    "network_access": 0,
+    "downloads": 0,
+    "uploads": 0,
+    "old_files_modified": 0
+  },
+  "actual_execution": [
+    "read two attached user prompts andchatcontinuation",
+    "local rg metadata/code searches;no rawarchive contents",
+    "verified60previoussealedfilehashes",
+    "staticreadexistingknowledge/labels/mappingcode;historicalmodulesneverimported",
+    "parsedexistingSTIX16.1 andauthorlabelcontainer;selectedmetadata/sourcefields",
+    "bounded21documentpurestringreplayagainstsavedartifacts",
+    "rebuilt34scopequeue;checked51authorlabelIDchains;no semanticreadjudication",
+    "rebuilt379queryIDmappinganddeduplicated515assignments/1700pairs",
+    "wrote substantive auditfiles andreport;independentmechanicalvalidator follows",
+    "independent mechanical validator completed965 checks with0 failures;12targetdefinition/34scopequery/379impactIDcoverage checks passed",
+    "final readback rechecked99existingassetbytes andallrequired15files;oldassetsunchangedwithinregisteredrange",
+    "serializedallCSV/JSON/JSONL readback passed;newcode/outputhashes sealed;no next experiment started"
+  ],
+  "first_tracked_read_snapshot": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/ASSET_READ_SNAPSHOT.json",
+  "snapshot_scope_limit": "some preliminary discovery/schema reads preceded first tracked snapshots;no workspacewide task-start proof",
+  "mixed_label_container_access_disclosure": "labels.json parsed as mixedcontainer;earlyschema display includednon-target accompanyingcommandfields;not executed orusedasbehaviorproof",
+  "forbidden_raw_log_or_archive_reads": false,
+  "historical_code_executed": false,
+  "new_knowledge_corpus_or_candidate_generation": false,
+  "bounded_pure_expression_checks_not_model_or_extraction_job": true,
+  "experiment_executed": false,
+  "semantic_reference_status": "NOT_AVAILABLE",
+  "independent_test_status": "NOT_AVAILABLE",
+  "causal_performance_impact": "NOT_AVAILABLE",
+  "legacy_hash_mismatches": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+      "role": "historical frozen asset;hash only unless named as semantic input or protocol metadata",
+      "exists": true,
+      "sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+      "bytes": 33327,
+      "expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+      "version_status": "MISMATCH"
+    }
+  ],
+  "manifest_phase": "SEALED_LOCAL_SOURCE_AUDIT_WITH_SCIENTIFIC_BLOCKERS",
+  "stop_after_delivery": true,
+  "sealed_utc_runtime": "2026-10-29T08:15:16.040044+00:00",
+  "input_hashes": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/DELIVERY_SHA256.json",
+      "sha256": "9e011c167d8791c1d24815bbfe84092b754ee45895860b2360e7e72ea0dcd00d",
+      "exists": true,
+      "inspection_role": "PREVIOUS_DELIVERY_MANIFEST"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/DISTINGUISHABLE_EVIDENCE_AUDIT_REPORT.md",
+      "sha256": "5a529cbe538f5160883f7ac5cc7ca3870140bce4a37c0cf675e88d8db74a23d4",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/RUN_MANIFEST.json",
+      "sha256": "028b76ec66047d4b9cc9ecbd25b6f9f6d19c53e451035db1e9d26d0bd5cc2f5f",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/BASELINE_QUALIFICATION_SUMMARY.json",
+      "sha256": "00db35af30a082eff5405e44cee46135c19f1401960021cb7ec315ff89927752",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/CANDIDATE_PACKAGING_RECEIPT.json",
+      "sha256": "9c0dd63efb049c29c43b8a829e1fc4f7a5c97352f8e6de43d6711f217a238161",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/FIRST_PASS_SEAL.json",
+      "sha256": "8985024e9346e1a7a5030aa340bb833a8530650305e7b9ef8541925f30ee327a",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/FIRST_PASS_SOURCE_HASHES.json",
+      "sha256": "f580c948840f3852f2d06353e107188725e47e7e7f5eb5e6f0c7a683923e74d3",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/FIRST_PASS_VERSION_HISTORY.json",
+      "sha256": "f03ca0bb9e5c29c1994a9d70e005aa99ac713c8695b3a601e737c945fdffb518",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/OLD_ASSET_HASH_SNAPSHOT.json",
+      "sha256": "cae49ae29b8417401ba2e0859a632e5a91bc372eb063a902827dfdebce7c69f8",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/SECOND_PASS_SEAL.json",
+      "sha256": "fe05bccf95d376ffbf5f548c5895bbb3ebf610f353cc37bb079a316c073184c0",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/VALIDATION_CHECK_DETAILS.json",
+      "sha256": "a0fe6ac0602239db4c3c2abcf7b67d259af6e4d0cba0148e93642e3c3f3712a3",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded/CONDITION_EVIDENCE_MATRIX.csv",
+      "sha256": "7e090d6701cdcd34e0aa57f9a2d30cb196c5d318e9745be62b0deb6f1162b958",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded/DERIVED_VISIBLE_HEX.jsonl",
+      "sha256": "77d29fca356635c2b8108b7df0094195e43bfebb3f0537e36b91d07a37e081b9",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded/FIRST_PASS_CASE_EVIDENCE.jsonl",
+      "sha256": "0fa790acea7f9b9a1c6d250294cd572a363d6ba2c87b23587c6bbcee567c96ac",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded/FIRST_PASS_MANUAL_NOTES.json",
+      "sha256": "39184fb5f72a4b6cb88278bf1e6452e8b093ea8d5fc4aad8ea76d47825a104d4",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded/FIRST_PASS_SEAL.json",
+      "sha256": "67a89c9a19998ee6afa46a0187f3f99aa7dbc4ffb09e821d45082e162a6d52a9",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded/GOLD_CONDITION_REGISTRY.json",
+      "sha256": "50b63cd68f6b7edaf7bfe8d850ef1b714da561eeb428744983dd00c0785af9df",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/audit_baseline_eligibility.py",
+      "sha256": "b8ce56987ef76a46fcdb240ec2c30468ddcfa4a1f37c51f2aa93541e817ceb66",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/build_competition_audit.py",
+      "sha256": "fd37dfc51e6cc665098b55751d3c14efb1b77872b16a31ee6532bd4a101c3613",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/build_first_pass.py",
+      "sha256": "201b0f276af4bec7e3019c35ef8c29e011b70f408df9a89eee37e6fc24463486",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/finalize_audit.py",
+      "sha256": "f65e7b67686e380b7ec3dbce992fe57daf4d5992d3f6e1665ad85044e80ea12d",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/prepare_competitors.py",
+      "sha256": "e5033ad422d03e04efadf8b484a2d276aee22291b5405e5d330a9d358c5847cd",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/prepare_first_pass.py",
+      "sha256": "748fdc316f911eb2899c1bcf8f386ac12b6fd732e27c5b7ab65c33a0b27f1193",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/summarize_audit.py",
+      "sha256": "c8cbb55f4129ff1982d93a2cea85b2bc9a7a1c4d7c8633705555343495d5b7f4",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/code/validate_audit.py",
+      "sha256": "dec06f4aee1d335b87d6dbf7f170564378bdc1e4a3dc5fb5980ff2df1353db9e",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/COMPETITOR_FROZEN_DEFINITIONS.json",
+      "sha256": "098cdea1d4196e2193b1cce50ba3180c557b082c8aed51827c08269b74e39dde",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/FIRST_PASS_INPUTS.jsonl",
+      "sha256": "50b87862b2d28a471644669ce21f284907dba3009293e67b3eebf2c8ed582f40",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/FIRST_PASS_READING_AID.json",
+      "sha256": "0ec436f9cc7b82822bafef62437aefccc771407e9bd6ca4f47ebfbe9576e4424",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/FROZEN_CASE_MANIFEST.json",
+      "sha256": "e96d9b8dcfc452321e97a30e5e7547a406ea222c9280329a1a9a0c30addcd9bd",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/GOLD_FROZEN_DEFINITIONS.json",
+      "sha256": "55e6c21e7279b2a26a5fd08a57e4a027db4dee925f3f3aa64384b9ee5a3bf87b",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/SHUFFLED_COMPETITOR_PACKETS.jsonl",
+      "sha256": "17a89e788dfcab7015b45c3628d921d3a0c6a590f518b5b9101eb6769335393b",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/inputs/VISIBLE_FACT_REGISTRY.jsonl",
+      "sha256": "7a0458d796e206361ba3d0c06eb4e91828d7bffc0325f3fd02766c31647412c7",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/BLINDING_DISCLOSURE.json",
+      "sha256": "faec3022b52f37b755d9a0440ced85880861dce53e5b6cb2b1a64d21e91195d9",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/BLINDING_INTEGRITY_REPORT.md",
+      "sha256": "1728a6be290ab72e5939179ec6f08bac417912df979623e7586755dfcf81c9be",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/BLOCKER_REGISTER.json",
+      "sha256": "0d9f1329c0211dbba18469f88208ea06aa874e9e88ee4ee295e2ebe01feca6b5",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/HUMAN_REVIEW_QUEUE.csv",
+      "sha256": "2ca64b2ae35a87efdce11e2fcb80038fc27df0752b20a7ef674cd1fd4a1e46bc",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/REVIEW_PROTOCOL.md",
+      "sha256": "4a6df40fe495bb1649dc9907d799a1c4eb8b82285dfff6a66a5bd6c97381a595",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/TRANSPORT_ACCESS_DISCLOSURE.json",
+      "sha256": "9adf7d1ef8d9608af7972b0acd271c560fbfeb0248ee68f4f5a6e99001638676",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/USER_REQUEST_PART_1.txt",
+      "sha256": "a0d3360216839cbcfedb6ca7befe52a17dbf9457e722b766bf742e850c9eb5b7",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/protocol/USER_REQUEST_PART_2.txt",
+      "sha256": "7819f31289e2d90988b8bb6639907c79fbe188fb9975d3596c018e36bdc9a52c",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/reports/analysis-report.md",
+      "sha256": "82eba25ce5e29498f73d6499a55950810a34648254a7db4c97c807bbe67bce66",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/reports/figure-catalog.md",
+      "sha256": "7180188624cd657e5f7846b8dcf2a1833972d351be865b831718f7e1fa086d48",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/reports/stats-appendix.md",
+      "sha256": "f2e95db974acbe1b78e9f9cad629e49126776e4f7f5bc903ec268dc52b6e3814",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/results/CONDITION_SUMMARY.csv",
+      "sha256": "93d6b3c5dfd98e4dfae7983fb8fb06b0b2da3faca4f3c9a5aef2b62cc118651b",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/results/FINAL_VALIDATION.json",
+      "sha256": "de8330c3b8cc9e2fa67521014f3fe7efc80ec3dcafeef6407b90ced63c5f92bf",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/results/GOLD_TECHNIQUE_SUMMARY.csv",
+      "sha256": "2207b234081d8d1053789994f59f1e54ffcf984259f1a4483e66751cc98a561b",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/results/QUERY_AGGREGATE_COUNTS.json",
+      "sha256": "df1e59d167754fc002141352254557bbf81fab33353d8769e79205361f046b3a",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/results/QUERY_SUMMARY.csv",
+      "sha256": "8c2953d6a9fc8732dc6166faf92caf8e96dcc58857e74c03ea509489cb21612c",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/BASELINE_RESIDUAL_ERROR_AUDIT.csv",
+      "sha256": "4eeef33bc4636b9dff9a03528e9a39207f9c5b0a4349c94a1913e498787fef34",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/CASE_DIAGNOSIS.csv",
+      "sha256": "7466cdc19da01e050a6a8f559c9b2e8f2c7a971661f86622f7e32217f81ca232",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/CASE_EVALUATION_ELIGIBILITY.csv",
+      "sha256": "70a1e70540ddf9568a2e0862138115abb18b9c1d0074eb8dcd20b200b018d784",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/CASE_EVIDENCE_AUDIT.jsonl",
+      "sha256": "e021e22a04a00306880f658349b090be0fdcf15cf9338a00cf15a93008188c05",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/COMPETING_TECHNIQUE_AUDIT.jsonl",
+      "sha256": "a8991fcb46cb20c668d7e00227589bf9bf7d5b56adeda1cc4515c3fcaf77205e",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/COMPETITOR_DEFINITION_AUDIT.json",
+      "sha256": "fa30937d55e5b44b7cde364fc793ac297de9bba9091cf54907a0f4967b6b5d2b",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/CONDITION_EVIDENCE_MATRIX.csv",
+      "sha256": "18d5b682289a5f83d96b45b72002f94e134dc72db607c1b64a624c35a103c865",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/DERIVED_VISIBLE_HEX.jsonl",
+      "sha256": "77d29fca356635c2b8108b7df0094195e43bfebb3f0537e36b91d07a37e081b9",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/FIRST_PASS_CASE_EVIDENCE.jsonl",
+      "sha256": "d96c6b843854498147a30b4913647609757a32bb44c8696143145decc6cd1681",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/FIRST_PASS_MANUAL_NOTES.json",
+      "sha256": "39184fb5f72a4b6cb88278bf1e6452e8b093ea8d5fc4aad8ea76d47825a104d4",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/GOLD_COMPETITOR_PAIR_AUDIT.jsonl",
+      "sha256": "ee7d21baccafbdbe7b74f69e1ae4d2fb3dbf5ae1159faf47f53114a721c7ed61",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/GOLD_CONDITION_REGISTRY.json",
+      "sha256": "50b63cd68f6b7edaf7bfe8d850ef1b714da561eeb428744983dd00c0785af9df",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/SECOND_PASS_MANUAL_INTERPRETATIONS.json",
+      "sha256": "b67cc2b13da110f6d4918d6a9550aca75f148c4301882674fe4536f338c1a39f",
+      "exists": true,
+      "inspection_role": "PREVIOUS_SEALED_DELIVERY_BYTES"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/ASSET_INVENTORY.csv",
+      "sha256": "9df3ff40402e187683e20d6f544384b2b63b25c27ddd03a47acd7a7774809e9e",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/CASE_QUALIFICATION_MATRIX.csv",
+      "sha256": "77618cf25c07386db6f9c07fc5a26fcd5a0884a74ead645d0c97b5f53bdec7b7",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/EXISTING_BASELINE_AUDIT.csv",
+      "sha256": "5e45f60949fa874d2a976872a5a2dc4cf0e98d940609c8fdc06b70c9302dd0be",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/METHOD_HYPOTHESIS_REGISTER.json",
+      "sha256": "73eb0427984530339abef26d4b83f96d3319003a291738a3e6f057795024ef8b",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/REFERENCE_REQUIREMENTS.md",
+      "sha256": "743e723ba3482cde96869570fe00cfe513b509fb9460814fe9530b60a0c7a954",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/GO_NO_GO_DECISION.md",
+      "sha256": "3ec6ad7ca3a727c6c29dff15e522676eafd64c8fec70133fbba40204429bd136",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/FINAL_VALIDATION.json",
+      "sha256": "50df539c44c09371dc0ef5f8cd1fb943364c1a8214dbb821381526faf6d7f000",
+      "exists": true,
+      "inspection_role": "HISTORICAL_GATE_CONTEXT_NOT_GOLD"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/GOLD_TECHNIQUE_SUMMARY.csv",
+      "sha256": null,
+      "exists": false,
+      "inspection_role": "REQUESTED_SUMMARY_PATH_CHECK"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/benchmark/run_benchmark.py",
+      "sha256": "1fb98f46fdc11b0ba01d63d08128ccd6e72d63a94e22cb4eb0f2197015969bf1",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+      "sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/labels.json",
+      "sha256": "cc27fee6d78b6de3d5d2172b334269bbcd9747dac80b6882e8982229b2540afe",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/commit.json",
+      "sha256": "3d03dbfa286bab4034ecf6ca727887f20d88ae9c322cba941179b8a4e58f4250",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+      "sha256": "a1f2b9ec11b35870e8cc7b6267adf440a03bd68bea1d441cae0aafd6eb4121a3",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+      "sha256": "426c0e5c316eb807145eaebf4acd49dc04d15e0c6ca69f1a4aa04fd8b2a78a37",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/extended_knowledge_documents.json",
+      "sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/prepare_inputs.py",
+      "sha256": "1107e9906141230d257ba64d718bbda76774e4501e20640630176993cd6bbd14",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+      "sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K0_NAMES_ONLY.json",
+      "sha256": "c325f8dc49b95f25f0fd446cfc5df3b01cacc91f3419b7a9571b90c5bea37617",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K1_NAMES_AND_TACTICS.json",
+      "sha256": "e73ecd5191eb85cf778c10a84e4c816f656f812acd224699d24f7a93dbe8d768",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/COVERAGE.json",
+      "sha256": "c099f3bdd7e336eafd9245233e3ffae2e054f98d52cc476d852718faeca2126e",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+      "sha256": "b5179799ba0adb5b37388bd3bac7c1a9b0311ded58857620f193a1e732890ff5",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/extended_knowledge_documents.json",
+      "sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/mechanism_ir/build_inputs.py",
+      "sha256": "d533af5188a2faa5cf278ef43ae025fd387a44c93bb90d0f781b8c0c2a05f301",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/KNOWLEDGE_VERSION_MANIFEST.json",
+      "sha256": "ca0e5f94b4f987e8a15c678bc18528f369e12250f9ed385d3c8b177a04f87850",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/attack_knowledge/KNOWLEDGE_TEXTS.json",
+      "sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/manifests/INPUT_BUILD_RECEIPT.json",
+      "sha256": "84eea714f9b83df3055c5a133186199d6b46b5395b2864a732dc339c21c252c2",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/prepare_grouped_data.py",
+      "sha256": "a58bfba5aa7e90d975a05c337c9ca255a3af34c2ad6ed9c44048688712bd724e",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/KNOWLEDGE_K2.json",
+      "sha256": "0a358a76a45db26972dd17b0345c1666e8d57e9ad4a080f0fd21a6daba7e98df",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/P0_REFERENCE.jsonl",
+      "sha256": "1a6e19e7759054628dba3a210753460caec7c1a7b81e40291cdf6f2f4d32856e",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/TRAINING_DATA_MANIFEST.json",
+      "sha256": "a68c98920062977f29b1714ab94af65e34dc5c6bd9a403d05235b5334977de0c",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+      "sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz",
+      "sha256": "2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711",
+      "exists": true,
+      "inspection_role": "SOURCE_CHAIN_STATIC_INSPECTION"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py",
+      "sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+      "exists": true,
+      "inspection_role": "STATIC_MAPPING_CODE_OR_VERSION_RECEIPT"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/manifests/GIT_BLOB_VERIFICATION.json",
+      "sha256": "24d46e523332b33b2855b4155e549ac42b24721a8b049bcf35d4819cfc2bcadf",
+      "exists": true,
+      "inspection_role": "STATIC_MAPPING_CODE_OR_VERSION_RECEIPT"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+      "sha256": "9f59330feb5a81c70dc81013f911bfacebb520010e733765e4511c2648474cf9",
+      "exists": true,
+      "inspection_role": "STATIC_MAPPING_CODE_OR_VERSION_RECEIPT"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/create_llm_prompt.py",
+      "sha256": "f50a680abbe5d7378846b21ff005f83433f4e5ea50d8649ba964fba6bab675bb",
+      "exists": true,
+      "inspection_role": "STATIC_MAPPING_CODE_OR_VERSION_RECEIPT"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/tree.json",
+      "sha256": null,
+      "exists": false,
+      "inspection_role": "LOCAL_PROVENANCE_OR_FREEZE_CODE"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/DATA_ACQUISITION_LOG.md",
+      "sha256": "945ad5d60c95083134a2fb69d6821f0153d6ed86fe2710990a8e14196a33b78e",
+      "exists": true,
+      "inspection_role": "LOCAL_PROVENANCE_OR_FREEZE_CODE"
+    },
+    {
+      "path": "/Users/tianxd/.codex/attachments/52f05c7a-c1df-416f-b565-d3d2ff77772a/已粘贴的文本.txt",
+      "sha256": "ceb256b93ea070df1fc618d2b3ac4e9879be28399d446ffa1ecbbfe53103e134",
+      "exists": true,
+      "inspection_role": "USER_AUTHORIZED_TASK_CONTRACT"
+    },
+    {
+      "path": "/Users/tianxd/.codex/attachments/bef210d1-919c-429c-8717-7c00e426fd9b/已粘贴的文本.txt",
+      "sha256": "dde31453a4b3fdf131b6842c41c340baba7157a6c23340c1e2011628f61f8499",
+      "exists": true,
+      "inspection_role": "USER_AUTHORIZED_TASK_CONTRACT"
+    }
+  ],
+  "code_hashes": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/audit_io.py",
+      "sha256": "682f6fce807381f0df06925cb078bfdb5c525319d1026e8e5394662262855f74"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/build_audit.py",
+      "sha256": "b1980300d96dca208a82050c8926b51d9cef0d1ae047bd7b4166279b2a529690"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/complete_deliverables.py",
+      "sha256": "6e840eb5f0ecd790c576192bdfc9917438d7bc66f89d0e62deb7ae9cf2779ec0"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/finalize_audit.py",
+      "sha256": "eff95ddfb16625352d45225e2ccda91c5e33282c2e80831e847556777cbbe162"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/validate_audit.py",
+      "sha256": "60aaed66e3d13b8bf9a243cefbc5b7f57c833636670aadd0c4299b3a13830d21"
+    }
+  ],
+  "output_hashes_excluding_self_and_delivery": [
+    {
+      "path": "AFFECTED_QUERY_MAP.csv",
+      "bytes": 262023,
+      "sha256": "46013f63dcf84069d979aebd8357a8e95823d43459ab3aae0379133126464b5b"
+    },
+    {
+      "path": "ASSET_SOURCE_INVENTORY.csv",
+      "bytes": 79452,
+      "sha256": "a123bd29a41ea193d93b66248f48884735beffd8172eade5419030c7cbe3c297"
+    },
+    {
+      "path": "DEFINITION_IMPACT_SUMMARY.csv",
+      "bytes": 18050,
+      "sha256": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c"
+    },
+    {
+      "path": "EXTRACTION_PIPELINE_AUDIT.csv",
+      "bytes": 28110,
+      "sha256": "093fd324e32ad6881cc64862933f0265bd8424bd3e7db88bf0a520aa0af15dc7"
+    },
+    {
+      "path": "GOLD_SCOPE_AUDIT.csv",
+      "bytes": 100539,
+      "sha256": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225"
+    },
+    {
+      "path": "HUMAN_ADJUDICATION_QUEUE.csv",
+      "bytes": 27756,
+      "sha256": "729ca0ef646adccbef3a23f407f6fff6fc1dfbe9c22df83f749a7bc73d349f83"
+    },
+    {
+      "path": "INPUT_LABEL_SCOPE_AUDIT_REPORT.md",
+      "bytes": 16777,
+      "sha256": "bcc4b0a9955ebb8bf76586aca37c258279829eaf70b932beb307be144b088ca9"
+    },
+    {
+      "path": "PARENT_CHILD_MAPPING_AUDIT.csv",
+      "bytes": 48663,
+      "sha256": "81c4a45337bd021b027d51ef86235a1dd7dcad89833fceda8b3eab508bd997ed"
+    },
+    {
+      "path": "REPAIRABILITY_REGISTER.csv",
+      "bytes": 12602,
+      "sha256": "a53fe8fd4cef17a2d655ceccd3afeaae853bce74aa3b19c6cb98eab4c6dc6e3a"
+    },
+    {
+      "path": "TECHNIQUE_DEFINITION_AUDIT.csv",
+      "bytes": 25165,
+      "sha256": "4df08bd10ca616679d0e35352431167d24f39ae1c786e046005944f5e7568141"
+    },
+    {
+      "path": "audit/ASSET_READ_SNAPSHOT.json",
+      "bytes": 95042,
+      "sha256": "2457dd624a49fee37847813061a89bf445f6e1b9267437b988db5205ced5473e"
+    },
+    {
+      "path": "audit/BOUNDED_TRANSFORMATION_PROOF.json",
+      "bytes": 61237,
+      "sha256": "8ede6af85a1b3b5b4d7bcef69ecb92f6a5f4f2bcd1a62b49ce401d6d9117251d"
+    },
+    {
+      "path": "audit/FROZEN_AUDIT_QUEUES.json",
+      "bytes": 2418,
+      "sha256": "01fa329965d3e36599871a386d8162c183936df3cc7a030fdf895264cf07613f"
+    },
+    {
+      "path": "audit/GATE_CONTEXT_INSPECTION.json",
+      "bytes": 12597,
+      "sha256": "0b763bba20f0427b4e3a8ad56eb5a824613f8f3c7acc2d4df8641814f8bb048c"
+    },
+    {
+      "path": "audit/IMPACT_ID_SETS.json",
+      "bytes": 193366,
+      "sha256": "3986b8072fb04c0ee460a4a3e60483bc790e0211d57e541f4a623ea09c024514"
+    },
+    {
+      "path": "audit/INDEPENDENT_VALIDATION_CHECKS.json",
+      "bytes": 88101,
+      "sha256": "b96b2c8bfdc961a8ac654cb4cd16aa630ffb60613d79f8810fd0495401bf51f7"
+    },
+    {
+      "path": "audit/LEGACY_HASH_MISMATCHES_PRESERVED.json",
+      "bytes": 505,
+      "sha256": "519c10bb551ae403cdf0f953f384e6f4fcbab386b4b626e7766517070dd1e978"
+    },
+    {
+      "path": "audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+      "bytes": 14613,
+      "sha256": "aebf08f53fa9a9130c2325f337a7621eb9624b01bc5639ac7c384cc0bf3ee9bd"
+    },
+    {
+      "path": "audit/SELECTED_AUTHOR_LABEL_METADATA.json",
+      "bytes": 17040,
+      "sha256": "3236628a9cdc6bf2adebfab0f62c8b2ff290acf3933cf8e4bf2b2fbb82dccdfb"
+    },
+    {
+      "path": "audit/SELECTED_SOURCE_FIELD_EVIDENCE.json",
+      "bytes": 3746024,
+      "sha256": "778d253893706a98604f562fb6870b3add474c7961a6b26481e27e6f87bd47bd"
+    },
+    {
+      "path": "audit/SOURCE_HASH_COMPARISONS.json",
+      "bytes": 6899,
+      "sha256": "8d79680913e62eb21b21d73e9ece79014de13c417f7e9fed8e3cd13233b03ede"
+    },
+    {
+      "path": "code/audit_io.py",
+      "bytes": 2321,
+      "sha256": "682f6fce807381f0df06925cb078bfdb5c525319d1026e8e5394662262855f74"
+    },
+    {
+      "path": "code/build_audit.py",
+      "bytes": 24850,
+      "sha256": "b1980300d96dca208a82050c8926b51d9cef0d1ae047bd7b4166279b2a529690"
+    },
+    {
+      "path": "code/complete_deliverables.py",
+      "bytes": 40109,
+      "sha256": "6e840eb5f0ecd790c576192bdfc9917438d7bc66f89d0e62deb7ae9cf2779ec0"
+    },
+    {
+      "path": "code/finalize_audit.py",
+      "bytes": 3007,
+      "sha256": "eff95ddfb16625352d45225e2ccda91c5e33282c2e80831e847556777cbbe162"
+    },
+    {
+      "path": "code/validate_audit.py",
+      "bytes": 16694,
+      "sha256": "60aaed66e3d13b8bf9a243cefbc5b7f57c833636670aadd0c4299b3a13830d21"
+    },
+    {
+      "path": "protocol/BLOCKER_REGISTER.json",
+      "bytes": 3093,
+      "sha256": "55b12c18ac310d6248c41b8cb06b50186b3cb1c969a5b6adbe3f2f3633a4ebc3"
+    },
+    {
+      "path": "protocol/INPUT_LABEL_AUDIT_PROTOCOL.md",
+      "bytes": 4391,
+      "sha256": "cb1364dc81334d7a520c8a8e50ffce5d073b23b80780480ed60f089aa967fe0b"
+    },
+    {
+      "path": "protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md",
+      "bytes": 2701,
+      "sha256": "a71c8c9b743f2630762f1d66b9e0e3cc266e42594cfa1515062017f6208b4d80"
+    },
+    {
+      "path": "protocol/USER_REQUEST_PART_1.txt",
+      "bytes": 10568,
+      "sha256": "ceb256b93ea070df1fc618d2b3ac4e9879be28399d446ffa1ecbbfe53103e134"
+    },
+    {
+      "path": "protocol/USER_REQUEST_PART_2.txt",
+      "bytes": 14114,
+      "sha256": "dde31453a4b3fdf131b6842c41c340baba7157a6c23340c1e2011628f61f8499"
+    },
+    {
+      "path": "results/AUDIT_COUNTS.json",
+      "bytes": 1399,
+      "sha256": "651d1ca1eaee0fbc024f5dcaf38616bdc23d57bc629dce472e55fd2542dc39ee"
+    },
+    {
+      "path": "results/DEFINITION_IMPACT_SUMMARY.csv",
+      "bytes": 18050,
+      "sha256": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c"
+    },
+    {
+      "path": "results/FINAL_VALIDATION.json",
+      "bytes": 6704,
+      "sha256": "7ca206ec4db647e0abad01b2a1b079c98bc85db1dfbbaaf3593e0402e0e0342a"
+    },
+    {
+      "path": "review/GOLD_SCOPE_AUDIT.csv",
+      "bytes": 100539,
+      "sha256": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225"
+    }
+  ],
+  "final_readback_status": "PASS_WITH_DOCUMENTED_SCIENTIFIC_BLOCKERS"
+}

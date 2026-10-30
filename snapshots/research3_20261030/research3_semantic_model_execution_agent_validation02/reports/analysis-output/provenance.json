@@ -1,0 +1,25 @@
+{
+  "prediction_sources": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/results/server_gpu/EMBEDDING_REAL_PREDICTIONS.jsonl",
+      "sha256": "f5bc86016a6319e33643fa90f74f44c6db59bd066ec969a5865b994fce399f04"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/results/server_gpu/M0_MATCHED_PREDICTIONS.jsonl",
+      "sha256": "493abff14755f560d735c7f3638771bc31ceb33b2fad4ce865758b30e9e71961"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/results/server_gpu/RERANKER_REAL_PREDICTIONS.jsonl",
+      "sha256": "c49150c642eae993e1e4e4b60b7c030b05e13ed0cdccd61a2590e1bf50e87a57"
+    }
+  ],
+  "evaluation_script_sha256": "fb7ec4bbca0641d6e7d3be87c54713bdf6fdda856144718e6fa9800d283f85b7",
+  "agent_audit_script_sha256": "89ef80dbb50cf119b02b4b3b26d3d9b66f108bd9986108624533ebde9a611bd5",
+  "Gold_location": "LOCAL frozen reference only; no server copy",
+  "comparison_question": "same visible observation and knowledge budgets; paired logical-step contrasts; strict valid same-case Agent comparison",
+  "split": "EXPOSED_DEV; P2 related development",
+  "input_repair_registration_sha256": "b7f9e8d2bffbb3805fdac2f0c8b9f34e080451a372ce9ea4907984795826c118",
+  "GPU_wrapper_sha256": "1d39c1fe850e4a9432594507e4b255b9342ae53abaf019330b5683883afdeb3b",
+  "V1_results_preserved": "results/server_gpu_v1",
+  "input_repair_difference_table": "results/INPUT_REPAIR_V1_V2_METRICS.csv"
+}

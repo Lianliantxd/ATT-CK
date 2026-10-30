@@ -1,0 +1,13 @@
+{
+  "conditions": 49,
+  "queries_each": 975,
+  "prediction_rows": 47775,
+  "new_model_calls": 0,
+  "runtime_seconds": 64.74771074997261,
+  "predictor_source_sha256": "0290d028383be1a1b8d093a6212e64f38e4d540d55c0804b3c83cf8f1b9edbec",
+  "frozen_index_source_sha256": "1df6ec406dda9fca4f6fea6a3817582ac17ce4d9e2f199eb8f49b0f4bee1e45b",
+  "input_sha256": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+  "knowledge_sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+  "new_neural_forward": "MODEL_FORWARD_NOT_AUTHORIZED",
+  "no_gold_input": true
+}

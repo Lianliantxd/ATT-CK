@@ -1,0 +1,28 @@
+{
+  "source_sha256": "9024b17f168481fddff6c95873d08c6d629d8ead3351a998200e3bad8e209fb1",
+  "queries": 975,
+  "logical_steps": 195,
+  "model_view_byte_cap": 2000,
+  "knowledge_byte_cap": 1000,
+  "knowledge_doc_count": 216,
+  "views": [
+    "RAW",
+    "LITERAL",
+    "LITERAL_PLUS_RELATIONS",
+    "RAW_PLUS_LITERAL",
+    "CLEAN_FIELDS",
+    "ROLE_LABELS_REMOVED",
+    "NO_RESULT",
+    "NO_ACTION_NORMALIZATION"
+  ],
+  "all_source_facts": "previous V2 prefix fragments only; further common truncation; no new logs",
+  "new_model_calls": 0,
+  "all_raw_inputs_nonempty": true,
+  "mechanism_events": 4368,
+  "relations": 997,
+  "field_trace_rows": 34510,
+  "builder_sha256": "d533af5188a2faa5cf278ef43ae025fd387a44c93bb90d0f781b8c0c2a05f301",
+  "extractor_sha256": "ee8683947297e603ed73a06a289260124a424874aae07ad2c2b61742893f79cd",
+  "new_GPU_authorization": "NOT_PRESENT",
+  "human_reference": "PENDING"
+}

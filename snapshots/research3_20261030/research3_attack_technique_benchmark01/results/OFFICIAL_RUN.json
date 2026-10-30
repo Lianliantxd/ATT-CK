@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/Benchmark/bin/python",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/get_statistics.py",
+    "--labels",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/labels.json",
+    "--responses",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/eligible_author_responses.jsonl",
+    "--mitre-matrix",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "--out-prefix",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/results/official",
+    "--random-trials",
+    "5"
+  ],
+  "exit_code": 0,
+  "random_trials": 5
+}

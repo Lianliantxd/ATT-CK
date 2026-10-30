@@ -1,0 +1,9 @@
+{
+  "conditions": 16,
+  "rows": 15600,
+  "seconds": 5.589290915988386,
+  "new_model_calls": 0,
+  "main_input_sha256": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+  "main_knowledge_sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+  "same_word_multiset_in_word_order_control": true
+}

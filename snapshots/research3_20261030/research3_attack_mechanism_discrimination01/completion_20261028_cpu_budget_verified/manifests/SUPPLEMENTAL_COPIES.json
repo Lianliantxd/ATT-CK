@@ -1,0 +1,62 @@
+[
+  {
+    "name": "CANDIDATE_SCORE_CONSISTENCY.csv",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/CANDIDATE_SCORE_CONSISTENCY.csv",
+    "sha256": "e7cd42502e4c4615213a15d56f18cc2b184e6665969272943de42d6dfbe61bae"
+  },
+  {
+    "name": "CANDIDATE_RANK_TRANSITIONS.csv",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/CANDIDATE_RANK_TRANSITIONS.csv",
+    "sha256": "bd4d7425e8d432995d7f857c9926ebcc014690407af70333f56954f741399a7e"
+  },
+  {
+    "name": "DIAGNOSTIC_30_SELECTION_PROTOCOL.md",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/DIAGNOSTIC_30_SELECTION_PROTOCOL.md",
+    "sha256": "70f9a665f217d3b3edde062d359ddfba169253cce6ba5cc63394333cd7396dce"
+  },
+  {
+    "name": "DIAGNOSTIC_30_FROZEN_IDS.json",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/DIAGNOSTIC_30_FROZEN_IDS.json",
+    "sha256": "266c54b4d6ffcca7f9b2e02bfd2ce7126acff80c2581d1f99f9de61de308bbb8"
+  },
+  {
+    "name": "DIAGNOSTIC_30_CASES.jsonl",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/DIAGNOSTIC_30_CASES.jsonl",
+    "sha256": "685245cf603a023a137528bbf75c6dcb2c1e7a836f82db8231ca1dfadd4e8222"
+  },
+  {
+    "name": "DIAGNOSTIC_30_DEPENDENCY_AUDIT.csv",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/DIAGNOSTIC_30_DEPENDENCY_AUDIT.csv",
+    "sha256": "900af361edadfd8c89dff7f84b478e3b612d9657b026c3ef7ba5d0cba9eceab1"
+  },
+  {
+    "name": "MECHANISM_IR_SCHEMA.json",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_IR_SCHEMA.json",
+    "sha256": "0e84fb7dfab9926eaa99be608aa01cc222af921436b2aef05ec2c2c0d64120d3"
+  },
+  {
+    "name": "MECHANISM_SOURCE_TRACE.csv",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_SOURCE_TRACE.csv",
+    "sha256": "a77df0c5f548c0d1711239ccacae22f2b5ba9e473e9b7b8154acc6afd6f412c0"
+  },
+  {
+    "name": "MECHANISM_CARD_SOURCE_AUDIT.csv",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_CARD_SOURCE_AUDIT.csv",
+    "sha256": "321e710790c806f5d974244f782f45e301c4e3c464517c0d7582083e93a30a07"
+  },
+  {
+    "name": "MECHANISM_BLIND_REVIEW_PACKETS.jsonl",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_BLIND_REVIEW_PACKETS.jsonl",
+    "sha256": "b0526ece6ee8dc0e0eba66c2757a07e5dab923ac7b22433e2cc0e384c3b641ef"
+  },
+  {
+    "name": "MECHANISM_HUMAN_REVIEW_STATUS.csv",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_HUMAN_REVIEW_STATUS.csv",
+    "sha256": "2495ff9d3b73cb0cd1fbdb7a5e9003e42dad66cd38770632da1d75e87c2baba8"
+  },
+  {
+    "name": "MODEL_FORWARD_AUTHORIZATION_REQUEST.md",
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MODEL_FORWARD_AUTHORIZATION_REQUEST.md",
+    "sha256": "8dee8909f706591d9992f1d1da1e0f5e6b513605b1ac0f9c3845479e9e6ef6ed"
+  }
+]

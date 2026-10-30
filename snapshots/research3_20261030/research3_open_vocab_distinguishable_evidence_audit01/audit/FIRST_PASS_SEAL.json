@@ -1,0 +1,33 @@
+{
+  "phase": "FIRST_PASS_COMPLETE_SEALED",
+  "created_utc": "2026-10-28T17:13:32.408242+00:00",
+  "query_count": 384,
+  "unique_queries": 384,
+  "condition_instances": 2555,
+  "all80_steps_and384_occurrence_maps_read": true,
+  "new_current_candidate_payload_access_before_seal": false,
+  "independent_blinding": "NOT_AVAILABLE",
+  "historical_information_already_exposed": true,
+  "files": [
+    {
+      "path": "review/FIRST_PASS_MANUAL_NOTES.json",
+      "sha256": "39184fb5f72a4b6cb88278bf1e6452e8b093ea8d5fc4aad8ea76d47825a104d4"
+    },
+    {
+      "path": "review/GOLD_CONDITION_REGISTRY.json",
+      "sha256": "50b63cd68f6b7edaf7bfe8d850ef1b714da561eeb428744983dd00c0785af9df"
+    },
+    {
+      "path": "review/FIRST_PASS_CASE_EVIDENCE.jsonl",
+      "sha256": "d96c6b843854498147a30b4913647609757a32bb44c8696143145decc6cd1681"
+    },
+    {
+      "path": "review/CONDITION_EVIDENCE_MATRIX.csv",
+      "sha256": "18d5b682289a5f83d96b45b72002f94e134dc72db607c1b64a624c35a103c865"
+    },
+    {
+      "path": "review/DERIVED_VISIBLE_HEX.jsonl",
+      "sha256": "77d29fca356635c2b8108b7df0094195e43bfebb3f0537e36b91d07a37e081b9"
+    }
+  ]
+}

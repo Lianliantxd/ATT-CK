@@ -1,0 +1,5 @@
+# 描述覆盖审计
+
+K2描述来自既有MITRE16.1 STIX，原SHA256 `2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711`。原文档的来源说明不能证明和官方matrix同发行版本；本轮没有用最新版覆盖作者空间。203/216有有效非撤销/非弃用描述；13缺描述仍保留在主协议。缺口清单见KNOWLEDGE_COVERAGE_REPORT.md。
+
+K4仅作为分析条件，不替代主216候选表。所有975 P0 Gold都在共同203覆盖内，所以对照保留相同样本，N/excluded_gold_outside_common_coverage显式报告。候选数变少同时改变IDF和排序干扰项；不能拿203类最好数值当216类正式成绩。

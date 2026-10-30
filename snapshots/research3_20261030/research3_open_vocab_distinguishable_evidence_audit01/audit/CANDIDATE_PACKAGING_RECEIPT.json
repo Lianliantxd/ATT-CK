@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-28T17:14:04.898927+00:00",
+  "first_pass_seal_sha256": "8985024e9346e1a7a5030aa340bb833a8530650305e7b9ef8541925f30ee327a",
+  "first_pass_integrity_verified": true,
+  "source_path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_EVIDENCE_CARDS.jsonl",
+  "source_sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80",
+  "packets": 384,
+  "candidate_ids": 125,
+  "unique_candidate_sets": 140,
+  "rank_and_score_fields_emitted": false,
+  "independent_coordinator": false,
+  "candidate_order_file_sha256": "17a89e788dfcab7015b45c3628d921d3a0c6a590f518b5b9101eb6769335393b",
+  "actual_seed_recorded_per_case": true,
+  "new_model_calls": 0
+}

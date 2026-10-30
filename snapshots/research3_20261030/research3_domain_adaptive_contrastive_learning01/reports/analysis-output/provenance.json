@@ -1,0 +1,61 @@
+{
+  "sources": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/TRAINING_BASELINE_PREDICTIONS.jsonl",
+      "sha256": "44dd1750163deed85bf293e25ac8210414272a226a6f47014d819c12d2b9df12"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/results/OVERALL_RESULTS.csv",
+      "sha256": "a40cb6bc14b73c2b2549d76137d8c181f24c388841cccf39dee29da292cce679"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/GROUPED_TRAIN_VALIDATION_SPLITS.json",
+      "sha256": "879bac94d85a5106a36345b9d9ce3f85f0b383978d8a6b914bb2cec1374bd96d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/P0_REFERENCE.jsonl",
+      "sha256": "1a6e19e7759054628dba3a210753460caec7c1a7b81e40291cdf6f2f4d32856e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/manifests/TRAINING_PROTOCOL.json",
+      "sha256": "d38359359b6d2db8f2be223847efb420b6afc0b8a862673c78900b9f618a4d3a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/manifests/FEATURE_EXTRACTION_AUTHORIZATION.json",
+      "sha256": "1b4b9bcbdb90b67cf66d53abd647b9f5f3277a929940efd1834974a824f7ce1b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/embeddings/FROZEN_GTE_FEATURES.npz",
+      "sha256": "c66d200cc54c8e3599fdcaa0686d40b653e431882d6a3c789ab6a5e83ae4ea56"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/embeddings/FEATURE_EXTRACTION_RECEIPT.json",
+      "sha256": "b31888ebf2ef561b793a10405bbdd772b978bd59e6b245450a3580f71f2b8506"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/results/TRAINED_HEADS_INDEPENDENT_AUDIT.json",
+      "sha256": "09fad54215021dae49652dcbda778a46f69829af91d1e1da004d65bd102a6c61"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/results/NEGATIVE_MINING_AUDIT.json",
+      "sha256": "2354b955dfdbbb4edda125380d488ef2980222d7c21cec19c1187f84d01f3856"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/results/FINAL_EVALUATION_INDEPENDENT_AUDIT.json",
+      "sha256": "e373c03b7c33c9a1b8247c28b5767f757a1a55ba2551c554fbd186fa2c63d58b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/evaluation/evaluate_saved.py",
+      "sha256": "9b5add94de642a82dc201cc3b94e080fcf5e85d147cfee12e387da66432b51db"
+    }
+  ],
+  "primary_metric": "MRR@10",
+  "new_GPU_experiments": 1,
+  "GPU_experiment_type": "FROZEN_FEATURE_EXTRACTION_NOT_PARAMETER_TRAINING",
+  "Gold_GPU_server_upload": false,
+  "actual_CPU_configurations": 378,
+  "GTE_backbone_updated": false,
+  "real_contrastive_heads_trained": true,
+  "new_LLM_calls": 0,
+  "external_test_samples": 0
+}

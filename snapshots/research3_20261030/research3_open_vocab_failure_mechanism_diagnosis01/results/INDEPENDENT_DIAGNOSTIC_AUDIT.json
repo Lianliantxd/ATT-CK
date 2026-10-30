@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "candidate_rows_checked": 1263600,
+  "query_blocks_checked": 5850,
+  "gold_rows_checked": 3630,
+  "loss_cases_checked": 189,
+  "scalar_score_max_abs_error": 0.0,
+  "all_query_and_gold_sets_recreated_from_frozen_predictions": true,
+  "within_unseen_rank_identity_verified": true,
+  "counterfactuals_are_diagnostics_only": true,
+  "heldout_Gold_used_for_posterior_diagnosis_only": true,
+  "new_model_calls": 0,
+  "new_parameters_fit": 0,
+  "seconds": 35.475448625000354,
+  "source_sha256": "fbd4221bfb461db4d3806fb639af42ba52cee0e401f8691126abcd3699f433c0"
+}

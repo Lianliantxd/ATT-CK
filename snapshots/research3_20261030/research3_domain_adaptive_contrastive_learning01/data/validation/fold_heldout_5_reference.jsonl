@@ -1,0 +1,230 @@
+{"sample_id": "6-1-r0", "logical_step_id": "6-1", "gold_technique_ids": ["T1105", "T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-11-r0", "logical_step_id": "6-11", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-12-r0", "logical_step_id": "6-12", "gold_technique_ids": ["T1546", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-13-r0", "logical_step_id": "6-13", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-14-r0", "logical_step_id": "6-14", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-15-r0", "logical_step_id": "6-15", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-16-r0", "logical_step_id": "6-16", "gold_technique_ids": ["T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-17-r0", "logical_step_id": "6-17", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-18-r0", "logical_step_id": "6-18", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-19-r0", "logical_step_id": "6-19", "gold_technique_ids": ["T1010"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-2-r0", "logical_step_id": "6-2", "gold_technique_ids": ["T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-20-r0", "logical_step_id": "6-20", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-21-r0", "logical_step_id": "6-21", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-22-r0", "logical_step_id": "6-22", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-23-r0", "logical_step_id": "6-23", "gold_technique_ids": ["T1070"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-3-r0", "logical_step_id": "6-3", "gold_technique_ids": ["T1082"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-4-r0", "logical_step_id": "6-4", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-5-r0", "logical_step_id": "6-5", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-6-r0", "logical_step_id": "6-6", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-9-r0", "logical_step_id": "6-9", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-24-r0", "logical_step_id": "6-24", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-26-r0", "logical_step_id": "6-26", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-28-r0", "logical_step_id": "6-28", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-29-r0", "logical_step_id": "6-29", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-30-r0", "logical_step_id": "6-30", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-31-r0", "logical_step_id": "6-31", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-32-r0", "logical_step_id": "6-32", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-33-r0", "logical_step_id": "6-33", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-34-r0", "logical_step_id": "6-34", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-35-r0", "logical_step_id": "6-35", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-36-r0", "logical_step_id": "6-36", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-37-r0", "logical_step_id": "6-37", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-10-r0", "logical_step_id": "6-10", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-39-r0", "logical_step_id": "6-39", "gold_technique_ids": ["T1105", "T1204", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-41-r0", "logical_step_id": "6-41", "gold_technique_ids": ["T1204", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-43-r0", "logical_step_id": "6-43", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-44-r0", "logical_step_id": "6-44", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-45-r0", "logical_step_id": "6-45", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-46-r0", "logical_step_id": "6-46", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-47-r0", "logical_step_id": "6-47", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-49-r0", "logical_step_id": "6-49", "gold_technique_ids": ["T1105", "T1219", "T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-51-r0", "logical_step_id": "6-51", "gold_technique_ids": ["T1219", "T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-53-r0", "logical_step_id": "6-53", "gold_technique_ids": ["T1105", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-57-r0", "logical_step_id": "6-57", "gold_technique_ids": ["T1219", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-59-r0", "logical_step_id": "6-59", "gold_technique_ids": ["T1059", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-8-r0", "logical_step_id": "6-8", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-1-r1", "logical_step_id": "6-1", "gold_technique_ids": ["T1105", "T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-11-r1", "logical_step_id": "6-11", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-12-r1", "logical_step_id": "6-12", "gold_technique_ids": ["T1546", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-13-r1", "logical_step_id": "6-13", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-14-r1", "logical_step_id": "6-14", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-15-r1", "logical_step_id": "6-15", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-16-r1", "logical_step_id": "6-16", "gold_technique_ids": ["T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-17-r1", "logical_step_id": "6-17", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-18-r1", "logical_step_id": "6-18", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-19-r1", "logical_step_id": "6-19", "gold_technique_ids": ["T1010"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-2-r1", "logical_step_id": "6-2", "gold_technique_ids": ["T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-20-r1", "logical_step_id": "6-20", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-21-r1", "logical_step_id": "6-21", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-22-r1", "logical_step_id": "6-22", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-23-r1", "logical_step_id": "6-23", "gold_technique_ids": ["T1070"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-3-r1", "logical_step_id": "6-3", "gold_technique_ids": ["T1082"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-4-r1", "logical_step_id": "6-4", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-5-r1", "logical_step_id": "6-5", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-6-r1", "logical_step_id": "6-6", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-9-r1", "logical_step_id": "6-9", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-24-r1", "logical_step_id": "6-24", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-26-r1", "logical_step_id": "6-26", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-28-r1", "logical_step_id": "6-28", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-29-r1", "logical_step_id": "6-29", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-30-r1", "logical_step_id": "6-30", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-31-r1", "logical_step_id": "6-31", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-32-r1", "logical_step_id": "6-32", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-33-r1", "logical_step_id": "6-33", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-34-r1", "logical_step_id": "6-34", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-35-r1", "logical_step_id": "6-35", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-36-r1", "logical_step_id": "6-36", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-37-r1", "logical_step_id": "6-37", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-10-r1", "logical_step_id": "6-10", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-39-r1", "logical_step_id": "6-39", "gold_technique_ids": ["T1105", "T1204", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-41-r1", "logical_step_id": "6-41", "gold_technique_ids": ["T1204", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-43-r1", "logical_step_id": "6-43", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-44-r1", "logical_step_id": "6-44", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-45-r1", "logical_step_id": "6-45", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-46-r1", "logical_step_id": "6-46", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-47-r1", "logical_step_id": "6-47", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-49-r1", "logical_step_id": "6-49", "gold_technique_ids": ["T1105", "T1219", "T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-51-r1", "logical_step_id": "6-51", "gold_technique_ids": ["T1219", "T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-53-r1", "logical_step_id": "6-53", "gold_technique_ids": ["T1105", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-57-r1", "logical_step_id": "6-57", "gold_technique_ids": ["T1219", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-59-r1", "logical_step_id": "6-59", "gold_technique_ids": ["T1059", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-8-r1", "logical_step_id": "6-8", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-1-r2", "logical_step_id": "6-1", "gold_technique_ids": ["T1105", "T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-11-r2", "logical_step_id": "6-11", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-12-r2", "logical_step_id": "6-12", "gold_technique_ids": ["T1546", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-13-r2", "logical_step_id": "6-13", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-14-r2", "logical_step_id": "6-14", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-15-r2", "logical_step_id": "6-15", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-16-r2", "logical_step_id": "6-16", "gold_technique_ids": ["T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-17-r2", "logical_step_id": "6-17", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-18-r2", "logical_step_id": "6-18", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-19-r2", "logical_step_id": "6-19", "gold_technique_ids": ["T1010"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-2-r2", "logical_step_id": "6-2", "gold_technique_ids": ["T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-20-r2", "logical_step_id": "6-20", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-21-r2", "logical_step_id": "6-21", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-22-r2", "logical_step_id": "6-22", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-23-r2", "logical_step_id": "6-23", "gold_technique_ids": ["T1070"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-3-r2", "logical_step_id": "6-3", "gold_technique_ids": ["T1082"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-4-r2", "logical_step_id": "6-4", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-5-r2", "logical_step_id": "6-5", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-6-r2", "logical_step_id": "6-6", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-9-r2", "logical_step_id": "6-9", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-24-r2", "logical_step_id": "6-24", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-26-r2", "logical_step_id": "6-26", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-28-r2", "logical_step_id": "6-28", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-29-r2", "logical_step_id": "6-29", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-30-r2", "logical_step_id": "6-30", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-31-r2", "logical_step_id": "6-31", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-32-r2", "logical_step_id": "6-32", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-33-r2", "logical_step_id": "6-33", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-34-r2", "logical_step_id": "6-34", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-35-r2", "logical_step_id": "6-35", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-36-r2", "logical_step_id": "6-36", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-37-r2", "logical_step_id": "6-37", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-10-r2", "logical_step_id": "6-10", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-39-r2", "logical_step_id": "6-39", "gold_technique_ids": ["T1105", "T1204", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-41-r2", "logical_step_id": "6-41", "gold_technique_ids": ["T1204", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-43-r2", "logical_step_id": "6-43", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-44-r2", "logical_step_id": "6-44", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-45-r2", "logical_step_id": "6-45", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-46-r2", "logical_step_id": "6-46", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-47-r2", "logical_step_id": "6-47", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-49-r2", "logical_step_id": "6-49", "gold_technique_ids": ["T1105", "T1219", "T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-51-r2", "logical_step_id": "6-51", "gold_technique_ids": ["T1219", "T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-53-r2", "logical_step_id": "6-53", "gold_technique_ids": ["T1105", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-57-r2", "logical_step_id": "6-57", "gold_technique_ids": ["T1219", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-59-r2", "logical_step_id": "6-59", "gold_technique_ids": ["T1059", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-8-r2", "logical_step_id": "6-8", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-1-r3", "logical_step_id": "6-1", "gold_technique_ids": ["T1105", "T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-11-r3", "logical_step_id": "6-11", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-12-r3", "logical_step_id": "6-12", "gold_technique_ids": ["T1546", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-13-r3", "logical_step_id": "6-13", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-14-r3", "logical_step_id": "6-14", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-15-r3", "logical_step_id": "6-15", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-16-r3", "logical_step_id": "6-16", "gold_technique_ids": ["T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-17-r3", "logical_step_id": "6-17", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-18-r3", "logical_step_id": "6-18", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-19-r3", "logical_step_id": "6-19", "gold_technique_ids": ["T1010"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-2-r3", "logical_step_id": "6-2", "gold_technique_ids": ["T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-20-r3", "logical_step_id": "6-20", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-21-r3", "logical_step_id": "6-21", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-22-r3", "logical_step_id": "6-22", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-23-r3", "logical_step_id": "6-23", "gold_technique_ids": ["T1070"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-3-r3", "logical_step_id": "6-3", "gold_technique_ids": ["T1082"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-4-r3", "logical_step_id": "6-4", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-5-r3", "logical_step_id": "6-5", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-6-r3", "logical_step_id": "6-6", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-9-r3", "logical_step_id": "6-9", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-24-r3", "logical_step_id": "6-24", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-26-r3", "logical_step_id": "6-26", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-28-r3", "logical_step_id": "6-28", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-29-r3", "logical_step_id": "6-29", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-30-r3", "logical_step_id": "6-30", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-31-r3", "logical_step_id": "6-31", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-32-r3", "logical_step_id": "6-32", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-33-r3", "logical_step_id": "6-33", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-34-r3", "logical_step_id": "6-34", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-35-r3", "logical_step_id": "6-35", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-36-r3", "logical_step_id": "6-36", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-37-r3", "logical_step_id": "6-37", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-10-r3", "logical_step_id": "6-10", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-39-r3", "logical_step_id": "6-39", "gold_technique_ids": ["T1105", "T1204", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-41-r3", "logical_step_id": "6-41", "gold_technique_ids": ["T1204", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-43-r3", "logical_step_id": "6-43", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-44-r3", "logical_step_id": "6-44", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-45-r3", "logical_step_id": "6-45", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-46-r3", "logical_step_id": "6-46", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-47-r3", "logical_step_id": "6-47", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-49-r3", "logical_step_id": "6-49", "gold_technique_ids": ["T1105", "T1219", "T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-51-r3", "logical_step_id": "6-51", "gold_technique_ids": ["T1219", "T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-53-r3", "logical_step_id": "6-53", "gold_technique_ids": ["T1105", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-57-r3", "logical_step_id": "6-57", "gold_technique_ids": ["T1219", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-59-r3", "logical_step_id": "6-59", "gold_technique_ids": ["T1059", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-8-r3", "logical_step_id": "6-8", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-1-r4", "logical_step_id": "6-1", "gold_technique_ids": ["T1105", "T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-11-r4", "logical_step_id": "6-11", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-12-r4", "logical_step_id": "6-12", "gold_technique_ids": ["T1546", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-13-r4", "logical_step_id": "6-13", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-14-r4", "logical_step_id": "6-14", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-15-r4", "logical_step_id": "6-15", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-16-r4", "logical_step_id": "6-16", "gold_technique_ids": ["T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-17-r4", "logical_step_id": "6-17", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-18-r4", "logical_step_id": "6-18", "gold_technique_ids": ["T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-19-r4", "logical_step_id": "6-19", "gold_technique_ids": ["T1010"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-2-r4", "logical_step_id": "6-2", "gold_technique_ids": ["T1204"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-20-r4", "logical_step_id": "6-20", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-21-r4", "logical_step_id": "6-21", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-22-r4", "logical_step_id": "6-22", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-23-r4", "logical_step_id": "6-23", "gold_technique_ids": ["T1070"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-3-r4", "logical_step_id": "6-3", "gold_technique_ids": ["T1082"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-4-r4", "logical_step_id": "6-4", "gold_technique_ids": ["T1105"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-5-r4", "logical_step_id": "6-5", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-6-r4", "logical_step_id": "6-6", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-9-r4", "logical_step_id": "6-9", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-24-r4", "logical_step_id": "6-24", "gold_technique_ids": ["T1053"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-26-r4", "logical_step_id": "6-26", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-28-r4", "logical_step_id": "6-28", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-29-r4", "logical_step_id": "6-29", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-30-r4", "logical_step_id": "6-30", "gold_technique_ids": ["T1056", "T1115", "T1176"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-31-r4", "logical_step_id": "6-31", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-32-r4", "logical_step_id": "6-32", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-33-r4", "logical_step_id": "6-33", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-34-r4", "logical_step_id": "6-34", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-35-r4", "logical_step_id": "6-35", "gold_technique_ids": ["T1056"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-36-r4", "logical_step_id": "6-36", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-37-r4", "logical_step_id": "6-37", "gold_technique_ids": ["T1115"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-10-r4", "logical_step_id": "6-10", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-39-r4", "logical_step_id": "6-39", "gold_technique_ids": ["T1105", "T1204", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-41-r4", "logical_step_id": "6-41", "gold_technique_ids": ["T1204", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-43-r4", "logical_step_id": "6-43", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-44-r4", "logical_step_id": "6-44", "gold_technique_ids": ["T1219", "T1566"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-45-r4", "logical_step_id": "6-45", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-46-r4", "logical_step_id": "6-46", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-47-r4", "logical_step_id": "6-47", "gold_technique_ids": ["T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-49-r4", "logical_step_id": "6-49", "gold_technique_ids": ["T1105", "T1219", "T1564"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-51-r4", "logical_step_id": "6-51", "gold_technique_ids": ["T1219", "T1222"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-53-r4", "logical_step_id": "6-53", "gold_technique_ids": ["T1105", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-57-r4", "logical_step_id": "6-57", "gold_technique_ids": ["T1219", "T1574"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-59-r4", "logical_step_id": "6-59", "gold_technique_ids": ["T1059", "T1219"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "6-8-r4", "logical_step_id": "6-8", "gold_technique_ids": ["T1059"], "scenario_id": "6", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}

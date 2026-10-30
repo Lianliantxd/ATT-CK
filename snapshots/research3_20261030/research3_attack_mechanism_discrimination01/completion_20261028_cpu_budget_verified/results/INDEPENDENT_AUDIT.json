@@ -1,0 +1,12 @@
+{
+  "inherited_assets_unchanged": 752,
+  "CPU_conditions_recomputed": 98,
+  "prediction_rows": 95550,
+  "saved_neural_rows": 5850,
+  "unique_saved_neural_pairs": 140015,
+  "new_model_calls": 0,
+  "raw_archives_opened": 0,
+  "restricted_steps_read": 0,
+  "independent_semantic_accuracy": "NA_HUMAN_PENDING",
+  "parent_directory": "read-only snapshot; concurrent new files do not change continuation scope"
+}

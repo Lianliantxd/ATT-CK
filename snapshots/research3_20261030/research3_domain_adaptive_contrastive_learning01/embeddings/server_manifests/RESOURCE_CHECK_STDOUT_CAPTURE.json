@@ -1,0 +1,25 @@
+{
+  "capture_kind": "transcribed from successful exec_command stdout; NOT a downloaded remote file",
+  "status": "COMPLETED_WITHIN_AUTHORIZED_LIMITS",
+  "disk_bytes": 3653632,
+  "weight_sha256_after": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba",
+  "GPU0_final_memory_MiB": 11,
+  "GPU0_final_utilization_percent": 0,
+  "no_Gold_upload": true,
+  "no_GPU_training": true,
+  "remote_check_timestamp_unix": 1793156095.0643413,
+  "environment_setup_stdout": {
+    "venv": "/home/tianxiaodan/projects/R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01/venvs/R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+    "readonly_dependency_source": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages",
+    "links_created": 60,
+    "no_packages_installed": true,
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "CUDA_available": true
+  },
+  "additional_manifest_scp_status": "BLOCKED_AUTOMATIC_REVIEW_CONNECTION_FAILURE_AND_TIMEOUT; no remote file copies claimed",
+  "already_downloaded": [
+    "FROZEN_GTE_FEATURES.npz",
+    "FEATURE_EXTRACTION_RECEIPT.json"
+  ]
+}

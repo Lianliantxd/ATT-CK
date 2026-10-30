@@ -1,0 +1,14 @@
+{
+  "registration_unix": 1793108150.528296,
+  "reason": "10 prefix and7 window variants empty despite nonempty source logs",
+  "source_sha256": "1d39c1fe850e4a9432594507e4b255b9342ae53abaf019330b5683883afdeb3b",
+  "source_inputs_sha256": "6ecce1d6dacb51f759f2bdbc18cb11419953145d09ef65a37e6cd8f993e9b553",
+  "change_rule": "ONLY formerly empty input variants; all previously nonempty visible texts unchanged; binary search positive feasible fragments within both actual tokenizer and proxy caps2048",
+  "metrics_inspected_before_debugging": true,
+  "selection_by_empty_input_only_not_Gold_or_score": true,
+  "formal_status": "POSTHOC_ENGINEERING_INPUT_REPAIR_EXPOSED_DEV",
+  "same_fixed_revisions": true,
+  "same_216_candidates_K2_and_context_caps": true,
+  "one_full_rerun_only": true,
+  "new_LLM_calls": 0
+}

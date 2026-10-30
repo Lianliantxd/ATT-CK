@@ -1,0 +1,4 @@
+dataset_id,source,commit,qualification,label_unit,parent_labels_in_216,external_train_n,external_eval_n,model,top1,top10,mrr,status,reason
+OTRF_APT29_DAY1,OTRF/Security-Datasets,d9d40ef123d2c87d5d3df28c96bcab4f0faccc87,RELATED_SOURCE_DEVELOPMENT,PLAN_STEP_NOT_VERIFIED_EVENT,UNRESOLVED,0,0,NOT_RUN,,,,EXTERNAL_TEST_NOT_READY,Already exposed derivatives; local plan mismatches fixed official blob; log-to-step mapping and script independence unverified
+SPLUNK_T1003_003_ATOMIC,splunk/attack_data,671f9f5b065f03a5502db07c20f1fe3f620d29d9,DATASET_LEVEL_LABEL_ONLY,DATASET_BAG,T1003,0,0,NOT_RUN,,,,EXTERNAL_TEST_NOT_READY,Metadata qualified only; log download not authorized; one label and independent execution coverage not established
+

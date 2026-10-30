@@ -1,0 +1,64 @@
+{
+  "methods": [
+    {
+      "method": "B0",
+      "status": "FROZEN_SAME_INPUT_BASELINE",
+      "parameter_updates": false
+    },
+    {
+      "method": "B1",
+      "status": "FROZEN_SAME_INPUT_BASELINE",
+      "parameter_updates": false
+    },
+    {
+      "method": "B2",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B3",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B4",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B5",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B6",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B7",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B8",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B9",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B9_CONST",
+      "status": "ACTUALLY_TRAINED42CONFIGURATIONS",
+      "parameter_updates": true
+    },
+    {
+      "method": "B10_GTE_LoRA",
+      "status": "NA_GPU_TRAINING_NOT_AUTHORIZED",
+      "parameter_updates": false
+    }
+  ]
+}

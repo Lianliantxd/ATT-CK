@@ -1,0 +1,50 @@
+[
+  {
+    "method": "BM25",
+    "exit_code": 0,
+    "rows": 975,
+    "unique_queries": 975,
+    "prediction_top10_valid": true,
+    "full_candidate_scoring_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "full_candidate_scoring_verified_by_source_inspection": true,
+    "stored_output": "top10 only, not216 saved scores",
+    "receipt_command": [
+      "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/BM25TechniqueRetrieval/bin/python",
+      "-B",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+      "--inputs",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_native.jsonl",
+      "--knowledge",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+      "--representation",
+      "bm25",
+      "--output",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_bm25_K2_DESCRIPTION_16_1_native.jsonl"
+    ],
+    "current_round_execution": false
+  },
+  {
+    "method": "CharacterNgramTFIDF",
+    "exit_code": 0,
+    "rows": 975,
+    "unique_queries": 975,
+    "prediction_top10_valid": true,
+    "full_candidate_scoring_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "full_candidate_scoring_verified_by_source_inspection": true,
+    "stored_output": "top10 only, not216 saved scores",
+    "receipt_command": [
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/CharacterNgramTFIDF/bin/python",
+      "-B",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+      "--inputs",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_native.jsonl",
+      "--knowledge",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+      "--representation",
+      "char",
+      "--output",
+      "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_char_K2_DESCRIPTION_16_1_native.jsonl"
+    ],
+    "current_round_execution": false
+  }
+]

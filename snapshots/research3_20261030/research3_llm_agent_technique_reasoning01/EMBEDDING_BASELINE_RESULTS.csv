@@ -1,0 +1,13 @@
+model,protocol,status,N_planned,N_executed,top1,top5,top10,precision_at_5,recall_at_5,mrr,micro_f1_at_5,inference_seconds,model_memory_bytes,actual_input_tokens,truncation_fraction,failed_samples,blocker
+Alibaba-NLP/gte-modernbert-base,P0,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-modernbert-base,P1,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-modernbert-base,P2_SAMPLED,NEURAL_MODEL_EXECUTION_BLOCKED,385,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Embedding-0.6B,P0,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Embedding-0.6B,P1,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Embedding-0.6B,P2_SAMPLED,NEURAL_MODEL_EXECUTION_BLOCKED,385,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+BAAI/bge-m3,P0,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+BAAI/bge-m3,P1,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+BAAI/bge-m3,P2_SAMPLED,NEURAL_MODEL_EXECUTION_BLOCKED,385,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+jinaai/jina-embeddings-v5-text-small,P0,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+jinaai/jina-embeddings-v5-text-small,P1,NEURAL_MODEL_EXECUTION_BLOCKED,975,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+jinaai/jina-embeddings-v5-text-small,P2_SAMPLED,NEURAL_MODEL_EXECUTION_BLOCKED,385,0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED

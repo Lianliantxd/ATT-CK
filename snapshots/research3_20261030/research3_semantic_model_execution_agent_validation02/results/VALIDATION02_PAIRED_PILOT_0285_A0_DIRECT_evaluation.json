@@ -1,0 +1,21 @@
+{
+  "sample_id": "v2_sampled_0285",
+  "predictions_sha256": "3eb9d5463f668e8f4061a74328f8d80aa051816ef118a9e4205d1e061ea0466b",
+  "metrics": {
+    "n_records": 1,
+    "mrr": 0.0,
+    "top1_accuracy": 0.0,
+    "precision_at_1": 0.0,
+    "recall_at_1": 0.0,
+    "top5_accuracy": 0.0,
+    "precision_at_5": 0.0,
+    "recall_at_5": 0.0,
+    "top10_accuracy": 0.0,
+    "precision_at_10": 0.0,
+    "recall_at_10": 0.0,
+    "micro_f1_at_5": 0.0,
+    "macro_f1_at_5_all_candidates": 0.0,
+    "macro_f1_at_5_gold_present": 0.0
+  },
+  "qualification": "HOST_POST_PREDICTION_EVALUATION_NOT_MODEL_INPUT"
+}

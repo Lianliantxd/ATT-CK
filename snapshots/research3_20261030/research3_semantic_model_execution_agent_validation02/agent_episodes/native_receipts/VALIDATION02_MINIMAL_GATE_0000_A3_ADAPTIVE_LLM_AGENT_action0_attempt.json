@@ -1,0 +1,10 @@
+{
+  "tag": "VALIDATION02_MINIMAL_GATE_0000_A3_ADAPTIVE_LLM_AGENT_action0",
+  "start_unix": 1793101489.2546408,
+  "reserved_input_tokens": 3293,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": 3261,
+  "output_tokens": 73,
+  "status": "COMPLETED_CPU_VERIFIED",
+  "wall_seconds": 33.51617433410138
+}

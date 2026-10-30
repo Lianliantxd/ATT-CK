@@ -1,0 +1,9 @@
+# 30例真实人工复核交付说明
+
+状态HUMAN_MECHANISM_REFERENCE_PENDING。现有30包没有实际人工答案。当前Agent不代填Gold，不计人工一致率。
+
+分配给两位互不查看对方答案的复核者，首次只给MECHANISM_BLIND_REVIEW_PACKETS.jsonl和本说明，不能给管理员DIAGNOSTIC_30*、分类结果或本报告。包中的随机编号只由管理员映射回步骤；不能因方法成绩更换例子。材料准备完成不等于完成双人盲审，也不是操作系统权限隔离。
+
+分别审查主体、动作、对象、状态、状态变化、尝试/结果、原生时序、身份绑定，以及可见证据能否支持所述机制条件。每项给SUPPORTED_BY_VISIBLE_EVIDENCE、INSUFFICIENT_VISIBLE_EVIDENCE、EXPLICITLY_CONTRADICTED、NOT_EVALUABLE之一，写原生行/字段依据与范围限制。不能凭攻击剧本或知道Gold补全事件；同PID不能自动连生命周期，uid=0不能推获得权限。结果未知与明确失败分别记录。
+
+双方先独立封存答案，再由第三人处理分歧；保留原始差异。官方步骤标签仍用于技术分类，不被人工可观测性判断取代。人工完成之前，证据支持准确率、语义字段正确率、机制混淆归因比例及人际一致率均N/A。

@@ -1,0 +1,620 @@
+{
+  "task_id": "R3_OPEN_VOCAB_384_CASE_BLIND_EVIDENCE_REVIEW01",
+  "run_version": "v1_same_context_limited_AI_review",
+  "directory_creation": "new task directory created for this run; no pre-existing run overwritten",
+  "execution_status": "PARTIAL_REVIEW_WITH_DOCUMENTED_BLOCKERS",
+  "decision": "PRIORITIZE_EVIDENCE_ALIGNMENT_REVIEW",
+  "decision_boundary": "priority of independent evidence qualification, not proven dominant causal mechanism",
+  "observed_artifact_start_utc": "2026-10-28T12:11:06.807433+00:00",
+  "artifact_sealed_utc": "2026-10-28T13:06:31.036792+00:00",
+  "timing_limit": "start is first retained preparation timestamp, not a full task or CPU timer",
+  "input_paths_hashes": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_EVIDENCE_CARDS.jsonl",
+      "bytes": 4198583,
+      "sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80",
+      "content_use": "whitelist extraction only; excluded prediction fields not emitted"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv",
+      "bytes": 3382935,
+      "sha256": "6847ea8d45d888194c444f9940ab21f41dcd49fc58151d4c42a20c95ed4daa1a",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_GOLD_DIAGNOSTICS.csv",
+      "bytes": 3018911,
+      "sha256": "dd3d702b1926773395889e4e0f6698af3d5372ab0f916c1e1a630ecd4f109b73",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/CANDIDATE_COMPARISON.csv.gz",
+      "bytes": 64934597,
+      "sha256": "3f818ac88c38f8ec908a4733ddbaff77c87ef65b6848b55f469479e76fd6644d",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/QUERY_DIAGNOSTICS.csv",
+      "bytes": 2482526,
+      "sha256": "2a3c756c7c799703f0bdfe47016d1156065810b44ccd28beeedc7a88d326018d",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/DIAGNOSTIC_PROTOCOL.json",
+      "bytes": 2482,
+      "sha256": "23a828d8408a9c53ccee8db44fec08d902c8afa9792ad54567caecdaf669b2e1",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/FINAL_VALIDATION.json",
+      "bytes": 1644,
+      "sha256": "37f2c00997dea78cccafa4b05064ffb0884efce7b0e04e9e2788b4e1a3f6dc8a",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/manifests/DELIVERY_SHA256.json",
+      "bytes": 9679,
+      "sha256": "aad9f0b978c37b74bdacc9fae2060b7dd83746d3a87c68fedd965af82a5f158f",
+      "content_use": "hash/existence only"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/manifests/DELIVERY_SHA256.json",
+      "bytes": 36760,
+      "sha256": "fbb8d5879d04395f090315e0c037febf2bb096851e393ab88ce9c8ef90ec4df2",
+      "content_use": "hash/existence only"
+    }
+  ],
+  "request_attachment_hashes": [
+    {
+      "path": "protocol/USER_REQUEST_PART_1.txt",
+      "bytes": 14279,
+      "sha256": "07588c90f31573e17239ec0a01d8b258fe0198eac61e08468312463ee0992c8d"
+    },
+    {
+      "path": "protocol/USER_REQUEST_PART_2.txt",
+      "bytes": 11248,
+      "sha256": "8b4577bde61e2f4be3eb8008a9688e3e560a371b2d12d9e8bd0e50452048c270"
+    }
+  ],
+  "frozen_review_list_sha256": "e5ae85fe610590674441d8c5912008d34be30cfd3498f154287e7c02c1987d00",
+  "code_version": [
+    {
+      "path": "code/build_condition_catalog.py",
+      "bytes": 11154,
+      "sha256": "9a5ec8c65c12d347bdb065cf13cdc7b19f587d03caf080a0c3cec7e36cae8740"
+    },
+    {
+      "path": "code/build_reports.py",
+      "bytes": 26687,
+      "sha256": "da0d136144d06a08f9b66df6b3299011142bc091bdc10931caaff6d8644e9766"
+    },
+    {
+      "path": "code/decode_visible_hex.py",
+      "bytes": 2045,
+      "sha256": "046d159ef63e1dc8cd925616b43267b3c91380a79e5c4e7586a19faeb2c2f258"
+    },
+    {
+      "path": "code/finalize_delivery.py",
+      "bytes": 10696,
+      "sha256": "008986978c1eb96961efc39d3f18431a8e83a6f27b097cc80ed5ba040221bc8a"
+    },
+    {
+      "path": "code/materialize_reviews.py",
+      "bytes": 22652,
+      "sha256": "f637dc9f853c8389659cef5a0d63c266898c04252e4ecc64931964ccbb5a8958"
+    },
+    {
+      "path": "code/prepare_inputs.py",
+      "bytes": 7453,
+      "sha256": "5d893606f8cfd6c80ca99b72de8d2d87cba3895c58465cd73a52a7a1fdcbdba1"
+    },
+    {
+      "path": "code/validate_reviews.py",
+      "bytes": 15362,
+      "sha256": "23c0a6e89d01de4c6068726cf92c31830325a8aa6240a303b3cd8434c4d44deb"
+    }
+  ],
+  "output_paths_hashes": [
+    {
+      "path": "README.md",
+      "bytes": 1463,
+      "sha256": "49e8cb4eda1369ab1b6ff99f23eb801ba351da215227bd5cdce92afb30bcef66"
+    },
+    {
+      "path": "code/build_condition_catalog.py",
+      "bytes": 11154,
+      "sha256": "9a5ec8c65c12d347bdb065cf13cdc7b19f587d03caf080a0c3cec7e36cae8740"
+    },
+    {
+      "path": "code/build_reports.py",
+      "bytes": 26687,
+      "sha256": "da0d136144d06a08f9b66df6b3299011142bc091bdc10931caaff6d8644e9766"
+    },
+    {
+      "path": "code/decode_visible_hex.py",
+      "bytes": 2045,
+      "sha256": "046d159ef63e1dc8cd925616b43267b3c91380a79e5c4e7586a19faeb2c2f258"
+    },
+    {
+      "path": "code/finalize_delivery.py",
+      "bytes": 10696,
+      "sha256": "008986978c1eb96961efc39d3f18431a8e83a6f27b097cc80ed5ba040221bc8a"
+    },
+    {
+      "path": "code/materialize_reviews.py",
+      "bytes": 22652,
+      "sha256": "f637dc9f853c8389659cef5a0d63c266898c04252e4ecc64931964ccbb5a8958"
+    },
+    {
+      "path": "code/prepare_inputs.py",
+      "bytes": 7453,
+      "sha256": "5d893606f8cfd6c80ca99b72de8d2d87cba3895c58465cd73a52a7a1fdcbdba1"
+    },
+    {
+      "path": "code/validate_reviews.py",
+      "bytes": 15362,
+      "sha256": "23c0a6e89d01de4c6068726cf92c31830325a8aa6240a303b3cd8434c4d44deb"
+    },
+    {
+      "path": "inputs/FROZEN_REVIEW_MANIFEST.json",
+      "bytes": 174822,
+      "sha256": "8c4ddd12c2c32387793c51bb5b4993a346b4ca80e3740893388d8c6bbf64af55"
+    },
+    {
+      "path": "inputs/REVIEW_INPUTS.jsonl",
+      "bytes": 1467165,
+      "sha256": "50b87862b2d28a471644669ce21f284907dba3009293e67b3eebf2c8ed582f40"
+    },
+    {
+      "path": "inputs/STEP_READING_AID.json",
+      "bytes": 315442,
+      "sha256": "d997a14cb8ed090d04fdfdf15f202e9b379175dec20c92ec2383f8b6a713ab79"
+    },
+    {
+      "path": "inputs/TARGET_DEFINITIONS.json",
+      "bytes": 53143,
+      "sha256": "55e6c21e7279b2a26a5fd08a57e4a027db4dee925f3f3aa64384b9ee5a3bf87b"
+    },
+    {
+      "path": "inputs/VISIBLE_FACT_REGISTRY.jsonl",
+      "bytes": 1895934,
+      "sha256": "7a0458d796e206361ba3d0c06eb4e91828d7bffc0325f3fd02766c31647412c7"
+    },
+    {
+      "path": "manifests/INPUT_HASHES.json",
+      "bytes": 2578,
+      "sha256": "40525feddd4d5bbd61dbd7cd3cba0eb5e95c6b9d54b00bc16f8ef131e2c1cd17"
+    },
+    {
+      "path": "manifests/OLD_ASSET_PRE_FINALIZATION_SNAPSHOT.json",
+      "bytes": 74201,
+      "sha256": "73e95e123e02a0abe2a31fac9a916a4b69a353883d30a20b2553cf85dfa0aad0"
+    },
+    {
+      "path": "protocol/BLINDING_AND_SCOPE_DISCLOSURE.json",
+      "bytes": 926,
+      "sha256": "1f968d42d14f346585dc450127680582f06792baab348ad914c628d178bed6cb"
+    },
+    {
+      "path": "protocol/BLOCKER_REGISTER.json",
+      "bytes": 1941,
+      "sha256": "ae05ef251386338362b737fe6c6b29f8f28208eb56994b00408098a9847dfe90"
+    },
+    {
+      "path": "protocol/EXECUTED_REVIEW_PROTOCOL.md",
+      "bytes": 2708,
+      "sha256": "912fa001af0458515166cbb86b0519141a342d58f1ff25e4c98a04bdae21f7e9"
+    },
+    {
+      "path": "protocol/USER_REQUEST_PART_1.txt",
+      "bytes": 14279,
+      "sha256": "07588c90f31573e17239ec0a01d8b258fe0198eac61e08468312463ee0992c8d"
+    },
+    {
+      "path": "protocol/USER_REQUEST_PART_2.txt",
+      "bytes": 11248,
+      "sha256": "8b4577bde61e2f4be3eb8008a9688e3e560a371b2d12d9e8bd0e50452048c270"
+    },
+    {
+      "path": "reports/2026-10-28--open-vocab--r03--384-case-evidence-review.md",
+      "bytes": 13956,
+      "sha256": "6d6a140c54c4a85000db80f38cf485163d0427214ae77aa23b9accf487d1777b"
+    },
+    {
+      "path": "reports/analysis-report.md",
+      "bytes": 2447,
+      "sha256": "d2fcec8266934d6fad4dd38c35bbbb74abba09d4eeb1b2d0038653c00ea660cb"
+    },
+    {
+      "path": "reports/figure-catalog.md",
+      "bytes": 344,
+      "sha256": "4df65f5ec19ed1464ed2873879f73ae908c9adaa8e1ffc4e0b682f18c9b1d474"
+    },
+    {
+      "path": "reports/stats-appendix.md",
+      "bytes": 1089,
+      "sha256": "d2dccc5d5c078d9a2f0fa86d3cc76624a5fef873ea91749cce7485265644c44c"
+    },
+    {
+      "path": "results/BATCH_COMPLETENESS_CHECKS.json",
+      "bytes": 3450,
+      "sha256": "6a81ffa22be627de2823c9dbb176e44fb7a9d462cc296869599aa9371b47aa4b"
+    },
+    {
+      "path": "results/DIAGNOSTIC_LABEL_OVERLAP.csv",
+      "bytes": 3060,
+      "sha256": "86ff59d27252a54ca4a948ff43f1852cac0f74a2dc592f4cd92dfef8e6bc2f58"
+    },
+    {
+      "path": "results/FINAL_VALIDATION.json",
+      "bytes": 2522,
+      "sha256": "a33bad7375e42efb0dd4d566baeabaff14a1e1a2ce4e22802b84e2d5655b9a6a"
+    },
+    {
+      "path": "results/ILLUSTRATIVE_CASES.json",
+      "bytes": 56209,
+      "sha256": "4cc760c3dfcab0902484341e2201f4794cb7ca9ee6d5861d73036f868b1bf7fc"
+    },
+    {
+      "path": "results/MINIMUM_ADMISSION_ANSWERS.json",
+      "bytes": 2174,
+      "sha256": "a89b242effe16f6bfe0dde6c93a5f724e2d3c570df5afce51c2ac27e8a078f67"
+    },
+    {
+      "path": "results/OLD_ASSET_INTEGRITY_AUDIT.json",
+      "bytes": 1250,
+      "sha256": "31ce3f4f1dd00c576b047375d52cb5c4363c1bf771a48fcd939654e6c1c5cda3"
+    },
+    {
+      "path": "results/QUERY_REVIEW_SUMMARY.csv",
+      "bytes": 132283,
+      "sha256": "604042d268a4e68177e344d951069f46854b0c9b4cafe3d4a2a2c2f48fbbe44a"
+    },
+    {
+      "path": "results/QUERY_STEP_VIEW_MAP.csv",
+      "bytes": 54666,
+      "sha256": "6dbe26c64c65dac2fe602e4b5dae0be2163563339d6d05818369459e765664ad"
+    },
+    {
+      "path": "results/REVIEW_COUNTS.json",
+      "bytes": 2666,
+      "sha256": "96a259dce3a7d9852010174b99d552119c2875bbb5ed3c7f79f15fac6ef39c75"
+    },
+    {
+      "path": "results/VALIDATION_CHECK_DETAILS.json",
+      "bytes": 1675018,
+      "sha256": "73dad3648dcea2ff29a69a6328928c21817c9db9991352775a6495d98faf1755"
+    },
+    {
+      "path": "review/CONDITION_EVIDENCE_MATRIX.csv",
+      "bytes": 2827310,
+      "sha256": "24fe839472e102ffd5755a36967052203eca8acef35123606e8160fac22ffbc9"
+    },
+    {
+      "path": "review/DERIVED_HEX_INTERPRETATIONS.jsonl",
+      "bytes": 73476,
+      "sha256": "e1561135ad1d52408cab6a52380eaf244cb34962d6242825c2058a44df64c5a9"
+    },
+    {
+      "path": "review/GOLD_CONDITION_CATALOG.json",
+      "bytes": 129389,
+      "sha256": "dcec2becf4c3d2c61fc204574155a15e201ce0cefce6cecb7e1a8bef5c86de45"
+    },
+    {
+      "path": "review/HUMAN_REVIEW_QUEUE.csv",
+      "bytes": 222582,
+      "sha256": "c690062df9489712421031eb7a9de394a864e12a155bdca1cf9131b09cfe48eb"
+    },
+    {
+      "path": "review/QUERY_EVIDENCE_REVIEWS.jsonl",
+      "bytes": 7321779,
+      "sha256": "aac14dbf261681165225009fb9b6d53448f4f79d5d43de492a82ddf9ed552c25"
+    },
+    {
+      "path": "review/step_judgments.json",
+      "bytes": 36146,
+      "sha256": "304f325f39276be26cd62b959ab5da659ac4a8dcf755fb9ef06d8c9a0f14bea0"
+    }
+  ],
+  "self_hash_rule": "RUN_MANIFEST and DELIVERY_SHA256 excluded from this embedded list to avoid self-reference; DELIVERY_SHA256 includes RUN_MANIFEST and all other files, excluding its own self hash",
+  "actual_commands": [
+    {
+      "command": "python3 -B research3_open_vocab_384_case_blind_review01/code/decode_visible_hex.py",
+      "status": "EXECUTED_SUCCESS",
+      "final_result": "105 fields;10 odd final nibbles;0 decoded commands executed"
+    },
+    {
+      "command": "python3 -B research3_open_vocab_384_case_blind_review01/code/materialize_reviews.py",
+      "status": "EXECUTED_SUCCESS",
+      "final_result": "384 records;2618 conditions;re-executed after documented compound-proposition decomposition and metadata additions"
+    },
+    {
+      "command": "python3 -B research3_open_vocab_384_case_blind_review01/code/build_reports.py",
+      "status": "EXECUTED_SUCCESS",
+      "final_result": "reports,8 admission answers,5 blockers,384-row view map"
+    },
+    {
+      "command": "python3 -B research3_open_vocab_384_case_blind_review01/code/validate_reviews.py",
+      "status": "EXECUTED_SUCCESS",
+      "final_result": "PASS"
+    },
+    {
+      "command": "python3 -B research3_open_vocab_384_case_blind_review01/code/finalize_delivery.py",
+      "status": "EXECUTING_THIS_SEAL",
+      "result": "all pre-seal existence,parse and hash checks already passed; final delivery readback verified before command returns"
+    },
+    {
+      "command": "python3 --version",
+      "status": "EXECUTED_SUCCESS",
+      "result": "Python 3.8.13"
+    }
+  ],
+  "preparation_commands_with_partial_telemetry": [
+    {
+      "script": "/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/code/prepare_inputs.py",
+      "execution": "executed successfully in earlier retained task context",
+      "exact_shell_interpreter_prefix": "not reconstructed from compacted context"
+    },
+    {
+      "script": "/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/code/build_condition_catalog.py",
+      "execution": "executed successfully in earlier retained task context",
+      "exact_shell_interpreter_prefix": "not reconstructed from compacted context"
+    },
+    {
+      "operation": "stdlib incremental SHA256 snapshot of281 old files",
+      "execution": "executed successfully via python3 -B stdin script; snapshot retained",
+      "exact_command": "tool transcript; not reconstructed as a standalone file"
+    }
+  ],
+  "command_inventory_scope": "artifact-producing and validation commands; exploratory read transcript not exhaustively reconstructed; no invented successful commands",
+  "runtime": {
+    "python_version": "3.8.13",
+    "python_executable": "/Users/tianxd/opt/miniconda3/bin/python3",
+    "dependencies": "existing Python standard library only",
+    "CPU_thread_peak_measured": false,
+    "GPU_tasks": 0,
+    "peak_memory_measured": false
+  },
+  "review_counts": {
+    "unit": "frozen query records; not independent attacks or Gold truths",
+    "query_count": 384,
+    "logical_steps": 80,
+    "unique_target_techniques": 54,
+    "query_gold_assignments": 520,
+    "multi_gold_queries": 86,
+    "unique_visible_text_hashes": 145,
+    "any_direct_logical_steps": 9,
+    "top_partial_or_background_queries": 176,
+    "top_partial_or_background_without_any_direct_target": 169,
+    "displayed_line_instances": 2178,
+    "exclusive_overall_assessments": {
+      "DIRECT_EVIDENCE_PRESENT": 24,
+      "PARTIAL_EVIDENCE_PRESENT": 102,
+      "BACKGROUND_COMPATIBILITY_ONLY": 74,
+      "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 148,
+      "INSUFFICIENT_VISIBLE_INPUT": 4,
+      "COMPETING_TECHNIQUE_AMBIGUITY": 0,
+      "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 32,
+      "NOT_EVALUABLE": 0
+    },
+    "nonexclusive_any_gold_assessments": {
+      "DIRECT_EVIDENCE_PRESENT": 31,
+      "PARTIAL_EVIDENCE_PRESENT": 95,
+      "BACKGROUND_COMPATIBILITY_ONLY": 94,
+      "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 197,
+      "INSUFFICIENT_VISIBLE_INPUT": 4,
+      "COMPETING_TECHNIQUE_AMBIGUITY": 0,
+      "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 34,
+      "NOT_EVALUABLE": 0
+    },
+    "gold_assignment_assessments": {
+      "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 257,
+      "PARTIAL_EVIDENCE_PRESENT": 97,
+      "BACKGROUND_COMPATIBILITY_ONLY": 97,
+      "DIRECT_EVIDENCE_PRESENT": 31,
+      "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 34,
+      "INSUFFICIENT_VISIBLE_INPUT": 4
+    },
+    "diagnostic_label_query_counts_nonexclusive": {
+      "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 197,
+      "SEMANTIC_CAUSE_UNRESOLVED": 384,
+      "PARTIAL_EVIDENCE_PRESENT": 95,
+      "BACKGROUND_COMPATIBILITY_ONLY": 94,
+      "OBSERVABLE_EVIDENCE_PRESENT": 31,
+      "GOLD_LOG_GRANULARITY_MISMATCH": 34,
+      "INSUFFICIENT_VISIBLE_INPUT": 4
+    },
+    "failure_diagnosis_query_counts_nonexclusive": {
+      "OBSERVATION_COVERAGE_LIMITATION": 384,
+      "UNRESOLVED": 384,
+      "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 34
+    },
+    "condition_status_counts": {
+      "NOT_ESTABLISHED": 1487,
+      "NOT_EVALUABLE": 842,
+      "PARTIALLY_SUPPORTED": 212,
+      "DIRECTLY_SUPPORTED": 69,
+      "NOT_OBSERVABLE_IN_CURRENT_VIEW": 8
+    },
+    "condition_rows": 2618,
+    "independently_blinded_queries": 0,
+    "ranked_competitor_comparisons_completed": 0,
+    "ranked_competitor_comparisons_blocked": 384,
+    "confirmed_distinguishable_from_ranked_competitors": null,
+    "confirmed_distinguishable_count_interpretation": "not evaluated, not zero evidence",
+    "human_review_required_queries": 384,
+    "human_adjudications_completed": 0,
+    "confirmed_preprocessing_or_truncation_causal_failures": 0,
+    "confirmed_representation_ranking_failures": 0,
+    "formal_performance_metrics_computed": false
+  },
+  "new_programmatic_model_API_calls": 0,
+  "new_agent_calls": 0,
+  "new_embeddings_or_model_forwards": 0,
+  "new_training_runs": 0,
+  "downloads": 0,
+  "external_network_accesses": 0,
+  "server_accesses": 0,
+  "AI_usage_boundary": "current assistant performed semantic pre-review; zero means additional programmatic model/agent/API calls, not absence of AI reasoning; internal token/compute not independently metered",
+  "blinding": {
+    "task": "R3_OPEN_VOCAB_384_CASE_BLIND_EVIDENCE_REVIEW01",
+    "blinding_status": "PREDICTION_BLINDING_NOT_ENFORCED",
+    "review_context": "same assistant context as historical diagnosis",
+    "historical_information_exposure": true,
+    "new_prediction_or_error_analysis_content_read_by_reviewer": false,
+    "source_preparer_parsed_mixed_fields": true,
+    "preparer_policy": "Only whitelisted target definitions/log text/metadata emitted; no competitor or score field analyzed",
+    "OS_isolation_proven": false,
+    "new_agents_or_external_calls": 0,
+    "competitor_top10_comparison": "NOT_EVALUABLE_WITHOUT_BREAKING_ALLOWED_REVIEW_INPUT_CONTRACT",
+    "missing_request_sections": "8.3 remainder through13.3 not provided",
+    "fact_ids": "derived source-locator IDs explicitly distinguished from native event identifiers",
+    "review_status_all_cases": "AI_BLIND_PRE_REVIEW_NOT_GOLD",
+    "created_utc": "2026-10-28T12:11:06.807433+00:00"
+  },
+  "semantic_condition_provenance": "same-context paraphrases; manual judgments read all80 step unions and query memberships; source definitions preserved, not independent elicitation",
+  "failures_and_unfinished_items": [
+    {
+      "id": "B1",
+      "status": "OPEN",
+      "scope": "all384",
+      "blocker": "独立预测盲化未成立",
+      "evidence": "当前助手上下文在此前工作中已接触历史排名/诊断；输入去字段不能消除记忆。",
+      "effect": "独立盲审完成数0；全部结果只能是同上下文AI预审。"
+    },
+    {
+      "id": "B2",
+      "status": "OPEN",
+      "scope": "all384 competitor components",
+      "blocker": "Q2要求Top10比较，与§5审查输入禁止读取预测候选存在合同冲突",
+      "evidence": "本轮审查包只输出日志、目标Gold定义及元数据；未向审查者展示Top10。",
+      "effect": "Top10比较完成0、受阻384；可区分竞争技术的数量为null/未评价，不能记为零。"
+    },
+    {
+      "id": "B3",
+      "status": "OPEN",
+      "scope": "request completeness",
+      "blocker": "附件缺少§8.3后半至§13.3",
+      "evidence": "第一份附件在“没”字处结束；第二份直接从§13.4开始。",
+      "effect": "不能确认缺失章节中特定文件名或额外合同已经满足；按已收到内容尽量完整交付。"
+    },
+    {
+      "id": "B4",
+      "status": "OPEN",
+      "scope": "all384 adjudication",
+      "blocker": "没有独立人工Gold、完整源日志、省略数量或原生Fact ID",
+      "evidence": "本轮仅审查既有冻结卡。2178个Fact ID是显示行定位符。",
+      "effect": "不得计算正式准确率或因果根因份额；当前未见不代表原始事件未发生。"
+    },
+    {
+      "id": "B5",
+      "status": "DISCLOSED_PRE_EXISTING",
+      "scope": "legacy integrity",
+      "blocker": "融合项目一份旧报告与其历史交付清单哈希不一致",
+      "evidence": "详见OLD_ASSET_INTEGRITY_AUDIT.json中的完整路径和两个SHA256；此前已披露该差异。",
+      "effect": "本轮不修复，不声称全部历史清单无差异。281个观察文件在本轮快照后未变化；快照在预审后建立。"
+    }
+  ],
+  "corrected_intermediate_issues": [
+    {
+      "issue": "first snapshot attempt used hashlib.file_digest unavailable in Python3.8",
+      "result": "AttributeError; no snapshot output; corrected using incremental stdlib SHA256; subsequent snapshot succeeded"
+    },
+    {
+      "issue": "initial static hex helper also interpreted SYSCALL register values as possible strings",
+      "result": "restricted to PROCTITLE and EXECVE argument fields; final105 interpretations replace initial660 intermediate entries; no native facts or judgments derived from register-string interpretations"
+    },
+    {
+      "issue": "initial serialization could assign direct support to compound action+purpose/result propositions",
+      "result": "decomposed18 direct-action targets into direct observable components and partial full propositions; full definition and top-level related-evidence judgments unchanged"
+    }
+  ],
+  "mechanical_validation": {
+    "status": "PASS",
+    "check_count": 18821,
+    "reference_instances": 710,
+    "independent_semantic_adjudication": false
+  },
+  "full_blind_review_contract": "NOT_SATISFIED",
+  "old_asset_integrity": {
+    "observed_files": 281,
+    "observed_bytes": 856290657,
+    "snapshot_timing_limitation": "after input preparation/manual review, before result materialization; not a start-of-entire-task snapshot",
+    "changed_since_snapshot": [],
+    "added_since_snapshot": [],
+    "legacy_manifest_comparisons": [
+      {
+        "directory": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01",
+        "legacy_manifest_entries": 59,
+        "mismatches": []
+      },
+      {
+        "directory": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01",
+        "legacy_manifest_entries": 211,
+        "mismatches": [
+          {
+            "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+            "legacy_expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+            "current_sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+            "interpretation": "pre-existing discrepancy previously disclosed; no repair or modification in this task"
+          }
+        ]
+      }
+    ],
+    "other_historical_directories": "not rehashed in this task; no write operations targeted them"
+  },
+  "delivery_preseal_parse_summary": {
+    "inputs/FROZEN_REVIEW_MANIFEST.json": "JSON_OK",
+    "inputs/REVIEW_INPUTS.jsonl": 384,
+    "inputs/STEP_READING_AID.json": "JSON_OK",
+    "inputs/TARGET_DEFINITIONS.json": "JSON_OK",
+    "inputs/VISIBLE_FACT_REGISTRY.jsonl": 2178,
+    "manifests/INPUT_HASHES.json": "JSON_OK",
+    "manifests/OLD_ASSET_PRE_FINALIZATION_SNAPSHOT.json": "JSON_OK",
+    "protocol/BLINDING_AND_SCOPE_DISCLOSURE.json": "JSON_OK",
+    "protocol/BLOCKER_REGISTER.json": "JSON_OK",
+    "results/BATCH_COMPLETENESS_CHECKS.json": "JSON_OK",
+    "results/DIAGNOSTIC_LABEL_OVERLAP.csv": 49,
+    "results/FINAL_VALIDATION.json": "JSON_OK",
+    "results/ILLUSTRATIVE_CASES.json": "JSON_OK",
+    "results/MINIMUM_ADMISSION_ANSWERS.json": "JSON_OK",
+    "results/OLD_ASSET_INTEGRITY_AUDIT.json": "JSON_OK",
+    "results/QUERY_REVIEW_SUMMARY.csv": 384,
+    "results/QUERY_STEP_VIEW_MAP.csv": 384,
+    "results/REVIEW_COUNTS.json": "JSON_OK",
+    "results/VALIDATION_CHECK_DETAILS.json": "JSON_OK",
+    "review/CONDITION_EVIDENCE_MATRIX.csv": 2618,
+    "review/DERIVED_HEX_INTERPRETATIONS.jsonl": 105,
+    "review/GOLD_CONDITION_CATALOG.json": "JSON_OK",
+    "review/HUMAN_REVIEW_QUEUE.csv": 384,
+    "review/QUERY_EVIDENCE_REVIEWS.jsonl": 384,
+    "review/step_judgments.json": "JSON_OK"
+  },
+  "known_required_files": [
+    "review/QUERY_EVIDENCE_REVIEWS.jsonl",
+    "review/CONDITION_EVIDENCE_MATRIX.csv",
+    "review/HUMAN_REVIEW_QUEUE.csv",
+    "review/GOLD_CONDITION_CATALOG.json",
+    "review/step_judgments.json",
+    "inputs/FROZEN_REVIEW_MANIFEST.json",
+    "inputs/VISIBLE_FACT_REGISTRY.jsonl",
+    "inputs/REVIEW_INPUTS.jsonl",
+    "protocol/BLINDING_AND_SCOPE_DISCLOSURE.json",
+    "protocol/BLOCKER_REGISTER.json",
+    "protocol/EXECUTED_REVIEW_PROTOCOL.md",
+    "results/REVIEW_COUNTS.json",
+    "results/MINIMUM_ADMISSION_ANSWERS.json",
+    "results/QUERY_REVIEW_SUMMARY.csv",
+    "results/QUERY_STEP_VIEW_MAP.csv",
+    "results/DIAGNOSTIC_LABEL_OVERLAP.csv",
+    "results/FINAL_VALIDATION.json",
+    "results/OLD_ASSET_INTEGRITY_AUDIT.json",
+    "results/VALIDATION_CHECK_DETAILS.json",
+    "reports/2026-10-28--open-vocab--r03--384-case-evidence-review.md",
+    "reports/analysis-report.md",
+    "reports/stats-appendix.md",
+    "reports/figure-catalog.md"
+  ],
+  "unknown_required_files": "request sections8.3 remainder through13.3 missing; cannot certify undisclosed filenames",
+  "stop_after_delivery": true
+}

@@ -1,0 +1,3 @@
+# 交付状态
+
+PARTIAL_COMPLETION_WITH_DOCUMENTED_BLOCKERS。Embedding/CrossEncoder无完整资产；新下载未授权。新本地LLM研究推理已发生，极小探索结果已评分；修复后Agent0执行，主trajectory空文件是真实状态，未执行记录独立列出。所有必需文件见主报告索引，N/A表示未测，0仅用于已执行的真实质量零分。旧成果不改。

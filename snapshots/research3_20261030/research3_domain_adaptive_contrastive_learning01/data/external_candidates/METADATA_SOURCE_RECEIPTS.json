@@ -1,0 +1,119 @@
+{
+  "date_asia_shanghai": "2026-10-28",
+  "qualification": "METADATA_ONLY_NO_LOG_DOWNLOAD",
+  "fixed_source_git_blob_checks": [
+    {
+      "local": "splunk_yaml.yml",
+      "remote": "atomic_red_team.yml",
+      "git_blob_sha1_verified": "0f2d7bbb3a00de032fd1f09648a0760e261c6697"
+    },
+    {
+      "local": "splunk_sysmon_pointer.txt",
+      "remote": "windows-sysmon.log",
+      "git_blob_sha1_verified": "0cf6c0ab5d3158b89a01158b5728c64cd9aacfce"
+    },
+    {
+      "local": "splunk_security_pointer.txt",
+      "remote": "4688_windows-security.log",
+      "git_blob_sha1_verified": "fa6801c55f7e7f0f82551914332e9773738b2ded"
+    },
+    {
+      "local": "splunk_falcon_pointer.txt",
+      "remote": "crowdstrike_falcon.log",
+      "git_blob_sha1_verified": "7b8073d9297e325fd1998950d819958de0a6a59c"
+    }
+  ],
+  "source_repositories": [
+    "https://github.com/OTRF/Security-Datasets/tree/d9d40ef123d2c87d5d3df28c96bcab4f0faccc87",
+    "https://github.com/splunk/attack_data/tree/671f9f5b065f03a5502db07c20f1fe3f620d29d9"
+  ],
+  "tool_failures": [
+    "web API commits inaccessible",
+    "web fixed Splunk YAML cache miss, connector fixed-commit YAML succeeded",
+    "connector binary OTRF XLSX contents failed, directory metadata succeeded"
+  ],
+  "checks": {
+    "metadata_git_blob_checks": 4,
+    "external_csv_rows": 2,
+    "external_metrics_absent": true,
+    "new_logs_downloaded": 0
+  },
+  "overall_status": "EXTERNAL_TEST_NOT_READY",
+  "files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/LOCAL_METADATA_AUDIT.json",
+      "bytes": 30782,
+      "sha256": "6d0d2b5a0b637520ce29653d576c24c7db8eb839988f41f2e0590536ed5db6d3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/OTRF_Security-Datasets_ref.json",
+      "bytes": 356,
+      "sha256": "af0dd019c20ec4ef3f478d4dd30d8c88b0adddd478d636c96dfefed995bdc408"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/QUALIFICATION_DECISION.json",
+      "bytes": 5300,
+      "sha256": "dd956be7c928c4dc51d600c9d694b88b06c3c7769f5f87528e66918b050ef79a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/audit_local_metadata.py",
+      "bytes": 5079,
+      "sha256": "b1c04d7003b5097332b9943c088858e68df983333efb1185074001e338cdc244"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_day1_directory.json",
+      "bytes": 4274,
+      "sha256": "5f6502cea4da9a0cd08b9d2fa73214c074115e5e2bb0231767d8f14d614b9034"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_day1_metadata.txt",
+      "bytes": 3952,
+      "sha256": "f7c1e70e4e850c9a0d7b81f438e6344cc55df8a8af585732a80789cabf0528bd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_license.txt",
+      "bytes": 1083,
+      "sha256": "fce88163b60d67ecabd317b75f7638233e11cbe648fe608ebbf6c10161564686"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_plan_directory.json",
+      "bytes": 1188,
+      "sha256": "8f280d3fe2510970c23f3a53c3ee48a48e3f1bc2bb267f7f5cfd28b1fb7ba703"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_attack_data_ref.json",
+      "bytes": 348,
+      "sha256": "a9db702f8b0c7e505f405575582e6b906d48960edcc9cc32484f8d1ae8b4d5a2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_directory.json",
+      "bytes": 11895,
+      "sha256": "98650d2400a901b597ee6b63eee7d9f13f87827c67312def9079315f091e2dcd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_falcon_pointer.txt",
+      "bytes": 130,
+      "sha256": "024996eeb06a5a3943a5564b6505b48dc64097a916df49c5c865199cd22d6a80"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_license.txt",
+      "bytes": 11344,
+      "sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_security_pointer.txt",
+      "bytes": 130,
+      "sha256": "06126201367df42134ac4dffce205b7b6f00dfdcb34a98f9ba71ed0da16a6c47"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_sysmon_pointer.txt",
+      "bytes": 133,
+      "sha256": "1002df7512e9df20132bde0ca5b526ae863cf19a81b2f913e9a522d569f305de"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_yaml.yml",
+      "bytes": 1259,
+      "sha256": "eebac0c9661cabf3b1bf36f200880516e19db43a1c3680ef17e6db43c78ac4f8"
+    }
+  ]
+}

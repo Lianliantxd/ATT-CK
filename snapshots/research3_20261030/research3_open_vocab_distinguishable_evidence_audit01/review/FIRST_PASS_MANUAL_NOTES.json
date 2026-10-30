@@ -1,0 +1,892 @@
+{
+  "1-13": {
+    "observation": "五个采样只有metadata域DNS解析/转发及NXDOMAIN；DNS端点不是本地服务/连接列表、组权限、口令策略、安全软件、语言或GPO读取。",
+    "default": "NONE"
+  },
+  "1-15": {
+    "observation": "三个视图的编码vim参数提到systemd服务目录，另两视图仅cron PAM；未见配置写入、启用或启动触发。编码末尾单半字节不完整不能补全。",
+    "default": "NONE",
+    "overrides": {
+      "REV_0006": {
+        "level": "PARTIAL",
+        "lines": [
+          6
+        ]
+      },
+      "REV_0009": {
+        "level": "PARTIAL",
+        "lines": [
+          6
+        ]
+      },
+      "REV_0010": {
+        "level": "PARTIAL",
+        "lines": [
+          6
+        ]
+      }
+    },
+    "missing": "服务配置修改及启动/登录执行链；vim调用不等于编辑完成。"
+  },
+  "1-16": {
+    "observation": "PCI槽启动注册、DHCP拒绝和update域DNS均为背景记录；没有程序自启配置或触发机制。",
+    "default": "NONE"
+  },
+  "1-2": {
+    "observation": "普通DNS与被拒包不足以认定漏洞扫描。r1在同源同目标同一秒出现445/139的SYN可关联端口探测；r4异常TCP标志也不能认证漏洞。",
+    "default": "NONE",
+    "overrides": {
+      "REV_0017": {
+        "level": "PARTIAL",
+        "lines": [
+          9,
+          10
+        ]
+      }
+    },
+    "missing": "扫描程序/目标软件版本或漏洞匹配；也未证明探测成功。"
+  },
+  "1-21": {
+    "observation": "useradd在同主机同PID同时报告new group/new user webadmin，带UID/GID/home/shell，创建状态直接相关；一条unlink系统调用不是创建动作本身的凭据。",
+    "default": "DIRECT",
+    "lines": [
+      2,
+      3
+    ],
+    "missing": "持续访问目的、创建者恶意身份与合法授权未认证。"
+  },
+  "1-25": {
+    "observation": "r0/r1/r2含sudo lspci请求，r4含bash-c lspci参数；r3仅sshd凭据设置，不能跨视图借用设备枚举证据。",
+    "default": "NONE",
+    "overrides": {
+      "REV_0022": {
+        "level": "DIRECT",
+        "lines": [
+          1
+        ]
+      },
+      "REV_0023": {
+        "level": "DIRECT",
+        "lines": [
+          7
+        ]
+      },
+      "REV_0024": {
+        "level": "DIRECT",
+        "lines": [
+          12
+        ]
+      },
+      "REV_0026": {
+        "level": "DIRECT",
+        "lines": [
+          25
+        ]
+      }
+    },
+    "missing": "实际PCI列表未显示；定义允许枚举尝试，命令发起不认证结果内容。"
+  },
+  "1-26": {
+    "observation": "command-v lsusb是检查命令位置/存在性，不是lsusb设备枚举；r4仅SSH setcred。不能把工具名字当作外设读取。",
+    "default": "NONE",
+    "overrides": {
+      "REV_0027": {
+        "level": "PREPARATORY",
+        "lines": [
+          1,
+          4
+        ]
+      },
+      "REV_0028": {
+        "level": "PREPARATORY",
+        "lines": [
+          1,
+          4
+        ]
+      },
+      "REV_0029": {
+        "level": "PREPARATORY",
+        "lines": [
+          1,
+          4
+        ]
+      },
+      "REV_0030": {
+        "level": "PREPARATORY",
+        "lines": [
+          7
+        ]
+      }
+    },
+    "missing": "缺实际外设查询请求及设备数据。"
+  },
+  "1-27": {
+    "observation": "仅r1的EXECVE记载bash -c date；其他为sshd setcred、bash进程或时间戳。时间戳不能当主动系统时间查询。",
+    "default": "NONE",
+    "overrides": {
+      "REV_0033": {
+        "level": "DIRECT",
+        "lines": [
+          6,
+          7
+        ]
+      }
+    },
+    "missing": "date输出/时区值没有显示，只有查询发起可确认。"
+  },
+  "1-28": {
+    "observation": "r1-r4明确find /usr -name *virtualbox*，属于查找虚拟化线索的动作，但未给结果或据其改变行为；r0只有find PATH与退出会话。",
+    "default": "PARTIAL",
+    "lines": [
+      9,
+      16,
+      22,
+      26
+    ],
+    "overrides": {
+      "REV_0037": {
+        "level": "NONE",
+        "lines": []
+      }
+    },
+    "missing": "VME识别结论、条件分支及避开分析的联系。"
+  },
+  "1-29": {
+    "observation": "显示curl/ELF下载告警与wget路径；没有PAM配置、模块内容、认证过程写入或其结果。派生下载告警不能证明认证修改。",
+    "default": "NONE"
+  },
+  "1-3": {
+    "observation": "多次XSS脚本标签、passwd/root/Tomcat URI告警提示Web请求探测；只有规则描述，没有请求全文、漏洞匹配或服务响应原文。",
+    "default": "PARTIAL",
+    "lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "missing": "漏洞扫描的配置/版本检查和原生载荷；规则提示不等于漏洞成立。"
+  },
+  "1-30": {
+    "observation": "curl GET README、动态加载器或CRON；没有账户对象/角色/密钥变更，更无云IAM权限变化。",
+    "default": "NONE"
+  },
+  "1-38": {
+    "observation": "wget下载README，root只是进程身份；没有new user或账号数据库创建记录。",
+    "default": "NONE"
+  },
+  "1-39": {
+    "observation": "useradd new user直接记录本地创建；bash和加载器路径既不证明代理恶意代码，也不能补全Rundll32正文的父类合同。",
+    "default": "NONE",
+    "targets": {
+      "T1136": {
+        "level": "DIRECT",
+        "lines": [
+          1,
+          2
+        ]
+      },
+      "T1218": {
+        "level": "SCOPE",
+        "lines": [
+          3,
+          5
+        ]
+      }
+    },
+    "missing": "创建目的及代理负载/调用关系未建立；父类正文范围不完整。"
+  },
+  "1-4": {
+    "observation": "HTTP请求响应配对失败及握手异常为协议派生告警；没有扫描目标清单、漏洞匹配或载荷。",
+    "default": "NONE"
+  },
+  "1-41": {
+    "observation": "wget的execve与README下载参数不记录PAM模块/认证流程更改。",
+    "default": "NONE"
+  },
+  "1-42": {
+    "observation": "ELF下载告警和xargs/cat/加载器路径，不给stdin内容、代理负载或认证配置；不能认定PAM修改。Linux工具也无法评价Rundll32主体正文之外完整父类。",
+    "default": "NONE",
+    "targets": {
+      "T1218": {
+        "level": "SCOPE",
+        "lines": [
+          2,
+          5,
+          7,
+          11
+        ]
+      },
+      "T1556": {
+        "level": "NONE",
+        "lines": []
+      }
+    }
+  },
+  "1-43": {
+    "observation": "wget README及进程启动，没有账户属性/角色/授权密钥的对象或修改。",
+    "default": "NONE"
+  },
+  "1-44": {
+    "observation": "bash参数编码为cat|xargs bash-c；无stdin脚本、账户写入或受信代理链。普通解释器执行不自动满足代理执行。",
+    "default": "NONE",
+    "targets": {
+      "T1218": {
+        "level": "SCOPE",
+        "lines": [
+          1,
+          3,
+          7,
+          8,
+          10
+        ]
+      },
+      "T1098": {
+        "level": "NONE",
+        "lines": []
+      }
+    }
+  },
+  "2-1": {
+    "observation": "域名解析及用户systemd target/gpgconf等启动背景；没有远程会话身份、VNC控制或远端命令链。",
+    "default": "NONE"
+  },
+  "2-12": {
+    "observation": "gzip进程execve成功，只有程序启动没有压缩输入/输出；域名解析不补出暂存数据与目录。",
+    "default": "NONE",
+    "targets": {
+      "T1560": {
+        "level": "PARTIAL",
+        "lines": [
+          6
+        ]
+      },
+      "T1074": {
+        "level": "BROAD",
+        "lines": [
+          6
+        ]
+      }
+    },
+    "missing": "收集数据的来源、归档结果、集中暂存位置和外传关系。"
+  },
+  "2-15": {
+    "observation": "DNS与zmcontroller connect，不含文件读取、内容、收集目录或数据库查询。",
+    "default": "NONE"
+  },
+  "2-19": {
+    "observation": "一个域名的常规A/AAAA解析和connect，只建立端点通信背景，未见列举远端系统清单或服务扫描。",
+    "default": "BROAD",
+    "lines": [
+      1,
+      3,
+      5,
+      8,
+      10,
+      12
+    ],
+    "missing": "主动系统/服务枚举的请求、多个目标及服务字段；普通DNS不是足够判别条件。"
+  },
+  "2-2": {
+    "observation": "cron PAM:setcred、LOGIN及一字节write，没有加密算法/密钥或C2链。",
+    "default": "NONE"
+  },
+  "2-20": {
+    "observation": "DNS与chmod，编码参数为chmod755 /tmp/nmap或仅chmod启动；文件名nmap不认证工具身份及实际扫描。",
+    "default": "BROAD",
+    "lines": [
+      1,
+      5,
+      6,
+      10,
+      12,
+      13
+    ],
+    "missing": "nmap扫描调用/端口/服务返回及远端列表。"
+  },
+  "2-21": {
+    "observation": "同源同秒对多个私网地址发起PTR反查，直接相关主动获取主机标识的尝试；并非服务列表，缺少名称响应与攻击目的。",
+    "default": "NONE",
+    "targets": {
+      "T1018": {
+        "level": "DIRECT",
+        "lines": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ]
+      },
+      "T1046": {
+        "level": "BROAD",
+        "lines": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ]
+      }
+    }
+  },
+  "2-22": {
+    "observation": "DNS和本地用户D-Bus/GnuPG监听记录，不建立远程身份、VNC/RFB或交互远控。",
+    "default": "NONE"
+  },
+  "2-27": {
+    "observation": "sshd setgid及PAM:setcred是会话凭据操作；没有隐藏、挂钩API、内核/用户态rootkit记录。",
+    "default": "NONE"
+  },
+  "2-4": {
+    "observation": "bash/加载器PATH与sshd PROCTITLE没有服务框架调用。冻结T1569正文描述Launchctl，不能将Linux普通进程路径当作服务执行。",
+    "default": "SCOPE",
+    "lines": [
+      1,
+      3,
+      4
+    ],
+    "missing": "服务任务/启动程序绑定；完整父技术合同没有提供。"
+  },
+  "3-11": {
+    "observation": "mkdir /tmp/.tmux_data调用，只显示点目录名；不证明模拟合法身份或双扩展名掩盖真实类型。",
+    "default": "BROAD",
+    "lines": [
+      1,
+      3
+    ],
+    "missing": "被仿冒合法资源、真实文件类型或误导关系。"
+  },
+  "3-17": {
+    "observation": "PROCTITLE dpkg-deb -b healthcheckd打包到deb；一次execve -2只反驳该调用成功，不能否定整个部署技术。未见集中任务或远端部署。",
+    "default": "PREPARATORY",
+    "lines": [
+      2,
+      3
+    ],
+    "missing": "集中部署系统任务、目标端点和执行结果。"
+  },
+  "3-18": {
+    "observation": "Debian/Puppet仓库DNS可与包管理相容，但无管理套件任务或命令执行。",
+    "default": "BROAD",
+    "lines": [
+      1,
+      3,
+      4
+    ],
+    "missing": "部署任务及端点执行链。"
+  },
+  "3-25": {
+    "observation": "curl启动和ELF下载告警，不含加密动作、目标内容变化或可用性损失。",
+    "default": "NONE"
+  },
+  "3-26": {
+    "observation": "r0有加载器/opt/donotcry encrypt及目标目录，r4还有关联同PID的rename；r1-r3只有同inode旧名到新后缀。没有密文或静态数据语义内容认证。",
+    "default": "BROAD",
+    "lines": [
+      7,
+      8
+    ],
+    "overrides": {
+      "REV_0158": {
+        "level": "PARTIAL",
+        "lines": [
+          1,
+          3
+        ]
+      },
+      "REV_0162": {
+        "level": "PARTIAL",
+        "lines": [
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "missing": "实际加密内容、不可访问结果、内容操纵目的/外部影响；后缀改名不证明加密。"
+  },
+  "3-29": {
+    "observation": "NTP超时和vsftpd setgid启动不涉及合法账号删除、锁定或凭据改变。",
+    "default": "NONE"
+  },
+  "3-30": {
+    "observation": "rm-rf参数、DELETE路径或unlinkat涉及本地数据删除；冻结正文却为云存储生命周期策略。不能改写父类正文，也不能因云条件未见就否定本地数据破坏。",
+    "default": "SCOPE",
+    "lines": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15,
+      16
+    ],
+    "missing": "父技术与生命周期子类型的标签合同；部分视图只有删除调用而未见最终数据不可恢复。"
+  },
+  "3-32": {
+    "observation": "systemd明确Stopping、Deactivated successfully和Stopped exim4.service，绑定同主机同服务同时间；证明该服务停止状态，不证明造成攻击者预期影响或全系统邮件均失效。",
+    "default": "DIRECT",
+    "lines": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "3-34": {
+    "observation": "vim参数指向/media/share/healthcheck_cron.sh，伴NFS解码告警；没有实际写入内容、共享恶意负载或远端用户执行。",
+    "default": "PARTIAL",
+    "lines": [
+      1,
+      2,
+      5
+    ],
+    "missing": "共享文件修改、恶意内容及接收方执行联系。"
+  },
+  "3-40": {
+    "observation": "puppet-agent catalog Exec明确执行curl|bash并报告success，服务PID、任务和时间可绑定；不认证脚本内容与横移目标。",
+    "default": "DIRECT",
+    "lines": [
+      2,
+      3
+    ],
+    "missing": "远端操作者、payload内容和横向访问链不在当前视图。"
+  },
+  "3-46": {
+    "observation": "cat本地Puppet CA路径的execve参数，未显示文件内容；冻结T1213正文展开SharePoint/Confluence等信息仓库而不是任意本地key路径。",
+    "default": "SCOPE",
+    "lines": [
+      1,
+      3,
+      6,
+      7,
+      9,
+      10
+    ],
+    "missing": "信息库语义/父类标注范围与实际读取结果。"
+  },
+  "3-50": {
+    "observation": "mkdir点目录及snap无更新背景；没有双扩展名、仿冒对象或误导类型的记录。",
+    "default": "BROAD",
+    "lines": [
+      2,
+      4
+    ]
+  },
+  "3-54": {
+    "observation": "CloudFront AAAA响应，无集中管理系统任务、软件部署或执行。",
+    "default": "NONE"
+  },
+  "3-60": {
+    "observation": "puppet-agent同PID catalog Exec执行curl|bash报告success，并有apply configuration的PROCTITLE；下载内容/远端控制意图未显示。",
+    "default": "DIRECT",
+    "lines": [
+      2,
+      3,
+      6
+    ],
+    "missing": "脚本内容、操作者和横移关系。"
+  },
+  "3-7": {
+    "observation": "三个视图为邮件投递背景；r2/r4含cat Puppet CA key路径读取调用，未给内容，也不等同SharePoint/Confluence正文中的信息仓库。",
+    "default": "NONE",
+    "overrides": {
+      "REV_0208": {
+        "level": "SCOPE",
+        "lines": [
+          5,
+          7
+        ]
+      },
+      "REV_0210": {
+        "level": "SCOPE",
+        "lines": [
+          10,
+          11
+        ]
+      }
+    }
+  },
+  "4-17": {
+    "observation": "sudo sed-i往Shorewall rules插入dmz到lan TCP22 ACCEPT的请求；是访问控制规则，不是NAT地址改写，冻结正文只展开NAT。",
+    "default": "SCOPE",
+    "lines": [
+      1,
+      4
+    ],
+    "missing": "实际落盘/生效及NAT映射；完整Network Boundary父类范围未认证。"
+  },
+  "4-18": {
+    "observation": "Shorewall reloaded与Conntrack helper编译；既没有NAT修改内容也没有跨信任区绕行的实际通信。",
+    "default": "BROAD",
+    "lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "4-3": {
+    "observation": "域名解析与用户运行目录创建，不含socketfilter安装、触发流量或被激活后门。",
+    "default": "NONE"
+  },
+  "4-9": {
+    "observation": "tar-xzf解包到/usr/bin的请求，只显示文件准备；不提供socketfilter或特殊流量触发链。",
+    "default": "NONE"
+  },
+  "5-2": {
+    "observation": "浏览器自动化的输入用户名/密码并submit动作，不是服务器认证结果，更不显示token读取或窃取。",
+    "default": "BROAD",
+    "lines": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "missing": "令牌对象、获得来源、读取/窃取动作及权限边界。"
+  },
+  "5-3": {
+    "observation": "原生Web访问行含auth参数并返回200，可见某认证值被带入API请求；值的类型/来源、是否替代认证材料或绕过控制不能由UA或参数名认证。apache connect为本地mysql socket。",
+    "default": "PARTIAL",
+    "lines": [
+      1
+    ],
+    "missing": "材料类型、身份绑定及替代认证/权限穿越的依据。"
+  },
+  "6-1": {
+    "observation": "ODT类型HTTP200下载及curl-o文档参数可支持取回文件，不是用户打开/执行恶意文件。",
+    "default": "PREPARATORY",
+    "lines": [
+      1,
+      6
+    ],
+    "missing": "用户打开、恶意内容、代码执行及因果链。"
+  },
+  "6-15": {
+    "observation": "r0只有xclip加载libSM；r2/r3 PROCTITLE明确xclip-selection clipboard-o并有进程connect，直接相关剪贴板输出请求；未给真实剪贴板内容。",
+    "default": "PARTIAL",
+    "lines": [
+      1,
+      3
+    ],
+    "overrides": {
+      "REV_0247": {
+        "level": "DIRECT",
+        "lines": [
+          6,
+          7
+        ]
+      },
+      "REV_0248": {
+        "level": "DIRECT",
+        "lines": [
+          6,
+          7
+        ]
+      }
+    },
+    "missing": "采集到的数据或读取成功结果。"
+  },
+  "6-17": {
+    "observation": "root cron启动anacron会话，不提供chmod/chown/ACL写入或权限状态改变。",
+    "default": "NONE"
+  },
+  "6-18": {
+    "observation": "chmod+x downloader.sh的启动/参数证明权限修改请求，AppArmor ALLOWED locale open不是该文件执行位变更结果。",
+    "default": "PARTIAL",
+    "lines": [
+      1,
+      3,
+      6,
+      10,
+      11
+    ],
+    "missing": "成功chmod/fchmod系统调用及前后权限；不能从execve成功补出修改成功。"
+  },
+  "6-19": {
+    "observation": "r0-r3明确wmctrl-l参数支持窗口枚举尝试；r4只wmctrl加载libglib，不含操作选项或窗口列表。",
+    "default": "DIRECT",
+    "lines": [
+      1,
+      3,
+      6,
+      7
+    ],
+    "overrides": {
+      "REV_0260": {
+        "level": "PREPARATORY",
+        "lines": [
+          9,
+          11
+        ]
+      }
+    },
+    "missing": "窗口枚举的实际返回未显示；定义允许尝试。"
+  },
+  "6-26": {
+    "observation": "dbus行标firefox extension.xpi只说明带扩展文件参数的浏览器请求timedate服务；没有安装/激活确认，也没有键盘或剪贴板采集。",
+    "default": "NONE",
+    "targets": {
+      "T1176": {
+        "level": "PARTIAL",
+        "lines": [
+          3
+        ]
+      },
+      "T1056": {
+        "level": "NONE",
+        "lines": []
+      },
+      "T1115": {
+        "level": "NONE",
+        "lines": []
+      }
+    }
+  },
+  "6-28": {
+    "observation": "浏览器IndexedDB journals删除路径；没有输入截获/剪贴板API或扩展安装对象。",
+    "default": "NONE",
+    "targets": {
+      "T1176": {
+        "level": "BROAD",
+        "lines": [
+          1,
+          3
+        ]
+      }
+    }
+  },
+  "6-29": {
+    "observation": "Firefox后台线程rename与profile目录，仅浏览器文件维护；无输入、剪贴板或扩展安装证据。",
+    "default": "NONE",
+    "targets": {
+      "T1176": {
+        "level": "BROAD",
+        "lines": [
+          1,
+          3
+        ]
+      }
+    }
+  },
+  "6-30": {
+    "observation": "glean数据库目录rename无按键/剪贴板内容，不认证扩展活动。",
+    "default": "NONE",
+    "targets": {
+      "T1176": {
+        "level": "BROAD",
+        "lines": [
+          1,
+          3
+        ]
+      }
+    }
+  },
+  "6-31": {
+    "observation": "systemd-resolved连接本地DNS53及套接字地址，与键盘/输入截获没有机制联系。",
+    "default": "NONE"
+  },
+  "6-32": {
+    "observation": "Firefox cache2 rename与RT线程背景，没有按键/输入事件记录或截获接口。",
+    "default": "NONE"
+  },
+  "6-33": {
+    "observation": "Firefox glean数据库rename，无输入截获；数据上报目录名不能证明采集凭据。",
+    "default": "NONE"
+  },
+  "6-34": {
+    "observation": "Firefox sessionstore目录rename与线程名，不包含键盘/输入捕获内容。",
+    "default": "NONE"
+  },
+  "6-35": {
+    "observation": "Firefox extension.xpi参数与proxy3128 connect(-115)；不提供输入捕获；-115本身也不是整个会话的最终失败结论。",
+    "default": "NONE"
+  },
+  "6-36": {
+    "observation": "Firefox glean db rename，不是剪贴板读取或采集内容。",
+    "default": "NONE"
+  },
+  "6-37": {
+    "observation": "Firefox扩展参数与代理连接记录，没有clipboard操作或数据；不能用扩展名字补出剪贴板代码。",
+    "default": "NONE"
+  },
+  "6-39": {
+    "observation": "wget下载RustDesk deb包，只是取得安装文件的请求；没有用户打开/执行或社工投递链。",
+    "default": "NONE",
+    "targets": {
+      "T1204": {
+        "level": "PREPARATORY",
+        "lines": [
+          1,
+          7
+        ]
+      },
+      "T1566": {
+        "level": "NONE",
+        "lines": []
+      }
+    },
+    "missing": "用户交互、实际代码执行、恶意文件/消息内容及发送接收身份。"
+  },
+  "6-44": {
+    "observation": "cron自身的setuid/execve，未显示远控软件、远程peer或钓鱼消息。",
+    "default": "NONE"
+  },
+  "6-46": {
+    "observation": "RustDesk的cliprdr-server卸载未挂载提示只能确认该程序相关组件运行背景；不是远程会话成功或剪贴板采集结果。",
+    "default": "PARTIAL",
+    "lines": [
+      3,
+      11
+    ],
+    "missing": "对端身份、交互控制或C2通道建立。"
+  },
+  "6-47": {
+    "observation": "RustDesk注册eventhandler/启动cm与初始化FFI；peer字样为handler名称而非已连接peer事件，无远端操作/认证/会话结果。",
+    "default": "PARTIAL",
+    "lines": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "missing": "真实peer连接及交互命令/屏幕控制链。"
+  },
+  "6-49": {
+    "observation": "curl-o .index的下载调用；没有实际远控软件身份、启动或交互channel。",
+    "default": "NONE"
+  },
+  "6-51": {
+    "observation": "sudo chmod+x .index为权限修改请求；connect -22属于sudo一次调用，不证明远控会话。",
+    "default": "NONE",
+    "targets": {
+      "T1222": {
+        "level": "PARTIAL",
+        "lines": [
+          1,
+          4
+        ]
+      },
+      "T1219": {
+        "level": "NONE",
+        "lines": []
+      }
+    },
+    "missing": "chmod变更后权限、对端或交互控制。"
+  },
+  "6-53": {
+    "observation": "下载到firefox-startup的文件名不证明远控组件或远端控制；未见文件内容或会话。",
+    "default": "NONE"
+  },
+  "6-57": {
+    "observation": "ln-sf建立指向firefox-startup的链接请求，文件名可能伪装但没有内容、执行或远控通道。",
+    "default": "NONE"
+  },
+  "6-59": {
+    "observation": "四个视图只有which python3和python3-从stdin运行，代码本体不可见；r2是Firefox/dbus/RT背景。不能从python解释器补出远控。",
+    "default": "INPUT_UNKNOWN",
+    "lines": [
+      1,
+      2,
+      4
+    ],
+    "overrides": {
+      "REV_0357": {
+        "level": "NONE",
+        "lines": []
+      }
+    },
+    "missing": "stdin代码、网络对端/会话与执行目的。"
+  },
+  "7-10": {
+    "observation": "docker veth/bridge生命周期提示容器网络接口加入，但没有容器create/start、镜像内容或漏洞利用链。",
+    "default": "NONE",
+    "targets": {
+      "T1610": {
+        "level": "PARTIAL",
+        "lines": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "T1210": {
+        "level": "NONE",
+        "lines": []
+      },
+      "T1525": {
+        "level": "NONE",
+        "lines": []
+      }
+    }
+  },
+  "7-2": {
+    "observation": "mail DNS、dockerd启动参数及smtpd connect；没有人员身份资料或对身份信息的收集动作。",
+    "default": "NONE"
+  },
+  "7-4": {
+    "observation": "apache2连接127.0.0.11:53为本地DNS套接字，未展示受害主机软硬件/配置清单获取。",
+    "default": "NONE"
+  },
+  "7-6": {
+    "observation": "远端PUT用户alice符合Run script工作流规则，可关联远端请求触发脚本，但原文中段结束，缺实际脚本、漏洞/授权边界与初始访问证据；containerd stderr错误不认证利用。HTTP也不构成非应用层C2。",
+    "default": "NONE",
+    "targets": {
+      "T1190": {
+        "level": "PARTIAL",
+        "lines": [
+          4
+        ]
+      },
+      "T1095": {
+        "level": "NONE",
+        "lines": []
+      }
+    },
+    "missing": "暴露面、漏洞或错误配置、未授权访问及初始进入网络的因果链。"
+  },
+  "7-7": {
+    "observation": "cron自有root PAM凭据和会话字段不等于有人主动查询系统用户；无whoami/who/users等调用。",
+    "default": "NONE"
+  }
+}

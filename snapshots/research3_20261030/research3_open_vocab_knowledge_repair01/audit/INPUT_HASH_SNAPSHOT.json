@@ -1,0 +1,303 @@
+[
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/DELIVERY_SHA256.json",
+    "role": "PRECEDING_SOURCE_AUDIT_SEAL",
+    "sha256": "c21f138d348df32c3315b3f6b5ece8dbbb6028e993db513789d06ff224914ee5",
+    "bytes": 5624,
+    "first_read_utc": "2026-10-29T10:56:38.272733+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/AFFECTED_QUERY_MAP.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "46013f63dcf84069d979aebd8357a8e95823d43459ab3aae0379133126464b5b",
+    "bytes": 262023,
+    "first_read_utc": "2026-10-29T10:56:38.274510+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/ASSET_SOURCE_INVENTORY.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "a123bd29a41ea193d93b66248f48884735beffd8172eade5419030c7cbe3c297",
+    "bytes": 79452,
+    "first_read_utc": "2026-10-29T10:56:38.275434+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/DEFINITION_IMPACT_SUMMARY.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c",
+    "bytes": 18050,
+    "first_read_utc": "2026-10-29T10:56:38.275962+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/EXTRACTION_PIPELINE_AUDIT.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "093fd324e32ad6881cc64862933f0265bd8424bd3e7db88bf0a520aa0af15dc7",
+    "bytes": 28110,
+    "first_read_utc": "2026-10-29T10:56:38.276397+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/GOLD_SCOPE_AUDIT.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225",
+    "bytes": 100539,
+    "first_read_utc": "2026-10-29T10:56:38.277177+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/HUMAN_ADJUDICATION_QUEUE.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "729ca0ef646adccbef3a23f407f6fff6fc1dfbe9c22df83f749a7bc73d349f83",
+    "bytes": 27756,
+    "first_read_utc": "2026-10-29T10:56:38.277759+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/INPUT_LABEL_SCOPE_AUDIT_REPORT.md",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "bcc4b0a9955ebb8bf76586aca37c258279829eaf70b932beb307be144b088ca9",
+    "bytes": 16777,
+    "first_read_utc": "2026-10-29T10:56:38.278255+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/PARENT_CHILD_MAPPING_AUDIT.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "81c4a45337bd021b027d51ef86235a1dd7dcad89833fceda8b3eab508bd997ed",
+    "bytes": 48663,
+    "first_read_utc": "2026-10-29T10:56:38.278721+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/REPAIRABILITY_REGISTER.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "a53fe8fd4cef17a2d655ceccd3afeaae853bce74aa3b19c6cb98eab4c6dc6e3a",
+    "bytes": 12602,
+    "first_read_utc": "2026-10-29T10:56:38.279230+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/RUN_MANIFEST.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "21f104f4663cb2edcbdb7149716af7977c6fa11c23fc1d73597aa7a649e995d2",
+    "bytes": 43456,
+    "first_read_utc": "2026-10-29T10:56:38.279715+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/TECHNIQUE_DEFINITION_AUDIT.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "4df08bd10ca616679d0e35352431167d24f39ae1c786e046005944f5e7568141",
+    "bytes": 25165,
+    "first_read_utc": "2026-10-29T10:56:38.280187+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/ASSET_READ_SNAPSHOT.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "2457dd624a49fee37847813061a89bf445f6e1b9267437b988db5205ced5473e",
+    "bytes": 95042,
+    "first_read_utc": "2026-10-29T10:56:38.280787+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/BOUNDED_TRANSFORMATION_PROOF.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "8ede6af85a1b3b5b4d7bcef69ecb92f6a5f4f2bcd1a62b49ce401d6d9117251d",
+    "bytes": 61237,
+    "first_read_utc": "2026-10-29T10:56:38.281531+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/FROZEN_AUDIT_QUEUES.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "01fa329965d3e36599871a386d8162c183936df3cc7a030fdf895264cf07613f",
+    "bytes": 2418,
+    "first_read_utc": "2026-10-29T10:56:38.282003+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/GATE_CONTEXT_INSPECTION.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "0b763bba20f0427b4e3a8ad56eb5a824613f8f3c7acc2d4df8641814f8bb048c",
+    "bytes": 12597,
+    "first_read_utc": "2026-10-29T10:56:38.282364+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/IMPACT_ID_SETS.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "3986b8072fb04c0ee460a4a3e60483bc790e0211d57e541f4a623ea09c024514",
+    "bytes": 193366,
+    "first_read_utc": "2026-10-29T10:56:38.283039+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/INDEPENDENT_VALIDATION_CHECKS.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "b96b2c8bfdc961a8ac654cb4cd16aa630ffb60613d79f8810fd0495401bf51f7",
+    "bytes": 88101,
+    "first_read_utc": "2026-10-29T10:56:38.283837+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/LEGACY_HASH_MISMATCHES_PRESERVED.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "519c10bb551ae403cdf0f953f384e6f4fcbab386b4b626e7766517070dd1e978",
+    "bytes": 505,
+    "first_read_utc": "2026-10-29T10:56:38.284750+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "aebf08f53fa9a9130c2325f337a7621eb9624b01bc5639ac7c384cc0bf3ee9bd",
+    "bytes": 14613,
+    "first_read_utc": "2026-10-29T10:56:38.285423+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/SELECTED_AUTHOR_LABEL_METADATA.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "3236628a9cdc6bf2adebfab0f62c8b2ff290acf3933cf8e4bf2b2fbb82dccdfb",
+    "bytes": 17040,
+    "first_read_utc": "2026-10-29T10:56:38.285861+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/SELECTED_SOURCE_FIELD_EVIDENCE.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "778d253893706a98604f562fb6870b3add474c7961a6b26481e27e6f87bd47bd",
+    "bytes": 3746024,
+    "first_read_utc": "2026-10-29T10:56:38.290292+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/SOURCE_HASH_COMPARISONS.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "8d79680913e62eb21b21d73e9ece79014de13c417f7e9fed8e3cd13233b03ede",
+    "bytes": 6899,
+    "first_read_utc": "2026-10-29T10:56:38.297136+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/audit_io.py",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "682f6fce807381f0df06925cb078bfdb5c525319d1026e8e5394662262855f74",
+    "bytes": 2321,
+    "first_read_utc": "2026-10-29T10:56:38.298281+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/build_audit.py",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "b1980300d96dca208a82050c8926b51d9cef0d1ae047bd7b4166279b2a529690",
+    "bytes": 24850,
+    "first_read_utc": "2026-10-29T10:56:38.298897+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/complete_deliverables.py",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "6e840eb5f0ecd790c576192bdfc9917438d7bc66f89d0e62deb7ae9cf2779ec0",
+    "bytes": 40109,
+    "first_read_utc": "2026-10-29T10:56:38.299571+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/finalize_audit.py",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "eff95ddfb16625352d45225e2ccda91c5e33282c2e80831e847556777cbbe162",
+    "bytes": 3007,
+    "first_read_utc": "2026-10-29T10:56:38.300317+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/validate_audit.py",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "60aaed66e3d13b8bf9a243cefbc5b7f57c833636670aadd0c4299b3a13830d21",
+    "bytes": 16694,
+    "first_read_utc": "2026-10-29T10:56:38.301009+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/BLOCKER_REGISTER.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "55b12c18ac310d6248c41b8cb06b50186b3cb1c969a5b6adbe3f2f3633a4ebc3",
+    "bytes": 3093,
+    "first_read_utc": "2026-10-29T10:56:38.301474+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/INPUT_LABEL_AUDIT_PROTOCOL.md",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "cb1364dc81334d7a520c8a8e50ffce5d073b23b80780480ed60f089aa967fe0b",
+    "bytes": 4391,
+    "first_read_utc": "2026-10-29T10:56:38.301982+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "a71c8c9b743f2630762f1d66b9e0e3cc266e42594cfa1515062017f6208b4d80",
+    "bytes": 2701,
+    "first_read_utc": "2026-10-29T10:56:38.302417+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/USER_REQUEST_PART_1.txt",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "ceb256b93ea070df1fc618d2b3ac4e9879be28399d446ffa1ecbbfe53103e134",
+    "bytes": 10568,
+    "first_read_utc": "2026-10-29T10:56:38.302837+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/USER_REQUEST_PART_2.txt",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "dde31453a4b3fdf131b6842c41c340baba7157a6c23340c1e2011628f61f8499",
+    "bytes": 14114,
+    "first_read_utc": "2026-10-29T10:56:38.303293+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/results/AUDIT_COUNTS.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "651d1ca1eaee0fbc024f5dcaf38616bdc23d57bc629dce472e55fd2542dc39ee",
+    "bytes": 1399,
+    "first_read_utc": "2026-10-29T10:56:38.303963+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/results/DEFINITION_IMPACT_SUMMARY.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c",
+    "bytes": 18050,
+    "first_read_utc": "2026-10-29T10:56:38.304463+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/results/FINAL_VALIDATION.json",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "7ca206ec4db647e0abad01b2a1b079c98bc85db1dfbbaaf3593e0402e0e0342a",
+    "bytes": 6704,
+    "first_read_utc": "2026-10-29T10:56:38.304820+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/review/GOLD_SCOPE_AUDIT.csv",
+    "role": "PRECEDING_SOURCE_AUDIT_HASH_ONLY",
+    "sha256": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225",
+    "bytes": 100539,
+    "first_read_utc": "2026-10-29T10:56:38.306241+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "role": "AUTHOR_CANDIDATE_AND_DISPLAY_METADATA_NOT_BEHAVIOR_SOURCE",
+    "sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "bytes": 76198,
+    "first_read_utc": "2026-10-29T10:56:38.307985+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz",
+    "role": "EXISTING_STIX_BODY_AND_RELATION_SOURCE",
+    "sha256": "2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711",
+    "bytes": 8068313,
+    "first_read_utc": "2026-10-29T10:56:38.319459+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/KNOWLEDGE_K2.json",
+    "role": "OLD_FROZEN_TEXT_DIFF_ONLY",
+    "sha256": "0a358a76a45db26972dd17b0345c1666e8d57e9ad4a080f0fd21a6daba7e98df",
+    "bytes": 198955,
+    "first_read_utc": "2026-10-29T10:56:38.626639+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "role": "OLD_FULL_TEXT_TRACE_ONLY",
+    "sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+    "bytes": 950563,
+    "first_read_utc": "2026-10-29T10:56:38.629854+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+    "role": "PINNED_SOURCE_RECEIPT",
+    "sha256": "a1f2b9ec11b35870e8cc7b6267adf440a03bd68bea1d441cae0aafd6eb4121a3",
+    "bytes": 898,
+    "first_read_utc": "2026-10-29T10:56:38.634074+00:00"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/commit.json",
+    "role": "AUTHOR_SOURCE_COMMIT",
+    "sha256": "3d03dbfa286bab4034ecf6ca727887f20d88ae9c322cba941179b8a4e58f4250",
+    "bytes": 6894,
+    "first_read_utc": "2026-10-29T10:56:38.634729+00:00"
+  }
+]

@@ -1,0 +1,13 @@
+# 空输入选择器修复：V1与V2
+
+V1实际模型结果完整保留在results/server_gpu_v1，完整报告/CSV/图快照在reports/V1_ANALYSIS。最终V2主结果不是择优拼接，两模型全部条件均重新跑975查询，所有相同样本与失败案例都保留。差异表为results/INPUT_REPAIR_V1_V2_METRICS.csv。
+
+最终检查发现10个prefix和7个window空视图，原始日志都非空。根因是线性减去“渲染超额”：字段展开与原生重复可使渲染超额大于所选native token数，于是n被直接减至0；外层实际tokenizer缩小代理cap时也可能触发。实际案例1-54-r1选择2048代理token，展开4356，超额2308，下一次n=0。另两个实际案例也复现，见EMPTY_INPUT_ROOT_CAUSE_TRACE.json。不是缺日志或模型返回空。
+
+修复先复用完全冻结的旧选择结果；只有V0为空才用正数可行区间搜索，寻找满足两个实际tokenizer及代理上限2048的原始片段。非空输入不重新优化，1933个非空variant的全部可见文本逐字一致；17个空variant变非空。最终1950个prefix/window均非空、975查询、actual token cap均通过。预算字段legacy proxy诊断值来自第一遍选择；最终权威实际上限为actual_log_token_budget=2048及逐模型实际count，新增修复audit说明所选片段。
+
+这是Gold后开发工程修复，注册明确承认此前已看总体成绩；修复条件只由空文本决定，不用Gold、单案例得分或模型正确性挑选。固定模型/知识/候选/采样和评价器均未改，不把V1到V2分数变化算成算法增益。两种模型只进行这一次修复重跑，无新本地LLM调用。
+
+V1+V2累计模型阶段时间：Embedding 110.72秒；CE 2229.88秒，仍在每模型3小时以内。最后服务器项目1,539,144,990 bytes，含V1保留，低于4GB；已无本项目GPU进程。运行及wrapper哈希分别在NEURAL_RUNTIME_PROTOCOL和EMPTY_INPUT_REPAIR_V2_STARTED。
+
+修复后E1/对应TF-IDF的Top10均增加7/975，因此二者差没有改善；E3有小幅变化，但仍无稳健统计支持。原负结果不删除，当前主表统一使用V2。

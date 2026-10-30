@@ -1,0 +1,18 @@
+{
+  "primary_status": "OPEN_VOCAB_TRADEOFF_UNRESOLVED",
+  "secondary_statuses": [
+    "OPEN_VOCAB_BASELINES_EVALUATED",
+    "UNSEEN_RANKING_RECOVERED_ON_DEV",
+    "EXTERNAL_TEST_NOT_READY",
+    "NO_SUPPORTED_NEW_ALGORITHMIC_GAIN"
+  ],
+  "qualification": "DEVELOPMENT_ONLY",
+  "registered_H2_passes": false,
+  "training_updates": 0,
+  "new_GPU_calls": 0,
+  "new_LLM_calls": 0,
+  "new_model_downloads": 0,
+  "main_prediction_rows": 64350,
+  "tradeoff_prediction_rows": 23400,
+  "new_algorithms_claimed": false
+}

@@ -1,0 +1,22 @@
+{
+  "authorized": true,
+  "new_task": "R3_ATTACK_MECHANISM_DISCRIMINATION01",
+  "authorization_source": "Direct human reply authorizes main experiment4views×2knowledge,156000candidate pairs,GPU2h,1GB; four frozen files9597914bytes to specified project; same-name venv and readonly model/dependency reuse",
+  "GPU": 0,
+  "GPU_memory_fraction": 0.15,
+  "CPU_threads": 2,
+  "batch": 8,
+  "candidate_k": 20,
+  "max_pair_evaluations": 156000,
+  "sanity_public_pair_evaluations": 8,
+  "wall_seconds_limit": 7200,
+  "new_disk_limit_bytes": 1000000000,
+  "knowledge_conditions": [
+    "K2_DESCRIPTION_16_1",
+    "MECHANISM_CARD"
+  ],
+  "new_model_downloads": false,
+  "new_LLM_calls": 0,
+  "Gold_upload": false,
+  "time_recorded_unix": 1793120139.2773728
+}

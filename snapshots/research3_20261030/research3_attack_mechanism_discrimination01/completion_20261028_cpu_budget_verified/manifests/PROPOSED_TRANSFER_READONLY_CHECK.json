@@ -1,0 +1,30 @@
+{
+  "uploaded": false,
+  "files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/frozen_inputs/PREDICTION_INPUTS.jsonl",
+      "sha256_expected": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+      "current_sha256": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/attack_knowledge/KNOWLEDGE_TEXTS.json",
+      "sha256_expected": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+      "current_sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/frozen_inputs/NEURAL_FIXED_CANDIDATES.json",
+      "sha256_expected": "4c1f4374774135eeb3c3db9b3f470980e6256b5c2af89962ebd0d7b12770b328",
+      "current_sha256": "4c1f4374774135eeb3c3db9b3f470980e6256b5c2af89962ebd0d7b12770b328",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/experiments/run_gpu_if_authorized.py",
+      "sha256_expected": "457998880e19f5addd31c2716692fff8e4dbe27defc7d152c9ef73867a8325f2",
+      "current_sha256": "457998880e19f5addd31c2716692fff8e4dbe27defc7d152c9ef73867a8325f2",
+      "unchanged": true
+    }
+  ],
+  "scope": "prepared request only; no authorization inferred from filesystem declarations"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS_MECHANICAL_SOURCE_RECOVERY_WITH_SCOPE_BLOCKERS",
+  "execution_status": "SOURCE_RECOVERY_COMPLETED_WITH_VERSION_AND_SCOPE_BLOCKERS",
+  "source_bodies_recovered": 216,
+  "previous_missing_recovered": 13,
+  "missing_body_sources": [],
+  "active_source_candidate_count": 213,
+  "revoked_source_candidate_IDs": [
+    "T1562",
+    "T1656",
+    "T1672"
+  ],
+  "revocation_mappings_applied": 0,
+  "author_matrix_exact_release": null,
+  "author_source_name_mismatches": [
+    "T1211"
+  ],
+  "author_source_tactic_mismatch_count": 47,
+  "semantic_contract_status": "NOT_QUALIFIED;3revokedIDs+scopequestionsrequireadjudication",
+  "reference_status": "NOT_AVAILABLE",
+  "independent_test_status": "NOT_AVAILABLE",
+  "assets_checked": 32,
+  "old_files_modified": 0,
+  "old_files_changed": [],
+  "mechanical_checks": 2092,
+  "failed_checks": [],
+  "required_artifacts_present": {
+    "SOURCE_RECOVERY_REPORT.md": true,
+    "knowledge/KNOWLEDGE_V2_SOURCE19_2.json": true,
+    "knowledge/PARENT_ONLY_FULL_V2.json": true,
+    "SOURCE_VERSION_MIGRATION.csv": true,
+    "RECOVERED_13_DEFINITIONS.csv": true,
+    "REVOCATION_CROSSWALK_NOT_APPLIED.csv": true,
+    "CONTRACT_REVIEW_QUEUE.csv": true,
+    "PARENT_CHILD_SOURCE_AUDIT.csv": true,
+    "audit/SOURCE_PROVENANCE_RECEIPT.json": true,
+    "protocol/SOURCE_RECOVERY_CONTRACT.md": true,
+    "RUN_MANIFEST.json": true,
+    "results/FINAL_VALIDATION.json": true
+  },
+  "new_model_calls": 0,
+  "new_agent_calls": 0,
+  "new_training_runs": 0,
+  "GPU_tasks": 0,
+  "downloads": 0,
+  "network_access": 0,
+  "server_access": 0,
+  "uploads": 0,
+  "experiment_executed": false,
+  "model_performance_change": null,
+  "final_decision": "GO_AFTER_LABEL_SCOPE_ADJUDICATION",
+  "limitations": [
+    "ExactauthormatrixATTCKrelease unknown.",
+    "3same-IDsourceobjectsrevoked;successorsnotapplied.",
+    "1parentnamedifference andmanytacticchanges;semanticcompatibilitynotcertified.",
+    "NoindependentsemanticGold/no modelbenefit experiment.",
+    "Some discoveryreadsprecededfirsttrackedhashes;integrityonlyregisteredinputs.",
+    "480subtypearchiveincludes16revokedobjectswithoutcurrentparentrelation;notallarequalifiedsubtypes.",
+    "LocalhistoricalsourceURLandhashreceipt corroborated;upstreamgitcommitnotrecovered,no new externalreauthentication."
+  ]
+}

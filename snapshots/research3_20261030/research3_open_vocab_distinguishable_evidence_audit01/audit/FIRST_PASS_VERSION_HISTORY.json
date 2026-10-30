@@ -1,0 +1,29 @@
+{
+  "revision": "v1 archived before any current candidate payload access",
+  "reason": "clarify that step-union reading notes are context, not a compound directly supported fact in every sampled view; narrow background condition to current cited literal text",
+  "definitions_and_manual_judgments_changed": false,
+  "candidate_payload_read_before_amendment": false,
+  "archive_directory": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/audit/phase1_v1_superseded",
+  "archived_files": [
+    {
+      "path": "review/FIRST_PASS_MANUAL_NOTES.json",
+      "sha256": "39184fb5f72a4b6cb88278bf1e6452e8b093ea8d5fc4aad8ea76d47825a104d4"
+    },
+    {
+      "path": "review/GOLD_CONDITION_REGISTRY.json",
+      "sha256": "50b63cd68f6b7edaf7bfe8d850ef1b714da561eeb428744983dd00c0785af9df"
+    },
+    {
+      "path": "review/FIRST_PASS_CASE_EVIDENCE.jsonl",
+      "sha256": "0fa790acea7f9b9a1c6d250294cd572a363d6ba2c87b23587c6bbcee567c96ac"
+    },
+    {
+      "path": "review/CONDITION_EVIDENCE_MATRIX.csv",
+      "sha256": "7e090d6701cdcd34e0aa57f9a2d30cb196c5d318e9745be62b0deb6f1162b958"
+    },
+    {
+      "path": "review/DERIVED_VISIBLE_HEX.jsonl",
+      "sha256": "77d29fca356635c2b8108b7df0094195e43bfebb3f0537e36b91d07a37e081b9"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "status": "PASS_FOR_COMPLETED_AUTHORIZED_SCOPE_WITH_DOCUMENTED_LIMITATIONS",
+  "root_deliverables": 29,
+  "questions_covered": 44,
+  "matrix_count": 42,
+  "matrix_rows": 17454,
+  "inherited_checkpoints_unchanged": 378,
+  "immutable_old_files_rehashed": 1938,
+  "prediction_counts": {
+    "main": {
+      "rows": 64350,
+      "method_seed_view_groups": 66
+    },
+    "tradeoff": {
+      "rows": 23400,
+      "method_seed_view_groups": 6
+    },
+    "gte_export": {
+      "rows": 2909,
+      "method_seed_view_groups": 0
+    },
+    "b3_export": {
+      "rows": 17454,
+      "method_seed_view_groups": 0
+    }
+  },
+  "parameters": 462,
+  "grid_conditions": 1722,
+  "sample_type_counts_per_condition": {
+    "queries": 975,
+    "logical_steps": 195,
+    "scenarios": 7,
+    "all_seen": 525,
+    "all_unseen": 305,
+    "mixed": 145,
+    "seen_target": 670,
+    "unseen_target": 450
+  },
+  "independent_fusion_audit": "PASS_WITH_SCOPE_LIMITATIONS",
+  "evaluation_audits": "PASS",
+  "pipeline_lineage_audit": "PASS_WITH_DOCUMENTED_PREFLIGHT_TIMING_DEVIATION",
+  "session_Gold_timing_deviation_disclosed": true,
+  "no_claim_of_whole_session_zero_early_Gold_access": true,
+  "external": {
+    "status": "PASS_SERVER_ONLY_ACQUISITION_NO_MODEL_EVALUATION",
+    "qualification": "E1_BAG_FEASIBILITY_DATA_READY_NO_MODEL_EVALUATION",
+    "server_raw_bytes": 12905849,
+    "local_raw_bytes": 0,
+    "bags_prepared": 1,
+    "bags_evaluated": 0,
+    "external_metrics": "N/A",
+    "parser_status": "STRUCTURE_PARSED_NOT_SEMANTICALLY_VALIDATED"
+  },
+  "scientific_qualification": "DEVELOPMENT_ONLY",
+  "new_training_updates": 0,
+  "new_GPU_calls": 0,
+  "new_model_downloads": 0,
+  "new_LLM_calls": 0,
+  "python_AST_files": [
+    "calibration/fit_calibrators.py",
+    "class_priors/analyze_frequency.py",
+    "external_dataset/audit_qualification.py",
+    "external_dataset/build_qualification.py",
+    "external_dataset/download_server_payloads.py",
+    "external_dataset/download_server_payloads_v2.py",
+    "external_dataset/finalize_server_qualification.py",
+    "external_dataset/prepare_bag.py",
+    "external_dataset/prepare_server_bag.py",
+    "frozen_protocol/register.py",
+    "fusion/core.py",
+    "fusion/independent_audit.py",
+    "fusion/predict.py",
+    "fusion/record_audit_timing_disclosure.py",
+    "manifests/final_validate.py",
+    "open_vocab_evaluation/audit_pipeline_lineage.py",
+    "open_vocab_evaluation/evaluate_saved.py",
+    "reports/build_analysis_bundle.py",
+    "reports/build_report.py",
+    "reports/figures_open_vocab.py",
+    "score_matrices/reconstruct_scores.py",
+    "score_matrices/validate_score_exports.py"
+  ],
+  "figure_checks": [
+    {
+      "stem": "figure01_main_seen_unseen",
+      "png_dimensions": [
+        1750,
+        862
+      ],
+      "formats": [
+        "PNG",
+        "PDF",
+        "SVG"
+      ],
+      "check_scope": "file format/dimensions; visual QA documented separately"
+    },
+    {
+      "stem": "figure02_seen_unseen_tradeoff",
+      "png_dimensions": [
+        1750,
+        903
+      ],
+      "formats": [
+        "PNG",
+        "PDF",
+        "SVG"
+      ],
+      "check_scope": "file format/dimensions; visual QA documented separately"
+    },
+    {
+      "stem": "figure03_mixed_coverage",
+      "png_dimensions": [
+        1750,
+        778
+      ],
+      "formats": [
+        "PNG",
+        "PDF",
+        "SVG"
+      ],
+      "check_scope": "file format/dimensions; visual QA documented separately"
+    },
+    {
+      "stem": "figure04_long_tail_class_mrr",
+      "png_dimensions": [
+        1750,
+        778
+      ],
+      "formats": [
+        "PNG",
+        "PDF",
+        "SVG"
+      ],
+      "check_scope": "file format/dimensions; visual QA documented separately"
+    }
+  ],
+  "total_local_nonvenv_disk_bytes_before_seal": 775150607,
+  "local_disk_guard_bytes": 2000000000,
+  "delivery_file_count": 211,
+  "delivery_sha256": "fbb8d5879d04395f090315e0c037febf2bb096851e393ab88ce9c8ef90ec4df2",
+  "manifest_exclusions": [
+    "self",
+    "results/FINAL_VALIDATION.json",
+    "venvs",
+    "__pycache__",
+    ".git",
+    "symlinks",
+    "*.log"
+  ],
+  "validator_sha256": "b882b444b064ed1382c8d6c225fa0e2a54e508e12a520a6dfd9b44f8aa7cf14d",
+  "seconds": 20.999718417000054,
+  "total_local_nonvenv_disk_bytes_after_seal": 775191602
+}

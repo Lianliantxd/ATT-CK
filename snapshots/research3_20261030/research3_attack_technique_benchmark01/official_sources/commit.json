@@ -1,0 +1,101 @@
+{
+  "sha": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+  "node_id": "C_kwDOROrEENoAKDQyYmJkMmNmODQwOWY2NGExZTZjOGZjOTM2YzkxNzI1ZThjNTU4YjI",
+  "commit": {
+    "author": {
+      "name": "Christian Bucher",
+      "email": "259439381+christian140903-sudo@users.noreply.github.com",
+      "date": "2026-10-20T14:31:02Z"
+    },
+    "committer": {
+      "name": "Ubuntu",
+      "email": "max.landauer@ait.ac.at",
+      "date": "2026-10-21T06:56:16Z"
+    },
+    "message": "Add notes on data set versions and attack_times.csv to README",
+    "tree": {
+      "sha": "61028221aee4531cadc8c889c931469feb868a7c",
+      "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/trees/61028221aee4531cadc8c889c931469feb868a7c"
+    },
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/commits/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/commits/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+  "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/commit/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+  "comments_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/commits/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/comments",
+  "author": {
+    "login": "christian140903-sudo",
+    "id": 259439381,
+    "node_id": "U_kgDOD3a7FQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/259439381?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/christian140903-sudo",
+    "html_url": "https://github.com/christian140903-sudo",
+    "followers_url": "https://api.github.com/users/christian140903-sudo/followers",
+    "following_url": "https://api.github.com/users/christian140903-sudo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/christian140903-sudo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/christian140903-sudo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/christian140903-sudo/subscriptions",
+    "organizations_url": "https://api.github.com/users/christian140903-sudo/orgs",
+    "repos_url": "https://api.github.com/users/christian140903-sudo/repos",
+    "events_url": "https://api.github.com/users/christian140903-sudo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/christian140903-sudo/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "landauermax",
+    "id": 11562883,
+    "node_id": "MDQ6VXNlcjExNTYyODgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/11562883?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/landauermax",
+    "html_url": "https://github.com/landauermax",
+    "followers_url": "https://api.github.com/users/landauermax/followers",
+    "following_url": "https://api.github.com/users/landauermax/following{/other_user}",
+    "gists_url": "https://api.github.com/users/landauermax/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/landauermax/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/landauermax/subscriptions",
+    "organizations_url": "https://api.github.com/users/landauermax/orgs",
+    "repos_url": "https://api.github.com/users/landauermax/repos",
+    "events_url": "https://api.github.com/users/landauermax/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/landauermax/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c8392102e23a94245b8f8173a08f3ffef47f895d",
+      "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/commits/c8392102e23a94245b8f8173a08f3ffef47f895d",
+      "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/commit/c8392102e23a94245b8f8173a08f3ffef47f895d"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "additions": 4,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "7cc4da8fa0508d8e13cacae5c47d485b2e0f48fc",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/README.md",
+      "raw_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/raw/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/README.md",
+      "contents_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/README.md?ref=42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+      "patch": "@@ -40,6 +40,8 @@ To create LLM prompts based on the log data in the `manifestations_filtered/step\n python3 create_llm_prompt.py --samples 5 --seed 42\n ```\n \n+Note that `llm_queries.json` was created from version 1 of the data set ([record 18390561](https://zenodo.org/records/18390561), as downloaded above). The latest version 2 ([record 18861762](https://zenodo.org/records/18861762)) additionally contains audit events of `runc init` in the Docker `audit.log` files of steps 3, 6, 8, 10, and 13 of Scenario 7, which results in different prompts. Moreover, `Path.rglob` does not return the log files in a fixed order, so the prompts may also differ across file systems and Python versions; the provided file can be reproduced with Python 3.12 when the files are read in the order in which they are stored in the zip archive.\n+\n The generated prompts contain a general task description as well as the lines to be classified. An example could look like this:\n \n ```\n@@ -155,6 +157,8 @@ Note that filtering is based on the normal behavior activities observed in all o\n python3 extract_attack_logs.py\n ```\n \n+Besides the manifestations, the script creates the files `labels.json` and `attack_times.csv` provided in this repository. `attack_times.csv` lists the start and end times (Unix timestamps) of the attack steps together with their techniques and tactics. Note that in rows with more than one technique (203 of the 904 rows), the `tactics` column concatenates the tactics of the individual techniques without separator, e.g., `reconnaissancereconnaissance` for the techniques `T1590.002_T1591`, while tactics of the same technique are separated by `_`. The tactics of each technique are available in the `metadata` field of the corresponding entry in `labels.json` (key `<scenario>-<event_id>`). The `technique_names` column is not filled (`NA`).\n+\n # Citation\n \n If you use data or scripts from this repository, please cite the following publication:"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "minimal_gate_success": true,
+  "pilot_started": true,
+  "recorded_pilot_conditions": 48,
+  "planned_pilot_conditions": 48,
+  "status": "FINISHED_RECORDED_MATRIX"
+}

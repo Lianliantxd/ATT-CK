@@ -1,0 +1,25 @@
+{
+  "embedding": {
+    "single_shape": [
+      1,
+      768
+    ],
+    "bounded_batch_shape": [
+      8,
+      768
+    ],
+    "finite": true,
+    "norm_range": [
+      0.9999999403953552,
+      1.0000001192092896
+    ],
+    "preflight_seconds": 1.1914969747886062,
+    "actual_device": "cuda:0",
+    "dtype": "torch.float16"
+  },
+  "reranker": {
+    "single_pair_and_bounded8_success": true,
+    "device": "cuda:0",
+    "dtype": "torch.float16"
+  }
+}

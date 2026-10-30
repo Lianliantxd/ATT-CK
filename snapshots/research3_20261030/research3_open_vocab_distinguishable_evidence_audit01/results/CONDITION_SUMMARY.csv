@@ -1,0 +1,19 @@
+scope,evidence_status,condition_instance_count,scope_total_condition_instances,deduplicated_logical_condition_count,unit
+ALL_GOLD_CONDITIONS,DIRECTLY_SUPPORTED,240,2555,263,query-by-Gold-by-condition instance;not independent events or attacks
+ALL_GOLD_CONDITIONS,PARTIALLY_SUPPORTED,201,2555,263,query-by-Gold-by-condition instance;not independent events or attacks
+ALL_GOLD_CONDITIONS,EXPLICITLY_CONTRADICTED,0,2555,263,query-by-Gold-by-condition instance;not independent events or attacks
+ALL_GOLD_CONDITIONS,NOT_ESTABLISHED,1990,2555,263,query-by-Gold-by-condition instance;not independent events or attacks
+ALL_GOLD_CONDITIONS,NOT_OBSERVABLE_IN_CURRENT_VIEW,12,2555,263,query-by-Gold-by-condition instance;not independent events or attacks
+ALL_GOLD_CONDITIONS,NOT_EVALUABLE,112,2555,263,query-by-Gold-by-condition instance;not independent events or attacks
+REQUIRED_OBSERVABLE_GOLD_CONDITIONS,DIRECTLY_SUPPORTED,110,1905,192,query-by-Gold-by-condition instance;not independent events or attacks
+REQUIRED_OBSERVABLE_GOLD_CONDITIONS,PARTIALLY_SUPPORTED,201,1905,192,query-by-Gold-by-condition instance;not independent events or attacks
+REQUIRED_OBSERVABLE_GOLD_CONDITIONS,EXPLICITLY_CONTRADICTED,0,1905,192,query-by-Gold-by-condition instance;not independent events or attacks
+REQUIRED_OBSERVABLE_GOLD_CONDITIONS,NOT_ESTABLISHED,1470,1905,192,query-by-Gold-by-condition instance;not independent events or attacks
+REQUIRED_OBSERVABLE_GOLD_CONDITIONS,NOT_OBSERVABLE_IN_CURRENT_VIEW,12,1905,192,query-by-Gold-by-condition instance;not independent events or attacks
+REQUIRED_OBSERVABLE_GOLD_CONDITIONS,NOT_EVALUABLE,112,1905,192,query-by-Gold-by-condition instance;not independent events or attacks
+OPTIONAL_ATTRIBUTION_CONTEXT,DIRECTLY_SUPPORTED,130,650,71,query-by-Gold-by-condition instance;not independent events or attacks
+OPTIONAL_ATTRIBUTION_CONTEXT,PARTIALLY_SUPPORTED,0,650,71,query-by-Gold-by-condition instance;not independent events or attacks
+OPTIONAL_ATTRIBUTION_CONTEXT,EXPLICITLY_CONTRADICTED,0,650,71,query-by-Gold-by-condition instance;not independent events or attacks
+OPTIONAL_ATTRIBUTION_CONTEXT,NOT_ESTABLISHED,520,650,71,query-by-Gold-by-condition instance;not independent events or attacks
+OPTIONAL_ATTRIBUTION_CONTEXT,NOT_OBSERVABLE_IN_CURRENT_VIEW,0,650,71,query-by-Gold-by-condition instance;not independent events or attacks
+OPTIONAL_ATTRIBUTION_CONTEXT,NOT_EVALUABLE,0,650,71,query-by-Gold-by-condition instance;not independent events or attacks

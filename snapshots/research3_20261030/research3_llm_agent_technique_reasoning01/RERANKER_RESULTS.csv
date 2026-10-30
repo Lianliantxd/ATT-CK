@@ -1,0 +1,19 @@
+model,protocol,candidate_k,status,N_executed,top1,top10,mrr,inference_seconds,blocker
+Alibaba-NLP/gte-reranker-modernbert-base,P0,20,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P0,50,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P0,100,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P1,20,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P1,50,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P1,100,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P2_SAMPLED,20,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P2_SAMPLED,50,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Alibaba-NLP/gte-reranker-modernbert-base,P2_SAMPLED,100,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P0,20,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P0,50,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P0,100,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P1,20,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P1,50,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P1,100,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P2_SAMPLED,20,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P2_SAMPLED,50,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED
+Qwen/Qwen3-Reranker-0.6B,P2_SAMPLED,100,NEURAL_MODEL_EXECUTION_BLOCKED,0,N/A,N/A,N/A,N/A,No complete cached weights/tokenizer; new weight downloads NOT_AUTHORIZED

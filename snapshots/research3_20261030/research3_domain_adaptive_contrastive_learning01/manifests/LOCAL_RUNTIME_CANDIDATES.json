@@ -1,0 +1,173 @@
+{
+  "task": "R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+  "date": "2026-10-28",
+  "status": "NUMPY_ONLY_CPU_TRAINING_AVAILABLE",
+  "active_tested_runtime": {
+    "executable": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "architecture": "arm64",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "packages": {
+      "numpy": {
+        "available": true,
+        "origin": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/__init__.py",
+        "version": "2.3.5"
+      },
+      "torch": {
+        "available": false,
+        "origin": null
+      },
+      "sklearn": {
+        "available": false,
+        "origin": null
+      },
+      "scipy": {
+        "available": false,
+        "origin": null
+      },
+      "transformers": {
+        "available": false,
+        "origin": null
+      }
+    },
+    "module_probe_actual_import": "numpy only; absent dependencies probed with find_spec; -B set"
+  },
+  "common_roots": [
+    {
+      "path": "/Users/tianxd/miniconda3",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/anaconda3",
+      "exists": false
+    },
+    {
+      "path": "/opt/anaconda3",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/.cache/uv",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/.local/share/uv/python",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/.venv",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/venvs",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/.virtualenvs",
+      "exists": false
+    },
+    {
+      "path": "/Library/Frameworks/Python.framework/Versions",
+      "exists": false
+    }
+  ],
+  "site_package_directories_inspected": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseTFIDF/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/WordCharacterHybrid/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/CharacterNgramTFIDF/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_baseline_reproduction01/venvs/ORTHRUS/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_baseline_reproduction01/venvs/KnowHow/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/Benchmark/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TFIDFTechniqueRetrieval/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TREC/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/LexicalTechniqueMatching/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/APTREC/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/KnowHow/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/RandomRanking/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/BM25TechniqueRetrieval/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/venvs/DeepSeek-R1-1.5B-OllamaCPU/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_09/.venv/lib/python3.12/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.4/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/opt/homebrew/Cellar/awscli/2.34.28/libexec/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/opt/homebrew/lib/python3.14/site-packages",
+      "relevant_packages": []
+    },
+    {
+      "path": "/Users/tianxd/Library/Python/3.9/lib/python/site-packages",
+      "relevant_packages": []
+    }
+  ],
+  "mac_compatible_torch_sklearn_found": false,
+  "remote_linux_dependencies_mac_reusable": false,
+  "recommendation": "Create new algorithm-named local venvs, read-only reference existing NumPy package using .pth or symlink, and implement actual CPU multilabel TF-IDF linear training with NumPy. Do not install/download or represent lexical features as frozen GTE features.",
+  "old_environment_modifications": false,
+  "new_installations": false,
+  "server_connections": false
+}

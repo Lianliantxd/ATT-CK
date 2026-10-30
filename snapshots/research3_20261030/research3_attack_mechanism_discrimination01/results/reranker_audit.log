@@ -1,0 +1,80 @@
+{
+  "pairs_checked": 140015,
+  "condition_rows": 5850,
+  "score_differences": 0,
+  "new_forwards": 0,
+  "summary": [
+    {
+      "pool": "embedding",
+      "K": 20,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 225,
+      "CANDIDATE_NOT_RETRIEVED": 520,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 55,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 104,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 71,
+      "mean_Spearman": 0.0679467900520532,
+      "median_Spearman": 0.05864661654135337
+    },
+    {
+      "pool": "embedding",
+      "K": 50,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 194,
+      "CANDIDATE_NOT_RETRIEVED": 313,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 86,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 303,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 79,
+      "mean_Spearman": 0.06527051435958998,
+      "median_Spearman": 0.060264105642256906
+    },
+    {
+      "pool": "embedding",
+      "K": 100,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 232,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 518,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 48,
+      "CANDIDATE_NOT_RETRIEVED": 101,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 76,
+      "mean_Spearman": 0.08451668551470531,
+      "median_Spearman": 0.0736033603360336
+    },
+    {
+      "pool": "lexical",
+      "K": 20,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 150,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 135,
+      "CANDIDATE_NOT_RETRIEVED": 569,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 60,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 61,
+      "mean_Spearman": -0.15104222093695777,
+      "median_Spearman": -0.18496240601503755
+    },
+    {
+      "pool": "lexical",
+      "K": 50,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 64,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 221,
+      "CANDIDATE_NOT_RETRIEVED": 372,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 253,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 65,
+      "mean_Spearman": -0.08830535291039493,
+      "median_Spearman": -0.09973589435774309
+    },
+    {
+      "pool": "lexical",
+      "K": 100,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 254,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 439,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 65,
+      "CANDIDATE_NOT_RETRIEVED": 186,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 31,
+      "mean_Spearman": 0.01372150753536892,
+      "median_Spearman": 0.009372937293729372
+    }
+  ]
+}

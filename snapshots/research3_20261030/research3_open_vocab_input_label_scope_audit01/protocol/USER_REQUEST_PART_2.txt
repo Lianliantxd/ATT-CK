@@ -1,0 +1,416 @@
+### 7.1 逐条检查 34 条范围疑问
+
+必须从上一轮 `CASE_EVIDENCE_AUDIT.jsonl`、`CASE_DIAGNOSIS.csv`、`GOLD_TECHNIQUE_SUMMARY.csv` 及相关冻结定义中，提取实际被标记为范围或粒度疑问的查询。
+
+先根据唯一 `sample_id` 建立冻结队列，核实数量和 ID。不能因为报告写了 34 条，就直接复制 34 条作为最终审计对象。
+
+对每条查询，至少核验：
+
+- `sample_id`
+- `logical_step_id`
+- `gold_technique_id`
+- `gold_original_label`
+- `gold_parent_id`
+- `gold_subtechnique_id`
+- `frozen_definition_id`
+- `frozen_definition_version`
+- `visible_behavior_summary`
+- `scope_question`
+- `source_mapping_status`
+- `adjudication_status`
+
+如果某条查询涉及多个 Gold 技术，必须逐技术保留独立记录，不能把同一查询的多个疑问合并成一个未经区分的标签。
+
+### 7.2 范围疑问分类
+
+只允许使用以下审计分类：
+
+- `PARENT_CHILD_SCOPE_MISMATCH_CANDIDATE`
+- `AUTHOR_LABEL_SCOPE_UNCLEAR`
+- `FROZEN_DEFINITION_INCOMPLETE`
+- `MAPPING_RULE_UNCLEAR`
+- `SOURCE_VERSION_UNRESOLVED`
+- `OBSERVATION_SCOPE_INSUFFICIENT`
+- `NO_CONFIRMED_SCOPE_DEFECT`
+- `UNRESOLVED`
+
+这些分类表示当前审计发现的问题类型，不自动代表 Gold 错误。
+
+尤其要区分：
+
+1. 冻结定义确实没有覆盖所需行为；
+2. 冻结定义描述的是父技术的部分实现，而当前日志只显示其他实现；
+3. 作者标签采用父技术，但当前比较文本只包含某个子技术的描述；
+4. 当前日志缺少必要字段，因而不能判断标签是否适用；
+5. 现有来源不足以确定作者标签和技术定义的关系。
+
+不得通过修改技术定义、扩大必要条件或重新解释日志来消除疑问。
+
+### 7.3 父子技术映射核验
+
+对涉及父技术与子技术的案例，实际追踪：
+
+`author label → original technique ID → parent ID → subtechnique ID → frozen candidate ID → frozen definition`
+
+每一步都要记录原始字段、转换规则、来源路径和版本。
+
+核查以下风险：
+
+- 父技术 ID 与子技术 ID 混用；
+- 技术名称相同但 ID 不同；
+- 子技术被错误归并到父技术；
+- Gold 在父技术层级，而候选定义在子技术层级；
+- 父技术正文不包含当前子技术所需的具体行为条件；
+- 技术名称、战术字段或变体标题被误当作行为正文；
+- 不同 ATT&CK 版本的定义或映射规则混用；
+- 标签转换过程丢失原始技术 ID。
+
+只有存在实际字段或来源证据时，才能将某个问题认定为映射错误。
+
+如果只是语义上看起来不一致，但缺少原始标签或转换规则，应标记 `UNRESOLVED`，不能判定为 `MAPPING_ERROR_CONFIRMED`。
+
+### 7.4 34 条查询的交付要求
+
+生成：
+
+`review/GOLD_SCOPE_AUDIT.csv`
+
+每条记录至少包含：
+
+- `sample_id`
+- `logical_step_id`
+- `gold_technique_id`
+- `frozen_definition_id`
+- `parent_child_mapping_status`
+- `source_version_status`
+- `scope_issue_type`
+- `evidence_for_issue`
+- `evidence_against_issue`
+- `confirmed_defect`
+- `independent_adjudication_required`
+- `repairability`
+- `repair_authorization_status`
+- `qualification`
+- `limitation`
+
+必须区分：
+
+- 已确认的机械映射错误；
+- 已确认的冻结文本缺陷；
+- 有证据支持但尚未独立裁定的范围疑问；
+- 仅由当前视图不足导致的不可评价；
+- 没有发现问题，但也没有足够证据证明映射完全正确。
+
+不得将“没有发现明确错误”自动转换成“Gold 正确”。
+
+---
+
+## 八、第五阶段：追溯知识提取、转换和渲染链
+
+本阶段必须实际检查已有代码和转换记录，不仅比较最终文本。
+
+### 8.1 追溯数据处理链
+
+针对 12 个竞争技术和 34 条范围疑问，建立：
+
+`原始知识来源 → 原始字段 → 提取脚本 → 中间数据 → 映射规则 → 文本转换 → 冻结知识文档 → 候选评价`
+
+每个环节记录：
+
+- 文件路径；
+- 文件哈希；
+- 代码或提交版本；
+- 相关字段；
+- 具体转换操作；
+- 输入与输出字段；
+- 是否存在缺失；
+- 是否能够从现有材料复现；
+- 证据强度。
+
+若某个中间环节缺失，不得根据最终文本反推并声称已确认其处理过程。
+
+### 8.2 文本长度与截断审计
+
+对 12 个技术的冻结文本，记录：
+
+- 原始字节数；
+- 原始字符数；
+- 冻结文本字节数；
+- 冻结文本字符数；
+- 字段级长度；
+- 是否存在固定长度截断规则；
+- 是否存在标题拼接；
+- 是否存在描述字段被过滤；
+- 是否存在字符编码或序列化异常。
+
+如果原始来源不存在，就不能通过比较文本长度认定发生了截断。
+
+如果冻结文本长度恰好达到某个阈值，只能将其作为检查线索，不能直接判定 `TEXT_TRUNCATION_CONFIRMED`。
+
+### 8.3 代码核验
+
+仅静态检查已有提取、转换和映射代码，确认：
+
+- 是否实际读取了描述字段；
+- 是否使用了正确的字段名；
+- 是否把变体标题拼接到描述字段；
+- 是否在序列化前截断文本；
+- 是否过滤了空字段；
+- 是否发生 ID 覆盖或错误去重；
+- 是否使用了不匹配的父子技术映射；
+- 是否在候选生成过程中改变了技术粒度。
+
+如果必须执行已有代码才能验证某项行为，应先检查其副作用和读取范围。
+
+本轮默认只允许静态代码审计和已有回执核验。任何需要重新提取大数据、重新生成候选知识或写入历史目录的操作均不执行。
+
+### 8.4 缺陷证据等级
+
+每个问题必须标记以下证据等级之一：
+
+- `LEVEL_1_DIRECT_SOURCE_PROOF`：原始来源与冻结输出可直接对照；
+- `LEVEL_2_REPRODUCIBLE_TRANSFORMATION_PROOF`：已有代码及输入输出能够复现具体转换问题；
+- `LEVEL_3_INDIRECT_ARTIFACT_EVIDENCE`：存在间接迹象，但缺少完整来源链；
+- `LEVEL_4_UNVERIFIED_HYPOTHESIS`：只有待核验的推测。
+
+只有前两级可以用于确认具体的数据处理缺陷，并且必须说明确认范围。
+
+即使缺陷已经确认，也不能直接认定该缺陷导致了模型漏召回。预测因果影响属于另一个需要公平实验才能回答的问题。
+
+---
+
+## 九、第六阶段：判断问题能否修复，以及修复后能证明什么
+
+本轮只进行修复可行性评估，不实际修改数据。
+
+### 9.1 修复可行性分类
+
+每项已发现问题使用以下状态：
+
+- `REPAIRABLE_FROM_EXISTING_FROZEN_ASSETS`
+- `REQUIRES_MISSING_SOURCE_ARTIFACT`
+- `REQUIRES_NEW_SOURCE_VERSION`
+- `REQUIRES_AUTHOR_LABEL_CLARIFICATION`
+- `REQUIRES_HUMAN_ADJUDICATION`
+- `NOT_REPAIRABLE_WITH_CURRENT_AUTHORIZATION`
+- `REPAIRABILITY_UNRESOLVED`
+
+必须列出完成修复所需的最小文件或信息。
+
+不能把“技术上可以补文本”视为“可以合法修改冻结知识”，也不能把“已有官方定义”视为“该定义一定适用于当前 Gold 标签”。
+
+### 9.2 修复前后的数据合同
+
+如果将来获准修复知识或映射，必须采用新版本：
+
+- 保留旧冻结文件；
+- 保留原始 Gold；
+- 保存新旧技术定义的逐项差异；
+- 保存新旧父子映射差异；
+- 记录新增、删除和修改的字段；
+- 重新计算输入哈希；
+- 重新核验所有受影响的查询；
+- 明确哪些历史结果不再与新版本直接可比。
+
+不得覆盖历史知识文件，也不得只修改 12 个不完整定义而不记录候选空间整体发生了什么变化。
+
+### 9.3 不能自动推出模型收益
+
+如果修复了知识定义或父子映射，不能直接宣称：
+
+- GTE 排名会提升；
+- C4 会改善；
+- Seen/Unseen 权衡得到解决；
+- 新方法已经优于强基线；
+- 384 条查询已经成为正式测试集。
+
+知识修复的直接结果只能是输入或映射合同发生了可核验变化。
+
+修复是否改善预测，需要后续在授权范围内进行同协议对照实验。
+
+---
+
+## 十、第七阶段：重新计算影响范围
+
+完成来源核验后，必须基于实际 ID 映射计算影响，而不是直接沿用旧报告中的汇总数字。
+
+### 10.1 影响范围表
+
+生成：
+
+`results/DEFINITION_IMPACT_SUMMARY.csv`
+
+每项问题至少包含：
+
+- `defect_id`
+- `technique_id`
+- `confirmed_cause`
+- `evidence_level`
+- `affected_query_count`
+- `affected_query_ids`
+- `affected_gold_assignment_count`
+- `affected_candidate_pair_count`
+- `overlap_with_gold_scope_queries`
+- `overlap_with_observation_insufficient_queries`
+- `overlap_with_other_defects`
+- `repairability`
+- `repair_status`
+
+所有交集通过实际 ID 连接计算。
+
+不得将 379 条受影响查询、34 条 Gold 范围疑问和 256 条当前视图不足简单相加。
+
+同一查询可能受到多个定义缺陷影响，因此必须同时报告：
+
+1. 各问题的非互斥影响数量；
+2. 去重后的受影响查询数量；
+3. 去重后的受影响 Gold 分配数量；
+4. 去重后的受影响竞争配对数量；
+5. 仍无法确认影响的数量。
+
+### 10.2 影响资格
+
+影响结果只允许使用：
+
+- `CONFIRMED_DIRECT_IMPACT_ON_COMPARISON_INPUT`
+- `POSSIBLE_IMPACT_NOT_CAUSALLY_VERIFIED`
+- `NO_DIRECT_INPUT_IMPACT_FOUND`
+- `IMPACT_NOT_DETERMINABLE`
+
+`CONFIRMED_DIRECT_IMPACT_ON_COMPARISON_INPUT` 只表示比较输入确实包含已确认的定义缺陷。
+
+它不代表已证明该缺陷导致模型排名错误。
+
+如果需要认定模型性能因果影响，必须另行设计公平的同输入协议实验，不能在本轮作出结论。
+
+---
+
+## 十一、第八阶段：决定后续研究顺序
+
+综合 12 个竞争定义、34 条 Gold 范围疑问、提取链和影响范围，选择一个主决策。
+
+### `GO_AFTER_KNOWLEDGE_REPAIR`
+
+仅当已确认的知识提取或转换缺陷可以在现有合法资产中修复时使用。
+
+本决策仅授权后续制定修复方案，不授权直接修改历史知识或重跑模型。
+
+### `GO_AFTER_SOURCE_RECOVERY`
+
+当关键原始来源或中间提取文件缺失，无法确认冻结文本为何不完整时使用。
+
+必须列出缺失文件、来源路径和最小恢复需求。
+
+### `GO_AFTER_LABEL_SCOPE_ADJUDICATION`
+
+当主要阻断来自作者 Gold 标签、父子技术映射或定义适用范围时使用。
+
+必须明确需要独立人工裁定的对象和问题。
+
+### `GO_AFTER_REFERENCE_QUALIFICATION`
+
+当知识来源和映射合同已达到当前任务所需的最低可用程度，但独立语义参考仍缺失时使用。
+
+### `NO_GO_CURRENT_METHOD_EXPERIMENT`
+
+当输入、定义、标签或参考资格仍不足以支撑公平评价时使用。
+
+必须说明当前阻断及下一步最小需求。
+
+最终只能选择一个主决策。
+
+可以列出次级阻断，但不能通过同时选择多个主决策回避判断。
+
+---
+
+## 十二、第九阶段：交付文件
+
+新项目目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/`
+
+若目标目录已存在，禁止覆盖，使用新的明确版本目录。
+
+必须交付以下文件：
+
+1. `INPUT_LABEL_SCOPE_AUDIT_REPORT.md`：完整中文审计报告。
+2. `ASSET_SOURCE_INVENTORY.csv`：输入资产及来源版本清单。
+3. `TECHNIQUE_DEFINITION_AUDIT.csv`：12 个竞争技术的逐项核验。
+4. `GOLD_SCOPE_AUDIT.csv`：34 条范围疑问的逐项审计。
+5. `EXTRACTION_PIPELINE_AUDIT.csv`：提取、映射、转换与渲染链。
+6. `PARENT_CHILD_MAPPING_AUDIT.csv`：父子技术映射核验。
+7. `AFFECTED_QUERY_MAP.csv`：受影响查询及实际技术 ID 连接。
+8. `DEFINITION_IMPACT_SUMMARY.csv`：定义缺陷的去重影响统计。
+9. `REPAIRABILITY_REGISTER.csv`：可修复性、最小需求及授权限制。
+10. `HUMAN_ADJUDICATION_QUEUE.csv`：需要独立人工裁定的标签与范围问题。
+11. `protocol/INPUT_LABEL_AUDIT_PROTOCOL.md`：实际执行的审计合同。
+12. `protocol/BLOCKER_REGISTER.json`：未解决的来源、定义和标签阻断。
+13. `protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md`：来源与推断边界。
+14. `RUN_MANIFEST.json`：实际输入、输出、代码哈希与执行记录。
+15. `results/FINAL_VALIDATION.json`：最终核验结果。
+
+如果某项没有合法证据完成，必须明确标记为未完成或 `NOT_AVAILABLE`。
+
+不得创建空文件冒充完成，不得为满足文件数量要求虚构分析。
+
+---
+
+## 十三、第十阶段：最终质量核验
+
+### 13.1 输入完整性
+
+核验：
+
+- 12 个技术 ID 是否全部存在；
+- 34 条 Gold 范围疑问是否全部覆盖；
+- 379 条受影响查询能否由实际候选映射复现；
+- 所有引用的原始来源和转换文件是否存在；
+- 哈希与既有 manifest 是否一致；
+- 是否有版本混用；
+- 是否发生未经授权的数据读取。
+
+如果某项无法验证，保留具体阻断。
+
+### 13.2 统计一致性
+
+独立复算：
+
+- 受影响查询数量；
+- 去重后的受影响查询数量；
+- Gold 分配数量；
+- 竞争配对数量；
+- 与 34 条范围疑问的交集；
+- 与当前视图不足线索的交集；
+- 多缺陷重叠数量；
+- 已确认和未确认影响数量。
+
+必须保留查询、逻辑步骤、Gold 分配、竞争技术实例和配对实例的不同统计单位。
+
+不得把未知填为 0。
+
+### 13.3 证据与结论一致性
+
+每项确认缺陷必须有直接来源或可复现转换证据。
+
+每项标签范围问题必须引用实际 Gold、技术定义和映射记录。
+
+每项因果性结论必须有相应实验依据；本轮未执行性能实验，因此不得宣称任何缺陷导致了具体数量的模型错误。
+
+### 13.4 历史资产完整性
+
+对本轮实际检查的历史文件记录初始哈希，并在结束前复核。
+
+保留此前已披露的旧报告哈希差异，不得修复、覆盖或将其标记为无差异。
+
+如果无法证明任务开始前已对某些历史资产建立哈希快照，必须明确说明，不能声称全工作区的旧文件从未变化。
+
+### 13.5 最终验证字段
+
+`results/FINAL_VALIDATION.json` 至少包含：
+
+- `status`
+- `execution_status`
+- `assets_checked`
+- `missing_assets`
+- `hash_mismatches`
+- `

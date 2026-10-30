@@ -1,0 +1,16 @@
+{
+  "task": "R3_OPEN_VOCAB_384_CASE_BLIND_EVIDENCE_REVIEW01",
+  "blinding_status": "PREDICTION_BLINDING_NOT_ENFORCED",
+  "review_context": "same assistant context as historical diagnosis",
+  "historical_information_exposure": true,
+  "new_prediction_or_error_analysis_content_read_by_reviewer": false,
+  "source_preparer_parsed_mixed_fields": true,
+  "preparer_policy": "Only whitelisted target definitions/log text/metadata emitted; no competitor or score field analyzed",
+  "OS_isolation_proven": false,
+  "new_agents_or_external_calls": 0,
+  "competitor_top10_comparison": "NOT_EVALUABLE_WITHOUT_BREAKING_ALLOWED_REVIEW_INPUT_CONTRACT",
+  "missing_request_sections": "8.3 remainder through13.3 not provided",
+  "fact_ids": "derived source-locator IDs explicitly distinguished from native event identifiers",
+  "review_status_all_cases": "AI_BLIND_PRE_REVIEW_NOT_GOLD",
+  "created_utc": "2026-10-28T12:11:06.807433+00:00"
+}

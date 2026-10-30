@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "all_required_artifacts_present": true,
+    "975_unique_ids": true,
+    "195_steps_five_replicas": true,
+    "restricted_steps_absent": true,
+    "prediction_schema_text_only": true,
+    "views_equal": true,
+    "15_conditions_14625_predictions": true,
+    "all_top10_valid_unique_candidates": true,
+    "official_evaluator_success": true,
+    "all_model_evaluations_agree": true,
+    "all_prediction_processes_succeeded": true,
+    "unit_tests_pass": true,
+    "source_git_blobs_match": true,
+    "at_most_10_records_per_host_source": true,
+    "dev_five_conditions_60_records": true,
+    "all_project_python_compiles": true,
+    "saved_predictions_reproduce_all_metrics": true
+  },
+  "metric_recomputation_max_delta": 0,
+  "required_artifact_count": 36
+}

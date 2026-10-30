@@ -1,0 +1,10 @@
+{
+  "hashes": {
+    "input/PREDICTION_INPUTS.jsonl": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+    "input/KNOWLEDGE_TEXTS.json": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+    "input/NEURAL_FIXED_CANDIDATES.json": "4c1f4374774135eeb3c3db9b3f470980e6256b5c2af89962ebd0d7b12770b328",
+    "code/run_gpu_if_authorized.py": "457998880e19f5addd31c2716692fff8e4dbe27defc7d152c9ef73867a8325f2"
+  },
+  "new_project_disk_bytes_before_run": 9945088,
+  "time": 1793120587.6179364
+}

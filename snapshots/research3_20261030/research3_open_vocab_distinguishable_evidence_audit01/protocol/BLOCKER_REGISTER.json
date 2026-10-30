@@ -1,0 +1,51 @@
+[
+  {
+    "id": "B1",
+    "scope": "all384",
+    "status": "OPEN",
+    "reason": "当前上下文既有历史预测/AI判断暴露；本轮禁止新增Agent，独立审查者/协调者不可用。",
+    "effect": "INDEPENDENT_BLIND_REVIEW_NOT_AVAILABLE；本轮不是人工Gold。"
+  },
+  {
+    "id": "B2",
+    "scope": "379queries;12candidateIDs",
+    "status": "CONFIRMED_AS_FROZEN_TEXT_AVAILABILITY_LIMIT",
+    "reason": "实际竞争定义中11种仅名称/战术，另T1574文本全为变体标题，没有行为正文。",
+    "effect": "不能从名称/外部记忆补条件；对应配对NOT_EVALUABLE，不能证明整组Top10可排除。"
+  },
+  {
+    "id": "B3",
+    "scope": "34target-scopeflagqueries",
+    "status": "AI_SCOPE_QUESTION_NOT_CONFIRMED_MISLABEL",
+    "reason": "具体目标行为与冻结正文变体范围不合，例如本地rm对云生命周期正文、ACL对NAT正文。",
+    "effect": "不回改标签/定义，不把部分父类变体未满足推成父类错误。"
+  },
+  {
+    "id": "B4",
+    "scope": "all384",
+    "status": "OPEN",
+    "reason": "没有合格独立人工参考，源日志省略数未知、原生事件身份未独立认证。",
+    "effect": "真实Gold充分性、可验证残余排序错误NOT_AVAILABLE；正式指标不计算。"
+  },
+  {
+    "id": "B5",
+    "scope": "all384full216nativelexicalcomparison",
+    "status": "CONFIRMED_PROTOCOL_DIFFERENCE",
+    "reason": "全216词法与GTE知识文本整体不同，查询也多数不同。",
+    "effect": "CROSS_PROTOCOL_NOT_COMPARABLE；不以旧成绩差作算法因果比较。"
+  },
+  {
+    "id": "B6",
+    "scope": "historicaloutcomes",
+    "status": "NOT_PERFORMED_BY_QUALIFICATION_RULE",
+    "reason": "本轮没有完整选定候选区分并获合格参考的案例。",
+    "effect": "未新增打开逐例C4/词法结果以补残余错误；384行资格审计完成，结果比较工作量0，真实性能数量未知。"
+  },
+  {
+    "id": "B7",
+    "scope": "legacyreport",
+    "status": "PRE_EXISTING_DISCLOSED",
+    "reason": "旧融合报告与其历史清单有1项此前已披露的哈希差异。",
+    "effect": "原样保留；本轮末对当前hash快照核验，不声称旧清单全部无差异。"
+  }
+]

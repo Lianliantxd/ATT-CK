@@ -1,0 +1,10 @@
+method,status,scope,environment
+RandomRanking,RAN,5 registered seeds,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/RandomRanking
+LexicalTechniqueMatching,RAN,official names and extension,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/LexicalTechniqueMatching
+TFIDFTechniqueRetrieval,RAN,official names and extension,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TFIDFTechniqueRetrieval
+BM25TechniqueRetrieval,RAN,"official names, extension, scenario7 ablations",/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/BM25TechniqueRetrieval
+KnowHow,ADAPTATION_RAN,public dictionary substring ranking; not full KnowHow,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/KnowHow
+TREC,BLOCKED,missing certified model source/NOI/graph GT/splits,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TREC
+APTREC,BLOCKED,missing graphs/labels/splits/official implementation/LoRA,/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/APTREC
+TrainingOnlyTechniquePrior,N/A,no legal training split,N/A
+LogInstanceRetrieval,N/A,no legal independent train/test split,N/A

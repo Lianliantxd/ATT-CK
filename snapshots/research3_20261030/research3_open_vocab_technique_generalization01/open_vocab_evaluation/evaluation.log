@@ -1,0 +1,1 @@
+{"status": "PASS", "scope": "MAIN_FUSION", "prediction_rows": 64350, "evaluation_conditions": 462, "independent_metric_checks_against_frozen_evaluator": 6006, "max_absolute_metric_difference": 0.0}

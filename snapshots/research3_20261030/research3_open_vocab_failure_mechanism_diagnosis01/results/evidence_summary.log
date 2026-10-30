@@ -1,0 +1,33 @@
+{
+  "primary_seed_for_case_listing": 17,
+  "primary_view": "ONE_VIEW_PER_STEP",
+  "unseen_query_gold_pairs_per_seed": 605,
+  "unseen_target_logical_steps": 90,
+  "steps_all_five_views_within_unseen_order_gt10": 65,
+  "steps_any_view_within_unseen_order_gt10": 74,
+  "unseen_gold_pairs_order_gt10": 499,
+  "gte_missed_unseen_gold_pairs": 539,
+  "parent_id_mapping_mismatches": 0,
+  "missing_candidate_gold_ids": 0,
+  "identical_view_multi_step_groups": 0,
+  "identical_view_multi_step_different_labels_groups": 0,
+  "affected_distinct_steps": 0,
+  "input_bytes_distribution": {
+    "min": 202,
+    "q25": 710,
+    "median": 754,
+    "q75": 796,
+    "max": 1580
+  },
+  "gold_description_bytes_distribution": {
+    "min": 524,
+    "q25": 1000,
+    "median": 1000,
+    "q75": 1000,
+    "max": 1000
+  },
+  "knowledge_descriptions_exactly1000bytes": 174,
+  "input_quality_semantic_cause": "UNRESOLVED; no full log or event evidence audited",
+  "new_parameters_or_model_inference": 0,
+  "source_sha256": "fd4c4e36b79ecf088b5605e19a7f0cefd0e15cbc2aa626862a18dfc9db06e59c"
+}

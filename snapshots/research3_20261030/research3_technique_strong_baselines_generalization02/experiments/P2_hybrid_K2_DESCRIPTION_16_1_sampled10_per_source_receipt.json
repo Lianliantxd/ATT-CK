@@ -1,0 +1,27 @@
+{
+  "protocol": "P2",
+  "input_view": "sampled10_per_source",
+  "knowledge_view": "K2_DESCRIPTION_16_1",
+  "representation": "hybrid",
+  "method": "WordCharacterHybrid",
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/WordCharacterHybrid/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_sampled.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "--representation",
+    "hybrid",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P2_hybrid_K2_DESCRIPTION_16_1_sampled10_per_source.jsonl"
+  ],
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P2_hybrid_K2_DESCRIPTION_16_1_sampled10_per_source.jsonl",
+  "exit_code": 0,
+  "seconds": 7.370642082765698,
+  "stdout": "{\"n\": 385, \"seconds\": 6.996029416099191, \"representation\": \"hybrid\", \"cache\": \"CacheInfo(hits=0, misses=770, maxsize=8192, currsize=770)\"}\n",
+  "stderr": "",
+  "execution_status": "PROJECT_NEW_INFERENCE",
+  "reference_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_sampled.jsonl"
+}

@@ -1,0 +1,5 @@
+# 本轮交付
+
+先读R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md。主终态BASELINES_READY_METHOD_UNPROVEN。所有数值可回到固定来源、分离数据视图、逐样本Top10预测、评价代码、算法独立环境和命令回执。受限场景1的35—37步排除；模型调用0。原始上游文件只保存用于审计，禁止自动执行get_llm_responses.py或任何日志/攻击命令。
+
+重跑顺序见BASELINE_RUNTIME_REPORT.md。生成结果可能覆盖当前版本，应先复制本目录。

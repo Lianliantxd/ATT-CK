@@ -1,0 +1,656 @@
+{
+  "scope": "EXPOSED_DEVELOPMENT_DIAGNOSTIC",
+  "selection_source": "frozen previous V2 E1 and CE Embed20 only",
+  "new_mechanism_predictions_seen": false,
+  "target_quotas": {
+    "CE_DEMOTION": 10,
+    "CE_PROMOTION": 6,
+    "BOTH_FAIL_WITH_CANDIDATE": 6,
+    "BOTH_CORRECT": 4,
+    "CANDIDATE_MISS20": 4
+  },
+  "available_by_stratum": {
+    "BOTH_CORRECT": 43,
+    "CANDIDATE_MISS20": 103,
+    "CE_DEMOTION": 12,
+    "CE_PROMOTION": 23,
+    "BOTH_FAIL_WITH_CANDIDATE": 14
+  },
+  "realized_initial_quotas": {
+    "CE_DEMOTION": 10,
+    "CE_PROMOTION": 6,
+    "BOTH_FAIL_WITH_CANDIDATE": 6,
+    "BOTH_CORRECT": 4,
+    "CANDIDATE_MISS20": 4
+  },
+  "fallback": "if shortage, fill from all remaining strata by scene/simulation balance then SHA256",
+  "scene_counts": {
+    "6": 5,
+    "2": 5,
+    "7": 4,
+    "1": 5,
+    "3": 5,
+    "4": 4,
+    "5": 2
+  },
+  "sample_ids": [
+    "6-41-r0",
+    "2-10-r0",
+    "7-12-r0",
+    "1-34-r0",
+    "1-20-r0",
+    "6-46-r0",
+    "2-11-r0",
+    "7-11-r0",
+    "1-40-r0",
+    "6-43-r0",
+    "3-43-r0",
+    "4-15-r0",
+    "3-58-r0",
+    "2-17-r0",
+    "3-51-r0",
+    "7-7-r0",
+    "3-8-r0",
+    "6-30-r0",
+    "1-30-r0",
+    "2-5-r0",
+    "7-3-r0",
+    "6-15-r0",
+    "4-10-r0",
+    "4-7-r0",
+    "4-14-r0",
+    "3-25-r0",
+    "5-3-r0",
+    "5-2-r0",
+    "1-56-r0",
+    "2-21-r0"
+  ],
+  "logical_step_keys": [
+    "6:41",
+    "2:10",
+    "7:12",
+    "1:34",
+    "1:20",
+    "6:46",
+    "2:11",
+    "7:11",
+    "1:40",
+    "6:43",
+    "3:43",
+    "4:15",
+    "3:58",
+    "2:17",
+    "3:51",
+    "7:7",
+    "3:8",
+    "6:30",
+    "1:30",
+    "2:5",
+    "7:3",
+    "6:15",
+    "4:10",
+    "4:7",
+    "4:14",
+    "3:25",
+    "5:3",
+    "5:2",
+    "1:56",
+    "2:21"
+  ],
+  "cases": [
+    {
+      "sample_id": "6-41-r0",
+      "ground_truth": [
+        "T1204.001",
+        "T1219"
+      ],
+      "scenario_id": "6",
+      "step_id": "41",
+      "simulation_id": "6_screensharing_binary",
+      "variant_id": "screensharing_binary",
+      "sampling_replica_id": 0,
+      "input_hash": "61e4657b943a21dc508595db865ed3a673280ece91714eb0ba2c8d42bb5b8b72",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "6:41",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "2-10-r0",
+      "ground_truth": [
+        "T1016"
+      ],
+      "scenario_id": "2",
+      "step_id": "10",
+      "simulation_id": "2_cron",
+      "variant_id": "cron",
+      "sampling_replica_id": 0,
+      "input_hash": "5ccb02bb71f15d9cd7b03c301999b54f7b1a04fa5040ed5d64bfd39c5d22b9de",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "2:10",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "7-12-r0",
+      "ground_truth": [
+        "T1057"
+      ],
+      "scenario_id": "7",
+      "step_id": "12",
+      "simulation_id": "7",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "a43eb8cdeac5359cbf52d50a7e3c34f07ca297a3acb2ca848dc122150f716d90",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "7:12",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "1-34-r0",
+      "ground_truth": [
+        "T1070.004"
+      ],
+      "scenario_id": "1",
+      "step_id": "34",
+      "simulation_id": "1_cron_sshkey",
+      "variant_id": "cron_sshkey",
+      "sampling_replica_id": 0,
+      "input_hash": "6d0b0ed89eba70f0959c84a97e96c2b117fbd9499dc76d7f227bf571224824ef",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "1:34",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "1-20-r0",
+      "ground_truth": [
+        "T1033"
+      ],
+      "scenario_id": "1",
+      "step_id": "20",
+      "simulation_id": "1_cron_pam",
+      "variant_id": "cron_pam",
+      "sampling_replica_id": 0,
+      "input_hash": "7730f06c67116331d60a2f6f8eed98ebf5c682632fba4917d521db7d8da159fa",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "1:20",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "6-46-r0",
+      "ground_truth": [
+        "T1219"
+      ],
+      "scenario_id": "6",
+      "step_id": "46",
+      "simulation_id": "6_screensharing_cron",
+      "variant_id": "screensharing_cron",
+      "sampling_replica_id": 0,
+      "input_hash": "f6cae50bcffe4986b72781037a2a91cff897397068bab1f514a7df57715027b5",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "6:46",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "2-11-r0",
+      "ground_truth": [
+        "T1003.008",
+        "T1041"
+      ],
+      "scenario_id": "2",
+      "step_id": "11",
+      "simulation_id": "2_rootkit",
+      "variant_id": "rootkit",
+      "sampling_replica_id": 0,
+      "input_hash": "916600e27be6d2712fadbfb3b77eb004843e722c3e19da177051379710e68f0f",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "2:11",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "7-11-r0",
+      "ground_truth": [
+        "T1083"
+      ],
+      "scenario_id": "7",
+      "step_id": "11",
+      "simulation_id": "7",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "c6c218681fa0bcf9132052413d60e07495efed45d821ee6b91d2bf9b6c5de3a6",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "7:11",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "1-40-r0",
+      "ground_truth": [
+        "T1070.004"
+      ],
+      "scenario_id": "1",
+      "step_id": "40",
+      "simulation_id": "1_sudo_pam",
+      "variant_id": "sudo_pam",
+      "sampling_replica_id": 0,
+      "input_hash": "0c05f11e1a6b7f735cbfc1cb2fb25cce39c9a5b9336baf00c779fbe3362a858c",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "1:40",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "6-43-r0",
+      "ground_truth": [
+        "T1566.004",
+        "T1219"
+      ],
+      "scenario_id": "6",
+      "step_id": "43",
+      "simulation_id": "6_screensharing_binary",
+      "variant_id": "screensharing_binary",
+      "sampling_replica_id": 0,
+      "input_hash": "6baab7cc8ef5ae78abcaf0bae5d9ba80b6c31abffecb41da89fbba2004b935eb",
+      "stratum": "CE_DEMOTION",
+      "logical_step_key": "6:43",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "3-43-r0",
+      "ground_truth": [
+        "T1021.005"
+      ],
+      "scenario_id": "3",
+      "step_id": "43",
+      "simulation_id": "3_vnc_apt",
+      "variant_id": "vnc_apt",
+      "sampling_replica_id": 0,
+      "input_hash": "46af9e5837e20c1aec84069959e2a4448cdf7ad5e25c413f44a2634847c6653a",
+      "stratum": "CE_PROMOTION",
+      "logical_step_key": "3:43",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "4-15-r0",
+      "ground_truth": [
+        "T1543.002"
+      ],
+      "scenario_id": "4",
+      "step_id": "15",
+      "simulation_id": "4",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "a6bb3aa8f51a708183337052677607d37f798bc653747d32123654040f388b30",
+      "stratum": "CE_PROMOTION",
+      "logical_step_key": "4:15",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "3-58-r0",
+      "ground_truth": [
+        "T1110.001",
+        "T1021.005"
+      ],
+      "scenario_id": "3",
+      "step_id": "58",
+      "simulation_id": "3_vnc_puppet",
+      "variant_id": "vnc_puppet",
+      "sampling_replica_id": 0,
+      "input_hash": "5a4c5f068bde9fbb202d1b59b416152b2e17b586cb58316edd88c3c610964339",
+      "stratum": "CE_PROMOTION",
+      "logical_step_key": "3:58",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "2-17-r0",
+      "ground_truth": [
+        "T1003.008"
+      ],
+      "scenario_id": "2",
+      "step_id": "17",
+      "simulation_id": "2_rootkit",
+      "variant_id": "rootkit",
+      "sampling_replica_id": 0,
+      "input_hash": "fc1519db3e032aecf0247e03d3c098a0c0c88be30eb2bb37357571511a518362",
+      "stratum": "CE_PROMOTION",
+      "logical_step_key": "2:17",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "3-51-r0",
+      "ground_truth": [
+        "T1574"
+      ],
+      "scenario_id": "3",
+      "step_id": "51",
+      "simulation_id": "3_vnc_apt",
+      "variant_id": "vnc_apt",
+      "sampling_replica_id": 0,
+      "input_hash": "8e686f20eb7f173d42da67791046578c194e5f40a99cd0f5cb8b16e96592f2a8",
+      "stratum": "CE_PROMOTION",
+      "logical_step_key": "3:51",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "7-7-r0",
+      "ground_truth": [
+        "T1033"
+      ],
+      "scenario_id": "7",
+      "step_id": "7",
+      "simulation_id": "7",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "aa6bdf2ee18ea31546f53a9006de617106d10466db5efff0178dc3c1b7bbca1f",
+      "stratum": "CE_PROMOTION",
+      "logical_step_key": "7:7",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "3-8-r0",
+      "ground_truth": [
+        "T1039"
+      ],
+      "scenario_id": "3",
+      "step_id": "8",
+      "simulation_id": "3_ssh_apt",
+      "variant_id": "ssh_apt",
+      "sampling_replica_id": 0,
+      "input_hash": "51d8121f688b13693331e1e44f2c761e285d8e83fa28e89cd8a64e267f6edb5e",
+      "stratum": "BOTH_FAIL_WITH_CANDIDATE",
+      "logical_step_key": "3:8",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "6-30-r0",
+      "ground_truth": [
+        "T1176",
+        "T1056.001",
+        "T1056.004",
+        "T1115"
+      ],
+      "scenario_id": "6",
+      "step_id": "30",
+      "simulation_id": "6_plugin",
+      "variant_id": "plugin",
+      "sampling_replica_id": 0,
+      "input_hash": "7fbd06d69b13713e5150c809084ca91415664f53ec49cf6f15ce1d617d364fec",
+      "stratum": "BOTH_FAIL_WITH_CANDIDATE",
+      "logical_step_key": "6:30",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "1-30-r0",
+      "ground_truth": [
+        "T1105",
+        "T1098.004"
+      ],
+      "scenario_id": "1",
+      "step_id": "30",
+      "simulation_id": "1_autostart_sshkey",
+      "variant_id": "autostart_sshkey",
+      "sampling_replica_id": 0,
+      "input_hash": "b8ffd241f33a8b7b121c49d85ec4cdefccb435d9324d439c110fba6d3e802168",
+      "stratum": "BOTH_FAIL_WITH_CANDIDATE",
+      "logical_step_key": "1:30",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "2-5-r0",
+      "ground_truth": [
+        "T1083"
+      ],
+      "scenario_id": "2",
+      "step_id": "5",
+      "simulation_id": "2_rootkit",
+      "variant_id": "rootkit",
+      "sampling_replica_id": 0,
+      "input_hash": "2093c9119da381e35d91ef55014fcd288fa5683ab1217366241f3adea35564d5",
+      "stratum": "BOTH_FAIL_WITH_CANDIDATE",
+      "logical_step_key": "2:5",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "7-3-r0",
+      "ground_truth": [
+        "T1078.002",
+        "T1110.001",
+        "T1133"
+      ],
+      "scenario_id": "7",
+      "step_id": "3",
+      "simulation_id": "7",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "77a0039118650568ce5977e96dc0f4097cf075b5920ded2a663a59fa713caab8",
+      "stratum": "BOTH_FAIL_WITH_CANDIDATE",
+      "logical_step_key": "7:3",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "6-15-r0",
+      "ground_truth": [
+        "T1115"
+      ],
+      "scenario_id": "6",
+      "step_id": "15",
+      "simulation_id": "6_macro_cron",
+      "variant_id": "macro_cron",
+      "sampling_replica_id": 0,
+      "input_hash": "229a3fc492512faf1fcdc32d6e4bb744defced047423b3b0ece1dce9d968d6bc",
+      "stratum": "BOTH_FAIL_WITH_CANDIDATE",
+      "logical_step_key": "6:15",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "4-10-r0",
+      "ground_truth": [
+        "T1070.004"
+      ],
+      "scenario_id": "4",
+      "step_id": "10",
+      "simulation_id": "4",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "ba15764e1387596ccf33d197b687c7fd92d710c6dd8a80bc106782274efc42b9",
+      "stratum": "BOTH_CORRECT",
+      "logical_step_key": "4:10",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "4-7-r0",
+      "ground_truth": [
+        "T1548.003"
+      ],
+      "scenario_id": "4",
+      "step_id": "7",
+      "simulation_id": "4",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "517601fbd3c956c79257c38b8ce31027d0eeeba21b077d358098f8d1b6ac4992",
+      "stratum": "BOTH_CORRECT",
+      "logical_step_key": "4:7",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "4-14-r0",
+      "ground_truth": [
+        "T1543.002"
+      ],
+      "scenario_id": "4",
+      "step_id": "14",
+      "simulation_id": "4",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "1604c2cbfe8f7f5335e665e9b16e17daa3f183333e11c0f596c801b85230de4b",
+      "stratum": "BOTH_CORRECT",
+      "logical_step_key": "4:14",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "3-25-r0",
+      "ground_truth": [
+        "T1486",
+        "T1105"
+      ],
+      "scenario_id": "3",
+      "step_id": "25",
+      "simulation_id": "3_ssh_puppet",
+      "variant_id": "ssh_puppet",
+      "sampling_replica_id": 0,
+      "input_hash": "7c95408d8e25afd2a42cc40be1fcbc9344dd283675427bf715820b22db678462",
+      "stratum": "BOTH_CORRECT",
+      "logical_step_key": "3:25",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": true,
+      "old_CE_top10_hit": true,
+      "old_candidate20_hit": true
+    },
+    {
+      "sample_id": "5-3-r0",
+      "ground_truth": [
+        "T1550.001"
+      ],
+      "scenario_id": "5",
+      "step_id": "3",
+      "simulation_id": "5",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "df9156987443797451cb7835cf8d2b210f0940f458a4a529368a54120e996498",
+      "stratum": "CANDIDATE_MISS20",
+      "logical_step_key": "5:3",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": false
+    },
+    {
+      "sample_id": "5-2-r0",
+      "ground_truth": [
+        "T1040",
+        "T1528"
+      ],
+      "scenario_id": "5",
+      "step_id": "2",
+      "simulation_id": "5",
+      "variant_id": "",
+      "sampling_replica_id": 0,
+      "input_hash": "3895b4d30547e32cc6404155cbc36d3564ce96229063483dc3668d151978fdac",
+      "stratum": "CANDIDATE_MISS20",
+      "logical_step_key": "5:2",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": false
+    },
+    {
+      "sample_id": "1-56-r0",
+      "ground_truth": [
+        "T1078.003"
+      ],
+      "scenario_id": "1",
+      "step_id": "56",
+      "simulation_id": "1_validaccount_pam",
+      "variant_id": "validaccount_pam",
+      "sampling_replica_id": 0,
+      "input_hash": "991739733d1685eff9806c54946ce0249b53134f6811ac14d36bdf8e68fa9bd9",
+      "stratum": "CANDIDATE_MISS20",
+      "logical_step_key": "1:56",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": false
+    },
+    {
+      "sample_id": "2-21-r0",
+      "ground_truth": [
+        "T1046",
+        "T1018"
+      ],
+      "scenario_id": "2",
+      "step_id": "21",
+      "simulation_id": "2_cron",
+      "variant_id": "cron",
+      "sampling_replica_id": 0,
+      "input_hash": "7c04589e146be39cb8259f95981adaa385a28c0a653e8b62d2d79ccadfd03b37",
+      "stratum": "CANDIDATE_MISS20",
+      "logical_step_key": "2:21",
+      "representative_rule": "lexicographically first replica; all5replicas retained in full benchmark",
+      "old_embedding_top10_hit": false,
+      "old_CE_top10_hit": false,
+      "old_candidate20_hit": false
+    }
+  ],
+  "selection_source_sha256": "c3ceac059b3966b77b5c95bca2861c2de33ded885e667314d5f08c5d91c5bf67"
+}

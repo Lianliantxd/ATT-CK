@@ -1,0 +1,11 @@
+{
+  "source_blob": "/Users/tianxd/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+  "source_weight_sha256": "aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+  "source": "existing embedded GGUF, no download",
+  "pre": "qwen2",
+  "vocab_size": 151936,
+  "merges": 151387,
+  "regex_source": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/src/llama-vocab.cpp",
+  "tokenizer_library": "tokenizers0.22.2",
+  "raw_tokenizer_not_model_forward": true
+}

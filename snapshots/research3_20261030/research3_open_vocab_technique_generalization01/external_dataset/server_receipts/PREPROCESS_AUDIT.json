@@ -1,0 +1,38 @@
+{
+  "annotation_fields_removed": 7015,
+  "technique_id_occurrences_removed": 105,
+  "inputs": [
+    {
+      "name": "windows-sysmon.log",
+      "sha256": "ee1c7cd9fa20013c82da17f8cb1998197c117ab4c209ab56203290bc90739fda",
+      "bytes": 12883992,
+      "format": "XML_EVENT_STREAM",
+      "records": 7010,
+      "unparsed_xml_residual_bytes": 0
+    },
+    {
+      "name": "4688_windows-security.log",
+      "sha256": "81e1d4e381f4dc38b97c48f9fa5b0ab0b098810c321b7d4599029a9f22530259",
+      "bytes": 11176,
+      "format": "XML_EVENT_STREAM",
+      "records": 8,
+      "unparsed_xml_residual_bytes": 0
+    },
+    {
+      "name": "crowdstrike_falcon.log",
+      "sha256": "c4275ab0ef976b0d00ba7840031a06d9f47d1beeaf4c3056d2fc7bb8fe08b38a",
+      "bytes": 10681,
+      "format": "NDJSON",
+      "records": 5,
+      "unparsed_xml_residual_bytes": 0
+    }
+  ],
+  "bag_count": 1,
+  "event_level_gold_created": 0,
+  "commands_executed": 0,
+  "model_calls": 0,
+  "parse_status": "STRUCTURE_PARSED_NOT_SEMANTICALLY_VALIDATED",
+  "scientific_qualification": "E1_FEASIBILITY_CANDIDATE_ONLY; script independence unresolved; model input budget and inference not yet qualified",
+  "bag_input_sha256": "5b97effee468ef68851f114391381145ac8355b2b2b47faeedc7a3335bbba1cd",
+  "bag_reference_sha256": "46411d80dc49361e1c390575222808f97548f630272a208101cc2ff597934f4e"
+}

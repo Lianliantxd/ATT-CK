@@ -1,0 +1,452 @@
+# Agent 完整执行 Prompt
+
+# R3_OPEN_VOCAB_DISTINGUISHABLE_EVIDENCE_AUDIT01
+## 384 条 Unseen ATT&CK 技术漏召回案例：证据可辨识性与错误归因审计
+
+---
+
+## 一、任务目标
+
+你是一名负责网络安全日志分析、MITRE ATT&CK 技术映射、开放词汇分类、语义检索和实验评价的研究 Agent。
+
+当前研究方向保持不变：
+
+**基于 ATT&CK 知识约束的 APT 攻击意图理解方法研究。**
+
+当前子任务为开放词汇 ATT&CK 技术识别。
+
+本轮只回答一个关键问题：
+
+> 在既有 384 条 GTE 未能于 Top-10 命中任何 Unseen Gold 的查询中，有多少案例的当前可见日志确实包含足以支持并区分 Gold 技术与合理竞争技术的证据？
+
+本轮必须逐条检查全部冻结案例，不能抽样替代。
+
+这不是新算法开发任务，不训练模型，不重新运行历史基线，不新增模型调用，不修改任何历史预测或 Gold 标签。
+
+最终交付必须让研究者能够明确区分：
+
+1. 日志中有可区分证据，但历史模型没有正确排序；
+2. 日志存在相关行为，但不足以区分 Gold 与竞争技术；
+3. 当前可见日志未提供必要证据；
+4. Gold 标签的技术范围或粒度需要复核；
+5. 证据与标签关系仍无法判断。
+
+**本轮不要求证明某个新算法有效，而是确定哪些案例有资格用于研究算法错误。**
+
+## 二、冻结项目和输入
+
+优先使用以下既有项目：
+
+### 2.1 开放词汇技术识别
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/`
+
+### 2.2 失败机制诊断
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/`
+
+重点文件：
+
+- `GTE_MISS_EVIDENCE_CARDS.jsonl`
+- `GTE_MISS_GOLD_DIAGNOSTICS.csv`
+- `UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv`
+- `CANDIDATE_COMPARISON.csv.gz`
+- `QUERY_DIAGNOSTICS.csv`
+- `DIAGNOSTIC_PROTOCOL.json`
+- `results/FINAL_VALIDATION.json`
+
+### 2.3 上一轮 AI 证据预审
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/`
+
+重点文件：
+
+- `review/QUERY_EVIDENCE_REVIEWS.jsonl`
+- `review/CONDITION_EVIDENCE_MATRIX.csv`
+- `review/HUMAN_REVIEW_QUEUE.csv`
+- `review/GOLD_CONDITION_CATALOG.json`
+- `results/REVIEW_COUNTS.json`
+- `protocol/BLOCKER_REGISTER.json`
+- `results/FINAL_VALIDATION.json`
+
+### 2.4 方法门控项目
+
+`/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/`
+
+重点文件：
+
+- `CASE_QUALIFICATION_MATRIX.csv`
+- `METHOD_HYPOTHESIS_REGISTER.json`
+- `REFERENCE_REQUIREMENTS.md`
+- `GO_NO_GO_DECISION.md`
+- `FINAL_VALIDATION.json`
+
+以上是候选路径，必须实际核对文件存在性、内容、哈希和字段定义。不能假定文件完整。
+
+不得覆盖任何旧文件。所有新结果只写入本轮新项目目录。
+
+---
+
+## 三、已知事实与不能预设的结论
+
+既有诊断记录报告：
+
+- 冻结 GTE 未命中 Unseen Gold 的查询：384 条；
+- GTE 原有命中但被 C4 丢失：32 条；
+- 存在跨 Seen/Unseen 排名调整空间的查询：35 条；
+- 正确 Unseen 技术在 Unseen 内部排名也超过前十的查询：349 条。
+
+这些是历史诊断结果，不是本轮预设的根因结论。
+
+本轮的 384 条是按照历史 GTE 漏召回条件选出的开发案例，不是独立测试集。
+
+上一轮 AI 预审记录：
+
+- 384 条查询均有 AI 预审记录；
+- 2618 条条件记录；
+- 31 条查询至少有一个目标存在直接相关行为证据的 AI 线索；
+- 95 条查询至少有一个目标存在部分相关行为证据的 AI 线索；
+- 34 条查询至少有一个目标存在技术范围或粒度疑问的 AI 线索；
+- 独立人工裁定数量为 0；
+- 竞争技术比较完成数量为 0。
+
+这些 AI 结果仅用于定位需要核查的案例，不是 Gold，也不能作为本轮判断的标准答案。
+
+必须独立检查实际日志内容和证据引用，不能照抄上一轮标签作为结论。
+
+## 四、第一阶段：冻结全部 384 条案例
+
+创建新目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/`
+
+如果目录已存在，不得覆盖。创建新的明确版本目录。
+
+首先读取冻结清单并核验：
+
+- 唯一 `sample_id`；
+- `logical_step_id`；
+- `scenario_id`；
+- `execution_id`；
+- `view_id`；
+- `gold_technique_ids`；
+- 冻结查询文本及其哈希；
+- 当前可见日志范围；
+- 来源与覆盖限制。
+
+冻结原始顺序，生成：
+
+`inputs/FROZEN_CASE_MANIFEST.json`
+
+必须验证查询数量。如果不是 384 条唯一查询，停止声称全量审查完成，记录实际数量和差异。
+
+不得通过去重不同采样视图、合并不同 Gold 或补造缺失查询强行达到 384 条。
+
+## 五、第二阶段：明确证据审查与预测评价的边界
+
+本轮需要区分两种工作：
+
+**证据审查：** 根据当前可见日志和冻结技术定义，判断必要行为条件是否得到支持，以及证据能否区分技术。
+
+**预测评价：** 比较历史模型是否把 Gold 排在正确位置。
+
+两者不能混为一谈。
+
+### 5.1 盲化状态
+
+上一轮执行上下文已经接触历史排名与错误诊断。因此，不得声称当前上下文天然独立。
+
+如果平台允许使用没有历史研究对话的新审查 Agent，应将证据审查材料交给该上下文。其输入只能包括：
+
+- 冻结查询；
+- 当前合法可见日志；
+- Gold 技术冻结定义；
+- 必要的主体、资产、时间和对象字段；
+- 来源与覆盖元数据；
+- 本轮审查协议。
+
+第一遍审查不得提供历史模型排名、分数、错误归因或上一轮 AI 结论。
+
+如果实际无法建立独立上下文，应明确标记：
+
+`INDEPENDENT_BLIND_REVIEW_NOT_AVAILABLE`
+
+不能通过删除输入中的排名字段就宣称历史信息暴露已经消失。
+
+### 5.2 竞争技术比较
+
+在第一遍证据判断完成并保存后，才进行竞争技术比较。
+
+竞争技术输入必须来自已冻结的候选空间和技术定义。若需要使用历史 GTE Top-10 候选，应由独立协调者在第一遍结果封存后提供候选 ID 与冻结定义，不向审查者提供原排名、分数或候选来源。
+
+候选顺序应在每个案例内随机打乱，保存实际顺序和随机种子。不得改变候选定义。
+
+这只能减轻排序信息造成的偏差，不能消除候选集合由历史模型选择的影响。
+
+若不能获得独立审查者或可靠的候选盲化，仍可完成证据核验，但必须把竞争技术区分性结论标记为非独立预审。
+
+---
+
+## 六、第三阶段：逐条核验日志证据
+
+对全部 384 条查询逐条执行。
+
+### 6.1 证据范围核验
+
+记录：
+
+- 当前可见记录数量；
+- 当前可见 Fact ID；
+- 原生或派生来源；
+- 主体、资产、对象和时间绑定；
+- 明确省略的范围；
+- 未知的原始日志覆盖范围；
+- 任何无法验证的来源映射。
+
+注意：上一轮生成的 `VISIBLE_LINE_*` 或其他 Fact ID 可能只是显示行定位符，并非原生事件 ID。必须保留这种区别。
+
+不能从当前输入缺失直接推断原始日志不存在相应事件。
+
+### 6.2 Gold 技术的必要条件
+
+对每个 Gold 技术，根据冻结公开定义记录：
+
+- 核心行为；
+- 必要对象；
+- 必要前提；
+- 主体或资产约束；
+- 必要状态变化或结果；
+- 有区分意义的条件；
+- 可选行为；
+- 定义范围和父子技术层级。
+
+必须区分必要条件与技术描述中的示例。不能把每个示例都强制作为必要条件，也不能根据当前日志改写 Gold 定义。
+
+### 6.3 证据状态
+
+每个条件使用以下状态：
+
+- `DIRECTLY_SUPPORTED`
+- `PARTIALLY_SUPPORTED`
+- `EXPLICITLY_CONTRADICTED`
+- `NOT_ESTABLISHED`
+- `NOT_OBSERVABLE_IN_CURRENT_VIEW`
+- `NOT_EVALUABLE`
+
+规则：
+
+- 直接支持：存在可追溯记录，直接支持所述行为或条件。
+- 部分支持：相关行为存在，但无法满足完整条件。
+- 明确矛盾：存在针对同一主体、对象、时间和条件的明确反向证据。
+- 未建立：当前证据既不足以支持，也不足以反驳。
+- 当前视图不可观测：当前冻结输入未提供必要字段或记录。
+- 不可评价：命题定义、映射或证据来源存在无法解决的歧义。
+
+缺失不等于反证；背景相容不等于直接支持；命令出现不等于成功结果；工具名称不等于攻击者目的。
+
+### 6.4 来源合法性
+
+每个支持或反驳依据必须标记来源类型：
+
+- `NATIVE_LOG_RECORD`
+- `RECORDED_RELATION`
+- `DERIVED_PATTERN`
+- `SOURCE_METADATA`
+- `PUBLIC_TECHNIQUE_DESCRIPTION`
+- `OTHER_DOCUMENTED_SOURCE`
+- `NO_SUPPORTING_SOURCE`
+
+引用必须属于对应查询的合法范围。不得跨查询借用事实。
+
+### 6.5 逐条件输出
+
+每个 Gold 技术的每个条件至少记录：
+
+- `sample_id`
+- `gold_technique_id`
+- `condition_id`
+- `condition_text`
+- `condition_type`
+- `evidence_status`
+- `supporting_fact_ids`
+- `contradicting_fact_ids`
+- `supporting_source_type`
+- `subject_binding_status`
+- `asset_binding_status`
+- `temporal_binding_status`
+- `scope_limitations`
+- `missing_information`
+- `reasoning`
+- `human_review_required`
+
+若某项无法核验，必须记录原因，不得用占位标签掩盖未完成。
+
+---
+
+## 七、第四阶段：判断 Gold 是否可区分
+
+第一遍证据结果封存后，对每条查询的 Gold 和冻结竞争技术开展逐对比较。
+
+每个候选技术均应检查：
+
+1. 哪些必要条件获得直接证据支持；
+2. 哪些条件仅有部分证据；
+3. 哪些条件未建立；
+4. 哪些条件需要当前输入之外的信息；
+5. 与 Gold 共享哪些可观察行为；
+6. 哪些必要条件真正具有区分力；
+7. 当前可见日志是否支持排除该竞争解释；
+8. 是否存在多个同样合理的解释。
+
+竞争技术比较结果使用：
+
+- `DISTINGUISHABLE_SUPPORT_FOR_GOLD`
+- `DISTINGUISHABLE_SUPPORT_FOR_COMPETITOR`
+- `BOTH_COMPATIBLE_NOT_DISTINGUISHABLE`
+- `NEITHER_SUFFICIENTLY_SUPPORTED`
+- `INSUFFICIENT_INPUT`
+- `NOT_EVALUABLE`
+
+这些标签描述证据区分结果，不是攻击是否发生的真值。
+
+### 7.1 不得强行唯一分类
+
+如果日志只能支持共同的低层行为，而不能区分多个技术，应标记 `BOTH_COMPATIBLE_NOT_DISTINGUISHABLE`。
+
+如果 Gold 的必要条件没有得到支持，不应因为它是作者标签而默认成立。
+
+如果竞争技术没有获得支持，也不能仅因 Gold 是已知标签就把竞争技术判为错误。
+
+如果所有候选均缺少充分证据，应保留 `NEITHER_SUFFICIENTLY_SUPPORTED`，不能强制选出一个最优技术。
+
+### 7.2 候选空间限制
+
+如果只审查 Gold 与历史 Top-10 候选，结论仅适用于该候选子集。
+
+不得声称已经排除全部 216 个候选，除非实际检查了完整候选定义并对相应技术范围完成审查。
+
+必须记录：
+
+- `candidate_scope`
+- `candidate_count_reviewed`
+- `all_216_reviewed`
+- `unreviewed_candidate_count`
+- `scope_limitation`
+
+---
+
+## 八、第五阶段：将漏召回分成不同问题
+
+每条查询完成证据审查与竞争比较后，归入一个主要诊断类别，并保留可重叠的次级标签。
+
+主要类别：
+
+### A. `EVIDENCE_PRESENT_AND_DISTINGUISHABLE`
+
+当前输入中存在可追溯的区分性证据，且 Gold 与主要竞争技术可以根据冻结定义区分。
+
+这类案例才是后续算法错误分析的优先候选。
+
+但由于当前 384 条已参与开发，不能直接把它们当作独立测试结果。
+
+### B. `EVIDENCE_PRESENT_BUT_AMBIGUOUS`
+
+日志包含相关行为，但不足以区分 Gold 与竞争技术。
+
+不能直接认定是语义编码器失败。
+
+### C. `INSUFFICIENT_VISIBLE_EVIDENCE`
+
+当前可见输入不包含足以满足 Gold 必要条件的证据。
+
+这不证明原始日志不存在该证据，也不证明技术没有发生。
+
+### D. `GOLD_SCOPE_OR_GRANULARITY_UNRESOLVED`
+
+技术定义、父子映射或标签粒度存在具体疑问。
+
+不得擅自修改标签或定义。
+
+### E. `INPUT_OR_SOURCE_MAPPING_UNRESOLVED`
+
+来源绑定、字段映射、预处理或覆盖范围存在无法核验的问题。
+
+只有存在直接核验依据时，才能确认预处理或映射错误；否则保留为待核查。
+
+### F. `UNRESOLVED`
+
+现有证据无法可靠归因。
+
+不得强行分配到其他类别。
+
+这些主要类别必须互斥，每条查询只能有一个主要类别；次级诊断允许多标签。主要类别的统计数量必须等于实际完成审查的唯一查询数。
+
+若有查询未完成，应明确标记未完成，不得通过归类为 `UNRESOLVED` 来伪装已完成全部审查。
+
+---
+
+## 九、第六阶段：形成可评价案例清单
+
+建立 `CASE_EVALUATION_ELIGIBILITY.csv`。
+
+每条查询必须记录：
+
+- `sample_id`
+- `logical_step_id`
+- `scenario_id`
+- `gold_technique_ids`
+- `primary_diagnosis`
+- `evidence_present`
+- `distinguishing_evidence`
+- `gold_scope_status`
+- `input_coverage_status`
+- `candidate_scope`
+- `independent_reference_status`
+- `human_review_required`
+- `eligible_for_algorithm_error_analysis`
+- `eligibility_reason`
+
+严格区分以下数量：
+
+1. 有相关可见行为证据的查询数；
+2. 有充分证据支持 Gold 的查询数；
+3. 有证据区分 Gold 与主要竞争技术的查询数；
+4. 有合格独立人工参考的查询数；
+5. 可进入开发错误分析的查询数；
+6. 可进入确认性主指标的查询数；
+7. 具有独立测试资格的查询数。
+
+这些数量不能互换。
+
+如果某项无法确认，使用 `NOT_AVAILABLE`，不能填 0。
+
+即使某条查询被判定为 `EVIDENCE_PRESENT_AND_DISTINGUISHABLE`，也只能说明它具备进入错误分析的候选资格。正式参考和测试资格仍须单独核验。
+
+---
+
+## 十、第七阶段：分析现有强基线是否有可验证的残余错误
+
+只在证据审查结果封存后，才允许进行有限的历史结果对照。
+
+不得训练或重新运行模型。
+
+对满足证据区分条件的案例，检查已保存的历史预测是否表明：
+
+- 冻结 GTE 未把 Gold 排在 Top-10；
+- 强词法基线是否命中 Gold；
+- C4 是否改变原始 GTE 排名；
+- 监督分数是否造成已知的 Seen/Unseen 排名竞争；
+- 简单基线是否已经解释该案例。
+
+所有历史排名必须来自实际保存且可验证的结果文件。
+
+若输入视图、候选空间或知识文本不同，必须标记 `CROSS_PROTOCOL_NOT_COMPARABLE`。
+
+不能将历史模型排名作为证据审查阶段的输入，也不能把“历史排名错误”当作 Gold 语义正确的证明。
+
+### 10.1 残余错误分类
+
+只允许以下结论：
+
+- `VERIFIABLE_RESIDUAL_RANKING_ERROR`
+- `BASELINE_ALREADY_RECOVERS_GOLD`

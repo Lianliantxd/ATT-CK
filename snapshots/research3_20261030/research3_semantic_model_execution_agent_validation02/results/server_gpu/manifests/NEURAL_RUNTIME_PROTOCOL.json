@@ -1,0 +1,29 @@
+{
+  "source_sha256": "44dc66b342be78d99a59428c836269ce4876094b9d1c55e6819f62debf7fde94",
+  "model_revisions": [
+    "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "f7481e6055501a30fb19d090657df9ec1f79ab2c"
+  ],
+  "physicalGPU": 0,
+  "memory_fraction_cap": 0.15,
+  "batch": 8,
+  "log_token_cap": 2048,
+  "document_token_cap": 1024,
+  "no_Gold_input": true,
+  "full_P0_queries": 975,
+  "deduplicated_forward_cache": "exact text within fixed model only; repeated query denominators retained",
+  "CPU_threads": 2,
+  "fixed_method_conditions": 5,
+  "reranker_pools": [
+    "lexical shared native view",
+    "canonical E1 embedding shared native view"
+  ],
+  "reranker_candidate_sizes": [
+    20,
+    50,
+    100
+  ],
+  "same_raw_fragments_all_views": true,
+  "E2": "true source/native fields plus complete selected native text; repeats but adds no observations",
+  "long_logs": "prefix vs equispaced-window; window max/mean chunks use same selected text as window direct"
+}

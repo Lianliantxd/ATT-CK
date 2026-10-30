@@ -1,0 +1,35 @@
+{
+  "original_queries": 384,
+  "unique_queries": 384,
+  "logical_steps": 80,
+  "unique_visible_text_hashes": 145,
+  "query_target_Gold_assignments": 520,
+  "inherited_condition_records": 2618,
+  "AI_flag_related_direct_or_partial_queries": 126,
+  "AI_flag_any_direct_queries": 31,
+  "AI_flag_any_partial_queries": 95,
+  "independently_confirmed_relevant_behavior_queries": "NOT_AVAILABLE",
+  "queries_with_qualified_candidate_distinction": "NOT_AVAILABLE",
+  "human_adjudication_required": 384,
+  "currently_ineligible_for_confirmatory_primary_metric": 384,
+  "documented_qualified_independent_reference_records_in_checked_assets": 0,
+  "actual_queries_with_qualified_independent_reference": "NOT_AVAILABLE",
+  "documented_qualified_independent_test_queries_in_checked_assets": 0,
+  "actual_queries_with_independent_test_qualification": "NOT_AVAILABLE",
+  "primary_blocker_counts_exclusive": {
+    "OBSERVATION_INSUFFICIENT": 152,
+    "REFERENCE_MISSING": 198,
+    "LABEL_SCOPE_UNRESOLVED": 34
+  },
+  "qualification_state_counts_nonexclusive": {
+    "CANDIDATE_FOR_HUMAN_ADJUDICATION": 384,
+    "REFERENCE_MISSING": 384,
+    "NOT_ELIGIBLE_FOR_CURRENT_HYPOTHESIS": 384,
+    "OBSERVATION_INSUFFICIENT": 152,
+    "LABEL_SCOPE_UNRESOLVED": 34
+  },
+  "previous_30_case_human_queue_status_counts": {
+    "PENDING": 30
+  },
+  "unit_warning": "query,logical step,author label assignment and AI condition are not interchangeable;AI clues not qualified Gold or correct predictions"
+}

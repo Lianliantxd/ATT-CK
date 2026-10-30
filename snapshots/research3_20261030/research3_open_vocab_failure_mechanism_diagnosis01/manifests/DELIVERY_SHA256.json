@@ -1,0 +1,297 @@
+[
+  {
+    "path": "CANDIDATE_COMPARISON.csv.gz",
+    "bytes": 64934597,
+    "sha256": "3f818ac88c38f8ec908a4733ddbaff77c87ef65b6848b55f469479e76fd6644d"
+  },
+  {
+    "path": "COUNTERFACTUAL_COMPONENT_DIAGNOSIS.csv",
+    "bytes": 558,
+    "sha256": "3f65dd7d90e347afd46430c7a36de22159c5a7c446e433ca3636395b53365fb3"
+  },
+  {
+    "path": "DIAGNOSTIC_PROTOCOL.json",
+    "bytes": 2482,
+    "sha256": "23a828d8408a9c53ccee8db44fec08d902c8afa9792ad54567caecdaf669b2e1"
+  },
+  {
+    "path": "FAILURE_MECHANISM_RESEARCH_DECISION.md",
+    "bytes": 1255,
+    "sha256": "79a7e025cf26ec62610917901aa926bcd131d79ea2859b34d39d2c180dcd9639"
+  },
+  {
+    "path": "GOLD_TECHNIQUE_HIT_MISS_SETS.json",
+    "bytes": 436683,
+    "sha256": "f87c64cceaf3b5a8ba0c5ba5a7d81094671d37793192fa40f28446bc466e721f"
+  },
+  {
+    "path": "GTE_HIT_C4_LOST_CASES.jsonl",
+    "bytes": 1600089,
+    "sha256": "e4406a489fc2f1fad86dd53801b50e8873a06a0195e7acd2096eb50b84d9d696"
+  },
+  {
+    "path": "GTE_HIT_C4_LOST_DIAGNOSTICS.csv",
+    "bytes": 190118,
+    "sha256": "e9970237cf85f1174287494e32c7da6feeb4d3570efbca55161df34c02d3d480"
+  },
+  {
+    "path": "GTE_MISS_EVIDENCE_CARDS.jsonl",
+    "bytes": 4198583,
+    "sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80"
+  },
+  {
+    "path": "GTE_MISS_GOLD_DIAGNOSTICS.csv",
+    "bytes": 3018911,
+    "sha256": "dd3d702b1926773395889e4e0f6698af3d5372ab0f916c1e1a630ecd4f109b73"
+  },
+  {
+    "path": "IDENTICAL_VIEW_DIFFERENT_STEP_AUDIT.csv",
+    "bytes": 18,
+    "sha256": "ef7c684795b2a4654821f651b84bff971f8e456daf7a41440edd8ef2d2cc81ab"
+  },
+  {
+    "path": "INDEPENDENT_HIT_RECOUNT.csv",
+    "bytes": 1262,
+    "sha256": "261cd2e1ab8cf5df8e15aea021034509044f6a9b28701d780afcf251c08fc6f6"
+  },
+  {
+    "path": "INPUT_LABEL_MAPPING_AUDIT.csv",
+    "bytes": 233552,
+    "sha256": "db7585dc7149528cfa0c2a22012b31acea5f9a1ce70ffa78fc8c6afeb911b969"
+  },
+  {
+    "path": "LOST_CASES_FULL_ANALYSIS.md",
+    "bytes": 49158,
+    "sha256": "9d5b4a0d858538b18cb5d58cedb121bb3c82c3b7af83a9a2e3ba7cc03dd7b224"
+  },
+  {
+    "path": "QUERY_DIAGNOSTICS.csv",
+    "bytes": 2482526,
+    "sha256": "2a3c756c7c799703f0bdfe47016d1156065810b44ccd28beeedc7a88d326018d"
+  },
+  {
+    "path": "QUERY_HIT_MISS_SETS.json",
+    "bytes": 143742,
+    "sha256": "a29a779dc0bd2806d4bd01bbfce916ce3e9977889047af1515989d28e836c2a5"
+  },
+  {
+    "path": "R3_OPEN_VOCAB_FAILURE_MECHANISM_DIAGNOSIS_RESULTS.md",
+    "bytes": 15390,
+    "sha256": "c39ea4e654dbcf8001793f29586add252abe37bc6ee831b2d19241cf9a4e476b"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1195,
+    "sha256": "b41d5395960925b059a3a4541c2ad2f0c349fa961969619348ab98e7f8f8ee1f"
+  },
+  {
+    "path": "UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv",
+    "bytes": 3382935,
+    "sha256": "6847ea8d45d888194c444f9940ab21f41dcd49fc58151d4c42a20c95ed4daa1a"
+  },
+  {
+    "path": "common.py",
+    "bytes": 988,
+    "sha256": "64b2f4471b92a9e5366b9708e97657ab072061924c416dd3840649c9ac9c27e1"
+  },
+  {
+    "path": "diagnostics/audit_input_interface.py",
+    "bytes": 1931,
+    "sha256": "6368cd89ed569bcd1a1662037ecc147ee8d746fd51f66136b2600b6550731d89"
+  },
+  {
+    "path": "diagnostics/independent_audit.py",
+    "bytes": 8216,
+    "sha256": "fbd4221bfb461db4d3806fb639af42ba52cee0e401f8691126abcd3699f433c0"
+  },
+  {
+    "path": "diagnostics/qualify_evidence_cards.py",
+    "bytes": 990,
+    "sha256": "d47a99d1c20eaedb6df663f3146d83823d7014238b173022cb76fd445fb58d27"
+  },
+  {
+    "path": "diagnostics/run_diagnosis.py",
+    "bytes": 18608,
+    "sha256": "296239da003822b4aa4b46a0d38672002eb8dc89e45ad89b69c33ba4547bca26"
+  },
+  {
+    "path": "diagnostics/summarize_evidence.py",
+    "bytes": 6376,
+    "sha256": "fd4c4e36b79ecf088b5605e19a7f0cefd0e15cbc2aa626862a18dfc9db06e59c"
+  },
+  {
+    "path": "diagnostics/verify_inheritance.py",
+    "bytes": 2880,
+    "sha256": "8a2da2c8e02f745fdfd10b7d29f3522bef4b4110dc19bf404f3f351e9a9c2654"
+  },
+  {
+    "path": "inherited/ASSET_HASH_AUDIT.json",
+    "bytes": 27453,
+    "sha256": "50a1bca7624a3b34cd5142f386df699f72d6244661fb2b55ecdfc3f771a76258"
+  },
+  {
+    "path": "inherited/PRIOR_REPORT_WHITESPACE_DIFF.patch",
+    "bytes": 1266,
+    "sha256": "7287e6c63677937d84f252014c5ed7058c68e363bb48ee98afb53a55fd4de830"
+  },
+  {
+    "path": "inherited/USER_REQUEST_LATEST.txt",
+    "bytes": 11303,
+    "sha256": "ed637444812a7a11b0c9c4759236576cd4f726f26d5729b1aaab2ef877ee8c67"
+  },
+  {
+    "path": "inherited/USER_REQUEST_SUPERSEDED.txt",
+    "bytes": 11312,
+    "sha256": "f7ee47f650c08718f714e0be24c5d23839781ddfa685b6512c22e4ddf14d5000"
+  },
+  {
+    "path": "manifests/final_validate.py",
+    "bytes": 7867,
+    "sha256": "ff7056f2421b8c3284164e9705c07050d98acb773fcc0495ff529b7aba12c9cd"
+  },
+  {
+    "path": "protocol/DIAGNOSTIC_PROTOCOL_PREVIOUS_REQUEST.json",
+    "bytes": 2408,
+    "sha256": "afa315eca20eae0f5223bc141db898827100399950585f2bfb88747eb1ff73f4"
+  },
+  {
+    "path": "protocol/PROTOCOL_SHA256.txt",
+    "bytes": 65,
+    "sha256": "597e16d5f3522e71fb6732ee642c2b1f4e9fb541bf7da3d3a22545faef596568"
+  },
+  {
+    "path": "protocol/register.py",
+    "bytes": 2832,
+    "sha256": "f1d51203e3585ca4f5178a82133795b8ae0837a3c5198d328931b100fcc1767b"
+  },
+  {
+    "path": "reports/2026-10-28--open-vocab-failure--r01--ranking-diagnosis.md",
+    "bytes": 15390,
+    "sha256": "c39ea4e654dbcf8001793f29586add252abe37bc6ee831b2d19241cf9a4e476b"
+  },
+  {
+    "path": "reports/analysis-output/analysis-report.md",
+    "bytes": 4139,
+    "sha256": "15fcd1865bfbb4b7db51cbf9d531ee7799d6f2a80021e6261f2233b56650a8d1"
+  },
+  {
+    "path": "reports/analysis-output/figure-catalog.md",
+    "bytes": 1319,
+    "sha256": "74904677ab259cdba132b6a69c2ca6e7efeccef659a007511a626d30fb267613"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure01_unseen_failure_partition.pdf",
+    "bytes": 2343,
+    "sha256": "d47d6d52c68ec328e85dd3aa340cb53db7139ec321f549600a3ee5006cffa9b4"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure01_unseen_failure_partition.png",
+    "bytes": 70821,
+    "sha256": "dae7c98ba6f12b059ecedc899341f30e076a7578b4aaeca2ad64d0666ec0d39e"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure01_unseen_failure_partition.svg",
+    "bytes": 4687,
+    "sha256": "53327ff82a2ef59ef8734966b9998fff989ce4c583fa2a1dfd71b863c07429be"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure02_component_removal.pdf",
+    "bytes": 2312,
+    "sha256": "ec4e468ec3feeae1c7acc901d0cc85794b1926620339bc202b458243f233c5de"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure02_component_removal.png",
+    "bytes": 53682,
+    "sha256": "1b6d6aabc7fbafead69773b596f2c78bdbf7c553e3782c78b0b38aced01b699a"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure02_component_removal.svg",
+    "bytes": 5180,
+    "sha256": "45350ecccf68fd7df7730e13ec98d16fb90a5c7f8628c0faec48ee1340d51c17"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure03_scene_failure_partition.pdf",
+    "bytes": 2851,
+    "sha256": "37c76a99acbc771e519286e1f39b3a7d0da7345684da657b04a9a032881d854f"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure03_scene_failure_partition.png",
+    "bytes": 55181,
+    "sha256": "0612ae509d1f6d0ed9ca6a1575db88a564902b6b6528c1075ea6d953f8a4fd33"
+  },
+  {
+    "path": "reports/analysis-output/figures/figure03_scene_failure_partition.svg",
+    "bytes": 13267,
+    "sha256": "551c4a882c8af6f1f2b6631e72d9aeb06cc1292641078d5db3753699d10cc62d"
+  },
+  {
+    "path": "reports/analysis-output/provenance.json",
+    "bytes": 3494,
+    "sha256": "17df9b22b35eb45e6ee35905dafcfcd46804ad829a5efd5f3029b8e63866a8c6"
+  },
+  {
+    "path": "reports/analysis-output/stats-appendix.md",
+    "bytes": 2569,
+    "sha256": "52601321f33d2b4d954c45987925036e53431ca49fadba12e9065ca7ebc0c8d6"
+  },
+  {
+    "path": "reports/build_reports.py",
+    "bytes": 28479,
+    "sha256": "01d22033ca8ad9b927fd915f261cce24bade083037d8401834efcfed88628000"
+  },
+  {
+    "path": "reports/make_figures.py",
+    "bytes": 5307,
+    "sha256": "a239176556e846739c2294e9dc4e4883844c9b2c96ca4fdc6fb0bb4a4f0212b1"
+  },
+  {
+    "path": "results/DIAGNOSIS_EXECUTION_RECEIPT.json",
+    "bytes": 1033,
+    "sha256": "5a475208daba5261fe294680ebb80f17defb7bfde5c8283d52358efed46af2e9"
+  },
+  {
+    "path": "results/EVIDENCE_AND_MAPPING_SUMMARY.json",
+    "bytes": 1066,
+    "sha256": "a16f64f4b8db6cde3fc0ce8ba370f4c1909bee7a30ff2926728a93ad81ef2152"
+  },
+  {
+    "path": "results/EVIDENCE_CARD_QUALIFICATION_RECEIPT.json",
+    "bytes": 474,
+    "sha256": "0b7a3d056aed808b269cd8e4b3d8af6311cc5396299a48244859bb8a9e05a892"
+  },
+  {
+    "path": "results/HIT_COUNTS_BY_FOLD_SEED_VIEW.csv",
+    "bytes": 4559,
+    "sha256": "e12b966329cb116361d49201bee3f8bf0b156412c61f96a7d3aeafd477a39650"
+  },
+  {
+    "path": "results/INDEPENDENT_DIAGNOSTIC_AUDIT.json",
+    "bytes": 581,
+    "sha256": "8e836d1a385ba1717f96be11708c9efd554031640ee560ad3fb694ba3e356086"
+  },
+  {
+    "path": "results/INPUT_OR_SCORE_MISMATCHES.csv",
+    "bytes": 18,
+    "sha256": "ef7c684795b2a4654821f651b84bff971f8e456daf7a41440edd8ef2d2cc81ab"
+  },
+  {
+    "path": "results/PRIMARY_DIAGNOSIS_BY_SCENE.csv",
+    "bytes": 368,
+    "sha256": "d873e4fec5c592e2d4c27ee3e749c62b9959aeec0ddf854d47646b5e748210ea"
+  },
+  {
+    "path": "results/RESEARCH_STATUS.json",
+    "bytes": 481,
+    "sha256": "ed06fc696d19e236b83a89ec4cbbc57d2acbb2b2a0fe2a98fe9a27394cac7737"
+  },
+  {
+    "path": "results/SCORE_MARGIN_DESCRIPTIVES.csv",
+    "bytes": 1941,
+    "sha256": "1c8ef1f79635ad87fea533c37771d4dfc3675bf444e344540923afbaa653167f"
+  },
+  {
+    "path": "results/SOURCE_INTERFACE_AUDIT.json",
+    "bytes": 481,
+    "sha256": "3ecca5c8641bd18503cac93e9d5705592bd9c95c40911f95f16957c70f7f6e48"
+  }
+]

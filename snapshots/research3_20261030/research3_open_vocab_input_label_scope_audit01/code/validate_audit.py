@@ -1,0 +1,83 @@
+"""Independent mechanical recalculation. Does not import construction modules."""
+from pathlib import Path
+import json,csv,hashlib,gzip,collections,re
+R=Path(__file__).resolve().parents[1];BASE=R.parent;P=BASE/'research3_open_vocab_distinguishable_evidence_audit01';B=BASE/'research3_attack_technique_benchmark01';D=BASE/'research3_domain_adaptive_contrastive_learning01'
+def j(p):return json.loads(Path(p).read_text())
+def l(p):return [json.loads(x) for x in Path(p).read_text().splitlines() if x.strip()]
+def c(p):return list(csv.DictReader(Path(p).open()))
+def h(b):return hashlib.sha256(b).hexdigest()
+def save(rel,x):(R/rel).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+checks=[]
+def check(name,ok,detail=None):checks.append({'check':name,'pass':bool(ok),'detail':detail})
+state=j(R/'audit/ASSET_READ_SNAPSHOT.json');artids={x['artifact_id'] for x in state.values()};oldchanged=[]
+for path,x in state.items():
+ p=Path(path)
+ if x['exists']:
+  valid=p.is_file() and h(p.read_bytes())==x['sha256'];check('old_asset_unchanged:'+x['artifact_id'],valid)
+  if not valid:oldchanged.append(path)
+ else:check('missing_asset_still_documented:'+x['artifact_id'],not p.exists())
+inventory=c(R/'ASSET_SOURCE_INVENTORY.csv');check('inventory_exact_snapshot_paths',len(inventory)==len(state) and {x['path'] for x in inventory}==set(state))
+for row in inventory:check('inventory_pinned_bytes:'+row['artifact_id'],row['sha256']==(state[row['path']]['sha256'] or 'NOT_AVAILABLE') and row['exists']==str(state[row['path']]['exists']))
+old_manifest=j(P/'audit/DELIVERY_SHA256.json')
+for x in old_manifest:check('preceding_seal:'+x['path'],h((P/x['path']).read_bytes())==x['sha256'])
+defs=c(R/'TECHNIQUE_DEFINITION_AUDIT.csv');target={x['technique_id'] for x in defs};check('exact12targets',target=={'T1681','T1673','T1680','T1672','T1669','T1574','T1675','T1677','T1667','T1668','T1674','T1671'})
+short=j(P/'inputs/COMPETITOR_FROZEN_DEFINITIONS.json');full=j(BASE/'research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json');matrix=j(B/'official_sources/mitre_matrix.json');bundle=json.loads(gzip.decompress((BASE/'provenance_baserepro_04/data/enterprise-attack-16.1.json.gz').read_bytes()));groups=collections.defaultdict(list);allobjids=set()
+for o in bundle['objects']:
+ if o.get('type')=='attack-pattern':
+  for er in o.get('external_references',[]):
+   if er.get('source_name')=='mitre-attack':
+    t=er.get('external_id','');allobjids.add(t)
+    if not o.get('revoked') and not o.get('x_mitre_deprecated'):groups[t.split('.')[0]].append(o)
+check('matrix691_source_fields_names_tactics_only',len(matrix)==691 and all(set(v)=={'name','tactics'} for v in matrix.values()))
+check('STIX_internal_collection16.1',any(o.get('type')=='x-mitre-collection' and o.get('x_mitre_version')=='16.1' for o in bundle['objects']))
+for x in defs:
+ t=x['technique_id'];check('definition_content:'+t,x['frozen_description']==short[t]);check('definition_hash:'+t,h(short[t].encode())==x['frozen_text_sha256']);check('definition_lengths:'+t,len(short[t])==int(x['frozen_text_length']) and len(short[t].encode())==int(x['frozen_text_bytes']));check('definition_asset_refs:'+t,set(json.loads(x['supporting_artifact_ids']))<=artids)
+ if t!='T1574':check('definition_matching_source_absent:'+t,not any(k.split('.')[0]==t for k in allobjids) and x['root_cause_status']=='DESCRIPTION_NOT_IN_CURRENT_SOURCE' and x['original_description_exists']=='False')
+ else:
+  prefix=' '.join(v['name']+' '+' '.join(v['tactics']) for k,v in matrix.items() if k.split('.')[0]==t)
+  check('T1574_source_body_and_clip',bool(groups[t]) and short[t]==prefix and short[t]==full[t].encode()[:1000].decode('utf8',errors='ignore') and len(full[t].encode())==26335 and x['root_cause_status']=='TEXT_TRUNCATION_CONFIRMED')
+replay=j(R/'audit/BOUNDED_TRANSFORMATION_PROOF.json')
+for x in replay:
+ t=x['technique_id'];text=' '.join(v['name']+' '+' '.join(v['tactics']) for k,v in matrix.items() if k.split('.')[0]==t)
+ for o in groups[t]:text+=' '+o.get('name','')+' '+o.get('description','')
+ check('independent_doc_expression:'+t,text==full[t] and h(text.encode())==x['full_document_sha256']);check('independent_prefix:'+t,h(text.encode()[:1000].decode('utf8',errors='ignore').encode())==x['frozen_document_sha256'])
+manifest=j(P/'inputs/FROZEN_CASE_MANIFEST.json');q={x['sample_id']:x for x in manifest['cases']};ev={x['sample_id']:x for x in l(P/'review/CASE_EVIDENCE_AUDIT.jsonl')};diag={x['sample_id']:x for x in c(P/'review/CASE_DIAGNOSIS.csv')};packets={x['sample_id']:x for x in l(P/'inputs/SHUFFLED_COMPETITOR_PACKETS.jsonl')};cand={s:{z['technique_id'] for z in x['competitors_in_actual_review_order']} for s,x in packets.items()}
+scope={s for s,x in ev.items() if any(g['fresh_relatedness_level']=='SCOPE' for g in x['gold_audits'])};insufficient={s for s,x in diag.items() if x['primary_diagnosis']=='INSUFFICIENT_VISIBLE_EVIDENCE'};affected={s for s in q if cand[s]&target}
+check('scope34_exact_diagnosis_link',len(scope)==34 and scope=={s for s,x in diag.items() if x['primary_diagnosis']=='GOLD_SCOPE_OR_GRANULARITY_UNRESOLVED'})
+check('all384queryjoin',set(q)==set(ev)==set(diag)==set(cand) and len(q)==384)
+a=c(R/'AFFECTED_QUERY_MAP.csv');check('affected379_unique_complete',len(a)==len({x['sample_id'] for x in a})==379 and {x['sample_id'] for x in a}==affected)
+for row in a:
+ s=row['sample_id'];ts=target&cand[s];check('query_mapping:'+s,set(json.loads(row['affected_competitor_ids']))==ts and row['logical_step_id']==q[s]['logical_step_id'] and set(json.loads(row['gold_technique_ids']))==set(q[s]['gold_technique_ids']) and int(row['affected_definition_count'])==len(ts) and int(row['affected_candidate_pair_count'])==len(ts)*len(q[s]['gold_technique_ids']))
+sg=c(R/'GOLD_SCOPE_AUDIT.csv');parents=c(R/'PARENT_CHILD_MAPPING_AUDIT.csv');refs={x['sample_id']:x for x in l(D/'data/P0_REFERENCE.jsonl')};author={k:v['metadata'] for k,v in j(B/'official_sources/labels.json').items()};goldset={(s,t) for s in scope for t in refs[s]['gold_technique_ids']};check('scope_all_author_assignments51',len(sg)==51 and {(x['sample_id'],x['gold_technique_id']) for x in sg}==goldset)
+check('scopeflag34',sum(x['prior_scope_question_flag']=='True' for x in sg)==34);check('co_target46',sum(x['prior_target_unseen_gold']=='True' for x in sg)==46)
+for row in sg:
+ s=row['sample_id'];t=row['gold_technique_id'];key=q[s]['execution_id']+'-'+q[s]['logical_step_id'].split('-')[1];originals=[k for k in author[key] if k.split('.')[0]==t]
+ check('gold_source_id_chain:'+s+':'+t,set(author[key])==set(refs[s]['raw_ground_truth']) and set(json.loads(row['gold_original_label']))==set(originals) and t in full and row['frozen_definition_sha256']==h(full[t].encode()[:1000].decode('utf8',errors='ignore').encode()))
+ check('gold_asset_refs:'+s+':'+t,set(json.loads(row['supporting_artifact_ids']))<=artids)
+ if row['prior_scope_question_flag']=='True':check('scope_parent_excluded:'+s+':'+t,int(row['parent_body_start_char'])>=int(next(z for z in replay if z['technique_id']==t)['frozen_document_characters']) and row['confirmed_label_error']=='NOT_AVAILABLE' and row['independent_adjudication_required']=='True')
+check('all51rawmapping_noerror',len(parents)==51 and all(x['parent_normalization_matches']=='True' and x['author_vs_reference_id_match']=='True' and x['confirmed_mapping_error']=='False' for x in parents))
+human=c(R/'HUMAN_ADJUDICATION_QUEUE.csv');check('human_queue34exact',len(human)==34 and {(x['sample_id'],x['gold_technique_id']) for x in human}=={(x['sample_id'],x['gold_technique_id']) for x in sg if x['prior_scope_question_flag']=='True'})
+assign={(s,t) for s in affected for t in q[s]['gold_technique_ids']};pair={(s,g,t) for s in affected for g in q[s]['gold_technique_ids'] for t in target&cand[s]};inst={(s,t) for s in affected for t in target&cand[s]}
+savedkeys=j(R/'audit/IMPACT_ID_SETS.json');check('explicit515keys',len(assign)==515 and assign=={tuple(x) for x in savedkeys['query_gold_assignment_keys']});check('explicit1700keys',len(pair)==1700 and pair=={tuple(x) for x in savedkeys['query_gold_competitor_pair_keys']});check('explicit1171keys',len(inst)==1171 and inst=={tuple(x) for x in savedkeys['query_competitor_instance_keys']})
+oldpairs={(x['sample_id'],x['gold_technique_id'],x['competitor_technique_id']) for x in l(P/'review/GOLD_COMPETITOR_PAIR_AUDIT.jsonl') if x['competitor_technique_id'] in target};check('pairidentity_matches_old5200subset',pair==oldpairs)
+counts=j(R/'results/AUDIT_COUNTS.json');expected={'unique_affected_queries':len(affected),'affected_gold_assignments':len(assign),'affected_candidate_pairs':len(pair),'affected_competitor_instances':len(inst),'multi_defect_queries':sum(len(target&cand[s])>1 for s in affected),'affected_intersect_gold_scope':len(affected&scope),'affected_intersect_AI_insufficient':len(affected&insufficient),'triple_intersection':len(affected&scope&insufficient)}
+for key,value in expected.items():check('independent_count:'+key,counts[key]==value)
+for row in c(R/'DEFINITION_IMPACT_SUMMARY.csv'):
+ t=row['technique_id'];ss={s for s in q if t in cand[s]};check('pertechnique_impact:'+t,set(json.loads(row['affected_query_ids']))==ss and int(row['affected_query_count'])==len(ss) and int(row['affected_gold_assignment_count'])==sum(len(q[s]['gold_technique_ids']) for s in ss) and int(row['overlap_with_gold_scope_queries'])==len(ss&scope) and int(row['overlap_with_observation_insufficient_queries'])==len(ss&insufficient))
+run=j(R/'RUN_MANIFEST.json');req=run['required_artifact_paths'];required_presence={name:(R/name).is_file() and ((R/name).stat().st_size>0) for name in req if name!='results/FINAL_VALIDATION.json'};required_presence['results/FINAL_VALIDATION.json']=True
+for name,present in required_presence.items():check('required_presence:'+name,present)
+report=(R/'INPUT_LABEL_SCOPE_AUDIT_REPORT.md').read_text()
+for letter in 'ABCDEFGHIJK':check('report_section:'+letter,('## '+letter+'. ') in report)
+for name in req:check('absolute_delivery_link:'+name,str(R/name) in report)
+check('unknown_causal_notzero',counts['known_query_prediction_errors_causally_attributed_to_definition_defects'] is None);check('release_mismatch_notinvented',counts['exact_matrix_vs_STIX_release_mismatch_count'] is None)
+check('unique_primary_decision',run['final_decision']=='GO_AFTER_SOURCE_RECOVERY');check('not_experiment',run['experiment_executed'] is False);check('resource_limits',all(v==0 for v in run['resources'].values()))
+for filename in ['GOLD_SCOPE_AUDIT.csv','DEFINITION_IMPACT_SUMMARY.csv']:check('required_alias_equality:'+filename,(R/filename).read_bytes()==(R/('review/' if filename.startswith('GOLD') else 'results/')/filename).read_bytes())
+sourcechecks=j(R/'audit/SOURCE_HASH_COMPARISONS.json');mismatches=[x for x in sourcechecks if not x['match']];check('hash_mismatch_knownlegacyonly',len(mismatches)==1 and mismatches[0]['qualification']=='PREEXISTING_MISMATCH_PRESERVED_NOT_REPAIRED')
+check('all15nonempty_orfinal',all(required_presence.values()))
+fail=[x for x in checks if not x['pass']]
+missing=[{'path':p,'role':e['qualification'],'blocking':False,'resolution':'actual summary atresults/GOLD_TECHNIQUE_SUMMARY.csv' if 'GOLD_TECHNIQUE_SUMMARY' in p else 'optional discovery path;not a claimed upstreamsource'} for p,e in state.items() if not e['exists']]
+missing.extend([{'path':None,'artifact':'compatible versionedbehavior source for11targets','blocking':True,'resolution':'requires source recovery;source path not supplied'},{'path':None,'artifact':'author matrix export/generation recipe andexactATTCKrelease','blocking':True,'resolution':'requires source recovery'},{'path':None,'artifact':'independent semantic adjudication for34scopequeries','blocking':True,'resolution':'requires qualified human review'}])
+validation={'status':'PASS_MECHANICAL_AUDIT_WITH_DOCUMENTED_BLOCKERS' if not fail else 'FAIL_MECHANICAL_VALIDATION','execution_status':'PARTIAL_WITH_REFERENCE_AND_DEFINITION_BLOCKERS','assets_checked':sum(x['exists'] for x in state.values()),'asset_paths_checked':len(state),'assets_checked_scope':'historical/project/requestassets hashed;includes hashonly supporting files,not allsemanticread;no workspacewideproof','missing_assets':missing,'hash_mismatches':mismatches,'target_techniques_checked':12,'target_techniques_missing':[],'gold_scope_cases_expected':34,'gold_scope_cases_checked':len(scope),'gold_scope_cases_missing':[],'affected_queries_expected':379,'affected_queries_reconstructed':len(affected),'affected_queries_unconfirmed':379-len(affected),'confirmed_definition_defects':12,'unresolved_definition_causes':11,'confirmed_mapping_errors':0,'unresolved_mapping_cases':34,'confirmed_source_version_mismatches':None,'confirmed_text_truncations':1,'confirmed_parent_scope_definition_prefix_exclusions':5,'all_checked_documents_with_confirmed_fixed_prefix_truncation':sum(x['full_document_bytes']>x['frozen_document_bytes'] for x in replay),'confirmed_current_source_ID_coverage_gaps':11,'affected_gold_assignments':len(assign),'affected_candidate_pairs':len(pair),'unique_affected_queries':len(affected),'affected_competitor_instances':len(inst),'overlapping_defects':{'queries_with_multiple_defects':expected['multi_defect_queries'],'intersect_gold_scope_queries':expected['affected_intersect_gold_scope'],'intersect_previous_AI_insufficient_queries':expected['affected_intersect_AI_insufficient'],'triple_intersection':expected['triple_intersection']},'repairability_status':{'T1574':'REPAIRABLE_FROM_EXISTING_FROZEN_ASSETS;PLAN_ONLY','other_11_targets':'REQUIRES_MISSING_SOURCE_ARTIFACT','scope34':'REQUIRES_HUMAN_ADJUDICATION','repair_executed':False},'human_adjudication_required':{'required':True,'scope_queries':34,'scope_target_assignments':34,'documented_independent_adjudications_in_checked_records':0},'new_model_calls':0,'new_agent_calls':0,'new_training_runs':0,'GPU_tasks':0,'server_access':0,'network_access':0,'downloads':0,'uploads':0,'old_files_modified':len(oldchanged),'old_files_changed':oldchanged,'required_artifacts_present':required_presence,'final_decision':run['final_decision'],'mechanical_checks_executed':len(checks),'mechanical_checks_failed':len(fail),'failed_checks':fail,'experiment_executed':False,'reference_status':'NOT_AVAILABLE','independent_test_status':'NOT_AVAILABLE','causal_model_error_count':None,'field_counting_contract':{'confirmed_definition_defects':'12competitor frozenbodydefects;11local-sourcecoveragegaps+1conversionclip','unresolved_definition_causes':'11upstreamcompatible-source/releaseorigin explanations unresolved;boundedlocalabsence confirmed','confirmed_mapping_errors':'0observedIDtransporterrors in51checkedoriginalauthorlabelchains;not0semanticlabelerrors','unresolved_mapping_cases':'34scopeapplicabilitycases;mechanicalIDtransportmatches','confirmed_source_version_mismatches':'null:matrixexactreleaseunknown;11IDcoveragegapsseparate','confirmed_text_truncations':'1of12targetcompetitordefinitions;5scopeparentprefixexclusionsand10of21documenttruncationsrecordedseparately','affected_gold_assignments':'unique(sample_id,prior_targetUnseenGoldID),notallauthorlabels','affected_candidate_pairs':'unique(sample_id,prior_targetUnseenGoldID,defective_competitorID)','overlapping_defects':'queryIDintersections;priorAIdiagnosisnotnewtruth'},'limitations':['MechanicalPASSisnotsemanticqualification;AIhistorynotindependentGold.','Author matrix upstreamgenerator/exactATTCKrelease missing;localSTIXcollection16.1verified internallyonly.','Compatiblebehavior sources for11IDsnotprovided;no officialdefinition reconstructedfrommemory.','34scopelabels stillunadjudicated;51IDchainsmatchingdoesnotprovelabelcorrectness.','379inputimpactconfirmed;all379actualmodelerrorcauses remainunknown;no performanceexperiment.','Earlydiscovery/schema readspreceded somefirsttrackedhashsnapshots;onlyregisteredassetsrechecked.','Mixedlabelscontainerparsed;earlyschemaoutputincludedaccompanyingcommandfield;notexecutedorusedasbehaviorproof;notbytelevelisolation.','Oneknownpreexistinglegacyreporthashdifferencepreserved.','Previousreview/GOLD_TECHNIQUE_SUMMARYpathmissing;actualresults/pathused;optionaltree.jsonabsent.','Sourceproofscopeiscurrentlocalbytes;noexternalreauthentication.']}
+save('audit/INDEPENDENT_VALIDATION_CHECKS.json',checks);save('results/FINAL_VALIDATION.json',validation)
+print(json.dumps({'status':validation['status'],'checks':len(checks),'failed':fail,'assets_checked':validation['assets_checked'],'old_files_modified':len(oldchanged),'counts':expected,'confirmed_fixed_prefix_documents':validation['all_checked_documents_with_confirmed_fixed_prefix_truncation']},ensure_ascii=False))
+if fail:raise SystemExit(1)

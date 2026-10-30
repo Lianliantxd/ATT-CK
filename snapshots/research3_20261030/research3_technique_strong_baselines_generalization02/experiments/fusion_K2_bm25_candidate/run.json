@@ -1,0 +1,15 @@
+{
+  "n": 975,
+  "seconds": 6.952122583985329,
+  "representation": "bm25",
+  "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+  "input_sha256": "ea5425e98463e63d06a3b57c26376e6150789c86dcadc8e4446e93eb7f3300ed",
+  "methods": [
+    "EvidenceLineFusion",
+    "EvidenceLineFusion_NoLineSelection",
+    "EvidenceLineFusion_NoDiscrimination",
+    "EvidenceLineFusion_NoSourceCalibration"
+  ],
+  "ground_truth_read": false,
+  "python_executable": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion/bin/python"
+}

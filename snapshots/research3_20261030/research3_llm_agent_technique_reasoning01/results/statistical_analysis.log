@@ -1,0 +1,102 @@
+PNG renderer unavailable: RenderPMError cannot import desired renderPM backend rlPyCairo
+Seek advice at the users list see
+https://pairlist2.pair.net/mailman/li
+PNG renderer unavailable: RenderPMError cannot import desired renderPM backend rlPyCairo
+Seek advice at the users list see
+https://pairlist2.pair.net/mailman/li
+{
+  "contrasts": [
+    {
+      "adaptive": "ADAPTIVE_HEURISTIC_S",
+      "static": "STATIC_BM25_S",
+      "metric": "top1",
+      "execution_weighted_delta": -0.012987012987012988,
+      "scene_macro_delta": -0.010217072270390478,
+      "scene_delta_sd": 0.020005450096204122,
+      "cluster_percentile95_low": -0.02877697841726619,
+      "cluster_percentile95_high": 0.0035211267605633804,
+      "exact_scene_signflip_p": 0.375,
+      "clusters": 7,
+      "bootstrap_draws": 20000,
+      "seed": 20261027,
+      "holm_p": 1
+    },
+    {
+      "adaptive": "ADAPTIVE_HEURISTIC_S",
+      "static": "STATIC_BM25_S",
+      "metric": "top10",
+      "execution_weighted_delta": -0.01818181818181818,
+      "scene_macro_delta": -0.03745814400499895,
+      "scene_delta_sd": 0.06099498443029166,
+      "cluster_percentile95_low": -0.04669260700389105,
+      "cluster_percentile95_high": 0.0,
+      "exact_scene_signflip_p": 0.25,
+      "clusters": 7,
+      "bootstrap_draws": 20000,
+      "seed": 20261027,
+      "holm_p": 1
+    },
+    {
+      "adaptive": "ADAPTIVE_HEURISTIC_S",
+      "static": "STATIC_BM25_S",
+      "metric": "mrr",
+      "execution_weighted_delta": -0.008864151721294579,
+      "scene_macro_delta": -0.009536699941859418,
+      "scene_delta_sd": 0.01524291383292882,
+      "cluster_percentile95_low": -0.02171674225245654,
+      "cluster_percentile95_high": 0.006015205013201005,
+      "exact_scene_signflip_p": 0.28125,
+      "clusters": 7,
+      "bootstrap_draws": 20000,
+      "seed": 20261027,
+      "holm_p": 1
+    },
+    {
+      "adaptive": "ADAPTIVE_HEURISTIC_M",
+      "static": "STATIC_BM25_M",
+      "metric": "top1",
+      "execution_weighted_delta": 0.007792207792207792,
+      "scene_macro_delta": 0.010977710552299319,
+      "scene_delta_sd": 0.04031573969426315,
+      "cluster_percentile95_low": -0.014492753623188406,
+      "cluster_percentile95_high": 0.027888446215139442,
+      "exact_scene_signflip_p": 0.625,
+      "clusters": 7,
+      "bootstrap_draws": 20000,
+      "seed": 20261027,
+      "holm_p": 1
+    },
+    {
+      "adaptive": "ADAPTIVE_HEURISTIC_M",
+      "static": "STATIC_BM25_M",
+      "metric": "top10",
+      "execution_weighted_delta": -0.0025974025974025974,
+      "scene_macro_delta": -0.026256698657212134,
+      "scene_delta_sd": 0.06638310791331538,
+      "cluster_percentile95_low": -0.029850746268656716,
+      "cluster_percentile95_high": 0.009478672985781991,
+      "exact_scene_signflip_p": 1.0,
+      "clusters": 7,
+      "bootstrap_draws": 20000,
+      "seed": 20261027,
+      "holm_p": 1
+    },
+    {
+      "adaptive": "ADAPTIVE_HEURISTIC_M",
+      "static": "STATIC_BM25_M",
+      "metric": "mrr",
+      "execution_weighted_delta": 0.002578849721706865,
+      "scene_macro_delta": 0.0015899900435698724,
+      "scene_delta_sd": 0.023609009828092685,
+      "cluster_percentile95_low": -0.013155792620078332,
+      "cluster_percentile95_high": 0.01325551936301122,
+      "exact_scene_signflip_p": 0.625,
+      "clusters": 7,
+      "bootstrap_draws": 20000,
+      "seed": 20261027,
+      "holm_p": 1
+    }
+  ],
+  "predictions": 2695,
+  "figures": 2
+}

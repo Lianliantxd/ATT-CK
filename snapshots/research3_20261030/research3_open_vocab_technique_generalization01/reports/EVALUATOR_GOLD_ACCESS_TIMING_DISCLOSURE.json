@@ -1,0 +1,9 @@
+{
+  "evidence_type": "PARENT_AGENT_DISCLOSURE_TO_INDEPENDENT_AUDITOR",
+  "disclosed_event": "The evaluation agent read prior heldout_reference files during setup before this turn's main prediction completion to check the already established 975-query / 195-step / 7-scenario counts.",
+  "new_fusion_heldout_metrics_computed_before_prediction_completion": false,
+  "Gold_transmitted_to_fitter_or_predictor": false,
+  "parameters_changed_as_result": false,
+  "scope": "Whole-session reference access was not strictly delayed until prediction completion. Do not claim no early heldout-Gold access anywhere in the session.",
+  "independently_verified_scope": "Fitter/predictor source and read traces, parameter hashes and full independent numeric reconstruction; the disclosed evaluation-agent setup sequence is not independently reconstructed from an operating-system audit log."
+}

@@ -1,0 +1,18 @@
+{
+  "official": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/prediction_view_official.jsonl",
+    "rules": "exact eight regexes in get_llm_responses.py, remove common task preamble",
+    "source_dataset_version": "v1 official persisted queries"
+  },
+  "strict": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/prediction_view_strict.jsonl",
+    "rules": "official + residual direct ID/annotation removal",
+    "changed_records": 0
+  },
+  "reference": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/reference_view.jsonl",
+    "predictor_access": false
+  },
+  "metadata_diagnostic": "simulation_id + step_id lexical BM25; no label lookup",
+  "forbidden": "scenario1 step35-37 all variants skipped before JSON parsing prompt bodies"
+}

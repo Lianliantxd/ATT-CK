@@ -1,0 +1,16 @@
+method,view,knowledge,seconds,n
+Random_seed13,official,fixed candidate IDs only,0.06038508331403136,975
+Random_seed42,official,fixed candidate IDs only,0.057419332675635815,975
+Random_seed2026,official,fixed candidate IDs only,0.057370082940906286,975
+Random_seed2718,official,fixed candidate IDs only,0.05824883421882987,975
+Random_seed31415,official,fixed candidate IDs only,0.05977408308535814,975
+Lexical,official,official_names_subnames_tactics,0.2360327080823481,975
+TFIDF,official,official_names_subnames_tactics,0.2791545828804374,975
+BM25,official,official_names_subnames_tactics,0.3097267081029713,975
+Lexical,strict,official_names_subnames_tactics,0.23264045780524611,975
+TFIDF,strict,official_names_subnames_tactics,0.27646804228425026,975
+BM25,strict,official_names_subnames_tactics,0.3126483750529587,975
+Lexical_K16_1,strict,MITRE16.1_description_extension,0.8448266661725938,975
+TFIDF_K16_1,strict,MITRE16.1_description_extension,1.2598001658916473,975
+BM25_K16_1,strict,MITRE16.1_description_extension,2.178441375028342,975
+KnowHowDictionaryAdaptation,strict,existing official dictionary; project ranking adaptation,29.71782024996355,975

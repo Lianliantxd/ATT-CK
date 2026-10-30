@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "matrices_checked": 42,
+  "matrix_rows": 17454,
+  "jsonl_counts": {
+    "FROZEN_GTE_SCORES.jsonl": 2909,
+    "B3_SUPERVISED_SCORES.jsonl": 17454
+  },
+  "fold_seen_unseen": {
+    "fold_heldout_1": {
+      "seen": 56,
+      "unseen": 160
+    },
+    "fold_heldout_2": {
+      "seen": 60,
+      "unseen": 156
+    },
+    "fold_heldout_3": {
+      "seen": 66,
+      "unseen": 150
+    },
+    "fold_heldout_4": {
+      "seen": 75,
+      "unseen": 141
+    },
+    "fold_heldout_5": {
+      "seen": 69,
+      "unseen": 147
+    },
+    "fold_heldout_6": {
+      "seen": 66,
+      "unseen": 150
+    },
+    "fold_heldout_7": {
+      "seen": 56,
+      "unseen": 160
+    }
+  },
+  "NaN_null_availability_consistent": true,
+  "historical_sentinel_in_fusion_matrices": false,
+  "inference_source_AST": "PASS",
+  "validator_sha256": "fef1b4d4888b06e5139979e9447a4f5085db04402665c9d8f40e8265fc3c4797"
+}

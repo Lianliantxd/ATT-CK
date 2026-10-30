@@ -1,0 +1,6 @@
+{
+  "status": "ALL_REGISTERED_HEADS_TRAINED",
+  "configurations": 336,
+  "total_optimizer_updates": 40320,
+  "new_GPU_training": false
+}

@@ -1,0 +1,551 @@
+{
+  "audit_date": "2026-10-27",
+  "scope": "local known caches and runtimes; no research logs or server access",
+  "authorization": {
+    "NEW_EXTERNAL_LLM_CALLS": 0,
+    "NEW_MODEL_WEIGHT_DOWNLOADS": "NOT_AUTHORIZED",
+    "UNAPPROVED_GPU_EXPERIMENTS": "NOT_AUTHORIZED",
+    "actual_gpu_inference_calls": 0
+  },
+  "python": {
+    "executable": "/Users/tianxd/opt/miniconda3/bin/python3",
+    "version": "3.8.13 (default, Mar 28 2022, 06:16:26) \n[Clang 12.0.0 ]",
+    "process_machine": "x86_64"
+  },
+  "disk_bytes": {
+    "total": 494384795648,
+    "used": 491283116032,
+    "free": 3101679616
+  },
+  "packages": {
+    "torch": null,
+    "transformers": null,
+    "sentence-transformers": null,
+    "FlagEmbedding": null,
+    "huggingface-hub": null,
+    "tokenizers": null,
+    "safetensors": null,
+    "mlx": null,
+    "mlx-lm": null,
+    "llama-cpp-python": null,
+    "onnxruntime": null,
+    "numpy": "1.24.4",
+    "scikit-learn": null
+  },
+  "cache_inventory": [
+    {
+      "path": "/Users/tianxd/.cache/huggingface",
+      "exists": true,
+      "files": [
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/version.txt",
+          "bytes": 1
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/models--distilbert-base-uncased/refs/main",
+          "bytes": 40
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/949a6f013d67eb8a5b4b5b46026217b888021b88.lock",
+          "bytes": 0
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/150367d8744161cd17b3f6462a14f3a9648752da.lock",
+          "bytes": 0
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock",
+          "bytes": 0
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/e5c73d8a50df1f56fb5b0b8002d7cf4010afdccb.lock",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "path": "/Users/tianxd/.cache/torch",
+      "exists": false,
+      "files": []
+    },
+    {
+      "path": "/Users/tianxd/.cache/transformers",
+      "exists": false,
+      "files": []
+    },
+    {
+      "path": "/Users/tianxd/.ollama/models",
+      "exists": true,
+      "files": [
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "bytes": 1065
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "bytes": 387
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-40fb844194b25e429204e5163fb379ab462978a262b86aadd73d8944445c09fd",
+          "bytes": 487
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+          "bytes": 1117320512
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+          "bytes": 487
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49",
+          "bytes": 4683073184
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "bytes": 148
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/1.5b",
+          "bytes": 857
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/7b",
+          "bytes": 857
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/metadata/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc.json",
+          "bytes": 3375
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/metadata/sha256-96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49.json",
+          "bytes": 3372
+        }
+      ]
+    },
+    {
+      "path": "/Users/tianxd/.lmstudio/models",
+      "exists": false,
+      "files": []
+    },
+    {
+      "path": "/Users/tianxd/.cache/lm-studio/models",
+      "exists": false,
+      "files": []
+    },
+    {
+      "path": "/Users/tianxd/Library/Caches/huggingface",
+      "exists": false,
+      "files": []
+    }
+  ],
+  "ollama_manifests": [
+    {
+      "tag": "deepseek-r1:1.5b",
+      "manifest_path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/1.5b",
+      "manifest_sha256": "a42b25d8c10a841bd24724309898ae851466696a7d7f3a0a408b895538ccbc96",
+      "manifest": {
+        "schemaVersion": 2,
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "config": {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "digest": "sha256:a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+          "size": 487
+        },
+        "layers": [
+          {
+            "mediaType": "application/vnd.ollama.image.model",
+            "digest": "sha256:aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+            "size": 1117320512
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.template",
+            "digest": "sha256:369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+            "size": 387
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.license",
+            "digest": "sha256:6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+            "size": 1065
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.params",
+            "digest": "sha256:f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+            "size": 148
+          }
+        ]
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+          "expected_sha256": "a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+          "exists": true,
+          "actual_bytes": 487,
+          "size_matches": true,
+          "actual_sha256": "a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+          "hash_matches": true,
+          "metadata_text": "{\"model_format\":\"gguf\",\"model_family\":\"qwen2\",\"model_families\":[\"qwen2\"],\"model_type\":\"1.8B\",\"file_type\":\"Q4_K_M\",\"architecture\":\"amd64\",\"os\":\"linux\",\"rootfs\":{\"type\":\"layers\",\"diff_ids\":[\"sha256:aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc\",\"sha256:369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150\",\"sha256:6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4\",\"sha256:f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588\"]}}\n"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+          "expected_sha256": "aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+          "exists": true,
+          "actual_bytes": 1117320512,
+          "size_matches": true,
+          "actual_sha256": "aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+          "hash_matches": true
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "expected_sha256": "369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "exists": true,
+          "actual_bytes": 387,
+          "size_matches": true,
+          "actual_sha256": "369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "hash_matches": true,
+          "metadata_text": "{{- if .System }}{{ .System }}{{ end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1}}\n{{- if eq .Role \"user\" }}<｜User｜>{{ .Content }}\n{{- else if eq .Role \"assistant\" }}<｜Assistant｜>{{ .Content }}{{- if not $last }}<｜end▁of▁sentence｜>{{- end }}\n{{- end }}\n{{- if and $last (ne .Role \"assistant\") }}<｜Assistant｜>{{- end }}\n{{- end }}"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "expected_sha256": "6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "exists": true,
+          "actual_bytes": 1065,
+          "size_matches": true,
+          "actual_sha256": "6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "hash_matches": true,
+          "metadata_text": "MIT License\n\nCopyright (c) 2023 DeepSeek\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "expected_sha256": "f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "exists": true,
+          "actual_bytes": 148,
+          "size_matches": true,
+          "actual_sha256": "f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "hash_matches": true,
+          "metadata_text": "{\"stop\":[\"\\u003c｜begin▁of▁sentence｜\\u003e\",\"\\u003c｜end▁of▁sentence｜\\u003e\",\"\\u003c｜User｜\\u003e\",\"\\u003c｜Assistant｜\\u003e\"]}\n"
+        }
+      ],
+      "cached_gguf_metadata": {
+        "ollama_version": "0.35.1",
+        "kv": {
+          "general.architecture": "qwen2",
+          "general.basename": "DeepSeek-R1-Distill-Qwen",
+          "general.file_type": 15,
+          "general.name": "DeepSeek R1 Distill Qwen 1.5B",
+          "general.quantization_version": 2,
+          "general.size_label": "1.5B",
+          "general.type": "model",
+          "qwen2.attention.head_count": 12,
+          "qwen2.attention.head_count_kv": 2,
+          "qwen2.attention.layer_norm_rms_epsilon": 1e-06,
+          "qwen2.block_count": 28,
+          "qwen2.context_length": 131072,
+          "qwen2.embedding_length": 1536,
+          "qwen2.feed_forward_length": 8960,
+          "qwen2.rope.freq_base": 10000,
+          "tokenizer.chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% set ns = namespace(is_first=false, is_tool=false, is_output_first=true, system_prompt='') %}{%- for message in messages %}{%- if message['role'] == 'system' %}{% set ns.system_prompt = message['content'] %}{%- endif %}{%- endfor %}{{bos_token}}{{ns.system_prompt}}{%- for message in messages %}{%- if message['role'] == 'user' %}{%- set ns.is_tool = false -%}{{'<｜User｜>' + message['content']}}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is none %}{%- set ns.is_tool = false -%}{%- for tool in message['tool_calls']%}{%- if not ns.is_first %}{{'<｜Assistant｜><｜tool▁calls▁begin｜><｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{%- set ns.is_first = true -%}{%- else %}{{'\\n' + '<｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{{'<｜tool▁calls▁end｜><｜end▁of▁sentence｜>'}}{%- endif %}{%- endfor %}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is not none %}{%- if ns.is_tool %}{{'<｜tool▁outputs▁end｜>' + message['content'] + '<｜end▁of▁sentence｜>'}}{%- set ns.is_tool = false -%}{%- else %}{% set content = message['content'] %}{% if '</think>' in content %}{% set content = content.split('</think>')[-1] %}{% endif %}{{'<｜Assistant｜>' + content + '<｜end▁of▁sentence｜>'}}{%- endif %}{%- endif %}{%- if message['role'] == 'tool' %}{%- set ns.is_tool = true -%}{%- if ns.is_output_first %}{{'<｜tool▁outputs▁begin｜><｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- set ns.is_output_first = false %}{%- else %}{{'\\n<｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- endif %}{%- endif %}{%- endfor -%}{% if ns.is_tool %}{{'<｜tool▁outputs▁end｜>'}}{% endif %}{% if add_generation_prompt and not ns.is_tool %}{{'<｜Assistant｜>'}}{% endif %}",
+          "tokenizer.ggml.add_bos_token": true,
+          "tokenizer.ggml.add_eos_token": false,
+          "tokenizer.ggml.bos_token_id": 151646,
+          "tokenizer.ggml.eos_token_id": 151643,
+          "tokenizer.ggml.model": "gpt2",
+          "tokenizer.ggml.padding_token_id": 151643,
+          "tokenizer.ggml.pre": "qwen2"
+        },
+        "omitted": [
+          "tokenizer.ggml.merges",
+          "tokenizer.ggml.token_type",
+          "tokenizer.ggml.tokens"
+        ]
+      }
+    },
+    {
+      "tag": "deepseek-r1:7b",
+      "manifest_path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/7b",
+      "manifest_sha256": "0a8c266910232fd3291e71e5ba1e058cc5af9d411192cf88b6d30e92b6e73163",
+      "manifest": {
+        "schemaVersion": 2,
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "config": {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "digest": "sha256:40fb844194b25e429204e5163fb379ab462978a262b86aadd73d8944445c09fd",
+          "size": 487
+        },
+        "layers": [
+          {
+            "mediaType": "application/vnd.ollama.image.model",
+            "digest": "sha256:96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49",
+            "size": 4683073184
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.template",
+            "digest": "sha256:369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+            "size": 387
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.license",
+            "digest": "sha256:6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+            "size": 1065
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.params",
+            "digest": "sha256:f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+            "size": 148
+          }
+        ]
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-40fb844194b25e429204e5163fb379ab462978a262b86aadd73d8944445c09fd",
+          "expected_sha256": "40fb844194b25e429204e5163fb379ab462978a262b86aadd73d8944445c09fd",
+          "exists": true,
+          "actual_bytes": 487,
+          "size_matches": true,
+          "actual_sha256": "40fb844194b25e429204e5163fb379ab462978a262b86aadd73d8944445c09fd",
+          "hash_matches": true,
+          "metadata_text": "{\"model_format\":\"gguf\",\"model_family\":\"qwen2\",\"model_families\":[\"qwen2\"],\"model_type\":\"7.6B\",\"file_type\":\"Q4_K_M\",\"architecture\":\"amd64\",\"os\":\"linux\",\"rootfs\":{\"type\":\"layers\",\"diff_ids\":[\"sha256:96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49\",\"sha256:369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150\",\"sha256:6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4\",\"sha256:f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588\"]}}\n"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49",
+          "expected_sha256": "96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49",
+          "exists": true,
+          "actual_bytes": 4683073184,
+          "size_matches": true
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "expected_sha256": "369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "exists": true,
+          "actual_bytes": 387,
+          "size_matches": true,
+          "actual_sha256": "369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "hash_matches": true,
+          "metadata_text": "{{- if .System }}{{ .System }}{{ end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1}}\n{{- if eq .Role \"user\" }}<｜User｜>{{ .Content }}\n{{- else if eq .Role \"assistant\" }}<｜Assistant｜>{{ .Content }}{{- if not $last }}<｜end▁of▁sentence｜>{{- end }}\n{{- end }}\n{{- if and $last (ne .Role \"assistant\") }}<｜Assistant｜>{{- end }}\n{{- end }}"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "expected_sha256": "6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "exists": true,
+          "actual_bytes": 1065,
+          "size_matches": true,
+          "actual_sha256": "6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "hash_matches": true,
+          "metadata_text": "MIT License\n\nCopyright (c) 2023 DeepSeek\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "expected_sha256": "f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "exists": true,
+          "actual_bytes": 148,
+          "size_matches": true,
+          "actual_sha256": "f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "hash_matches": true,
+          "metadata_text": "{\"stop\":[\"\\u003c｜begin▁of▁sentence｜\\u003e\",\"\\u003c｜end▁of▁sentence｜\\u003e\",\"\\u003c｜User｜\\u003e\",\"\\u003c｜Assistant｜\\u003e\"]}\n"
+        }
+      ],
+      "cached_gguf_metadata": {
+        "ollama_version": "0.35.1",
+        "kv": {
+          "general.architecture": "qwen2",
+          "general.basename": "DeepSeek-R1-Distill-Qwen",
+          "general.file_type": 15,
+          "general.name": "DeepSeek R1 Distill Qwen 7B",
+          "general.quantization_version": 2,
+          "general.size_label": "7B",
+          "general.type": "model",
+          "qwen2.attention.head_count": 28,
+          "qwen2.attention.head_count_kv": 4,
+          "qwen2.attention.layer_norm_rms_epsilon": 1e-06,
+          "qwen2.block_count": 28,
+          "qwen2.context_length": 131072,
+          "qwen2.embedding_length": 3584,
+          "qwen2.feed_forward_length": 18944,
+          "qwen2.rope.freq_base": 10000,
+          "tokenizer.chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% set ns = namespace(is_first=false, is_tool=false, is_output_first=true, system_prompt='') %}{%- for message in messages %}{%- if message['role'] == 'system' %}{% set ns.system_prompt = message['content'] %}{%- endif %}{%- endfor %}{{bos_token}}{{ns.system_prompt}}{%- for message in messages %}{%- if message['role'] == 'user' %}{%- set ns.is_tool = false -%}{{'<｜User｜>' + message['content']}}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is none %}{%- set ns.is_tool = false -%}{%- for tool in message['tool_calls']%}{%- if not ns.is_first %}{{'<｜Assistant｜><｜tool▁calls▁begin｜><｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{%- set ns.is_first = true -%}{%- else %}{{'\\n' + '<｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{{'<｜tool▁calls▁end｜><｜end▁of▁sentence｜>'}}{%- endif %}{%- endfor %}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is not none %}{%- if ns.is_tool %}{{'<｜tool▁outputs▁end｜>' + message['content'] + '<｜end▁of▁sentence｜>'}}{%- set ns.is_tool = false -%}{%- else %}{% set content = message['content'] %}{% if '</think>' in content %}{% set content = content.split('</think>')[-1] %}{% endif %}{{'<｜Assistant｜>' + content + '<｜end▁of▁sentence｜>'}}{%- endif %}{%- endif %}{%- if message['role'] == 'tool' %}{%- set ns.is_tool = true -%}{%- if ns.is_output_first %}{{'<｜tool▁outputs▁begin｜><｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- set ns.is_output_first = false %}{%- else %}{{'\\n<｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- endif %}{%- endif %}{%- endfor -%}{% if ns.is_tool %}{{'<｜tool▁outputs▁end｜>'}}{% endif %}{% if add_generation_prompt and not ns.is_tool %}{{'<｜Assistant｜>'}}{% endif %}",
+          "tokenizer.ggml.add_bos_token": true,
+          "tokenizer.ggml.add_eos_token": false,
+          "tokenizer.ggml.bos_token_id": 151646,
+          "tokenizer.ggml.eos_token_id": 151643,
+          "tokenizer.ggml.model": "gpt2",
+          "tokenizer.ggml.padding_token_id": 151643,
+          "tokenizer.ggml.pre": "qwen2"
+        },
+        "omitted": [
+          "tokenizer.ggml.merges",
+          "tokenizer.ggml.token_type",
+          "tokenizer.ggml.tokens"
+        ]
+      }
+    }
+  ],
+  "bounded_system_probes": {
+    "hardware": {
+      "value": {
+        "chip_type": "Unknown",
+        "machine_model": "Mac15,12",
+        "physical_memory": "24 GB",
+        "number_processors": "proc 8:4:4"
+      },
+      "stderr": "",
+      "code": 0
+    },
+    "displays": {
+      "value": "{\n  \"SPDisplaysDataType\" : [\n    {\n      \"_name\" : \"Apple M3\",\n      \"spdisplays_metal\" : \"spdisplays_supported\",\n      \"spdisplays_vendor\" : \"sppci_vendor_Apple\",\n      \"sppci_bus\" : \"spdisplays_builtin\",\n      \"sppci_cores\" : \"10\",\n      \"sppci_device_type\" : \"spdisplays_gpu\",\n      \"sppci_model\" : \"Apple M3\"\n    }\n  ]\n}",
+      "stderr": "",
+      "code": 0
+    },
+    "memory": {
+      "value": "",
+      "stderr": "sysctl: sysctl fmt -1 1024 1: Operation not permitted",
+      "code": 1
+    },
+    "processes": {
+      "error": "[Errno 1] Operation not permitted: '/bin/ps'"
+    },
+    "listeners": {
+      "value": "Ollama    37120 tianxd    5u  IPv4 0xeb76f17d35e95d4f      0t0  TCP 127.0.0.1:65228 (LISTEN)\nollama    37135 tianxd    3u  IPv4 0x9c4737d78acf5cc7      0t0  TCP 127.0.0.1:11434 (LISTEN)",
+      "stderr": "",
+      "code": 0
+    }
+  },
+  "gguf_header": {
+    "magic": "GGUF",
+    "version": 3,
+    "tensors": 339,
+    "numkv": 26,
+    "metadata": {
+      "general.architecture": "qwen2",
+      "general.type": "model",
+      "general.name": "DeepSeek R1 Distill Qwen 1.5B",
+      "general.basename": "DeepSeek-R1-Distill-Qwen",
+      "general.size_label": "1.5B",
+      "qwen2.block_count": 28,
+      "qwen2.context_length": 131072,
+      "qwen2.embedding_length": 1536,
+      "qwen2.feed_forward_length": 8960,
+      "qwen2.attention.head_count": 12,
+      "qwen2.attention.head_count_kv": 2,
+      "qwen2.rope.freq_base": 10000.0,
+      "qwen2.attention.layer_norm_rms_epsilon": 9.999999974752427e-07,
+      "general.file_type": 15,
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "qwen2",
+      "tokenizer.ggml.tokens": {
+        "element_type": 8,
+        "count": 151936,
+        "values": "NOT_RETAINED"
+      },
+      "tokenizer.ggml.token_type": {
+        "element_type": 5,
+        "count": 151936,
+        "values": "NOT_RETAINED"
+      },
+      "tokenizer.ggml.merges": {
+        "element_type": 8,
+        "count": 151387,
+        "values": "NOT_RETAINED"
+      },
+      "tokenizer.ggml.bos_token_id": 151646,
+      "tokenizer.ggml.eos_token_id": 151643,
+      "tokenizer.ggml.padding_token_id": 151643,
+      "tokenizer.ggml.add_bos_token": true,
+      "tokenizer.ggml.add_eos_token": false,
+      "tokenizer.chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% set ns = namespace(is_first=false, is_tool=false, is_output_first=true, system_prompt='') %}{%- for message in messages %}{%- if message['role'] == 'system' %}{% set ns.system_prompt = message['content'] %}{%- endif %}{%- endfor %}{{bos_token}}{{ns.system_prompt}}{%- for message in messages %}{%- if message['role'] == 'user' %}{%- set ns.is_tool = false -%}{{'<｜User｜>' + message['content']}}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is none %}{%- set ns.is_tool = false -%}{%- for tool in message['tool_calls']%}{%- if not ns.is_first %}{{'<｜Assistant｜><｜tool▁calls▁begin｜><｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{%- set ns.is_first = true -%}{%- else %}{{'\\n' + '<｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{{'<｜tool▁calls▁end｜><｜end▁of▁sentence｜>'}}{%- endif %}{%- endfor %}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is not none %}{%- if ns.is_tool %}{{'<｜tool▁outputs▁end｜>' + message['content'] + '<｜end▁of▁sentence｜>'}}{%- set ns.is_tool = false -%}{%- else %}{% set content = message['content'] %}{% if '</think>' in content %}{% set content = content.split('</think>')[-1] %}{% endif %}{{'<｜Assistant｜>' + content + '<｜end▁of▁sentence｜>'}}{%- endif %}{%- endif %}{%- if message['role'] == 'tool' %}{%- set ns.is_tool = true -%}{%- if ns.is_output_first %}{{'<｜tool▁outputs▁begin｜><｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- set ns.is_output_first = false %}{%- else %}{{'\\n<｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- endif %}{%- endif %}{%- endfor -%}{% if ns.is_tool %}{{'<｜tool▁outputs▁end｜>'}}{% endif %}{% if add_generation_prompt and not ns.is_tool %}{{'<｜Assistant｜>'}}{% endif %}",
+      "general.quantization_version": 2
+    },
+    "header_metadata_end": 5930940
+  },
+  "binaries": {
+    "ollama": "/usr/local/bin/ollama",
+    "llama-cli": null,
+    "llama-server": null,
+    "lms": null
+  },
+  "runtime_status": "LOCAL_CPU_LLM_RESEARCH_EXECUTED_V1_WITH_INVALID_AGENT_PROTOCOL_V2_CACHE_ONLY_PARTIAL",
+  "model_metrics": "N/A_PENDING_ACTUAL_INFERENCE",
+  "runtime_followup": {
+    "status": "LOCAL_CPU_LLM_ADMITTED_SYNTHETIC_PREFLIGHT_PASSED",
+    "source_files": [
+      {
+        "path": "experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH.json",
+        "sha256": "18c1d47495449e617c1adb3c28b0fbf51c0abb1fac357e0b408fd5734454a80c"
+      },
+      {
+        "path": "experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH_devices.json",
+        "sha256": "9b398ba4fee436ed623515efd81830dc070b0199a35a8845aa76fa41fb6b6cbd"
+      },
+      {
+        "path": "manifests/OLLAMA_RUNTIME_METADATA.json",
+        "sha256": "90cd7fbcd0fae286caa00c919f1e7f341536da75480625448afa62958eb2bb05"
+      }
+    ],
+    "preflight": {
+      "classification": "SYNTHETIC_INTERFACE_TEST_NOT_RESEARCH_RESULT",
+      "path": "experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH.json",
+      "device_path": "experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH_devices.json",
+      "wall_seconds": 4.15150904096663,
+      "prompt_eval_count": 32,
+      "eval_count": 22,
+      "json_exact_expected": true,
+      "think_request": false,
+      "response_thinking": null,
+      "size_vram_bytes": 0
+    },
+    "auditor_additional_inference_calls": 0
+  },
+  "research_inference_followup": {
+    "research_native_response_count": 54,
+    "research_native_prompt_tokens_known": 130642,
+    "research_native_output_tokens_known": 8265,
+    "research_native_wall_seconds_known": 1999.4604757130146,
+    "all_native_cpu_verified": true,
+    "native_cpu_verified_count": 54,
+    "original_start_unix": 1793082761.3019636,
+    "interrupt": {
+      "own_process_id": 65731,
+      "reason": "Correct omitted knowledge results and full budget/cost accounting; no label driven parameter change",
+      "time_unix": 1793084793.2122822,
+      "interrupted_request_count_upper_bound": 1,
+      "interrupted_tokens": "unknown unless native receipt exists; not fabricated",
+      "V1_qualification": "adaptive conditions INVALID_TOOL_RESULT_FORWARDING; nonadaptive can reuse identical prompts only"
+    },
+    "v2_summary": {
+      "protocol_version": "V2_TOOL_FEEDBACK_REPAIR",
+      "planned_conditions": 35,
+      "recorded_conditions": 35,
+      "completed_conditions": 5,
+      "failed_conditions": 3,
+      "not_executed_budget_conditions": 27,
+      "incomplete_budget_conditions": 0,
+      "interrupted_conditions": 0,
+      "cache_reused_conditions": 8,
+      "new_model_attempts": 0,
+      "total_attempt_upper_bound": 55,
+      "remaining_original_wall_seconds": 0.0,
+      "actual_elapsed_from_original_start_seconds": 4222.931197404861,
+      "local_only": true,
+      "new_external_calls": 0,
+      "num_gpu": 0,
+      "cpu_num_threads": 2
+    },
+    "research_model_attempt_upper_bound": 55,
+    "interrupted_prompt_tokens": null,
+    "interrupted_output_tokens": null,
+    "interrupted_wall_seconds": null,
+    "interrupted_cost": "UNKNOWN_NOT_ZERO",
+    "preflight_excluded_from_research_counts": true,
+    "v1_adaptive_qualification": "INVALID_TOOL_RESULT_FORWARDING",
+    "v2_new_model_attempts": 0
+  }
+}

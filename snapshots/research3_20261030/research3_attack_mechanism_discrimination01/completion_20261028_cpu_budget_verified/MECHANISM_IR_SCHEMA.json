@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Attack Mechanism IR v1; not NLP AMR",
+  "type": "object",
+  "required": [
+    "event_id",
+    "source_id",
+    "subject",
+    "action",
+    "object",
+    "observed_state",
+    "result",
+    "temporal_scope",
+    "relations",
+    "evidence_source",
+    "native_fields",
+    "uncertainty"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "object"
+    },
+    "action": {
+      "type": "object"
+    },
+    "object": {
+      "type": "object"
+    },
+    "observed_state": {
+      "type": "array"
+    },
+    "result": {
+      "type": "object"
+    },
+    "temporal_scope": {
+      "type": "object"
+    },
+    "relations": {
+      "type": "array"
+    },
+    "evidence_source": {
+      "type": "object"
+    },
+    "native_fields": {
+      "type": "array"
+    },
+    "uncertainty": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "completed_queries": 32,
+    "completed_logical_steps": 8,
+    "remaining_queries": 352,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 64,
+    "completed_logical_steps": 15,
+    "remaining_queries": 320,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 96,
+    "completed_logical_steps": 21,
+    "remaining_queries": 288,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 128,
+    "completed_logical_steps": 28,
+    "remaining_queries": 256,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 160,
+    "completed_logical_steps": 34,
+    "remaining_queries": 224,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 192,
+    "completed_logical_steps": 41,
+    "remaining_queries": 192,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 224,
+    "completed_logical_steps": 47,
+    "remaining_queries": 160,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 256,
+    "completed_logical_steps": 55,
+    "remaining_queries": 128,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 288,
+    "completed_logical_steps": 61,
+    "remaining_queries": 96,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 320,
+    "completed_logical_steps": 67,
+    "remaining_queries": 64,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 352,
+    "completed_logical_steps": 74,
+    "remaining_queries": 32,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  },
+  {
+    "completed_queries": 384,
+    "completed_logical_steps": 80,
+    "remaining_queries": 0,
+    "duplicate_ids": 0,
+    "missing_from_processed_prefix": [],
+    "JSON_serialization_roundtrip": true,
+    "citation_scope_check": "PASS",
+    "historical_scores_inspected": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_WITHIN_AUTHORIZED_LIMITS",
+  "project_disk_allocated_bytes": 69586944,
+  "disk_limit_bytes": 1000000000,
+  "run_seconds": 395.26581608643755,
+  "model_weight_sha256_unchanged": {
+    "GTE-ModernBERT": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba",
+    "GTE-ModernBERT-Reranker": "13c533d902d6a48fa97375c6856c3e60854f9228ea760e3fc18ebde057e0cf31"
+  },
+  "GPU_final": "0, 11 MiB, 0 %\n1, 10 MiB, 0 %\n2, 43928 MiB, 65 %\n3, 43286 MiB, 0 %\n",
+  "timestamp": 1793121401.6960466
+}

@@ -1,0 +1,80 @@
+{
+  "required_files": 33,
+  "required_files_present": true,
+  "prediction_rows": 95550,
+  "conditions": 98,
+  "queries_each": 975,
+  "syntax_files": [
+    "analysis/plot_results.py",
+    "experiments/evaluate.py",
+    "experiments/prepare.py",
+    "experiments/reextract_frozen_inputs.py",
+    "experiments/run_feature_ablation_controls.py",
+    "experiments/run_feature_control.py",
+    "experiments/seal_delivery.py",
+    "experiments/supplemental_audit.py",
+    "experiments/validate_sources.py",
+    "experiments/verify_delivery.py",
+    "experiments/write_reports.py",
+    "src/common.py",
+    "src/frozen_engine.py",
+    "src/frozen_evaluator.py",
+    "src/frozen_extractor.py",
+    "tests/test_extractor.py"
+  ],
+  "engineering_unit_tests": {
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "scope": "artificial engineering invariants, not human semantic reference"
+  },
+  "source_validation": {
+    "queries": 975,
+    "IR_events": 4368,
+    "native_fields_checked": 34510,
+    "source_mismatches": 0,
+    "card_mentions_checked": 1866,
+    "card_count": 216,
+    "relation_counts": {
+      "SAME_NATIVE_AUDIT_EVENT": 878,
+      "NATIVE_TIMESTAMP_BEFORE": 119
+    },
+    "result_status_counts": {
+      "UNKNOWN": 3805,
+      "REPORTED_SYSCALL_SUCCESS": 520,
+      "RETURN_VALUE_SEMANTICS_NOT_CERTIFIED": 14,
+      "REPORTED_SYSCALL_FAILURE": 29
+    },
+    "field_locator_counts": {
+      "native_kv": 33118,
+      "literal_regex_span": 1359,
+      "native_json_pointer": 33
+    },
+    "blind_packets_pending": 30,
+    "process_lifecycle_identity_certified": 0,
+    "observed_state_to_change_inferences": 0,
+    "semantic_mechanism_accuracy": "NA_HUMAN_REFERENCE_PENDING",
+    "raw_archives_opened": 0,
+    "scope": "complete selected-field trace validity; unrecognized prose is not claimed preserved in model views; full selected native fragment retained in IR provenance"
+  },
+  "independent_audit": {
+    "inherited_assets_unchanged": 752,
+    "CPU_conditions_recomputed": 98,
+    "prediction_rows": 95550,
+    "saved_neural_rows": 5850,
+    "unique_saved_neural_pairs": 140015,
+    "new_model_calls": 0,
+    "raw_archives_opened": 0,
+    "restricted_steps_read": 0,
+    "independent_semantic_accuracy": "NA_HUMAN_PENDING",
+    "parent_directory": "read-only snapshot; concurrent new files do not change continuation scope"
+  },
+  "plots_visually_inspected": 2,
+  "semantic_human_accuracy": "NA_PENDING",
+  "new_model_forward": "NA_NOT_AUTHORIZED",
+  "independent_external_test": "NOT_READY",
+  "type_checker": "NOT_AVAILABLE_NOT_INSTALLED",
+  "package_build": "NOT_APPLICABLE_STDLIB_SCRIPTS",
+  "coverage_percent": "NOT_MEASURED",
+  "security_scan": "source AST checked for unintended execution/network entry points; no credential literals introduced; attack text remains inert data"
+}

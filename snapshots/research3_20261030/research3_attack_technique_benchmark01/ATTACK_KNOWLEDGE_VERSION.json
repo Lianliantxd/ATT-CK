@@ -1,0 +1,28 @@
+{
+  "official_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+  "official_matrix_sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+  "raw_ids": 691,
+  "parent_candidates": 216,
+  "official_release_version": "not encoded in matrix; cannot certify exact ATT&CK release",
+  "descriptions_in_official_matrix": false,
+  "extension_source": "/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz",
+  "extension_sha256": "2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711",
+  "extension_version": "16.1 (existing filename/provenance)",
+  "extended_parents": 203,
+  "no_extension_parents": [
+    "T1667",
+    "T1668",
+    "T1669",
+    "T1671",
+    "T1672",
+    "T1673",
+    "T1674",
+    "T1675",
+    "T1677",
+    "T1678",
+    "T1679",
+    "T1680",
+    "T1681"
+  ],
+  "extension_is_not_author_original_knowledge": true
+}

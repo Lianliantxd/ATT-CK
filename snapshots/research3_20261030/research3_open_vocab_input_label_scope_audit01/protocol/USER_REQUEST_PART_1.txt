@@ -1,0 +1,332 @@
+# Agent 完整执行 Prompt
+
+# R3_OPEN_VOCAB_INPUT_LABEL_SCOPE_AUDIT01
+## ATT&CK 技术定义可用性、知识提取链与 Gold 标签适用范围审计
+
+---
+
+## 一、任务目标
+
+你是一名负责网络安全研究、MITRE ATT&CK 技术知识、开放词汇分类、知识提取与数据质量审计的研究 Agent。
+
+长期研究目标保持不变：
+
+**基于 ATT&CK 知识约束的 APT 攻击意图理解。**
+
+当前研究子任务是从安全日志识别 ATT&CK 技术，并研究训练未见技术的开放词汇识别与排序。
+
+本轮唯一目标：
+
+> 查明上一轮发现的 12 个竞争技术定义为什么缺少可用的行为正文，以及 34 条 Gold 技术范围疑问是否来自知识提取、文本转换、父子技术映射、作者标签适用范围或其他可核验原因。
+
+本轮是**输入与标签来源审计**，不是算法研发、模型评估或新的语义预审。
+
+必须通过实际文件、来源清单、哈希、提取代码、字段映射和历史记录完成核验。不得仅凭报告中的描述给出结论。
+
+### 必须回答的核心问题
+
+1. 12 个竞争技术的冻结文本分别缺少什么？
+2. 缺失发生在原始来源、知识提取、字段转换、文本渲染还是父子映射环节？
+3. 是否有可核验的原始来源证明冻结文本不完整？
+4. 34 条 Gold 范围疑问中，哪些具有明确的来源或映射依据？
+5. 哪些只是语义疑问，不能认定为数据或标签错误？
+6. 当前是否能够通过修复输入或映射合同，消除部分评价阻断？
+7. 哪些问题必须交由独立人工裁定？
+8. 下一步是否仍应优先进行输入／标签审计，还是已具备开展独立参考建设的条件？
+
+**本轮不修改任何 Gold 标签，不修改冻结知识，不重新运行模型，不训练新算法。**
+
+---
+
+## 二、既有项目和必须核验的输入
+
+### 2.1 上一轮证据可辨识性审计
+
+项目目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/`
+
+优先检查：
+
+- `DISTINGUISHABLE_EVIDENCE_AUDIT_REPORT.md`
+- `inputs/FROZEN_CASE_MANIFEST.json`
+- `inputs/GOLD_FROZEN_DEFINITIONS.json`
+- `inputs/COMPETITOR_FROZEN_DEFINITIONS.json`
+- `review/COMPETITOR_DEFINITION_AUDIT.json`
+- `review/CASE_EVIDENCE_AUDIT.jsonl`
+- `review/COMPETING_TECHNIQUE_AUDIT.jsonl`
+- `review/CASE_DIAGNOSIS.csv`
+- `review/CASE_EVALUATION_ELIGIBILITY.csv`
+- `review/GOLD_TECHNIQUE_SUMMARY.csv`
+- `protocol/BLOCKER_REGISTER.json`
+- `protocol/REVIEW_PROTOCOL.md`
+- `results/FINAL_VALIDATION.json`
+- `RUN_MANIFEST.json`
+
+必须先确认文件存在、哈希、字段含义、来源版本和实际内容。
+
+### 2.2 方法门控项目
+
+目录：
+
+`/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/`
+
+重点检查：
+
+- `ASSET_INVENTORY.csv`
+- `CASE_QUALIFICATION_MATRIX.csv`
+- `EXISTING_BASELINE_AUDIT.csv`
+- `METHOD_HYPOTHESIS_REGISTER.json`
+- `REFERENCE_REQUIREMENTS.md`
+- `GO_NO_GO_DECISION.md`
+- `FINAL_VALIDATION.json`
+
+这些文件用于理解已知阻断和历史协议，不得直接作为新的语义真值。
+
+### 2.3 原始知识提取与映射来源
+
+从上述项目的清单、manifest、历史回执和代码中追踪以下来源：
+
+- 冻结 ATT&CK 技术文本；
+- 原始知识文件或官方导出文件；
+- 原始文件的版本、提交标识或数据版本；
+- 提取和解析脚本；
+- 父技术与子技术映射表；
+- 名称、战术、描述、变体和其他字段的转换逻辑；
+- 文本截断、字段过滤、去重、序列化及渲染规则；
+- 作者 Gold 标签及其父化规则；
+- 生成 216 候选技术集合的过程。
+
+只允许读取已有且获准访问的本地来源。
+
+如果原始知识或提取中间文件不存在，记录具体缺失路径和需要的最小材料。不得自行下载外部资料、访问服务器或调用网络来补齐。
+
+不得根据模型记忆、技术名称或战术名称编造缺失的行为定义。
+
+---
+
+## 三、上一轮已报告的事实
+
+上一轮审计记录了：
+
+- 384 条唯一查询；
+- 80 个逻辑步骤；
+- 54 个 Gold 技术；
+- 520 个查询—Gold 分配；
+- 125 种竞争技术；
+- 12 种竞争技术缺少可用行为正文；
+- 379 条查询受到至少一个不完整竞争技术定义影响；
+- 34 条查询至少有一个 Gold 技术范围或粒度疑问；
+- 独立人工裁定为 0；
+- 独立语义参考为 `NOT_AVAILABLE`；
+- 独立测试资格为 `NOT_AVAILABLE`。
+
+上一轮列出的 12 个竞争技术 ID 为：
+
+`T1681, T1673, T1680, T1672, T1669, T1574, T1675, T1677, T1667, T1668, T1674, T1671`
+
+既有报告指出：
+
+- 其中 11 种只有名称或战术信息，没有可用行为正文；
+- T1574 的冻结文本全部为变体标题，没有可用行为正文；
+- 这 12 种技术影响 379 条查询的竞争定义比较。
+
+以上均为上一轮报告中的记录。本轮必须检查原始冻结文本和相关来源，不能把它们直接当作最终审计结论。
+
+### 重要限制
+
+“冻结文本缺少行为正文”不等于“官方 ATT&CK 原始定义缺少正文”。
+
+“Gold 范围疑问”不等于“Gold 标签错误”。
+
+“查询受到定义缺失影响”不等于“该查询的模型预测错误由定义缺失导致”。
+
+必须分别核验这些命题。
+
+---
+
+## 四、第一阶段：冻结输入与建立来源清单
+
+新建项目目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/`
+
+如果目录已存在，禁止覆盖；使用新的明确版本目录。
+
+建立只读资产清单，至少记录：
+
+- `artifact_id`
+- `path`
+- `exists`
+- `sha256`
+- `size_bytes`
+- `source_version`
+- `source_type`
+- `upstream_source`
+- `extraction_script`
+- `transformation_history`
+- `qualification`
+- `limitations`
+
+来源类型至少区分：
+
+- `ORIGINAL_SOURCE`
+- `OFFICIAL_EXPORTED_DATA`
+- `EXTRACTED_TEXT`
+- `FROZEN_PROJECT_TEXT`
+- `MAPPING_TABLE`
+- `AUTHOR_LABEL`
+- `TRANSFORMED_ARTIFACT`
+- `UNKNOWN_SOURCE`
+
+不得把文件名中含有 `official` 的文件自动认定为官方原始来源。
+
+必须核对：
+
+1. 冻结技术文本是否能追溯到具体来源；
+2. 来源版本是否明确；
+3. 提取脚本和映射规则是否实际存在；
+4. 冻结文件哈希是否与既有 manifest 一致；
+5. 现有数据是否允许恢复原始字段；
+6. 是否存在多个版本混用或字段定义不一致。
+
+如果来源链断裂，记录断裂位置，不得伪造完整溯源。
+
+---
+
+## 五、第二阶段：逐项核验 12 个不完整竞争技术定义
+
+必须检查上述全部 12 个技术，不得抽样替代。
+
+每个技术建立一条记录，至少包含：
+
+- `technique_id`
+- `frozen_name`
+- `frozen_tactic`
+- `frozen_description`
+- `frozen_text_sha256`
+- `frozen_text_length`
+- `original_source_exists`
+- `original_source_path`
+- `original_source_version`
+- `original_description_exists`
+- `extracted_description_exists`
+- `parent_technique_id`
+- `subtechnique_mapping`
+- `extraction_script`
+- `transformation_script`
+- `observed_defect`
+- `root_cause_status`
+- `supporting_artifact_ids`
+- `repairability`
+- `repair_authorization_status`
+
+### 5.1 缺失类型
+
+只允许根据实际来源证据赋予以下主要原因：
+
+- `SOURCE_FIELD_ABSENT`
+- `SOURCE_VERSION_MISMATCH`
+- `EXTRACTION_OMISSION`
+- `FIELD_MAPPING_ERROR`
+- `PARENT_CHILD_MAPPING_ERROR`
+- `TEXT_TRUNCATION_CONFIRMED`
+- `RENDERING_OR_SERIALIZATION_DEFECT`
+- `DESCRIPTION_NOT_IN_CURRENT_SOURCE`
+- `MULTIPLE_CONFIRMED_CAUSES`
+- `CAUSE_UNRESOLVED`
+
+如果只看到冻结文本缺少正文，但没有原始来源，必须标记 `CAUSE_UNRESOLVED`。
+
+不能因为某个字段为空，就直接认定提取代码存在错误。
+
+### 5.2 T1574 的专门检查
+
+针对 T1574：
+
+1. 读取完整冻结文本，不只检查其长度。
+2. 确认 1000 字符是否确实全部属于变体标题。
+3. 检查标题与描述字段是否混淆。
+4. 检查父技术和各变体的 ID 关联。
+5. 检查原始来源和提取过程是否包含独立行为正文。
+6. 检查文本是否由固定长度截断、标题拼接或字段选择造成。
+
+如果缺少原始来源，不能宣称已经证明是截断问题。
+
+### 5.3 其他 11 种技术
+
+逐项检查：
+
+- 当前冻结文本包含哪些字段；
+- 原始来源中是否存在行为描述；
+- 提取脚本是否跳过该字段；
+- 是否只保存名称、战术或标题；
+- 父子映射是否把错误字段关联到目标 ID；
+- 是否存在来源版本差异；
+- 当前是否可以根据现有文件证明缺失发生在哪一步。
+
+不得仅凭技术 ID 推断其官方定义或技术语义。
+
+### 5.4 竞争定义资格
+
+每个技术只能获得以下资格之一：
+
+- `DEFINITION_COMPLETE_FOR_CURRENT_CONTRACT`
+- `DEFINITION_PARTIAL_BUT_TRACEABLE`
+- `DEFINITION_MISSING_SOURCE_TEXT`
+- `DEFINITION_MAPPING_UNRESOLVED`
+- `DEFINITION_NOT_QUALIFIED_FOR_SEMANTIC_COMPARISON`
+
+这里的 `COMPLETE` 只表示满足本项目冻结合同的字段要求，不意味着官方定义已完整描述该技术所有可能的实现。
+
+---
+
+## 六、第三阶段：核验 379 条受影响查询
+
+利用上一轮冻结查询清单和竞争候选映射，实际重建：
+
+`查询 → Gold → 竞争技术 → 冻结定义 → 原始来源`
+
+不得重新进行 384 条完整语义审查。
+
+对每条查询，记录：
+
+- `sample_id`
+- `logical_step_id`
+- `gold_technique_ids`
+- `affected_competitor_ids`
+- `affected_definition_count`
+- `missing_definition_types`
+- `definition_source_status`
+- `candidate_scope`
+- `comparison_impact`
+- `impact_qualification`
+- `supporting_artifact_ids`
+
+`comparison_impact` 只能使用：
+
+- `COMPETITOR_CONDITION_UNAVAILABLE`
+- `PARENT_CHILD_SCOPE_UNRESOLVED`
+- `DEFINITION_VERSION_MISMATCH`
+- `NO_DIRECT_DEFINITION_BLOCKER_FOUND`
+- `IMPACT_NOT_DETERMINABLE`
+
+不得因为某条查询包含不完整竞争定义，就直接认定该查询无法识别或历史排序错误。
+
+必须报告：
+
+1. 379 条受影响查询是否能从实际候选映射中复现；
+2. 每条查询受到哪些不完整定义影响；
+3. 受影响查询与 34 条 Gold 范围疑问的交集；
+4. 受影响查询与 256 条“当前可见证据不足”AI 诊断的交集；
+5. 各项统计的去重规则、分母和单位。
+
+交集必须通过实际 ID 连接计算，不能把两个总数直接相加。
+
+如果无法核实 379 条的完整影响映射，报告实际确认数量和未确认数量。
+
+---
+
+## 七、第四阶段：核验 34 条 Gold 范围或粒度疑问
+
+必须从上一轮 `CASE_EVIDENCE_AUDIT.jsonl`、`CASE_DIAG

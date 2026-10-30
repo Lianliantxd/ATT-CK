@@ -1,0 +1,21 @@
+{
+  "main_status": "HARD_NEGATIVE_ADAPTATION_EVALUATED",
+  "secondary": [
+    "CONTRASTIVE_MODEL_TRAINED",
+    "DOMAIN_ADAPTATION_GAIN_ON_GROUPED_DEV_LIMITED_TO_CURRENT_LIGHTWEIGHT_DEV",
+    "GROUPED_TRAINING_BENCHMARK_READY",
+    "EXTERNAL_TEST_NOT_READY"
+  ],
+  "trained_configurations": 378,
+  "optimizer_updates": 45360,
+  "GTE_heads_trained": true,
+  "hard_negative_incremental_innovation_supported": false,
+  "new_feature_extraction_authorized": true,
+  "new_GPU_training_authorized": false,
+  "GTE_backbone_updated": false,
+  "LoRA_B10": "NA_NOT_AUTHORIZED_NOT_RUN",
+  "new_LLM_calls": 0,
+  "external_test_samples": 0,
+  "questions_answered": 45,
+  "automatic_review_limit": "additional remote control-manifest scp failed; core NPZ and receipt acquired, resource stdout captured"
+}

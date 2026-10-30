@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/RandomRanking/bin/python",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/baselines/predict.py",
+    "--method",
+    "Random",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/prediction_view_official.jsonl",
+    "--documents",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/experiments/Random_seed2718_official.jsonl",
+    "--seed",
+    "2718"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "seconds": 0.04414629237726331
+}

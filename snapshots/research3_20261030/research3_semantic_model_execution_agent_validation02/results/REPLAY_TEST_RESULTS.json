@@ -1,0 +1,10 @@
+{
+  "classification": "REPLAY_TOOL_TEST",
+  "test_count": 22,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "new_model_calls": 0,
+  "LLM_prompt_injection_resistance": "NOT_EVALUATED_WITH_LLM",
+  "real_agent_episodes": 0
+}

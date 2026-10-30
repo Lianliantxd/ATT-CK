@@ -1,0 +1,17 @@
+test_distinct_steps_same_content (__main__.MetricsTests.test_distinct_steps_same_content) ... ok
+test_duplicate (__main__.MetricsTests.test_duplicate) ... ok
+test_empty (__main__.MetricsTests.test_empty) ... ok
+test_invalid (__main__.MetricsTests.test_invalid) ... ok
+test_missing_label (__main__.MetricsTests.test_missing_label) ... ok
+test_multi (__main__.MetricsTests.test_multi) ... ok
+test_out_of_space (__main__.MetricsTests.test_out_of_space) ... ok
+test_parent (__main__.MetricsTests.test_parent) ... ok
+test_replica (__main__.MetricsTests.test_replica) ... ok
+test_short (__main__.MetricsTests.test_short) ... ok
+test_single (__main__.MetricsTests.test_single) ... ok
+test_wrong (__main__.MetricsTests.test_wrong) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.000s
+
+OK

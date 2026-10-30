@@ -1,0 +1,16 @@
+{
+  "source_path": "/Users/tianxd/Documents/mid-term/rp3_phase1_local_cache/enterprise-attack.json",
+  "source_sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4",
+  "internal_collection_version": "19.2",
+  "recorded_source_URL": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json",
+  "recorded_source_route": "local",
+  "recorded_date": "2026-09-02T12:21:24+08:00",
+  "original_receipt": "/Users/tianxd/Documents/mid-term/audit_backups/rp3_phase1_20260902_122417/rp3_phase1/attack_kb/SOURCE.md",
+  "receipt_hash": "f654ddd270878c78797fc449510719a2c42cf91d06df9b81ad6f8989f2cc695d",
+  "compressed_copy_decompresses_to_exactbytes": true,
+  "three_backup_copies_match": true,
+  "current_network_verification": false,
+  "upstream_git_commit": null,
+  "author_exact_release_recovered": false,
+  "qualification": "Existingreceipt+hash+internalversioncorroborated;notnewexternalreauthentication;notauthor-matrixsameversionproof"
+}

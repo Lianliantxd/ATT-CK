@@ -1,0 +1,414 @@
+{
+  "status": "RERANKER_FAILURE_DIAGNOSED_FROM_SAVED_SCORES",
+  "source_prediction_sha256": "c49150c642eae993e1e4e4b60b7c030b05e13ed0cdccd61a2590e1bf50e87a57",
+  "native_condition_rows": 5850,
+  "unique_saved_pairs": 140015,
+  "maximum_cross_pool_score_difference": 0.0,
+  "duplicate_candidates": 0,
+  "invalid_parent_ids": 0,
+  "score_index_alignment_and_descending_reconstruction": "ALL5850_PASS",
+  "eval_mode": "verified in frozen source .eval(); not a newly observed runtime probe",
+  "tokenizer_revision": "f7481e6055501a30fb19d090657df9ec1f79ab2c",
+  "input_order": "log query first; technique document second; matches official pair convention",
+  "raw_logit_direction": "larger more relevant per official model card; NOT chosen using CAM-LDS scores",
+  "num_labels_dimension": "runtime config single label and assertions(B,1) on all new CE batches",
+  "sigmoid": "strictly monotonic in real arithmetic; no need for classification Softmax; no actual score inversion",
+  "input_truncation": "tokenizer truncation=False; shared log2048/doc1024 explicit upstream truncation,65knowledge docs clipped; original input loss can matter, but K changes do not alter same pair text/score",
+  "K_effect": "new high-logit distractors displace earlier Gold; not score changes of fixed candidates",
+  "cross_batch_stability": "4 public pairs batch versus single max_delta=0.0; not full CAM stability test",
+  "new_model_forwards": {
+    "embedding_batches": 227,
+    "CE_batches": 8248,
+    "CE_candidate_pairs": 54836,
+    "public_sanity_pair_evaluations": 8
+  },
+  "implementation_error_found": false,
+  "semantic_mechanism_cause": "UNRESOLVED",
+  "summary": [
+    {
+      "pool": "embedding",
+      "K": 20,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 225,
+      "CANDIDATE_NOT_RETRIEVED": 520,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 55,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 104,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 71,
+      "mean_Spearman": 0.0679467900520532,
+      "median_Spearman": 0.05864661654135337
+    },
+    {
+      "pool": "embedding",
+      "K": 50,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 194,
+      "CANDIDATE_NOT_RETRIEVED": 313,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 86,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 303,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 79,
+      "mean_Spearman": 0.06527051435958998,
+      "median_Spearman": 0.060264105642256906
+    },
+    {
+      "pool": "embedding",
+      "K": 100,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 232,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 518,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 48,
+      "CANDIDATE_NOT_RETRIEVED": 101,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 76,
+      "mean_Spearman": 0.08451668551470531,
+      "median_Spearman": 0.0736033603360336
+    },
+    {
+      "pool": "lexical",
+      "K": 20,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 150,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 135,
+      "CANDIDATE_NOT_RETRIEVED": 569,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 60,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 61,
+      "mean_Spearman": -0.15104222093695777,
+      "median_Spearman": -0.18496240601503755
+    },
+    {
+      "pool": "lexical",
+      "K": 50,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 64,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 221,
+      "CANDIDATE_NOT_RETRIEVED": 372,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 253,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 65,
+      "mean_Spearman": -0.08830535291039493,
+      "median_Spearman": -0.09973589435774309
+    },
+    {
+      "pool": "lexical",
+      "K": 100,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 254,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 439,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 65,
+      "CANDIDATE_NOT_RETRIEVED": 186,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 31,
+      "mean_Spearman": 0.01372150753536892,
+      "median_Spearman": 0.009372937293729372
+    }
+  ],
+  "score_buckets": [
+    {
+      "bucket": "original1_10",
+      "N": 9750,
+      "mean": 1.4178354320037059,
+      "SD": 0.34602272463371764,
+      "Q10": 0.978515625,
+      "median": 1.4482421875,
+      "Q90": 1.830078125
+    },
+    {
+      "bucket": "original11_20",
+      "N": 9750,
+      "mean": 1.3905788887219552,
+      "SD": 0.3621740997642571,
+      "Q10": 0.93408203125,
+      "median": 1.416015625,
+      "Q90": 1.8232421875
+    },
+    {
+      "bucket": "original21_50",
+      "N": 29250,
+      "mean": 1.3888834729316908,
+      "SD": 0.35573656077125404,
+      "Q10": 0.935546875,
+      "median": 1.41015625,
+      "Q90": 1.8291015625
+    },
+    {
+      "bucket": "original51_100",
+      "N": 48750,
+      "mean": 1.3630123897454678,
+      "SD": 0.3645983636865833,
+      "Q10": 0.89794921875,
+      "median": 1.3935546875,
+      "Q90": 1.80078125
+    }
+  ],
+  "replacement_techniques_top20": [
+    [
+      "T1204",
+      199
+    ],
+    [
+      "T1601",
+      151
+    ],
+    [
+      "T1592",
+      144
+    ],
+    [
+      "T1574",
+      138
+    ],
+    [
+      "T1567",
+      116
+    ],
+    [
+      "T1561",
+      109
+    ],
+    [
+      "T1216",
+      106
+    ],
+    [
+      "T1071",
+      101
+    ],
+    [
+      "T1563",
+      95
+    ],
+    [
+      "T1218",
+      92
+    ],
+    [
+      "T1546",
+      86
+    ],
+    [
+      "T1497",
+      82
+    ],
+    [
+      "T1205",
+      60
+    ],
+    [
+      "T1557",
+      59
+    ],
+    [
+      "T1102",
+      58
+    ],
+    [
+      "T1611",
+      44
+    ],
+    [
+      "T1593",
+      43
+    ],
+    [
+      "T1600",
+      43
+    ],
+    [
+      "T1595",
+      36
+    ],
+    [
+      "T1055",
+      34
+    ]
+  ],
+  "runtime_protocol": {
+    "source_sha256": "44dc66b342be78d99a59428c836269ce4876094b9d1c55e6819f62debf7fde94",
+    "model_revisions": [
+      "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "f7481e6055501a30fb19d090657df9ec1f79ab2c"
+    ],
+    "physicalGPU": 0,
+    "memory_fraction_cap": 0.15,
+    "batch": 8,
+    "log_token_cap": 2048,
+    "document_token_cap": 1024,
+    "no_Gold_input": true,
+    "full_P0_queries": 975,
+    "deduplicated_forward_cache": "exact text within fixed model only; repeated query denominators retained",
+    "CPU_threads": 2,
+    "fixed_method_conditions": 5,
+    "reranker_pools": [
+      "lexical shared native view",
+      "canonical E1 embedding shared native view"
+    ],
+    "reranker_candidate_sizes": [
+      20,
+      50,
+      100
+    ],
+    "same_raw_fragments_all_views": true,
+    "E2": "true source/native fields plus complete selected native text; repeats but adds no observations",
+    "long_logs": "prefix vs equispaced-window; window max/mean chunks use same selected text as window direct"
+  },
+  "twenty_checks": [
+    {
+      "item": 1,
+      "check": "eval模式",
+      "status": "NEW_RUNTIME_EVAL_VERIFIED",
+      "evidence_limit": "新sanity探针eval=true；历史eval仍基于冻结源码"
+    },
+    {
+      "item": 2,
+      "check": "Tokenizer",
+      "status": "SOURCE_AND_REVISION_VERIFIED",
+      "evidence_limit": "两个模型各自固定目录；hash收据继承"
+    },
+    {
+      "item": 3,
+      "check": "文本顺序",
+      "status": "SOURCE_VERIFIED",
+      "evidence_limit": "日志query在前、技术document在后，与模型卡pair语义一致"
+    },
+    {
+      "item": 4,
+      "check": "文本对格式",
+      "status": "SOURCE_VERIFIED",
+      "evidence_limit": "Tokenizer(query_list,document_list)，无自定义prompt/instruction"
+    },
+    {
+      "item": 5,
+      "check": "输出维度/标签",
+      "status": "RUNTIME_SINGLE_OUTPUT_VERIFIED",
+      "evidence_limit": "固定config单标签；所有新批次断言logits(B,1)"
+    },
+    {
+      "item": 6,
+      "check": "raw logit方向",
+      "status": "DOCUMENT_AND_PUBLIC_SANITY_SUPPORTED",
+      "evidence_limit": "高logit区分两组预登记相关/无关对；不依CAM方向选择"
+    },
+    {
+      "item": 7,
+      "check": "分数反转",
+      "status": "SOURCE_VERIFIED_ABSENT",
+      "evidence_limit": "无取负数或低分优先"
+    },
+    {
+      "item": 8,
+      "check": "正负类别",
+      "status": "SINGLE_OUTPUT_NO_CLASS_SELECTION",
+      "evidence_limit": "只有一维logit，无正负类别切片"
+    },
+    {
+      "item": 9,
+      "check": "Softmax/Sigmoid",
+      "status": "SOURCE_VERIFIED",
+      "evidence_limit": "未跨候选Softmax，未作非单调分数处理；单调Sigmoid不改变精确实数排名"
+    },
+    {
+      "item": 10,
+      "check": "排序方向",
+      "status": "SAVED_SCORES_ALL_PASS",
+      "evidence_limit": "按(-score,ID)重建5850条件完全一致"
+    },
+    {
+      "item": 11,
+      "check": "跨批次",
+      "status": "LIMITED_PUBLIC_BATCH_SINGLE_VERIFIED",
+      "evidence_limit": "4公开对batch/single差0；历史同对缓存一致不等于全量独立复测"
+    },
+    {
+      "item": 12,
+      "check": "ID与分数索引",
+      "status": "SAVED_RECORDS_ALL_PASS",
+      "evidence_limit": "每候选唯一ID对应raw_logit，按ID重建"
+    },
+    {
+      "item": 13,
+      "check": "模型输入截断",
+      "status": "SOURCE_VERIFIED_FALSE",
+      "evidence_limit": "Tokenizer truncation=False、pair长度断言；上游日志显式预算截取存在"
+    },
+    {
+      "item": 14,
+      "check": "描述截断",
+      "status": "UPSTREAM_TRUNCATION_PRESENT",
+      "evidence_limit": "65份知识描述在共同1024token预算下截取，整体影响UNRESOLVED"
+    },
+    {
+      "item": 15,
+      "check": "不同K输入",
+      "status": "HASHES_ALL_PASS",
+      "evidence_limit": "同对日志hash/revision一致；知识版本与预算固定"
+    },
+    {
+      "item": 16,
+      "check": "不同K分数",
+      "status": "ALL_EXACT_EQUAL",
+      "evidence_limit": "交集对最大差0；来源是同一cached forward"
+    },
+    {
+      "item": 17,
+      "check": "重复候选",
+      "status": "SAVED_SETS_ALL_PASS",
+      "evidence_limit": "每池K个不同候选"
+    },
+    {
+      "item": 18,
+      "check": "父技术",
+      "status": "SAVED_IDS_ALL_PASS",
+      "evidence_limit": "216父技术，不新增子技术归一化"
+    },
+    {
+      "item": 19,
+      "check": "无效候选",
+      "status": "SAVED_IDS_ALL_PASS",
+      "evidence_limit": "候选ID来自冻结216集合"
+    },
+    {
+      "item": 20,
+      "check": "评价索引",
+      "status": "RECONSTRUCTED",
+      "evidence_limit": "同sample_id与冻结Gold独立关联；旧MRR@10口径保留"
+    }
+  ],
+  "runtime_config_or_independent_batch_rescore": "NEW_AUTHORIZED_SANITY_VERIFIED_4_PUBLIC_PAIRS_ONLY",
+  "new_runtime_sanity": {
+    "pairs": [
+      [
+        "A database query asks for the capital city of France.",
+        "Paris is the capital city of France."
+      ],
+      [
+        "A database query asks for the capital city of France.",
+        "A wooden chair has four legs."
+      ],
+      [
+        "A process opens a file for reading.",
+        "The event reports a file read operation."
+      ],
+      [
+        "A process opens a file for reading.",
+        "A weather forecast predicts rainfall."
+      ]
+    ],
+    "batched_logits": [
+      2.669921875,
+      -2.541015625,
+      2.1640625,
+      -2.62109375
+    ],
+    "single_logits": [
+      2.669921875,
+      -2.541015625,
+      2.1640625,
+      -2.62109375
+    ],
+    "relevant_gt_irrelevant": [
+      true,
+      true
+    ],
+    "max_batch_single_delta": 0.0,
+    "eval_mode": true,
+    "num_labels": 1,
+    "direction_not_selected_from_CAM_scores": true,
+    "note": "descriptive positive/irrelevant checks, not a sufficient global correctness test"
+  }
+}

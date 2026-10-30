@@ -1,0 +1,45 @@
+{
+  "status": "THREE_EXACT_PUBLIC_LOGS_ACQUIRED_AND_HASH_VERIFIED",
+  "host": "10.109.119.118",
+  "files": [
+    {
+      "name": "4688_windows-security.log",
+      "server_path": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset/raw/4688_windows-security.log",
+      "bytes": 11176,
+      "sha256": "81e1d4e381f4dc38b97c48f9fa5b0ab0b098810c321b7d4599029a9f22530259",
+      "verified": true,
+      "reused_existing_exact_file": false,
+      "source_url": "https://media.githubusercontent.com/media/splunk/attack_data/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log"
+    },
+    {
+      "name": "crowdstrike_falcon.log",
+      "server_path": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset/raw/crowdstrike_falcon.log",
+      "bytes": 10681,
+      "sha256": "c4275ab0ef976b0d00ba7840031a06d9f47d1beeaf4c3056d2fc7bb8fe08b38a",
+      "verified": true,
+      "reused_existing_exact_file": false,
+      "source_url": "https://media.githubusercontent.com/media/splunk/attack_data/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log"
+    },
+    {
+      "name": "windows-sysmon.log",
+      "server_path": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset/raw/windows-sysmon.log",
+      "bytes": 12883992,
+      "sha256": "ee1c7cd9fa20013c82da17f8cb1998197c117ab4c209ab56203290bc90739fda",
+      "verified": true,
+      "reused_existing_exact_file": false,
+      "source_url": "https://media.githubusercontent.com/media/splunk/attack_data/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log"
+    }
+  ],
+  "total_payload_bytes": 12905849,
+  "elapsed_seconds": 747.4524288112298,
+  "download_scope": "3 fixed objects only; bounded same-object transport retries",
+  "raw_logs_returned_to_local": false,
+  "model_calls": 0,
+  "gpu_calls": 0,
+  "training_runs": 0,
+  "llm_calls": 0,
+  "packages_installed": 0,
+  "captured_commands_executed": 0,
+  "authorization_request_sha256": "07d1e522f19ca58abb4bc386c74b170ba312054b19d14c451aa5c6e14b692e77",
+  "transport_retries": []
+}

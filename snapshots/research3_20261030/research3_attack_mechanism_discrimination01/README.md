@@ -1,0 +1,11 @@
+# R3_ATTACK_MECHANISM_DISCRIMINATION01
+
+本轮已完成授权主实验和离线诊断。最终入口：`R3_ATTACK_MECHANISM_DISCRIMINATION_RESULTS.md`；神经实测：`reports/GPU_MAIN_EXPERIMENT_RESULTS.md`；统一81条件：`MECHANISM_BASELINE_RESULTS.csv`；完整性：`results/FINAL_VALIDATION.json`。
+
+最终主状态：NO_SUPPORTED_ALGORITHMIC_GAIN。它表示未建立独立算法贡献，不表示所有开发集效应为零。人审PENDING，外部TEST_NOT_READY。
+
+历史协议/请求保留原冻结状态：EXPERIMENT_REGISTRATION、INPUT_BUILD_RECEIPT和PROPOSED_GPU_TRANSFER是在授权前写入，里面的NOT_AUTHORIZED/NOT_PRESENT不是当前授权状态。当前以manifests/NEW_GPU_AUTHORIZATION.json及results/gpu中的真实完成回执为准。授权前报告在reports/OFFLINE_SNAPSHOT；completion_20261028_cpu_budget_verified为既有CPU复核副本，不是本次新GPU结果。
+
+复现只读本地分析（Python3.12+，-B）：experiments/evaluate_gpu.py、results/supplement_gpu_diagnostics.py。最终核心源码/输入和两个模型固定哈希不变。reports/build_report.py是授权前离线报告生成器，重跑会恢复旧阶段文案；本轮最终报告生成器为reports/finalize_gpu_report.py。不要将历史快照当成最终结论。
+
+新推理仅执行已明确批准的4视图×2知识；其余24神经条件保持NA。服务器不含Gold。无新模型下载、LLM、训练或攻击命令执行。

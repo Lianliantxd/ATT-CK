@@ -1,0 +1,7 @@
+{
+  "prediction_sha256": "74b525ac23d284450026fd50800498900808d2d8c05433ac3a72f0e7f2570778",
+  "conditions": 40,
+  "queries_each": 975,
+  "new_model_forwards": 0,
+  "wall_seconds": 15.337685416918248
+}

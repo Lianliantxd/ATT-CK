@@ -1,0 +1,106 @@
+[
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "expected_sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "actual_sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz",
+    "expected_sha256": "2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711",
+    "actual_sha256": "2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/commit.json",
+    "expected_sha256": "3d03dbfa286bab4034ecf6ca727887f20d88ae9c322cba941179b8a4e58f4250",
+    "actual_sha256": "3d03dbfa286bab4034ecf6ca727887f20d88ae9c322cba941179b8a4e58f4250",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/create_llm_prompt.py",
+    "expected_sha256": "f50a680abbe5d7378846b21ff005f83433f4e5ea50d8649ba964fba6bab675bb",
+    "actual_sha256": "f50a680abbe5d7378846b21ff005f83433f4e5ea50d8649ba964fba6bab675bb",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/labels.json",
+    "expected_sha256": "cc27fee6d78b6de3d5d2172b334269bbcd9747dac80b6882e8982229b2540afe",
+    "actual_sha256": "cc27fee6d78b6de3d5d2172b334269bbcd9747dac80b6882e8982229b2540afe",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "expected_sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "actual_sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+    "expected_sha256": "9f59330feb5a81c70dc81013f911bfacebb520010e733765e4511c2648474cf9",
+    "actual_sha256": "9f59330feb5a81c70dc81013f911bfacebb520010e733765e4511c2648474cf9",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py",
+    "expected_sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+    "actual_sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+    "expected_sha256": "a1f2b9ec11b35870e8cc7b6267adf440a03bd68bea1d441cae0aafd6eb4121a3",
+    "actual_sha256": "a1f2b9ec11b35870e8cc7b6267adf440a03bd68bea1d441cae0aafd6eb4121a3",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+    "expected_sha256": "426c0e5c316eb807145eaebf4acd49dc04d15e0c6ca69f1a4aa04fd8b2a78a37",
+    "actual_sha256": "426c0e5c316eb807145eaebf4acd49dc04d15e0c6ca69f1a4aa04fd8b2a78a37",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/extended_knowledge_documents.json",
+    "expected_sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+    "actual_sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/extended_knowledge_documents.json",
+    "expected_sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+    "actual_sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+    "expected_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/manifests/P0_FREEZE.json",
+    "match": true,
+    "qualification": "LOCAL_HASH_MATCH_ONLY_NOT_EXTERNAL_AUTHENTICITY"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+    "expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+    "actual_sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+    "expected_source": "previous explicitly disclosed legacy manifest",
+    "match": false,
+    "qualification": "PREEXISTING_MISMATCH_PRESERVED_NOT_REPAIRED"
+  }
+]

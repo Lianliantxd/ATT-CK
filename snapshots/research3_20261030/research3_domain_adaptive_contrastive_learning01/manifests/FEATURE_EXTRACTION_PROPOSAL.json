@@ -1,0 +1,29 @@
+{
+  "authorized": false,
+  "task": "R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+  "server": "tianxiaodan@10.109.119.118",
+  "destination": "/home/tianxiaodan/projects/R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+  "venv": "R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+  "upload_files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/embeddings/extract_frozen_gte.py",
+      "bytes": 4149,
+      "sha256": "52a24ccaea156430e11252358f4faad5ca71d575afaedce2136c51180f61b6af"
+    }
+  ],
+  "reuse_inputs_readonly": "R3_ATTACK_MECHANISM_DISCRIMINATION01/input",
+  "model": "Alibaba-NLP/gte-modernbert-base",
+  "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+  "trainable_parameters": 0,
+  "Gold_upload": false,
+  "new_packages": false,
+  "new_model_downloads": false,
+  "GPU": 0,
+  "GPU_memory_fraction": 0.15,
+  "CPU_threads": 2,
+  "batch": 8,
+  "max_wall_seconds": 900,
+  "max_tokens": 1000000,
+  "max_disk_bytes": 200000000,
+  "new_LLM_calls": 0
+}

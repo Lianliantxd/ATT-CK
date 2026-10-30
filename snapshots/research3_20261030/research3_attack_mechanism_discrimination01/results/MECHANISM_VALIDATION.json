@@ -1,0 +1,15 @@
+{
+  "test_status": "PASS",
+  "unit_tests": 12,
+  "native_fields_verified": 34510,
+  "native_relations_verified": 997,
+  "mechanism_card_mentions_verified": 1866,
+  "queries": 975,
+  "diagnostic_steps": 30,
+  "unsupported_field_or_relation_count": 0,
+  "model_view_label_IDs": 0,
+  "official_GT_access_in_extractor": false,
+  "source_provenance_checks": "ENGINEERING_SOURCE_VALIDITY_NOT_INDEPENDENT_MECHANISM_SEMANTIC_ACCURACY",
+  "human_semantic_reference": "PENDING",
+  "new_GPU_or_LLM_calls": 0
+}

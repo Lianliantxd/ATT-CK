@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "NEW_EXTERNAL_MODEL_CALLS": 0,
+  "conditions": [
+    "L0 logs only",
+    "L1 descriptions",
+    "L2 retrieved knowledge",
+    "L3 multisource context",
+    "L4 evidence verification"
+  ],
+  "required_before_enable": [
+    "new explicit model-call authorization",
+    "fixed model/version and input budget",
+    "frozen eligible IDs",
+    "prompt hashes",
+    "evidence spans",
+    "tokens/cost/failures log"
+  ],
+  "agent_investigation": "only after demonstrated evidence retrieval need"
+}

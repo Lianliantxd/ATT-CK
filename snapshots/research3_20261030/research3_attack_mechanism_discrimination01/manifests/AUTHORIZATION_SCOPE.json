@@ -1,0 +1,14 @@
+{
+  "new_task": "R3_ATTACK_MECHANISM_DISCRIMINATION01",
+  "offline_local_work": true,
+  "new_GPU_forward": true,
+  "new_server_write": true,
+  "new_data_upload": true,
+  "new_model_download": false,
+  "new_LLM_budget": 0,
+  "previous_task_grant": "NOT_EXTENDED",
+  "CONV-A01": "NOT_AUTHORIZED",
+  "PwnKit_scenario1_steps35_37_and_aliases": "EXCLUDED_NO_BODY_READ",
+  "grant_file": "NEW_GPU_AUTHORIZATION.json",
+  "scope_limit": "only main4×2 experiment; prior environment/weights readonly; no new model downloads/LLM"
+}

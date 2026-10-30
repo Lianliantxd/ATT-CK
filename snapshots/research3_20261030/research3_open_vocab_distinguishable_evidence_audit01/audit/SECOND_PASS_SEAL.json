@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-28T17:32:37.747804+00:00",
+  "first_pass_seal_sha256": "8985024e9346e1a7a5030aa340bb833a8530650305e7b9ef8541925f30ee327a",
+  "query_audits": 384,
+  "competitor_assessments": 3840,
+  "Gold_competitor_pair_attempts": 5200,
+  "new_historical_baseline_result_reads_in_this_phase": false,
+  "same_context_not_independent": true,
+  "files": [
+    {
+      "path": "review/CASE_EVIDENCE_AUDIT.jsonl",
+      "sha256": "e021e22a04a00306880f658349b090be0fdcf15cf9338a00cf15a93008188c05"
+    },
+    {
+      "path": "review/COMPETING_TECHNIQUE_AUDIT.jsonl",
+      "sha256": "a8991fcb46cb20c668d7e00227589bf9bf7d5b56adeda1cc4515c3fcaf77205e"
+    },
+    {
+      "path": "review/GOLD_COMPETITOR_PAIR_AUDIT.jsonl",
+      "sha256": "ee7d21baccafbdbe7b74f69e1ae4d2fb3dbf5ae1159faf47f53114a721c7ed61"
+    },
+    {
+      "path": "review/CASE_DIAGNOSIS.csv",
+      "sha256": "7466cdc19da01e050a6a8f559c9b2e8f2c7a971661f86622f7e32217f81ca232"
+    },
+    {
+      "path": "review/CASE_EVALUATION_ELIGIBILITY.csv",
+      "sha256": "70a1e70540ddf9568a2e0862138115abb18b9c1d0074eb8dcd20b200b018d784"
+    },
+    {
+      "path": "review/COMPETITOR_DEFINITION_AUDIT.json",
+      "sha256": "fa30937d55e5b44b7cde364fc793ac297de9bba9091cf54907a0f4967b6b5d2b"
+    },
+    {
+      "path": "review/SECOND_PASS_MANUAL_INTERPRETATIONS.json",
+      "sha256": "b67cc2b13da110f6d4918d6a9550aca75f148c4301882674fe4536f338c1a39f"
+    }
+  ]
+}

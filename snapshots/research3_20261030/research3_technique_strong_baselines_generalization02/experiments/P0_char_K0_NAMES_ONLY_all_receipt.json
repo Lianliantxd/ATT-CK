@@ -1,0 +1,26 @@
+{
+  "protocol": "P0",
+  "input_view": "all",
+  "knowledge_view": "K0_NAMES_ONLY",
+  "representation": "char",
+  "method": "CharacterNgramTFIDF",
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/CharacterNgramTFIDF/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_prediction.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K0_NAMES_ONLY.json",
+    "--representation",
+    "char",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_char_K0_NAMES_ONLY_all.jsonl"
+  ],
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_char_K0_NAMES_ONLY_all.jsonl",
+  "exit_code": 0,
+  "seconds": 1.5391117502003908,
+  "stdout": "{\"n\": 975, \"seconds\": 1.4936120412312448, \"representation\": \"char\", \"cache\": \"CacheInfo(hits=590, misses=385, maxsize=8192, currsize=385)\"}\n",
+  "stderr": "",
+  "execution_status": "PROJECT_NEW_INFERENCE"
+}

@@ -1,0 +1,11 @@
+{
+  "tag": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0099_A1_STATIC_BM25_LLM_final",
+  "start_unix": 1793105504.164983,
+  "reserved_input_tokens": 6719,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "status": "FAILED_OR_INTERRUPTED",
+  "wall_seconds": 180.0032808748074,
+  "error": "TimeoutError: timed out"
+}

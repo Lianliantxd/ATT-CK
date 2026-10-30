@@ -1,0 +1,258 @@
+[
+  {
+    "name": "LICENSE",
+    "path": "LICENSE",
+    "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "size": 35149,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/LICENSE?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/LICENSE",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/LICENSE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/LICENSE?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/LICENSE"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "7cc4da8fa0508d8e13cacae5c47d485b2e0f48fc",
+    "size": 16820,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/README.md?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/7cc4da8fa0508d8e13cacae5c47d485b2e0f48fc",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/7cc4da8fa0508d8e13cacae5c47d485b2e0f48fc",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/README.md"
+    }
+  },
+  {
+    "name": "attack_times.csv",
+    "path": "attack_times.csv",
+    "sha": "070d86ac8aae1a941d366d3dff40a09724dd3221",
+    "size": 106740,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/attack_times.csv?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/attack_times.csv",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/070d86ac8aae1a941d366d3dff40a09724dd3221",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/attack_times.csv",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/attack_times.csv?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/070d86ac8aae1a941d366d3dff40a09724dd3221",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/attack_times.csv"
+    }
+  },
+  {
+    "name": "count_identical_prompts.py",
+    "path": "count_identical_prompts.py",
+    "sha": "a609dd43a533ba5627b2eed83909e183bdb6436a",
+    "size": 10740,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/count_identical_prompts.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/count_identical_prompts.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/a609dd43a533ba5627b2eed83909e183bdb6436a",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/count_identical_prompts.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/count_identical_prompts.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/a609dd43a533ba5627b2eed83909e183bdb6436a",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/count_identical_prompts.py"
+    }
+  },
+  {
+    "name": "create_llm_prompt.py",
+    "path": "create_llm_prompt.py",
+    "sha": "fe9e82503bbd9a54613b4ef4bfc250b158048157",
+    "size": 7208,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/create_llm_prompt.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/create_llm_prompt.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/fe9e82503bbd9a54613b4ef4bfc250b158048157",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/create_llm_prompt.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/create_llm_prompt.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/fe9e82503bbd9a54613b4ef4bfc250b158048157",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/create_llm_prompt.py"
+    }
+  },
+  {
+    "name": "create_llm_prompt_resample.py",
+    "path": "create_llm_prompt_resample.py",
+    "sha": "8b9b5755f83be93a47f4ee1f12808b9d0fe3d90d",
+    "size": 9042,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/create_llm_prompt_resample.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/create_llm_prompt_resample.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/8b9b5755f83be93a47f4ee1f12808b9d0fe3d90d",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/create_llm_prompt_resample.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/create_llm_prompt_resample.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/8b9b5755f83be93a47f4ee1f12808b9d0fe3d90d",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/create_llm_prompt_resample.py"
+    }
+  },
+  {
+    "name": "extract_attack_logs.py",
+    "path": "extract_attack_logs.py",
+    "sha": "51661ae804b0d285e91a4b8072fc3810b08e0bbe",
+    "size": 60658,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/extract_attack_logs.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/extract_attack_logs.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/51661ae804b0d285e91a4b8072fc3810b08e0bbe",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/extract_attack_logs.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/extract_attack_logs.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/51661ae804b0d285e91a4b8072fc3810b08e0bbe",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/extract_attack_logs.py"
+    }
+  },
+  {
+    "name": "get_llm_responses.py",
+    "path": "get_llm_responses.py",
+    "sha": "17348a40694d3ec6989303c42bc9493b85e24c20",
+    "size": 4095,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/get_llm_responses.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/get_llm_responses.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/17348a40694d3ec6989303c42bc9493b85e24c20",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/get_llm_responses.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/get_llm_responses.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/17348a40694d3ec6989303c42bc9493b85e24c20",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/get_llm_responses.py"
+    }
+  },
+  {
+    "name": "get_statistics.py",
+    "path": "get_statistics.py",
+    "sha": "805f8c7cce0934ab2a40984ddcc16658b26c67af",
+    "size": 23235,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/get_statistics.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/get_statistics.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/805f8c7cce0934ab2a40984ddcc16658b26c67af",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/get_statistics.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/get_statistics.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/805f8c7cce0934ab2a40984ddcc16658b26c67af",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/get_statistics.py"
+    }
+  },
+  {
+    "name": "labels.json",
+    "path": "labels.json",
+    "sha": "556d3ffb0b231bfef752991b838fdaeff6861c37",
+    "size": 791024,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/labels.json?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/labels.json",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/556d3ffb0b231bfef752991b838fdaeff6861c37",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/labels.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/labels.json?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/556d3ffb0b231bfef752991b838fdaeff6861c37",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/labels.json"
+    }
+  },
+  {
+    "name": "llm_queries.json",
+    "path": "llm_queries.json",
+    "sha": "e3183c7eba0e2f399d83f68e0af0c59440f6b5d4",
+    "size": 6884757,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/llm_queries.json?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/llm_queries.json",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/e3183c7eba0e2f399d83f68e0af0c59440f6b5d4",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/llm_queries.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/llm_queries.json?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/e3183c7eba0e2f399d83f68e0af0c59440f6b5d4",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/llm_queries.json"
+    }
+  },
+  {
+    "name": "llm_responses.json",
+    "path": "llm_responses.json",
+    "sha": "9df7afb0f9183f09c75650c39dda171d11df4dbf",
+    "size": 36730502,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/llm_responses.json?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/llm_responses.json",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/9df7afb0f9183f09c75650c39dda171d11df4dbf",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/llm_responses.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/llm_responses.json?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/9df7afb0f9183f09c75650c39dda171d11df4dbf",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/llm_responses.json"
+    }
+  },
+  {
+    "name": "mitre_matrix.json",
+    "path": "mitre_matrix.json",
+    "sha": "f0a5ecac233a1bf536d5b0369d3cc5c1b055e05f",
+    "size": 76198,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/mitre_matrix.json?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/mitre_matrix.json",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/f0a5ecac233a1bf536d5b0369d3cc5c1b055e05f",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/mitre_matrix.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/mitre_matrix.json?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/f0a5ecac233a1bf536d5b0369d3cc5c1b055e05f",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/mitre_matrix.json"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "requirements.txt",
+    "sha": "796870c39dbb6197109e707cdb707da612db4833",
+    "size": 124,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/requirements.txt?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/requirements.txt",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/796870c39dbb6197109e707cdb707da612db4833",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/requirements.txt?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/796870c39dbb6197109e707cdb707da612db4833",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/requirements.txt"
+    }
+  },
+  {
+    "name": "state_diagrams",
+    "path": "state_diagrams",
+    "sha": "151a34c76ecfce143ac6df8ba3a6016c28c8169f",
+    "size": 0,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/state_diagrams?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/tree/main/state_diagrams",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/trees/151a34c76ecfce143ac6df8ba3a6016c28c8169f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/state_diagrams?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/trees/151a34c76ecfce143ac6df8ba3a6016c28c8169f",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/tree/main/state_diagrams"
+    }
+  },
+  {
+    "name": "timestampExtractor.py",
+    "path": "timestampExtractor.py",
+    "sha": "c2befd835dbd04e1281002f91232bf54ad7bea1f",
+    "size": 18813,
+    "url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/timestampExtractor.py?ref=main",
+    "html_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/timestampExtractor.py",
+    "git_url": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/c2befd835dbd04e1281002f91232bf54ad7bea1f",
+    "download_url": "https://raw.githubusercontent.com/ait-aecid/attack-manifestations-interpretation/main/timestampExtractor.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/contents/timestampExtractor.py?ref=main",
+      "git": "https://api.github.com/repos/ait-aecid/attack-manifestations-interpretation/git/blobs/c2befd835dbd04e1281002f91232bf54ad7bea1f",
+      "html": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/main/timestampExtractor.py"
+    }
+  }
+]

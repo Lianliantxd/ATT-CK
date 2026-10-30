@@ -1,0 +1,56 @@
+{
+  "v2": [
+    {
+      "method": "ADAPTIVE_AGENT_S",
+      "N_planned": 7,
+      "N_executed": 0,
+      "N_failed": 0,
+      "N_not_executed": 7,
+      "top1_accuracy": "N/A",
+      "top10_accuracy": "N/A",
+      "mrr": "N/A"
+    },
+    {
+      "method": "DIRECT216",
+      "N_planned": 7,
+      "N_executed": 2,
+      "N_failed": 2,
+      "N_not_executed": 5,
+      "top1_accuracy": 0.0,
+      "top10_accuracy": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "method": "KNOWLEDGE20",
+      "N_planned": 7,
+      "N_executed": 2,
+      "N_failed": 1,
+      "N_not_executed": 5,
+      "top1_accuracy": 0.0,
+      "top10_accuracy": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "method": "RETRIEVAL20",
+      "N_planned": 7,
+      "N_executed": 2,
+      "N_failed": 0,
+      "N_not_executed": 5,
+      "top1_accuracy": 0.0,
+      "top10_accuracy": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "method": "STATIC_EVIDENCE_S",
+      "N_planned": 7,
+      "N_executed": 2,
+      "N_failed": 0,
+      "N_not_executed": 5,
+      "top1_accuracy": 0.0,
+      "top10_accuracy": 0.0,
+      "mrr": 0.0
+    }
+  ],
+  "strict_matched_agent_static_n": 0,
+  "native_API_receipts": 54
+}

@@ -1,0 +1,1 @@
+Human explicitly approved main experiment only. Preserve proposal as historical; NEW_GPU_AUTHORIZATION.json is authoritative. All5knowledge neural ablation remains unapproved. No external/LLM calls or model downloads.

@@ -1,0 +1,9 @@
+{
+  "queries": 975,
+  "logical_steps": 195,
+  "scenarios": 7,
+  "simulation_identifiers": 34,
+  "multi_label_queries": 295,
+  "multi_label_fraction": 0.30256410256410254,
+  "split": "P0_EXPOSED_DEV"
+}

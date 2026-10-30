@@ -1,0 +1,63 @@
+{
+  "source_files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/MECHANISM_BASELINE_PREDICTIONS.jsonl",
+      "sha256": "4b39682250370908f90816947c1c3ce943db304b4af5d08a597719c924174720"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/experiments/KNOWLEDGE_CONTROL_PREDICTIONS.jsonl",
+      "sha256": "0d85b1703925d22a2d07d9dfc126cc05276d36d8def019e6abf2c627567c16db"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/results/gpu/NEW_EMBEDDING_PREDICTIONS.jsonl",
+      "sha256": "f8502dd739c7f42878522e12ace8a16d364473ff4fcfdb08be7477c2185bba7e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/results/gpu/NEW_RERANKER_PREDICTIONS.jsonl",
+      "sha256": "11c845300eb0236c8f678662c2c3b52477035d93aefab9f616d11478261ff726"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/frozen_inputs/PREDICTION_INPUTS.jsonl",
+      "sha256": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/attack_knowledge/KNOWLEDGE_TEXTS.json",
+      "sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/experiments/evaluate_gpu.py",
+      "sha256": "aefe7f15e1608547479fb5a3e856b201b3b55bb1e18350d4934be0ae7055c5f1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/manifests/GPU_ANALYSIS_REGISTRATION.json",
+      "sha256": "7c06dcd9d594a773bf8cba4fccda0420876d7f2854c5441ede4dbfb7c293c075"
+    }
+  ],
+  "Gold_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_reference.jsonl",
+  "Gold_host": "LOCAL_ONLY",
+  "new_GPU_experiments": 1,
+  "GPU_runtime": {
+    "status": "ALL_AUTHORIZED_CONDITIONS_COMPLETE",
+    "knowledge_conditions": [
+      "K2_DESCRIPTION_16_1",
+      "MECHANISM_CARD"
+    ],
+    "input_views": [
+      "RAW",
+      "LITERAL",
+      "LITERAL_PLUS_RELATIONS",
+      "RAW_PLUS_LITERAL"
+    ],
+    "queries_each": 975,
+    "embedding_forward_batches": 227,
+    "CE_unique_pairs": 54836,
+    "CE_batches": 8248,
+    "total_seconds": 395.26581608643755,
+    "Gold_loaded": false,
+    "GPU_peak_allocated_bytes": 502779392,
+    "GPU_peak_reserved_bytes": 763363328
+  },
+  "new_LLM_calls": 0,
+  "new_model_downloads": 0,
+  "split": "P0_EXPOSED_DEV"
+}

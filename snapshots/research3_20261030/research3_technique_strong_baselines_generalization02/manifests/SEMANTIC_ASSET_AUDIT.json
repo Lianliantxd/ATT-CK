@@ -1,0 +1,182 @@
+{
+  "task": "R3_TECHNIQUE_STRONG_BASELINES_AND_GENERALIZATION02",
+  "audit_date": "2026-10-27",
+  "status": "EMBEDDING_BASELINE_RESOURCE_BLOCKED",
+  "scope": "Local workspace filename metadata, specific historical reports/knowledge vector JSON, and named cache directories; no host/attack log bodies read",
+  "new_model_downloads": 0,
+  "new_external_llm_calls": 0,
+  "server_connections": 0,
+  "new_environments": 0,
+  "dependency_installs": 0,
+  "old_environments_modified": false,
+  "huggingface_cache": {
+    "path": "/Users/tianxd/.cache/huggingface/hub",
+    "children": [
+      ".locks",
+      "models--distilbert-base-uncased",
+      "version.txt"
+    ],
+    "distilbert_revision_ref": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "revision_ref_sha256": "70ccc7addc7ba2a76dfbe1737398b8f55cd0cb24be2418103d7f3d27e2c4472b",
+    "snapshots_exists": false,
+    "blobs_exists": false,
+    "weights_present": false,
+    "license_present": false,
+    "config_present": false,
+    "tokenizer_present": false,
+    "status": "REFERENCE_ONLY_INCOMPLETE_CACHE"
+  },
+  "other_cache_paths": [
+    {
+      "path": "/Users/tianxd/.cache/torch/sentence_transformers",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/.cache/torch/hub",
+      "exists": false
+    },
+    {
+      "path": "/Users/tianxd/Library/Caches/huggingface/hub",
+      "exists": false
+    }
+  ],
+  "workspace_checkpoint_filename_matches": [
+    "rp3_localization_phaseB27_server_20260909_124607/phaseB27/checkpoints/A1_CADETS.pt",
+    "rp3_localization_phaseB27_server_20260909_124607/phaseB27/checkpoints/A0_CADETS.pt",
+    "rp3_localization_phaseB27_server_20260909_124607/phaseB27/checkpoints/A1_TRACE.pt",
+    "rp3_localization_phaseB27_server_20260909_124607/phaseB27/checkpoints/A0_TRACE.pt",
+    "rp3_localization_phaseB27_server_20260909_124607/phaseB27/checkpoints/A0_THEIA.pt",
+    "rp3_localization_phaseB27_server_20260909_124607/phaseB27/checkpoints/A1_THEIA.pt",
+    "provenance_baserepro_01_20261014T190649+0800/upstream/ProHunter/models/cadets/best.pth",
+    "provenance_baserepro_01_20261014T190649+0800/upstream/ProHunter/models/cadets/best.cgmn.pth",
+    "rp3_localization_phaseB22_server_20260908_173921/phaseB22/checkpoints/QSD_NO_SEED_CONTRAST_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB22_server_20260908_173921/phaseB22/checkpoints/QSD_FULL_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB22_server_20260908_173921/phaseB22/checkpoints/QSD_NO_SEED_CONTRAST_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB22_server_20260908_173921/phaseB22/checkpoints/QSD_NO_SEED_CONTRAST_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB22_server_20260908_173921/phaseB22/checkpoints/QSD_FULL_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB22_server_20260908_173921/phaseB22/checkpoints/QSD_FULL_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/LOG_RANK_QRED_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/LOG_RANK_QRED_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/INIT_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/INIT_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/LOG_RANK_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/LOG_RANK_QRED_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/LOG_RANK_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/INIT_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB24_server_20260908_231934/phaseB24/checkpoints/LOG_RANK_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SC-HomoSAGE_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SSL-Hetero-SeedSim_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SC-HeteroSAGE_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SSL-Hetero-SeedSim_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_CADETS_seed123.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SC-HeteroSAGE_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SC-HomoSAGE_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_THEIA_seed123.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SSL-Hetero-SeedSim_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_THEIA_seed2026.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_CADETS_seed2026.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_TRACE_seed2026.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SC-HomoSAGE_fold_TRACE_seed42.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SCSH-GNN-v0_fold_TRACE_seed123.pt",
+    "rp3_localization_phaseB_server_20260907_184107/phaseB/models/checkpoints/SC-HeteroSAGE_fold_THEIA_seed42.pt",
+    "rp3_localization_phaseB21_server_20260908_122053/rp3_localization/phaseB21/runtime/checkpoints/qsd_s_fold_CADETS_seed42.pt",
+    "rp3_localization_phaseB21_server_20260908_121801/rp3_localization/phaseB21/runtime/checkpoints/qsd_s_fold_CADETS_seed42.pt"
+  ],
+  "checkpoint_interpretation": "Located graph/localization checkpoint filenames do not establish pretrained sentence/domain encoder eligibility. They were not loaded. No sentence/security/domain text encoder weight bundle found in declared search scope.",
+  "knowhow_local_precomputed_vectors": {
+    "path": "provenance_baserepro_07/delivery/KNOWHOW/results/continuation_07/meanshift_runtime/meanshift_cluster_key_vectors.json",
+    "bytes": 1409247,
+    "sha256": "5a58c4ff63f34ccc132e76b677dbe114835fa7d1a2965dcf319524f66f412b32",
+    "clusters": 1,
+    "technique_keys": 549,
+    "dimensions": 128,
+    "sufficient_to_encode_new_logs": false,
+    "reason": "No matching FastText main model and n-gram sidecar found locally; historical report explicitly retains ~1.03GB pair on server. Historical training used independent MITRE text rather than original author corpus; no complete original-model qualification."
+  },
+  "benchmark_environment_packages": {
+    "torch": "NOT_INSTALLED",
+    "transformers": "NOT_INSTALLED",
+    "sentence-transformers": "NOT_INSTALLED",
+    "gensim": "NOT_INSTALLED",
+    "numpy": "NOT_INSTALLED",
+    "scipy": "NOT_INSTALLED",
+    "scikit-learn": "NOT_INSTALLED"
+  },
+  "bundled_runtime_metadata_note": "Only numpy-2.3.5.dist-info among torch/transformers/gensim/numpy/scipy/scikit searched metadata; this is not a new model inference environment.",
+  "evidence": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/TREC_REPRODUCTION_STATUS.md",
+      "exists": true,
+      "bytes": 974,
+      "sha256": "8d6fb3e397bca02facd1900031deb2e4d2cb91ee8f7d7d8dfcc611d631992e2e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/APTREC_REPRODUCTION_STATUS.md",
+      "exists": true,
+      "bytes": 929,
+      "sha256": "42513fe04792d1f340a1988c7ba0340a099386e4bddc5a3a6bd25976aabbe2d7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_baseline_reproduction01/OCR_APT_REPRODUCTION_STATUS.md",
+      "exists": true,
+      "bytes": 2790,
+      "sha256": "82514b77e5ee1061a39f9412d1ce5a5822e8dae5e00acf2142c75c0860a43ed6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_baseline_reproduction01/environment_manifests/KnowHow_environment.json",
+      "exists": true,
+      "bytes": 2478,
+      "sha256": "21387be6b1ce3d99196f2d5f561b6f60ccc7a80a94de61eeff59d895dadb05ab"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_benchmark_baselines_parallel01/KnowHow_ENVIRONMENT_MANIFEST.json",
+      "exists": true,
+      "bytes": 1135,
+      "sha256": "20512958e5d6e7093f239605124a1c22168c73b3e6bf754154a312a6c0b681ac"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_07/delivery/KNOWHOW/results/continuation_07/EMBEDDING_MANIFEST.json",
+      "exists": true,
+      "bytes": 1165,
+      "sha256": "8c4563879f272a97ed32d10e336288602c5f8fcf574fbde164b63a66d0d64411"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_07/delivery/reproduction_reports/continuation_07/CONTINUATION_REPORT.md",
+      "exists": true,
+      "bytes": 7262,
+      "sha256": "c09d731ac823cd311786a8200422136b258433afcd5aecf506079a657f83d38f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_07/delivery/KNOWHOW/results/continuation_07/meanshift_runtime/meanshift_cluster_key_vectors.json",
+      "exists": true,
+      "bytes": 1409247,
+      "sha256": "5a58c4ff63f34ccc132e76b677dbe114835fa7d1a2965dcf319524f66f412b32"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_11/reports/TREC_FULL_AUDIT_SUMMARY.json",
+      "exists": true,
+      "bytes": 807,
+      "sha256": "565057e00e23b92d1d3f5da527b3827b438af979c15180300b1a3ee45d3cb725"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_11/reports/APTREC_REPRODUCTION_REQUIREMENTS.md",
+      "exists": true,
+      "bytes": 4323,
+      "sha256": "29eba8e8eb1eb3bafe9ec7de64b0a76553cb9f5862891feaa398fe3ffebbde90"
+    }
+  ],
+  "external_method_status": {
+    "KnowHow": "EXISTING_DICTIONARY_COMPONENT_AND_PROJECT_ADAPTATION; EMBEDDING_BLOCKED_LOCALLY",
+    "TREC": "PARTIAL_REPRODUCTION_WITH_BLOCKERS_NO_NEW_CERTIFIED_CORE_ASSETS_FOUND",
+    "APTREC": "PARTIAL_REPRODUCTION_WITH_BLOCKERS_NO_NEW_CERTIFIED_CORE_ASSETS_FOUND",
+    "OCR-APT": "OFFICIAL_COMPONENT_ONLY_MATCHED_INPUTS_SERVICES_AND_INFERENCE_AUTHORIZATION_NOT_READY"
+  },
+  "limitations": [
+    "Bounded local audit does not prove no model exists elsewhere on filesystem or that no newer official release exists online.",
+    "No remote repository refresh, server check or model service query performed.",
+    "pip check/import/inference for a new semantic encoder is N/A because no complete eligible weight bundle entered admission."
+  ]
+}

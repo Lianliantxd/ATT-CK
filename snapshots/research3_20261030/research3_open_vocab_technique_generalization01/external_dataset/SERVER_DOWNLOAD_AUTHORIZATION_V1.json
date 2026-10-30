@@ -1,0 +1,24 @@
+{
+  "authorized": true,
+  "human_reply": "保存在服务器上，/home/tianxiaodan/code/ATT/，本地没路径",
+  "authorization_interpretation": "Affirmative authorization of the pending exactly-three-log download/static-admission request, changing storage destination to the provided server ATT directory. No local raw-log storage.",
+  "request_sha256": "07d1e522f19ca58abb4bc386c74b170ba312054b19d14c451aa5c6e14b692e77",
+  "historical_proposal_sha256": "8cedb59467ca0d29c3917d257b2d98c4e2f1bec68e966cb0e6450308303a6675",
+  "server_project": "/home/tianxiaodan/code/ATT/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01/external_dataset",
+  "total_bytes": 12905849,
+  "runtime_seconds_limit": 600,
+  "model_downloads": false,
+  "gpu_calls": false,
+  "training": false,
+  "llm_calls": false,
+  "code_files": [
+    {
+      "name": "download_server_payloads.py",
+      "sha256": "44c110630de9f9de3a0a599faa21d646dc91e396fe62ce28e2131445bd084db7"
+    },
+    {
+      "name": "prepare_server_bag.py",
+      "sha256": "6d8966965a8df1733aaba825f0ba6dd04051d219bf22b31d8c6fa229c11efc36"
+    }
+  ]
+}

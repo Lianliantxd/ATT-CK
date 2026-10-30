@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="480" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 480" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="480"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-480)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="480" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="40" y="448" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,896) scale(1,-1)">Where the 450 unseen-target queries end up</text>
+			<text x="40" y="422" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,844) scale(1,-1)">ONE view, seed17 (all three ONE seeds have the same hit-set counts). Full 216-candidate rankings remain unchanged.</text>
+			<rect x="55" y="250" width="73.28888888888889" height="70" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,52%,45%); fill-rule: evenodd;"/>
+			<text x="82.74844444444444" y="281" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,562) scale(1,-1)">34</text>
+			<rect x="128.2888888888889" y="250" width="68.97777777777776" height="70" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,35%,27%); fill-rule: evenodd;"/>
+			<text x="153.88177777777776" y="281" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,562) scale(1,-1)">32</text>
+			<rect x="197.26666666666665" y="250" width="75.44444444444446" height="70" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,58%,25%); fill-rule: evenodd;"/>
+			<text x="226.09288888888887" y="281" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,562) scale(1,-1)">35</text>
+			<rect x="272.7111111111111" y="250" width="752.2888888888889" height="70" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(30%,43%,56%); fill-rule: evenodd;"/>
+			<text x="635.5115555555556" y="281" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,562) scale(1,-1)">349</text>
+			<rect x="55" y="207" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(28%,52%,45%); fill-rule: evenodd;"/>
+			<text x="78" y="210" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,420) scale(1,-1)">GTE hit retained by C4: 34 / 450 (7.6%)</text>
+			<rect x="55" y="180" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,35%,27%); fill-rule: evenodd;"/>
+			<text x="78" y="183" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,366) scale(1,-1)">GTE hit lost after fusion: 32 / 450 (7.1%)</text>
+			<rect x="55" y="153" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,58%,25%); fill-rule: evenodd;"/>
+			<text x="78" y="156" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,312) scale(1,-1)">GTE miss: seen competition: 35 / 450 (7.8%)</text>
+			<rect x="55" y="126" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(30%,43%,56%); fill-rule: evenodd;"/>
+			<text x="78" y="129" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,258) scale(1,-1)">GTE miss: unseen order &gt;10: 349 / 450 (77.6%)</text>
+			<text x="55" y="68" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,136) scale(1,-1)">349/384 original GTE misses have no correct unseen label in the first 10 positions of the unseen internal order.</text>
+			<text x="55" y="47" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,94) scale(1,-1)">Internal order is a rank-identity diagnostic, not an evaluation with unseen-only candidate filtering.</text>
+		</g>
+	</g>
+</svg>

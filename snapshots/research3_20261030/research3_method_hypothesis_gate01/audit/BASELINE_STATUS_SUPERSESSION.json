@@ -1,0 +1,20 @@
+[
+  {
+    "earlier": "V2 register SentenceSemanticEncoder NOT_EXECUTED / earlyLLM embedding blocked",
+    "current_evidence": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/METHOD_RESEARCH_DECISION.md",
+    "qualified_status": "later actual embedding/reranker baseline ready on exposed development;no independent test",
+    "rule": "earlier status is project-timestamp-specific,not current global absence"
+  },
+  {
+    "earlier": "V2 register SupervisedClassifier NOT_EXECUTED",
+    "current_evidence": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/METHOD_RESEARCH_DECISION.md",
+    "qualified_status": "later real grouped-dev B3 and related trained heads;Unseen closed-set limit remains",
+    "rule": "do not weaken comparisons by claiming no supervised baseline exists"
+  },
+  {
+    "earlier": "Agent environment readiness or prior partial milestone",
+    "current_evidence": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/AGENT_PAIRED_COMPARISON.csv",
+    "qualified_status": "engineering end-to-end episodes available;valid pair subsets0/1/2,not validated incremental gain",
+    "rule": "neither engineering success nor incomplete pairing proves algorithm gain"
+  }
+]

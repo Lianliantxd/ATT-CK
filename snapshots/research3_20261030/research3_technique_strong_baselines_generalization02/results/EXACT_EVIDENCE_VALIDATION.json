@@ -1,0 +1,6 @@
+{
+  "trace_rows": 62560,
+  "max_score_reconstruction_error": 0,
+  "ground_truth_read": false,
+  "status": "actual candidate top3 lines reconstructed; ranking evidence only"
+}

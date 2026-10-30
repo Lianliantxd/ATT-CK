@@ -1,0 +1,39 @@
+{
+  "evidence_type": "TRANSCRIBED_SUCCESSFUL_SSH_STDOUT_NOT_DOWNLOADED_SERVER_FILE",
+  "host": "10.109.119.118",
+  "objects": {
+    "SERVER_DOWNLOAD_AUTHORIZATION.json": {
+      "bytes": 1427,
+      "sha256": "470bb2cc313480163ecb3297dcbc5e0387197f36bbe27699a3266fb444b12e88"
+    },
+    "SERVER_DOWNLOAD_MANIFEST.json": {
+      "bytes": 5557,
+      "sha256": "07d1e522f19ca58abb4bc386c74b170ba312054b19d14c451aa5c6e14b692e77"
+    },
+    "SERVER_DOWNLOAD_RECEIPT.json": {
+      "bytes": 2266,
+      "sha256": "541d8c1cbe75f5d463a62a06658bb5c6d533b2a9f32c624b12656bec4cb47ff3"
+    },
+    "download_server_payloads_v2.py": {
+      "bytes": 6599,
+      "sha256": "8a215cbc4c08a3616da89c04133792d064b939e921823ebd8bb1e98883315749"
+    },
+    "prepare_server_bag.py": {
+      "bytes": 8419,
+      "sha256": "6d8966965a8df1733aaba825f0ba6dd04051d219bf22b31d8c6fa229c11efc36"
+    },
+    "processed/BAG_INPUT.jsonl": {
+      "bytes": 15236232,
+      "sha256": "5b97effee468ef68851f114391381145ac8355b2b2b47faeedc7a3335bbba1cd"
+    },
+    "processed/BAG_REFERENCE.jsonl": {
+      "bytes": 235,
+      "sha256": "46411d80dc49361e1c390575222808f97548f630272a208101cc2ff597934f4e"
+    },
+    "processed/PREPROCESS_AUDIT.json": {
+      "bytes": 1351,
+      "sha256": "801f9899544f62288f00aa1497e2d92ebf1d7bc7e36153c07609c86616601ea7"
+    }
+  },
+  "raw_or_cleaned_log_body_copied_to_local": false
+}

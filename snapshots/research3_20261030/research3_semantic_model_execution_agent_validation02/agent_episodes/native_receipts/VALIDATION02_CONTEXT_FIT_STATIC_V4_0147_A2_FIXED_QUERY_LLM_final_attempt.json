@@ -1,0 +1,11 @@
+{
+  "tag": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0147_A2_FIXED_QUERY_LLM_final",
+  "start_unix": 1793105881.004586,
+  "reserved_input_tokens": 6943,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": null,
+  "output_tokens": null,
+  "status": "FAILED_OR_INTERRUPTED",
+  "wall_seconds": 180.01373583404347,
+  "error": "TimeoutError: timed out"
+}

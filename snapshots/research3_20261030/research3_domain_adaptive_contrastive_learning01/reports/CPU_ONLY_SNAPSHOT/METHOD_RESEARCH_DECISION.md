@@ -1,0 +1,11 @@
+# 科研GO/NO-GO
+
+主状态：SUPERVISED_BASELINES_TRAINED。次状态：GROUPED_TRAINING_BENCHMARK_READY、TRAINING_RESOURCE_AUTHORIZATION_BLOCKED、EXTERNAL_TEST_NOT_READY。
+
+普通监督TF-IDF在曝光LOSO开发评价中有数值收益：单视图相对同输入冻结GTE MRR差+0.0478，多视图差+0.0391。只有42个B2配置真实训练，不能把它们称为GTE投影、对比学习或困难负例模型。未见父技术无法靠封闭分类器有效识别，42/42配置训练优于保留，需考虑有限类记忆、过拟合/分布偏移；这些证据不能单独证明脚本记忆。
+
+B3–B9尚未执行：本地和旧项目未保存真实768维GTE日志/技术向量；216维候选相似度不是向量。新冻结前向、服务器新项目写入仍待明确授权，未上传Gold、未启动GPU训练。
+
+NO-GO：当前没有证据支持可靠性困难负例算法创新，也没有足够证据判断B9相对B7/B8的效果；未运行不等于无效。禁止使用CONTRASTIVE_MODEL_TRAINED或NO_SUPPORTED_DOMAIN_ADAPTATION_GAIN概括未执行的主要机制。
+
+条件GO：具体最小向量提取请求已经冻结，可在独立明确授权后取得真实GTE特征，再按既定预算在本地CPU运行B3–B9。LoRA/GPU训练和Gold上传需额外独立授权，目前无必要仅凭B2增益直接启动LoRA。保持4主要假设、不追加参数搜索。本轮不自动下载外部日志，不启动DAPT/全参训练。

@@ -1,0 +1,10 @@
+{
+  "tag": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0380_A2_FIXED_QUERY_LLM_final",
+  "start_unix": 1793103868.214268,
+  "reserved_input_tokens": 7243,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": 7211,
+  "output_tokens": 199,
+  "status": "COMPLETED_CPU_VERIFIED",
+  "wall_seconds": 101.2351242499426
+}

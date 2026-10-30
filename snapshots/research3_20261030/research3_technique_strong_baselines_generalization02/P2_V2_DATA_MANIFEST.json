@@ -1,0 +1,52 @@
+{
+  "archive_path": "/Users/tianxd/Documents/mid-term/rp3_existing_data/cam_lds_zenodo_v2/manifestations_filtered.zip",
+  "archive_sha256": "ba824f500af6d64925792d6a693e54afb761d1cfb5fe515efb2206035772bade",
+  "scope": "exact385 P0-selected execution-step pairs, 195 logical steps,34 simulations",
+  "version": "CAM-LDS v2; not independent dataset",
+  "seed": 42,
+  "allowed_member_count": 1136,
+  "allowed_body_bytes": 200542770,
+  "denied_member_counts": {
+    "DIRECTORY": 25354,
+    "NOT_STEP_LOG": 12498,
+    "OUTSIDE_FROZEN_P0_EXECUTION_STEP_PAIRS": 2308,
+    "ATTACKER_CONTROL_MATERIAL": 1227,
+    "CONV_A01_NOT_AUTHORIZED": 72,
+    "CONTROL_OR_COLLECTD": 1
+  },
+  "external_log_transmissions": 0,
+  "gt_source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/labels.json metadata.keys only",
+  "prediction_view": "sample_id,text,sources; opaque source/line IDs, no GT/scenario/step metadata",
+  "source_types": {
+    "suricata": 68,
+    "application": 85,
+    "audit": 420,
+    "wazuh": 111,
+    "authentication": 87,
+    "system": 287,
+    "web_access": 69,
+    "other": 9
+  },
+  "leakage_cleaning": {
+    "lines_total": 680280,
+    "lines_changed": 101179,
+    "direct_ids_before": 101759,
+    "direct_ids_after": 0,
+    "mitre_annotation_lines_before": 7047
+  },
+  "cleaning_policy": "official eight regexes + nested annotation-value removal + unbounded direct T-ID redaction; native text never in prediction",
+  "implementation": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/build_v2.py",
+  "implementation_sha256": "ca942a3b0dbd551e7e208118aac8cc4b4fab623e233225738b604fd022736922",
+  "protocol": "P2",
+  "status": "PUBLIC_EXPOSED_DEVELOPMENT",
+  "execution_step_pairs": 385,
+  "logical_steps": 195,
+  "simulations": 34,
+  "sampled_queries": 385,
+  "full_queries": 385,
+  "source_files": 1136,
+  "full_lines": 680280,
+  "sampled_unique_hashes": 385,
+  "sampled_budget": "ten contiguous lines per nonempty host-source, seed42; not fixed TOTAL budget",
+  "full_budget": "all allowable victim step logs, no sequence or attacker content"
+}

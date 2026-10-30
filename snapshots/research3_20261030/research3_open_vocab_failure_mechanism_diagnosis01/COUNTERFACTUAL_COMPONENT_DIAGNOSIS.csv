@@ -1,0 +1,7 @@
+seed,view_id,lost_gold_pairs,remove_supervision_restored,remove_bias_restored,restore_gte_restored,loss_primary_seen_score_boost,lost_cases_with_gamma_zero,lost_cases_default_parameter,gte_exact_ties,c4_exact_ties,not_formal_model_results
+17,ONE_VIEW_PER_STEP,32,32,0,32,32,32,0,0,0,True
+42,ONE_VIEW_PER_STEP,32,32,0,32,32,32,0,0,0,True
+73,ONE_VIEW_PER_STEP,32,32,0,32,32,32,0,0,0,True
+17,MULTI_VIEW_AUGMENTATION,31,31,0,31,31,31,0,0,0,True
+42,MULTI_VIEW_AUGMENTATION,31,31,0,31,31,31,0,0,0,True
+73,MULTI_VIEW_AUGMENTATION,31,31,0,31,31,31,0,0,0,True

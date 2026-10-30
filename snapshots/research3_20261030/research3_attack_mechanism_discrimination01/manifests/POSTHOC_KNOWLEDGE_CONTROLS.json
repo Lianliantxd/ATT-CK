@@ -1,0 +1,15 @@
+{
+  "classification": "POSTHOC_EXPOSED_DEV_CONFOUND_DIAGNOSTIC",
+  "reason": "main card may select facts beyond original visible description prefix; bag-of-word models cannot establish role/order reasoning",
+  "main_results_already_seen": true,
+  "controls_fixed_before_control_predictions": true,
+  "variants": [
+    "CARD_PREFIX_ONLY",
+    "CARD_WORD_ORDER_CONTROL"
+  ],
+  "same_fixed_thirty_IDs": true,
+  "main_input_and_GPU_upload_hashes_unchanged": true,
+  "no_weight_or_parameter_search": true,
+  "only_one_additional_control_round": true,
+  "source_sha256": "5d564359af976a141e54167bc5edaaad833958efdb5798f0dfb2986c658a9445"
+}

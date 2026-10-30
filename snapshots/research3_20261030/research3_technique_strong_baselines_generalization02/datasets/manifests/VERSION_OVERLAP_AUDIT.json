@@ -1,0 +1,18 @@
+{
+  "qualification": "OBSERVED_LINE_OVERLAP_ONLY_NOT_COMPLETE_VERSION_DIFF",
+  "p0_queries": 975,
+  "p0_sampled_lines": 20077,
+  "matched_clean_lines_in_v2_same_source": 12858,
+  "unknown_source_lines": 90,
+  "queries_with_all_lines_matching": 51,
+  "queries_with_some_nonmatching_line": 924,
+  "v2_scenario7_runc_and_init_lines": 258,
+  "v2_scenario7_runc_init_logical_steps": [
+    "7-10",
+    "7-13",
+    "7-3",
+    "7-6",
+    "7-8"
+  ],
+  "warning": "A v1 sampled line not matched in v2 can reflect content change, normalization, source filtering, or matching limitations; v2 runc-init presence alone does not prove new-v2 addition without v1 full logs."
+}

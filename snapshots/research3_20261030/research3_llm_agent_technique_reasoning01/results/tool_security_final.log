@@ -1,0 +1,31 @@
+test_arbitrary_episode_index_rejected (agent_tools.test_security.SecurityTests.test_arbitrary_episode_index_rejected) ... ok
+test_bm25_zero_match_declared (agent_tools.test_security.SecurityTests.test_bm25_zero_match_declared) ... ok
+test_budget_invalid_calls_count (agent_tools.test_security.SecurityTests.test_budget_invalid_calls_count) ... ok
+test_context_native_order (agent_tools.test_security.SecurityTests.test_context_native_order) ... ok
+test_cross_episode_id (agent_tools.test_security.SecurityTests.test_cross_episode_id) ... ok
+test_evidence_unseen (agent_tools.test_security.SecurityTests.test_evidence_unseen) ... ok
+test_initial_is_copy (agent_tools.test_security.SecurityTests.test_initial_is_copy) ... ok
+test_invalid_candidate (agent_tools.test_security.SecurityTests.test_invalid_candidate) ... ok
+test_knowledge_counts_query_calls (agent_tools.test_security.SecurityTests.test_knowledge_counts_query_calls) ... ok
+test_literal_no_regex_execution (agent_tools.test_security.SecurityTests.test_literal_no_regex_execution) ... ok
+test_new_row_limit (agent_tools.test_security.SecurityTests.test_new_row_limit) ... ok
+test_path_traversal (agent_tools.test_security.SecurityTests.test_path_traversal) ... ok
+test_public_knowledge_separate_budget (agent_tools.test_security.SecurityTests.test_public_knowledge_separate_budget) ... ok
+test_ranking_duplicate (agent_tools.test_security.SecurityTests.test_ranking_duplicate) ... ok
+test_ranking_length (agent_tools.test_security.SecurityTests.test_ranking_length) ... ok
+test_real_native_evidence (agent_tools.test_security.SecurityTests.test_real_native_evidence) ... ok
+test_repeated_query_counts (agent_tools.test_security.SecurityTests.test_repeated_query_counts) ... ok
+test_sql_literal_rejected (agent_tools.test_security.SecurityTests.test_sql_literal_rejected) ... ok
+test_submit_once_no_gold_feedback (agent_tools.test_security.SecurityTests.test_submit_once_no_gold_feedback) ... ok
+test_time_range_explicit_rejection (agent_tools.test_security.SecurityTests.test_time_range_explicit_rejection) ... ok
+test_token_limit_truncates (agent_tools.test_security.SecurityTests.test_token_limit_truncates) ... ok
+test_unknown_context_id (agent_tools.test_security.SecurityTests.test_unknown_context_id) ... ok
+test_unknown_field_gold (agent_tools.test_security.SecurityTests.test_unknown_field_gold) ... ok
+test_unknown_source (agent_tools.test_security.SecurityTests.test_unknown_source) ... ok
+test_unknown_tool (agent_tools.test_security.SecurityTests.test_unknown_tool) ... ok
+test_unseen_context_id (agent_tools.test_security.SecurityTests.test_unseen_context_id) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.948s
+
+OK

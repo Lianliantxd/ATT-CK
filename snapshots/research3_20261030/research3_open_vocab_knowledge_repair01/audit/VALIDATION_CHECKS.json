@@ -1,0 +1,8950 @@
+[
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/DELIVERY_SHA256.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/AFFECTED_QUERY_MAP.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/ASSET_SOURCE_INVENTORY.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/DEFINITION_IMPACT_SUMMARY.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/EXTRACTION_PIPELINE_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/GOLD_SCOPE_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/HUMAN_ADJUDICATION_QUEUE.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/INPUT_LABEL_SCOPE_AUDIT_REPORT.md",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/PARENT_CHILD_MAPPING_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/REPAIRABILITY_REGISTER.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/RUN_MANIFEST.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/TECHNIQUE_DEFINITION_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/ASSET_READ_SNAPSHOT.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/BOUNDED_TRANSFORMATION_PROOF.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/FROZEN_AUDIT_QUEUES.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/GATE_CONTEXT_INSPECTION.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/IMPACT_ID_SETS.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/INDEPENDENT_VALIDATION_CHECKS.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/LEGACY_HASH_MISMATCHES_PRESERVED.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/SELECTED_AUTHOR_LABEL_METADATA.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/SELECTED_SOURCE_FIELD_EVIDENCE.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/audit/SOURCE_HASH_COMPARISONS.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/audit_io.py",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/build_audit.py",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/complete_deliverables.py",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/finalize_audit.py",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/code/validate_audit.py",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/BLOCKER_REGISTER.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/INPUT_LABEL_AUDIT_PROTOCOL.md",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/USER_REQUEST_PART_1.txt",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/protocol/USER_REQUEST_PART_2.txt",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/results/AUDIT_COUNTS.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/results/DEFINITION_IMPACT_SUMMARY.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/results/FINAL_VALIDATION.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_open_vocab_input_label_scope_audit01/review/GOLD_SCOPE_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/KNOWLEDGE_K2.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+    "pass": true
+  },
+  {
+    "check": "oldbytes:/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/commit.json",
+    "pass": true
+  },
+  {
+    "check": "all216sameIDs",
+    "pass": true
+  },
+  {
+    "check": "fixedsourcehash",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1001",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1001",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1001",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1001",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1001",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1001.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1001.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1001.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1001.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1001.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1001.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1003",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1003",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1003",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1003",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1003",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1003.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1003.008",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1005",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1005",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1005",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1005",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1005",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1006",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1006",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1006",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1006",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1006",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1007",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1007",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1007",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1007",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1007",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1007",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1008",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1008",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1008",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1008",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1008",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1008",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1010",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1010",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1010",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1010",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1010",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1010",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1011",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1011",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1011",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1011",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1011",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1011.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1011.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1012",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1012",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1012",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1012",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1012",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1012",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1014",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1014",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1014",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1014",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1014",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1014",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1016",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1016",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1016",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1016",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1016",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1016",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1016.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1016.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1016.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1016.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1018",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1018",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1018",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1018",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1018",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1018",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1020",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1020",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1020",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1020",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1020",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1020",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1020.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1020.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1021",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1021",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1021",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1021",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1021",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1021",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1021.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1021.008",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1025",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1025",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1025",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1025",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1025",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1025",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1027",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1027",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1027",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1027",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1027",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1027",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.012",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.013",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.013",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1027.014",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1027.014",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1029",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1029",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1029",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1029",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1029",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1029",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1030",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1030",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1030",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1030",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1030",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1030",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1033",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1033",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1033",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1033",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1033",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1033",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1036",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1036",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1036",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1036",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1036",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1036",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1036.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1036.010",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1037",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1037",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1037",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1037",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1037",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1037",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1037.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1037.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1037.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1037.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1037.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1037.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1037.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1037.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1037.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1037.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1039",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1039",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1039",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1039",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1039",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1039",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1040",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1040",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1040",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1040",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1040",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1040",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1041",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1041",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1041",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1041",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1041",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1041",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1046",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1046",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1046",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1046",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1046",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1046",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1047",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1047",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1047",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1047",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1047",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1047",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1048",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1048",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1048",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1048",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1048",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1048",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1048.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1048.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1048.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1048.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1048.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1048.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1049",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1049",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1049",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1049",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1049",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1049",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1052",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1052",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1052",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1052",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1052",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1052",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1052.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1052.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1053",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1053",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1053",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1053",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1053",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1053",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1053.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1053.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1053.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1053.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1053.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1053.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1053.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1053.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1053.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1053.007",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1055",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1055",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1055",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1055",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1055",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1055",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.012",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.013",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.013",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.014",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.014",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1055.015",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1055.015",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1056",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1056",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1056",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1056",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1056",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1056",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1056.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1056.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1056.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1056.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1056.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1056.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1056.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1056.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1057",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1057",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1057",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1057",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1057",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1057",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1059",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1059",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1059",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1059",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1059",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1059",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1059.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1059.011",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1068",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1068",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1068",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1068",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1068",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1068",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1069",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1069",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1069",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1069",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1069",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1069",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1069.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1069.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1069.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1069.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1069.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1069.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1070",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1070",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1070",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1070",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1070",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1070",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1070.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1070.010",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1071",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1071",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1071",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1071",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1071",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1071",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1071.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1071.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1071.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1071.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1071.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1071.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1071.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1071.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1071.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1071.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1072",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1072",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1072",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1072",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1072",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1072",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1074",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1074",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1074",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1074",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1074",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1074",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1074.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1074.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1074.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1074.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1078",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1078",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1078",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1078",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1078",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1078",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1078.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1078.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1078.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1078.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1078.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1078.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1078.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1078.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1080",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1080",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1080",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1080",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1080",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1080",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1082",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1082",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1082",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1082",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1082",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1082",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1083",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1083",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1083",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1083",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1083",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1083",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1087",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1087",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1087",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1087",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1087",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1087",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1087.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1087.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1087.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1087.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1087.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1087.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1087.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1087.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1090",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1090",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1090",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1090",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1090",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1090",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1090.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1090.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1090.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1090.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1090.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1090.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1090.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1090.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1091",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1091",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1091",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1091",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1091",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1091",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1092",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1092",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1092",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1092",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1092",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1092",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1095",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1095",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1095",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1095",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1095",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1095",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1098",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1098",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1098",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1098",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1098",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1098",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1098.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1098.007",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1102",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1102",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1102",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1102",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1102",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1102",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1102.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1102.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1102.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1102.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1102.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1102.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1104",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1104",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1104",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1104",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1104",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1104",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1105",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1105",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1105",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1105",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1105",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1105",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1106",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1106",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1106",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1106",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1106",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1106",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1110",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1110",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1110",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1110",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1110",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1110",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1110.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1110.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1110.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1110.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1110.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1110.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1110.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1110.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1111",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1111",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1111",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1111",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1111",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1111",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1112",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1112",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1112",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1112",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1112",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1112",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1113",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1113",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1113",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1113",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1113",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1113",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1114",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1114",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1114",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1114",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1114",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1114",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1114.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1114.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1114.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1114.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1114.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1114.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1115",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1115",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1115",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1115",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1115",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1115",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1119",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1119",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1119",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1119",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1119",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1119",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1120",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1120",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1120",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1120",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1120",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1120",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1123",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1123",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1123",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1123",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1123",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1123",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1124",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1124",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1124",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1124",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1124",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1124",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1125",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1125",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1125",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1125",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1125",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1125",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1127",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1127",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1127",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1127",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1127",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1127",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1127.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1127.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1127.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1127.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1129",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1129",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1129",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1129",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1129",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1129",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1132",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1132",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1132",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1132",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1132",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1132",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1132.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1132.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1132.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1132.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1133",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1133",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1133",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1133",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1133",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1133",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1134",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1134",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1134",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1134",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1134",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1134",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1134.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1134.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1134.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1134.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1134.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1134.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1134.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1134.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1134.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1134.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1135",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1135",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1135",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1135",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1135",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1135",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1136",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1136",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1136",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1136",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1136",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1136",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1136.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1136.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1136.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1136.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1136.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1136.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1137",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1137",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1137",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1137",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1137",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1137",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1137.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1137.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1137.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1137.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1137.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1137.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1137.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1137.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1137.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1137.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1137.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1137.006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1140",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1140",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1140",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1140",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1140",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1140",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1176",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1176",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1176",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1176",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1176",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1176",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1185",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1185",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1185",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1185",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1185",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1185",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1187",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1187",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1187",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1187",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1187",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1187",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1189",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1189",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1189",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1189",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1189",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1189",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1190",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1190",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1190",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1190",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1190",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1190",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1195",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1195",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1195",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1195",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1195",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1195",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1195.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1195.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1195.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1195.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1195.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1195.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1197",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1197",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1197",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1197",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1197",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1197",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1199",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1199",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1199",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1199",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1199",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1199",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1200",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1200",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1200",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1200",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1200",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1200",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1201",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1201",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1201",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1201",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1201",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1201",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1202",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1202",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1202",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1202",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1202",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1202",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1203",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1203",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1203",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1203",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1203",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1203",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1204",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1204",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1204",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1204",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1204",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1204",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1204.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1204.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1204.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1204.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1204.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1204.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1205",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1205",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1205",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1205",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1205",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1205",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1205.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1205.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1205.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1205.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1207",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1207",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1207",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1207",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1207",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1207",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1210",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1210",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1210",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1210",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1210",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1210",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1211",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1211",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1211",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1211",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1211",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1211",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1212",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1212",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1212",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1212",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1212",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1212",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1213",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1213",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1213",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1213",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1213",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1213",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1213.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1213.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1213.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1213.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1213.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1213.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1213.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1213.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1213.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1213.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1216",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1216",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1216",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1216",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1216",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1216",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1216.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1216.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1216.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1216.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1217",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1217",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1217",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1217",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1217",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1217",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1218",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1218",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1218",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1218",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1218",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1218",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.012",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.013",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.013",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.014",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.014",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1218.015",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1218.015",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1219",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1219",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1219",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1219",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1219",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1219",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1220",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1220",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1220",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1220",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1220",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1220",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1221",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1221",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1221",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1221",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1221",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1221",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1222",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1222",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1222",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1222",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1222",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1222",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1222.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1222.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1222.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1222.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1480",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1480",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1480",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1480",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1480",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1480",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1480.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1480.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1480.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1480.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1482",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1482",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1482",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1482",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1482",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1482",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1484",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1484",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1484",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1484",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1484",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1484",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1484.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1484.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1484.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1484.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1485",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1485",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1485",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1485",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1485",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1485",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1485.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1485.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1486",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1486",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1486",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1486",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1486",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1486",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1489",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1489",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1489",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1489",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1489",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1489",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1490",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1490",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1490",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1490",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1490",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1490",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1491",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1491",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1491",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1491",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1491",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1491",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1491.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1491.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1491.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1491.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1495",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1495",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1495",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1495",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1495",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1495",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1496",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1496",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1496",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1496",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1496",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1496",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1496.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1496.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1496.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1496.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1496.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1496.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1496.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1496.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1497",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1497",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1497",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1497",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1497",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1497",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1497.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1497.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1497.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1497.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1497.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1497.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1498",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1498",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1498",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1498",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1498",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1498",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1498.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1498.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1498.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1498.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1499",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1499",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1499",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1499",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1499",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1499",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1499.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1499.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1499.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1499.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1499.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1499.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1499.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1499.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1505",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1505",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1505",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1505",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1505",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1505",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1505.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1505.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1505.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1505.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1505.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1505.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1505.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1505.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1505.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1505.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1518",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1518",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1518",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1518",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1518",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1518",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1518.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1518.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1525",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1525",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1525",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1525",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1525",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1525",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1526",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1526",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1526",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1526",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1526",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1526",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1528",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1528",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1528",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1528",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1528",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1528",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1529",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1529",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1529",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1529",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1529",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1529",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1530",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1530",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1530",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1530",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1530",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1530",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1531",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1531",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1531",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1531",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1531",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1531",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1534",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1534",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1534",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1534",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1534",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1534",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1535",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1535",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1535",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1535",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1535",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1535",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1537",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1537",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1537",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1537",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1537",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1537",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1538",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1538",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1538",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1538",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1538",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1538",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1539",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1539",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1539",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1539",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1539",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1539",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1542",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1542",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1542",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1542",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1542",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1542",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1542.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1542.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1542.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1542.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1542.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1542.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1542.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1542.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1542.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1542.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1543",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1543",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1543",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1543",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1543",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1543",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1543.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1543.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1543.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1543.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1543.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1543.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1543.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1543.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1543.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1543.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1546",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1546",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1546",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1546",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1546",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1546",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.012",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.013",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.013",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.014",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.014",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.015",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.015",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.016",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.016",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1546.017",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1546.017",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1547",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1547",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1547",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1547",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1547",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1547",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.012",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.013",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.013",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.014",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.014",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1547.015",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1547.015",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1548",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1548",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1548",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1548",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1548",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1548",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1548.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1548.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1548.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1548.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1548.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1548.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1548.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1548.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1548.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1548.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1548.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1548.006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1550",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1550",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1550",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1550",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1550",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1550",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1550.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1550.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1550.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1550.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1550.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1550.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1550.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1550.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1552",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1552",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1552",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1552",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1552",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1552",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1552.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1552.008",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1553",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1553",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1553",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1553",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1553",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1553",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1553.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1553.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1553.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1553.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1553.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1553.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1553.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1553.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1553.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1553.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1553.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1553.006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1554",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1554",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1554",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1554",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1554",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1554",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1555",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1555",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1555",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1555",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1555",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1555",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1555.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1555.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1555.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1555.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1555.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1555.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1555.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1555.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1555.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1555.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1555.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1555.006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1556",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1556",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1556",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1556",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1556",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1556",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1556.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1556.009",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1557",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1557",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1557",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1557",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1557",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1557",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1557.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1557.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1557.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1557.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1557.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1557.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1557.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1557.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1558",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1558",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1558",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1558",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1558",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1558",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1558.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1558.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1558.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1558.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1558.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1558.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1558.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1558.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1558.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1558.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1559",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1559",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1559",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1559",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1559",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1559",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1559.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1559.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1559.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1559.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1559.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1559.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1560",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1560",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1560",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1560",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1560",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1560",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1560.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1560.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1560.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1560.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1560.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1560.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1561",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1561",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1561",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1561",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1561",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1561",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1561.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1561.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1561.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1561.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1562",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1562",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1562",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1562",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1562",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1562",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1562.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1562.012",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1563",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1563",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1563",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1563",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1563",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1563",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1563.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1563.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1563.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1563.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1564",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1564",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1564",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1564",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1564",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1564",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1564.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1564.012",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1565",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1565",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1565",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1565",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1565",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1565",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1565.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1565.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1565.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1565.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1565.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1565.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1566",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1566",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1566",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1566",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1566",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1566",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1566.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1566.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1566.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1566.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1566.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1566.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1566.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1566.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1567",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1567",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1567",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1567",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1567",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1567",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1567.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1567.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1567.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1567.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1567.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1567.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1567.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1567.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1568",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1568",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1568",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1568",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1568",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1568",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1568.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1568.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1568.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1568.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1568.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1568.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1569",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1569",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1569",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1569",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1569",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1569",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1569.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1569.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1569.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1569.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1570",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1570",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1570",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1570",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1570",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1570",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1571",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1571",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1571",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1571",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1571",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1571",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1572",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1572",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1572",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1572",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1572",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1572",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1573",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1573",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1573",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1573",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1573",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1573",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1573.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1573.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1573.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1573.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1574",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1574",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1574",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1574",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1574",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1574",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.008",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.009",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.009",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.010",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.010",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.011",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.011",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.012",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.012",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.013",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.013",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1574.014",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1574.014",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1578",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1578",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1578",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1578",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1578",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1578",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1578.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1578.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1578.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1578.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1578.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1578.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1578.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1578.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1578.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1578.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1580",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1580",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1580",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1580",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1580",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1580",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1583",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1583",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1583",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1583",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1583",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1583",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1583.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1583.008",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1584",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1584",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1584",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1584",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1584",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1584",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.007",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1584.008",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1584.008",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1585",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1585",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1585",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1585",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1585",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1585",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1585.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1585.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1585.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1585.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1585.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1585.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1586",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1586",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1586",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1586",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1586",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1586",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1586.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1586.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1586.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1586.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1586.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1586.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1587",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1587",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1587",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1587",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1587",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1587",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1587.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1587.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1587.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1587.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1587.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1587.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1587.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1587.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1588",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1588",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1588",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1588",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1588",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1588",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.006",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1588.007",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1588.007",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1589",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1589",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1589",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1589",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1589",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1589",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1589.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1589.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1589.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1589.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1589.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1589.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1590",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1590",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1590",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1590",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1590",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1590",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1590.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1590.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1590.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1590.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1590.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1590.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1590.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1590.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1590.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1590.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1590.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1590.006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1591",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1591",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1591",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1591",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1591",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1591",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1591.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1591.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1591.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1591.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1591.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1591.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1591.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1591.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1592",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1592",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1592",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1592",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1592",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1592",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1592.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1592.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1592.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1592.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1592.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1592.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1592.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1592.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1593",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1593",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1593",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1593",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1593",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1593",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1593.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1593.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1593.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1593.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1593.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1593.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1594",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1594",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1594",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1594",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1594",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1594",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1595",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1595",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1595",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1595",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1595",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1595",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1595.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1595.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1595.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1595.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1595.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1595.003",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1596",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1596",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1596",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1596",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1596",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1596",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1596.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1596.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1596.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1596.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1596.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1596.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1596.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1596.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1596.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1596.005",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1597",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1597",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1597",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1597",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1597",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1597",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1597.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1597.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1597.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1597.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1598",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1598",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1598",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1598",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1598",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1598",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1598.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1598.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1598.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1598.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1598.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1598.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1598.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1598.004",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1599",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1599",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1599",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1599",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1599",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1599",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1599.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1599.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1600",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1600",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1600",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1600",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1600",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1600",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1600.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1600.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1600.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1600.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1601",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1601",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1601",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1601",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1601",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1601",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1601.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1601.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1601.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1601.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1602",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1602",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1602",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1602",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1602",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1602",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1602.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1602.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1602.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1602.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1606",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1606",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1606",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1606",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1606",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1606",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1606.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1606.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1606.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1606.002",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1608",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1608",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1608",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1608",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1608",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1608",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1608.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1608.001",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1608.002",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1608.002",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1608.003",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1608.003",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1608.004",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1608.004",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1608.005",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1608.005",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1608.006",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1608.006",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1609",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1609",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1609",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1609",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1609",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1609",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1610",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1610",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1610",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1610",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1610",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1610",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1611",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1611",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1611",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1611",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1611",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1611",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1612",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1612",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1612",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1612",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1612",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1612",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1613",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1613",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1613",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1613",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1613",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1613",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1614",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1614",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1614",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1614",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1614",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1614",
+    "pass": true
+  },
+  {
+    "check": "childliteral:T1614.001",
+    "pass": true
+  },
+  {
+    "check": "childrelationship:T1614.001",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1615",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1615",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1615",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1615",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1615",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1615",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1619",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1619",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1619",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1619",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1619",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1619",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1620",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1620",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1620",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1620",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1620",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1620",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1621",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1621",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1621",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1621",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1621",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1621",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1622",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1622",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1622",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1622",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1622",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1622",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1647",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1647",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1647",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1647",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1647",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1647",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1648",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1648",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1648",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1648",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1648",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1648",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1649",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1649",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1649",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1649",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1649",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1649",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1650",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1650",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1650",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1650",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1650",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1650",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1651",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1651",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1651",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1651",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1651",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1651",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1652",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1652",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1652",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1652",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1652",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1652",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1653",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1653",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1653",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1653",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1653",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1653",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1654",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1654",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1654",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1654",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1654",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1654",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1656",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1656",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1656",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1656",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1656",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1656",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1657",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1657",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1657",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1657",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1657",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1657",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1659",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1659",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1659",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1659",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1659",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1659",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1665",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1665",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1665",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1665",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1665",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1665",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1666",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1666",
+    "pass": true
+  },
+  {
+    "check": "sourceexactparent:T1666",
+    "pass": true
+  },
+  {
+    "check": "fulluntruncated:T1666",
+    "pass": true
+  },
+  {
+    "check": "budget_exact:T1666",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1666",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1667",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1667",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1667",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1667",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1668",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1668",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1668",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1668",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1669",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1669",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1669",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1669",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1671",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1671",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1671",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1671",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1672",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1672",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1672",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1672",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1673",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1673",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1673",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1673",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1674",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1674",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1674",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1674",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1675",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1675",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1675",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1675",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1677",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1677",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1677",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1677",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1678",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1678",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1678",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1678",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1679",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1679",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1679",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1679",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1680",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1680",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1680",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1680",
+    "pass": true
+  },
+  {
+    "check": "author_metadata_preserved:T1681",
+    "pass": true
+  },
+  {
+    "check": "olddiff_exact:T1681",
+    "pass": true
+  },
+  {
+    "check": "missingnull_notfallback:T1681",
+    "pass": true
+  },
+  {
+    "check": "separatechildren_complete:T1681",
+    "pass": true
+  },
+  {
+    "check": "13missingactual",
+    "pass": true
+  },
+  {
+    "check": "203available",
+    "pass": true
+  },
+  {
+    "check": "453childrenunique",
+    "pass": true
+  },
+  {
+    "check": "73oldparentstartsoutside",
+    "pass": true
+  },
+  {
+    "check": "164oldparentincomplete",
+    "pass": true
+  },
+  {
+    "check": "129budgettruncations",
+    "pass": true
+  },
+  {
+    "check": "T1574bodyrestored",
+    "pass": true
+  },
+  {
+    "check": "twonamedifferences",
+    "pass": true
+  },
+  {
+    "check": "nonempty_table:TEXT_BUDGET_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "nonempty_table:PARENT_CHILD_MAPPING.csv",
+    "pass": true
+  },
+  {
+    "check": "nonempty_table:MISSING_SOURCE_REQUIREMENTS.csv",
+    "pass": true
+  },
+  {
+    "check": "nonempty_table:CANDIDATE_COVERAGE_AUDIT.csv",
+    "pass": true
+  },
+  {
+    "check": "nonempty_table:KNOWLEDGE_DIFF.csv",
+    "pass": true
+  },
+  {
+    "check": "required13",
+    "pass": true
+  },
+  {
+    "check": "no_model_experiment",
+    "pass": true
+  },
+  {
+    "check": "no_causal_claim",
+    "pass": true
+  }
+]

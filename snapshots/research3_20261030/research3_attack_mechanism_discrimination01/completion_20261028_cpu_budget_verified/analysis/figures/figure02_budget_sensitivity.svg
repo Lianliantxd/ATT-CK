@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="640" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="640"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-640)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="35" y="605" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,1210) scale(1,-1)">Mechanism representation: sensitivity to input budget</text>
+			<text x="35" y="582" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,1164) scale(1,-1)">Top-10 (%) with fixed K2 knowledge, 216 candidates; same native observation within each budget protocol.</text>
+			<text x="65" y="523" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,1046) scale(1,-1)">UTF8 byte caps / CHAR</text>
+			<path d="M 65,355 L 470,355 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="352.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,704) scale(1,-1)">0</text>
+			<path d="M 65,392.5 L 470,392.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="389.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,779) scale(1,-1)">5</text>
+			<path d="M 65,430 L 470,430 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="427.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,854) scale(1,-1)">10</text>
+			<path d="M 65,467.5 L 470,467.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="464.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,929) scale(1,-1)">15</text>
+			<path d="M 65,505 L 470,505 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="502.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,1004) scale(1,-1)">20</text>
+			<rect x="90.0" y="355" width="48.0" height="111.53846153846155" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="90.0" y="472.53846153846155" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,945) scale(1,-1)">14.87</text>
+			<text x="81.0" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">RAW</text>
+			<rect x="191.25" y="355" width="48.0" height="68.46153846153845" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="191.25" y="429.46153846153845" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,858) scale(1,-1)">9.13</text>
+			<text x="182.25" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">LITERAL</text>
+			<rect x="292.5" y="355" width="48.0" height="73.84615384615381" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="292.5" y="434.8461538461538" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,869) scale(1,-1)">9.85</text>
+			<text x="283.5" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">+RELATIONS</text>
+			<rect x="393.75" y="355" width="48.0" height="103.0769230769231" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="393.75" y="464.0769230769231" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,928) scale(1,-1)">13.74</text>
+			<text x="384.75" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">RAW+LITERAL</text>
+			<text x="555" y="523" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,1046) scale(1,-1)">UTF8 byte caps / BM25</text>
+			<path d="M 555,355 L 960,355 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="352.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,704) scale(1,-1)">0</text>
+			<path d="M 555,392.5 L 960,392.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="389.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,779) scale(1,-1)">5</text>
+			<path d="M 555,430 L 960,430 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="427.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,854) scale(1,-1)">10</text>
+			<path d="M 555,467.5 L 960,467.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="464.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,929) scale(1,-1)">15</text>
+			<path d="M 555,505 L 960,505 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="502.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,1004) scale(1,-1)">20</text>
+			<rect x="580.0" y="355" width="48.0" height="101.53846153846155" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="580.0" y="462.53846153846155" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,925) scale(1,-1)">13.54</text>
+			<text x="571.0" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">RAW</text>
+			<rect x="681.25" y="355" width="48.0" height="127.69230769230768" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="681.25" y="488.6923076923077" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,977) scale(1,-1)">17.03</text>
+			<text x="672.25" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">LITERAL</text>
+			<rect x="782.5" y="355" width="48.0" height="127.69230769230768" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="782.5" y="488.6923076923077" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,977) scale(1,-1)">17.03</text>
+			<text x="773.5" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">+RELATIONS</text>
+			<rect x="883.75" y="355" width="48.0" height="122.30769230769232" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="883.75" y="483.3076923076923" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,966) scale(1,-1)">16.31</text>
+			<text x="874.75" y="337" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,674) scale(1,-1)">RAW+LITERAL</text>
+			<text x="65" y="288" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,576) scale(1,-1)">Actual CPU feature caps / CHAR</text>
+			<path d="M 65,120 L 470,120 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="117.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,234) scale(1,-1)">0</text>
+			<path d="M 65,157.5 L 470,157.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="154.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,309) scale(1,-1)">5</text>
+			<path d="M 65,195 L 470,195 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="192.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,384) scale(1,-1)">10</text>
+			<path d="M 65,232.5 L 470,232.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="229.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,459) scale(1,-1)">15</text>
+			<path d="M 65,270 L 470,270 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="37" y="267.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,534) scale(1,-1)">20</text>
+			<rect x="90.0" y="120" width="48.0" height="87.69230769230768" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="90.0" y="213.69230769230768" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,427) scale(1,-1)">11.69</text>
+			<text x="81.0" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">RAW</text>
+			<rect x="191.25" y="120" width="48.0" height="25.384615384615387" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="191.25" y="151.3846153846154" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,302) scale(1,-1)">3.38</text>
+			<text x="182.25" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">LITERAL</text>
+			<rect x="292.5" y="120" width="48.0" height="25.384615384615387" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="292.5" y="151.3846153846154" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,302) scale(1,-1)">3.38</text>
+			<text x="283.5" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">+RELATIONS</text>
+			<rect x="393.75" y="120" width="48.0" height="50.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="393.75" y="176.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,352) scale(1,-1)">6.67</text>
+			<text x="384.75" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">RAW+LITERAL</text>
+			<text x="555" y="288" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,576) scale(1,-1)">Actual CPU feature caps / BM25</text>
+			<path d="M 555,120 L 960,120 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="117.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,234) scale(1,-1)">0</text>
+			<path d="M 555,157.5 L 960,157.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="154.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,309) scale(1,-1)">5</text>
+			<path d="M 555,195 L 960,195 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="192.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,384) scale(1,-1)">10</text>
+			<path d="M 555,232.5 L 960,232.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="229.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,459) scale(1,-1)">15</text>
+			<path d="M 555,270 L 960,270 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="527" y="267.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,534) scale(1,-1)">20</text>
+			<rect x="580.0" y="120" width="48.0" height="83.07692307692307" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="580.0" y="209.07692307692307" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,418) scale(1,-1)">11.08</text>
+			<text x="571.0" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">RAW</text>
+			<rect x="681.25" y="120" width="48.0" height="69.23076923076923" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="681.25" y="195.23076923076923" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,390) scale(1,-1)">9.23</text>
+			<text x="672.25" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">LITERAL</text>
+			<rect x="782.5" y="120" width="48.0" height="69.23076923076923" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="782.5" y="195.23076923076923" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,390) scale(1,-1)">9.23</text>
+			<text x="773.5" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">+RELATIONS</text>
+			<rect x="883.75" y="120" width="48.0" height="70.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="883.75" y="196.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,392) scale(1,-1)">9.33</text>
+			<text x="874.75" y="102" style="font-family: Helvetica; font-size: 8px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,204) scale(1,-1)">RAW+LITERAL</text>
+			<text x="35" y="58" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,116) scale(1,-1)">Feature units: character 3/4/5-gram occurrences and BM25 word tokens; these are NOT GTE tokens.</text>
+			<text x="35" y="38" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,76) scale(1,-1)">Relation markers have no BM25 knowledge postings. A zero delta does not test semantic relation reasoning.</text>
+			<text x="35" y="18" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,36) scale(1,-1)">Deterministic CPU runs; exposed development data only. No new neural representation scores are plotted.</text>
+		</g>
+	</g>
+</svg>

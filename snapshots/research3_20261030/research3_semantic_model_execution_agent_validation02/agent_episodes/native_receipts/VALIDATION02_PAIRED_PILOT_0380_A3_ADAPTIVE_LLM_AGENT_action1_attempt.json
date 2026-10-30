@@ -1,0 +1,10 @@
+{
+  "tag": "VALIDATION02_PAIRED_PILOT_0380_A3_ADAPTIVE_LLM_AGENT_action1",
+  "start_unix": 1793101741.283895,
+  "reserved_input_tokens": 3810,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": 3778,
+  "output_tokens": 60,
+  "status": "COMPLETED_CPU_VERIFIED",
+  "wall_seconds": 17.882146750111133
+}

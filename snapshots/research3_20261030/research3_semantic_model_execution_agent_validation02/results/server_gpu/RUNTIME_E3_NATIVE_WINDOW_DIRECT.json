@@ -1,0 +1,14 @@
+{
+  "condition": "E3_NATIVE_WINDOW_DIRECT",
+  "seconds": 7.072637293022126,
+  "actual_samples": 975,
+  "unique_model_encoded_texts_total_so_far": 1286,
+  "pooling": "official CLS + float32 L2 normalization",
+  "dtype": "float16 model / float32 cosine",
+  "actual_device": "physicalGPU0 A40",
+  "memory": {
+    "GPU_peak_allocated_bytes": 569935360,
+    "GPU_peak_reserved_bytes": 1113587712,
+    "process_peak_RSS_bytes": 1914216448
+  }
+}

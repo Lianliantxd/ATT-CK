@@ -1,0 +1,858 @@
+{
+  "date_asia_shanghai": "2026-10-28",
+  "scope": "PUBLIC_METADATA_AND_LOCAL_EMULATION_PLAN_COLUMNS_ONLY",
+  "logs_or_archives_opened": false,
+  "new_log_downloads": 0,
+  "external_predictions": 0,
+  "inherited_qualification_receipt": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/external_dataset/LOCAL_SOURCE_QUALIFICATION.json",
+    "bytes": 3179,
+    "sha256": "245b051df33d03c44c5f81e44ce2c4f29f20a0dbbcbbea8c422d4dd8796865e4"
+  },
+  "candidate_space_receipt": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+    "bytes": 31331,
+    "sha256": "426c0e5c316eb807145eaebf4acd49dc04d15e0c6ca69f1a4aa04fd8b2a78a37"
+  },
+  "candidate_count": 216,
+  "inherited_mordor_derived_steps": 26,
+  "inherited_mordor_label_intersection": [
+    "T1003",
+    "T1005",
+    "T1018",
+    "T1041",
+    "T1057",
+    "T1059",
+    "T1083",
+    "T1105",
+    "T1106",
+    "T1112",
+    "T1113",
+    "T1204"
+  ],
+  "inherited_mordor_outside_candidates": [
+    "T1035",
+    "T1045",
+    "T1050",
+    "T1077",
+    "T1081",
+    "T1086",
+    "T1107",
+    "T1122",
+    "T1145",
+    "UNKNOWN"
+  ],
+  "local_emulation_plans": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/intent_ig2_work/local_sources/apt29/apt29.xlsx",
+      "bytes": 25050,
+      "sha256": "62c10c747467ee9e018e64c57eb050a1f789fd511a5df03c9661ab6867db4c47",
+      "git_blob_sha1": "41cb7225de70b188f6a8c230331fef0f1b9bcd23",
+      "qualification": "EXPOSED_LOCAL_EMULATION_PLAN_NOT_MATCHED_TO_CURRENT_OFFICIAL_BLOB",
+      "sheets": [
+        {
+          "sheet_xml": "xl/worksheets/sheet1.xml",
+          "row_count": 32,
+          "headers": {
+            "A": "Stage",
+            "B": "Technique",
+            "C": "Step",
+            "D": "Description",
+            "E": "hands-on",
+            "F": "User",
+            "G": "Source",
+            "H": "Target"
+          },
+          "step_technique_rows": [
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "1.A",
+              "technique_labels": "User Execution, Masquerading, Uncommonly Used Port ",
+              "technique_ids": []
+            },
+            {
+              "step": "1.B ",
+              "technique_labels": "Command-Line Interface,\nPowerShell",
+              "technique_ids": []
+            },
+            {
+              "step": "2.A",
+              "technique_labels": "File and Directory Discovery,\nAutomated Collection, Data from Local System,\nData Compressed,\nData Staged",
+              "technique_ids": []
+            },
+            {
+              "step": "2.A",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "2.B",
+              "technique_labels": "Exfiltration Over Command and Control Channel",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "3.A",
+              "technique_labels": "Remote File Copy,\nObfuscated Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "3.B",
+              "technique_labels": "Component Object Model Hijacking,\nBypass User Account Control,\nCommonly Used Port,\nStandard Application Layer Protocol,\nStandard Cryptographic Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "3.C",
+              "technique_labels": "Modify Registry",
+              "technique_ids": []
+            },
+            {
+              "step": "4.A",
+              "technique_labels": "PowerShell,\nDeobfuscate/Decode Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "4.B",
+              "technique_labels": "Process Discovery,\nFile Deletion",
+              "technique_ids": []
+            },
+            {
+              "step": "4.C",
+              "technique_labels": "File and Directory Discovery,\nSystem Owner/User Discovery,\nSystem Information Discovery,\nSystem Network Configuration Discovery,\nProcess Discovery,\nSecurity Software Discovery,\nPermission Groups Discovery,\nExecution through API",
+              "technique_ids": []
+            },
+            {
+              "step": "5.A",
+              "technique_labels": "New Service ",
+              "technique_ids": []
+            },
+            {
+              "step": "5.B",
+              "technique_labels": "Registry Run Keys / Startup Folder ",
+              "technique_ids": []
+            },
+            {
+              "step": "6.A",
+              "technique_labels": "Credentials in Files,\nCredential Dumping,\nMasquerading",
+              "technique_ids": []
+            },
+            {
+              "step": "6.B",
+              "technique_labels": "Private Keys",
+              "technique_ids": []
+            },
+            {
+              "step": "6.C",
+              "technique_labels": "Credential Dumping",
+              "technique_ids": []
+            },
+            {
+              "step": "7.A",
+              "technique_labels": "Screen Capture,\nClipboard Data,\nInput Capture",
+              "technique_ids": []
+            },
+            {
+              "step": "7.B",
+              "technique_labels": "Data from Local System,\nData Compressed,\nData Encrypted,\nExfiltration Over Alternative Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "8.A",
+              "technique_labels": "Remote System Discovery,\nWindows Remote Management,\nProcess Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "8.B",
+              "technique_labels": "Software Packing",
+              "technique_ids": []
+            },
+            {
+              "step": "8.C",
+              "technique_labels": "Windows Admin Shares,\nService Execution,\nValid Accounts",
+              "technique_ids": []
+            },
+            {
+              "step": "9.A ",
+              "technique_labels": "Remote File Copy",
+              "technique_ids": []
+            },
+            {
+              "step": "9.B",
+              "technique_labels": "PowerShell,\nFile and Directory Discovery,\nAutomated Collection,\nData from Local System,\nData Encrypted,\nData Compressed,\nData Staged,\nExfiltration Over Command and Control Channel",
+              "technique_ids": []
+            },
+            {
+              "step": "9.C",
+              "technique_labels": "File Deletion",
+              "technique_ids": []
+            },
+            {
+              "step": "10.A",
+              "technique_labels": "Service Execution,\nRegistry Run Keys / Startup Folder ",
+              "technique_ids": []
+            },
+            {
+              "step": "10.B",
+              "technique_labels": "Registry Run Keys / Startup Folder ",
+              "technique_ids": []
+            }
+          ]
+        },
+        {
+          "sheet_xml": "xl/worksheets/sheet2.xml",
+          "row_count": 35,
+          "headers": {
+            "A": "Stage",
+            "B": "Techniques",
+            "C": "Step",
+            "D": "Description",
+            "E": "Hands-on",
+            "F": "User",
+            "G": "Source Endpoint",
+            "H": "Target Endpoint"
+          },
+          "step_technique_rows": [
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "11.A",
+              "technique_labels": "User Execution,\nNTFS File Attributes,\nVirtualization/Sandbox Evasion,\nSystem Information Discovery,\nPeripheral Device Discovery,\nSystem Owner/User Discovery,\nSystem Network Configuration Discovery,\nProcess Discovery,\nFile and Directory Discovery,\nRegistry Run Keys / Startup Folder,\nDeobfuscate/Decode Files or Information,\nPowerShell,\nCommonly Used Port,\nStandard Application Layer Protocol,\nStandard Cryptographic Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "12.A",
+              "technique_labels": "Timestomp,\nFile and Directory Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "12.B",
+              "technique_labels": "Security Software Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "12.C",
+              "technique_labels": "Query Registry",
+              "technique_ids": []
+            },
+            {
+              "step": "13.A",
+              "technique_labels": "System Information Discovery ",
+              "technique_ids": []
+            },
+            {
+              "step": "13.B",
+              "technique_labels": "Security Software Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "13.C",
+              "technique_labels": "System Owner/User Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "13.D",
+              "technique_labels": "Process Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "14.A",
+              "technique_labels": "Component Object Model Hijacking,\nBypass User Account Control ",
+              "technique_ids": []
+            },
+            {
+              "step": "14.B",
+              "technique_labels": "Windows Management Instrumentation,\nRemote File Copy,\nCredential Dumping,\nObfuscated Files or Information,\nProcess Discovery,\nDeobfuscate/Decode Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "15.A",
+              "technique_labels": "Windows Management Instrumentation Event Subscription,\nSystem Owner/User Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "16.A",
+              "technique_labels": "Remote System Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "16.B",
+              "technique_labels": "System Owner/User Discovery,\nExecution through API",
+              "technique_ids": []
+            },
+            {
+              "step": "16.C",
+              "technique_labels": "Valid Accounts,\nWindows Remote Management",
+              "technique_ids": []
+            },
+            {
+              "step": "16.D",
+              "technique_labels": "Remote File Copy,\nCredential Dumping",
+              "technique_ids": []
+            },
+            {
+              "step": "17.A",
+              "technique_labels": "Email Collection\n",
+              "technique_ids": []
+            },
+            {
+              "step": "17.B",
+              "technique_labels": "Data from Local System,\nData Staged",
+              "technique_ids": []
+            },
+            {
+              "step": "17.C",
+              "technique_labels": "Data Compressed,\nObfuscated Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "18.A",
+              "technique_labels": "Web Service,\nExfiltration Over Alternative Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "19.A",
+              "technique_labels": "File Deletion,\nProcess Injection",
+              "technique_ids": []
+            },
+            {
+              "step": "19.B",
+              "technique_labels": "File Deletion,\nProcess Injection",
+              "technique_ids": []
+            },
+            {
+              "step": "19.C",
+              "technique_labels": "File Deletion,\nProcess Injection",
+              "technique_ids": []
+            },
+            {
+              "step": "20.A",
+              "technique_labels": "Rundll32,\nWindows Management Instrumentation Event Subscription,\nPowerShell",
+              "technique_ids": []
+            },
+            {
+              "step": "20.B",
+              "technique_labels": "Pass the Ticket,\nWindows Remote Management,\nCreate Account",
+              "technique_ids": []
+            }
+          ]
+        }
+      ],
+      "unique_label_ids": [],
+      "direct_parent_id_intersection_216": [],
+      "direct_id_outside_216": [],
+      "official_xlsx_blob_sha1": "e2b95dc306967a6a2d9af033cf1fe7c3ad155c13",
+      "matches_fixed_official_blob": false,
+      "label_column_status": "TECHNIQUE_NAMES_PRESENT_NO_EXPLICIT_T_IDS_IN_LABEL_COLUMN; do not infer an authoritative crosswalk from names or description-body IDs"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_active_provenance_r38h_20261010/sources/apt29.xlsx",
+      "bytes": 25050,
+      "sha256": "62c10c747467ee9e018e64c57eb050a1f789fd511a5df03c9661ab6867db4c47",
+      "git_blob_sha1": "41cb7225de70b188f6a8c230331fef0f1b9bcd23",
+      "qualification": "EXPOSED_LOCAL_EMULATION_PLAN_NOT_MATCHED_TO_CURRENT_OFFICIAL_BLOB",
+      "sheets": [
+        {
+          "sheet_xml": "xl/worksheets/sheet1.xml",
+          "row_count": 32,
+          "headers": {
+            "A": "Stage",
+            "B": "Technique",
+            "C": "Step",
+            "D": "Description",
+            "E": "hands-on",
+            "F": "User",
+            "G": "Source",
+            "H": "Target"
+          },
+          "step_technique_rows": [
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "1.A",
+              "technique_labels": "User Execution, Masquerading, Uncommonly Used Port ",
+              "technique_ids": []
+            },
+            {
+              "step": "1.B ",
+              "technique_labels": "Command-Line Interface,\nPowerShell",
+              "technique_ids": []
+            },
+            {
+              "step": "2.A",
+              "technique_labels": "File and Directory Discovery,\nAutomated Collection, Data from Local System,\nData Compressed,\nData Staged",
+              "technique_ids": []
+            },
+            {
+              "step": "2.A",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "2.B",
+              "technique_labels": "Exfiltration Over Command and Control Channel",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "3.A",
+              "technique_labels": "Remote File Copy,\nObfuscated Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "3.B",
+              "technique_labels": "Component Object Model Hijacking,\nBypass User Account Control,\nCommonly Used Port,\nStandard Application Layer Protocol,\nStandard Cryptographic Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "3.C",
+              "technique_labels": "Modify Registry",
+              "technique_ids": []
+            },
+            {
+              "step": "4.A",
+              "technique_labels": "PowerShell,\nDeobfuscate/Decode Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "4.B",
+              "technique_labels": "Process Discovery,\nFile Deletion",
+              "technique_ids": []
+            },
+            {
+              "step": "4.C",
+              "technique_labels": "File and Directory Discovery,\nSystem Owner/User Discovery,\nSystem Information Discovery,\nSystem Network Configuration Discovery,\nProcess Discovery,\nSecurity Software Discovery,\nPermission Groups Discovery,\nExecution through API",
+              "technique_ids": []
+            },
+            {
+              "step": "5.A",
+              "technique_labels": "New Service ",
+              "technique_ids": []
+            },
+            {
+              "step": "5.B",
+              "technique_labels": "Registry Run Keys / Startup Folder ",
+              "technique_ids": []
+            },
+            {
+              "step": "6.A",
+              "technique_labels": "Credentials in Files,\nCredential Dumping,\nMasquerading",
+              "technique_ids": []
+            },
+            {
+              "step": "6.B",
+              "technique_labels": "Private Keys",
+              "technique_ids": []
+            },
+            {
+              "step": "6.C",
+              "technique_labels": "Credential Dumping",
+              "technique_ids": []
+            },
+            {
+              "step": "7.A",
+              "technique_labels": "Screen Capture,\nClipboard Data,\nInput Capture",
+              "technique_ids": []
+            },
+            {
+              "step": "7.B",
+              "technique_labels": "Data from Local System,\nData Compressed,\nData Encrypted,\nExfiltration Over Alternative Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "8.A",
+              "technique_labels": "Remote System Discovery,\nWindows Remote Management,\nProcess Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "8.B",
+              "technique_labels": "Software Packing",
+              "technique_ids": []
+            },
+            {
+              "step": "8.C",
+              "technique_labels": "Windows Admin Shares,\nService Execution,\nValid Accounts",
+              "technique_ids": []
+            },
+            {
+              "step": "9.A ",
+              "technique_labels": "Remote File Copy",
+              "technique_ids": []
+            },
+            {
+              "step": "9.B",
+              "technique_labels": "PowerShell,\nFile and Directory Discovery,\nAutomated Collection,\nData from Local System,\nData Encrypted,\nData Compressed,\nData Staged,\nExfiltration Over Command and Control Channel",
+              "technique_ids": []
+            },
+            {
+              "step": "9.C",
+              "technique_labels": "File Deletion",
+              "technique_ids": []
+            },
+            {
+              "step": "10.A",
+              "technique_labels": "Service Execution,\nRegistry Run Keys / Startup Folder ",
+              "technique_ids": []
+            },
+            {
+              "step": "10.B",
+              "technique_labels": "Registry Run Keys / Startup Folder ",
+              "technique_ids": []
+            }
+          ]
+        },
+        {
+          "sheet_xml": "xl/worksheets/sheet2.xml",
+          "row_count": 35,
+          "headers": {
+            "A": "Stage",
+            "B": "Techniques",
+            "C": "Step",
+            "D": "Description",
+            "E": "Hands-on",
+            "F": "User",
+            "G": "Source Endpoint",
+            "H": "Target Endpoint"
+          },
+          "step_technique_rows": [
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "11.A",
+              "technique_labels": "User Execution,\nNTFS File Attributes,\nVirtualization/Sandbox Evasion,\nSystem Information Discovery,\nPeripheral Device Discovery,\nSystem Owner/User Discovery,\nSystem Network Configuration Discovery,\nProcess Discovery,\nFile and Directory Discovery,\nRegistry Run Keys / Startup Folder,\nDeobfuscate/Decode Files or Information,\nPowerShell,\nCommonly Used Port,\nStandard Application Layer Protocol,\nStandard Cryptographic Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "0",
+              "technique_labels": "",
+              "technique_ids": []
+            },
+            {
+              "step": "12.A",
+              "technique_labels": "Timestomp,\nFile and Directory Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "12.B",
+              "technique_labels": "Security Software Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "12.C",
+              "technique_labels": "Query Registry",
+              "technique_ids": []
+            },
+            {
+              "step": "13.A",
+              "technique_labels": "System Information Discovery ",
+              "technique_ids": []
+            },
+            {
+              "step": "13.B",
+              "technique_labels": "Security Software Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "13.C",
+              "technique_labels": "System Owner/User Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "13.D",
+              "technique_labels": "Process Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "14.A",
+              "technique_labels": "Component Object Model Hijacking,\nBypass User Account Control ",
+              "technique_ids": []
+            },
+            {
+              "step": "14.B",
+              "technique_labels": "Windows Management Instrumentation,\nRemote File Copy,\nCredential Dumping,\nObfuscated Files or Information,\nProcess Discovery,\nDeobfuscate/Decode Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "15.A",
+              "technique_labels": "Windows Management Instrumentation Event Subscription,\nSystem Owner/User Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "16.A",
+              "technique_labels": "Remote System Discovery",
+              "technique_ids": []
+            },
+            {
+              "step": "16.B",
+              "technique_labels": "System Owner/User Discovery,\nExecution through API",
+              "technique_ids": []
+            },
+            {
+              "step": "16.C",
+              "technique_labels": "Valid Accounts,\nWindows Remote Management",
+              "technique_ids": []
+            },
+            {
+              "step": "16.D",
+              "technique_labels": "Remote File Copy,\nCredential Dumping",
+              "technique_ids": []
+            },
+            {
+              "step": "17.A",
+              "technique_labels": "Email Collection\n",
+              "technique_ids": []
+            },
+            {
+              "step": "17.B",
+              "technique_labels": "Data from Local System,\nData Staged",
+              "technique_ids": []
+            },
+            {
+              "step": "17.C",
+              "technique_labels": "Data Compressed,\nObfuscated Files or Information",
+              "technique_ids": []
+            },
+            {
+              "step": "18.A",
+              "technique_labels": "Web Service,\nExfiltration Over Alternative Protocol",
+              "technique_ids": []
+            },
+            {
+              "step": "19.A",
+              "technique_labels": "File Deletion,\nProcess Injection",
+              "technique_ids": []
+            },
+            {
+              "step": "19.B",
+              "technique_labels": "File Deletion,\nProcess Injection",
+              "technique_ids": []
+            },
+            {
+              "step": "19.C",
+              "technique_labels": "File Deletion,\nProcess Injection",
+              "technique_ids": []
+            },
+            {
+              "step": "20.A",
+              "technique_labels": "Rundll32,\nWindows Management Instrumentation Event Subscription,\nPowerShell",
+              "technique_ids": []
+            },
+            {
+              "step": "20.B",
+              "technique_labels": "Pass the Ticket,\nWindows Remote Management,\nCreate Account",
+              "technique_ids": []
+            }
+          ]
+        }
+      ],
+      "unique_label_ids": [],
+      "direct_parent_id_intersection_216": [],
+      "direct_id_outside_216": [],
+      "official_xlsx_blob_sha1": "e2b95dc306967a6a2d9af033cf1fe7c3ad155c13",
+      "matches_fixed_official_blob": false,
+      "label_column_status": "TECHNIQUE_NAMES_PRESENT_NO_EXPLICIT_T_IDS_IN_LABEL_COLUMN; do not infer an authoritative crosswalk from names or description-body IDs"
+    }
+  ],
+  "splunk_exact_source_label": "T1003.003",
+  "splunk_parent_candidate": "T1003",
+  "splunk_parent_in_216": true,
+  "splunk_label_unit": "DATASET_BAG_NOT_EVENT",
+  "external_test_status": "EXTERNAL_TEST_NOT_READY",
+  "saved_public_metadata_receipts": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/OTRF_Security-Datasets_ref.json",
+      "bytes": 356,
+      "sha256": "af0dd019c20ec4ef3f478d4dd30d8c88b0adddd478d636c96dfefed995bdc408"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_day1_directory.json",
+      "bytes": 4274,
+      "sha256": "5f6502cea4da9a0cd08b9d2fa73214c074115e5e2bb0231767d8f14d614b9034"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_day1_metadata.txt",
+      "bytes": 3952,
+      "sha256": "f7c1e70e4e850c9a0d7b81f438e6344cc55df8a8af585732a80789cabf0528bd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_license.txt",
+      "bytes": 1083,
+      "sha256": "fce88163b60d67ecabd317b75f7638233e11cbe648fe608ebbf6c10161564686"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/otrf_plan_directory.json",
+      "bytes": 1188,
+      "sha256": "8f280d3fe2510970c23f3a53c3ee48a48e3f1bc2bb267f7f5cfd28b1fb7ba703"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_attack_data_ref.json",
+      "bytes": 348,
+      "sha256": "a9db702f8b0c7e505f405575582e6b906d48960edcc9cc32484f8d1ae8b4d5a2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_directory.json",
+      "bytes": 11895,
+      "sha256": "98650d2400a901b597ee6b63eee7d9f13f87827c67312def9079315f091e2dcd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_falcon_pointer.txt",
+      "bytes": 130,
+      "sha256": "024996eeb06a5a3943a5564b6505b48dc64097a916df49c5c865199cd22d6a80"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_license.txt",
+      "bytes": 11344,
+      "sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_security_pointer.txt",
+      "bytes": 130,
+      "sha256": "06126201367df42134ac4dffce205b7b6f00dfdcb34a98f9ba71ed0da16a6c47"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_sysmon_pointer.txt",
+      "bytes": 133,
+      "sha256": "1002df7512e9df20132bde0ca5b526ae863cf19a81b2f913e9a522d569f305de"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/splunk_yaml.yml",
+      "bytes": 1259,
+      "sha256": "eebac0c9661cabf3b1bf36f200880516e19db43a1c3680ef17e6db43c78ac4f8"
+    }
+  ]
+}

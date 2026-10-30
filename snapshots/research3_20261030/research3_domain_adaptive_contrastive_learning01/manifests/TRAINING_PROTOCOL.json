@@ -1,0 +1,102 @@
+{
+  "task": "R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+  "split_file_sha256": "879bac94d85a5106a36345b9d9ce3f85f0b383978d8a6b914bb2cec1374bd96d",
+  "input": "same RAW UTF8<=2000bytes and K2_16_1<=1000bytes from last frozen experiment; no new facts",
+  "candidate_count": 216,
+  "outer_protocol": "LOSO7 with exact/normalized full-window purge",
+  "inner_protocol": "cyclic next scenario, fixed hyperparameters; no early stopping or selection on validation/heldout",
+  "primary_metric": "MRR@10",
+  "auxiliary_metric": "Top10 Accuracy",
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "augmentation": [
+    "ONE_VIEW_PER_STEP",
+    "MULTI_VIEW_AUGMENTATION"
+  ],
+  "augmentation_schedule": "r0 vs(epoch_zero_based+seed)%5; one sample per logical step per full-batch update;120updates each",
+  "epochs": 120,
+  "batch": "one view for every training logical step, full batch; fold-specific count",
+  "CPU_threads": 2,
+  "total_local_wall_cap_seconds": 5400,
+  "max_local_disk_bytes": 2000000000,
+  "B2_B3": {
+    "loss": "class-balanced multi-label OVR logistic BCE; train seen classes only, unseen=-1e6 ranking slots retained",
+    "learning_rate": 0.03,
+    "optimizer": "Adam",
+    "weight_decay": 0.001,
+    "init": "W Normal(0,.001), b0",
+    "B2_features": "train r0-only vocabulary char3,4,5 min_df2 max2048; train-only smoothed IDF and sublinear TF,L2normalize; same vectorizer for both augmentation modes"
+  },
+  "B4_B9": {
+    "backbone": "frozen official GTE, authentic768 vectors required",
+    "projection_dim": 32,
+    "trainable_parameters": 49152,
+    "projection": "two separate linear768x32 heads,normalize,initial W_T=W_L random seeded",
+    "learning_rate": 0.005,
+    "optimizer": "Adam",
+    "weight_decay": 0.001,
+    "temperature": 0.1,
+    "checkpoint": "final epoch120 only, no early stopping",
+    "B4_loss": "balanced sigmoid BCE: half positive mean plus half unlabeled-complement mean",
+    "B5_loss": "full216 multi-positive crossentropy: average negative log-softmax over all known positives",
+    "B6_loss": "same multi-positive crossentropy with32uniform sampled unlabeled, static per-step seeded pool",
+    "B7_loss": "same32, public frozen knowledge cosine closest to any training positive, all positive IDs masked",
+    "B8_loss": "same32, high scored training-step candidates from B5 checkpoint trained on same legal train split, positives masked",
+    "B9_loss": "same candidate pools as B8, weight negative=1-.75*max_train_cooccurrence_fraction_with_any_positive, computed unique training steps only; reliability is risk proxy not certified truth",
+    "B9_CONST_control": "identical B8 pools and architecture, all negative weights.5; separates variable risk from uniform downweight",
+    "additional_mining_cost": "B8/B9 use existing B5 trained-only checkpoint; mining time separately reported; optimization update budget matched, total pipeline cost not claimed equal"
+  },
+  "equivalent_IDs": "normalize frozen parent IDs; candidate216 has no distinct known equivalent alias declared, no heuristic co-occurrence merging",
+  "weak_negative_status": "UNLABELED_CANDIDATE or SEMANTIC_HARD_UNLABELED; ZERO evidence-certified negatives",
+  "scope": {
+    "new_GPU_training": false,
+    "new_GTE_features": "PENDING_NEW_EXPLICIT_AUTHORIZATION",
+    "Gold_server_upload": false,
+    "LLM_calls": 0,
+    "LoRA_B10": "NOT_AUTHORIZED_NOT_EXECUTED",
+    "DAPT": "NOT_STARTED"
+  },
+  "primary_hypotheses": [
+    {
+      "name": "H1",
+      "contrast": [
+        "B4",
+        "B1"
+      ]
+    },
+    {
+      "name": "H2",
+      "contrast": [
+        "B5",
+        "B4"
+      ]
+    },
+    {
+      "name": "H3",
+      "contrast": [
+        "B7",
+        "B6"
+      ]
+    },
+    {
+      "name": "H4",
+      "contrast": [
+        "B9",
+        "B8"
+      ]
+    }
+  ],
+  "primary_reporting": "MRR per scene/fold/seed, equal-scene mean and query-weighted summaries; paired scene effect signs and ranges, no confirmatory p-values with7 exposed dependent scenarios; seed averages not independent attacks",
+  "diagnostic_contrasts": [
+    "B8vsB7",
+    "B9vsB7",
+    "B9vsB9_CONST",
+    "B5vsB3",
+    "ONEvsMULTI"
+  ],
+  "hyperparameter_search": false,
+  "external_test": "NOT_READY"
+}

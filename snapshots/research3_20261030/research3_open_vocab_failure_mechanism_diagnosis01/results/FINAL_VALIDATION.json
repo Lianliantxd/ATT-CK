@@ -1,0 +1,45 @@
+{
+  "status": "PASS_OFFLINE_DIAGNOSIS_FOR_RECEIVED_SCOPE_WITH_DOCUMENTED_LIMITATIONS",
+  "scientific_qualification": "DEVELOPMENT_ONLY",
+  "request_tail_received": false,
+  "root_artifacts": 18,
+  "new_model_calls": 0,
+  "new_training": 0,
+  "new_search": 0,
+  "server_access": false,
+  "candidate_comparison_rows": 1263600,
+  "query_rows": 5850,
+  "unseen_gold_rows": 3630,
+  "primary_query_partition": {
+    "retained": 34,
+    "lost": 32,
+    "original_cross_group_block_candidate": 35,
+    "within_unseen_order_obstruction": 349
+  },
+  "counterfactuals_are_not_new_model_results": true,
+  "all_scores_and_sets_independently_verified": true,
+  "Gold_used_only_for_explicit_posterior_diagnosis": true,
+  "historical_Gold_preflight_timing_deviation_disclosed": true,
+  "parent_recheck": [
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01",
+      "files_checked": 211,
+      "no_changes_since_diagnosis_started": true
+    },
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01",
+      "files_checked": 1938,
+      "no_changes_since_diagnosis_started": true
+    }
+  ],
+  "historical_narrative_whitespace_drift_preserved": 1,
+  "python_AST_files": 11,
+  "scientific_figure_formats_verified": 9,
+  "evidence_cards": 384,
+  "semantic_cause_status": "UNRESOLVED",
+  "delivery_files": 59,
+  "delivery_manifest_sha256": "aad9f0b978c37b74bdacc9fae2060b7dd83746d3a87c68fedd965af82a5f158f",
+  "total_new_disk_bytes": 81087673,
+  "validator_sha256": "ff7056f2421b8c3284164e9705c07050d98acb773fcc0495ff529b7aba12c9cd",
+  "seconds": 5.805048125001122
+}

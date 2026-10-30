@@ -1,0 +1,1478 @@
+{
+  "selection_rule": "ascending sample_id; at most first two/category; parent-normalized Top10; repeated replicas retained",
+  "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+  "n_candidates": 216,
+  "cases": [
+    {
+      "category": "candidate_only",
+      "sample_id": "1-32-r2",
+      "ground_truth_original": [
+        "T1053"
+      ],
+      "ground_truth_parent": [
+        "T1053"
+      ],
+      "candidate_top10": [
+        "T1562",
+        "T1559",
+        "T1546",
+        "T1505",
+        "T1036",
+        "T1543",
+        "T1053",
+        "T1556",
+        "T1003",
+        "T1499"
+      ],
+      "rrf_top10": [
+        "T1562",
+        "T1505",
+        "T1543",
+        "T1556",
+        "T1546",
+        "T1036",
+        "T1559",
+        "T1110",
+        "T1003",
+        "T1563"
+      ],
+      "candidate_parent_recall10": 1.0,
+      "native_traces": [
+        {
+          "technique_id": "T1562",
+          "candidate_rank": 1,
+          "rrf_rank": 1,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L0",
+            "text_hash": "c9076f73cdb61caff8534f9628e666999e4de5a0f64fa88e662285f3a9faabb4",
+            "text": "{\"timestamp\":\"2025-09-24T08:15:02.920+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET HUNTING curl User-Agent to Dotted Quad\",\"id\":\"86601\",\"firedtimes\":10,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"001\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1758701702.10733608\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-09-24T08:15:01.314825+0000\",\"flow_id\":\"571684449271773.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"172.17.100.121\",\"src_port\":\"58180\",\"dest_ip\":\"192.42.1.174\",\"dest_port\":\"80\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\"]},\"community_id\":\"1:R9Hzc268Vb8dAXpXgL2SaJ8vfAE=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2034567\",\"rev\":\"1\",\"signature\":\"ET HUNTING curl User-Agent to Dotted Quad\",\"category\":\"Potentially Bad Traffic\",\"severity\":\"2\",\"metadata\":{\"attack_target\":[\"Client_Endpoint\"],\"confidence\":[\"Medium\"],\"created_at\":[\"2021_12_01\"],\"deployment\":[\"Perimeter\"],\"signature_severity\":[\"Informational\"],\"tag\":[\"Description_Generated_By_Proofpoint_Nexus\"],\"updated_at\":[\"2021_12_01\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/TODO.md\",\"http_user_agent\":\"curl/7.74.0\",\"http_content_type\":\"text/markdown\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"525\"},\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"4\",\"pkts_toclient\":\"3\",\"bytes_toserver\":\"355\",\"bytes_toclient\":\"964\",\"start\":\"2025-09-24T08:15:01.311261+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1562",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "rule": 3.083992406875962,
+              "level": 0.5791364201216035,
+              "user": 1.2391743070826091,
+              "to": 0.16272322314495796,
+              "mail": 1.0285082416163818,
+              "false": 1.264152602429155,
+              "groups": 2.1127187638631737,
+              "name": 1.7645196573626973,
+              "ip": 1.2787130714138706,
+              "data": 1.115124421046146,
+              "tcp": 1.1274023808081026,
+              "http": 0.8502429694272132,
+              "action": 0.8872347012563228,
+              "allowed": 1.8503923398185413,
+              "signature": 1.000775099971374,
+              "category": 4.174282507371437,
+              "potentially": 1.3881211307151002,
+              "traffic": 1.714286663965192,
+              "medium": 1.0285082416163818,
+              "text": 0.950992211787502,
+              "protocol": 0.6138961659073058,
+              "status": 3.900140529412493,
+              "flow": 1.000775099971374,
+              "start": 4.183201963932025,
+              "log": 2.8138225148468043
+            },
+            "line_score": 41.112837635763725,
+            "fusion_contribution": 0.06087684016814405
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Safe Mode Boot defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Indicator Blocking defense-evasion Disable or Modify Cloud Firewall defense-evasion Downgrade Attack defense-evasion Impair Command History Logging defense-evasion Disable or Modify Network Device Firewall defense-evasion Disable or Modify Tools defense-evasion Spoof Security Alerting defense-evasion Disable or Modify Cloud Logs defense-evasion Safe Mode Boot Adversaries may abuse Wind",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "start",
+              "context": "s may abuse Windows safe mode to disable endpoint defenses. Safe mode starts up the Windows operating system with a limited set of drivers and services. Third-party security software such as endpoint "
+            },
+            {
+              "token": "category",
+              "context": "r the audit policy. To enable or disable a specified setting or audit category, adversaries may use the <code>/success</code> or <code>/failure</code> parameters. For example, <code>auditpol /set /cat"
+            },
+            {
+              "token": "status",
+              "context": "g service may be disabled using the <code>Set-Service -Name EventLog -Status Stopped</code> or <code>sc config eventlog start=disabled</code> commands (followed by manually stopping the service using "
+            },
+            {
+              "token": "rule",
+              "context": "entire mechanism as well as adding, deleting, or modifying particular rules. This can be done numerous ways depending on the operating system, including via command-line, editing Windows Registry keys"
+            },
+            {
+              "token": "log",
+              "context": "defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Ind"
+            },
+            {
+              "token": "groups",
+              "context": "562/004). \n\nCloud environments typically utilize restrictive security groups and firewall rules that only allow network activity from trusted IP addresses via expected ports and protocols. An adversar"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1053",
+          "candidate_rank": 7,
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "videoserver/logs/log/audit/audit.log",
+            "source_type": "audit",
+            "line_id": "L6",
+            "text_hash": "ac3a4b53fcf7e3e065838f879856cfa2f6a48f09f435078c7378583bc60215c2",
+            "text": "type=SYSCALL msg=audit(1758701761.916:13680): arch=c000003e syscall=257 success=yes exit=7 a0=ffffff9c a1=7fed92e5b176 a2=80000 a3=0 items=1 ppid=541 pid=17412 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\"cron\" exe=\"/usr/sbin/cron\" subj==unconfined\nARCH=x86_64 SYSCALL=openat AUID=\"unset\" UID=\"root\" GID=\"root\" EUID=\"root\" SUID=\"root\" FSUID=\"root\" EGID=\"root\" SGID=\"root\" FSGID=\"root\"",
+            "knowledge_id": "T1053",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "type": 1.4710012192510158,
+              "arch": 6.292467481304507,
+              "cron": 7.552607290246963,
+              "usr": 2.232162441813697,
+              "root": 1.44207400980539
+            },
+            "line_score": 18.990312442421573,
+            "fusion_contribution": 0.03761703148249376
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Scheduled Task execution persistence privilege-escalation Container Orchestration Job execution persistence privilege-escalation Cron execution persistence privilege-escalation Scheduled Task/Job execution persistence privilege-escalation Systemd Timers execution persistence privilege-escalation At execution persistence privilege-escalation Scheduled Task Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. There are multiple ways to access the Task Scheduler in Windows. The [schtasks](https://attack.mitre.org/softwar",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "cron",
+              "context": "ontainer Orchestration Job execution persistence privilege-escalation Cron execution persistence privilege-escalation Scheduled Task/Job execution persistence privilege-escalation Systemd Timers execu"
+            },
+            {
+              "token": "arch",
+              "context": "tack.mitre.org/techniques/T1053/003) in Linux environments.(Citation: archlinux Systemd Timers Aug 2020) Systemd timers may be activated remotely via the <code>systemctl</code> command line utility, w"
+            },
+            {
+              "token": "usr",
+              "context": "ed timers are written to <code>/etc/systemd/system/</code> and <code>/usr/lib/systemd/system</code> while user level are written to <code>~/.config/systemd/user/</code>.\n\nAn adversary may use systemd "
+            },
+            {
+              "token": "type",
+              "context": "and time, similar to cron jobs on a Linux system. Deployments of this type can also be configured to maintain a quantity of containers over time, automating the process of maintaining persistence with"
+            },
+            {
+              "token": "root",
+              "context": "2018) Timers installed using privileged paths may be used to maintain root level persistence. Adversaries may also install user level timers to achieve user level persistence.(Citation: Falcon Sandbox"
+            }
+          ]
+        }
+      ],
+      "interpretation": "Observed: native Suricata alert contains curl User-Agent and HTTP GET /TODO.md. Candidate top1 is T1562, not scheduled-task T1053; T1053 enters rank 7. The top1 lexical trace has high category/start/status/rule contributions. Reasonable inference: alert-envelope vocabulary can favor the long impairment description. A Top10 hit alone does not establish a task-scheduling evidence chain."
+    },
+    {
+      "category": "candidate_only",
+      "sample_id": "1-32-r3",
+      "ground_truth_original": [
+        "T1053"
+      ],
+      "ground_truth_parent": [
+        "T1053"
+      ],
+      "candidate_top10": [
+        "T1562",
+        "T1559",
+        "T1546",
+        "T1505",
+        "T1036",
+        "T1543",
+        "T1053",
+        "T1556",
+        "T1003",
+        "T1499"
+      ],
+      "rrf_top10": [
+        "T1562",
+        "T1505",
+        "T1543",
+        "T1556",
+        "T1546",
+        "T1036",
+        "T1559",
+        "T1110",
+        "T1003",
+        "T1563"
+      ],
+      "candidate_parent_recall10": 1.0,
+      "native_traces": [
+        {
+          "technique_id": "T1562",
+          "candidate_rank": 1,
+          "rrf_rank": 1,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L0",
+            "text_hash": "c9076f73cdb61caff8534f9628e666999e4de5a0f64fa88e662285f3a9faabb4",
+            "text": "{\"timestamp\":\"2025-09-24T08:15:02.920+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET HUNTING curl User-Agent to Dotted Quad\",\"id\":\"86601\",\"firedtimes\":10,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"001\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1758701702.10733608\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-09-24T08:15:01.314825+0000\",\"flow_id\":\"571684449271773.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"172.17.100.121\",\"src_port\":\"58180\",\"dest_ip\":\"192.42.1.174\",\"dest_port\":\"80\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\"]},\"community_id\":\"1:R9Hzc268Vb8dAXpXgL2SaJ8vfAE=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2034567\",\"rev\":\"1\",\"signature\":\"ET HUNTING curl User-Agent to Dotted Quad\",\"category\":\"Potentially Bad Traffic\",\"severity\":\"2\",\"metadata\":{\"attack_target\":[\"Client_Endpoint\"],\"confidence\":[\"Medium\"],\"created_at\":[\"2021_12_01\"],\"deployment\":[\"Perimeter\"],\"signature_severity\":[\"Informational\"],\"tag\":[\"Description_Generated_By_Proofpoint_Nexus\"],\"updated_at\":[\"2021_12_01\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/TODO.md\",\"http_user_agent\":\"curl/7.74.0\",\"http_content_type\":\"text/markdown\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"525\"},\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"4\",\"pkts_toclient\":\"3\",\"bytes_toserver\":\"355\",\"bytes_toclient\":\"964\",\"start\":\"2025-09-24T08:15:01.311261+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1562",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "rule": 3.083992406875962,
+              "level": 0.5791364201216035,
+              "user": 1.2391743070826091,
+              "to": 0.16272322314495796,
+              "mail": 1.0285082416163818,
+              "false": 1.264152602429155,
+              "groups": 2.1127187638631737,
+              "name": 1.7645196573626973,
+              "ip": 1.2787130714138706,
+              "data": 1.115124421046146,
+              "tcp": 1.1274023808081026,
+              "http": 0.8502429694272132,
+              "action": 0.8872347012563228,
+              "allowed": 1.8503923398185413,
+              "signature": 1.000775099971374,
+              "category": 4.174282507371437,
+              "potentially": 1.3881211307151002,
+              "traffic": 1.714286663965192,
+              "medium": 1.0285082416163818,
+              "text": 0.950992211787502,
+              "protocol": 0.6138961659073058,
+              "status": 3.900140529412493,
+              "flow": 1.000775099971374,
+              "start": 4.183201963932025,
+              "log": 2.8138225148468043
+            },
+            "line_score": 41.112837635763725,
+            "fusion_contribution": 0.06087684016814405
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Safe Mode Boot defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Indicator Blocking defense-evasion Disable or Modify Cloud Firewall defense-evasion Downgrade Attack defense-evasion Impair Command History Logging defense-evasion Disable or Modify Network Device Firewall defense-evasion Disable or Modify Tools defense-evasion Spoof Security Alerting defense-evasion Disable or Modify Cloud Logs defense-evasion Safe Mode Boot Adversaries may abuse Wind",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "start",
+              "context": "s may abuse Windows safe mode to disable endpoint defenses. Safe mode starts up the Windows operating system with a limited set of drivers and services. Third-party security software such as endpoint "
+            },
+            {
+              "token": "category",
+              "context": "r the audit policy. To enable or disable a specified setting or audit category, adversaries may use the <code>/success</code> or <code>/failure</code> parameters. For example, <code>auditpol /set /cat"
+            },
+            {
+              "token": "status",
+              "context": "g service may be disabled using the <code>Set-Service -Name EventLog -Status Stopped</code> or <code>sc config eventlog start=disabled</code> commands (followed by manually stopping the service using "
+            },
+            {
+              "token": "rule",
+              "context": "entire mechanism as well as adding, deleting, or modifying particular rules. This can be done numerous ways depending on the operating system, including via command-line, editing Windows Registry keys"
+            },
+            {
+              "token": "log",
+              "context": "defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Ind"
+            },
+            {
+              "token": "groups",
+              "context": "562/004). \n\nCloud environments typically utilize restrictive security groups and firewall rules that only allow network activity from trusted IP addresses via expected ports and protocols. An adversar"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1053",
+          "candidate_rank": 7,
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "videoserver/logs/log/audit/audit.log",
+            "source_type": "audit",
+            "line_id": "L6",
+            "text_hash": "ac3a4b53fcf7e3e065838f879856cfa2f6a48f09f435078c7378583bc60215c2",
+            "text": "type=SYSCALL msg=audit(1758701761.916:13680): arch=c000003e syscall=257 success=yes exit=7 a0=ffffff9c a1=7fed92e5b176 a2=80000 a3=0 items=1 ppid=541 pid=17412 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm=\"cron\" exe=\"/usr/sbin/cron\" subj==unconfined\nARCH=x86_64 SYSCALL=openat AUID=\"unset\" UID=\"root\" GID=\"root\" EUID=\"root\" SUID=\"root\" FSUID=\"root\" EGID=\"root\" SGID=\"root\" FSGID=\"root\"",
+            "knowledge_id": "T1053",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "type": 1.4710012192510158,
+              "arch": 6.292467481304507,
+              "cron": 7.552607290246963,
+              "usr": 2.232162441813697,
+              "root": 1.44207400980539
+            },
+            "line_score": 18.990312442421573,
+            "fusion_contribution": 0.03761703148249376
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Scheduled Task execution persistence privilege-escalation Container Orchestration Job execution persistence privilege-escalation Cron execution persistence privilege-escalation Scheduled Task/Job execution persistence privilege-escalation Systemd Timers execution persistence privilege-escalation At execution persistence privilege-escalation Scheduled Task Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code. There are multiple ways to access the Task Scheduler in Windows. The [schtasks](https://attack.mitre.org/softwar",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "cron",
+              "context": "ontainer Orchestration Job execution persistence privilege-escalation Cron execution persistence privilege-escalation Scheduled Task/Job execution persistence privilege-escalation Systemd Timers execu"
+            },
+            {
+              "token": "arch",
+              "context": "tack.mitre.org/techniques/T1053/003) in Linux environments.(Citation: archlinux Systemd Timers Aug 2020) Systemd timers may be activated remotely via the <code>systemctl</code> command line utility, w"
+            },
+            {
+              "token": "usr",
+              "context": "ed timers are written to <code>/etc/systemd/system/</code> and <code>/usr/lib/systemd/system</code> while user level are written to <code>~/.config/systemd/user/</code>.\n\nAn adversary may use systemd "
+            },
+            {
+              "token": "type",
+              "context": "and time, similar to cron jobs on a Linux system. Deployments of this type can also be configured to maintain a quantity of containers over time, automating the process of maintaining persistence with"
+            },
+            {
+              "token": "root",
+              "context": "2018) Timers installed using privileged paths may be used to maintain root level persistence. Adversaries may also install user level timers to achieve user level persistence.(Citation: Falcon Sandbox"
+            }
+          ]
+        }
+      ],
+      "interpretation": "Observed: native Suricata alert contains curl User-Agent and HTTP GET /TODO.md. Candidate top1 is T1562, not scheduled-task T1053; T1053 enters rank 7. The top1 lexical trace has high category/start/status/rule contributions. Reasonable inference: alert-envelope vocabulary can favor the long impairment description. A Top10 hit alone does not establish a task-scheduling evidence chain."
+    },
+    {
+      "category": "rrf_only",
+      "sample_id": "1-29-r0",
+      "ground_truth_original": [
+        "T1105",
+        "T1556.003"
+      ],
+      "ground_truth_parent": [
+        "T1105",
+        "T1556"
+      ],
+      "candidate_top10": [
+        "T1562",
+        "T1036",
+        "T1546",
+        "T1027",
+        "T1559",
+        "T1553",
+        "T1110",
+        "T1003",
+        "T1548",
+        "T1543"
+      ],
+      "rrf_top10": [
+        "T1562",
+        "T1036",
+        "T1546",
+        "T1027",
+        "T1543",
+        "T1553",
+        "T1574",
+        "T1556",
+        "T1003",
+        "T1559"
+      ],
+      "candidate_parent_recall10": 0.0,
+      "native_traces": [
+        {
+          "technique_id": "T1562",
+          "candidate_rank": 1,
+          "rrf_rank": 1,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "b5be558ce31d8ca65a561b73bf464af0566f9228ab8ab0e2b516edf12f5277a4",
+            "text": "{\"timestamp\":\"2025-09-24T09:32:42.572+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":736,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"001\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1758706362.11380113\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-09-24T09:32:41.754640+0000\",\"flow_id\":\"900228277956940.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"50990\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:g+4iCiKcppMnNbx6GCofzL0lLb0=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"69235\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":69235,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"11\",\"pkts_toclient\":\"53\",\"bytes_toserver\":\"870\",\"bytes_toclient\":\"74396\",\"start\":\"2025-09-24T09:32:41.749900+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1562",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "rule": 3.083992406875962,
+              "level": 0.5791364201216035,
+              "policy": 3.2252363466882517,
+              "and": 0.24974526748491852,
+              "file": 1.7141423529230941,
+              "http": 0.8502429694272132,
+              "mail": 1.0285082416163818,
+              "false": 1.264152602429155,
+              "groups": 2.1127187638631737,
+              "name": 1.7645196573626973,
+              "ip": 1.2787130714138706,
+              "data": 1.115124421046146,
+              "tcp": 1.1274023808081026,
+              "action": 0.8872347012563228,
+              "allowed": 1.8503923398185413,
+              "signature": 1.000775099971374,
+              "category": 4.174282507371437,
+              "potential": 0.7577332038287737,
+              "so": 1.256989884023007,
+              "protocol": 0.6138961659073058,
+              "status": 3.900140529412493,
+              "files": 1.259825194926417,
+              "stored": 0.6626668259125323,
+              "size": 1.1274023808081026,
+              "flow": 1.000775099971374,
+              "start": 4.183201963932025,
+              "log": 2.8138225148468043
+            },
+            "line_score": 44.88277331404708,
+            "fusion_contribution": 0.054149471461824854
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Safe Mode Boot defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Indicator Blocking defense-evasion Disable or Modify Cloud Firewall defense-evasion Downgrade Attack defense-evasion Impair Command History Logging defense-evasion Disable or Modify Network Device Firewall defense-evasion Disable or Modify Tools defense-evasion Spoof Security Alerting defense-evasion Disable or Modify Cloud Logs defense-evasion Safe Mode Boot Adversaries may abuse Wind",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "start",
+              "context": "s may abuse Windows safe mode to disable endpoint defenses. Safe mode starts up the Windows operating system with a limited set of drivers and services. Third-party security software such as endpoint "
+            },
+            {
+              "token": "category",
+              "context": "r the audit policy. To enable or disable a specified setting or audit category, adversaries may use the <code>/success</code> or <code>/failure</code> parameters. For example, <code>auditpol /set /cat"
+            },
+            {
+              "token": "status",
+              "context": "g service may be disabled using the <code>Set-Service -Name EventLog -Status Stopped</code> or <code>sc config eventlog start=disabled</code> commands (followed by manually stopping the service using "
+            },
+            {
+              "token": "policy",
+              "context": "t, the service automatically starts when a system powers on. An audit policy, maintained by the Local Security Policy (secpol.msc), defines which system events the EventLog service logs. Security audi"
+            },
+            {
+              "token": "rule",
+              "context": "entire mechanism as well as adding, deleting, or modifying particular rules. This can be done numerous ways depending on the operating system, including via command-line, editing Windows Registry keys"
+            },
+            {
+              "token": "log",
+              "context": "defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Ind"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1105",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "videoserver/logs/log/audit/audit.log",
+            "source_type": "audit",
+            "line_id": "L0",
+            "text_hash": "0ba072999ed6272a23c313e04265b3bc7254965240d281f83394c449cfc346dd",
+            "text": "type=PATH msg=audit(1758706361.442:13750): item=0 name=\"/usr/bin/wget\" inode=19049 dev=fe:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0\nOUID=\"root\" OGID=\"root\"",
+            "knowledge_id": "T1105",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "wget": 6.371290213094355
+            },
+            "line_score": 6.371290213094355,
+            "fusion_contribution": 0.026312497155776174
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Ingress Tool Transfer command-and-control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.org/software/S0095). Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. [Lateral Tool Transfer](https://attack.mitre.org/techniques/T1570)). \n\nOn Windows, adversari",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "wget",
+              "context": "exist, such as `curl`, `scp`, `sftp`, `tftp`, `rsync`, `finger`, and `wget`.(Citation: t1105_lolbas)\n\nAdversaries may also abuse installers and package managers, such as `yum` or `winget`, to download"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1556",
+          "candidate_rank": ">10",
+          "rrf_rank": 8,
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "b5be558ce31d8ca65a561b73bf464af0566f9228ab8ab0e2b516edf12f5277a4",
+            "text": "{\"timestamp\":\"2025-09-24T09:32:42.572+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":736,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"001\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1758706362.11380113\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-09-24T09:32:41.754640+0000\",\"flow_id\":\"900228277956940.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"50990\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:g+4iCiKcppMnNbx6GCofzL0lLb0=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"69235\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":69235,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"11\",\"pkts_toclient\":\"53\",\"bytes_toserver\":\"870\",\"bytes_toclient\":\"74396\",\"start\":\"2025-09-24T09:32:41.749900+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1556",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "level": 0.7868011145676298,
+              "policy": 2.641343475026679,
+              "executable": 1.088257205278073,
+              "and": 0.25077781585689674,
+              "file": 0.8644523505202186,
+              "id": 4.79519844255895,
+              "false": 1.7174479829225406,
+              "groups": 1.2325813613300567,
+              "agent": 2.855549981722559,
+              "ip": 2.142381968276939,
+              "manager": 2.719184562086555,
+              "data": 0.3624391261587644,
+              "potential": 1.7217183431773675,
+              "pam_unix": 5.249837091643741,
+              "so": 2.1059864969236757,
+              "protocol": 1.3948924031679455,
+              "status": 1.8974739372074956,
+              "files": 0.9829460250732851,
+              "log": 1.205376190440544
+            },
+            "line_score": 36.01464587393991,
+            "fusion_contribution": 0.03691091020959512
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Pluggable Authentication Modules credential-access defense-evasion persistence Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi-Factor Authentication credential-access defense-evasion persistence Conditional Access Policies credential-access defense-evasion persistence Domain Controller Authentication credential-access defense-evasion persistence Reversible Encryption credential-access defense-evasion persistence Modify Authentication Process c",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "pam_unix",
+              "context": "ion for many services. The most common authentication module is <code>pam_unix.so</code>, which retrieves, sets, and verifies account authentication information in <code>/etc/passwd</code> and <code>/"
+            },
+            {
+              "token": "id",
+              "context": "Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi"
+            },
+            {
+              "token": "agent",
+              "context": " Entra ID authentication attempts are forwarded to an on-premises PTA agent, which validates the credentials against Active Directory \n* Active Directory Federation Services (AD FS), in which a trust "
+            },
+            {
+              "token": "manager",
+              "context": "n accounts. Before registering new passwords in the Security Accounts Manager (SAM), the Local Security Authority (LSA) requests validation from each registered filter. Any potential changes cannot ta"
+            },
+            {
+              "token": "policy",
+              "context": "ntials as they are validated. \n\nWindows password filters are password policy enforcement mechanisms for both domain and local accounts. Filters are implemented as DLLs containing a method to validate "
+            },
+            {
+              "token": "ip",
+              "context": "ive Directory Federation Services (AD FS), in which a trust relationship is established between Active Directory and Entra ID \n\nAD FS can also be used with other SaaS and cloud platforms such as AWS a"
+            }
+          ]
+        }
+      ],
+      "interpretation": "Observed: native HTTP alert reports an ELF download, Wget and /pam_unix.so. This is an observed transfer/path, without proof the PAM module was loaded or authentication modified. Gold parent T1556 is RRF rank 8 but absent from full candidate Top10; top1 T1562 matches envelope words category/start/status/policy. Reasonable inference: vocabulary/specificity/source weighting can displace behavior-relevant candidates. Which component causes displacement is not established by this trace."
+    },
+    {
+      "category": "rrf_only",
+      "sample_id": "1-29-r1",
+      "ground_truth_original": [
+        "T1105",
+        "T1556.003"
+      ],
+      "ground_truth_parent": [
+        "T1105",
+        "T1556"
+      ],
+      "candidate_top10": [
+        "T1562",
+        "T1036",
+        "T1546",
+        "T1027",
+        "T1559",
+        "T1553",
+        "T1110",
+        "T1003",
+        "T1548",
+        "T1543"
+      ],
+      "rrf_top10": [
+        "T1562",
+        "T1036",
+        "T1546",
+        "T1027",
+        "T1543",
+        "T1553",
+        "T1574",
+        "T1556",
+        "T1003",
+        "T1559"
+      ],
+      "candidate_parent_recall10": 0.0,
+      "native_traces": [
+        {
+          "technique_id": "T1562",
+          "candidate_rank": 1,
+          "rrf_rank": 1,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "b5be558ce31d8ca65a561b73bf464af0566f9228ab8ab0e2b516edf12f5277a4",
+            "text": "{\"timestamp\":\"2025-09-24T09:32:42.572+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":736,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"001\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1758706362.11380113\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-09-24T09:32:41.754640+0000\",\"flow_id\":\"900228277956940.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"50990\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:g+4iCiKcppMnNbx6GCofzL0lLb0=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"69235\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":69235,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"11\",\"pkts_toclient\":\"53\",\"bytes_toserver\":\"870\",\"bytes_toclient\":\"74396\",\"start\":\"2025-09-24T09:32:41.749900+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1562",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "rule": 3.083992406875962,
+              "level": 0.5791364201216035,
+              "policy": 3.2252363466882517,
+              "and": 0.24974526748491852,
+              "file": 1.7141423529230941,
+              "http": 0.8502429694272132,
+              "mail": 1.0285082416163818,
+              "false": 1.264152602429155,
+              "groups": 2.1127187638631737,
+              "name": 1.7645196573626973,
+              "ip": 1.2787130714138706,
+              "data": 1.115124421046146,
+              "tcp": 1.1274023808081026,
+              "action": 0.8872347012563228,
+              "allowed": 1.8503923398185413,
+              "signature": 1.000775099971374,
+              "category": 4.174282507371437,
+              "potential": 0.7577332038287737,
+              "so": 1.256989884023007,
+              "protocol": 0.6138961659073058,
+              "status": 3.900140529412493,
+              "files": 1.259825194926417,
+              "stored": 0.6626668259125323,
+              "size": 1.1274023808081026,
+              "flow": 1.000775099971374,
+              "start": 4.183201963932025,
+              "log": 2.8138225148468043
+            },
+            "line_score": 44.88277331404708,
+            "fusion_contribution": 0.054149471461824854
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Safe Mode Boot defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Indicator Blocking defense-evasion Disable or Modify Cloud Firewall defense-evasion Downgrade Attack defense-evasion Impair Command History Logging defense-evasion Disable or Modify Network Device Firewall defense-evasion Disable or Modify Tools defense-evasion Spoof Security Alerting defense-evasion Disable or Modify Cloud Logs defense-evasion Safe Mode Boot Adversaries may abuse Wind",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "start",
+              "context": "s may abuse Windows safe mode to disable endpoint defenses. Safe mode starts up the Windows operating system with a limited set of drivers and services. Third-party security software such as endpoint "
+            },
+            {
+              "token": "category",
+              "context": "r the audit policy. To enable or disable a specified setting or audit category, adversaries may use the <code>/success</code> or <code>/failure</code> parameters. For example, <code>auditpol /set /cat"
+            },
+            {
+              "token": "status",
+              "context": "g service may be disabled using the <code>Set-Service -Name EventLog -Status Stopped</code> or <code>sc config eventlog start=disabled</code> commands (followed by manually stopping the service using "
+            },
+            {
+              "token": "policy",
+              "context": "t, the service automatically starts when a system powers on. An audit policy, maintained by the Local Security Policy (secpol.msc), defines which system events the EventLog service logs. Security audi"
+            },
+            {
+              "token": "rule",
+              "context": "entire mechanism as well as adding, deleting, or modifying particular rules. This can be done numerous ways depending on the operating system, including via command-line, editing Windows Registry keys"
+            },
+            {
+              "token": "log",
+              "context": "defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Ind"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1105",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "videoserver/logs/log/audit/audit.log",
+            "source_type": "audit",
+            "line_id": "L0",
+            "text_hash": "0ba072999ed6272a23c313e04265b3bc7254965240d281f83394c449cfc346dd",
+            "text": "type=PATH msg=audit(1758706361.442:13750): item=0 name=\"/usr/bin/wget\" inode=19049 dev=fe:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0\nOUID=\"root\" OGID=\"root\"",
+            "knowledge_id": "T1105",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "wget": 6.371290213094355
+            },
+            "line_score": 6.371290213094355,
+            "fusion_contribution": 0.026312497155776174
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Ingress Tool Transfer command-and-control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.org/software/S0095). Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. [Lateral Tool Transfer](https://attack.mitre.org/techniques/T1570)). \n\nOn Windows, adversari",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "wget",
+              "context": "exist, such as `curl`, `scp`, `sftp`, `tftp`, `rsync`, `finger`, and `wget`.(Citation: t1105_lolbas)\n\nAdversaries may also abuse installers and package managers, such as `yum` or `winget`, to download"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1556",
+          "candidate_rank": ">10",
+          "rrf_rank": 8,
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "b5be558ce31d8ca65a561b73bf464af0566f9228ab8ab0e2b516edf12f5277a4",
+            "text": "{\"timestamp\":\"2025-09-24T09:32:42.572+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":736,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"001\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1758706362.11380113\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-09-24T09:32:41.754640+0000\",\"flow_id\":\"900228277956940.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"50990\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:g+4iCiKcppMnNbx6GCofzL0lLb0=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"69235\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":69235,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"11\",\"pkts_toclient\":\"53\",\"bytes_toserver\":\"870\",\"bytes_toclient\":\"74396\",\"start\":\"2025-09-24T09:32:41.749900+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1556",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "level": 0.7868011145676298,
+              "policy": 2.641343475026679,
+              "executable": 1.088257205278073,
+              "and": 0.25077781585689674,
+              "file": 0.8644523505202186,
+              "id": 4.79519844255895,
+              "false": 1.7174479829225406,
+              "groups": 1.2325813613300567,
+              "agent": 2.855549981722559,
+              "ip": 2.142381968276939,
+              "manager": 2.719184562086555,
+              "data": 0.3624391261587644,
+              "potential": 1.7217183431773675,
+              "pam_unix": 5.249837091643741,
+              "so": 2.1059864969236757,
+              "protocol": 1.3948924031679455,
+              "status": 1.8974739372074956,
+              "files": 0.9829460250732851,
+              "log": 1.205376190440544
+            },
+            "line_score": 36.01464587393991,
+            "fusion_contribution": 0.03691091020959512
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Pluggable Authentication Modules credential-access defense-evasion persistence Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi-Factor Authentication credential-access defense-evasion persistence Conditional Access Policies credential-access defense-evasion persistence Domain Controller Authentication credential-access defense-evasion persistence Reversible Encryption credential-access defense-evasion persistence Modify Authentication Process c",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "pam_unix",
+              "context": "ion for many services. The most common authentication module is <code>pam_unix.so</code>, which retrieves, sets, and verifies account authentication information in <code>/etc/passwd</code> and <code>/"
+            },
+            {
+              "token": "id",
+              "context": "Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi"
+            },
+            {
+              "token": "agent",
+              "context": " Entra ID authentication attempts are forwarded to an on-premises PTA agent, which validates the credentials against Active Directory \n* Active Directory Federation Services (AD FS), in which a trust "
+            },
+            {
+              "token": "manager",
+              "context": "n accounts. Before registering new passwords in the Security Accounts Manager (SAM), the Local Security Authority (LSA) requests validation from each registered filter. Any potential changes cannot ta"
+            },
+            {
+              "token": "policy",
+              "context": "ntials as they are validated. \n\nWindows password filters are password policy enforcement mechanisms for both domain and local accounts. Filters are implemented as DLLs containing a method to validate "
+            },
+            {
+              "token": "ip",
+              "context": "ive Directory Federation Services (AD FS), in which a trust relationship is established between Active Directory and Entra ID \n\nAD FS can also be used with other SaaS and cloud platforms such as AWS a"
+            }
+          ]
+        }
+      ],
+      "interpretation": "Observed: native HTTP alert reports an ELF download, Wget and /pam_unix.so. This is an observed transfer/path, without proof the PAM module was loaded or authentication modified. Gold parent T1556 is RRF rank 8 but absent from full candidate Top10; top1 T1562 matches envelope words category/start/status/policy. Reasonable inference: vocabulary/specificity/source weighting can displace behavior-relevant candidates. Which component causes displacement is not established by this trace."
+    },
+    {
+      "category": "both_miss",
+      "sample_id": "1-1-r0",
+      "ground_truth_original": [
+        "T1590.002",
+        "T1591"
+      ],
+      "ground_truth_parent": [
+        "T1590",
+        "T1591"
+      ],
+      "candidate_top10": [
+        "T1021",
+        "T1559",
+        "T1583",
+        "T1197",
+        "T1070",
+        "T1647",
+        "T1218",
+        "T1220",
+        "T1037",
+        "T1216"
+      ],
+      "rrf_top10": [
+        "T1021",
+        "T1559",
+        "T1218",
+        "T1216",
+        "T1197",
+        "T1567",
+        "T1047",
+        "T1546",
+        "T1583",
+        "T1070"
+      ],
+      "candidate_parent_recall10": 0.0,
+      "native_traces": [
+        {
+          "technique_id": "T1021",
+          "candidate_rank": 1,
+          "rrf_rank": 1,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "corpdns/logs/log/syslog",
+            "source_type": "system",
+            "line_id": "L1",
+            "text_hash": "b72f64ecb35531e6f0d2b7e74e6d494ba31a0b0994534d29d66a571a8c55e373",
+            "text": "Sep 22 07:42:45 corpdns dnsmasq[804]: auth nagios.attackbed.com is NXDOMAIN",
+            "knowledge_id": "T1021",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "auth": 2.4292767197847143,
+              "com": 4.447692135953658,
+              "is": 0.8874093387410478
+            },
+            "line_score": 7.76437819447942,
+            "fusion_contribution": 0.20376409087818248
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "VNC lateral-movement SSH lateral-movement Direct Cloud VM Connections lateral-movement SMB/Windows Admin Shares lateral-movement Remote Services lateral-movement Windows Remote Management lateral-movement Distributed Component Object Model lateral-movement Cloud Services lateral-movement Remote Desktop Protocol lateral-movement VNC Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to remotely control machines using Virtual Network Computing (VNC).  VNC is a platform-independent desktop sharing system that uses the RFB (\u201cremote framebuffer\u201d) protocol to enable user",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "com",
+              "context": "teral-movement Windows Remote Management lateral-movement Distributed Component Object Model lateral-movement Cloud Services lateral-movement Remote Desktop Protocol lateral-movement VNC Adversaries m"
+            },
+            {
+              "token": "auth",
+              "context": "her than resource-sharing software. By default, VNC uses the system's authentication, but it can be configured to use credentials specific to VNC.(Citation: MacOS VNC software for Remote Desktop)(Cita"
+            },
+            {
+              "token": "is",
+              "context": "Services lateral-movement Windows Remote Management lateral-movement Distributed Component Object Model lateral-movement Cloud Services lateral-movement Remote Desktop Protocol lateral-movement VNC Ad"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1590",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "corpdns/logs/log/syslog",
+            "source_type": "system",
+            "line_id": "L0",
+            "text_hash": "405bbd734b8b909f88039c69f1dee5f197d06092ea412f846b6d30410ca0d767",
+            "text": "Sep 22 07:42:45 corpdns dnsmasq[804]: auth[A] nagios.attackbed.com from 192.42.1.174",
+            "knowledge_id": "T1590",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "from": 0.29785348891013547
+            },
+            "line_score": 0.29785348891013547,
+            "fusion_contribution": 0.0015815471903494064
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "IP Addresses reconnaissance DNS reconnaissance Network Topology reconnaissance Network Trust Dependencies reconnaissance Network Security Appliances reconnaissance Gather Victim Network Information reconnaissance Domain Properties reconnaissance IP Addresses Adversaries may gather the victim's IP addresses that can be used during targeting. Public IP addresses may be allocated to organizations by block, or a range of sequential addresses. Information about assigned IP addresses may include a variety of details, such as which IP addresses are in use. IP addresses may also enable an adversary to",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "from",
+              "context": "so use DNS zone transfer (DNS query type AXFR) to collect all records from a misconfigured DNS server.(Citation: Trails-DNS)(Citation: DNS-CISA)(Citation: Alexa-dns) Network Topology Adversaries may g"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1591",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "corpdns/logs/log/syslog",
+            "source_type": "system",
+            "line_id": "L0",
+            "text_hash": "405bbd734b8b909f88039c69f1dee5f197d06092ea412f846b6d30410ca0d767",
+            "text": "Sep 22 07:42:45 corpdns dnsmasq[804]: auth[A] nagios.attackbed.com from 192.42.1.174",
+            "knowledge_id": "T1591",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {},
+            "line_score": 0,
+            "fusion_contribution": 0.0
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Identify Business Tempo reconnaissance Business Relationships reconnaissance Gather Victim Org Information reconnaissance Identify Roles reconnaissance Determine Physical Locations reconnaissance Identify Business Tempo Adversaries may gather information about the victim's business tempo that can be used during targeting. Information about an organization\u2019s business tempo may include a variety of details, including operational hours/days of the week. This information may also reveal times/dates of purchases and shipments of the victim\u2019s hardware and software resources.\n\nAdversaries may gather ",
+          "matched_token_knowledge_snippets": []
+        }
+      ],
+      "interpretation": "Observed: dnsmasq auth response is NXDOMAIN for an attackbed.com hostname. Top1 T1021 matches auth/com/is; com is a domain suffix here. Knowledge includes remote-services terminology and references containing com. Reasonable inference: the tokenizer conflates a hostname suffix with document vocabulary and scores incidental overlap. This does not prove remote-service execution, nor does the miss prove missing logs or an incorrect reconnaissance label."
+    },
+    {
+      "category": "both_miss",
+      "sample_id": "1-1-r1",
+      "ground_truth_original": [
+        "T1590.002",
+        "T1591"
+      ],
+      "ground_truth_parent": [
+        "T1590",
+        "T1591"
+      ],
+      "candidate_top10": [
+        "T1021",
+        "T1119",
+        "T1111",
+        "T1496",
+        "T1621",
+        "T1559",
+        "T1553",
+        "T1583",
+        "T1197",
+        "T1070"
+      ],
+      "rrf_top10": [
+        "T1496",
+        "T1021",
+        "T1111",
+        "T1553",
+        "T1621",
+        "T1559",
+        "T1119",
+        "T1218",
+        "T1216",
+        "T1598"
+      ],
+      "candidate_parent_recall10": 0.0,
+      "native_traces": [
+        {
+          "technique_id": "T1021",
+          "candidate_rank": 1,
+          "rrf_rank": 2,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "corpdns/logs/log/syslog",
+            "source_type": "system",
+            "line_id": "L1",
+            "text_hash": "3ea15840f3f6eaf8a83b1d7b3225d3e6e692edfa18f75294f7583ce9e17db060",
+            "text": "Sep 24 12:34:51 corpdns dnsmasq[801]: auth camping.attackbed.com is NXDOMAIN",
+            "knowledge_id": "T1021",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "auth": 2.4292767197847143,
+              "com": 4.447692135953658,
+              "is": 0.8874093387410478
+            },
+            "line_score": 7.76437819447942,
+            "fusion_contribution": 0.15286085030411087
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "VNC lateral-movement SSH lateral-movement Direct Cloud VM Connections lateral-movement SMB/Windows Admin Shares lateral-movement Remote Services lateral-movement Windows Remote Management lateral-movement Distributed Component Object Model lateral-movement Cloud Services lateral-movement Remote Desktop Protocol lateral-movement VNC Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to remotely control machines using Virtual Network Computing (VNC).  VNC is a platform-independent desktop sharing system that uses the RFB (\u201cremote framebuffer\u201d) protocol to enable user",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "com",
+              "context": "teral-movement Windows Remote Management lateral-movement Distributed Component Object Model lateral-movement Cloud Services lateral-movement Remote Desktop Protocol lateral-movement VNC Adversaries m"
+            },
+            {
+              "token": "auth",
+              "context": "her than resource-sharing software. By default, VNC uses the system's authentication, but it can be configured to use credentials specific to VNC.(Citation: MacOS VNC software for Remote Desktop)(Cita"
+            },
+            {
+              "token": "is",
+              "context": "Services lateral-movement Windows Remote Management lateral-movement Distributed Component Object Model lateral-movement Cloud Services lateral-movement Remote Desktop Protocol lateral-movement VNC Ad"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1590",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "corpdns/logs/log/syslog",
+            "source_type": "system",
+            "line_id": "L8",
+            "text_hash": "f98666c7b07e3d8094882279ebd919eb1d6b47131071fcd34f40f13316c0026b",
+            "text": "Sep 24 12:34:51 corpdns dnsmasq[801]: auth[A] autodiscover.sms.attackbed.com from 192.42.1.174",
+            "knowledge_id": "T1590",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "autodiscover": 2.7794452315967955,
+              "from": 0.29785348891013547
+            },
+            "line_score": 3.077298720506931,
+            "fusion_contribution": 0.04127625395865485
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "IP Addresses reconnaissance DNS reconnaissance Network Topology reconnaissance Network Trust Dependencies reconnaissance Network Security Appliances reconnaissance Gather Victim Network Information reconnaissance Domain Properties reconnaissance IP Addresses Adversaries may gather the victim's IP addresses that can be used during targeting. Public IP addresses may be allocated to organizations by block, or a range of sequential addresses. Information about assigned IP addresses may include a variety of details, such as which IP addresses are in use. IP addresses may also enable an adversary to",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "autodiscover",
+              "context": "ed through publicly available API endpoints, such as GetUserRealm and autodiscover in Office 365 environments.(Citation: Azure Active Directory Reconnaisance)(Citation: Office 265 Azure Domain Availab"
+            },
+            {
+              "token": "from",
+              "context": "so use DNS zone transfer (DNS query type AXFR) to collect all records from a misconfigured DNS server.(Citation: Trails-DNS)(Citation: DNS-CISA)(Citation: Alexa-dns) Network Topology Adversaries may g"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1591",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "corpdns/logs/log/syslog",
+            "source_type": "system",
+            "line_id": "L0",
+            "text_hash": "852359f35e1ccd3a4823b875c6c8d3fc7c1fc232d9d12e42764b166ecea261bd",
+            "text": "Sep 24 12:34:51 corpdns dnsmasq[801]: auth[A] camping.attackbed.com from 192.42.1.174",
+            "knowledge_id": "T1591",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {},
+            "line_score": 0,
+            "fusion_contribution": 0.0
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Identify Business Tempo reconnaissance Business Relationships reconnaissance Gather Victim Org Information reconnaissance Identify Roles reconnaissance Determine Physical Locations reconnaissance Identify Business Tempo Adversaries may gather information about the victim's business tempo that can be used during targeting. Information about an organization\u2019s business tempo may include a variety of details, including operational hours/days of the week. This information may also reveal times/dates of purchases and shipments of the victim\u2019s hardware and software resources.\n\nAdversaries may gather ",
+          "matched_token_knowledge_snippets": []
+        }
+      ],
+      "interpretation": "Observed: dnsmasq auth response is NXDOMAIN for an attackbed.com hostname. Top1 T1021 matches auth/com/is; com is a domain suffix here. Knowledge includes remote-services terminology and references containing com. Reasonable inference: the tokenizer conflates a hostname suffix with document vocabulary and scores incidental overlap. This does not prove remote-service execution, nor does the miss prove missing logs or an incorrect reconnaissance label."
+    },
+    {
+      "category": "multigold_partial",
+      "sample_id": "1-29-r3",
+      "ground_truth_original": [
+        "T1105",
+        "T1556.003"
+      ],
+      "ground_truth_parent": [
+        "T1105",
+        "T1556"
+      ],
+      "candidate_top10": [
+        "T1562",
+        "T1027",
+        "T1110",
+        "T1546",
+        "T1505",
+        "T1556",
+        "T1552",
+        "T1499",
+        "T1036",
+        "T1559"
+      ],
+      "rrf_top10": [
+        "T1027",
+        "T1505",
+        "T1562",
+        "T1552",
+        "T1110",
+        "T1556",
+        "T1553",
+        "T1546",
+        "T1543",
+        "T1036"
+      ],
+      "candidate_parent_recall10": 0.5,
+      "native_traces": [
+        {
+          "technique_id": "T1562",
+          "candidate_rank": 1,
+          "rrf_rank": 3,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "9ea8c769ca8b5455db31647ecd3cc94340e9fba18e98af8814566f303c52b220",
+            "text": "{\"timestamp\":\"2025-10-14T11:25:31.888+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":846,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"002\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1760441131.10193360\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-10-14T11:25:31.150108+0000\",\"flow_id\":\"1765210942289425.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"33614\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:BcRD7oBv1GW6E90S6GFb3pZd8DQ=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"97035\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":97035,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"13\",\"pkts_toclient\":\"73\",\"bytes_toserver\":\"1002\",\"bytes_toclient\":\"103516\",\"start\":\"2025-10-14T11:25:31.144913+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1562",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "rule": 3.083992406875962,
+              "level": 0.5791364201216035,
+              "policy": 3.2252363466882517,
+              "and": 0.24974526748491852,
+              "file": 1.7141423529230941,
+              "http": 0.8502429694272132,
+              "mail": 1.0285082416163818,
+              "false": 1.264152602429155,
+              "groups": 2.1127187638631737,
+              "name": 1.7645196573626973,
+              "ip": 1.2787130714138706,
+              "data": 1.115124421046146,
+              "tcp": 1.1274023808081026,
+              "action": 0.8872347012563228,
+              "allowed": 1.8503923398185413,
+              "signature": 1.000775099971374,
+              "category": 4.174282507371437,
+              "potential": 0.7577332038287737,
+              "so": 1.256989884023007,
+              "protocol": 0.6138961659073058,
+              "status": 3.900140529412493,
+              "files": 1.259825194926417,
+              "stored": 0.6626668259125323,
+              "size": 1.1274023808081026,
+              "flow": 1.000775099971374,
+              "start": 4.183201963932025,
+              "log": 2.8138225148468043
+            },
+            "line_score": 44.88277331404708,
+            "fusion_contribution": 0.08122420719273728
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Safe Mode Boot defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Indicator Blocking defense-evasion Disable or Modify Cloud Firewall defense-evasion Downgrade Attack defense-evasion Impair Command History Logging defense-evasion Disable or Modify Network Device Firewall defense-evasion Disable or Modify Tools defense-evasion Spoof Security Alerting defense-evasion Disable or Modify Cloud Logs defense-evasion Safe Mode Boot Adversaries may abuse Wind",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "start",
+              "context": "s may abuse Windows safe mode to disable endpoint defenses. Safe mode starts up the Windows operating system with a limited set of drivers and services. Third-party security software such as endpoint "
+            },
+            {
+              "token": "category",
+              "context": "r the audit policy. To enable or disable a specified setting or audit category, adversaries may use the <code>/success</code> or <code>/failure</code> parameters. For example, <code>auditpol /set /cat"
+            },
+            {
+              "token": "status",
+              "context": "g service may be disabled using the <code>Set-Service -Name EventLog -Status Stopped</code> or <code>sc config eventlog start=disabled</code> commands (followed by manually stopping the service using "
+            },
+            {
+              "token": "policy",
+              "context": "t, the service automatically starts when a system powers on. An audit policy, maintained by the Local Security Policy (secpol.msc), defines which system events the EventLog service logs. Security audi"
+            },
+            {
+              "token": "rule",
+              "context": "entire mechanism as well as adding, deleting, or modifying particular rules. This can be done numerous ways depending on the operating system, including via command-line, editing Windows Registry keys"
+            },
+            {
+              "token": "log",
+              "context": "defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Ind"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1105",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "inetfw/logs/log/suricata/fast.log",
+            "source_type": "suricata",
+            "line_id": "L1",
+            "text_hash": "e0713794a23533c5507448ece46eb26909f7dd072c08b85bf32981eba4d818f6",
+            "text": "10/14/2025-11:25:31.150108  [**] [1:2019240:14] ET POLICY Executable and linking format (ELF) file download Over HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.42.1.174:80 -> 172.17.100.121:33614",
+            "knowledge_id": "T1105",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "and": 0.24748725056250254,
+              "file": 2.003655974553492,
+              "download": 4.264544747726557
+            },
+            "line_score": 6.515687972842551,
+            "fusion_contribution": 0.028787169679836012
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Ingress Tool Transfer command-and-control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.org/software/S0095). Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. [Lateral Tool Transfer](https://attack.mitre.org/techniques/T1570)). \n\nOn Windows, adversari",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "download",
+              "context": "iques/T1570)). \n\nOn Windows, adversaries may use various utilities to download tools, such as `copy`, `finger`, [certutil](https://attack.mitre.org/software/S0160), and [PowerShell](https://attack.mit"
+            },
+            {
+              "token": "file",
+              "context": "control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled s"
+            },
+            {
+              "token": "and",
+              "context": "Ingress Tool Transfer command-and-control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised env"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1556",
+          "candidate_rank": 6,
+          "rrf_rank": 6,
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "9ea8c769ca8b5455db31647ecd3cc94340e9fba18e98af8814566f303c52b220",
+            "text": "{\"timestamp\":\"2025-10-14T11:25:31.888+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":846,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"002\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1760441131.10193360\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-10-14T11:25:31.150108+0000\",\"flow_id\":\"1765210942289425.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"33614\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:BcRD7oBv1GW6E90S6GFb3pZd8DQ=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"97035\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":97035,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"13\",\"pkts_toclient\":\"73\",\"bytes_toserver\":\"1002\",\"bytes_toclient\":\"103516\",\"start\":\"2025-10-14T11:25:31.144913+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1556",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "level": 0.7868011145676298,
+              "policy": 2.641343475026679,
+              "executable": 1.088257205278073,
+              "and": 0.25077781585689674,
+              "file": 0.8644523505202186,
+              "id": 4.79519844255895,
+              "false": 1.7174479829225406,
+              "groups": 1.2325813613300567,
+              "agent": 2.855549981722559,
+              "ip": 2.142381968276939,
+              "manager": 2.719184562086555,
+              "data": 0.3624391261587644,
+              "potential": 1.7217183431773675,
+              "pam_unix": 5.249837091643741,
+              "so": 2.1059864969236757,
+              "protocol": 1.3948924031679455,
+              "status": 1.8974739372074956,
+              "files": 0.9829460250732851,
+              "log": 1.205376190440544
+            },
+            "line_score": 36.01464587393991,
+            "fusion_contribution": 0.05536636531439268
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Pluggable Authentication Modules credential-access defense-evasion persistence Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi-Factor Authentication credential-access defense-evasion persistence Conditional Access Policies credential-access defense-evasion persistence Domain Controller Authentication credential-access defense-evasion persistence Reversible Encryption credential-access defense-evasion persistence Modify Authentication Process c",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "pam_unix",
+              "context": "ion for many services. The most common authentication module is <code>pam_unix.so</code>, which retrieves, sets, and verifies account authentication information in <code>/etc/passwd</code> and <code>/"
+            },
+            {
+              "token": "id",
+              "context": "Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi"
+            },
+            {
+              "token": "agent",
+              "context": " Entra ID authentication attempts are forwarded to an on-premises PTA agent, which validates the credentials against Active Directory \n* Active Directory Federation Services (AD FS), in which a trust "
+            },
+            {
+              "token": "manager",
+              "context": "n accounts. Before registering new passwords in the Security Accounts Manager (SAM), the Local Security Authority (LSA) requests validation from each registered filter. Any potential changes cannot ta"
+            },
+            {
+              "token": "policy",
+              "context": "ntials as they are validated. \n\nWindows password filters are password policy enforcement mechanisms for both domain and local accounts. Filters are implemented as DLLs containing a method to validate "
+            },
+            {
+              "token": "ip",
+              "context": "ive Directory Federation Services (AD FS), in which a trust relationship is established between Active Directory and Entra ID \n\nAD FS can also be used with other SaaS and cloud platforms such as AWS a"
+            }
+          ]
+        }
+      ],
+      "interpretation": "Observed: native HTTP alert contains Wget, ELF download and /pam_unix.so. Candidate parent T1556 appears at rank 6, T1105 is absent from Top10; top1 is T1562 with strong envelope-word overlap. Partial parent-level label coverage is therefore one of two gold techniques; no authentication modification is independently verified. Reasonable inference: lexical envelope terms dominate rank; a file path alone cannot establish the full labeled behavior."
+    },
+    {
+      "category": "multigold_partial",
+      "sample_id": "1-29-r4",
+      "ground_truth_original": [
+        "T1105",
+        "T1556.003"
+      ],
+      "ground_truth_parent": [
+        "T1105",
+        "T1556"
+      ],
+      "candidate_top10": [
+        "T1562",
+        "T1027",
+        "T1110",
+        "T1546",
+        "T1505",
+        "T1556",
+        "T1552",
+        "T1499",
+        "T1036",
+        "T1559"
+      ],
+      "rrf_top10": [
+        "T1027",
+        "T1505",
+        "T1562",
+        "T1552",
+        "T1110",
+        "T1556",
+        "T1553",
+        "T1546",
+        "T1543",
+        "T1036"
+      ],
+      "candidate_parent_recall10": 0.5,
+      "native_traces": [
+        {
+          "technique_id": "T1562",
+          "candidate_rank": 1,
+          "rrf_rank": 3,
+          "selection_role": "prediction_top1",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "9ea8c769ca8b5455db31647ecd3cc94340e9fba18e98af8814566f303c52b220",
+            "text": "{\"timestamp\":\"2025-10-14T11:25:31.888+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":846,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"002\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1760441131.10193360\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-10-14T11:25:31.150108+0000\",\"flow_id\":\"1765210942289425.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"33614\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:BcRD7oBv1GW6E90S6GFb3pZd8DQ=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"97035\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":97035,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"13\",\"pkts_toclient\":\"73\",\"bytes_toserver\":\"1002\",\"bytes_toclient\":\"103516\",\"start\":\"2025-10-14T11:25:31.144913+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1562",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "rule": 3.083992406875962,
+              "level": 0.5791364201216035,
+              "policy": 3.2252363466882517,
+              "and": 0.24974526748491852,
+              "file": 1.7141423529230941,
+              "http": 0.8502429694272132,
+              "mail": 1.0285082416163818,
+              "false": 1.264152602429155,
+              "groups": 2.1127187638631737,
+              "name": 1.7645196573626973,
+              "ip": 1.2787130714138706,
+              "data": 1.115124421046146,
+              "tcp": 1.1274023808081026,
+              "action": 0.8872347012563228,
+              "allowed": 1.8503923398185413,
+              "signature": 1.000775099971374,
+              "category": 4.174282507371437,
+              "potential": 0.7577332038287737,
+              "so": 1.256989884023007,
+              "protocol": 0.6138961659073058,
+              "status": 3.900140529412493,
+              "files": 1.259825194926417,
+              "stored": 0.6626668259125323,
+              "size": 1.1274023808081026,
+              "flow": 1.000775099971374,
+              "start": 4.183201963932025,
+              "log": 2.8138225148468043
+            },
+            "line_score": 44.88277331404708,
+            "fusion_contribution": 0.08122420719273728
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Safe Mode Boot defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Indicator Blocking defense-evasion Disable or Modify Cloud Firewall defense-evasion Downgrade Attack defense-evasion Impair Command History Logging defense-evasion Disable or Modify Network Device Firewall defense-evasion Disable or Modify Tools defense-evasion Spoof Security Alerting defense-evasion Disable or Modify Cloud Logs defense-evasion Safe Mode Boot Adversaries may abuse Wind",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "start",
+              "context": "s may abuse Windows safe mode to disable endpoint defenses. Safe mode starts up the Windows operating system with a limited set of drivers and services. Third-party security software such as endpoint "
+            },
+            {
+              "token": "category",
+              "context": "r the audit policy. To enable or disable a specified setting or audit category, adversaries may use the <code>/success</code> or <code>/failure</code> parameters. For example, <code>auditpol /set /cat"
+            },
+            {
+              "token": "status",
+              "context": "g service may be disabled using the <code>Set-Service -Name EventLog -Status Stopped</code> or <code>sc config eventlog start=disabled</code> commands (followed by manually stopping the service using "
+            },
+            {
+              "token": "policy",
+              "context": "t, the service automatically starts when a system powers on. An audit policy, maintained by the Local Security Policy (secpol.msc), defines which system events the EventLog service logs. Security audi"
+            },
+            {
+              "token": "rule",
+              "context": "entire mechanism as well as adding, deleting, or modifying particular rules. This can be done numerous ways depending on the operating system, including via command-line, editing Windows Registry keys"
+            },
+            {
+              "token": "log",
+              "context": "defense-evasion Impair Defenses defense-evasion Disable Windows Event Logging defense-evasion Disable or Modify System Firewall defense-evasion Disable or Modify Linux Audit System defense-evasion Ind"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1105",
+          "candidate_rank": ">10",
+          "rrf_rank": ">10",
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "inetfw/logs/log/suricata/fast.log",
+            "source_type": "suricata",
+            "line_id": "L1",
+            "text_hash": "e0713794a23533c5507448ece46eb26909f7dd072c08b85bf32981eba4d818f6",
+            "text": "10/14/2025-11:25:31.150108  [**] [1:2019240:14] ET POLICY Executable and linking format (ELF) file download Over HTTP [**] [Classification: Potential Corporate Privacy Violation] [Priority: 1] {TCP} 192.42.1.174:80 -> 172.17.100.121:33614",
+            "knowledge_id": "T1105",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "and": 0.24748725056250254,
+              "file": 2.003655974553492,
+              "download": 4.264544747726557
+            },
+            "line_score": 6.515687972842551,
+            "fusion_contribution": 0.028787169679836012
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Ingress Tool Transfer command-and-control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.org/software/S0095). Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. [Lateral Tool Transfer](https://attack.mitre.org/techniques/T1570)). \n\nOn Windows, adversari",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "download",
+              "context": "iques/T1570)). \n\nOn Windows, adversaries may use various utilities to download tools, such as `copy`, `finger`, [certutil](https://attack.mitre.org/software/S0160), and [PowerShell](https://attack.mit"
+            },
+            {
+              "token": "file",
+              "context": "control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled s"
+            },
+            {
+              "token": "and",
+              "context": "Ingress Tool Transfer command-and-control Ingress Tool Transfer Adversaries may transfer tools or other files from an external system into a compromised env"
+            }
+          ]
+        },
+        {
+          "technique_id": "T1556",
+          "candidate_rank": 6,
+          "rrf_rank": 6,
+          "selection_role": "POSTHOC_GOLD_DIAGNOSTIC",
+          "evidence": {
+            "status": "RANKING_EVIDENCE_CANDIDATE",
+            "source_id": "wazuh/logs/alerts/alerts.json",
+            "source_type": "wazuh",
+            "line_id": "L1",
+            "text_hash": "9ea8c769ca8b5455db31647ecd3cc94340e9fba18e98af8814566f303c52b220",
+            "text": "{\"timestamp\":\"2025-10-14T11:25:31.888+0000\",\"rule\":{\"level\":3,\"description\":\"Suricata: Alert - ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"id\":\"86601\",\"firedtimes\":846,\"mail\":false,\"groups\":[\"ids\",\"suricata\"]},\"agent\":{\"id\":\"002\",\"name\":\"inetfw\",\"ip\":\"192.168.100.254\"},\"manager\":{\"name\":\"wazuh\"},\"id\":\"1760441131.10193360\",\"decoder\":{\"name\":\"json\"},\"data\":{\"timestamp\":\"2025-10-14T11:25:31.150108+0000\",\"flow_id\":\"1765210942289425.000000\",\"in_iface\":\"ens5\",\"event_type\":\"alert\",\"src_ip\":\"192.42.1.174\",\"src_port\":\"80\",\"dest_ip\":\"172.17.100.121\",\"dest_port\":\"33614\",\"proto\":\"TCP\",\"metadata\":{\"flowbits\":[\"http.dottedquadhost\",\"ET.ELFDownload\"]},\"community_id\":\"1:BcRD7oBv1GW6E90S6GFb3pZd8DQ=\",\"tx_id\":\"0\",\"alert\":{\"action\":\"allowed\",\"gid\":\"1\",\"signature_id\":\"2019240\",\"rev\":\"14\",\"signature\":\"ET POLICY Executable and linking format (ELF) file download Over HTTP\",\"category\":\"Potential Corporate Privacy Violation\",\"severity\":\"1\",\"metadata\":{\"confidence\":[\"High\"],\"created_at\":[\"2014_09_25\"],\"signature_severity\":[\"Informational\"],\"updated_at\":[\"2023_04_12\"]}},\"http\":{\"hostname\":\"192.42.1.174\",\"url\":\"/pam_unix.so\",\"http_user_agent\":\"Wget/1.21\",\"http_method\":\"GET\",\"protocol\":\"HTTP/1.1\",\"status\":\"200\",\"length\":\"97035\"},\"files\":[{\"filename\":\"/pam_unix.so\",\"sid\":[],\"gaps\":false,\"state\":\"UNKNOWN\",\"stored\":false,\"size\":97035,\"tx_id\":0}],\"app_proto\":\"http\",\"flow\":{\"pkts_toserver\":\"13\",\"pkts_toclient\":\"73\",\"bytes_toserver\":\"1002\",\"bytes_toclient\":\"103516\",\"start\":\"2025-10-14T11:25:31.144913+0000\"}},\"location\":\"/var/log/suricata/eve.json\"}",
+            "knowledge_id": "T1556",
+            "knowledge_section": "indexed_document_all_sections",
+            "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+            "matched_term_contributions": {
+              "level": 0.7868011145676298,
+              "policy": 2.641343475026679,
+              "executable": 1.088257205278073,
+              "and": 0.25077781585689674,
+              "file": 0.8644523505202186,
+              "id": 4.79519844255895,
+              "false": 1.7174479829225406,
+              "groups": 1.2325813613300567,
+              "agent": 2.855549981722559,
+              "ip": 2.142381968276939,
+              "manager": 2.719184562086555,
+              "data": 0.3624391261587644,
+              "potential": 1.7217183431773675,
+              "pam_unix": 5.249837091643741,
+              "so": 2.1059864969236757,
+              "protocol": 1.3948924031679455,
+              "status": 1.8974739372074956,
+              "files": 0.9829460250732851,
+              "log": 1.205376190440544
+            },
+            "line_score": 36.01464587393991,
+            "fusion_contribution": 0.05536636531439268
+          },
+          "native_line_verified": true,
+          "knowledge_intro": "Pluggable Authentication Modules credential-access defense-evasion persistence Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi-Factor Authentication credential-access defense-evasion persistence Conditional Access Policies credential-access defense-evasion persistence Domain Controller Authentication credential-access defense-evasion persistence Reversible Encryption credential-access defense-evasion persistence Modify Authentication Process c",
+          "matched_token_knowledge_snippets": [
+            {
+              "token": "pam_unix",
+              "context": "ion for many services. The most common authentication module is <code>pam_unix.so</code>, which retrieves, sets, and verifies account authentication information in <code>/etc/passwd</code> and <code>/"
+            },
+            {
+              "token": "id",
+              "context": "Password Filter DLL credential-access defense-evasion persistence Hybrid Identity credential-access defense-evasion persistence Network Provider DLL credential-access defense-evasion persistence Multi"
+            },
+            {
+              "token": "agent",
+              "context": " Entra ID authentication attempts are forwarded to an on-premises PTA agent, which validates the credentials against Active Directory \n* Active Directory Federation Services (AD FS), in which a trust "
+            },
+            {
+              "token": "manager",
+              "context": "n accounts. Before registering new passwords in the Security Accounts Manager (SAM), the Local Security Authority (LSA) requests validation from each registered filter. Any potential changes cannot ta"
+            },
+            {
+              "token": "policy",
+              "context": "ntials as they are validated. \n\nWindows password filters are password policy enforcement mechanisms for both domain and local accounts. Filters are implemented as DLLs containing a method to validate "
+            },
+            {
+              "token": "ip",
+              "context": "ive Directory Federation Services (AD FS), in which a trust relationship is established between Active Directory and Entra ID \n\nAD FS can also be used with other SaaS and cloud platforms such as AWS a"
+            }
+          ]
+        }
+      ],
+      "interpretation": "Observed: native HTTP alert contains Wget, ELF download and /pam_unix.so. Candidate parent T1556 appears at rank 6, T1105 is absent from Top10; top1 is T1562 with strong envelope-word overlap. Partial parent-level label coverage is therefore one of two gold techniques; no authentication modification is independently verified. Reasonable inference: lexical envelope terms dominate rank; a file path alone cannot establish the full labeled behavior."
+    }
+  ]
+}

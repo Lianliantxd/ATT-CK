@@ -1,0 +1,75 @@
+[
+  {
+    "blocker_id": "B_SOURCE_COMPATIBLE_11",
+    "status": "UNRESOLVED",
+    "technique_ids": [
+      "T1681",
+      "T1673",
+      "T1680",
+      "T1672",
+      "T1669",
+      "T1675",
+      "T1677",
+      "T1667",
+      "T1668",
+      "T1674",
+      "T1671"
+    ],
+    "confirmed_fact": "matching behavior sources absent inexisting16.1;not extraction omission",
+    "minimum_need": "compatible versionedsource text plusauthorcandidate version/reconciliation",
+    "current_pipeline_cause_known": true,
+    "upstream_version_or_missing_source_reason_known": false,
+    "action_taken": "NONE;noexternalrecovery"
+  },
+  {
+    "blocker_id": "B_MATRIX_UPSTREAM",
+    "status": "UNRESOLVED",
+    "confirmed_fact": "matrix fields name/tactics only;exactATTCKrelease andgenerating source notencoded/recovered",
+    "minimum_need": "matrix export recipe,original release/commit,compatible mapping",
+    "action_taken": "PINNED_LOCAL_COMMIT_AND_HASH_ONLY"
+  },
+  {
+    "blocker_id": "B_SCOPE_34",
+    "status": "UNRESOLVED",
+    "confirmed_fact": "34query scopeclaims,51authorparentIDchainschecked;source parent bodiesrecoverable butsemanticapplicabilityunknown",
+    "minimum_need": "author rationale plusindependent human adjudication",
+    "action_taken": "QUEUE34FROZEN;NO_LABEL_CHANGE"
+  },
+  {
+    "blocker_id": "B_REFERENCE",
+    "status": "NOT_AVAILABLE",
+    "confirmed_fact": "AI notesnotindependentGold;noqualifiedhumanreference ininspected records",
+    "minimum_need": "independentreviewopinions,exposure,arbitration,qualifiedevaluationcontract",
+    "action_taken": "NO_NEW_SEMANTIC_REVIEW"
+  },
+  {
+    "blocker_id": "B_CAUSAL_PERFORMANCE",
+    "status": "NOT_EVALUATED",
+    "confirmed_fact": "379queryinputmembershipverified;historicalerrorcausesnotidentified",
+    "minimum_need": "future separatelyauthorizedfair sameprotocolcomparison afterinput/referencequalification",
+    "action_taken": "NO_EXPERIMENT"
+  },
+  {
+    "blocker_id": "B_LEGACY_HASH",
+    "status": "PREEXISTING_DIFFERENCE_PRESERVED",
+    "details": [
+      {
+        "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+        "role": "historical frozen asset;hash only unless named as semantic input or protocol metadata",
+        "exists": true,
+        "sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+        "bytes": 33327,
+        "expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+        "version_status": "MISMATCH"
+      }
+    ],
+    "action_taken": "NOT_REPAIRED"
+  },
+  {
+    "blocker_id": "B_REQUESTED_SUMMARY_LOCATION",
+    "status": "RESOLVED_BY_EXISTING_ALTERNATIVE",
+    "missing_path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/GOLD_TECHNIQUE_SUMMARY.csv",
+    "existing_path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/results/GOLD_TECHNIQUE_SUMMARY.csv",
+    "minimum_need": "NONE;bothpathcheckandactualsourceexplicitlyrecorded"
+  }
+]

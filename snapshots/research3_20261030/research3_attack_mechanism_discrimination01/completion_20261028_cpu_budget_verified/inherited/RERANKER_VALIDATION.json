@@ -1,0 +1,245 @@
+{
+  "status": "RERANKER_FAILURE_DIAGNOSED_FROM_SAVED_SCORES",
+  "source_prediction_sha256": "c49150c642eae993e1e4e4b60b7c030b05e13ed0cdccd61a2590e1bf50e87a57",
+  "native_condition_rows": 5850,
+  "unique_saved_pairs": 140015,
+  "maximum_cross_pool_score_difference": 0.0,
+  "duplicate_candidates": 0,
+  "invalid_parent_ids": 0,
+  "score_index_alignment_and_descending_reconstruction": "ALL5850_PASS",
+  "eval_mode": "verified in frozen source .eval(); not a newly observed runtime probe",
+  "tokenizer_revision": "f7481e6055501a30fb19d090657df9ec1f79ab2c",
+  "input_order": "log query first; technique document second; matches official pair convention",
+  "raw_logit_direction": "larger more relevant per official model card; NOT chosen using CAM-LDS scores",
+  "num_labels_dimension": "scalar logits from saved source logits.view(-1) and one score per pair; config body requires independent retrieval for full verification",
+  "sigmoid": "strictly monotonic in real arithmetic; no need for classification Softmax; no actual score inversion",
+  "input_truncation": "tokenizer truncation=False; shared log2048/doc1024 explicit upstream truncation,65knowledge docs clipped; original input loss can matter, but K changes do not alter same pair text/score",
+  "K_effect": "new high-logit distractors displace earlier Gold; not score changes of fixed candidates",
+  "cross_batch_stability": "NOT_INDEPENDENTLY_TESTED; same pair cache guarantees saved equality",
+  "new_model_forwards": 0,
+  "implementation_error_found": false,
+  "semantic_mechanism_cause": "UNRESOLVED",
+  "summary": [
+    {
+      "pool": "embedding",
+      "K": 20,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 225,
+      "CANDIDATE_NOT_RETRIEVED": 520,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 55,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 104,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 71,
+      "mean_Spearman": 0.0679467900520532,
+      "median_Spearman": 0.05864661654135337
+    },
+    {
+      "pool": "embedding",
+      "K": 50,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 194,
+      "CANDIDATE_NOT_RETRIEVED": 313,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 86,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 303,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 79,
+      "mean_Spearman": 0.06527051435958998,
+      "median_Spearman": 0.060264105642256906
+    },
+    {
+      "pool": "embedding",
+      "K": 100,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 232,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 518,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 48,
+      "CANDIDATE_NOT_RETRIEVED": 101,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 76,
+      "mean_Spearman": 0.08451668551470531,
+      "median_Spearman": 0.0736033603360336
+    },
+    {
+      "pool": "lexical",
+      "K": 20,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 150,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 135,
+      "CANDIDATE_NOT_RETRIEVED": 569,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 60,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 61,
+      "mean_Spearman": -0.15104222093695777,
+      "median_Spearman": -0.18496240601503755
+    },
+    {
+      "pool": "lexical",
+      "K": 50,
+      "N": 975,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 64,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 221,
+      "CANDIDATE_NOT_RETRIEVED": 372,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 253,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 65,
+      "mean_Spearman": -0.08830535291039493,
+      "median_Spearman": -0.09973589435774309
+    },
+    {
+      "pool": "lexical",
+      "K": 100,
+      "N": 975,
+      "CANDIDATE_DEMOTED_BY_RERANKER": 254,
+      "CANDIDATE_RETRIEVED_BUT_RANKED_LOW": 439,
+      "CANDIDATE_PROMOTED_BY_RERANKER": 65,
+      "CANDIDATE_NOT_RETRIEVED": 186,
+      "BOTH_TOP10_SUPPORTED_BY_STEP_GOLD": 31,
+      "mean_Spearman": 0.01372150753536892,
+      "median_Spearman": 0.009372937293729372
+    }
+  ],
+  "score_buckets": [
+    {
+      "bucket": "original1_10",
+      "N": 9750,
+      "mean": 1.4178354320037059,
+      "SD": 0.34602272463371764,
+      "Q10": 0.978515625,
+      "median": 1.4482421875,
+      "Q90": 1.830078125
+    },
+    {
+      "bucket": "original11_20",
+      "N": 9750,
+      "mean": 1.3905788887219552,
+      "SD": 0.3621740997642571,
+      "Q10": 0.93408203125,
+      "median": 1.416015625,
+      "Q90": 1.8232421875
+    },
+    {
+      "bucket": "original21_50",
+      "N": 29250,
+      "mean": 1.3888834729316908,
+      "SD": 0.35573656077125404,
+      "Q10": 0.935546875,
+      "median": 1.41015625,
+      "Q90": 1.8291015625
+    },
+    {
+      "bucket": "original51_100",
+      "N": 48750,
+      "mean": 1.3630123897454678,
+      "SD": 0.3645983636865833,
+      "Q10": 0.89794921875,
+      "median": 1.3935546875,
+      "Q90": 1.80078125
+    }
+  ],
+  "replacement_techniques_top20": [
+    [
+      "T1204",
+      199
+    ],
+    [
+      "T1601",
+      151
+    ],
+    [
+      "T1592",
+      144
+    ],
+    [
+      "T1574",
+      138
+    ],
+    [
+      "T1567",
+      116
+    ],
+    [
+      "T1561",
+      109
+    ],
+    [
+      "T1216",
+      106
+    ],
+    [
+      "T1071",
+      101
+    ],
+    [
+      "T1563",
+      95
+    ],
+    [
+      "T1218",
+      92
+    ],
+    [
+      "T1546",
+      86
+    ],
+    [
+      "T1497",
+      82
+    ],
+    [
+      "T1205",
+      60
+    ],
+    [
+      "T1557",
+      59
+    ],
+    [
+      "T1102",
+      58
+    ],
+    [
+      "T1611",
+      44
+    ],
+    [
+      "T1593",
+      43
+    ],
+    [
+      "T1600",
+      43
+    ],
+    [
+      "T1595",
+      36
+    ],
+    [
+      "T1055",
+      34
+    ]
+  ],
+  "runtime_protocol": {
+    "source_sha256": "44dc66b342be78d99a59428c836269ce4876094b9d1c55e6819f62debf7fde94",
+    "model_revisions": [
+      "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "f7481e6055501a30fb19d090657df9ec1f79ab2c"
+    ],
+    "physicalGPU": 0,
+    "memory_fraction_cap": 0.15,
+    "batch": 8,
+    "log_token_cap": 2048,
+    "document_token_cap": 1024,
+    "no_Gold_input": true,
+    "full_P0_queries": 975,
+    "deduplicated_forward_cache": "exact text within fixed model only; repeated query denominators retained",
+    "CPU_threads": 2,
+    "fixed_method_conditions": 5,
+    "reranker_pools": [
+      "lexical shared native view",
+      "canonical E1 embedding shared native view"
+    ],
+    "reranker_candidate_sizes": [
+      20,
+      50,
+      100
+    ],
+    "same_raw_fragments_all_views": true,
+    "E2": "true source/native fields plus complete selected native text; repeats but adds no observations",
+    "long_logs": "prefix vs equispaced-window; window max/mean chunks use same selected text as window direct"
+  }
+}

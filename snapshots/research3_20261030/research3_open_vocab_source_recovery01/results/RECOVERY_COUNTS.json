@@ -1,0 +1,23 @@
+{
+  "candidate_IDs": 216,
+  "body_source_available": 216,
+  "missing_bodies": 0,
+  "recovered_previous_missing": 13,
+  "active_source_parent_objects": 213,
+  "revoked_source_candidate_IDs": [
+    "T1562",
+    "T1656",
+    "T1672"
+  ],
+  "revocation_links": 3,
+  "author_vs19_2_parent_name_differences": 1,
+  "author_vs19_2_tactic_differences": 47,
+  "description_changes_for203_previous_bodies": 59,
+  "unchanged_descriptions_for203_previous_bodies": 144,
+  "separate_subtype_records": 480,
+  "subtype_relation_missing_same_legacyparent": 16,
+  "new_full_texts_truncated": 0,
+  "semantic_contract_review_technique_issues": 4,
+  "author_matrix_exact_release": null,
+  "model_performance_change": null
+}

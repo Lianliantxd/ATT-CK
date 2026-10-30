@@ -1,0 +1,9 @@
+algorithm,input_view,cases,same_top10_order,same_full216_order,interpretation
+CHAR,RAW,975,0,0,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+CHAR,LITERAL,975,0,0,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+CHAR,LITERAL_PLUS_RELATIONS,975,0,0,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+CHAR,RAW_PLUS_LITERAL,975,0,0,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+BM25,RAW,975,975,975,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+BM25,LITERAL,975,975,975,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+BM25,LITERAL_PLUS_RELATIONS,975,975,975,"same document word multiset; tests bag-of-word confounding, not semantic correctness"
+BM25,RAW_PLUS_LITERAL,975,975,975,"same document word multiset; tests bag-of-word confounding, not semantic correctness"

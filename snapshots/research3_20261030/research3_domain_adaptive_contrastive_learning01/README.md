@@ -1,0 +1,11 @@
+# R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01
+
+最终主状态HARD_NEGATIVE_ADAPTATION_EVALUATED。378个真实本地CPU配置、45360更新、54600外层保存预测、930240负候选；B3–B9已执行，不再等待特征授权。LoRA B10/GPU参数训练仍未授权未执行，外部TEST_NOT_READY。
+
+入口R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING_RESULTS.md；最终生成器reports/finalize_trained_report.py。reports/build_domain_report.py是CPU-only阶段历史生成器，不应重跑来覆盖完整报告；该阶段文档保留reports/CPU_ONLY_SNAPSHOT。
+
+固定原始协议中的pending字段是授权前历史，不修改已签入checkpoint的哈希。当前授权见manifests/FEATURE_EXTRACTION_AUTHORIZATION.json，真实features和receipt在embeddings，训练源码与checkpoint独立审计通过。GPU只做冻结前向，Gold始终本地；未下载模型/日志或调用LLM。
+
+同批特征重算B1与旧B1有49条Top10顺序差，旧版本保留inherited/CPU_ONLY_B1_PREDICTIONS，原因仍为未隔离的数值解释；所有训练对照使用本次同特征B1，不据Gold选版本。
+
+普通GTE线性监督最强，可靠性权重无稳定增量、未见目标退化；不称新独立算法或论文级泛化。最终完整性见results/FINAL_VALIDATION.json及manifests/DELIVERY_SHA256.json。

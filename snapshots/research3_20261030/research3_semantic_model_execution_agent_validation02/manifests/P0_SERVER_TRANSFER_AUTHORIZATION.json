@@ -1,0 +1,14 @@
+{
+  "authorized": true,
+  "source": "Direct human reply in current conversation explicitly authorizes these P0 prediction inputs and public knowledge transfer",
+  "created_utc": "2026-10-27T12:31:08.320386+00:00",
+  "files": [
+    "embedding/server_inputs/P0_PREDICTION_ONLY.jsonl",
+    "embedding/server_inputs/K2_DESCRIPTION_16_1.json"
+  ],
+  "prediction_bytes": 7745102,
+  "destination": "tianxiaodan@10.109.119.118:/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/input/",
+  "Gold_transfer": false,
+  "raw_archives": false,
+  "scope": "Only already cleaned/allowlisted derived P0 logs and public K2"
+}

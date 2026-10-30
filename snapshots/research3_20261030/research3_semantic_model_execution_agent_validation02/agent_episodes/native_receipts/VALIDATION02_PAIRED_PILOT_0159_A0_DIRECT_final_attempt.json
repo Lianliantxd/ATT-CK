@@ -1,0 +1,10 @@
+{
+  "tag": "VALIDATION02_PAIRED_PILOT_0159_A0_DIRECT_final",
+  "start_unix": 1793101892.781245,
+  "reserved_input_tokens": 3215,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": 3183,
+  "output_tokens": 220,
+  "status": "COMPLETED_CPU_VERIFIED",
+  "wall_seconds": 53.03786254115403
+}

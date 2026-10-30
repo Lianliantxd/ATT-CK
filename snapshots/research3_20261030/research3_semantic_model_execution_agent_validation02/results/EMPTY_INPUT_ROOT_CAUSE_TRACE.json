@@ -1,0 +1,89 @@
+[
+  {
+    "sample_id": "4-13-r0",
+    "actual_final_pass_proxy_cap_from_V1_input_receipt": 1737,
+    "trace": [
+      {
+        "selected_native_proxy_tokens": 1737,
+        "rendered_proxy_counts": {
+          "V0": 1737,
+          "V1": 3567,
+          "V2": 1737,
+          "V3": 1745
+        },
+        "over_cap": 1830
+      },
+      {
+        "selected_native_proxy_tokens": 0,
+        "rendered_proxy_counts": {
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "V3": 0
+        },
+        "over_cap": -1737
+      }
+    ],
+    "nonempty_source": true,
+    "empty_result_reproduced": true,
+    "Gold_used": false
+  },
+  {
+    "sample_id": "1-54-r1",
+    "actual_final_pass_proxy_cap_from_V1_input_receipt": 2048,
+    "trace": [
+      {
+        "selected_native_proxy_tokens": 2048,
+        "rendered_proxy_counts": {
+          "V0": 2048,
+          "V1": 4356,
+          "V2": 2048,
+          "V3": 2050
+        },
+        "over_cap": 2308
+      },
+      {
+        "selected_native_proxy_tokens": 0,
+        "rendered_proxy_counts": {
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "V3": 0
+        },
+        "over_cap": -2048
+      }
+    ],
+    "nonempty_source": true,
+    "empty_result_reproduced": true,
+    "Gold_used": false
+  },
+  {
+    "sample_id": "2-5-r1",
+    "actual_final_pass_proxy_cap_from_V1_input_receipt": 2048,
+    "trace": [
+      {
+        "selected_native_proxy_tokens": 2048,
+        "rendered_proxy_counts": {
+          "V0": 2048,
+          "V1": 4171,
+          "V2": 2048,
+          "V3": 2052
+        },
+        "over_cap": 2123
+      },
+      {
+        "selected_native_proxy_tokens": 0,
+        "rendered_proxy_counts": {
+          "V0": 0,
+          "V1": 0,
+          "V2": 0,
+          "V3": 0
+        },
+        "over_cap": -2048
+      }
+    ],
+    "nonempty_source": true,
+    "empty_result_reproduced": true,
+    "Gold_used": false
+  }
+]

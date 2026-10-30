@@ -1,0 +1,13 @@
+{
+  "algorithm_environments": [
+    "TFIDF-Linear",
+    "FrozenGTE-Linear",
+    "GTE-Projection",
+    "GTE-StandardContrastive",
+    "GTE-HardNegative"
+  ],
+  "numpy_source_readonly": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages",
+  "python": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "no_packages_installed": true,
+  "new_downloads": 0
+}

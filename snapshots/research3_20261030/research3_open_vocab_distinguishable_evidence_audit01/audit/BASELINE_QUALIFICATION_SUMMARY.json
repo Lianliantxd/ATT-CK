@@ -1,0 +1,16 @@
+{
+  "post_semantic_seal_verified": true,
+  "cases_recorded": 384,
+  "qualified_reference_supported_cases_documented": 0,
+  "actual_qualified_residual_ranking_errors": "NOT_AVAILABLE",
+  "actual_qualified_baseline_recoveries": "NOT_AVAILABLE",
+  "new_case_outcome_comparisons_completed": 0,
+  "outcome_comparison_not_performed_reason": "no full-subset distinguishable qualified-reference cases;do not invent or read broader outcomes to fill unknown",
+  "native_lexical_query_text_matches_within384": 0,
+  "native_lexical_cross_protocol_queries": 384,
+  "knowledge_documents_identical_out_of216": 41,
+  "candidate_ID_set_equal": true,
+  "saved_baseline_files_exist_and_hashed": true,
+  "legacy_hash_difference_count": 1,
+  "source_qualification": "already exposed development,no independent test,no new model or metric computation"
+}

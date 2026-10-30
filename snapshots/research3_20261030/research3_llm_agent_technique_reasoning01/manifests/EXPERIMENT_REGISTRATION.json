@@ -1,0 +1,62 @@
+{
+  "frozen_before_research_inference": true,
+  "candidate_parents": 216,
+  "knowledge": "frozen K2_DESCRIPTION_16_1",
+  "M0": "frozen CharacterNgramTFIDF 3-5 lowercase chars; native cleaned text; corpus-only smoothedIDF",
+  "candidate_sizes": [
+    20,
+    50,
+    100
+  ],
+  "neural_weights_download": false,
+  "external_llm_calls": 0,
+  "local_llm": {
+    "model": "deepseek-r1:1.5b",
+    "manifest_digest": "a42b25d8c10a841bd24724309898ae851466696a7d7f3a0a408b895538ccbc96",
+    "device": "CPU only; size_vram must0",
+    "threads": 2,
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seed": 42,
+    "max_output_tokens": 512,
+    "think": false,
+    "batch_concurrency": 1
+  },
+  "pilot_selection": "first two execution-step IDs in lexicographic metadata order per scenario, independent of Gold:14 episodes",
+  "pilot_scope": "P2 related development only; no unseen test claim",
+  "pilot_conditions": [
+    "DIRECT216",
+    "KNOWLEDGE20",
+    "RETRIEVAL20",
+    "RETRIEVAL50",
+    "RETRIEVAL100",
+    "STATIC_EVIDENCE_S",
+    "FIXED_QUERY_S",
+    "ADAPTIVE_AGENT_S",
+    "STATIC_EVIDENCE_M",
+    "ADAPTIVE_AGENT_M"
+  ],
+  "model_call_cap": 240,
+  "model_wall_budget_seconds": 3600,
+  "per_call_timeout_seconds": 180,
+  "initial_observation": "same first256 regex punctuation/word tokens for every policy; exact returned events saved",
+  "evidence_budgets": {
+    "S": {
+      "queries": 2,
+      "new_rows": 20,
+      "regex_proxy_tokens": 2048
+    },
+    "M": {
+      "queries": 4,
+      "new_rows": 40,
+      "regex_proxy_tokens": 4096
+    }
+  },
+  "final_prompt_log_render_max_utf8_bytes": 5000,
+  "knowledge_render_max_utf8_bytes": 3500,
+  "raw_evidence_vs_rendered_model_input": "both recorded; equal acquisition cap is not equal total inference compute",
+  "adaptive_actions": "fixed local LLM chooses closed JSON tool actions, no filesystem/shell/network tools",
+  "failure": "retain empty predictions in denominator; no hidden repair or retry",
+  "evaluation": "frozen V1; per-query, logical-step macro,scenario,execution; no independent query bootstrap",
+  "cap_arithmetic": "Worst per episode: DIRECT+KNOWLEDGE+RETRIEVAL20/50/100+STATIC_S+FIXED_S+STATIC_M=8 final calls, ADAPTIVE_S<=3 and ADAPTIVE_M<=5:16;14*16=224 research calls, preflight excluded research cap"
+}

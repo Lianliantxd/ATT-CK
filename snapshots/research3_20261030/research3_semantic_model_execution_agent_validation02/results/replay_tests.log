@@ -1,0 +1,27 @@
+test_authorized_native_episode_transport_without_model (__main__.ReplayTests.test_authorized_native_episode_transport_without_model) ... ok
+test_changed_same_call_id_rejected (__main__.ReplayTests.test_changed_same_call_id_rejected) ... ok
+test_context_overflow_rejects_without_clipping (__main__.ReplayTests.test_context_overflow_rejects_without_clipping) ... ok
+test_correlated_ids_and_content_hash (__main__.ReplayTests.test_correlated_ids_and_content_hash) ... ok
+test_duplicate_query_new_id_is_charged (__main__.ReplayTests.test_duplicate_query_new_id_is_charged) ... ok
+test_event_text_equals_actual_index_prefix (__main__.ReplayTests.test_event_text_equals_actual_index_prefix) ... ok
+test_gold_and_shell_and_write_tools_denied (__main__.ReplayTests.test_gold_and_shell_and_write_tools_denied) ... ok
+test_identical_call_id_not_reexecuted (__main__.ReplayTests.test_identical_call_id_not_reexecuted) ... ok
+test_injected_fake_tool_result_cannot_be_accepted (__main__.ReplayTests.test_injected_fake_tool_result_cannot_be_accepted) ... ok
+test_invalid_extra_field_denied (__main__.ReplayTests.test_invalid_extra_field_denied) ... ok
+test_knowledge_text_lossless_in_next_payload (__main__.ReplayTests.test_knowledge_text_lossless_in_next_payload) ... ok
+test_log_injection_stays_data (__main__.ReplayTests.test_log_injection_stays_data) ... ok
+test_no_lexical_match_visible (__main__.ReplayTests.test_no_lexical_match_visible) ... ok
+test_old_knowledge_loss_reproduced (__main__.ReplayTests.test_old_knowledge_loss_reproduced) ... ok
+test_rejected_parameters_visible_to_next_turn (__main__.ReplayTests.test_rejected_parameters_visible_to_next_turn) ... ok
+test_replay_full_trace_written_with_no_model_score (__main__.ReplayTests.test_replay_full_trace_written_with_no_model_score) ... ok
+test_scope_escape_denied (__main__.ReplayTests.test_scope_escape_denied) ... ok
+test_shared_budget_stops_third_dispatch (__main__.ReplayTests.test_shared_budget_stops_third_dispatch) ... ok
+test_successful_replay_submission_not_real_episode (__main__.ReplayTests.test_successful_replay_submission_not_real_episode) ... ok
+test_unseen_citation_and_duplicate_ranking_rejected (__main__.ReplayTests.test_unseen_citation_and_duplicate_ranking_rejected) ... ok
+test_v2_knowledge_byte_render_cap_is_not_lossless (__main__.ReplayTests.test_v2_knowledge_byte_render_cap_is_not_lossless) ... ok
+test_wrong_call_id_rejected_before_dispatch (__main__.ReplayTests.test_wrong_call_id_rejected_before_dispatch) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.890s
+
+OK

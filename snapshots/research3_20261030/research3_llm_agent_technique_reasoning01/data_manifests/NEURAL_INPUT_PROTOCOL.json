@@ -1,0 +1,65 @@
+{
+  "status": "INPUT_PREPARATION_NOT_MODEL_INFERENCE",
+  "actual_model_tokenization": "PENDING_MODEL_ADMISSION",
+  "budget": 2048,
+  "proxy_regex": "\\w+|[^\\w\\s]",
+  "views": [
+    "V0",
+    "V1",
+    "V2",
+    "V3"
+  ],
+  "rules": [
+    "prefix",
+    "window"
+  ],
+  "knowledge": "K2_DESCRIPTION_16_1",
+  "candidate_count": 216,
+  "datasets": {
+    "P0": {
+      "input": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_prediction.jsonl",
+      "input_sha256": "ea5425e98463e63d06a3b57c26376e6150789c86dcadc8e4446e93eb7f3300ed",
+      "output": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views/P0.jsonl",
+      "output_sha256": "c19ac100e048b6f86ae4342ac8103fa2f585c5121e94c4003f2e1bb64e6e94e0",
+      "sample_count": 975,
+      "truncated_sample_counts": {
+        "prefix": 281,
+        "window": 281
+      },
+      "max_view_proxy_tokens": {
+        "prefix": 2048,
+        "window": 2048
+      }
+    },
+    "P1": {
+      "input": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/prediction.jsonl",
+      "input_sha256": "a486fe1c4a9641adba2f94bf87fd0de532d835ff2a859d82f1c5f20e27b2534f",
+      "output": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views/P1.jsonl",
+      "output_sha256": "0bde4674f57a54f335f0a370f5a6653866a2626c4cb9ccabd722caa466ee97d0",
+      "sample_count": 975,
+      "truncated_sample_counts": {
+        "prefix": 274,
+        "window": 274
+      },
+      "max_view_proxy_tokens": {
+        "prefix": 2048,
+        "window": 2048
+      }
+    },
+    "P2_SAMPLED": {
+      "input": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_sampled.jsonl",
+      "input_sha256": "31689aaba6b83f0763aada2035ac61fc17153218bb2b6efbc64f5139c55a4c3b",
+      "output": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views/P2_SAMPLED.jsonl",
+      "output_sha256": "5c145d4d9e5f32e4b7e4c42e4c7cc618f7724ef5349ee1e80675ae0c48fdaeae",
+      "sample_count": 385,
+      "truncated_sample_counts": {
+        "prefix": 103,
+        "window": 103
+      },
+      "max_view_proxy_tokens": {
+        "prefix": 2048,
+        "window": 2048
+      }
+    }
+  }
+}

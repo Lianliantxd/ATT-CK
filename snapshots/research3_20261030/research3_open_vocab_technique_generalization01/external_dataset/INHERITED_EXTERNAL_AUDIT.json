@@ -1,0 +1,106 @@
+{
+  "source": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/external_candidates/QUALIFICATION_DECISION.json",
+  "source_sha256": "dd956be7c928c4dc51d600c9d694b88b06c3c7769f5f87528e66918b050ef79a",
+  "inherited_decision": {
+    "date_asia_shanghai": "2026-10-28",
+    "overall_status": "EXTERNAL_TEST_NOT_READY",
+    "external_training_examples_admitted": 0,
+    "external_evaluation_examples": 0,
+    "new_log_bytes_downloaded": 0,
+    "metadata_only": true,
+    "server_uploads": 0,
+    "new_gpu_runs": 0,
+    "new_llm_requests": 0,
+    "sources": [
+      {
+        "id": "OTRF_APT29_DAY1",
+        "repository": "OTRF/Security-Datasets",
+        "commit": "d9d40ef123d2c87d5d3df28c96bcab4f0faccc87",
+        "metadata_qualification": "RELATED_SOURCE_DEVELOPMENT",
+        "additional_statuses": [
+          "INSUFFICIENT_INDEPENDENCE",
+          "LABEL_MAPPING_UNCERTAIN"
+        ],
+        "license_observation": "fixed root LICENSE is MIT; repository README still says GPL-3.0; archive-specific redistribution scope unverified",
+        "label_unit": "emulation-plan step technique names; released host archive is scenario/day aggregate, no verified event-level labels",
+        "log_path": "datasets/compound/apt29/day1/apt29_evals_day1_manual.zip",
+        "log_git_blob_sha": "7352679a173ec0310f9d0ed587782545182dd394",
+        "compressed_git_blob_bytes": 13944973,
+        "plan_path": "datasets/compound/apt29/emulationplans/apt29.xlsx",
+        "plan_git_blob_sha": "e2b95dc306967a6a2d9af033cf1fe7c3ad155c13",
+        "plan_git_blob_bytes": 25051,
+        "local_plan_bytes": 25050,
+        "local_plan_matches_fixed_blob": false,
+        "platform": "Windows host telemetry plus network captures",
+        "script_independence": "CAM overlap not established; existing Mordor derivatives and local plans already exposed",
+        "training_admitted": false,
+        "test_admitted": false,
+        "download_authorization_needed": true,
+        "next_step": "Resolve fixed-source plan integrity and IDs, obtain bounded specific-log authorization, verify source-to-step windows and CAM script independence; admit only as exposed external development unless stronger independent source evidence."
+      },
+      {
+        "id": "SPLUNK_T1003_003_ATOMIC",
+        "repository": "splunk/attack_data",
+        "commit": "671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+        "metadata_qualification": "DATASET_LEVEL_LABEL_ONLY",
+        "additional_statuses": [
+          "INSUFFICIENT_INDEPENDENCE"
+        ],
+        "dataset_id": "cc9b25e1-efc9-11eb-926b-550bf0943fbb",
+        "date_in_metadata": "2020-10-08",
+        "source_label_ids": [
+          "T1003.003"
+        ],
+        "parent_mapping": {
+          "T1003.003": "T1003"
+        },
+        "parent_in_216": true,
+        "knowledge_parent_mapping_check": "parent ID belongs to frozen 216 candidate dictionary; no obsolete-ID semantic crosswalk needed for this one source label",
+        "label_unit": "one dataset bag grouping multiple Atomic Red Team test variants, not per-event labels",
+        "license_observation": "fixed root LICENSE is Apache-2.0",
+        "environment": "attack_range",
+        "directory": "atomic_red_team",
+        "platform": "Windows / Sysmon / Security / CrowdStrike",
+        "metadata_path": "datasets/attack_techniques/T1003.003/atomic_red_team/atomic_red_team.yml",
+        "logs": [
+          {
+            "path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log",
+            "sourcetype": "XmlWinEventLog",
+            "source": "XmlWinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "lfs_object_bytes": 12883992,
+            "lfs_sha256": "ee1c7cd9fa20013c82da17f8cb1998197c117ab4c209ab56203290bc90739fda"
+          },
+          {
+            "path": "datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log",
+            "sourcetype": "XmlWinEventLog",
+            "source": "XmlWinEventLog:Security",
+            "lfs_object_bytes": 11176,
+            "lfs_sha256": "81e1d4e381f4dc38b97c48f9fa5b0ab0b098810c321b7d4599029a9f22530259"
+          },
+          {
+            "path": "datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log",
+            "sourcetype": "crowdstrike:events:sensor",
+            "source": "crowdstrike",
+            "lfs_object_bytes": 10681,
+            "lfs_sha256": "c4275ab0ef976b0d00ba7840031a06d9f47d1beeaf4c3056d2fc7bb8fe08b38a"
+          }
+        ],
+        "total_proposed_log_bytes": 12905849,
+        "training_admitted": false,
+        "test_admitted": false,
+        "download_authorization_needed": true,
+        "script_independence": "Atomic Red Team / attack_range known from metadata; CAM command/script overlap not tested",
+        "next_step": "After explicit bounded log-download authorization, validate LFS SHA256, bag boundaries/background events/duplicate executions, freeze group-level split, and use dataset-bag evaluation only. This one-class bag cannot alone support 216-class external generalization."
+      }
+    ],
+    "network_findings": {
+      "web_repository_read_success": true,
+      "web_fixed_splunk_yaml": "cache miss",
+      "web_api_commits": "not accessible via web tool",
+      "github_connector_fixed_metadata_read_success": true,
+      "web_commit_list_stale": "Splunk cached list displayed be1980668e58497d23ba77ba25769996c4d1efaa whereas connector master ref resolved 671f9f5b065f03a5502db07c20f1fe3f620d29d9; use captured connector ref",
+      "otrf_binary_plan_contents": "connector binary contents request failed; directory metadata succeeded; no plan downloaded"
+    },
+    "evaluation_metric_policy": "NA/blank when not run, never zero performance"
+  }
+}

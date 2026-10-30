@@ -1,0 +1,128 @@
+[
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md",
+    "sha256": "75d6f3222830c2ff21acdecc4a142241bc4043e7761965c649c27714fd66c0d3",
+    "bytes": 8648
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_DATA_MANIFEST.json",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/OFFICIAL_DATA_MANIFEST.json",
+    "sha256": "9f59330feb5a81c70dc81013f911bfacebb520010e733765e4511c2648474cf9",
+    "bytes": 7804
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/STEP_LEVEL_DATASET.jsonl",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/STEP_LEVEL_DATASET.jsonl",
+    "sha256": "fdeeead62daa0bc7bcb4babf7a3a744e9b81c1af014ba3949a9daef9b55e07e0",
+    "bytes": 13894159
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_TECHNIQUE_EVALUATION_PROTOCOL_V1.md",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/ATTACK_TECHNIQUE_EVALUATION_PROTOCOL_V1.md",
+    "sha256": "ce60906e5a13c4be1cc5b85c59c7e603aae94d9a4a56fb870ab70129a6f24114",
+    "bytes": 1970
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/BASELINE_RESULTS_P0.csv",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/BASELINE_RESULTS_P0.csv",
+    "sha256": "804696b51615545fa1f09203ab4b9971f7afd272aa127d83ca235c54d7adac4b",
+    "bytes": 5551
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/BASELINE_RESULTS_P1.csv",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/BASELINE_RESULTS_P1.csv",
+    "sha256": "f8bbb863c231d439b32a8f2bfc2cd7a452bd1ff6ddb41545676b43c7f073c806",
+    "bytes": 1222
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/BASELINE_PREDICTIONS.jsonl",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/BASELINE_PREDICTIONS.jsonl",
+    "sha256": "68966135d75e1fbeffda37f2a536c791fc0a13178738dde6ade1e1ce696777d9",
+    "bytes": 3351300
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/BASELINE_ERROR_ANALYSIS.md",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/BASELINE_ERROR_ANALYSIS.md",
+    "sha256": "f3f25010a5e37b53c8a9bf3ed57195c0c3a971442536dfb8b394a3e7f15a233d",
+    "bytes": 3193
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/LABEL_LEAKAGE_AUDIT.md",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/LABEL_LEAKAGE_AUDIT.md",
+    "sha256": "4b8d6196b8f669dc9a33039506b2dc53348fe2953ac12efae8c59e520e505b4b",
+    "bytes": 1529
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/DATASET_SPLITS.json",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/DATASET_SPLITS.json",
+    "sha256": "50cb42f3165f1b02f82685006a6f634fdaacfff2d8da0688fb77d04f5b14b90e",
+    "bytes": 33108
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/METHOD_RESEARCH_DECISION.md",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/METHOD_RESEARCH_DECISION.md",
+    "sha256": "19900d642afb62a7d9856a90ad8fdb425c204e54fff8f3061bc0de07d6d13434",
+    "bytes": 1544
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/evaluate_techniques.py",
+    "sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+    "bytes": 2846
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/ATTACK_KNOWLEDGE_VERSION.json",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/ATTACK_KNOWLEDGE_VERSION.json",
+    "sha256": "a1f2b9ec11b35870e8cc7b6267adf440a03bd68bea1d441cae0aafd6eb4121a3",
+    "bytes": 898
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/manifests/ENVIRONMENT_MANIFEST.json",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/manifests/ENVIRONMENT_MANIFEST.json",
+    "sha256": "c38d15c0be16251389fe8231127d302669e1d77841bc1d46103fb49661dd6e8c",
+    "bytes": 5151
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/benchmark/test_metrics.py",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/benchmark/test_metrics.py",
+    "sha256": "52e4dc0b5e9da195758089ad7c7a3f40c3c25fdfa077074281c9d9a6c30701c2",
+    "bytes": 1780
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/baselines/retrieval.py",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/baselines/retrieval.py",
+    "sha256": "e4719c7f0a9409dc35b56b27719f8977f87613d8dfc4005ee20b12d704212e6b",
+    "bytes": 1660
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/prediction_view_strict.jsonl",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/prediction_view_strict.jsonl",
+    "sha256": "354bd63cde304cfac1b7a8f488811b294131af8a869e213114f9a7095d58f5e5",
+    "bytes": 6570232
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/reference_view.jsonl",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/reference_view.jsonl",
+    "sha256": "c149908dbfb3c8d91d5d036b7e8ef21d92af5b154508ea17b218814a3b164f05",
+    "bytes": 57215
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/official_knowledge_documents.json",
+    "sha256": "426c0e5c316eb807145eaebf4acd49dc04d15e0c6ca69f1a4aa04fd8b2a78a37",
+    "bytes": 31331
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/extended_knowledge_documents.json",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/datasets/extended_knowledge_documents.json",
+    "sha256": "d295fc8a9301be902e252a0653896bf1da38bde14cbae23c0d653afa4d32d3fa",
+    "bytes": 950008
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_METRIC_RECALCULATION.csv",
+    "frozen_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/frozen_p0/OFFICIAL_METRIC_RECALCULATION.csv",
+    "sha256": "2c0987bbdabf6a0b7962f37371cfc03ecb9c75a5c2db5a3d9ecec781a69d02e1",
+    "bytes": 3780
+  }
+]

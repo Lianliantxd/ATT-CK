@@ -1,0 +1,850 @@
+{
+  "1-39-r0": {
+    "author_label_key": "1_validaccount_localaccount-39",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1136.001": {
+        "tactics": [
+          "persistence"
+        ],
+        "technique_name": "Create Account: Local Account"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1136.001"
+    ],
+    "parent_reference_labels": [
+      "T1136",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1136",
+      "T1218"
+    ]
+  },
+  "1-39-r3": {
+    "author_label_key": "1_validaccount_localaccount-39",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1136.001": {
+        "tactics": [
+          "persistence"
+        ],
+        "technique_name": "Create Account: Local Account"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1136.001"
+    ],
+    "parent_reference_labels": [
+      "T1136",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1136",
+      "T1218"
+    ]
+  },
+  "1-42-r0": {
+    "author_label_key": "1_pwnkit_pam-42",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1556.003": {
+        "tactics": [
+          "credential-access",
+          "defense-evasion",
+          "persistence"
+        ],
+        "technique_name": "Modify Authentication Process: Pluggable Authentication Modules"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1556.003"
+    ],
+    "parent_reference_labels": [
+      "T1218",
+      "T1556"
+    ],
+    "prior_target_unseen_gold": [
+      "T1218",
+      "T1556"
+    ]
+  },
+  "1-42-r1": {
+    "author_label_key": "1_sudo_pam-42",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1556.003": {
+        "tactics": [
+          "credential-access",
+          "defense-evasion",
+          "persistence"
+        ],
+        "technique_name": "Modify Authentication Process: Pluggable Authentication Modules"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1556.003"
+    ],
+    "parent_reference_labels": [
+      "T1218",
+      "T1556"
+    ],
+    "prior_target_unseen_gold": [
+      "T1218",
+      "T1556"
+    ]
+  },
+  "1-42-r2": {
+    "author_label_key": "1_sudo_pam-42",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1556.003": {
+        "tactics": [
+          "credential-access",
+          "defense-evasion",
+          "persistence"
+        ],
+        "technique_name": "Modify Authentication Process: Pluggable Authentication Modules"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1556.003"
+    ],
+    "parent_reference_labels": [
+      "T1218",
+      "T1556"
+    ],
+    "prior_target_unseen_gold": [
+      "T1218",
+      "T1556"
+    ]
+  },
+  "1-42-r3": {
+    "author_label_key": "1_validaccount_pam-42",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1556.003": {
+        "tactics": [
+          "credential-access",
+          "defense-evasion",
+          "persistence"
+        ],
+        "technique_name": "Modify Authentication Process: Pluggable Authentication Modules"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1556.003"
+    ],
+    "parent_reference_labels": [
+      "T1218",
+      "T1556"
+    ],
+    "prior_target_unseen_gold": [
+      "T1218",
+      "T1556"
+    ]
+  },
+  "1-42-r4": {
+    "author_label_key": "1_pwnkit_pam-42",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1556.003": {
+        "tactics": [
+          "credential-access",
+          "defense-evasion",
+          "persistence"
+        ],
+        "technique_name": "Modify Authentication Process: Pluggable Authentication Modules"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1556.003"
+    ],
+    "parent_reference_labels": [
+      "T1218",
+      "T1556"
+    ],
+    "prior_target_unseen_gold": [
+      "T1218",
+      "T1556"
+    ]
+  },
+  "1-44-r0": {
+    "author_label_key": "1_sudo_sshkey-44",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1098.004": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Account Manipulation: SSH Authorized Keys"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1098.004"
+    ],
+    "parent_reference_labels": [
+      "T1098",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1098",
+      "T1218"
+    ]
+  },
+  "1-44-r1": {
+    "author_label_key": "1_sudo_sshkey-44",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1098.004": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Account Manipulation: SSH Authorized Keys"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1098.004"
+    ],
+    "parent_reference_labels": [
+      "T1098",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1098",
+      "T1218"
+    ]
+  },
+  "1-44-r2": {
+    "author_label_key": "1_validaccount_sshkey-44",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1098.004": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Account Manipulation: SSH Authorized Keys"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1098.004"
+    ],
+    "parent_reference_labels": [
+      "T1098",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1098",
+      "T1218"
+    ]
+  },
+  "1-44-r3": {
+    "author_label_key": "1_sudo_sshkey-44",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1098.004": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Account Manipulation: SSH Authorized Keys"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1098.004"
+    ],
+    "parent_reference_labels": [
+      "T1098",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1098",
+      "T1218"
+    ]
+  },
+  "1-44-r4": {
+    "author_label_key": "1_pwnkit_sshkey-44",
+    "metadata": {
+      "T1218": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "System Binary Proxy Execution"
+      },
+      "T1098.004": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Account Manipulation: SSH Authorized Keys"
+      }
+    },
+    "raw_reference_labels": [
+      "T1218",
+      "T1098.004"
+    ],
+    "parent_reference_labels": [
+      "T1098",
+      "T1218"
+    ],
+    "prior_target_unseen_gold": [
+      "T1098",
+      "T1218"
+    ]
+  },
+  "2-4-r0": {
+    "author_label_key": "2_cron-4",
+    "metadata": {
+      "T1547": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Boot or Logon Autostart Execution"
+      },
+      "T1569": {
+        "tactics": [
+          "execution"
+        ],
+        "technique_name": "System Services"
+      }
+    },
+    "raw_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "parent_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "prior_target_unseen_gold": [
+      "T1569"
+    ]
+  },
+  "2-4-r1": {
+    "author_label_key": "2_cron-4",
+    "metadata": {
+      "T1547": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Boot or Logon Autostart Execution"
+      },
+      "T1569": {
+        "tactics": [
+          "execution"
+        ],
+        "technique_name": "System Services"
+      }
+    },
+    "raw_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "parent_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "prior_target_unseen_gold": [
+      "T1569"
+    ]
+  },
+  "2-4-r2": {
+    "author_label_key": "2_cron-4",
+    "metadata": {
+      "T1547": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Boot or Logon Autostart Execution"
+      },
+      "T1569": {
+        "tactics": [
+          "execution"
+        ],
+        "technique_name": "System Services"
+      }
+    },
+    "raw_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "parent_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "prior_target_unseen_gold": [
+      "T1569"
+    ]
+  },
+  "2-4-r3": {
+    "author_label_key": "2_cron-4",
+    "metadata": {
+      "T1547": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Boot or Logon Autostart Execution"
+      },
+      "T1569": {
+        "tactics": [
+          "execution"
+        ],
+        "technique_name": "System Services"
+      }
+    },
+    "raw_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "parent_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "prior_target_unseen_gold": [
+      "T1569"
+    ]
+  },
+  "2-4-r4": {
+    "author_label_key": "2_cron-4",
+    "metadata": {
+      "T1547": {
+        "tactics": [
+          "persistence",
+          "privilege-escalation"
+        ],
+        "technique_name": "Boot or Logon Autostart Execution"
+      },
+      "T1569": {
+        "tactics": [
+          "execution"
+        ],
+        "technique_name": "System Services"
+      }
+    },
+    "raw_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "parent_reference_labels": [
+      "T1547",
+      "T1569"
+    ],
+    "prior_target_unseen_gold": [
+      "T1569"
+    ]
+  },
+  "3-30-r0": {
+    "author_label_key": "3_ssh_apt-30",
+    "metadata": {
+      "T1485": {
+        "tactics": [
+          "impact"
+        ],
+        "technique_name": "Data Destruction"
+      }
+    },
+    "raw_reference_labels": [
+      "T1485"
+    ],
+    "parent_reference_labels": [
+      "T1485"
+    ],
+    "prior_target_unseen_gold": [
+      "T1485"
+    ]
+  },
+  "3-30-r1": {
+    "author_label_key": "3_ssh_healthcheck-30",
+    "metadata": {
+      "T1485": {
+        "tactics": [
+          "impact"
+        ],
+        "technique_name": "Data Destruction"
+      }
+    },
+    "raw_reference_labels": [
+      "T1485"
+    ],
+    "parent_reference_labels": [
+      "T1485"
+    ],
+    "prior_target_unseen_gold": [
+      "T1485"
+    ]
+  },
+  "3-30-r2": {
+    "author_label_key": "3_vnc_puppet-30",
+    "metadata": {
+      "T1485": {
+        "tactics": [
+          "impact"
+        ],
+        "technique_name": "Data Destruction"
+      }
+    },
+    "raw_reference_labels": [
+      "T1485"
+    ],
+    "parent_reference_labels": [
+      "T1485"
+    ],
+    "prior_target_unseen_gold": [
+      "T1485"
+    ]
+  },
+  "3-30-r3": {
+    "author_label_key": "3_vnc_puppet-30",
+    "metadata": {
+      "T1485": {
+        "tactics": [
+          "impact"
+        ],
+        "technique_name": "Data Destruction"
+      }
+    },
+    "raw_reference_labels": [
+      "T1485"
+    ],
+    "parent_reference_labels": [
+      "T1485"
+    ],
+    "prior_target_unseen_gold": [
+      "T1485"
+    ]
+  },
+  "3-30-r4": {
+    "author_label_key": "3_vnc_apt-30",
+    "metadata": {
+      "T1485": {
+        "tactics": [
+          "impact"
+        ],
+        "technique_name": "Data Destruction"
+      }
+    },
+    "raw_reference_labels": [
+      "T1485"
+    ],
+    "parent_reference_labels": [
+      "T1485"
+    ],
+    "prior_target_unseen_gold": [
+      "T1485"
+    ]
+  },
+  "3-46-r0": {
+    "author_label_key": "3_vnc_puppet-46",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "3-46-r1": {
+    "author_label_key": "3_vnc_puppet-46",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "3-46-r2": {
+    "author_label_key": "3_vnc_puppet-46",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "3-46-r3": {
+    "author_label_key": "3_vnc_healthcheck-46",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "3-46-r4": {
+    "author_label_key": "3_vnc_apt-46",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "3-7-r2": {
+    "author_label_key": "3_ssh_apt-7",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "3-7-r4": {
+    "author_label_key": "3_ssh_healthcheck-7",
+    "metadata": {
+      "T1213": {
+        "tactics": [
+          "collection"
+        ],
+        "technique_name": "Data from Information Repositories"
+      }
+    },
+    "raw_reference_labels": [
+      "T1213"
+    ],
+    "parent_reference_labels": [
+      "T1213"
+    ],
+    "prior_target_unseen_gold": [
+      "T1213"
+    ]
+  },
+  "4-17-r0": {
+    "author_label_key": "4-17",
+    "metadata": {
+      "T1599": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "Network Boundary Bridging"
+      }
+    },
+    "raw_reference_labels": [
+      "T1599"
+    ],
+    "parent_reference_labels": [
+      "T1599"
+    ],
+    "prior_target_unseen_gold": [
+      "T1599"
+    ]
+  },
+  "4-17-r1": {
+    "author_label_key": "4-17",
+    "metadata": {
+      "T1599": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "Network Boundary Bridging"
+      }
+    },
+    "raw_reference_labels": [
+      "T1599"
+    ],
+    "parent_reference_labels": [
+      "T1599"
+    ],
+    "prior_target_unseen_gold": [
+      "T1599"
+    ]
+  },
+  "4-17-r2": {
+    "author_label_key": "4-17",
+    "metadata": {
+      "T1599": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "Network Boundary Bridging"
+      }
+    },
+    "raw_reference_labels": [
+      "T1599"
+    ],
+    "parent_reference_labels": [
+      "T1599"
+    ],
+    "prior_target_unseen_gold": [
+      "T1599"
+    ]
+  },
+  "4-17-r3": {
+    "author_label_key": "4-17",
+    "metadata": {
+      "T1599": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "Network Boundary Bridging"
+      }
+    },
+    "raw_reference_labels": [
+      "T1599"
+    ],
+    "parent_reference_labels": [
+      "T1599"
+    ],
+    "prior_target_unseen_gold": [
+      "T1599"
+    ]
+  },
+  "4-17-r4": {
+    "author_label_key": "4-17",
+    "metadata": {
+      "T1599": {
+        "tactics": [
+          "defense-evasion"
+        ],
+        "technique_name": "Network Boundary Bridging"
+      }
+    },
+    "raw_reference_labels": [
+      "T1599"
+    ],
+    "parent_reference_labels": [
+      "T1599"
+    ],
+    "prior_target_unseen_gold": [
+      "T1599"
+    ]
+  }
+}

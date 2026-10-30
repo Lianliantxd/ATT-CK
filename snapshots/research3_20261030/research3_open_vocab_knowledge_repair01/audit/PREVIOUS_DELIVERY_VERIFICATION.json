@@ -1,0 +1,218 @@
+[
+  {
+    "path": "AFFECTED_QUERY_MAP.csv",
+    "expected": "46013f63dcf84069d979aebd8357a8e95823d43459ab3aae0379133126464b5b",
+    "actual": "46013f63dcf84069d979aebd8357a8e95823d43459ab3aae0379133126464b5b",
+    "match": true
+  },
+  {
+    "path": "ASSET_SOURCE_INVENTORY.csv",
+    "expected": "a123bd29a41ea193d93b66248f48884735beffd8172eade5419030c7cbe3c297",
+    "actual": "a123bd29a41ea193d93b66248f48884735beffd8172eade5419030c7cbe3c297",
+    "match": true
+  },
+  {
+    "path": "DEFINITION_IMPACT_SUMMARY.csv",
+    "expected": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c",
+    "actual": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c",
+    "match": true
+  },
+  {
+    "path": "EXTRACTION_PIPELINE_AUDIT.csv",
+    "expected": "093fd324e32ad6881cc64862933f0265bd8424bd3e7db88bf0a520aa0af15dc7",
+    "actual": "093fd324e32ad6881cc64862933f0265bd8424bd3e7db88bf0a520aa0af15dc7",
+    "match": true
+  },
+  {
+    "path": "GOLD_SCOPE_AUDIT.csv",
+    "expected": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225",
+    "actual": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225",
+    "match": true
+  },
+  {
+    "path": "HUMAN_ADJUDICATION_QUEUE.csv",
+    "expected": "729ca0ef646adccbef3a23f407f6fff6fc1dfbe9c22df83f749a7bc73d349f83",
+    "actual": "729ca0ef646adccbef3a23f407f6fff6fc1dfbe9c22df83f749a7bc73d349f83",
+    "match": true
+  },
+  {
+    "path": "INPUT_LABEL_SCOPE_AUDIT_REPORT.md",
+    "expected": "bcc4b0a9955ebb8bf76586aca37c258279829eaf70b932beb307be144b088ca9",
+    "actual": "bcc4b0a9955ebb8bf76586aca37c258279829eaf70b932beb307be144b088ca9",
+    "match": true
+  },
+  {
+    "path": "PARENT_CHILD_MAPPING_AUDIT.csv",
+    "expected": "81c4a45337bd021b027d51ef86235a1dd7dcad89833fceda8b3eab508bd997ed",
+    "actual": "81c4a45337bd021b027d51ef86235a1dd7dcad89833fceda8b3eab508bd997ed",
+    "match": true
+  },
+  {
+    "path": "REPAIRABILITY_REGISTER.csv",
+    "expected": "a53fe8fd4cef17a2d655ceccd3afeaae853bce74aa3b19c6cb98eab4c6dc6e3a",
+    "actual": "a53fe8fd4cef17a2d655ceccd3afeaae853bce74aa3b19c6cb98eab4c6dc6e3a",
+    "match": true
+  },
+  {
+    "path": "RUN_MANIFEST.json",
+    "expected": "21f104f4663cb2edcbdb7149716af7977c6fa11c23fc1d73597aa7a649e995d2",
+    "actual": "21f104f4663cb2edcbdb7149716af7977c6fa11c23fc1d73597aa7a649e995d2",
+    "match": true
+  },
+  {
+    "path": "TECHNIQUE_DEFINITION_AUDIT.csv",
+    "expected": "4df08bd10ca616679d0e35352431167d24f39ae1c786e046005944f5e7568141",
+    "actual": "4df08bd10ca616679d0e35352431167d24f39ae1c786e046005944f5e7568141",
+    "match": true
+  },
+  {
+    "path": "audit/ASSET_READ_SNAPSHOT.json",
+    "expected": "2457dd624a49fee37847813061a89bf445f6e1b9267437b988db5205ced5473e",
+    "actual": "2457dd624a49fee37847813061a89bf445f6e1b9267437b988db5205ced5473e",
+    "match": true
+  },
+  {
+    "path": "audit/BOUNDED_TRANSFORMATION_PROOF.json",
+    "expected": "8ede6af85a1b3b5b4d7bcef69ecb92f6a5f4f2bcd1a62b49ce401d6d9117251d",
+    "actual": "8ede6af85a1b3b5b4d7bcef69ecb92f6a5f4f2bcd1a62b49ce401d6d9117251d",
+    "match": true
+  },
+  {
+    "path": "audit/FROZEN_AUDIT_QUEUES.json",
+    "expected": "01fa329965d3e36599871a386d8162c183936df3cc7a030fdf895264cf07613f",
+    "actual": "01fa329965d3e36599871a386d8162c183936df3cc7a030fdf895264cf07613f",
+    "match": true
+  },
+  {
+    "path": "audit/GATE_CONTEXT_INSPECTION.json",
+    "expected": "0b763bba20f0427b4e3a8ad56eb5a824613f8f3c7acc2d4df8641814f8bb048c",
+    "actual": "0b763bba20f0427b4e3a8ad56eb5a824613f8f3c7acc2d4df8641814f8bb048c",
+    "match": true
+  },
+  {
+    "path": "audit/IMPACT_ID_SETS.json",
+    "expected": "3986b8072fb04c0ee460a4a3e60483bc790e0211d57e541f4a623ea09c024514",
+    "actual": "3986b8072fb04c0ee460a4a3e60483bc790e0211d57e541f4a623ea09c024514",
+    "match": true
+  },
+  {
+    "path": "audit/INDEPENDENT_VALIDATION_CHECKS.json",
+    "expected": "b96b2c8bfdc961a8ac654cb4cd16aa630ffb60613d79f8810fd0495401bf51f7",
+    "actual": "b96b2c8bfdc961a8ac654cb4cd16aa630ffb60613d79f8810fd0495401bf51f7",
+    "match": true
+  },
+  {
+    "path": "audit/LEGACY_HASH_MISMATCHES_PRESERVED.json",
+    "expected": "519c10bb551ae403cdf0f953f384e6f4fcbab386b4b626e7766517070dd1e978",
+    "actual": "519c10bb551ae403cdf0f953f384e6f4fcbab386b4b626e7766517070dd1e978",
+    "match": true
+  },
+  {
+    "path": "audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+    "expected": "aebf08f53fa9a9130c2325f337a7621eb9624b01bc5639ac7c384cc0bf3ee9bd",
+    "actual": "aebf08f53fa9a9130c2325f337a7621eb9624b01bc5639ac7c384cc0bf3ee9bd",
+    "match": true
+  },
+  {
+    "path": "audit/SELECTED_AUTHOR_LABEL_METADATA.json",
+    "expected": "3236628a9cdc6bf2adebfab0f62c8b2ff290acf3933cf8e4bf2b2fbb82dccdfb",
+    "actual": "3236628a9cdc6bf2adebfab0f62c8b2ff290acf3933cf8e4bf2b2fbb82dccdfb",
+    "match": true
+  },
+  {
+    "path": "audit/SELECTED_SOURCE_FIELD_EVIDENCE.json",
+    "expected": "778d253893706a98604f562fb6870b3add474c7961a6b26481e27e6f87bd47bd",
+    "actual": "778d253893706a98604f562fb6870b3add474c7961a6b26481e27e6f87bd47bd",
+    "match": true
+  },
+  {
+    "path": "audit/SOURCE_HASH_COMPARISONS.json",
+    "expected": "8d79680913e62eb21b21d73e9ece79014de13c417f7e9fed8e3cd13233b03ede",
+    "actual": "8d79680913e62eb21b21d73e9ece79014de13c417f7e9fed8e3cd13233b03ede",
+    "match": true
+  },
+  {
+    "path": "code/audit_io.py",
+    "expected": "682f6fce807381f0df06925cb078bfdb5c525319d1026e8e5394662262855f74",
+    "actual": "682f6fce807381f0df06925cb078bfdb5c525319d1026e8e5394662262855f74",
+    "match": true
+  },
+  {
+    "path": "code/build_audit.py",
+    "expected": "b1980300d96dca208a82050c8926b51d9cef0d1ae047bd7b4166279b2a529690",
+    "actual": "b1980300d96dca208a82050c8926b51d9cef0d1ae047bd7b4166279b2a529690",
+    "match": true
+  },
+  {
+    "path": "code/complete_deliverables.py",
+    "expected": "6e840eb5f0ecd790c576192bdfc9917438d7bc66f89d0e62deb7ae9cf2779ec0",
+    "actual": "6e840eb5f0ecd790c576192bdfc9917438d7bc66f89d0e62deb7ae9cf2779ec0",
+    "match": true
+  },
+  {
+    "path": "code/finalize_audit.py",
+    "expected": "eff95ddfb16625352d45225e2ccda91c5e33282c2e80831e847556777cbbe162",
+    "actual": "eff95ddfb16625352d45225e2ccda91c5e33282c2e80831e847556777cbbe162",
+    "match": true
+  },
+  {
+    "path": "code/validate_audit.py",
+    "expected": "60aaed66e3d13b8bf9a243cefbc5b7f57c833636670aadd0c4299b3a13830d21",
+    "actual": "60aaed66e3d13b8bf9a243cefbc5b7f57c833636670aadd0c4299b3a13830d21",
+    "match": true
+  },
+  {
+    "path": "protocol/BLOCKER_REGISTER.json",
+    "expected": "55b12c18ac310d6248c41b8cb06b50186b3cb1c969a5b6adbe3f2f3633a4ebc3",
+    "actual": "55b12c18ac310d6248c41b8cb06b50186b3cb1c969a5b6adbe3f2f3633a4ebc3",
+    "match": true
+  },
+  {
+    "path": "protocol/INPUT_LABEL_AUDIT_PROTOCOL.md",
+    "expected": "cb1364dc81334d7a520c8a8e50ffce5d073b23b80780480ed60f089aa967fe0b",
+    "actual": "cb1364dc81334d7a520c8a8e50ffce5d073b23b80780480ed60f089aa967fe0b",
+    "match": true
+  },
+  {
+    "path": "protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md",
+    "expected": "a71c8c9b743f2630762f1d66b9e0e3cc266e42594cfa1515062017f6208b4d80",
+    "actual": "a71c8c9b743f2630762f1d66b9e0e3cc266e42594cfa1515062017f6208b4d80",
+    "match": true
+  },
+  {
+    "path": "protocol/USER_REQUEST_PART_1.txt",
+    "expected": "ceb256b93ea070df1fc618d2b3ac4e9879be28399d446ffa1ecbbfe53103e134",
+    "actual": "ceb256b93ea070df1fc618d2b3ac4e9879be28399d446ffa1ecbbfe53103e134",
+    "match": true
+  },
+  {
+    "path": "protocol/USER_REQUEST_PART_2.txt",
+    "expected": "dde31453a4b3fdf131b6842c41c340baba7157a6c23340c1e2011628f61f8499",
+    "actual": "dde31453a4b3fdf131b6842c41c340baba7157a6c23340c1e2011628f61f8499",
+    "match": true
+  },
+  {
+    "path": "results/AUDIT_COUNTS.json",
+    "expected": "651d1ca1eaee0fbc024f5dcaf38616bdc23d57bc629dce472e55fd2542dc39ee",
+    "actual": "651d1ca1eaee0fbc024f5dcaf38616bdc23d57bc629dce472e55fd2542dc39ee",
+    "match": true
+  },
+  {
+    "path": "results/DEFINITION_IMPACT_SUMMARY.csv",
+    "expected": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c",
+    "actual": "e8ea526eb17de2479dd5cb0a85934e1d50c4727e381dc580220729cf6fa1ca1c",
+    "match": true
+  },
+  {
+    "path": "results/FINAL_VALIDATION.json",
+    "expected": "7ca206ec4db647e0abad01b2a1b079c98bc85db1dfbbaaf3593e0402e0e0342a",
+    "actual": "7ca206ec4db647e0abad01b2a1b079c98bc85db1dfbbaaf3593e0402e0e0342a",
+    "match": true
+  },
+  {
+    "path": "review/GOLD_SCOPE_AUDIT.csv",
+    "expected": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225",
+    "actual": "63e04faed5283efded0b9f8d3aa324c159a84da134afdb54687e2c70fc053225",
+    "match": true
+  }
+]

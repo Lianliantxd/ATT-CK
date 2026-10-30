@@ -1,0 +1,41 @@
+{
+  "pairs": [
+    [
+      "A database query asks for the capital city of France.",
+      "Paris is the capital city of France."
+    ],
+    [
+      "A database query asks for the capital city of France.",
+      "A wooden chair has four legs."
+    ],
+    [
+      "A process opens a file for reading.",
+      "The event reports a file read operation."
+    ],
+    [
+      "A process opens a file for reading.",
+      "A weather forecast predicts rainfall."
+    ]
+  ],
+  "batched_logits": [
+    2.669921875,
+    -2.541015625,
+    2.1640625,
+    -2.62109375
+  ],
+  "single_logits": [
+    2.669921875,
+    -2.541015625,
+    2.1640625,
+    -2.62109375
+  ],
+  "relevant_gt_irrelevant": [
+    true,
+    true
+  ],
+  "max_batch_single_delta": 0.0,
+  "eval_mode": true,
+  "num_labels": 1,
+  "direction_not_selected_from_CAM_scores": true,
+  "note": "descriptive positive/irrelevant checks, not a sufficient global correctness test"
+}

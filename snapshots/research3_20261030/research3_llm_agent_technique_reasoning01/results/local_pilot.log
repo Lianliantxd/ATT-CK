@@ -1,0 +1,79 @@
+v2_sampled_0000 DIRECT216 FAIL calls 1 sec 25.06
+v2_sampled_0000 KNOWLEDGE20 FAIL calls 1 sec 17.92
+v2_sampled_0000 RETRIEVAL20 ok calls 1 sec 18.87
+v2_sampled_0000 RETRIEVAL50 ok calls 1 sec 20.46
+v2_sampled_0000 RETRIEVAL100 ok calls 1 sec 27.37
+v2_sampled_0000 STATIC_EVIDENCE_S ok calls 1 sec 38.14
+v2_sampled_0000 FIXED_QUERY_S ok calls 1 sec 58.15
+v2_sampled_0000 ADAPTIVE_AGENT_S FAIL calls 3 sec 49.73
+v2_sampled_0000 STATIC_EVIDENCE_M ok calls 1 sec 47.28
+v2_sampled_0000 ADAPTIVE_AGENT_M FAIL calls 5 sec 117.6
+v2_sampled_0001 DIRECT216 FAIL calls 1 sec 31.57
+v2_sampled_0001 KNOWLEDGE20 FAIL calls 1 sec 40.65
+v2_sampled_0001 RETRIEVAL20 ok calls 1 sec 59.61
+v2_sampled_0001 RETRIEVAL50 ok calls 1 sec 48.45
+v2_sampled_0001 RETRIEVAL100 ok calls 1 sec 49.1
+v2_sampled_0001 STATIC_EVIDENCE_S FAIL calls 1 sec 62.46
+v2_sampled_0001 FIXED_QUERY_S FAIL calls 1 sec 32.8
+v2_sampled_0001 ADAPTIVE_AGENT_S FAIL calls 3 sec 181.9
+v2_sampled_0001 STATIC_EVIDENCE_M FAIL calls 1 sec 65.04
+v2_sampled_0001 ADAPTIVE_AGENT_M FAIL calls 5 sec 241.6
+v2_sampled_0135 DIRECT216 FAIL calls 1 sec 22.9
+v2_sampled_0135 KNOWLEDGE20 ok calls 1 sec 36.79
+v2_sampled_0135 RETRIEVAL20 ok calls 1 sec 30.83
+v2_sampled_0135 RETRIEVAL50 ok calls 1 sec 35.2
+v2_sampled_0135 RETRIEVAL100 ok calls 1 sec 48.12
+v2_sampled_0135 STATIC_EVIDENCE_S ok calls 1 sec 43.3
+v2_sampled_0135 FIXED_QUERY_S FAIL calls 1 sec 53.72
+v2_sampled_0135 ADAPTIVE_AGENT_S ok calls 3 sec 58.74
+v2_sampled_0135 STATIC_EVIDENCE_M FAIL calls 1 sec 69.34
+v2_sampled_0135 ADAPTIVE_AGENT_M ok calls 5 sec 145.19
+v2_sampled_0136 DIRECT216 FAIL calls 1 sec 25.22
+v2_sampled_0136 KNOWLEDGE20 ok calls 1 sec 47.51
+v2_sampled_0136 RETRIEVAL20 ok calls 1 sec 38.62
+v2_sampled_0136 RETRIEVAL50 ok calls 1 sec 31.53
+v2_sampled_0136 RETRIEVAL100 ok calls 1 sec 50.71
+v2_sampled_0136 STATIC_EVIDENCE_S FAIL calls 1 sec 32.42
+Traceback (most recent call last):
+  File "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/run_local_pilot.py", line 119, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/run_local_pilot.py", line 105, in run
+    result,receipt=guarded_generate(prompt,schema,f'PILOT_{index:04d}_{mode}_final');models.append(receipt);body=json.loads(result.get('response',''));pred=body['techniques'];evidence=body['evidence_ids'];limitation=body['evidence_limitations']
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/run_local_pilot.py", line 50, in guarded_generate
+    result,receipt=generate(prompt,schema,tag,max_tokens)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/local_ollama.py", line 26, in generate
+    start=time.perf_counter();result=request('generate',payload);seconds=time.perf_counter()-start
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/local_ollama.py", line 14, in request
+    with OPENER.open(req,timeout=timeout) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/http/client.py", line 1478, in getresponse
+    response.begin()
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/http/client.py", line 304, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

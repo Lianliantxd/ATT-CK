@@ -1,0 +1,88 @@
+{
+  "protocol_version": "V2_TOOL_FEEDBACK_REPAIR",
+  "old_protocol_adaptive_qualification": "INVALID_TOOL_RESULT_FORWARDING",
+  "original_start_unix": 1793082761.3019636,
+  "original_wall_limit_seconds": 3600,
+  "remaining_at_prepare_seconds": 0.0,
+  "old_attempts_upper_bound": 55,
+  "total_attempt_cap": 240,
+  "primary_conditions": [
+    "DIRECT216",
+    "KNOWLEDGE20",
+    "RETRIEVAL20",
+    "STATIC_EVIDENCE_S",
+    "ADAPTIVE_AGENT_S"
+  ],
+  "primary_episodes": [
+    {
+      "episode_index": 0,
+      "sample_id": "v2_sampled_0000",
+      "scenario_id": "1",
+      "simulation_id": "1_autostart_localaccount",
+      "step_id": "15",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    },
+    {
+      "episode_index": 135,
+      "sample_id": "v2_sampled_0135",
+      "scenario_id": "2",
+      "simulation_id": "2_cron",
+      "step_id": "1",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    },
+    {
+      "episode_index": 176,
+      "sample_id": "v2_sampled_0176",
+      "scenario_id": "3",
+      "simulation_id": "3_ssh_apt",
+      "step_id": "1",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    },
+    {
+      "episode_index": 266,
+      "sample_id": "v2_sampled_0266",
+      "scenario_id": "4",
+      "simulation_id": "4",
+      "step_id": "10",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    },
+    {
+      "episode_index": 285,
+      "sample_id": "v2_sampled_0285",
+      "scenario_id": "5",
+      "simulation_id": "5",
+      "step_id": "2",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    },
+    {
+      "episode_index": 287,
+      "sample_id": "v2_sampled_0287",
+      "scenario_id": "6",
+      "simulation_id": "6_macro_binary",
+      "step_id": "1",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    },
+    {
+      "episode_index": 373,
+      "sample_id": "v2_sampled_0373",
+      "scenario_id": "7",
+      "simulation_id": "7",
+      "step_id": "1",
+      "selection": "metadata-only lexicographic first2 per scene, no Gold"
+    }
+  ],
+  "planned_conditions": 35,
+  "order": "cache first without calls; mode then seven scenarios",
+  "model_options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_gpu": 0,
+    "num_thread": 2,
+    "num_ctx": 8192,
+    "num_predict": 512,
+    "repeat_penalty": 1.05
+  },
+  "source_sha256": "a82f9c68815af90915fe414d63c4d2ef45f5eabc7e97e841891e1d6b56f42f2e",
+  "knowledge_budget_utf8_bytes": 3500,
+  "schema_cache_provenance": "V1 schema reconstructed deterministically from unchanged V1 final_prompt; native V1 stored prompt/options, not schema"
+}

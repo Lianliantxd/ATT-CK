@@ -1,0 +1,15 @@
+test_aggregation_controls (semantic_models.test_interfaces.InterfaceTests.test_aggregation_controls) ... ok
+test_deterministic_and_empty (semantic_models.test_interfaces.InterfaceTests.test_deterministic_and_empty) ... ok
+test_hash_corruption_refused (semantic_models.test_interfaces.InterfaceTests.test_hash_corruption_refused) ... ok
+test_invalid_predictions_rejected (semantic_models.test_interfaces.InterfaceTests.test_invalid_predictions_rejected) ... ok
+test_missing_admission_blocks_before_dependency_import (semantic_models.test_interfaces.InterfaceTests.test_missing_admission_blocks_before_dependency_import) ... ok
+test_not_admitted_and_empty_asset_manifest_blocked (semantic_models.test_interfaces.InterfaceTests.test_not_admitted_and_empty_asset_manifest_blocked) ... ok
+test_prompt_modes_and_candidate_boundary (semantic_models.test_interfaces.InterfaceTests.test_prompt_modes_and_candidate_boundary) ... ok
+test_real_all_views_mapping_budget_and_population (semantic_models.test_interfaces.InterfaceTests.test_real_all_views_mapping_budget_and_population) ... ok
+test_reference_schema_refused (semantic_models.test_interfaces.InterfaceTests.test_reference_schema_refused) ... ok
+test_unknown_evidence_id_refused (semantic_models.test_interfaces.InterfaceTests.test_unknown_evidence_id_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.857s
+
+OK

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="400" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="400"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-400)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="900" height="400" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="50" y="375" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,750) scale(1,-1)">Actual B2 training loss: fixed 120 Adam updates, seed 42</text>
+			<path d="M 65,80 L 870,80 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="45.75" y="77.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,154) scale(1,-1)">0.0</text>
+			<path d="M 65,127 L 870,127 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="45.75" y="124.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">0.3</text>
+			<path d="M 65,174 L 870,174 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="45.75" y="171.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,342) scale(1,-1)">0.6</text>
+			<path d="M 65,221 L 870,221 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="45.75" y="218.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,436) scale(1,-1)">0.9</text>
+			<path d="M 65,268 L 870,268 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="45.75" y="265.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,530) scale(1,-1)">1.2</text>
+			<path d="M 65,315 L 870,315 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="45.75" y="312.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,624) scale(1,-1)">1.5</text>
+			<polyline points="71.70833 292.2454, 132.0833 237.6636, 199.1667 230.5331, 266.25 227.5504, 333.3333 226.1785, 400.4167 225.5944, 467.5 225.3777, 534.5833 225.306, 601.6667 225.2845, 668.75 225.2783, 735.8333 225.2763, 802.9167 225.2756, 870 225.2753" style="stroke: rgb(31%,43%,54%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<text x="70" y="344" style="font-family: Times-Roman; font-size: 10px;fill: rgb(31%,43%,54%); stroke:none;" transform="translate(0,688) scale(1,-1)">ONE_VIEW_PER_STEP</text>
+			<polyline points="71.70833 292.2465, 132.0833 241.1214, 199.1667 234.1192, 266.25 231.4188, 333.3333 230.0422, 400.4167 229.5535, 467.5 229.3435, 534.5833 229.2818, 601.6667 229.2718, 668.75 229.2647, 735.8333 229.2704, 802.9167 229.2723, 870 229.2753" style="stroke: rgb(81%,58%,29%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<text x="370" y="344" style="font-family: Times-Roman; font-size: 10px;fill: rgb(81%,58%,29%); stroke:none;" transform="translate(0,688) scale(1,-1)">MULTI_VIEW_AUGMENTATION</text>
+			<text x="62.5" y="62" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,124) scale(1,-1)">0</text>
+			<text x="261.25" y="62" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,124) scale(1,-1)">30</text>
+			<text x="462.5" y="62" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,124) scale(1,-1)">60</text>
+			<text x="663.75" y="62" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,124) scale(1,-1)">90</text>
+			<text x="862.5" y="62" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,124) scale(1,-1)">120</text>
+			<text x="65" y="25" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,50) scale(1,-1)">Loss is averaged over 7 overlapping training folds; this is an optimization diagnostic, not a generalization statistic.</text>
+		</g>
+	</g>
+</svg>

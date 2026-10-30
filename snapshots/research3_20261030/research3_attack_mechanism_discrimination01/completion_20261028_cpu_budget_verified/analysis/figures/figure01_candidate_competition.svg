@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="460" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="460"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-460)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="35" y="425" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,850) scale(1,-1)">Larger candidate pools: better recall, worse reranking</text>
+			<text x="35" y="400" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,800) scale(1,-1)">Saved GTE Cross-Encoder scores; E1 native-prefix candidate source. No new model calls.</text>
+			<path d="M 80,120 L 820,120 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="52" y="117.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,234) scale(1,-1)">0</text>
+			<path d="M 80,178.75 L 820,178.75 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="52" y="175.75" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,351) scale(1,-1)">25</text>
+			<path d="M 80,237.5 L 820,237.5 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="52" y="234.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,469) scale(1,-1)">50</text>
+			<path d="M 80,296.25 L 820,296.25 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="52" y="293.25" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,586) scale(1,-1)">75</text>
+			<path d="M 80,355 L 820,355 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="52" y="352.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,704) scale(1,-1)">100</text>
+			<rect x="155.33333333333331" y="120" width="40.0" height="109.66666666666666" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="155.33333333333331" y="238.66666666666666" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,477) scale(1,-1)">46.67%</text>
+			<rect x="205.33333333333331" y="120" width="40.0" height="79.29743589743589" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="205.33333333333331" y="208.2974358974359" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,416) scale(1,-1)">33.74%</text>
+			<text x="189.33333333333331" y="98" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,196) scale(1,-1)">K=20</text>
+			<rect x="402.0" y="120" width="40.0" height="159.55897435897435" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="402.0" y="288.55897435897435" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,577) scale(1,-1)">67.90%</text>
+			<rect x="452.0" y="120" width="40.0" height="39.769230769230774" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="452.0" y="168.76923076923077" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,337) scale(1,-1)">16.92%</text>
+			<text x="436.0" y="98" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,196) scale(1,-1)">K=50</text>
+			<rect x="648.6666666666666" y="120" width="40.0" height="210.65641025641025" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="648.6666666666666" y="339.65641025641025" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,679) scale(1,-1)">89.64%</text>
+			<rect x="698.6666666666666" y="120" width="40.0" height="29.88717948717948" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="698.6666666666666" y="158.88717948717948" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,317) scale(1,-1)">12.72%</text>
+			<text x="682.6666666666666" y="98" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,196) scale(1,-1)">K=100</text>
+			<rect x="85" y="64" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,35%,47%); fill-rule: evenodd;"/>
+			<text x="103" y="65" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,130) scale(1,-1)">Candidate Hit@K</text>
+			<rect x="315" y="64" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,51%,23%); fill-rule: evenodd;"/>
+			<text x="333" y="65" style="font-family: Helvetica; font-size: 11px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,130) scale(1,-1)">Final Top-10</text>
+			<text x="40" y="28" style="font-family: Helvetica; font-size: 10px;fill: rgb(14%,20%,26%); stroke:none;" transform="translate(0,56) scale(1,-1)">975 exposed queries / 195 steps / 7 dependent scenarios; descriptive proportions, no population error bars.</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,2767 @@
+{
+  "read_date": "2026-10-28",
+  "commit": "671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+  "repository": "splunk/attack_data",
+  "method": "official GitHub connector fixed-ref files and ancestor directory listings",
+  "new_log_bodies_downloaded": 0,
+  "receipts": [
+    {
+      "file": "LICENSE",
+      "git_blob_sha1": "f7767c079267dd20fc4ccf01ec2dd908ae012dce",
+      "url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/LICENSE"
+    },
+    {
+      "file": "atomic_red_team.yml",
+      "git_blob_sha1": "0f2d7bbb3a00de032fd1f09648a0760e261c6697",
+      "url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/atomic_red_team.yml"
+    },
+    {
+      "file": "windows-sysmon.lfs",
+      "git_blob_sha1": "0cf6c0ab5d3158b89a01158b5728c64cd9aacfce",
+      "url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log"
+    },
+    {
+      "file": "4688_windows-security.lfs",
+      "git_blob_sha1": "fa6801c55f7e7f0f82551914332e9773738b2ded",
+      "url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log"
+    },
+    {
+      "file": "crowdstrike_falcon.lfs",
+      "git_blob_sha1": "7b8073d9297e325fd1998950d819958de0a6a59c",
+      "url": "https://github.com/splunk/attack_data/blob/671f9f5b065f03a5502db07c20f1fe3f620d29d9/datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log"
+    }
+  ],
+  "directories": [
+    {
+      "url": "https://api.github.com/repos/splunk/attack_data/contents/?ref=671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+      "entries": [
+        {
+          "name": ".gitattributes",
+          "path": ".gitattributes",
+          "git_blob_sha1": "e789fff66ebca2b9b0bd030850a0c0dbb3352391",
+          "bytes": 248,
+          "type": "file"
+        },
+        {
+          "name": ".github",
+          "path": ".github",
+          "git_blob_sha1": "bb3886df9d73f5a3f596f07a030ed708be673dfe",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "git_blob_sha1": "cdb42e79ce231f92fd5c54683254205107d90fc0",
+          "bytes": 1162,
+          "type": "file"
+        },
+        {
+          "name": "LICENSE",
+          "path": "LICENSE",
+          "git_blob_sha1": "f7767c079267dd20fc4ccf01ec2dd908ae012dce",
+          "bytes": 11344,
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "git_blob_sha1": "ab3b361e48802b2238e079d5d88f3006a0b3d10f",
+          "bytes": 6499,
+          "type": "file"
+        },
+        {
+          "name": "bin",
+          "path": "bin",
+          "git_blob_sha1": "14380dd9198e8c16e33439d9650fb3aa653b7f08",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "datasets",
+          "path": "datasets",
+          "git_blob_sha1": "b285205657aa5278cc86e6f84449adbfeb3300e6",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "environments",
+          "path": "environments",
+          "git_blob_sha1": "51d5f16129730032f8243153332c1e36905a2acf",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "scripts",
+          "path": "scripts",
+          "git_blob_sha1": "e3e527c669a052af3d54a23071587d4637aaf2f9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "total_replay",
+          "path": "total_replay",
+          "git_blob_sha1": "219708c272aaeebeb247675d769f49d8f8ab55a3",
+          "bytes": 0,
+          "type": "dir"
+        }
+      ],
+      "specific_license_entries": [
+        "LICENSE"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/splunk/attack_data/contents/datasets?ref=671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+      "entries": [
+        {
+          "name": "TEMPLATE.yml",
+          "path": "datasets/TEMPLATE.yml",
+          "git_blob_sha1": "dc17bb4544abede4a3e403b17c984559968a2055",
+          "bytes": 442,
+          "type": "file"
+        },
+        {
+          "name": "apt_simulations",
+          "path": "datasets/apt_simulations",
+          "git_blob_sha1": "20a26786bbd14b3b9d74feea419059e01a1d0269",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "attack_techniques",
+          "path": "datasets/attack_techniques",
+          "git_blob_sha1": "0ca360e211055d0dc093f2dc43f8a310d6c33928",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "aws_bedrock_claude",
+          "path": "datasets/aws_bedrock_claude",
+          "git_blob_sha1": "f9fde2d855e5482988c64d24cbd6e796b7e7f142",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "cisco_asa",
+          "path": "datasets/cisco_asa",
+          "git_blob_sha1": "475e66b7b52c20b7a2d733dc8241b34605615e08",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "cisco_isovalent",
+          "path": "datasets/cisco_isovalent",
+          "git_blob_sha1": "289d013795e23685be602eb3994a4117b53991c7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "cisco_network_visibility_module",
+          "path": "datasets/cisco_network_visibility_module",
+          "git_blob_sha1": "4d022d904cdc7f1dfa3602a4273c142431a108c3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "cisco_sd_wan",
+          "path": "datasets/cisco_sd_wan",
+          "git_blob_sha1": "a6a36eaaf0ab4c9a5a951a241d7230892000489e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "cisco_secure_access",
+          "path": "datasets/cisco_secure_access",
+          "git_blob_sha1": "dcc4fa77b593a21460b86ec0701a14f4e9f52d6b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "cisco_secure_firewall_threat_defense",
+          "path": "datasets/cisco_secure_firewall_threat_defense",
+          "git_blob_sha1": "c0aecf348c73df66ad0dbadb53f866250c7e2ae5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "emerging_threats",
+          "path": "datasets/emerging_threats",
+          "git_blob_sha1": "04c4826a572e31efb697a1d2c29a749bc40a63fc",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "honeypots",
+          "path": "datasets/honeypots",
+          "git_blob_sha1": "2427de084e9e222df23f97b0dd2cd1f7a1cfef07",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "m365_copilot",
+          "path": "datasets/m365_copilot",
+          "git_blob_sha1": "1f553e45b39fb24829d44a4165a98096bfff4f9d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "malware",
+          "path": "datasets/malware",
+          "git_blob_sha1": "23f89f980ae9a37e81bee5101c16385652c52455",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "mcp",
+          "path": "datasets/mcp",
+          "git_blob_sha1": "b123c0bc2d98e7abe7541c672d2af774fd65da57",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "ollama",
+          "path": "datasets/ollama",
+          "git_blob_sha1": "41ac9a82bfb23824beba5e2409fd0303103a800b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "suspicious_behaviour",
+          "path": "datasets/suspicious_behaviour",
+          "git_blob_sha1": "70c268a221fde94d63f2a08f85143b3cc89e4ab2",
+          "bytes": 0,
+          "type": "dir"
+        }
+      ],
+      "specific_license_entries": []
+    },
+    {
+      "url": "https://api.github.com/repos/splunk/attack_data/contents/datasets/attack_techniques?ref=671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+      "entries": [
+        {
+          "name": "T1001",
+          "path": "datasets/attack_techniques/T1001",
+          "git_blob_sha1": "4272cccec6e69632128e1482dd150d5e6d833562",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.001",
+          "path": "datasets/attack_techniques/T1003.001",
+          "git_blob_sha1": "f5a7d2e7e85a6230f490ca2f762226aea2e4e804",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.002",
+          "path": "datasets/attack_techniques/T1003.002",
+          "git_blob_sha1": "13131666d91953ae5cf722fff650e1ea24048dbc",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.003",
+          "path": "datasets/attack_techniques/T1003.003",
+          "git_blob_sha1": "b13305b079fb860b349af2614eddc529abdea197",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.004",
+          "path": "datasets/attack_techniques/T1003.004",
+          "git_blob_sha1": "bb3ae4714f6b4d599b85f22145674eb43d67c95b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.005",
+          "path": "datasets/attack_techniques/T1003.005",
+          "git_blob_sha1": "ca211267a9ee15bcf027bac64a8112b074399773",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.006",
+          "path": "datasets/attack_techniques/T1003.006",
+          "git_blob_sha1": "be852ea6b42b00458ad504ebb2de9337a2131ee3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003.008",
+          "path": "datasets/attack_techniques/T1003.008",
+          "git_blob_sha1": "fe26be7d0977b262c0f1424010a58578fca83752",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1003",
+          "path": "datasets/attack_techniques/T1003",
+          "git_blob_sha1": "0c79f6cf9b922bd83626c5d43aef9ae3724d66d9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1005",
+          "path": "datasets/attack_techniques/T1005",
+          "git_blob_sha1": "438bbd22557b03b8344fe4d9e3f757dbb81116b0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1006",
+          "path": "datasets/attack_techniques/T1006",
+          "git_blob_sha1": "c2de2bff971c6484fcbeb5c6fe0d86bc8e86634d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1011",
+          "path": "datasets/attack_techniques/T1011",
+          "git_blob_sha1": "34bfc5114997cdec3f78b3d1ec6431bdedce0c05",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1012",
+          "path": "datasets/attack_techniques/T1012",
+          "git_blob_sha1": "cd532971ededfc2731e15a0c1aad85321235ec55",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1014",
+          "path": "datasets/attack_techniques/T1014",
+          "git_blob_sha1": "0f303c4b5c77d5448b7f2501f68545615e439d2d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1016.001",
+          "path": "datasets/attack_techniques/T1016.001",
+          "git_blob_sha1": "c59700bfe35487f072e4f6101870b99a4d64b47e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1016",
+          "path": "datasets/attack_techniques/T1016",
+          "git_blob_sha1": "c335d40f1a721fea1c89aaa2415ca6b59ddbcb25",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1018",
+          "path": "datasets/attack_techniques/T1018",
+          "git_blob_sha1": "58cd953668067894554601ecf0ad340dcce5bf1e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1020",
+          "path": "datasets/attack_techniques/T1020",
+          "git_blob_sha1": "36a364180592f681850f8940cc4b5c82653e5cb8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021.001",
+          "path": "datasets/attack_techniques/T1021.001",
+          "git_blob_sha1": "6c9e5e5370a163bf98cb73c3fd27ce4e9fd82a5f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021.002",
+          "path": "datasets/attack_techniques/T1021.002",
+          "git_blob_sha1": "11e2ed767e85a7981d08c989ea3526b498d91c9b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021.003",
+          "path": "datasets/attack_techniques/T1021.003",
+          "git_blob_sha1": "5186d2a2c3a08709a5e6ca39c06381e3d642abb4",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021.004",
+          "path": "datasets/attack_techniques/T1021.004",
+          "git_blob_sha1": "35e43bd9ddd069f2fbbcc010df92fcb8a43e77ff",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021.006",
+          "path": "datasets/attack_techniques/T1021.006",
+          "git_blob_sha1": "ec6b0108aaa9d11653ac243ce89d97a3c7dea429",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021.008",
+          "path": "datasets/attack_techniques/T1021.008",
+          "git_blob_sha1": "e9dd96f17ce51d5261370bd224e48b1d4a8cf641",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1021",
+          "path": "datasets/attack_techniques/T1021",
+          "git_blob_sha1": "b286fdbba532510a6c635a1130374ff75eb7786b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1022",
+          "path": "datasets/attack_techniques/T1022",
+          "git_blob_sha1": "d57bbe920a27fc9986cca30ea8b03ec079450299",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1027.006",
+          "path": "datasets/attack_techniques/T1027.006",
+          "git_blob_sha1": "6c7ddb5b0843a074a9784b65b3272e05e98bd801",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1027.009",
+          "path": "datasets/attack_techniques/T1027.009",
+          "git_blob_sha1": "482ee2c0b702293dc5cbee0c29d79d3933c5db7d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1027.010",
+          "path": "datasets/attack_techniques/T1027.010",
+          "git_blob_sha1": "f8fcc5940b36fecbc3c0aef9cf78dcbb40c4239d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1027.011",
+          "path": "datasets/attack_techniques/T1027.011",
+          "git_blob_sha1": "dfc3e4859bc1527f97eb6fc4e5604f77a4073d34",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1027.013",
+          "path": "datasets/attack_techniques/T1027.013",
+          "git_blob_sha1": "0322670fc66bc9d78c33f2138b6ad9d4b779f4d2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1027",
+          "path": "datasets/attack_techniques/T1027",
+          "git_blob_sha1": "06e4318330e87fe06e36587101c0e5d097df8b96",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1030",
+          "path": "datasets/attack_techniques/T1030",
+          "git_blob_sha1": "c59d460fafe1a3ee8ae24c19b5f83319233e21f7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1033",
+          "path": "datasets/attack_techniques/T1033",
+          "git_blob_sha1": "575ec9260eec1a61791ceb8de72cb359dac451fd",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1035.009",
+          "path": "datasets/attack_techniques/T1035.009",
+          "git_blob_sha1": "b421fb5e5b3ed70b8ba12a160b5fe4244fe6f3b1",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036.002",
+          "path": "datasets/attack_techniques/T1036.002",
+          "git_blob_sha1": "02cfb49a6994cde7022c77ef14da6706d4485285",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036.003",
+          "path": "datasets/attack_techniques/T1036.003",
+          "git_blob_sha1": "59a82af0dfc3f188a844469dcac478fdce6d4f94",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036.004",
+          "path": "datasets/attack_techniques/T1036.004",
+          "git_blob_sha1": "f8833ec618fb45fd3c0ad3701ce1a51d6b695063",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036.005",
+          "path": "datasets/attack_techniques/T1036.005",
+          "git_blob_sha1": "09a783e97a66cbb6e65de56aaac6d9c36aeae0d4",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036.008",
+          "path": "datasets/attack_techniques/T1036.008",
+          "git_blob_sha1": "736cd3d63740e9192d284b6bc8286377f1a455bf",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036.009",
+          "path": "datasets/attack_techniques/T1036.009",
+          "git_blob_sha1": "eec2181ce5f463618ff6bd004fc9defe05e136b2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1036",
+          "path": "datasets/attack_techniques/T1036",
+          "git_blob_sha1": "769c1e738c598c9ec2f6fad7d9fd88b9f5436dfb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1037.001",
+          "path": "datasets/attack_techniques/T1037.001",
+          "git_blob_sha1": "afe54f45fc0f033cdf3ec7fec052b0a692f2e2e2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1037.002",
+          "path": "datasets/attack_techniques/T1037.002",
+          "git_blob_sha1": "01a6e2968c78741d41b9b17b57ba69cc93dfe27f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1037.005",
+          "path": "datasets/attack_techniques/T1037.005",
+          "git_blob_sha1": "3b660ac3069376f9e430a0ce30ae4236827db7d0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1040",
+          "path": "datasets/attack_techniques/T1040",
+          "git_blob_sha1": "4f5ae8feedf058c6097e9d3a135c3a698e3f3d06",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1041",
+          "path": "datasets/attack_techniques/T1041",
+          "git_blob_sha1": "dfeb1fda33092b65706d26fb910bfc45362a4e66",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1046",
+          "path": "datasets/attack_techniques/T1046",
+          "git_blob_sha1": "8c6276daa8e10926b82957f453c289bb28b1e4ba",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1047",
+          "path": "datasets/attack_techniques/T1047",
+          "git_blob_sha1": "5eb4bcf75a36b398b2be9a6ce83f9d0d833dc859",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1048.003",
+          "path": "datasets/attack_techniques/T1048.003",
+          "git_blob_sha1": "f7bffeb967c29c4affdec46ad68ea886ac53fd55",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1048",
+          "path": "datasets/attack_techniques/T1048",
+          "git_blob_sha1": "058c07779a609e8c95ae8f3aaa758a21afcc38e1",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1049",
+          "path": "datasets/attack_techniques/T1049",
+          "git_blob_sha1": "8a3d816662c661486d7235eee07e5c45f9da8be9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053.002",
+          "path": "datasets/attack_techniques/T1053.002",
+          "git_blob_sha1": "df1afc6684da4dc22c3954509fffc649640bf13f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053.003",
+          "path": "datasets/attack_techniques/T1053.003",
+          "git_blob_sha1": "269293f0d811e559b6d9f029fc8cb9867f0b709a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053.004",
+          "path": "datasets/attack_techniques/T1053.004",
+          "git_blob_sha1": "e9792e27b7a183c60b7163552e7935e3810e3e34",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053.005",
+          "path": "datasets/attack_techniques/T1053.005",
+          "git_blob_sha1": "2da60a850e4e5377f5e63556c2160e08de08755f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053.006",
+          "path": "datasets/attack_techniques/T1053.006",
+          "git_blob_sha1": "1ab836cc69e3f2427ac09ee280f1ddf5b1415335",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053.007",
+          "path": "datasets/attack_techniques/T1053.007",
+          "git_blob_sha1": "45f8ba484e1d18bb217d08b8b0088f430016f52e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1053",
+          "path": "datasets/attack_techniques/T1053",
+          "git_blob_sha1": "3d2fd368953658c9bb982871a78077947aa62bf2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1055.001",
+          "path": "datasets/attack_techniques/T1055.001",
+          "git_blob_sha1": "3891501aea069d561e985365c9839759ff4e7332",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1055",
+          "path": "datasets/attack_techniques/T1055",
+          "git_blob_sha1": "576cfa3c858ce49cfd7c60bf7797b354184abb9f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1057",
+          "path": "datasets/attack_techniques/T1057",
+          "git_blob_sha1": "f26003c2e815a0d5c50e6cbfc2b0d33c0ec0da4a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.001",
+          "path": "datasets/attack_techniques/T1059.001",
+          "git_blob_sha1": "29f29f20f4f67b532e3c8cd2d83cf694fa93a8a8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.002",
+          "path": "datasets/attack_techniques/T1059.002",
+          "git_blob_sha1": "6479780ae7a4cf9f91a72df0e00ecef3389070f4",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.003",
+          "path": "datasets/attack_techniques/T1059.003",
+          "git_blob_sha1": "c143de3af860fa16022ded187055a3d363bc41a9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.004",
+          "path": "datasets/attack_techniques/T1059.004",
+          "git_blob_sha1": "604ee7d0d61c2bb1252517f0fd86265631130f5f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.005",
+          "path": "datasets/attack_techniques/T1059.005",
+          "git_blob_sha1": "6bf9a2f86796f0b34cd91a9cbff49306349a322a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.006",
+          "path": "datasets/attack_techniques/T1059.006",
+          "git_blob_sha1": "8927fd06a212dbf85f35f1f087a23da1a7870c22",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059.007",
+          "path": "datasets/attack_techniques/T1059.007",
+          "git_blob_sha1": "2d818c36cc6394f7411dbf40e90f48b5afaf9476",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1059",
+          "path": "datasets/attack_techniques/T1059",
+          "git_blob_sha1": "5e6774fb07280aad3719f8a03d4bdd5d4f2b7a4e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1068",
+          "path": "datasets/attack_techniques/T1068",
+          "git_blob_sha1": "3aad0644a4f80fabb5765f7cf7b256940a2c9f97",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1069.001",
+          "path": "datasets/attack_techniques/T1069.001",
+          "git_blob_sha1": "3345e96b5e913ec0b28344e9eaa7c816ac809626",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1069.002",
+          "path": "datasets/attack_techniques/T1069.002",
+          "git_blob_sha1": "facd086c012c04a1200416370a06bad74138eb33",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1069",
+          "path": "datasets/attack_techniques/T1069",
+          "git_blob_sha1": "2c9590ecfce7274a20f4925edcbf75d4f4683ef6",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1070.001",
+          "path": "datasets/attack_techniques/T1070.001",
+          "git_blob_sha1": "0c730d1e7512c4d546d797503293dc21b99b014d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1070.003",
+          "path": "datasets/attack_techniques/T1070.003",
+          "git_blob_sha1": "799484446043ff333c1a16b59b32a3ed056f1955",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1070.004",
+          "path": "datasets/attack_techniques/T1070.004",
+          "git_blob_sha1": "5c2191cbccbf58aaf944e2b4c57f8c496821dead",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1070.005",
+          "path": "datasets/attack_techniques/T1070.005",
+          "git_blob_sha1": "052b0ad245765ceb51dfe809e99dcc03075fb566",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1070",
+          "path": "datasets/attack_techniques/T1070",
+          "git_blob_sha1": "8ac745c32b50d66d06c0e1c658e867ad9efe8c45",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1071.001",
+          "path": "datasets/attack_techniques/T1071.001",
+          "git_blob_sha1": "285a53963a1209ccea1a493d8a5ad11ccf88b8fb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1071.002",
+          "path": "datasets/attack_techniques/T1071.002",
+          "git_blob_sha1": "6a3f1026aafc5975490964797f833361ec666850",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1071.004",
+          "path": "datasets/attack_techniques/T1071.004",
+          "git_blob_sha1": "193c0add387c733ec24247b3bd0ac68c5c680607",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1071",
+          "path": "datasets/attack_techniques/T1071",
+          "git_blob_sha1": "d2d7961d3ab23d2c2214681048f19b4c251354de",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1072",
+          "path": "datasets/attack_techniques/T1072",
+          "git_blob_sha1": "df44024a796fa37efac8ff8fadab930e535b7d31",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1074",
+          "path": "datasets/attack_techniques/T1074",
+          "git_blob_sha1": "9adfc7138604431002a0924cc29c4451724ab8b4",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1078.001",
+          "path": "datasets/attack_techniques/T1078.001",
+          "git_blob_sha1": "6c5ec52a3bc30f9611ef8bb8303debce72edc504",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1078.002",
+          "path": "datasets/attack_techniques/T1078.002",
+          "git_blob_sha1": "d2da3bd9df35c017bfaf50a502e87f2ad6bad25a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1078.003",
+          "path": "datasets/attack_techniques/T1078.003",
+          "git_blob_sha1": "b1ce20cd5825c5d6762a20f578c802b50ad45281",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1078.004",
+          "path": "datasets/attack_techniques/T1078.004",
+          "git_blob_sha1": "3d6e255e1f3f19ff0f6afd484ec68d4f07ebc738",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1078",
+          "path": "datasets/attack_techniques/T1078",
+          "git_blob_sha1": "17864e42999a7baa4b7dacb13a7b7a2ac583502b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1082",
+          "path": "datasets/attack_techniques/T1082",
+          "git_blob_sha1": "b25b38c144697250978d4ee62e2842cb4b3e1dae",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1083",
+          "path": "datasets/attack_techniques/T1083",
+          "git_blob_sha1": "63cf0560c136255edd60dc74adbde6549a4da2dd",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1087.001",
+          "path": "datasets/attack_techniques/T1087.001",
+          "git_blob_sha1": "b961a130e6cc5806c3ca2a46b229709f47d97cf4",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1087.002",
+          "path": "datasets/attack_techniques/T1087.002",
+          "git_blob_sha1": "97fb9af0539959609945ad623b5500fe043e0309",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1087.004",
+          "path": "datasets/attack_techniques/T1087.004",
+          "git_blob_sha1": "26c069f3045c0a1ab4eb2765dcf4480868495d1e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1087",
+          "path": "datasets/attack_techniques/T1087",
+          "git_blob_sha1": "bb24205626e928fa08ff59ca56445d6a10ba55d3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1090.001",
+          "path": "datasets/attack_techniques/T1090.001",
+          "git_blob_sha1": "7f4a955519105d91cd59f076e60d7233d61aa3eb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1090.003",
+          "path": "datasets/attack_techniques/T1090.003",
+          "git_blob_sha1": "ee74be1c68e2812e4debad2fe21e25e059404196",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1090",
+          "path": "datasets/attack_techniques/T1090",
+          "git_blob_sha1": "864727dccf7a0f0b7717a3912821091ae6c932af",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1095",
+          "path": "datasets/attack_techniques/T1095",
+          "git_blob_sha1": "aec642710cdb84ba9ce0edc406772dd7810baa66",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1098.001",
+          "path": "datasets/attack_techniques/T1098.001",
+          "git_blob_sha1": "de51bb3292cce66ac7bfd72f97d5a2d231858c7a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1098.002",
+          "path": "datasets/attack_techniques/T1098.002",
+          "git_blob_sha1": "ad45d80a2450292b5dd853a6cf9c26c899d85a6b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1098.003",
+          "path": "datasets/attack_techniques/T1098.003",
+          "git_blob_sha1": "75e8d9b1ab1129cc94d050cc2aed97d077d4f567",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1098.004",
+          "path": "datasets/attack_techniques/T1098.004",
+          "git_blob_sha1": "9ec14b308710255cdf179a58de134b9a608fc0c2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1098.005",
+          "path": "datasets/attack_techniques/T1098.005",
+          "git_blob_sha1": "6dd02639b8145b704e31df3e70afcc4e540024be",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1098",
+          "path": "datasets/attack_techniques/T1098",
+          "git_blob_sha1": "b4acc9b7528b48ec2ed479c9d2552843434b784c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1102.002",
+          "path": "datasets/attack_techniques/T1102.002",
+          "git_blob_sha1": "c15b328404b64061b1900f0165b2a19715ec736e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1102",
+          "path": "datasets/attack_techniques/T1102",
+          "git_blob_sha1": "f90291e924a49fab2eba8a92c2aa8258fb6a2a74",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1105",
+          "path": "datasets/attack_techniques/T1105",
+          "git_blob_sha1": "6d2ef982d83d1ad3e0b1096847b585caff39cb2b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1110.001",
+          "path": "datasets/attack_techniques/T1110.001",
+          "git_blob_sha1": "c20ff0c097a906a97e228facd4caae37c660f94a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1110.002",
+          "path": "datasets/attack_techniques/T1110.002",
+          "git_blob_sha1": "4df24e5968e4f2abbe71bb9f7bf732243f6d4ec8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1110.003",
+          "path": "datasets/attack_techniques/T1110.003",
+          "git_blob_sha1": "d6dfd300581c589ea6dd461692db2a1f56bc1077",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1110.004",
+          "path": "datasets/attack_techniques/T1110.004",
+          "git_blob_sha1": "747e123c0937dabd9a8a0d81114b37ef4ee47e04",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1110",
+          "path": "datasets/attack_techniques/T1110",
+          "git_blob_sha1": "616e86341f3a477f0821535e7d5794cbd6084e31",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1112",
+          "path": "datasets/attack_techniques/T1112",
+          "git_blob_sha1": "60db8f1d144c6bf55a41a77d28f11de48e832e53",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1113",
+          "path": "datasets/attack_techniques/T1113",
+          "git_blob_sha1": "2a8ecb35fc0a61f274948f048f21b4ee8434ff50",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1114.001",
+          "path": "datasets/attack_techniques/T1114.001",
+          "git_blob_sha1": "b40535816ffd9ad026084abc57fca2351fecab09",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1114.002",
+          "path": "datasets/attack_techniques/T1114.002",
+          "git_blob_sha1": "6359b7328693fc7fd92ce62484345f7b9e1cda8e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1114.003",
+          "path": "datasets/attack_techniques/T1114.003",
+          "git_blob_sha1": "95cc2d251af9150fc4228a601ef4f46b4436bc30",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1114",
+          "path": "datasets/attack_techniques/T1114",
+          "git_blob_sha1": "53d5b8135b32867b5e114540cfae48c44b9db356",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1115",
+          "path": "datasets/attack_techniques/T1115",
+          "git_blob_sha1": "57fd53f7b79848ba6341954d8765282fa28b1d8b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1119",
+          "path": "datasets/attack_techniques/T1119",
+          "git_blob_sha1": "8c5a8e2ecec7de8c7126ca4425329a8cee1a6082",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1125",
+          "path": "datasets/attack_techniques/T1125",
+          "git_blob_sha1": "2054508ca6ea81c11c925094f1c55e719d36714f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1127.001",
+          "path": "datasets/attack_techniques/T1127.001",
+          "git_blob_sha1": "26b3b5004c74a2a87d981db99ce884ebe9f28d8e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1127",
+          "path": "datasets/attack_techniques/T1127",
+          "git_blob_sha1": "5d0b0da833b8f2ee8e97856f9891b665532bdc4a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1128",
+          "path": "datasets/attack_techniques/T1128",
+          "git_blob_sha1": "d826c393afa3d619ff399807ab192a40ea0ce5db",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1129",
+          "path": "datasets/attack_techniques/T1129",
+          "git_blob_sha1": "e7056f59cf9c8c8058a16dec5040ec4e107a6559",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1133",
+          "path": "datasets/attack_techniques/T1133",
+          "git_blob_sha1": "74e71585965e729343cc9079d85bc1d7751f534c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1134.001",
+          "path": "datasets/attack_techniques/T1134.001",
+          "git_blob_sha1": "a41a1ff6ff9930ff0ccbb4733377981d5d1d7a2d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1134.005",
+          "path": "datasets/attack_techniques/T1134.005",
+          "git_blob_sha1": "68c366bf766156e9a107c12ad8ba2e581aa62d7c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1134",
+          "path": "datasets/attack_techniques/T1134",
+          "git_blob_sha1": "3c3e5bf80efcd194a2a1670ec083067a8c8f6727",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1135",
+          "path": "datasets/attack_techniques/T1135",
+          "git_blob_sha1": "fda4baa35d8dabc5cd3aab802f3dfd0618b45f2d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1136.001",
+          "path": "datasets/attack_techniques/T1136.001",
+          "git_blob_sha1": "bd883f57f32f9941897df47d307ab9b69f28a79e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1136.002",
+          "path": "datasets/attack_techniques/T1136.002",
+          "git_blob_sha1": "d68406ea3f7d5f7f4ff40417b10a565a81be1743",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1136.003",
+          "path": "datasets/attack_techniques/T1136.003",
+          "git_blob_sha1": "a53c3ceedba107efd83edbe44f111462c1176755",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1136",
+          "path": "datasets/attack_techniques/T1136",
+          "git_blob_sha1": "cc9bc3774b3e63918acc549b973fa5d2a28d6eff",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1137.006",
+          "path": "datasets/attack_techniques/T1137.006",
+          "git_blob_sha1": "ae3bb2668d69196a5b446a2af43eb9ceb7a6e1f2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1140",
+          "path": "datasets/attack_techniques/T1140",
+          "git_blob_sha1": "715387d4d1738f359d08c26d8be3909386c16b9d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1176.001",
+          "path": "datasets/attack_techniques/T1176.001",
+          "git_blob_sha1": "7d671b6fe76f0d3f646da50ec8c4dde302e0091b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1185",
+          "path": "datasets/attack_techniques/T1185",
+          "git_blob_sha1": "3ce9b85b1e49e8eefe8af6cf422d9e42efd81496",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1187",
+          "path": "datasets/attack_techniques/T1187",
+          "git_blob_sha1": "17f26700631255e3adca15702ca71bf74d631b0b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1189",
+          "path": "datasets/attack_techniques/T1189",
+          "git_blob_sha1": "8fb506f357e793a40244256ef8610475e17ca8f2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1190",
+          "path": "datasets/attack_techniques/T1190",
+          "git_blob_sha1": "f9f3108f379f051a5c53a78d2faa0bd606aaf7cb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1195.001",
+          "path": "datasets/attack_techniques/T1195.001",
+          "git_blob_sha1": "3496772d1195b0dd5e1194e5afe740626c54a414",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1195.002",
+          "path": "datasets/attack_techniques/T1195.002",
+          "git_blob_sha1": "e9b812ff23e1283469ba8ee4e0eca9fd759a7605",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1197",
+          "path": "datasets/attack_techniques/T1197",
+          "git_blob_sha1": "a39106ddead19df69d77aae9169b4b3cca4b187e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1199",
+          "path": "datasets/attack_techniques/T1199",
+          "git_blob_sha1": "11d5845df72fdfdd804bf63dafd194676500e8b8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1200",
+          "path": "datasets/attack_techniques/T1200",
+          "git_blob_sha1": "2360e87afc0eeb1571f7e0530257f277d5e8a771",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1201",
+          "path": "datasets/attack_techniques/T1201",
+          "git_blob_sha1": "68f4f9cc5c95e971587977497b26b5a905a9a619",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1202",
+          "path": "datasets/attack_techniques/T1202",
+          "git_blob_sha1": "cb11924ab67fc40cba6968e9fca2c51a4be675e7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1203",
+          "path": "datasets/attack_techniques/T1203",
+          "git_blob_sha1": "574d35ba8df88feb082f7c05ed62f826ed026a18",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1204.002",
+          "path": "datasets/attack_techniques/T1204.002",
+          "git_blob_sha1": "79253d6a33f9f43e6d2fa38e6207db70c3daf06d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1204.003",
+          "path": "datasets/attack_techniques/T1204.003",
+          "git_blob_sha1": "7653b5c4538c81a951913ec78c56d710066eb2c0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1204",
+          "path": "datasets/attack_techniques/T1204",
+          "git_blob_sha1": "160f2da63e68fa6d2eba827068a5ceb81a1739bb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1207",
+          "path": "datasets/attack_techniques/T1207",
+          "git_blob_sha1": "bb1e9eac7d85a31a6df5b82a5efdc95a70586898",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1210",
+          "path": "datasets/attack_techniques/T1210",
+          "git_blob_sha1": "f71b9df4c399d265196c5984062acf7cf324712e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1212",
+          "path": "datasets/attack_techniques/T1212",
+          "git_blob_sha1": "e1db3722f2996d40e2da02b5bfdbd43a1144389a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1213.002",
+          "path": "datasets/attack_techniques/T1213.002",
+          "git_blob_sha1": "e1ac868f7dc940cb5c4181aaa9f3082916a3a678",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1213",
+          "path": "datasets/attack_techniques/T1213",
+          "git_blob_sha1": "fcd46e32acf32bfb050fb4a7750db87a39e739b8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1216",
+          "path": "datasets/attack_techniques/T1216",
+          "git_blob_sha1": "ebd084fbf44245d4c2b6569326d8e2b8773c78a2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1217",
+          "path": "datasets/attack_techniques/T1217",
+          "git_blob_sha1": "97d3df8f1776bb0746357ce5ec3473eb439a392b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.001",
+          "path": "datasets/attack_techniques/T1218.001",
+          "git_blob_sha1": "b67c054e83254f8819880600e87a497f31c5ffab",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.002",
+          "path": "datasets/attack_techniques/T1218.002",
+          "git_blob_sha1": "98a530a2441b182afda7b08172e3afdf416815a3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.003",
+          "path": "datasets/attack_techniques/T1218.003",
+          "git_blob_sha1": "0acfae48cf323915cac6524fa04be3ccdd02412c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.004",
+          "path": "datasets/attack_techniques/T1218.004",
+          "git_blob_sha1": "3d0d389b4d8314b32370f9789eaab3f2110f4ba5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.005",
+          "path": "datasets/attack_techniques/T1218.005",
+          "git_blob_sha1": "57bee1a6e7186731c2d2152ff0935e7035049dd6",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.007",
+          "path": "datasets/attack_techniques/T1218.007",
+          "git_blob_sha1": "3ffca40d1a5ac474786cd9e7fc6df95a6067d8b1",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.008",
+          "path": "datasets/attack_techniques/T1218.008",
+          "git_blob_sha1": "6ca6ef12d78d3db22f9077b53fe7df95100b2032",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.009",
+          "path": "datasets/attack_techniques/T1218.009",
+          "git_blob_sha1": "8621d2ce66672f892e8763665a8e6ba99c7208b9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.010",
+          "path": "datasets/attack_techniques/T1218.010",
+          "git_blob_sha1": "1e3f647113f9662af5cb75a646c591681ed83ddb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.011",
+          "path": "datasets/attack_techniques/T1218.011",
+          "git_blob_sha1": "fddd3ba8ad34d22b30e97433dd163cd0b07eb26a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.012",
+          "path": "datasets/attack_techniques/T1218.012",
+          "git_blob_sha1": "551a18e6e49db6cf36fadd7e20f28472a4ae3dae",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.013",
+          "path": "datasets/attack_techniques/T1218.013",
+          "git_blob_sha1": "37ca81d8600157d0b20173f1dbe5f8b62078a8f9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218.014",
+          "path": "datasets/attack_techniques/T1218.014",
+          "git_blob_sha1": "a9d967c239738a52bc6299a1ce94dfcc2c849724",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1218",
+          "path": "datasets/attack_techniques/T1218",
+          "git_blob_sha1": "3816182735208086deac476487dacafff50c0c62",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1219",
+          "path": "datasets/attack_techniques/T1219",
+          "git_blob_sha1": "695638cdd45f034c18a43ead548af36247a86690",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1220",
+          "path": "datasets/attack_techniques/T1220",
+          "git_blob_sha1": "e5de0df294fabf4f506dc6f0eded8a96e8292d97",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1222.001",
+          "path": "datasets/attack_techniques/T1222.001",
+          "git_blob_sha1": "112816a5a08fc82702da63088bcc3a2f33f601f0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1222.002",
+          "path": "datasets/attack_techniques/T1222.002",
+          "git_blob_sha1": "e33b0d8247cbaeec57f62f4e189f01b1bbc4f074",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1222",
+          "path": "datasets/attack_techniques/T1222",
+          "git_blob_sha1": "3da38dab6026ba7fe99560db544b5d84274231de",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1480",
+          "path": "datasets/attack_techniques/T1480",
+          "git_blob_sha1": "75d27dc35bc1054853e4013d038af8aa0be21c1e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1482",
+          "path": "datasets/attack_techniques/T1482",
+          "git_blob_sha1": "0c49091acb00f8111008030ec75df45b40edfed2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1484.001",
+          "path": "datasets/attack_techniques/T1484.001",
+          "git_blob_sha1": "c8743598282a1e4a7c8eb84ad171fc783364ada7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1484.002",
+          "path": "datasets/attack_techniques/T1484.002",
+          "git_blob_sha1": "6640e9bd9be6ce8079392b6cefe208722957b032",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1484",
+          "path": "datasets/attack_techniques/T1484",
+          "git_blob_sha1": "a001131438fdd0bd9ff8d2a4d96cad13d8752618",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1485",
+          "path": "datasets/attack_techniques/T1485",
+          "git_blob_sha1": "25aee3b39aa8ef50cac93c62fb80541eb58cf0d5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1486",
+          "path": "datasets/attack_techniques/T1486",
+          "git_blob_sha1": "2c90b9c222325e352c7b979c91b31a4336d389de",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1489",
+          "path": "datasets/attack_techniques/T1489",
+          "git_blob_sha1": "96c16566751b61570d130b907bf9555d81f3db40",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1490",
+          "path": "datasets/attack_techniques/T1490",
+          "git_blob_sha1": "96ba05962e7c24bd04473e8a7ec729fa2d0fb0db",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1491.001",
+          "path": "datasets/attack_techniques/T1491.001",
+          "git_blob_sha1": "7b7919bd4ac2da103fcc26a645b0e8094d5fca2d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1491",
+          "path": "datasets/attack_techniques/T1491",
+          "git_blob_sha1": "88ee6ecc1f41503469ab0deade9f29d264ba4eaa",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1496",
+          "path": "datasets/attack_techniques/T1496",
+          "git_blob_sha1": "eacea9c98ad0ec845118ece966be0fe5378905f7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1497.003",
+          "path": "datasets/attack_techniques/T1497.003",
+          "git_blob_sha1": "84b472d164ee6824dfbdc949cde3a62d3ea8527f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1497",
+          "path": "datasets/attack_techniques/T1497",
+          "git_blob_sha1": "ff2559815830a68270f3fdfb5162b77f01770f43",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1498",
+          "path": "datasets/attack_techniques/T1498",
+          "git_blob_sha1": "dcc0729fa6b37621d355db663b1c9edddd0391c0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1499.004",
+          "path": "datasets/attack_techniques/T1499.004",
+          "git_blob_sha1": "e676cb6abe53a723c059bef0201f153df507b048",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1499",
+          "path": "datasets/attack_techniques/T1499",
+          "git_blob_sha1": "d86875697bee89c2633c8102e9bfab9f93dcac38",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1505.001",
+          "path": "datasets/attack_techniques/T1505.001",
+          "git_blob_sha1": "57f21e3caa7619a619039f07bbee31fe41053ef1",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1505.003",
+          "path": "datasets/attack_techniques/T1505.003",
+          "git_blob_sha1": "885587785492952604a2ce6646ec7aeabbbd718b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1505.004",
+          "path": "datasets/attack_techniques/T1505.004",
+          "git_blob_sha1": "5f8da53fe0b77bae846b1d0e4a470636d9a206c0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1505.006",
+          "path": "datasets/attack_techniques/T1505.006",
+          "git_blob_sha1": "f26186fb85aa07a16e953997618dea3793465f66",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1505",
+          "path": "datasets/attack_techniques/T1505",
+          "git_blob_sha1": "20db032306b1aca84e88ebb5adc277cb73bc8a70",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1518",
+          "path": "datasets/attack_techniques/T1518",
+          "git_blob_sha1": "8983feeb553bfcabd4d7832c04ac81e5ba4ccb4f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1525",
+          "path": "datasets/attack_techniques/T1525",
+          "git_blob_sha1": "60567d98469668db39ca6fc99eb75cced6c6d311",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1526",
+          "path": "datasets/attack_techniques/T1526",
+          "git_blob_sha1": "66fed4602240f2d56720e07593ab6b7e3b302b29",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1528",
+          "path": "datasets/attack_techniques/T1528",
+          "git_blob_sha1": "e7fb47ea3e51eb99cf642e83594002c2d74873d8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1529",
+          "path": "datasets/attack_techniques/T1529",
+          "git_blob_sha1": "8ac0a50b302d37f855956ccfbdf7896d6f8fcd01",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1530",
+          "path": "datasets/attack_techniques/T1530",
+          "git_blob_sha1": "5200119aac9ccb31005d783235acf5166652b6f1",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1531",
+          "path": "datasets/attack_techniques/T1531",
+          "git_blob_sha1": "0438d2dae04b622f2bf29c3b3e8690f75c61b23a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1537",
+          "path": "datasets/attack_techniques/T1537",
+          "git_blob_sha1": "69c8d4f94a577baf645dad886192860e315da4bd",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1539",
+          "path": "datasets/attack_techniques/T1539",
+          "git_blob_sha1": "1caa1920d9b89e5c6dcb2272b95c62d64165393e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1542.001",
+          "path": "datasets/attack_techniques/T1542.001",
+          "git_blob_sha1": "4ec928b2a7ae0f708c7444e22dfc90ab4cfd9407",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1542.003",
+          "path": "datasets/attack_techniques/T1542.003",
+          "git_blob_sha1": "c2ed259d2bd5542f47fc816f96d4c17d11c34fa9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1542",
+          "path": "datasets/attack_techniques/T1542",
+          "git_blob_sha1": "7ddbc0f42942b55837d895ee913335472b8c7154",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1543.002",
+          "path": "datasets/attack_techniques/T1543.002",
+          "git_blob_sha1": "12dcb42e3a6d214f3faf50af1a9c94a5a5ee9501",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1543.003",
+          "path": "datasets/attack_techniques/T1543.003",
+          "git_blob_sha1": "528c41298bca54a3b358279514b059be4e972aaf",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1543",
+          "path": "datasets/attack_techniques/T1543",
+          "git_blob_sha1": "99efbea2389a175b08c3daf506e67ac4a1c855c5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.001",
+          "path": "datasets/attack_techniques/T1546.001",
+          "git_blob_sha1": "c0daf69cd8ef2c629ecf6e71fa9283873f3a5a4e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.002",
+          "path": "datasets/attack_techniques/T1546.002",
+          "git_blob_sha1": "467a5cd08180f77ce7bef09fecd9731e5afad520",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.003",
+          "path": "datasets/attack_techniques/T1546.003",
+          "git_blob_sha1": "91fdbdc61f0bacf05dfaad16e9fcf6dc601e6fc0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.004",
+          "path": "datasets/attack_techniques/T1546.004",
+          "git_blob_sha1": "ea2d23208d3e638cea8fa3da873a0ae34822a2c7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.008",
+          "path": "datasets/attack_techniques/T1546.008",
+          "git_blob_sha1": "a94ad350b3dff648b85dc53faa652eedfa2b09ab",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.009",
+          "path": "datasets/attack_techniques/T1546.009",
+          "git_blob_sha1": "02dcf83774ac038ee4e2eb277f40058bb4b82fd0",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.011",
+          "path": "datasets/attack_techniques/T1546.011",
+          "git_blob_sha1": "b8047f4f4b8f14dc82dfdb0036df2f5f75fae612",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.012",
+          "path": "datasets/attack_techniques/T1546.012",
+          "git_blob_sha1": "aac71e7a6c8c639cf532f9a5845b5be5853e9f8a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546.015",
+          "path": "datasets/attack_techniques/T1546.015",
+          "git_blob_sha1": "6505e6dbd9c5758f0c4c3e27d1dae5058e4432a5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1546",
+          "path": "datasets/attack_techniques/T1546",
+          "git_blob_sha1": "167e103d606a634a9716e28b84b6bcfb4ac4f8f6",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.001",
+          "path": "datasets/attack_techniques/T1547.001",
+          "git_blob_sha1": "7dc1bfd1415836782f5e41a7acd517d9b063e2cb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.003",
+          "path": "datasets/attack_techniques/T1547.003",
+          "git_blob_sha1": "f1f1ba2274e9204758121723237bb0b5f90316d2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.005",
+          "path": "datasets/attack_techniques/T1547.005",
+          "git_blob_sha1": "ac9ac2f1ab6314d720ec59a9ad3a8278a11004b2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.006",
+          "path": "datasets/attack_techniques/T1547.006",
+          "git_blob_sha1": "e778c7e3a43c737677bf06c2df42bbedd5034419",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.008",
+          "path": "datasets/attack_techniques/T1547.008",
+          "git_blob_sha1": "fb2a13252309fb2c31ff872e3677e59a478d864b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.009",
+          "path": "datasets/attack_techniques/T1547.009",
+          "git_blob_sha1": "92b00f32f1b96ccfbb5f210287d989235028bdb9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.010",
+          "path": "datasets/attack_techniques/T1547.010",
+          "git_blob_sha1": "c7fddea756dcd157ebb2cc1c073e0826342ba784",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.011",
+          "path": "datasets/attack_techniques/T1547.011",
+          "git_blob_sha1": "a7f55c374ddb096e35eae00afce59c7fc9bfc536",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547.012",
+          "path": "datasets/attack_techniques/T1547.012",
+          "git_blob_sha1": "f32fd826c33a28ea32009ddcb4135a0092848efa",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1547",
+          "path": "datasets/attack_techniques/T1547",
+          "git_blob_sha1": "f77599eb8419d04b7b388a58f35522ac573c3e73",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1548.001",
+          "path": "datasets/attack_techniques/T1548.001",
+          "git_blob_sha1": "286fdcfd2bed7acfab3cf0add6c909ea1fe7243f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1548.002",
+          "path": "datasets/attack_techniques/T1548.002",
+          "git_blob_sha1": "c175894b5d214abffb1bfba60b059030d220a654",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1548.003",
+          "path": "datasets/attack_techniques/T1548.003",
+          "git_blob_sha1": "05aa542046d8f9c6f9ef8cabdcad818fdb25a143",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1548",
+          "path": "datasets/attack_techniques/T1548",
+          "git_blob_sha1": "3c26d6d45eae9393edf0f8d8856e04a1c450b6a3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1550.002",
+          "path": "datasets/attack_techniques/T1550.002",
+          "git_blob_sha1": "3a60650a3a45eb06f41a7385df9656b474a33947",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1550.003",
+          "path": "datasets/attack_techniques/T1550.003",
+          "git_blob_sha1": "701d88cf1748d4f85ecf6e1659d62d36191a4d3b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1550",
+          "path": "datasets/attack_techniques/T1550",
+          "git_blob_sha1": "c18428e3b9e4ac5176919d89534b35e05d3525cb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.001",
+          "path": "datasets/attack_techniques/T1552.001",
+          "git_blob_sha1": "d3b100d328dea3431ae13477e784efd2d5aac33b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.002",
+          "path": "datasets/attack_techniques/T1552.002",
+          "git_blob_sha1": "7b95f3e5688b2149f2fb5461c79708ee453143da",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.003",
+          "path": "datasets/attack_techniques/T1552.003",
+          "git_blob_sha1": "bfba341205858c6e92a1ef0cea5aa51e21f1844e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.004",
+          "path": "datasets/attack_techniques/T1552.004",
+          "git_blob_sha1": "c7ccd4efb0f9e5de155c34b4e001b1970a4c1d10",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.005",
+          "path": "datasets/attack_techniques/T1552.005",
+          "git_blob_sha1": "797a1da69762f18560f6ab5a3d7ff699f242e248",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.006",
+          "path": "datasets/attack_techniques/T1552.006",
+          "git_blob_sha1": "96ea2e57b9d9d4048b0e67047d1a5ce755cf4bb7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552.007",
+          "path": "datasets/attack_techniques/T1552.007",
+          "git_blob_sha1": "1a22a009b6515a2595185374e00bac6abfa1474f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1552",
+          "path": "datasets/attack_techniques/T1552",
+          "git_blob_sha1": "6893ee63b6847ec7a5174a1d79c69aa19fc4f01e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1553.001",
+          "path": "datasets/attack_techniques/T1553.001",
+          "git_blob_sha1": "9a9668391b462abbd20a48758ec9e00addfb482b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1553.002",
+          "path": "datasets/attack_techniques/T1553.002",
+          "git_blob_sha1": "9a580c17b189f11476915a9e71308d565992c98f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1553.003",
+          "path": "datasets/attack_techniques/T1553.003",
+          "git_blob_sha1": "424d3ee0a2d03f8d46c89656250471794cbde563",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1553.004",
+          "path": "datasets/attack_techniques/T1553.004",
+          "git_blob_sha1": "5402f90a66bd20d39bd91195927ca2f6d9510b68",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1553.005",
+          "path": "datasets/attack_techniques/T1553.005",
+          "git_blob_sha1": "315178288776814740d3954e05e8de9f7edfdc02",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1554",
+          "path": "datasets/attack_techniques/T1554",
+          "git_blob_sha1": "c58447a147824adfc578080b2f8810aae93787e5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1555.001",
+          "path": "datasets/attack_techniques/T1555.001",
+          "git_blob_sha1": "8ba763df48a0040d6f2def711841586ac42bea75",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1555.003",
+          "path": "datasets/attack_techniques/T1555.003",
+          "git_blob_sha1": "3471c520691ebd304f4ae7aae7701d588e822ebb",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1555.004",
+          "path": "datasets/attack_techniques/T1555.004",
+          "git_blob_sha1": "e014028ea9d75932d03b090cfbb1c26e05ef706c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1555.005",
+          "path": "datasets/attack_techniques/T1555.005",
+          "git_blob_sha1": "e19e07ae24ca63ee58f3319adf6ad2c4fbb3e83b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1555.006",
+          "path": "datasets/attack_techniques/T1555.006",
+          "git_blob_sha1": "4de33e5d5c8691951e634c3e4ed910351c256264",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1555",
+          "path": "datasets/attack_techniques/T1555",
+          "git_blob_sha1": "cd15afa1e2e71bb452cec8b62d09eb380f90843e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1556.001",
+          "path": "datasets/attack_techniques/T1556.001",
+          "git_blob_sha1": "5b010e139bd871bb991c1c78521d2a77e52e4198",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1556.002",
+          "path": "datasets/attack_techniques/T1556.002",
+          "git_blob_sha1": "9706d484ad4b27e7e3649ca8643fd845c6cf05d2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1556.006",
+          "path": "datasets/attack_techniques/T1556.006",
+          "git_blob_sha1": "01132c1d706c7916f950f0720cbf576e28528a72",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1556",
+          "path": "datasets/attack_techniques/T1556",
+          "git_blob_sha1": "c2eef4589bf2db771303eee8eb55490abf014e87",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1557.002",
+          "path": "datasets/attack_techniques/T1557.002",
+          "git_blob_sha1": "9df21ce3ce2a391d7c39417018214c6ab597a855",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1558.001",
+          "path": "datasets/attack_techniques/T1558.001",
+          "git_blob_sha1": "3a43e5fcc8eccbcb914f1dbddfc2d4cbaa48f3f3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1558.002",
+          "path": "datasets/attack_techniques/T1558.002",
+          "git_blob_sha1": "ff08e65af58fa63a1c1b830317427be0d98004bc",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1558.003",
+          "path": "datasets/attack_techniques/T1558.003",
+          "git_blob_sha1": "481aa0762b386c99f2fe69751fa9f899558d6be5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1558.004",
+          "path": "datasets/attack_techniques/T1558.004",
+          "git_blob_sha1": "fcc361fea121fa57c7d1f2c58ffba8b5902a6347",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1558",
+          "path": "datasets/attack_techniques/T1558",
+          "git_blob_sha1": "05fb4df0cbfdb23196cc8dbcac639cd33b3aa10f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1559",
+          "path": "datasets/attack_techniques/T1559",
+          "git_blob_sha1": "5a7ece42fcf251c189bda1c885f351d20b1d0af7",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1560.001",
+          "path": "datasets/attack_techniques/T1560.001",
+          "git_blob_sha1": "2abeac7ec05086fc72f1edaf477a340a818732e3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1560.002",
+          "path": "datasets/attack_techniques/T1560.002",
+          "git_blob_sha1": "39e0952b799042f05f140a6e29c7bbb61f1bed70",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1560",
+          "path": "datasets/attack_techniques/T1560",
+          "git_blob_sha1": "0bf1a149d5a7dc93ccb7a2617d776a57e17a42b8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1561.001",
+          "path": "datasets/attack_techniques/T1561.001",
+          "git_blob_sha1": "1044f952ebcdc69a48421c6c86fbe8a8b58b964e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1561.002",
+          "path": "datasets/attack_techniques/T1561.002",
+          "git_blob_sha1": "aaf22017e709c34725f1e878974055f5a07387bf",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.001",
+          "path": "datasets/attack_techniques/T1562.001",
+          "git_blob_sha1": "1f4bc8568b41d401f4ae03e9a5d2208094478dd2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.002",
+          "path": "datasets/attack_techniques/T1562.002",
+          "git_blob_sha1": "8f82eb8a17adea44daa5d71c0d8e631522123758",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.003",
+          "path": "datasets/attack_techniques/T1562.003",
+          "git_blob_sha1": "74718ddfe65f169de6a8e838a47db2270a0eed87",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.004",
+          "path": "datasets/attack_techniques/T1562.004",
+          "git_blob_sha1": "224cb48d82a485f9d00c1b4be8a8965d21acd57a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.006",
+          "path": "datasets/attack_techniques/T1562.006",
+          "git_blob_sha1": "dc5bcd05c14bb0fa538aad4500dde279959e2a9f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.007",
+          "path": "datasets/attack_techniques/T1562.007",
+          "git_blob_sha1": "51f2bed891cafbdd062a3e38bf4239e3850758d3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.008",
+          "path": "datasets/attack_techniques/T1562.008",
+          "git_blob_sha1": "0bd6b54d6eedcfa9837426fc91682b594bde5be6",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.009",
+          "path": "datasets/attack_techniques/T1562.009",
+          "git_blob_sha1": "00459766ce296723da19965eac62b9baa18f10ee",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.010",
+          "path": "datasets/attack_techniques/T1562.010",
+          "git_blob_sha1": "fa1ed40dc36256377caff7c3325a37933ccf334a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562.012",
+          "path": "datasets/attack_techniques/T1562.012",
+          "git_blob_sha1": "7f063afebae89a22868ae642d99663a2b999aba5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1562",
+          "path": "datasets/attack_techniques/T1562",
+          "git_blob_sha1": "4108454ce6338b631944bb657c55a65566417bd6",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1563.002",
+          "path": "datasets/attack_techniques/T1563.002",
+          "git_blob_sha1": "b1416f5fde928d3846b3dac5184808e678fd2fe9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1564.001",
+          "path": "datasets/attack_techniques/T1564.001",
+          "git_blob_sha1": "9134a829c36b5c6246bdd87a616cbcc0a3e188e5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1564.003",
+          "path": "datasets/attack_techniques/T1564.003",
+          "git_blob_sha1": "312fb9738081398ab98ead0436852e413aeef04e",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1564.004",
+          "path": "datasets/attack_techniques/T1564.004",
+          "git_blob_sha1": "b5faaeb97eecef1863f4dbdee5312e1380717024",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1564.008",
+          "path": "datasets/attack_techniques/T1564.008",
+          "git_blob_sha1": "1f6998cb44dab4231e906e44391c59d10addfd99",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1564",
+          "path": "datasets/attack_techniques/T1564",
+          "git_blob_sha1": "98ed29e4d11d36840e0da9bfd96aaf89bf02e251",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1565.001",
+          "path": "datasets/attack_techniques/T1565.001",
+          "git_blob_sha1": "b17b8fdb890717f102f8409d4c90276c6818e3d9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1566.001",
+          "path": "datasets/attack_techniques/T1566.001",
+          "git_blob_sha1": "5a195a8fe407a193f4cfcdf6af76fe3e1f21d452",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1566.002",
+          "path": "datasets/attack_techniques/T1566.002",
+          "git_blob_sha1": "930fb221359cf608068b8e52f6a539c8142da9fa",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1566",
+          "path": "datasets/attack_techniques/T1566",
+          "git_blob_sha1": "207ea8a5f67bff155b37d045edcf04f16266c163",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1567.002",
+          "path": "datasets/attack_techniques/T1567.002",
+          "git_blob_sha1": "59d79c166c81fb866ce51242a1a77df0e484a897",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1567",
+          "path": "datasets/attack_techniques/T1567",
+          "git_blob_sha1": "fc03e4d5672291b7e7cd49dad8a797f891fca165",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1569.002",
+          "path": "datasets/attack_techniques/T1569.002",
+          "git_blob_sha1": "2cfeeae74dc0d0f39cde3491138a14a30ab0cdca",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1569",
+          "path": "datasets/attack_techniques/T1569",
+          "git_blob_sha1": "7d6ed00c3f826c4d09a3682f202257fb707c714a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1570",
+          "path": "datasets/attack_techniques/T1570",
+          "git_blob_sha1": "9684c9fbf6f621bece08cab72b3cd4708fcfe27d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1572",
+          "path": "datasets/attack_techniques/T1572",
+          "git_blob_sha1": "4452644d6dcecf41e4187b4ae5b4e8137b2cefd9",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.001",
+          "path": "datasets/attack_techniques/T1574.001",
+          "git_blob_sha1": "6f655ff8f1bfe421825c37d3b2824b3c05158f31",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.002",
+          "path": "datasets/attack_techniques/T1574.002",
+          "git_blob_sha1": "e850c5acdc526d8a63a5298213855c95925b15d3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.006",
+          "path": "datasets/attack_techniques/T1574.006",
+          "git_blob_sha1": "e58d56bee2e4608b03342d485b18efa82df598d5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.007",
+          "path": "datasets/attack_techniques/T1574.007",
+          "git_blob_sha1": "de1808d39385bc1b457aed8ee418b1b86b4ef775",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.008",
+          "path": "datasets/attack_techniques/T1574.008",
+          "git_blob_sha1": "51cac2afd245bed5c584edc6a4ab91c08eafb87c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.009",
+          "path": "datasets/attack_techniques/T1574.009",
+          "git_blob_sha1": "97100ab233634a76d027961c6aed31c18588f538",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.011",
+          "path": "datasets/attack_techniques/T1574.011",
+          "git_blob_sha1": "51a4196a74e5a9cc8b9665ce82930c9d682395c8",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574.014",
+          "path": "datasets/attack_techniques/T1574.014",
+          "git_blob_sha1": "31da35d0cfa5008615f9aaf26c35577a18abb097",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1574",
+          "path": "datasets/attack_techniques/T1574",
+          "git_blob_sha1": "a19092e6b7022dddbbc175c0e3b0dbea654d767b",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1578.005",
+          "path": "datasets/attack_techniques/T1578.005",
+          "git_blob_sha1": "1c2cf9100fdc3b143c2581589e063091ff4840ba",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1580",
+          "path": "datasets/attack_techniques/T1580",
+          "git_blob_sha1": "851111a07b868eed414f83f6d58dc5ef625b41ab",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1584",
+          "path": "datasets/attack_techniques/T1584",
+          "git_blob_sha1": "982969eb855d6afb892df2ad14df96a374214be1",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1585",
+          "path": "datasets/attack_techniques/T1585",
+          "git_blob_sha1": "5ac333b3a110e842fef76558d0d55819ce3f7d5c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1586.001",
+          "path": "datasets/attack_techniques/T1586.001",
+          "git_blob_sha1": "07cc71193e22976d7579a9c823e89ff83757496a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1586.003",
+          "path": "datasets/attack_techniques/T1586.003",
+          "git_blob_sha1": "1e2f0e6ab790b665d1e21727f6f785e11a5d6127",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1587.002",
+          "path": "datasets/attack_techniques/T1587.002",
+          "git_blob_sha1": "afcc845ee4e96b26f7b0ae1a00b490e7ded0bd7a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1587.003",
+          "path": "datasets/attack_techniques/T1587.003",
+          "git_blob_sha1": "1a252d19d9f9afa4ac8020f9a2b519ee93e69432",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1588.002",
+          "path": "datasets/attack_techniques/T1588.002",
+          "git_blob_sha1": "4b4853149e5096b0ca55f8e07341975c0b265c2f",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1589.001",
+          "path": "datasets/attack_techniques/T1589.001",
+          "git_blob_sha1": "d92591f22a09f9f338ded1d372e8ea481b961582",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1589.002",
+          "path": "datasets/attack_techniques/T1589.002",
+          "git_blob_sha1": "3d16db9449e1cce53f9b148fb5fdb5eea40d08d3",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1590.002",
+          "path": "datasets/attack_techniques/T1590.002",
+          "git_blob_sha1": "190e2e7ce8d175ddce68540fe70f990832e5ba65",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1590.005",
+          "path": "datasets/attack_techniques/T1590.005",
+          "git_blob_sha1": "4ff01e9a1d1fa0a550aaf9e19fdab222b5be9f99",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1590",
+          "path": "datasets/attack_techniques/T1590",
+          "git_blob_sha1": "d2a68a17a669ab0fe29bea2215a11b4805c3eebe",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1595.001",
+          "path": "datasets/attack_techniques/T1595.001",
+          "git_blob_sha1": "ae53134c50cc6dad4914224f40d5dd347a2b3508",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1595",
+          "path": "datasets/attack_techniques/T1595",
+          "git_blob_sha1": "0872c3a1d82c42b3b8b2570963ac038273d22866",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1598.002",
+          "path": "datasets/attack_techniques/T1598.002",
+          "git_blob_sha1": "d4ab1d4e117bc5fe5a854c0764d3a6d60362323c",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1601.001",
+          "path": "datasets/attack_techniques/T1601.001",
+          "git_blob_sha1": "98130e31355581db3034874919b351b1d393dc86",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1608.001",
+          "path": "datasets/attack_techniques/T1608.001",
+          "git_blob_sha1": "6035be40c6beaacbec9c409e8e6ddc686ffe5ac5",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1608",
+          "path": "datasets/attack_techniques/T1608",
+          "git_blob_sha1": "78f54749687392baa134dfb4054300c862817f8a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1610",
+          "path": "datasets/attack_techniques/T1610",
+          "git_blob_sha1": "b34f0365b6ee52259db13078fe028cabb1a33543",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1611",
+          "path": "datasets/attack_techniques/T1611",
+          "git_blob_sha1": "89349c35554cf6e6ca5f2d1605b7d38bd3b3925a",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1620",
+          "path": "datasets/attack_techniques/T1620",
+          "git_blob_sha1": "4a3a2c74b2859a4509949989278de25345ce35be",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1621",
+          "path": "datasets/attack_techniques/T1621",
+          "git_blob_sha1": "efc21d87403a54502103171eb6c5e49ae36af678",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1647",
+          "path": "datasets/attack_techniques/T1647",
+          "git_blob_sha1": "a7f55c374ddb096e35eae00afce59c7fc9bfc536",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1649",
+          "path": "datasets/attack_techniques/T1649",
+          "git_blob_sha1": "d72fdce189ad67a35b261ac2b549c1c2ab529a2d",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1654",
+          "path": "datasets/attack_techniques/T1654",
+          "git_blob_sha1": "f2f8918dbb80eaf0f91b6a05538f3151ca61e880",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1673",
+          "path": "datasets/attack_techniques/T1673",
+          "git_blob_sha1": "ae5098e2cd23c8e7aca855b0268c571dbc5a7ecd",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "T1685",
+          "path": "datasets/attack_techniques/T1685",
+          "git_blob_sha1": "02e8d823264c5c88fa11b8861ae22376665bd0c2",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "t1547.014",
+          "path": "datasets/attack_techniques/t1547.014",
+          "git_blob_sha1": "db8763855fa18571c5dac3a52054c43d6bfb88bd",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "t1592",
+          "path": "datasets/attack_techniques/t1592",
+          "git_blob_sha1": "4da0561fc40d44b7b106a41be9e2ac64c9c7833b",
+          "bytes": 0,
+          "type": "dir"
+        }
+      ],
+      "specific_license_entries": []
+    },
+    {
+      "url": "https://api.github.com/repos/splunk/attack_data/contents/datasets/attack_techniques/T1003.003?ref=671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+      "entries": [
+        {
+          "name": "atomic_red_team",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team",
+          "git_blob_sha1": "9c4ae629eae207e2294e2f984fff47bef8b24777",
+          "bytes": 0,
+          "type": "dir"
+        },
+        {
+          "name": "snapattack",
+          "path": "datasets/attack_techniques/T1003.003/snapattack",
+          "git_blob_sha1": "49840f1e621cb80d472ae1d06ec21d91ff49157a",
+          "bytes": 0,
+          "type": "dir"
+        }
+      ],
+      "specific_license_entries": []
+    },
+    {
+      "url": "https://api.github.com/repos/splunk/attack_data/contents/datasets/attack_techniques/T1003.003/atomic_red_team?ref=671f9f5b065f03a5502db07c20f1fe3f620d29d9",
+      "entries": [
+        {
+          "name": "4688_windows-security.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/4688_windows-security.log",
+          "git_blob_sha1": "fa6801c55f7e7f0f82551914332e9773738b2ded",
+          "bytes": 130,
+          "type": "file"
+        },
+        {
+          "name": "atomic_red_team.yml",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/atomic_red_team.yml",
+          "git_blob_sha1": "0f2d7bbb3a00de032fd1f09648a0760e261c6697",
+          "bytes": 1259,
+          "type": "file"
+        },
+        {
+          "name": "crowdstrike_falcon.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/crowdstrike_falcon.log",
+          "git_blob_sha1": "7b8073d9297e325fd1998950d819958de0a6a59c",
+          "bytes": 130,
+          "type": "file"
+        },
+        {
+          "name": "ntds_T1003.003_capattack.zip",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/ntds_T1003.003_capattack.zip",
+          "git_blob_sha1": "1987d5498b4fa7101d5b5a735cafe92906791642",
+          "bytes": 6091235,
+          "type": "file"
+        },
+        {
+          "name": "windows-powershell.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-powershell.log",
+          "git_blob_sha1": "d171162fe79ca943e977c8f7fa20fe0625bd86f2",
+          "bytes": 132,
+          "type": "file"
+        },
+        {
+          "name": "windows-sec-events.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-sec-events.log",
+          "git_blob_sha1": "a80d2978b82dc3e969ad435933491f590552f261",
+          "bytes": 132,
+          "type": "file"
+        },
+        {
+          "name": "windows-security.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-security.log",
+          "git_blob_sha1": "46780ce6bd6b0905d13c9f364fb39386a26fff01",
+          "bytes": 132,
+          "type": "file"
+        },
+        {
+          "name": "windows-sysmon.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-sysmon.log",
+          "git_blob_sha1": "0cf6c0ab5d3158b89a01158b5728c64cd9aacfce",
+          "bytes": 133,
+          "type": "file"
+        },
+        {
+          "name": "windows-system.log",
+          "path": "datasets/attack_techniques/T1003.003/atomic_red_team/windows-system.log",
+          "git_blob_sha1": "3dbb4e440f859feba9b3fef24d4d25694e76a00e",
+          "bytes": 131,
+          "type": "file"
+        }
+      ],
+      "specific_license_entries": []
+    }
+  ],
+  "failures": [
+    "web fixed YAML and directory cache miss; connector succeeded",
+    "connector README transport error; license and YAML succeeded"
+  ]
+}

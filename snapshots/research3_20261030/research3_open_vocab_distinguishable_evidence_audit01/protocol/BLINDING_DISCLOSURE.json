@@ -1,0 +1,16 @@
+{
+  "task": "R3_OPEN_VOCAB_DISTINGUISHABLE_EVIDENCE_AUDIT01",
+  "client_report_date": "2026-10-29",
+  "blinding_status": "INDEPENDENT_BLIND_REVIEW_NOT_AVAILABLE",
+  "historical_predictions_previously_exposed": true,
+  "prior_AI_judgments_previously_exposed": true,
+  "new_Agents": 0,
+  "independent_coordinator_available": false,
+  "OS_isolation_proven": false,
+  "current_phase": "AUDIT_COMPLETE_WITH_EXPOSURE_DISCLOSURE",
+  "first_pass_new_prediction_payload_read": false,
+  "scope": "same-context AI audit;not qualified independent reference;no new semantic model calls",
+  "preseal_mixed_container_parsing_occurred": true,
+  "first_pass_new_prediction_payload_read_field_scope": "reviewer-visible values only,not byte access",
+  "underlying_byte_isolation_claim": false
+}

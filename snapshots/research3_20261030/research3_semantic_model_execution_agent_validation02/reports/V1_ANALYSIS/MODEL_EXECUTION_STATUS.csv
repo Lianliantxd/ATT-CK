@@ -1,0 +1,6 @@
+model,complete_weights,actual_forward,conditions,queries_each,status
+GTE-ModernBERT,True,True,5,975,FULL_P0_EVALUATED
+GTE-ModernBERT-Reranker,True,True,6,975,FULL_P0_EVALUATED
+DeepSeek-R1-1.5B,True,True,73,78 attempted requests / 74 receipts,3_VALID_AGENT_EPISODES; PARTIAL_VALID_PILOT
+Qwen3-Embedding / BGE-M3,False,False,0,0,NOT_RUN_NOT_AUTHORIZED_DOWNLOAD
+DistilBERT,False,False,0,0,REFERENCE_ONLY

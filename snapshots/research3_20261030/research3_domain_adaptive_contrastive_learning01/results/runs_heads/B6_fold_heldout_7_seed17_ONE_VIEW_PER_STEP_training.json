@@ -1,0 +1,106 @@
+[
+  {
+    "epoch": 1,
+    "updates": 1,
+    "loss": 3.963645466755529,
+    "gradient_norm": 8.385989984277089,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 10,
+    "updates": 10,
+    "loss": 1.1975507717939666,
+    "gradient_norm": 0.9616474409205586,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 20,
+    "updates": 20,
+    "loss": 0.511213067707537,
+    "gradient_norm": 0.5535142037119088,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 30,
+    "updates": 30,
+    "loss": 0.39145259739808036,
+    "gradient_norm": 0.21578418985561199,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 40,
+    "updates": 40,
+    "loss": 0.3531043965137154,
+    "gradient_norm": 0.10395312513644848,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 50,
+    "updates": 50,
+    "loss": 0.33682233242906195,
+    "gradient_norm": 0.06585586689248095,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 60,
+    "updates": 60,
+    "loss": 0.3267054228607362,
+    "gradient_norm": 0.046953680107917166,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 70,
+    "updates": 70,
+    "loss": 0.3199697355050753,
+    "gradient_norm": 0.027979521635295344,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 80,
+    "updates": 80,
+    "loss": 0.3145075834033726,
+    "gradient_norm": 0.02160541023909082,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 90,
+    "updates": 90,
+    "loss": 0.309765308536936,
+    "gradient_norm": 0.015665522420877775,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 100,
+    "updates": 100,
+    "loss": 0.30547522532773547,
+    "gradient_norm": 0.014598554486675644,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 110,
+    "updates": 110,
+    "loss": 0.301488085600159,
+    "gradient_norm": 0.01318828422273348,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  },
+  {
+    "epoch": 120,
+    "updates": 120,
+    "loss": 0.2977511969785844,
+    "gradient_norm": 0.011980426142197636,
+    "actual_train_steps": 137,
+    "training_view_replica": 0
+  }
+]

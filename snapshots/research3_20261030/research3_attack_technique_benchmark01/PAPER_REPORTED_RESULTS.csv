@@ -1,0 +1,7 @@
+model,n_records,top1,top5,top10,mrr,weighted_mrr,p1,r1,p5,r5,p10,r10,source
+meta-llama/llama-4-maverick-17b-128e-instruct,990,0.256566,0.386869,0.446465,0.312486,0.324001,0.256566,0.204545,0.082020,0.320603,0.050101,0.374165,official README full198 steps; not project inference
+mistralai/ministral-3b-2512,983,0.100712,0.160732,0.166836,0.123780,0.127580,0.100712,0.080875,0.032350,0.133944,0.016785,0.139369,official README full198 steps; not project inference
+openai/gpt-5.2-20251211,990,0.404040,0.601010,0.650505,0.486855,0.502444,0.404040,0.322727,0.132727,0.514595,0.075051,0.570992,official README full198 steps; not project inference
+openai/gpt-5.5-20260423,990,0.418182,0.608081,0.671717,0.503596,0.546148,0.418182,0.330199,0.133737,0.518467,0.078182,0.585237,official README full198 steps; not project inference
+qwen/qwen3-32b-04-28,990,0.160606,0.254545,0.309091,0.199830,0.206520,0.160606,0.133333,0.052121,0.206728,0.031818,0.250317,official README full198 steps; not project inference
+GPT5.5_paper_narrative,198 steps x5,0.418 (rounded),N/A in inspected narrative,0.672 (rounded),N/A in inspected narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,paper section5.2.2 DOI10.1007/s10207-026-01318-x; separate from README precision

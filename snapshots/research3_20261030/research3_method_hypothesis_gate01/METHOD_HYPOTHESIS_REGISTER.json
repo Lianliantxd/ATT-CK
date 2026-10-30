@@ -1,0 +1,143 @@
+{
+  "task": "R3_METHOD_HYPOTHESIS_GATE01",
+  "registered_utc": "2026-10-28T15:12:08.572075+00:00",
+  "primary_hypothesis_count": 1,
+  "primary_hypothesis": {
+    "hypothesis_id": "H1_CONDITIONAL_BOUND_EVIDENCE_RANKING",
+    "hypothesis_statement": "仅在独立参考已确认同一冻结输入含目标技术及相近候选的区分性证据后，候选必要条件与同主体/对象/时间事实绑定的校验残差，能否在全216候选、相同输入和公开知识预算下，相对冻结GTE、最强全候选词法及C4提高Unseen排序，同时满足Seen损失上限？",
+    "admission_status": "NOT_ADMITTED_CONDITIONAL_DESIGN_ONLY",
+    "mechanism": {
+      "input": "all216 candidate public definitions and identical frozen query;no authorGold,human answers,AI review labels,scenario IDs or predicted test labels",
+      "verifier": "not implemented;future deterministic frozen checker on source-bound literal facts;at most8 public-definition conditions/candidate;cannot infer missing actions or purpose",
+      "binding": "a support/contradiction must bind same subject,object,time and action/result role;no association from filename or co-occurrence alone",
+      "condition_value": {
+        "SUPPORTED": 1.0,
+        "PARTIALLY_SUPPORTED": 0.5,
+        "CONTRADICTED": -1.0,
+        "NOT_ESTABLISHED": 0.0,
+        "NOT_EVALUABLE": 0.0
+      },
+      "candidate_residual": "arithmetic mean across fixed necessary conditions;unknown contributes0,not counterevidence;empty condition list=>residual0",
+      "score": "saved/future matched-protocol C4 score +0.1*candidate_residual;lambda0.1fixed;no fitting or grid",
+      "tie": "descending score then technique ID ascending",
+      "coverage": "score all216;not merely rerank originalTop10;new condition text may not add information beyond shared public knowledge"
+    },
+    "expected_effect": "conditional testable improvement from evidence binding,not from expanded pool,more tokens,Gold routing or restoring old GTE ranks",
+    "expected_failure_modes": [
+      "no independently confirmed discriminating evidence",
+      "deterministic checker cannot reliably bind facts or cover definition predicates",
+      "necessary condition semantics outside model-visible knowledge scope",
+      "same gain reproduced by lexical baseline or unbound ablation",
+      "Unseen benefit paired with Seen loss",
+      "gain only on exposed development data"
+    ],
+    "strongest_baselines": [
+      "Z0 frozen GTE",
+      "full216 BM25",
+      "full216 CharacterNgramTFIDF",
+      "matched word TFIDF",
+      "B3/S0 closed-set supervised baseline with true missing Unseen",
+      "C4",
+      "C3",
+      "C0 training-only prior"
+    ],
+    "required_reference": [
+      "independent two-reviewer plus arbitration visible-evidence reference",
+      "verified target definition/parent-child scope",
+      "candidate-distinction adjudication without rankings",
+      "pre-outcome cohort and eligibility freeze",
+      "qualified independent execution/script/source test lineage"
+    ],
+    "required_inputs": [
+      "same frozen query bytes and public candidate documents for all methods",
+      "train-only Seen/support mask",
+      "frozen GTE/B3/C4 versions and train normalization",
+      "registered deterministic verifier version and traceable conditions;currentlyNOT_SELECTED_NOT_IMPLEMENTED"
+    ],
+    "primary_metric": [
+      "Unseen-target MRR@10",
+      "Unseen-target Top-10 Hit Rate"
+    ],
+    "secondary_metrics": [
+      "overall MRR@10",
+      "overall Top10",
+      "Top1",
+      "Top5",
+      "Precision@5",
+      "Recall@5",
+      "Recall@10",
+      "Seen MRR@10",
+      "Seen Top10",
+      "Mixed Seen/Unseen/both hit",
+      "eligibility and UNKNOWN coverage",
+      "latency and compute"
+    ],
+    "success_criterion": {
+      "Unseen_MRR10_absolute_gain_vs_each_required_strong_baseline_at_least": 0.01,
+      "Unseen_Top10_absolute_gain_vs_each_required_strong_baseline_at_least": 0.02,
+      "Seen_MRR10_absolute_loss_vs_each_required_strong_baseline_at_most": 0.005,
+      "Seen_Top10_absolute_loss_vs_each_required_strong_baseline_at_most": 0.01,
+      "interpretation": "joint operational margins proposed before any new test outcome;not universal scientific constants;no posthoc relaxation"
+    },
+    "falsification_criterion": [
+      "after qualified evaluation,any primary gain/Seen retention margin fails",
+      "simple matched baseline or no-binding ablation reproduces all gains",
+      "gain disappears with equalized candidates,input bytes,knowledge and budget",
+      "effect occurs only on previously exposed384/P0",
+      "only wording or UNKNOWN rate changes without additional independently verifiable correct rankings"
+    ],
+    "not_testable_conditions_not_to_be_misreported_as_empirical_falsification": [
+      "independent reference unavailable",
+      "independent test unavailable",
+      "verifier version/sample-size justification/fair baseline parity not frozen"
+    ],
+    "current_evidence": {
+      "historical_source": "/Users/tianxd/Documents/mid-term/research3_method_hypothesis_gate01/audit/HISTORICAL_RESULT_SOURCE_AUDIT.json",
+      "historical_order_failure": "349 frozen within-Unseen order misses;cause unresolved",
+      "AI_related_clues_queries": 126,
+      "AI_any_direct_clues_queries": 31,
+      "independently_confirmed_discriminating_cases": "NOT_AVAILABLE",
+      "evidence_grade": "historical numeric/source audit plus nonindependent AI clues;not independent semantic confirmation"
+    },
+    "missing_evidence": [
+      "independent semantic reference and candidate distinction",
+      "legitimate unseen independent test",
+      "matched raw/knowledge budgets and baseline outputs on qualified evaluation",
+      "validated frozen checker,public-condition coverage and independent sample-size/precision justification"
+    ],
+    "comparison_to_prior_methods": {
+      "GTE": "adds explicit condition-to-fact binding residual rather than another text similarity view",
+      "B3_C4": "keeps their original supervised/fusion scores;no new head or recalibration;residual must show increment over C4 andC3",
+      "contrastive_hard_negatives": "no encoder training,hard-negative mining or new geometry adaptation in the conditional design",
+      "EvidenceLineFusion": "requires same-entity/event binding and condition states,not line lexical overlap/concentration weighting",
+      "mechanism_cards": "must verify condition predicates and scope against independent reference;rendering a new card alone is not sufficient",
+      "Agent": "no adaptive query,new logs,roles,reflection or model-agent calls",
+      "novelty": "difference is an unimplemented candidate mechanism,not established novelty or contribution;current local audit cannot establish literature novelty"
+    },
+    "go_no_go_status": "GO_AFTER_REFERENCE_QUALIFICATION",
+    "experiment_permission": false
+  },
+  "alternative_directions": [
+    {
+      "direction": "retain Unseen order in fusion",
+      "status": "NOT_PRIMARY_ALREADY_DIAGNOSED",
+      "reason": "32 historical losses restored by removing seen-supervision correction;restoringGTE is not novel gain and cannot repair349 internal-order misses"
+    },
+    {
+      "direction": "label/input/taxonomy alignment",
+      "status": "REFERENCE_QUALIFICATION_WORK_NOT_SECOND_ALGORITHM",
+      "reason": "34 AI scope clues and strong input/document parity differences justify audit,not confirmed label errors or a new method"
+    },
+    {
+      "direction": "do not develop algorithm",
+      "status": "FALLBACK_IF_REFERENCE_OR_TEST_GATE_FAILS",
+      "reason": "if discriminating failures cannot be independently established,retireH1;do not add complexity"
+    }
+  ],
+  "final_decision": "GO_AFTER_REFERENCE_QUALIFICATION",
+  "execution_status": "COMPLETED_METHOD_GATE",
+  "method_experiment_admitted": false,
+  "new_method_implemented": false,
+  "experiment_executed": false,
+  "stage8_reference_stop_rule": "same single decisionGO_AFTER_REFERENCE_QUALIFICATION;not permission to obtain new data or contact reviewers"
+}

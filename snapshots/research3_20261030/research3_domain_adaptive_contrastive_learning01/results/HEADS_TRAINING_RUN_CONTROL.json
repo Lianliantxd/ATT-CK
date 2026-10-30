@@ -1,0 +1,7 @@
+{
+  "start_unix": 1793156079.614797,
+  "wall_cap_seconds": 5400,
+  "disk_cap_bytes": 2000000000,
+  "protocol_sha256": "d38359359b6d2db8f2be223847efb420b6afc0b8a862673c78900b9f618a4d3a",
+  "controller_source_sha256": "cf6266e36650a2c32ca594dc7df23532c45e58ffef1e73963e3e7e07bcadf8a7"
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "unqualified native name field must not be typed File unless native type=PATH; named entity remains unresolved otherwise",
+  "new_predictions_already_seen": false,
+  "prior_build_preserved": "results/prevalidation_build_v0",
+  "same_thirty_IDs": true
+}

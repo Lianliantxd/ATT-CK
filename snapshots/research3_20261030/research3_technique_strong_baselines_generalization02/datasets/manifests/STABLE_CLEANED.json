@@ -1,0 +1,52 @@
+{
+  "p1_resampled/prediction.jsonl": {
+    "records": 975,
+    "lines": 19959,
+    "sha256": "a486fe1c4a9641adba2f94bf87fd0de532d835ff2a859d82f1c5f20e27b2534f",
+    "cleaning_assertions": "PASS"
+  },
+  "p1_resampled/prediction_fixed_variant.jsonl": {
+    "records": 975,
+    "lines": 19992,
+    "sha256": "aa158f3974fd85d66ded1aa115f47ad6c392f6f548a31fecdc5d972dd5e6dd2f",
+    "cleaning_assertions": "PASS"
+  },
+  "p2_v2/prediction_sampled.jsonl": {
+    "records": 385,
+    "lines": 7339,
+    "sha256": "31689aaba6b83f0763aada2035ac61fc17153218bb2b6efbc64f5139c55a4c3b",
+    "cleaning_assertions": "PASS"
+  },
+  "p2_v2/prediction_full.jsonl": {
+    "records": 385,
+    "lines": 680280,
+    "sha256": "6757e8348e7d2392106403d1eaa6052d23de374198f2279189089634201355a6",
+    "cleaning_assertions": "PASS"
+  },
+  "cleaning_summary": {
+    "lines_total": 680280,
+    "lines_changed": 101179,
+    "direct_ids_before": 101759,
+    "direct_ids_after": 0,
+    "mitre_annotation_lines_before": 7047
+  },
+  "state": "STABLE_CLEANED_V1",
+  "reference_files": {
+    "datasets/p1_resampled/reference.jsonl": {
+      "sha256": "0bdeaee654da3ceed9472a8a094e7f4ace54abc238c2c4879e05d33ea913a0d4",
+      "records": 975
+    },
+    "datasets/p1_resampled/reference_fixed_variant.jsonl": {
+      "sha256": "d802b173177cd1b27965a08bd64dbe6dae3214cdf9b6e18c3077e0d4b4776813",
+      "records": 975
+    },
+    "datasets/p2_v2/reference_full.jsonl": {
+      "sha256": "841ba11edc0ed130e95b3533456165c240fc6f677187c93d950fd2109a65a179",
+      "records": 385
+    },
+    "datasets/p2_v2/reference_sampled.jsonl": {
+      "sha256": "f92293d7aae78013435bd7ec64706e302c45464a48775f92d4ecb6034396fe79",
+      "records": 385
+    }
+  }
+}

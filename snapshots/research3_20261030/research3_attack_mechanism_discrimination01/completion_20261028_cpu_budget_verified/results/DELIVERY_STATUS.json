@@ -1,0 +1,12 @@
+{
+  "primary": "NO_SUPPORTED_ALGORITHMIC_GAIN",
+  "offline": "COMPLETED",
+  "new_neural": "MODEL_FORWARD_NOT_AUTHORIZED",
+  "human": "HUMAN_MECHANISM_REFERENCE_PENDING",
+  "external": "EXTERNAL_TEST_NOT_READY",
+  "new_GPU_calls": 0,
+  "LLM_calls": 0,
+  "server_writes": 0,
+  "GitHub_pushes": 0,
+  "parent_concurrent_work": "not modified; isolated continuation only"
+}

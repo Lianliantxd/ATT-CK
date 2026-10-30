@@ -1,0 +1,11 @@
+{
+  "seconds": 54.45847852481529,
+  "unique_encoded_texts": 2633,
+  "actual_forward_batches": 332,
+  "memory": {
+    "GPU_peak_allocated_bytes": 316881408,
+    "GPU_peak_reserved_bytes": 1113587712,
+    "process_peak_RSS_bytes": 1806942208
+  },
+  "status": "FULL_P0_COMPLETE"
+}

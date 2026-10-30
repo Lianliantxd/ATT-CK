@@ -1,0 +1,46 @@
+[
+  {
+    "file": "LICENSE",
+    "git_blob_matches": true
+  },
+  {
+    "file": "README.md",
+    "git_blob_matches": true
+  },
+  {
+    "file": "count_identical_prompts.py",
+    "git_blob_matches": true
+  },
+  {
+    "file": "create_llm_prompt.py",
+    "git_blob_matches": true
+  },
+  {
+    "file": "get_llm_responses.py",
+    "git_blob_matches": true
+  },
+  {
+    "file": "get_statistics.py",
+    "git_blob_matches": true
+  },
+  {
+    "file": "labels.json",
+    "git_blob_matches": true
+  },
+  {
+    "file": "llm_queries.json",
+    "git_blob_matches": true
+  },
+  {
+    "file": "llm_responses.json",
+    "git_blob_matches": true
+  },
+  {
+    "file": "mitre_matrix.json",
+    "git_blob_matches": true
+  },
+  {
+    "file": "requirements.txt",
+    "git_blob_matches": true
+  }
+]

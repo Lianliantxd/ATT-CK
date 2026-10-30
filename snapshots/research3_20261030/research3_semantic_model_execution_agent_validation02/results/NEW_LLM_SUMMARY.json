@@ -1,0 +1,37 @@
+{
+  "recorded_conditions": 73,
+  "condition_status": {
+    "COMPLETED": 17,
+    "FAILED": 56
+  },
+  "native_responses": 74,
+  "attempts": 78,
+  "actual_input_tokens": 342841,
+  "actual_output_tokens": 11981,
+  "actual_model_seconds": 3721.9810232929885,
+  "first_request_unix": 1793101489.2546408,
+  "last_request_end_unix": 1793106425.976027,
+  "request_span_seconds": 4936.721386194229,
+  "attempt_status": {
+    "FAILED_OR_INTERRUPTED": 4,
+    "COMPLETED_CPU_VERIFIED": 74
+  },
+  "valid_agent_episodes": 3,
+  "valid_agent_scopes": {
+    "MINIMAL_GATE": 1,
+    "PAIRED_PILOT": 2
+  },
+  "same_initial_observation_all_methods": true,
+  "max_returned_actual_tokens": 2048,
+  "backend_complete_prompt_proofs": 74,
+  "all_backend_prompt_proofs_pass": true,
+  "error_counts": {
+    "ValueError: OUTPUT_CONTRACT_DUPLICATE_OR_INVALID_TECHNIQUE": 32,
+    "ValueError: CONTEXT_CAP_FULL_FEEDBACK_WILL_NOT_BE_SILENTLY_TRUNCATED": 20,
+    "TimeoutError: timed out": 4
+  },
+  "input_tokens_with_unknown_attempt_reservations": 370436,
+  "output_tokens_with_unknown_attempt_reservations": 14029,
+  "unknown_timeout_actual_cost": "UNKNOWN; do not replace by zero; request caps reserved",
+  "model_stop_receipt": "LOCAL_MODEL_STOP_RECEIPT.json; late control unload is not inference; timeout backend completion times UNKNOWN"
+}

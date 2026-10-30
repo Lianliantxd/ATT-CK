@@ -1,0 +1,28 @@
+{
+  "exact_cross_scenario_groups": 0,
+  "normalized_cross_scenario_groups": [
+    {
+      "fingerprint_sha256": "f71a1674de816f331604a6d1169183b5939e7de088425b9d26e5f257ac585ade",
+      "logical_steps": [
+        "1-54",
+        "2-5",
+        "3-49"
+      ],
+      "sample_ids": [
+        "3-49-r0",
+        "1-54-r1",
+        "2-5-r1",
+        "3-49-r1",
+        "2-5-r2",
+        "3-49-r2",
+        "3-49-r3",
+        "1-54-r4",
+        "2-5-r4",
+        "3-49-r4"
+      ],
+      "interpretation": "SHARED_CRON_ACCOUNTING_OBSERVATION; not evidence of shared attack script"
+    }
+  ],
+  "normalization": "syslog/ISO time, native audit time+sequence, bracket PID and pid/ppid only; retain other content",
+  "script_coverage": "UNKNOWN; no raw script or restricted log reads"
+}

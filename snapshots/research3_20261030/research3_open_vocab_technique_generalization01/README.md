@@ -1,0 +1,9 @@
+# R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01
+
+完整中文报告：R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md。主状态OPEN_VOCAB_TRADEOFF_UNRESOLVED，DEVELOPMENT_ONLY。11方法×7折×3旧种子×2视图，使用真实冻结分数；没有新训练/GPU/LLM。
+
+旧资产只读继承；本项目的JSONL采用逐查询216元素数组，candidate顺序固定字典序，manifest映射NPZ完整键。B3缺失为null，排名规则明确，不把缺失当负证据。
+
+外部原始日志按用户指定保存在服务器ATT本轮目录，本地仅代码、元数据、统计与回执。无外部真实模型预测时结果NA。流程中评估预检提前读取旧Gold的有限时序偏差已披露，fit/predict隔离独立核验通过。
+
+最终校验和哈希见results/FINAL_VALIDATION.json与manifests/DELIVERY_SHA256.json。无需新依赖，复用已核验NumPy2.3.5/ReportLab CPU环境；未创建无必要新venv或更改系统Python。交付后停止。

@@ -1,0 +1,17 @@
+{
+  "authorized": true,
+  "authorization_source": "Direct human reply selects two GTE models, explicitly server installation with GPU dependencies, project-named venv; overrides prior server-readonly and separate-per-model venv for this task",
+  "server": "10.109.119.118",
+  "account": "tianxiaodan",
+  "project_path": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02",
+  "venv_name": "R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02",
+  "models": {
+    "Alibaba-NLP/gte-modernbert-base": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "Alibaba-NLP/gte-reranker-modernbert-base": "f7481e6055501a30fb19d090657df9ec1f79ab2c"
+  },
+  "GPU_allowed_for_these_models": true,
+  "shared_base_framework_read_only": true,
+  "project_disk_cap_bytes": 4000000000,
+  "run_wall_cap_seconds_per_model": 10800,
+  "restricted_data_unchanged": true
+}

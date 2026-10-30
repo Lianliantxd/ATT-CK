@@ -1,0 +1,9 @@
+{
+  "input_sha256": "2ab3a7b5fadca299fbfd62517ff310deef9800cad9f041a8742457bb5c1bb59f",
+  "deterministic_event_equality": true,
+  "events": 4368,
+  "queries": 975,
+  "derived_output_sha256": "4b9d79f5099be5eabb9b85a93a5eebed77b5585d14c301da31e1ed32feaecab4",
+  "output_storage": "temporary derived file; reproducible with reextract_frozen_inputs.py",
+  "new_archive_reads": 0
+}

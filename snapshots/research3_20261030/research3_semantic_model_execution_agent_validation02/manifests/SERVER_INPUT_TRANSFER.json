@@ -1,0 +1,21 @@
+{
+  "qualification": "ALLOWED_CLEANED_PREDICTIONS_AND_PUBLIC_KNOWLEDGE_ONLY",
+  "original_prediction_source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_prediction.jsonl",
+  "original_prediction_sha256": "ea5425e98463e63d06a3b57c26376e6150789c86dcadc8e4446e93eb7f3300ed",
+  "rows": 975,
+  "files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/embedding/server_inputs/P0_PREDICTION_ONLY.jsonl",
+      "sha256": "9024b17f168481fddff6c95873d08c6d629d8ead3351a998200e3bad8e209fb1",
+      "bytes": 7745102
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/embedding/server_inputs/K2_DESCRIPTION_16_1.json",
+      "sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+      "bytes": 950563
+    }
+  ],
+  "Gold_transferred": false,
+  "raw_archives_transferred": false,
+  "forbidden_scope_transferred": false
+}

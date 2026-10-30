@@ -1,0 +1,388 @@
+# Agent 完整执行 Prompt
+
+# R3_METHOD_HYPOTHESIS_GATE01
+## 开放词汇 ATT&CK 技术识别：方法假设准入与最小实验设计
+
+---
+
+## 一、任务目标
+
+你是一名负责网络安全研究、ATT&CK 技术识别、预训练语义模型、开放词汇分类、排序算法、实验设计及科研复现的研究 Agent。
+
+当前长期研究方向不变：
+
+**基于 ATT&CK 知识约束的 APT 攻击意图理解方法研究。**
+
+当前研究子任务为：
+
+**从安全日志中识别 ATT&CK 技术，并研究训练未见技术的识别与排序。**
+
+本轮任务编号：
+
+`R3_METHOD_HYPOTHESIS_GATE01`
+
+本轮只解决一个问题：
+
+> 在现有强基线、开放词汇实验、失败机制诊断和 384 条 AI 证据预审的基础上，确定是否存在一个具体、可证伪、值得开展的算法研究假设，并判断当前材料能否支持公平评价。
+
+本轮不是新算法实现，不是模型训练，不是新一轮语义审查，也不是扩大数据集的任务。
+
+**最终必须给出唯一决策：**
+
+- `GO_METHOD_EXPERIMENT`
+- `GO_AFTER_REFERENCE_QUALIFICATION`
+- `GO_AFTER_INPUT_OR_LABEL_AUDIT`
+- `NO_GO_CURRENT_METHOD_HYPOTHESIS`
+
+不能因为已有大量实验和代码，就默认下一步必须继续开发算法。
+
+---
+
+## 二、现有项目与冻结资产
+
+以下项目是本轮主要证据来源。
+
+### 2.1 开放词汇技术识别
+
+项目目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/`
+
+已有：
+
+- 216 个 ATT&CK 父技术候选；
+- 975 条 P0 查询；
+- 7 个场景；
+- 7 折开发评价及 3 个随机种子；
+- 冻结 GTE 分数与预测；
+- B3 监督分类器分数与预测；
+- C4 Seen/Unseen 融合预测；
+- 长尾支持数与 Seen/Unseen 分组；
+- 历史训练配置及 Checkpoint；
+- 完整指标复算和交付核验记录。
+
+### 2.2 失败机制诊断
+
+项目目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/`
+
+重点资产：
+
+- `GTE_MISS_EVIDENCE_CARDS.jsonl`
+- `GTE_MISS_GOLD_DIAGNOSTICS.csv`
+- `UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv`
+- `CANDIDATE_COMPARISON.csv.gz`
+- `QUERY_DIAGNOSTICS.csv`
+- `INDEPENDENT_HIT_RECOUNT.csv`
+- `COUNTERFACTUAL_COMPONENT_DIAGNOSIS.csv`
+- `LOST_CASES_FULL_ANALYSIS.md`
+- `DIAGNOSTIC_PROTOCOL.json`
+- `results/FINAL_VALIDATION.json`
+
+### 2.3 384 条 AI 证据预审
+
+项目目录：
+
+`/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/`
+
+重点资产：
+
+- `review/QUERY_EVIDENCE_REVIEWS.jsonl`
+- `review/CONDITION_EVIDENCE_MATRIX.csv`
+- `review/HUMAN_REVIEW_QUEUE.csv`
+- `review/GOLD_CONDITION_CATALOG.json`
+- `results/QUERY_REVIEW_SUMMARY.csv`
+- `results/DIAGNOSTIC_LABEL_OVERLAP.csv`
+- `results/REVIEW_COUNTS.json`
+- `protocol/BLOCKER_REGISTER.json`
+- `protocol/BLINDING_AND_SCOPE_DISCLOSURE.json`
+- `results/FINAL_VALIDATION.json`
+
+上述路径仅是优先查找位置。必须实际检查文件是否存在、字段是否匹配、版本是否一致，不得假定所有资产均齐全。
+
+如果发现历史资产缺失或哈希不一致，记录阻断原因，不得重建或覆盖旧文件。
+
+---
+
+## 三、已知结果与需要保持的边界
+
+上一轮开放词汇实验报告给出的 ONE 主协议结果：
+
+| 方法 | 总体 MRR@10 | Seen MRR@10 | Unseen MRR@10 |
+|---|---:|---:|---:|
+| 冻结 GTE | 0.0582 | 0.0558 | 0.0445 |
+| B3 监督分类器 | 0.2022 | 0.2942 | 0 |
+| C4 融合 | 0.1305 | 0.1745 | 0.0231 |
+
+历史失败诊断给出的查询级结果：
+
+| 情况 | 查询数 |
+|---|---:|
+| GTE 命中、C4 保留 | 34 |
+| GTE 命中、被 C4 丢失 | 32 |
+| GTE 未命中，但存在跨 Seen/Unseen 调整空间 | 35 |
+| 正确 Unseen 技术在 Unseen 内部也排不到前十 | 349 |
+
+这些数字是历史报告中的已知结果。本轮应检查其来源和统计口径是否与冻结资产一致，不必无条件重新执行全部计算。
+
+必须保留以下科学边界：
+
+1. B3 的 Unseen 分数缺失主要属于闭集分类器的结构限制，不能称为 GTE 主干遗忘。
+2. 32 条 C4 命中损失已被定位为 Seen 监督分数修正的程序性影响；不应再次把这一结果包装成新的发现。
+3. 349 条查询中，正确 Unseen 候选在当前 Unseen 内部顺序也排不到前十。这说明只移动 Seen 候选无法修复这些案例，但不能证明基础语义表示必然是根因。
+4. 384 条 AI 证据预审不是独立人工 Gold。
+5. 384 条查询、520 个查询—Gold 分配、2,618 条条件记录和底层逻辑步骤不是可互换的统计单位。
+6. 现有结果均属于开发材料，不能声称已经完成独立外部测试。
+7. 既有研究中已经尝试过 GTE、监督头、C4 融合、对比学习、困难负例、来源融合、字符检索及若干 Agent 查询策略。不得把这些已有方法重新命名后宣称为创新。
+
+本轮应以这些限制为起点，不重复制造历史实验。
+
+---
+
+## 四、第一阶段：实际检查已有研究资产
+
+先建立一份只读资产清单。
+
+至少检查：
+
+- 项目文件是否存在；
+- 输入、预测、分数矩阵和 Gold 的版本；
+- 冻结候选空间；
+- 既有评价协议；
+- 历史指标与分母；
+- 384 条预审的真实状态；
+- 独立人工复核状态；
+- 当前阻断项；
+- 既有方法假设及其失败记录。
+
+每项记录：
+
+- `artifact_id`
+- `path`
+- `exists`
+- `sha256`
+- `version`
+- `role`
+- `qualification`
+- `limitations`
+
+不要为了检查而加载或执行历史 Checkpoint。
+
+如果资产不完整，只报告现有材料能支持的判断。
+
+### 4.1 384 条预审的正确使用方式
+
+384 条预审只能作为 AI 生成的候选诊断线索。
+
+可以使用它们：
+
+- 定位可能具有相关日志证据的案例；
+- 定位可能存在 Gold 范围或粒度问题的案例；
+- 识别需要人工裁定的条件；
+- 建立后续人工复核队列。
+
+不能直接使用它们：
+
+- 计算模型准确率；
+- 作为正式 Gold；
+- 认定 31 条直接相关证据就是 31 个正确预测；
+- 认定 34 条范围疑问就是 34 个错标；
+- 认定 197 条当前视图无相关证据的查询就是不可识别案例。
+
+如果无法确认某条记录的来源或语义状态，应保留 `UNRESOLVED`。
+
+---
+
+## 五、第二阶段：确定一个真正可证伪的方法假设
+
+本阶段不能直接开始编码。
+
+必须先检查现有失败是否支持一个具体的算法假设。
+
+允许考虑以下研究方向，但不预设任何方向必然正确。
+
+### 方向 A：证据条件引导的开放词汇重排序
+
+候选假设：
+
+> 当日志中确实存在可区分候选技术的证据时，使用这些证据约束候选重排序，可能比单纯依赖查询—技术描述的语义相似度更准确地排序 Unseen 技术，同时保留 Seen 性能。
+
+必须回答：
+
+- 当前材料能否证明哪些查询具有可区分证据？
+- 是否有独立参考确认这些证据足以区分 Gold 与竞争技术？
+- 当前是否存在可评价的证据条件，而不只是 AI 自评标签？
+- 与冻结 GTE、全量 BM25 和已有 C4 相比，候选方法具体改变什么？
+- 如何证明增益来自证据约束，而不是增加候选信息或改变输入预算？
+
+如果现有材料无法回答这些问题，应将该方向列为待验证假设，不得直接实现。
+
+### 方向 B：保留 Unseen 排名的融合机制
+
+候选假设：
+
+> 在利用 Seen 监督信号的同时，限制融合机制对冻结 GTE 原有 Unseen 排名的破坏，可能改善 Seen/Unseen 权衡。
+
+必须回答：
+
+- 当前 32 条命中损失是否已经由简单的组件保真约束解释？
+- 该方向与现有 C4、校准分析和已完成的融合实验有什么实质区别？
+- 是否有未曝光的独立参考能够评价新增方法？
+- 新方法是否只是恢复原 GTE 排名，还是能产生超出 GTE 的可验证增益？
+
+不能把简单恢复 GTE 排名本身包装成新算法贡献。
+
+### 方向 C：语义表示与标签粒度对齐
+
+候选假设：
+
+> 部分 Unseen 排名失败可能来自日志行为粒度与 Gold 技术描述粒度不匹配；对齐行为证据与技术定义后，可能改善排序评价的有效性。
+
+必须回答：
+
+- 是否有独立证据确认这些案例确实存在粒度不匹配？
+- 是否有具体的冻结标签定义、候选描述及日志证据支持该判断？
+- 如何避免根据失败结果反向修改 Gold？
+- 如何在不改变标签的前提下，区分评价合同问题与模型问题？
+
+如果没有独立复核，该方向只能作为数据和评价研究假设。
+
+### 方向 D：不提出新算法
+
+如果已有证据不能确定可评价的失败机制，应选择：
+
+`NO_GO_CURRENT_METHOD_HYPOTHESIS`
+
+这不是研究失败，而是避免在没有可靠评价条件时继续扩大模型复杂度。
+
+### 5.1 唯一假设要求
+
+最终只能保留一个主研究假设。
+
+其他方向可以列为备选，但不得同时开发多个复杂模块。
+
+主假设必须包含：
+
+- `hypothesis_id`
+- `hypothesis_statement`
+- `mechanism`
+- `expected_effect`
+- `expected_failure_modes`
+- `strongest_baselines`
+- `required_reference`
+- `required_inputs`
+- `primary_metric`
+- `secondary_metrics`
+- `falsification_criterion`
+- `current_evidence`
+- `missing_evidence`
+- `go_no_go_status`
+
+假设必须能够被实验否定。
+
+“更好地理解语义”“提高鲁棒性”或“增强泛化能力”不是充分具体的假设。
+
+---
+
+## 六、第三阶段：判断现有材料是否足以评价该假设
+
+本阶段是整个任务的核心。
+
+### 6.1 评估案例资格
+
+对现有 384 条案例，只依据实际存在的证据和审查记录，划分以下资格：
+
+- `CANDIDATE_FOR_HUMAN_ADJUDICATION`
+- `OBSERVATION_INSUFFICIENT`
+- `LABEL_SCOPE_UNRESOLVED`
+- `REFERENCE_MISSING`
+- `NOT_ELIGIBLE_FOR_CURRENT_HYPOTHESIS`
+
+这些是资格状态，不是模型预测标签。
+
+允许一个案例有多个阻断原因，但必须指定主要阻断原因。
+
+不得仅根据 AI 预审的 `DIRECT_EVIDENCE_PRESENT` 就自动认定案例合格。
+
+### 6.2 独立参考要求
+
+判断当前材料是否具有：
+
+- 独立人工语义参考；
+- 可靠的原生证据绑定；
+- 完整的查询和候选技术定义；
+- 可区分 Gold 与竞争技术的依据；
+- 未参与前期开发的独立测试材料。
+
+若缺少独立人工参考，必须明确说明：
+
+`INDEPENDENT_SEMANTIC_REFERENCE_NOT_AVAILABLE`
+
+若所有材料都已经参与前期开发，应明确说明：
+
+`INDEPENDENT_TEST_NOT_AVAILABLE`
+
+不能通过更换文件名、重建目录或重新生成 AI 判断将开发数据变成独立测试。
+
+### 6.3 形成资格矩阵
+
+建立一张逐案例资格表，至少包含：
+
+- `sample_id`
+- `logical_step_id`
+- `scenario_id`
+- `gold_technique_ids`
+- `observable_evidence_status`
+- `distinguishing_evidence_status`
+- `gold_scope_status`
+- `independent_reference_status`
+- `input_coverage_status`
+- `human_adjudication_required`
+- `eligible_for_primary_metric`
+- `blocker_reason`
+
+没有独立参考时，不得把 AI 自评结果填入正式 Gold 字段。
+
+### 6.4 判断可评价案例数量
+
+必须分别报告：
+
+1. 原始查询数；
+2. 有相关可见行为的查询数；
+3. 有候选区分依据的查询数；
+4. 需要人工裁定的查询数；
+5. 当前不可评价的查询数；
+6. 具有合格独立参考的查询数；
+7. 具有独立测试资格的查询数。
+
+不同类别允许重叠。
+
+如果某项无法确定，报告 `NOT_AVAILABLE`，不能填 0 冒充已确认没有案例。
+
+---
+
+## 七、第四阶段：冻结评价协议和强基线
+
+本轮只核查并制定评价协议，不执行新方法实验。
+
+### 7.1 主评价指标
+
+以开放词汇 ATT&CK 技术排序为主任务。
+
+主指标：
+
+- `MRR@10`
+- `Top-10 Hit Rate`
+
+次指标：
+
+- `Top-1 Hit Rate`
+- `Top-5 Hit Rate`
+- `Precision@5`
+- `Recall@5`
+- `Recall@10`
+- Seen MRR@10
+- Unseen MRR@10
+- Mixed 查询的 Seen/Unseen 命中情况。
+

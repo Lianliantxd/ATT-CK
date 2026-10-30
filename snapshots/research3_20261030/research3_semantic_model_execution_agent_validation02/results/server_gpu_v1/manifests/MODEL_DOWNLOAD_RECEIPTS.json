@@ -1,0 +1,101 @@
+[
+  {
+    "model_id": "Alibaba-NLP/gte-modernbert-base",
+    "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+    "directory": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/model_assets/GTE-ModernBERT",
+    "weight_sha256": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba",
+    "files": [
+      {
+        "path": "tokenizer.json",
+        "bytes": 3583228,
+        "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30"
+      },
+      {
+        "path": "config.json",
+        "bytes": 1184,
+        "sha256": "8ba54dc3d35d7194f5178a4194b649f146753e02dabd22bdca5c5cbac15069ed"
+      },
+      {
+        "path": "modules.json",
+        "bytes": 229,
+        "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+      },
+      {
+        "path": "model.safetensors",
+        "bytes": 298041568,
+        "sha256": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 20867,
+        "sha256": "9654072f7c873161814043cf08cb5ed72f71d0b935abcd4e267935cb34352c21"
+      },
+      {
+        "path": "config_sentence_transformers.json",
+        "bytes": 205,
+        "sha256": "f6bbc7812d09c4ae1cba610fbdad3aea0ca9b3b8affe5a130d31709bdbc94e99"
+      },
+      {
+        "path": "special_tokens_map.json",
+        "bytes": 694,
+        "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049"
+      },
+      {
+        "path": "README.md",
+        "bytes": 13983,
+        "sha256": "97d40aa325f0e6eaddf77edc7187b7bba6fd3e31a555be3b5766f015c6c27550"
+      },
+      {
+        "path": "1_Pooling/config.json",
+        "bytes": 297,
+        "sha256": "4bf279dd9204db673304cab6e7db8448f427412a0d87f04c3e19f1de55dd98cd"
+      }
+    ],
+    "complete_download": true,
+    "download_endpoint": "https://hf-mirror.com",
+    "weight_authenticity": "matches primary official weight SHA256",
+    "transport_recovery": "one force-download of failed tokenizer, no changed model revision"
+  },
+  {
+    "model_id": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "revision": "f7481e6055501a30fb19d090657df9ec1f79ab2c",
+    "directory": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/model_assets/GTE-ModernBERT-Reranker",
+    "weight_sha256": "13c533d902d6a48fa97375c6856c3e60854f9228ea760e3fc18ebde057e0cf31",
+    "files": [
+      {
+        "path": "tokenizer.json",
+        "bytes": 3583499,
+        "sha256": "2aea6ff4701d063e7e029b6be695a1659f2caaa2ae4fb0e8b18285818271becd"
+      },
+      {
+        "path": "config.json",
+        "bytes": 1333,
+        "sha256": "c9316ff715158502dad782f35454eee18de984160618dc30afe7508feb46b7ce"
+      },
+      {
+        "path": "model.safetensors",
+        "bytes": 598436708,
+        "sha256": "13c533d902d6a48fa97375c6856c3e60854f9228ea760e3fc18ebde057e0cf31"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 21031,
+        "sha256": "626c86908d7c711f93b0feffd8657b782cc2727b391f9be190240e8cafb626d5"
+      },
+      {
+        "path": "special_tokens_map.json",
+        "bytes": 694,
+        "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049"
+      },
+      {
+        "path": "README.md",
+        "bytes": 14180,
+        "sha256": "02b4dbe7c93b7962270fa44ea8b294986265556ff7dd69492dd708d4a69e606e"
+      }
+    ],
+    "complete_download": true,
+    "download_endpoint": "https://hf-mirror.com",
+    "weight_authenticity": "matches primary official weight SHA256",
+    "transport_recovery": "one force-download of failed tokenizer, no changed model revision"
+  }
+]

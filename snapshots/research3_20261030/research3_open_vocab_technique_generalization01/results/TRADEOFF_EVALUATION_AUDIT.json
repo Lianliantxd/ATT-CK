@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "scope": "TRADEOFF",
+  "prediction_rows": 23400,
+  "methods": [
+    "C4_gamma_0",
+    "C4_gamma_0.1",
+    "C4_gamma_0.2",
+    "C4_gamma_0.4"
+  ],
+  "evaluation_conditions": 168,
+  "seed_conditions": 24,
+  "method_view_summaries": 8,
+  "independent_metric_checks_against_frozen_evaluator": 2184,
+  "max_absolute_metric_difference": 0.0,
+  "independent_stratum_metric_checks_against_frozen_evaluator": 22464,
+  "full216_candidates_preserved": true,
+  "formal_evaluation_reads_Gold_after_saved_predictions_exist": true,
+  "pre_prediction_reference_preflight_disclosure": {
+    "occurrences": 2,
+    "purpose": "Evaluator helper loaded heldout references during synthetic math/preflight checks; only public975query195step7fold counts were inspected",
+    "new_fusion_performance_computed_during_preflight": false,
+    "labels_sent_to_predictor_or_parameter_fitter": false,
+    "frozen_protocol_or_calibration_parameters_changed_using_outer_labels": false,
+    "scope": "strict_no_reference_read_before_prediction_timing_not_met; calibration_Gold_isolation_preserved"
+  },
+  "prediction_sha256": "f00c9447fdc87f6abe97372f46b7fa862c01cd5db3ca8fa14517be3f6202e3f1",
+  "evaluator_sha256": "0f49e256c605314db7a1fd947641e9e64b86708c3d7f73cc5d24bf7c4b3042ce",
+  "frozen_evaluator_sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+  "split_sha256": "879bac94d85a5106a36345b9d9ce3f85f0b383978d8a6b914bb2cec1374bd96d",
+  "parameter_registration_sha256": "cceb35fc46eaeb5cc4db5973e315ab0a7288cbac5a1d0d1722031944a42289e3",
+  "resource": {
+    "CPU_thread_limit": 2,
+    "wall_seconds": 5.731556167360395,
+    "process_CPU_seconds": 5.4481589999999995,
+    "process_highwater_rss_Mac_bytes": 95125504,
+    "new_training_updates": 0,
+    "GPU_calls": 0,
+    "model_calls": 0,
+    "LLM_calls": 0
+  },
+  "counts_per_method_seed_view": {
+    "queries": 975,
+    "logical_steps": 195,
+    "scenarios": 7,
+    "all_seen": 525,
+    "all_unseen": 305,
+    "mixed": 145,
+    "seen_target": 670,
+    "unseen_target": 450
+  },
+  "limitations": [
+    "PUBLIC_EXPOSED_DEVELOPMENT; no independent external test",
+    "Mixed queries occur in both target strata;670+450 is not an independent sample count",
+    "Gold-target subset P/F1 count true labels outside the target as false positives; use subset MRR/Top10/Recall for interpretation",
+    "Seed SD does not estimate independent attack variability",
+    "No confirmatory p-value or ordinary IID interval",
+    "Class-wise metrics with no evaluated positive are NA; class F1 remains0 for absent classes in fixed216 macro average",
+    "Equal-scene target means omit only undefined target scenes and disclose their count; query-weighted H and mean scene H are distinct"
+  ],
+  "score_matrix_sources": [
+    {
+      "path": "score_matrices/fold_heldout_1_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "d34c5d7456474f83c94ceb4af35c3e82ae4f594d36f9b113f468422e0120e9b5"
+    },
+    {
+      "path": "score_matrices/fold_heldout_1_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "df0dc0d89c54730fe4c3374beee4ea197db63f5df3e92adf167af46ab12e10b7"
+    },
+    {
+      "path": "score_matrices/fold_heldout_1_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "a029f34eab1e36828f2828cffdb1c95e962ce6a7a8196565d19e68787e83ff79"
+    },
+    {
+      "path": "score_matrices/fold_heldout_1_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "a80f282e13151ec922e54a8c5f3383dd4888f3c4ac1c7a53ed0ce54293c525b5"
+    },
+    {
+      "path": "score_matrices/fold_heldout_1_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "b4ee1b23474ae0ca1200a2e398c6382c7841041cac139bc6fe1e497e5ca4e93d"
+    },
+    {
+      "path": "score_matrices/fold_heldout_1_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "c5597420e2721aa58e1afd4cfb39b8554410a0d4bbb66b37dcb0e24164024305"
+    },
+    {
+      "path": "score_matrices/fold_heldout_2_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "5b648575481ef6a3672eb4c1df2f8734aeed3c1b0417647509ac69c3d147adea"
+    },
+    {
+      "path": "score_matrices/fold_heldout_2_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "75c918b314efde151a67b1562db00472986630010e6277ae16411954e1810005"
+    },
+    {
+      "path": "score_matrices/fold_heldout_2_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "71bebbef0fc451a7f67bde44ca89a95255c392f538b2f20949dca797e792eeb8"
+    },
+    {
+      "path": "score_matrices/fold_heldout_2_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "14a54aaf3c25af943469a1db02d08d2bb22d5d268bab0d7dbb16e6c559fdf525"
+    },
+    {
+      "path": "score_matrices/fold_heldout_2_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "cae89538c03fed308e8fcafca26fe78e8bb07814f9499c09f9b0fcd2f6131701"
+    },
+    {
+      "path": "score_matrices/fold_heldout_2_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "97e1848c77dda83a28bf03c8d1d1abb63f1ccdf4e7f19aef5bc6c3c404ebd797"
+    },
+    {
+      "path": "score_matrices/fold_heldout_3_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "466b45591ebc7d348ee2101aeffcc6df4d65174fe9dd3f47b22c837492758843"
+    },
+    {
+      "path": "score_matrices/fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "eaf1b1c4e50850d7a12f708ee967edb7c4d0dcd62eda4f2fd8aad0a6fe410df5"
+    },
+    {
+      "path": "score_matrices/fold_heldout_3_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "91cbe9eac12f397d8fab9450bcb1fe63c50c52afb96f6574ae3989a6f6c28a9d"
+    },
+    {
+      "path": "score_matrices/fold_heldout_3_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "b6cbb8ef30da4bca7e1823351673fbf5110c7960413ca81528c820777a3ee27e"
+    },
+    {
+      "path": "score_matrices/fold_heldout_3_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "cb051285040bd95a3dce8d721b0c1d1f50121a76ac0859fb06494947614e6a5c"
+    },
+    {
+      "path": "score_matrices/fold_heldout_3_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "ab39fa5285a0e9e1d903a87c9338febf58127255e830f57c0b04a2f27d0310c9"
+    },
+    {
+      "path": "score_matrices/fold_heldout_4_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "26eb115b57649bc748dfbc5b0967464039df0bb600b4d90a3bfe5d55d2111dc9"
+    },
+    {
+      "path": "score_matrices/fold_heldout_4_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "13092c5b47ad0d11008b3d515206a8aba3ccbde95221b430479351fa5b3e5c50"
+    },
+    {
+      "path": "score_matrices/fold_heldout_4_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "d47b9b4e118bd1635c0c4ae2b4cc77f6211ecbcf8cf15431f694ba944e1f2701"
+    },
+    {
+      "path": "score_matrices/fold_heldout_4_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "ec24e6a10cfe9e8053445cda36e7eb633f5ce6c719cd76fa5f4c332ba8197c78"
+    },
+    {
+      "path": "score_matrices/fold_heldout_4_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "290bf352cb09166116a54099683b2ab1d44665e6393404e334aedebc9521728b"
+    },
+    {
+      "path": "score_matrices/fold_heldout_4_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "c82f9027d521600e9c360e07fba5c764e6fae9cead2e2eaf5eaa38f771e184f4"
+    },
+    {
+      "path": "score_matrices/fold_heldout_5_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "442b4f019bd7e0d4478c73d0b127992183903e70abd9aa7a495b3483b8e43ab9"
+    },
+    {
+      "path": "score_matrices/fold_heldout_5_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "e614a47cc4cdb52abb15277cb7ec2cf05730e40fd99af69ef061bb2d65207515"
+    },
+    {
+      "path": "score_matrices/fold_heldout_5_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "7e9e569f4bce3febd89412a500a178d01d8a2b1d0e30c4a0066c0fe65ab7f73a"
+    },
+    {
+      "path": "score_matrices/fold_heldout_5_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "d49c2525115a0957c14deba06d6ad9b41a2933a156ce7964d0909a510819875d"
+    },
+    {
+      "path": "score_matrices/fold_heldout_5_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "4ee13c90d5215f8a258de726c2a3508e699d0929516ef77b6fb73cd714d1a03c"
+    },
+    {
+      "path": "score_matrices/fold_heldout_5_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "655e3be834b95aa8cebfb089fff97698ed436f76e95a2bdb2b5f0e00ad545915"
+    },
+    {
+      "path": "score_matrices/fold_heldout_6_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "2a6d1f36647f3fb0d4133a4e51dfc61601e1176a304b52ab884f2e3ee556e0b2"
+    },
+    {
+      "path": "score_matrices/fold_heldout_6_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "0d5ffadc0483f06f1dbff4ff11388fdff9f390955f0086f4608d8973e850f3c4"
+    },
+    {
+      "path": "score_matrices/fold_heldout_6_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "b5701d987599df9441e5de9be33348da858c2f68e0932bc25c5fd1f32e23caed"
+    },
+    {
+      "path": "score_matrices/fold_heldout_6_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "04f06b86167981c1f83dc97a48345537f8df810861a801f69c093e81a14e72c3"
+    },
+    {
+      "path": "score_matrices/fold_heldout_6_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "38e4758cb2e07ca52e390fa010e37c342f62217abc5fec21f1106952d46da564"
+    },
+    {
+      "path": "score_matrices/fold_heldout_6_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "a6ca2ad77c5c3384873d44cd9129b4ce3effedd40df19acd46aeb2c7515a280f"
+    },
+    {
+      "path": "score_matrices/fold_heldout_7_seed17_ONE_VIEW_PER_STEP.npz",
+      "sha256": "356a70ab73cdea959f143066fbbd9a92e7c160694cc6ba23538615074d5d1f79"
+    },
+    {
+      "path": "score_matrices/fold_heldout_7_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "88140a04819b07caa01342362e583ae6c10921519945c1cee20e0f54ac9c17b2"
+    },
+    {
+      "path": "score_matrices/fold_heldout_7_seed42_ONE_VIEW_PER_STEP.npz",
+      "sha256": "7025a2cd6767fdb04bcd527f11fbb0ca15551bae7f0e886e685bb003d505fe87"
+    },
+    {
+      "path": "score_matrices/fold_heldout_7_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "14b862c6d7d0b250fd6d59aebbd168152632d3d83b75ab1336296424bd3d466f"
+    },
+    {
+      "path": "score_matrices/fold_heldout_7_seed73_ONE_VIEW_PER_STEP.npz",
+      "sha256": "ce495dfa0932dfd3944ab52cc9a404e719527dae98e584cadd6444db3fe1db80"
+    },
+    {
+      "path": "score_matrices/fold_heldout_7_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "sha256": "3a3d1e31888403cee94f44efcd81b1e45b2253a41b6d7dfebaa498cc9f564669"
+    }
+  ]
+}

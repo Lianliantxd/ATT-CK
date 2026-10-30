@@ -1,0 +1,19 @@
+{
+  "protocol_version": "V2_TOOL_FEEDBACK_REPAIR",
+  "planned_conditions": 35,
+  "recorded_conditions": 35,
+  "completed_conditions": 5,
+  "failed_conditions": 3,
+  "not_executed_budget_conditions": 27,
+  "incomplete_budget_conditions": 0,
+  "interrupted_conditions": 0,
+  "cache_reused_conditions": 8,
+  "new_model_attempts": 0,
+  "total_attempt_upper_bound": 55,
+  "remaining_original_wall_seconds": 0.0,
+  "actual_elapsed_from_original_start_seconds": 4222.931197404861,
+  "local_only": true,
+  "new_external_calls": 0,
+  "num_gpu": 0,
+  "cpu_num_threads": 2
+}

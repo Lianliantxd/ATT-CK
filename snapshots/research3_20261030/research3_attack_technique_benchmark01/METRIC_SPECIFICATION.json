@@ -1,0 +1,22 @@
+{
+  "protocol": "P0_RESTRICTED_195",
+  "ks": [
+    1,
+    5,
+    10
+  ],
+  "mrr_max_rank": 10,
+  "precision_denominator": "fixed K",
+  "gold": "set of official normalized parent IDs",
+  "ranking": "normalize parents then stable dedupe",
+  "invalid_strict": "retain invalid rank slots",
+  "historical_compatibility": "author exact normalization",
+  "missing_prediction": "empty list; score zero; keep denominator",
+  "missing_gold": "raise error",
+  "f1_k": 5,
+  "macro_universe": 216,
+  "gold_present_macro_universe": 79,
+  "aggregation": "sampling records equally weighted; 5 per eligible step",
+  "inference_unit": "step sampling replica",
+  "independent_statistical_unit": "execution or stricter scenario/template component; no significance claimed"
+}

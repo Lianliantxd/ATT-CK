@@ -1,0 +1,73 @@
+{
+  "unit": "frozen query records; not independent attacks or Gold truths",
+  "query_count": 384,
+  "logical_steps": 80,
+  "unique_target_techniques": 54,
+  "query_gold_assignments": 520,
+  "multi_gold_queries": 86,
+  "unique_visible_text_hashes": 145,
+  "any_direct_logical_steps": 9,
+  "top_partial_or_background_queries": 176,
+  "top_partial_or_background_without_any_direct_target": 169,
+  "displayed_line_instances": 2178,
+  "exclusive_overall_assessments": {
+    "DIRECT_EVIDENCE_PRESENT": 24,
+    "PARTIAL_EVIDENCE_PRESENT": 102,
+    "BACKGROUND_COMPATIBILITY_ONLY": 74,
+    "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 148,
+    "INSUFFICIENT_VISIBLE_INPUT": 4,
+    "COMPETING_TECHNIQUE_AMBIGUITY": 0,
+    "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 32,
+    "NOT_EVALUABLE": 0
+  },
+  "nonexclusive_any_gold_assessments": {
+    "DIRECT_EVIDENCE_PRESENT": 31,
+    "PARTIAL_EVIDENCE_PRESENT": 95,
+    "BACKGROUND_COMPATIBILITY_ONLY": 94,
+    "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 197,
+    "INSUFFICIENT_VISIBLE_INPUT": 4,
+    "COMPETING_TECHNIQUE_AMBIGUITY": 0,
+    "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 34,
+    "NOT_EVALUABLE": 0
+  },
+  "gold_assignment_assessments": {
+    "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 257,
+    "PARTIAL_EVIDENCE_PRESENT": 97,
+    "BACKGROUND_COMPATIBILITY_ONLY": 97,
+    "DIRECT_EVIDENCE_PRESENT": 31,
+    "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 34,
+    "INSUFFICIENT_VISIBLE_INPUT": 4
+  },
+  "diagnostic_label_query_counts_nonexclusive": {
+    "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE": 197,
+    "SEMANTIC_CAUSE_UNRESOLVED": 384,
+    "PARTIAL_EVIDENCE_PRESENT": 95,
+    "BACKGROUND_COMPATIBILITY_ONLY": 94,
+    "OBSERVABLE_EVIDENCE_PRESENT": 31,
+    "GOLD_LOG_GRANULARITY_MISMATCH": 34,
+    "INSUFFICIENT_VISIBLE_INPUT": 4
+  },
+  "failure_diagnosis_query_counts_nonexclusive": {
+    "OBSERVATION_COVERAGE_LIMITATION": 384,
+    "UNRESOLVED": 384,
+    "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN": 34
+  },
+  "condition_status_counts": {
+    "NOT_ESTABLISHED": 1487,
+    "NOT_EVALUABLE": 842,
+    "PARTIALLY_SUPPORTED": 212,
+    "DIRECTLY_SUPPORTED": 69,
+    "NOT_OBSERVABLE_IN_CURRENT_VIEW": 8
+  },
+  "condition_rows": 2618,
+  "independently_blinded_queries": 0,
+  "ranked_competitor_comparisons_completed": 0,
+  "ranked_competitor_comparisons_blocked": 384,
+  "confirmed_distinguishable_from_ranked_competitors": null,
+  "confirmed_distinguishable_count_interpretation": "not evaluated, not zero evidence",
+  "human_review_required_queries": 384,
+  "human_adjudications_completed": 0,
+  "confirmed_preprocessing_or_truncation_causal_failures": 0,
+  "confirmed_representation_ranking_failures": 0,
+  "formal_performance_metrics_computed": false
+}

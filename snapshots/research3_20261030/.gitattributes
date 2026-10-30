@@ -1,0 +1,10 @@
+/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_full.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_attack_mechanism_discrimination01/MECHANISM_BASELINE_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_attack_mechanism_discrimination01/completion_20261028_cpu_budget_verified/MECHANISM_BASELINE_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_attack_mechanism_discrimination01/completion_20261028_cpu_budget_verified/inherited/CPU_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_domain_adaptive_contrastive_learning01/NEGATIVE_SAMPLE_QUALIFICATION.csv filter=lfs diff=lfs merge=lfs -text
+/research3_domain_adaptive_contrastive_learning01/TRAINING_BASELINE_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_open_vocab_technique_generalization01/B3_SUPERVISED_SCORES.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_open_vocab_technique_generalization01/FUSION_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text
+/research3_open_vocab_technique_generalization01/predictions/TRADEOFF_PREDICTIONS.jsonl filter=lfs diff=lfs merge=lfs -text

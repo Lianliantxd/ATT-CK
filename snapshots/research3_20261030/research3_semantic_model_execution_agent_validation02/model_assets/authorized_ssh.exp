@@ -1,0 +1,22 @@
+#!/usr/bin/expect -f
+# Secret is read with terminal echo disabled before SSH starts, never in argv/file.
+set timeout -1
+stty -echo
+send_user "Credential for authorized SSH session: "
+gets stdin credential
+stty echo
+send_user "\n"
+log_user 0
+spawn {*}$argv
+set timeout 25
+expect {
+    -re "assword:" { send -- "$credential\r"; unset credential }
+    eof { catch {unset credential}; log_user 1; exit 10 }
+    timeout { catch {unset credential}; send_user "SSH authentication prompt timeout\n"; exit 11 }
+}
+log_user 1
+set timeout -1
+expect {
+    -re "assword:" { send_user "SSH authentication was not accepted; stopping without retry\n"; exit 12 }
+    eof { catch wait result; exit [lindex $result 3] }
+}

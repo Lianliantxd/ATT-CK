@@ -1,0 +1,33 @@
+{
+  "authorized": false,
+  "files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/frozen_inputs/PREDICTION_INPUTS.jsonl",
+      "bytes": 8585352,
+      "sha256": "07b6820a52872be9c180e2b4214343ac5afd382ad9f86dc49eb0e0ccf0250043",
+      "scope": "sanitized P0 views/public knowledge/frozen prediction candidates/code; NO official Gold or original archives"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/attack_knowledge/KNOWLEDGE_TEXTS.json",
+      "bytes": 733003,
+      "sha256": "c65baa0214efb91c49297d04695693e4ffa6af968c527da8837e663689c1f4e4",
+      "scope": "sanitized P0 views/public knowledge/frozen prediction candidates/code; NO official Gold or original archives"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/frozen_inputs/NEURAL_FIXED_CANDIDATES.json",
+      "bytes": 271783,
+      "sha256": "4c1f4374774135eeb3c3db9b3f470980e6256b5c2af89962ebd0d7b12770b328",
+      "scope": "sanitized P0 views/public knowledge/frozen prediction candidates/code; NO official Gold or original archives"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/experiments/run_gpu_if_authorized.py",
+      "bytes": 7776,
+      "sha256": "457998880e19f5addd31c2716692fff8e4dbe27defc7d152c9ef73867a8325f2",
+      "scope": "sanitized P0 views/public knowledge/frozen prediction candidates/code; NO official Gold or original archives"
+    }
+  ],
+  "total_bytes": 9597914,
+  "destination": "tianxiaodan@10.109.119.118:/home/tianxiaodan/projects/R3_ATTACK_MECHANISM_DISCRIMINATION01/",
+  "source_models": "read-only reuse fixed previous two GTE models; no downloads",
+  "new_venv": "R3_ATTACK_MECHANISM_DISCRIMINATION01; read-only dependency symlinks; no old environment modifications"
+}

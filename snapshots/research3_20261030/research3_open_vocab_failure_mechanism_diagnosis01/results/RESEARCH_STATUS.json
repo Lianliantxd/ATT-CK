@@ -1,0 +1,15 @@
+{
+  "status": "OFFLINE_DIAGNOSIS_COMPLETED_FOR_RECEIVED_SCOPE",
+  "request_tail_status": "REQUEST_TAIL_NOT_RECEIVED",
+  "qualification": "DEVELOPMENT_ONLY",
+  "primary_count_partition": {
+    "retained": 34,
+    "fusion_lost": 32,
+    "original_cross_group_block_candidate": 35,
+    "within_unseen_order_obstructed": 349
+  },
+  "semantic_root_cause": "UNRESOLVED_BETWEEN_INPUT_LABEL_ALIGNMENT_AND_SEMANTIC_RANKING",
+  "new_training": 0,
+  "new_model_calls": 0,
+  "new_search": 0
+}

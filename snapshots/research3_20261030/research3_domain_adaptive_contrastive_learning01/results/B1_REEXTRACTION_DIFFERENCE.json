@@ -1,0 +1,41 @@
+{
+  "metrics": {
+    "old": {
+      "n_records": 975,
+      "mrr": 0.05832275132275147,
+      "top1_accuracy": 0.015384615384615385,
+      "precision_at_1": 0.015384615384615385,
+      "recall_at_1": 0.010427350427350428,
+      "top5_accuracy": 0.12205128205128205,
+      "precision_at_5": 0.024410256410256355,
+      "recall_at_5": 0.09623931623931622,
+      "top10_accuracy": 0.20102564102564102,
+      "precision_at_10": 0.020717948717948735,
+      "recall_at_10": 0.1617094017094017,
+      "micro_f1_at_5": 0.03789808917197452,
+      "macro_f1_at_5_all_candidates": 0.018485048867917474,
+      "macro_f1_at_5_gold_present": 0.05054139943633132
+    },
+    "current_same_feature_baseline": {
+      "n_records": 975,
+      "mrr": 0.05818599918599933,
+      "top1_accuracy": 0.015384615384615385,
+      "precision_at_1": 0.015384615384615385,
+      "recall_at_1": 0.010427350427350428,
+      "top5_accuracy": 0.12102564102564102,
+      "precision_at_5": 0.024205128205128153,
+      "recall_at_5": 0.09521367521367521,
+      "top10_accuracy": 0.2,
+      "precision_at_10": 0.020615384615384633,
+      "recall_at_10": 0.16068376068376067,
+      "micro_f1_at_5": 0.0375796178343949,
+      "macro_f1_at_5_all_candidates": 0.018319545199998347,
+      "macro_f1_at_5_gold_present": 0.05008888307847649
+    }
+  },
+  "changed_top10_order_queries": 49,
+  "changed_top10_membership_queries": 10,
+  "causal_status": "different FP16 batching is a plausible numerical explanation, not separately isolated",
+  "no_Gold_selection_of_B1_version": true,
+  "reason_for_current_B1": "same authentic input feature matrix used by every trainable GTE head"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "feature_and_input_ids": 975,
+  "feature_and_input_hashes_equal": true,
+  "candidate_description_hashes": 216,
+  "matrix_metadata_files_checked": 42,
+  "same_prediction_input_view_across_methods": true,
+  "ONE_MULTI_difference": "inherited head training augmentation only; same frozen query text",
+  "source_sha256": "6368cd89ed569bcd1a1662037ecc147ee8d746fd51f66136b2600b6550731d89",
+  "new_model_calls": 0,
+  "actual_per_query_truncation": "UNRESOLVED"
+}

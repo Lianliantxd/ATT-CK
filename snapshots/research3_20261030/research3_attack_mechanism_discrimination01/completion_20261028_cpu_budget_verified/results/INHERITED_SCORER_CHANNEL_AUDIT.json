@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "knowledge": "K0_NAMES_ONLY",
+      "relation_added_tokens": [
+        "event0",
+        "event1",
+        "event2",
+        "event3",
+        "event4",
+        "event5",
+        "event6",
+        "native_timestamp_before",
+        "same_native_audit_event"
+      ],
+      "relation_added_tokens_in_doc_vocab": [],
+      "normalized_action_tokens_in_doc_vocab": [],
+      "claim": "BM25 relation/action marker channel inactive if no posting; zero delta is not evidence against semantic relation value"
+    },
+    {
+      "knowledge": "K2_DESCRIPTION_16_1",
+      "relation_added_tokens": [
+        "event0",
+        "event1",
+        "event2",
+        "event3",
+        "event4",
+        "event5",
+        "event6",
+        "native_timestamp_before",
+        "same_native_audit_event"
+      ],
+      "relation_added_tokens_in_doc_vocab": [],
+      "normalized_action_tokens_in_doc_vocab": [],
+      "claim": "BM25 relation/action marker channel inactive if no posting; zero delta is not evidence against semantic relation value"
+    },
+    {
+      "knowledge": "K3_WITHOUT_TITLES",
+      "relation_added_tokens": [
+        "event0",
+        "event1",
+        "event2",
+        "event3",
+        "event4",
+        "event5",
+        "event6",
+        "native_timestamp_before",
+        "same_native_audit_event"
+      ],
+      "relation_added_tokens_in_doc_vocab": [],
+      "normalized_action_tokens_in_doc_vocab": [],
+      "claim": "BM25 relation/action marker channel inactive if no posting; zero delta is not evidence against semantic relation value"
+    },
+    {
+      "knowledge": "MECHANISM_CARD",
+      "relation_added_tokens": [
+        "event0",
+        "event1",
+        "event2",
+        "event3",
+        "event4",
+        "event5",
+        "event6",
+        "native_timestamp_before",
+        "same_native_audit_event"
+      ],
+      "relation_added_tokens_in_doc_vocab": [],
+      "normalized_action_tokens_in_doc_vocab": [],
+      "claim": "BM25 relation/action marker channel inactive if no posting; zero delta is not evidence against semantic relation value"
+    },
+    {
+      "knowledge": "K2_PLUS_CARD",
+      "relation_added_tokens": [
+        "event0",
+        "event1",
+        "event2",
+        "event3",
+        "event4",
+        "event5",
+        "event6",
+        "native_timestamp_before",
+        "same_native_audit_event"
+      ],
+      "relation_added_tokens_in_doc_vocab": [],
+      "normalized_action_tokens_in_doc_vocab": [],
+      "claim": "BM25 relation/action marker channel inactive if no posting; zero delta is not evidence against semantic relation value"
+    }
+  ],
+  "unit": "actual exact word tokenizer and frozen visible docs",
+  "no_new_predictions_or_tuning": true
+}

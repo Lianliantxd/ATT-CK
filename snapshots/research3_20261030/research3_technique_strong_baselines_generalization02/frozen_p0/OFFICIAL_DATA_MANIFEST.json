@@ -1,0 +1,137 @@
+[
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/LICENSE",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/README.md",
+    "bytes": 16820,
+    "sha256": "cc135060e31c6ee6aed80a129a4d06fc67739854a4946b2bd37ef1782707cdc6",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/README.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/commit.json",
+    "bytes": 6894,
+    "sha256": "3d03dbfa286bab4034ecf6ca727887f20d88ae9c322cba941179b8a4e58f4250",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/count_identical_prompts.py",
+    "bytes": 10740,
+    "sha256": "bc36e7b01adcb7ace3f9ae8d94c56b0b6cca38d8a596f6c88b619dfb2055481f",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/count_identical_prompts.py",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/create_llm_prompt.py",
+    "bytes": 7208,
+    "sha256": "f50a680abbe5d7378846b21ff005f83433f4e5ea50d8649ba964fba6bab675bb",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/create_llm_prompt.py",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/get_llm_responses.py",
+    "bytes": 4095,
+    "sha256": "d0e80fc825cc4c625c9755f92fbfb10597fcab7ccde5bb67d48f9674cea080ab",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/get_llm_responses.py",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/get_statistics.py",
+    "bytes": 23235,
+    "sha256": "ec840c4bc65a9f92b752e3ed7eeab78c2e32d73de2fee72d4d88be10bc0de1f4",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/get_statistics.py",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/labels.json",
+    "bytes": 791024,
+    "sha256": "cc27fee6d78b6de3d5d2172b334269bbcd9747dac80b6882e8982229b2540afe",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/labels.json",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/llm_queries.json",
+    "bytes": 6884757,
+    "sha256": "ab7f948e9019cacf0fa94236e1303c5523a39d87a4253c2802ea8fd60d2f7ee5",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/llm_queries.json",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/llm_responses.json",
+    "bytes": 36730502,
+    "sha256": "1b0a3c9ae2d385f5d85b2d9f605dc362023051b0f94c970f8075f8f5b1301420",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/llm_responses.json",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "bytes": 76198,
+    "sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "source_url": "https://github.com/ait-aecid/attack-manifestations-interpretation/blob/42bbd2cf8409f64a1e6c8fc936c91725e8c558b2/mitre_matrix.json",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/paper.html",
+    "bytes": 631679,
+    "sha256": "9df438667f7949c1c6f728aee9de4af662047b489d1f60f70c467ab14c417ebe",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/paper_text.txt",
+    "bytes": 156525,
+    "sha256": "7216a4a93479350c56385486ef89151e930aa630feaedb78bcbe4ec6e394524f",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/repo_metadata.json",
+    "bytes": 17295,
+    "sha256": "3ddbc110e64768e9d37e053f312c0919bbc93002d5381895d9a33c1aa9045368",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/requirements.txt",
+    "bytes": 124,
+    "sha256": "3d14a7a7ddeaff34269790305aac3ad265bd62e75f84d5bad6c5490150ff9afe",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/zenodo_v2.json",
+    "bytes": 21227,
+    "sha256": "356a914ed96e9c09c546ebb2e1f8a5da0edc4744e3d53010fb14681a7e46ea08",
+    "source_url": "see DATA_ACQUISITION_LOG.md",
+    "git_commit": "42bbd2cf8409f64a1e6c8fc936c91725e8c558b2",
+    "method": "HTTPS public download; pinned source files"
+  },
+  {
+    "local_path": "/Users/tianxd/Documents/mid-term/rp3_existing_data/cam_lds_zenodo_v2/manifestations_filtered.zip",
+    "bytes": 213771977,
+    "sha256": "ba824f500af6d64925792d6a693e54afb761d1cfb5fe515efb2206035772bade",
+    "source_url": "https://zenodo.org/records/18861762",
+    "method": "existing local archive reused; no member bodies accessed"
+  }
+]

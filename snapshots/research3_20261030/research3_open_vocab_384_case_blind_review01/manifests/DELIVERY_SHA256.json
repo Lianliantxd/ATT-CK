@@ -1,0 +1,207 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 1463,
+    "sha256": "49e8cb4eda1369ab1b6ff99f23eb801ba351da215227bd5cdce92afb30bcef66"
+  },
+  {
+    "path": "RUN_MANIFEST.json",
+    "bytes": 26017,
+    "sha256": "ade376053f963f43193c2d899b5a6ad3c1e3088b1f33d049dfd832c01249189c"
+  },
+  {
+    "path": "code/build_condition_catalog.py",
+    "bytes": 11154,
+    "sha256": "9a5ec8c65c12d347bdb065cf13cdc7b19f587d03caf080a0c3cec7e36cae8740"
+  },
+  {
+    "path": "code/build_reports.py",
+    "bytes": 26687,
+    "sha256": "da0d136144d06a08f9b66df6b3299011142bc091bdc10931caaff6d8644e9766"
+  },
+  {
+    "path": "code/decode_visible_hex.py",
+    "bytes": 2045,
+    "sha256": "046d159ef63e1dc8cd925616b43267b3c91380a79e5c4e7586a19faeb2c2f258"
+  },
+  {
+    "path": "code/finalize_delivery.py",
+    "bytes": 10696,
+    "sha256": "008986978c1eb96961efc39d3f18431a8e83a6f27b097cc80ed5ba040221bc8a"
+  },
+  {
+    "path": "code/materialize_reviews.py",
+    "bytes": 22652,
+    "sha256": "f637dc9f853c8389659cef5a0d63c266898c04252e4ecc64931964ccbb5a8958"
+  },
+  {
+    "path": "code/prepare_inputs.py",
+    "bytes": 7453,
+    "sha256": "5d893606f8cfd6c80ca99b72de8d2d87cba3895c58465cd73a52a7a1fdcbdba1"
+  },
+  {
+    "path": "code/validate_reviews.py",
+    "bytes": 15362,
+    "sha256": "23c0a6e89d01de4c6068726cf92c31830325a8aa6240a303b3cd8434c4d44deb"
+  },
+  {
+    "path": "inputs/FROZEN_REVIEW_MANIFEST.json",
+    "bytes": 174822,
+    "sha256": "8c4ddd12c2c32387793c51bb5b4993a346b4ca80e3740893388d8c6bbf64af55"
+  },
+  {
+    "path": "inputs/REVIEW_INPUTS.jsonl",
+    "bytes": 1467165,
+    "sha256": "50b87862b2d28a471644669ce21f284907dba3009293e67b3eebf2c8ed582f40"
+  },
+  {
+    "path": "inputs/STEP_READING_AID.json",
+    "bytes": 315442,
+    "sha256": "d997a14cb8ed090d04fdfdf15f202e9b379175dec20c92ec2383f8b6a713ab79"
+  },
+  {
+    "path": "inputs/TARGET_DEFINITIONS.json",
+    "bytes": 53143,
+    "sha256": "55e6c21e7279b2a26a5fd08a57e4a027db4dee925f3f3aa64384b9ee5a3bf87b"
+  },
+  {
+    "path": "inputs/VISIBLE_FACT_REGISTRY.jsonl",
+    "bytes": 1895934,
+    "sha256": "7a0458d796e206361ba3d0c06eb4e91828d7bffc0325f3fd02766c31647412c7"
+  },
+  {
+    "path": "manifests/INPUT_HASHES.json",
+    "bytes": 2578,
+    "sha256": "40525feddd4d5bbd61dbd7cd3cba0eb5e95c6b9d54b00bc16f8ef131e2c1cd17"
+  },
+  {
+    "path": "manifests/OLD_ASSET_PRE_FINALIZATION_SNAPSHOT.json",
+    "bytes": 74201,
+    "sha256": "73e95e123e02a0abe2a31fac9a916a4b69a353883d30a20b2553cf85dfa0aad0"
+  },
+  {
+    "path": "protocol/BLINDING_AND_SCOPE_DISCLOSURE.json",
+    "bytes": 926,
+    "sha256": "1f968d42d14f346585dc450127680582f06792baab348ad914c628d178bed6cb"
+  },
+  {
+    "path": "protocol/BLOCKER_REGISTER.json",
+    "bytes": 1941,
+    "sha256": "ae05ef251386338362b737fe6c6b29f8f28208eb56994b00408098a9847dfe90"
+  },
+  {
+    "path": "protocol/EXECUTED_REVIEW_PROTOCOL.md",
+    "bytes": 2708,
+    "sha256": "912fa001af0458515166cbb86b0519141a342d58f1ff25e4c98a04bdae21f7e9"
+  },
+  {
+    "path": "protocol/USER_REQUEST_PART_1.txt",
+    "bytes": 14279,
+    "sha256": "07588c90f31573e17239ec0a01d8b258fe0198eac61e08468312463ee0992c8d"
+  },
+  {
+    "path": "protocol/USER_REQUEST_PART_2.txt",
+    "bytes": 11248,
+    "sha256": "8b4577bde61e2f4be3eb8008a9688e3e560a371b2d12d9e8bd0e50452048c270"
+  },
+  {
+    "path": "reports/2026-10-28--open-vocab--r03--384-case-evidence-review.md",
+    "bytes": 13956,
+    "sha256": "6d6a140c54c4a85000db80f38cf485163d0427214ae77aa23b9accf487d1777b"
+  },
+  {
+    "path": "reports/analysis-report.md",
+    "bytes": 2447,
+    "sha256": "d2fcec8266934d6fad4dd38c35bbbb74abba09d4eeb1b2d0038653c00ea660cb"
+  },
+  {
+    "path": "reports/figure-catalog.md",
+    "bytes": 344,
+    "sha256": "4df65f5ec19ed1464ed2873879f73ae908c9adaa8e1ffc4e0b682f18c9b1d474"
+  },
+  {
+    "path": "reports/stats-appendix.md",
+    "bytes": 1089,
+    "sha256": "d2dccc5d5c078d9a2f0fa86d3cc76624a5fef873ea91749cce7485265644c44c"
+  },
+  {
+    "path": "results/BATCH_COMPLETENESS_CHECKS.json",
+    "bytes": 3450,
+    "sha256": "6a81ffa22be627de2823c9dbb176e44fb7a9d462cc296869599aa9371b47aa4b"
+  },
+  {
+    "path": "results/DIAGNOSTIC_LABEL_OVERLAP.csv",
+    "bytes": 3060,
+    "sha256": "86ff59d27252a54ca4a948ff43f1852cac0f74a2dc592f4cd92dfef8e6bc2f58"
+  },
+  {
+    "path": "results/FINAL_VALIDATION.json",
+    "bytes": 2522,
+    "sha256": "a33bad7375e42efb0dd4d566baeabaff14a1e1a2ce4e22802b84e2d5655b9a6a"
+  },
+  {
+    "path": "results/ILLUSTRATIVE_CASES.json",
+    "bytes": 56209,
+    "sha256": "4cc760c3dfcab0902484341e2201f4794cb7ca9ee6d5861d73036f868b1bf7fc"
+  },
+  {
+    "path": "results/MINIMUM_ADMISSION_ANSWERS.json",
+    "bytes": 2174,
+    "sha256": "a89b242effe16f6bfe0dde6c93a5f724e2d3c570df5afce51c2ac27e8a078f67"
+  },
+  {
+    "path": "results/OLD_ASSET_INTEGRITY_AUDIT.json",
+    "bytes": 1250,
+    "sha256": "31ce3f4f1dd00c576b047375d52cb5c4363c1bf771a48fcd939654e6c1c5cda3"
+  },
+  {
+    "path": "results/QUERY_REVIEW_SUMMARY.csv",
+    "bytes": 132283,
+    "sha256": "604042d268a4e68177e344d951069f46854b0c9b4cafe3d4a2a2c2f48fbbe44a"
+  },
+  {
+    "path": "results/QUERY_STEP_VIEW_MAP.csv",
+    "bytes": 54666,
+    "sha256": "6dbe26c64c65dac2fe602e4b5dae0be2163563339d6d05818369459e765664ad"
+  },
+  {
+    "path": "results/REVIEW_COUNTS.json",
+    "bytes": 2666,
+    "sha256": "96a259dce3a7d9852010174b99d552119c2875bbb5ed3c7f79f15fac6ef39c75"
+  },
+  {
+    "path": "results/VALIDATION_CHECK_DETAILS.json",
+    "bytes": 1675018,
+    "sha256": "73dad3648dcea2ff29a69a6328928c21817c9db9991352775a6495d98faf1755"
+  },
+  {
+    "path": "review/CONDITION_EVIDENCE_MATRIX.csv",
+    "bytes": 2827310,
+    "sha256": "24fe839472e102ffd5755a36967052203eca8acef35123606e8160fac22ffbc9"
+  },
+  {
+    "path": "review/DERIVED_HEX_INTERPRETATIONS.jsonl",
+    "bytes": 73476,
+    "sha256": "e1561135ad1d52408cab6a52380eaf244cb34962d6242825c2058a44df64c5a9"
+  },
+  {
+    "path": "review/GOLD_CONDITION_CATALOG.json",
+    "bytes": 129389,
+    "sha256": "dcec2becf4c3d2c61fc204574155a15e201ce0cefce6cecb7e1a8bef5c86de45"
+  },
+  {
+    "path": "review/HUMAN_REVIEW_QUEUE.csv",
+    "bytes": 222582,
+    "sha256": "c690062df9489712421031eb7a9de394a864e12a155bdca1cf9131b09cfe48eb"
+  },
+  {
+    "path": "review/QUERY_EVIDENCE_REVIEWS.jsonl",
+    "bytes": 7321779,
+    "sha256": "aac14dbf261681165225009fb9b6d53448f4f79d5d43de492a82ddf9ed552c25"
+  },
+  {
+    "path": "review/step_judgments.json",
+    "bytes": 36146,
+    "sha256": "304f325f39276be26cd62b959ab5da659ac4a8dcf755fb9ef06d8c9a0f14bea0"
+  }
+]

@@ -1,0 +1,10 @@
+{"sample_id": "5-2-r0", "logical_step_id": "5-2", "gold_technique_ids": ["T1040", "T1528"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-3-r0", "logical_step_id": "5-3", "gold_technique_ids": ["T1550"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-2-r1", "logical_step_id": "5-2", "gold_technique_ids": ["T1040", "T1528"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-3-r1", "logical_step_id": "5-3", "gold_technique_ids": ["T1550"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-2-r2", "logical_step_id": "5-2", "gold_technique_ids": ["T1040", "T1528"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-3-r2", "logical_step_id": "5-3", "gold_technique_ids": ["T1550"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-2-r3", "logical_step_id": "5-2", "gold_technique_ids": ["T1040", "T1528"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-3-r3", "logical_step_id": "5-3", "gold_technique_ids": ["T1550"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-2-r4", "logical_step_id": "5-2", "gold_technique_ids": ["T1040", "T1528"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}
+{"sample_id": "5-3-r4", "logical_step_id": "5-3", "gold_technique_ids": ["T1550"], "scenario_id": "5", "label_source": "AUTHOR_ASSIGNED_TECHNIQUE"}

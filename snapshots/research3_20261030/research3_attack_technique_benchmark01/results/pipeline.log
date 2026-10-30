@@ -1,0 +1,23 @@
+{
+  "eligible_queries": 975,
+  "unique_scenario_steps": 195,
+  "selected_simulations": 34,
+  "scenarios": 7,
+  "parent_gold_classes": 79,
+  "raw_gold_classes": 94,
+  "multi_label_records": 285,
+  "multi_label_steps": 57,
+  "missing_labels": 0,
+  "query_label_disagreements": 0,
+  "empty_log_samples": 0,
+  "distinct_prompts": 385,
+  "duplicate_records_beyond_first": 590,
+  "excluded_queries": 15,
+  "excluded_steps": 3,
+  "history_records_eligible": 4868,
+  "direct_id_occurrences": 0,
+  "strict_changed_records": 0,
+  "elapsed_seconds": 38.30061083287001,
+  "external_model_calls": 0
+}
+BASELINES [('Random_seed13', 'official', 0.0041, 0.0585), ('Random_seed42', 'official', 0.0062, 0.0605), ('Random_seed2026', 'official', 0.0031, 0.0656), ('Random_seed2718', 'official', 0.0051, 0.0759), ('Random_seed31415', 'official', 0.0041, 0.0656), ('Lexical', 'official', 0.0062, 0.1385), ('TFIDF', 'official', 0.0113, 0.1579), ('BM25', 'official', 0.0123, 0.1805), ('Lexical', 'strict', 0.0062, 0.1385), ('TFIDF', 'strict', 0.0113, 0.1579), ('BM25', 'strict', 0.0123, 0.1805), ('Lexical_K16_1', 'strict', 0.0308, 0.1621), ('TFIDF_K16_1', 'strict', 0.0533, 0.2051), ('BM25_K16_1', 'strict', 0.0441, 0.2123), ('KnowHowDictionaryAdaptation', 'strict', 0.0113, 0.2103)]

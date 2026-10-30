@@ -1,0 +1,37 @@
+{
+  "name": "Attack Mechanism IR v1",
+  "namespace_note": "not NLP Abstract Meaning Representation",
+  "selection_before_new_mechanism_predictions": true,
+  "input_views": [
+    "RAW",
+    "LITERAL",
+    "LITERAL_PLUS_RELATIONS",
+    "RAW_PLUS_LITERAL"
+  ],
+  "cleaning_controls": [
+    "CLEAN_FIELDS",
+    "ROLE_LABELS_REMOVED",
+    "NO_RESULT",
+    "NO_ACTION_NORMALIZATION"
+  ],
+  "knowledge": [
+    "K0_NAMES_ONLY",
+    "K2_DESCRIPTION_16_1",
+    "K3_WITHOUT_TITLES",
+    "MECHANISM_CARD",
+    "K2_PLUS_CARD"
+  ],
+  "candidate_count": 216,
+  "CPU_methods": [
+    "char",
+    "bm25",
+    "LiteralMechanismMatching"
+  ],
+  "no_hyperparameter_search": true,
+  "same_native_pool": "previous V2 prefix fragments only; no P2 full pool expansion",
+  "budget": "main: shared UTF8 byte cap2000 for log views; knowledge cap1000 bytes; actual GTE tokens measured only if tokenizer/model access authorized; byte cap is NOT actual token count",
+  "selection_rule": "largest positive feasible common prefix fragment pool, deterministic; no Gold",
+  "MRR": "frozen V1 truncated at10",
+  "split": "P0_EXPOSED_DEV",
+  "neural_new_views_status": "MODEL_FORWARD_NOT_AUTHORIZED"
+}

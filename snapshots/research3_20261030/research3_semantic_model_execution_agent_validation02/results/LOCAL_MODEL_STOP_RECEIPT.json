@@ -1,0 +1,14 @@
+{
+  "control_only_no_new_inference": true,
+  "reason": "All registered conditions finished; unload own model to terminate any lingering timed-out request work before 90min cap",
+  "unload": {
+    "model": "deepseek-r1:1.5b",
+    "created_at": "2026-10-27T13:15:40.750049Z",
+    "response": "",
+    "done": true,
+    "done_reason": "unload"
+  },
+  "ps_after": {
+    "models": []
+  }
+}

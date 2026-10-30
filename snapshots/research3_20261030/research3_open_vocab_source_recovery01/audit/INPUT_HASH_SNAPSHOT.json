@@ -1,0 +1,226 @@
+[
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/audit/DELIVERY_SHA256.json",
+    "role": "precedingsealedknowledgeversionmanifest",
+    "sha256": "32d26b439b61b86ff79306aa22559d3435588966f129564b207c5b92fd14c713",
+    "bytes": 3078,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/CANDIDATE_COVERAGE_AUDIT.csv",
+    "role": "precedingversionhashonly",
+    "sha256": "11fd103c183388eee887884c461d208839967d073d16d0131ac83c478b1d0d93",
+    "bytes": 31626,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/KNOWLEDGE_DIFF.csv",
+    "role": "precedingversionhashonly",
+    "sha256": "2cf887eddaac67533214081b1a67ddb13097ab4ff8bd6419e6d0d67e91ecdac1",
+    "bytes": 760513,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/KNOWLEDGE_REPAIR_REPORT.md",
+    "role": "precedingversionhashonly",
+    "sha256": "c10f2c45839ce9a75c6dc528631b74eff1e8dc85841ccfb3cdc394e69c991548",
+    "bytes": 7950,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/MISSING_SOURCE_REQUIREMENTS.csv",
+    "role": "precedingversionhashonly",
+    "sha256": "a2387734631cba0cf216885833eb78fe1303467d997523296db9e88fafea9435",
+    "bytes": 4270,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/PARENT_CHILD_MAPPING.csv",
+    "role": "precedingversionhashonly",
+    "sha256": "1a2c70bd5617409a6c922325b3076a7d8d041989574991af92c9ce0f68d134b4",
+    "bytes": 122097,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/RUN_MANIFEST.json",
+    "role": "precedingversionhashonly",
+    "sha256": "64108db9f6b734c9538d5ee03ae1a7692f8444ea8dbbfccca429136fd4e595d8",
+    "bytes": 6729,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/SOURCE_RECOVERY_REQUIREMENTS.md",
+    "role": "precedingversionhashonly",
+    "sha256": "0d5b40cf939cbe058e57c2227f18fb3c048f0e32070588eecdee7870ecea0249",
+    "bytes": 2027,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/TEXT_BUDGET_AUDIT.csv",
+    "role": "precedingversionhashonly",
+    "sha256": "bc36a2e21c9c6b899adf8c1374001b4ada33e55e84cc9173ef328ca93f920620",
+    "bytes": 24545,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/audit/INPUT_HASH_SNAPSHOT.json",
+    "role": "precedingversionhashonly",
+    "sha256": "db0b72ad019cc72582d0232e835b15ca02468d2c118eda6d9bac2830065642d7",
+    "bytes": 14662,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/audit/PREVIOUS_DELIVERY_VERIFICATION.json",
+    "role": "precedingversionhashonly",
+    "sha256": "930e137d3d8e2724520c38d34bd736b9c446628004658a7a5d48b40e1d8f6731",
+    "bytes": 8617,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/audit/VALIDATION_CHECKS.json",
+    "role": "precedingversionhashonly",
+    "sha256": "8b807b94237cdcc06486b8d6e9e8d8dbf0b73a106efd2045fe6744774b7791dc",
+    "bytes": 154351,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/code/build_knowledge.py",
+    "role": "precedingversionhashonly",
+    "sha256": "6b812b2e3a13a5a004e15316b31658cc7fbc9aa5ddb9143426911eeafa04c718",
+    "bytes": 13841,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/code/validate_and_seal.py",
+    "role": "precedingversionhashonly",
+    "sha256": "9ef1284af98d1770b4bf6cb3a84d3fd1136080c6f22b8bf8e76adce0e7381594",
+    "bytes": 8735,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/code/write_report.py",
+    "role": "precedingversionhashonly",
+    "sha256": "ef1ba85bc1a45a14643df56c22248b700902ea269eb88973a2b23b901032b15f",
+    "bytes": 13447,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/knowledge/KNOWLEDGE_V1.json",
+    "role": "precedingversionhashonly",
+    "sha256": "0037771e09613fac9edaddeaea4df5361768900f6e65245b57857eff7b7a51bf",
+    "bytes": 1867467,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/knowledge/PARENT_FIRST_1000B_DIAGNOSTIC.json",
+    "role": "precedingversionhashonly",
+    "sha256": "b2d9cda1727e9a504088c7d2c279445b666a16206b7379b04c0c4a5a0fc5171d",
+    "bytes": 183789,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/knowledge/PARENT_ONLY_FULL.json",
+    "role": "precedingversionhashonly",
+    "sha256": "facfbb0313ba5f8eeffc37ab4422ff8f747262b3729b01f5df17781a3017c388",
+    "bytes": 273585,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/protocol/KNOWLEDGE_VERSION_CONTRACT.md",
+    "role": "precedingversionhashonly",
+    "sha256": "40a98d53868e6322a65b4d984369cb7a571bcd10a0a223f2e64e75cccb5285df",
+    "bytes": 3782,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/results/FINAL_VALIDATION.json",
+    "role": "precedingversionhashonly",
+    "sha256": "9e8ca63adfca46b9314aa5f76bf4830146f19ecc8af40132f60a7d27a08362a9",
+    "bytes": 2360,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_knowledge_repair01/results/REPAIR_COUNTS.json",
+    "role": "precedingversionhashonly",
+    "sha256": "79b998ae374c836c8456db5e39d33c8d438ca7e4766608cf25b0bb69ebb29f09",
+    "bytes": 796,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/rp3_phase1_local_cache/enterprise-attack.json",
+    "role": "existinglocal19.2_STIX_source",
+    "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4",
+    "bytes": 53835637,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/rp3_phase1_local_cache/enterprise-attack.json.gz",
+    "role": "compressedlocalcopyidentitycheck",
+    "sha256": "94924cff8c2fb189f2a1ce5285a92c35c9b9fef69b4b0a10926d441c6d3bf1d3",
+    "bytes": 5954049,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/audit_backups/rp3_phase1_20260902_122417/rp3_phase1/attack_kb/enterprise-attack.json",
+    "role": "backupexistingcopyidentitycheck",
+    "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4",
+    "bytes": 53835637,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/audit_backups/rp3_phase1_20260902_122417/rp3_phase1/attack_kb/SOURCE.md",
+    "role": "historicalacquisitionreceipt",
+    "sha256": "f654ddd270878c78797fc449510719a2c42cf91d06df9b81ad6f8989f2cc695d",
+    "bytes": 393,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/audit_backups/rp3_phase1_20260902_122417/rp3_phase1/attack_kb/SHA256.txt",
+    "role": "historicalhashreceipt",
+    "sha256": "d2ef984a21db31bedc349ec5ebcd0917985b7b3208e8be1bc36ad89fc6f56d2b",
+    "bytes": 89,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/audit_backups/rp3_phase16_20260903_163220/rp3_phase16/cache/attack/enterprise-attack.json",
+    "role": "additionalexistingcopyhash",
+    "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4",
+    "bytes": 53835637,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/audit_backups/rp3_phase16_20260903_164025/rp3_phase16/cache/attack/enterprise-attack.json",
+    "role": "additionalexistingcopyhash",
+    "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4",
+    "bytes": 53835637,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_10/sources/mitre_enterprise_attack_10.0.json",
+    "role": "discoveryolder_source;no13targetdefinitionsfound",
+    "sha256": "2f94b071ce34a9e0ff84b9f6e8eec69bef78b1e44ddd2153abcb108af377e5dc",
+    "bytes": 31161855,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/provenance_baserepro_04/data/enterprise-attack-16.1.json.gz",
+    "role": "previous16.1sourcecomparison",
+    "sha256": "2ef78ec021330372a01adee4f48ca1ca973968d8e4f55ca8edc7e850c008d711",
+    "bytes": 8068313,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/mitre_matrix.json",
+    "role": "authorcandidateIDs_andmetadata",
+    "sha256": "692c5352cf2b3d16e69c24940e86f821a8623c0fc123aedb358eb49374f778ab",
+    "bytes": 76198,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/commit.json",
+    "role": "authorrepo_commitnotATTCKrelease",
+    "sha256": "3d03dbfa286bab4034ecf6ca727887f20d88ae9c322cba941179b8a4e58f4250",
+    "bytes": 6894,
+    "snapshot_scope": "first trackedread;some discoveryreads preceded snapshot"
+  }
+]

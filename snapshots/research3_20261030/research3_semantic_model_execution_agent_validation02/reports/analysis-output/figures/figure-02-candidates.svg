@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="850" height="410" preserveAspectRatio="xMinYMin meet" viewBox="0 0 850 410" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="850" height="410"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-410)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="850" height="410" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="48" y="382" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,16%,22%); stroke:none;" transform="translate(0,764) scale(1,-1)">Candidate inclusion improves with K; reranking conversion declines</text>
+			<path d="M 60,95 L 815,95 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="47.5" y="92.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,184) scale(1,-1)">0</text>
+			<path d="M 60,119 L 815,119 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="116.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,232) scale(1,-1)">10</text>
+			<path d="M 60,143 L 815,143 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="140.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,280) scale(1,-1)">20</text>
+			<path d="M 60,167 L 815,167 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="164.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,328) scale(1,-1)">30</text>
+			<path d="M 60,191 L 815,191 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="188.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,376) scale(1,-1)">40</text>
+			<path d="M 60,215 L 815,215 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="212.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,424) scale(1,-1)">50</text>
+			<path d="M 60,239 L 815,239 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="236.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,472) scale(1,-1)">60</text>
+			<path d="M 60,263 L 815,263 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="260.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,520) scale(1,-1)">70</text>
+			<path d="M 60,287 L 815,287 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="284.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,568) scale(1,-1)">80</text>
+			<path d="M 60,311 L 815,311 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="43.0" y="308.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,616) scale(1,-1)">90</text>
+			<path d="M 60,335 L 815,335 Z" style="stroke: rgb(87%,89%,90%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="38.5" y="332.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,664) scale(1,-1)">100</text>
+			<rect x="89.91666666666666" y="95" width="20.0" height="99.93846153846152" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="93.79166666666666" y="198.93846153846152" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,397) scale(1,-1)">41.6</text>
+			<rect x="215.75" y="95" width="20.0" height="148.43076923076924" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="219.625" y="247.43076923076924" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,494) scale(1,-1)">61.8</text>
+			<rect x="341.5833333333333" y="95" width="20.0" height="194.2153846153846" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="345.4583333333333" y="293.2153846153846" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,586) scale(1,-1)">80.9</text>
+			<rect x="467.41666666666663" y="95" width="20.0" height="112.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="471.29166666666663" y="211.0" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,422) scale(1,-1)">46.7</text>
+			<rect x="593.25" y="95" width="20.0" height="162.95384615384614" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="597.125" y="261.95384615384614" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,523) scale(1,-1)">67.9</text>
+			<rect x="719.0833333333333" y="95" width="20.0" height="215.1384615384615" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="722.9583333333333" y="314.1384615384615" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,628) scale(1,-1)">89.6</text>
+			<rect x="111.91666666666666" y="95" width="20.0" height="70.15384615384616" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="115.79166666666666" y="169.15384615384616" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,338) scale(1,-1)">29.2</text>
+			<rect x="237.75" y="95" width="20.0" height="70.15384615384616" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="241.625" y="169.15384615384616" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,338) scale(1,-1)">29.2</text>
+			<rect x="363.5833333333333" y="95" width="20.0" height="70.15384615384616" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="367.4583333333333" y="169.15384615384616" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,338) scale(1,-1)">29.2</text>
+			<rect x="489.41666666666663" y="95" width="20.0" height="68.9230769230769" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="493.29166666666663" y="167.9230769230769" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,335) scale(1,-1)">28.7</text>
+			<rect x="615.25" y="95" width="20.0" height="68.9230769230769" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="619.125" y="167.9230769230769" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,335) scale(1,-1)">28.7</text>
+			<rect x="741.0833333333333" y="95" width="20.0" height="68.9230769230769" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="744.9583333333333" y="167.9230769230769" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,335) scale(1,-1)">28.7</text>
+			<rect x="133.91666666666666" y="95" width="20.0" height="51.69230769230768" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="137.79166666666666" y="150.69230769230768" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,301) scale(1,-1)">21.5</text>
+			<rect x="259.75" y="95" width="20.0" height="31.753846153846155" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="263.625" y="130.75384615384615" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,261) scale(1,-1)">13.2</text>
+			<rect x="385.5833333333333" y="95" width="20.0" height="23.630769230769232" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="391.2083333333333" y="122.63076923076923" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,245) scale(1,-1)">9.8</text>
+			<rect x="511.41666666666663" y="95" width="20.0" height="80.98461538461538" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="515.2916666666666" y="179.98461538461538" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,359) scale(1,-1)">33.7</text>
+			<rect x="637.25" y="95" width="20.0" height="40.61538461538461" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="641.125" y="139.6153846153846" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,279) scale(1,-1)">16.9</text>
+			<rect x="763.0833333333333" y="95" width="20.0" height="30.52307692307693" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="766.9583333333333" y="129.52307692307693" style="font-family: Times-Roman; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,259) scale(1,-1)">12.7</text>
+			<text x="110.92066666666666" y="78" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Lexical</text>
+			<text x="113.77266666666665" y="66" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">K=20</text>
+			<text x="236.754" y="78" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Lexical</text>
+			<text x="239.606" y="66" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">K=50</text>
+			<text x="362.58733333333333" y="78" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Lexical</text>
+			<text x="363.4393333333333" y="66" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">K=100</text>
+			<text x="481.9726666666666" y="78" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Embedding</text>
+			<text x="491.2726666666666" y="66" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">K=20</text>
+			<text x="607.806" y="78" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Embedding</text>
+			<text x="617.106" y="66" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">K=50</text>
+			<text x="733.6393333333333" y="78" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">Embedding</text>
+			<text x="740.9393333333333" y="66" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">K=100</text>
+			<rect x="65" y="354" width="10" height="10" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,41%,57%); fill-rule: evenodd;"/>
+			<text x="80" y="354" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">Candidate hit upper bound (%)</text>
+			<rect x="310" y="354" width="10" height="10" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,52%,23%); fill-rule: evenodd;"/>
+			<text x="325" y="354" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">Original Top-10 (%)</text>
+			<rect x="555" y="354" width="10" height="10" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,47%,35%); fill-rule: evenodd;"/>
+			<text x="570" y="354" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">Reranked Top-10 (%)</text>
+			<text x="60" y="27" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,54) scale(1,-1)">P0 EXPOSED_DEV: 975 queries / 195 logical steps; one fixed model seed. Descriptive bars; no independent test.</text>
+		</g>
+	</g>
+</svg>

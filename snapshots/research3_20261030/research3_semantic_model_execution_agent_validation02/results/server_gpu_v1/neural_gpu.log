@@ -1,0 +1,47 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (8354 > 8192). Running this sequence through the model will result in indexing errors
+`torch_dtype` is deprecated! Use `dtype` instead!
+E1_NATIVE_PREFIX COMPLETE
+E2_NATIVE_FIELDS_PREFIX COMPLETE
+E3_NATIVE_WINDOW_DIRECT COMPLETE
+E4_NATIVE_WINDOW_CHUNK_MAX COMPLETE
+E5_NATIVE_WINDOW_CHUNK_MEAN COMPLETE
+RERANKER 1 /975 unique_pairs 151
+RERANKER 26 /975 unique_pairs 3722
+RERANKER 51 /975 unique_pairs 7311
+RERANKER 76 /975 unique_pairs 10920
+RERANKER 101 /975 unique_pairs 14513
+RERANKER 126 /975 unique_pairs 18111
+RERANKER 151 /975 unique_pairs 21699
+RERANKER 176 /975 unique_pairs 25330
+RERANKER 201 /975 unique_pairs 28905
+RERANKER 226 /975 unique_pairs 31752
+RERANKER 251 /975 unique_pairs 33047
+RERANKER 276 /975 unique_pairs 33759
+RERANKER 301 /975 unique_pairs 35328
+RERANKER 326 /975 unique_pairs 35473
+RERANKER 351 /975 unique_pairs 37221
+RERANKER 376 /975 unique_pairs 37935
+RERANKER 401 /975 unique_pairs 38791
+RERANKER 426 /975 unique_pairs 41074
+RERANKER 451 /975 unique_pairs 42077
+RERANKER 476 /975 unique_pairs 43063
+RERANKER 501 /975 unique_pairs 43911
+RERANKER 526 /975 unique_pairs 43911
+RERANKER 551 /975 unique_pairs 45512
+RERANKER 576 /975 unique_pairs 45948
+RERANKER 601 /975 unique_pairs 47491
+RERANKER 626 /975 unique_pairs 48207
+RERANKER 651 /975 unique_pairs 48643
+RERANKER 676 /975 unique_pairs 49221
+RERANKER 701 /975 unique_pairs 49931
+RERANKER 726 /975 unique_pairs 49931
+RERANKER 751 /975 unique_pairs 50517
+RERANKER 776 /975 unique_pairs 50662
+RERANKER 801 /975 unique_pairs 52379
+RERANKER 826 /975 unique_pairs 53096
+RERANKER 851 /975 unique_pairs 53096
+RERANKER 876 /975 unique_pairs 54232
+RERANKER 901 /975 unique_pairs 54372
+RERANKER 926 /975 unique_pairs 54517
+RERANKER 951 /975 unique_pairs 54809
+RERANKER_COMPLETE

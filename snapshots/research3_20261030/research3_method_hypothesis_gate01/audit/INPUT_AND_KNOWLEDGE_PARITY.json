@@ -1,0 +1,17 @@
+{
+  "query_id_sets_equal": true,
+  "query_count_GTE": 975,
+  "query_count_lexical": 975,
+  "candidate_ids_equal": true,
+  "identical_query_texts": 30,
+  "identical_knowledge_documents": 41,
+  "GTE_query_total_UTF8_bytes": 713884,
+  "lexical_query_total_UTF8_bytes": 4896879,
+  "GTE_query_max_UTF8_bytes": 1580,
+  "lexical_query_max_UTF8_bytes": 27589,
+  "GTE_knowledge_total_UTF8_bytes": 195213,
+  "lexical_knowledge_total_UTF8_bytes": 943088,
+  "labels_equal_after_parent_normalization": 975,
+  "comparison_status": "HISTORICAL_INPUT_BUDGET_PARITY_NOT_ESTABLISHED_NO_REINFERENCE",
+  "payload_policy": "compared already-authorized frozen strings; no new semantic review or source expansion"
+}

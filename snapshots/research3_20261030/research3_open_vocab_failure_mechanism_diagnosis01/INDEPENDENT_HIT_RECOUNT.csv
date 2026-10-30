@@ -1,0 +1,7 @@
+seed,view_id,query_count,logical_steps,unseen_target_queries,unseen_gold_pairs,gte_hit_queries,gte_miss_queries,c4_hit_queries,c4_miss_queries,retained_hit_queries,lost_hit_queries,new_hit_queries,both_miss_queries,gte_miss_with_unseen_order_rank_gt10,gte_miss_with_unseen_order_rank_le10,c4_miss_with_unseen_order_rank_gt10,c4_miss_with_unseen_order_rank_le10,mixed_queries,mixed_both_gold_groups_hit_c4,D4_queries,all_seen_queries,all_unseen_queries,GTE_HIT_gold_pairs,GTE_MISS_gold_pairs,C4_HIT_gold_pairs,C4_MISS_gold_pairs,LOST_gold_pairs,NEW_gold_pairs
+17,ONE_VIEW_PER_STEP,975,195,450,605,66,384,34,416,34,32,0,384,349,35,349,67,145,0,82,525,305,66,539,34,571,32,0
+17,MULTI_VIEW_AUGMENTATION,975,195,450,605,66,384,35,415,35,31,0,384,349,35,349,66,145,0,84,525,305,66,539,35,570,31,0
+42,ONE_VIEW_PER_STEP,975,195,450,605,66,384,34,416,34,32,0,384,349,35,349,67,145,0,82,525,305,66,539,34,571,32,0
+42,MULTI_VIEW_AUGMENTATION,975,195,450,605,66,384,35,415,35,31,0,384,349,35,349,66,145,0,84,525,305,66,539,35,570,31,0
+73,ONE_VIEW_PER_STEP,975,195,450,605,66,384,34,416,34,32,0,384,349,35,349,67,145,0,82,525,305,66,539,34,571,32,0
+73,MULTI_VIEW_AUGMENTATION,975,195,450,605,66,384,35,415,35,31,0,384,349,35,349,66,145,0,79,525,305,66,539,35,570,31,0

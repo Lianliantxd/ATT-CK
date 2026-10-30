@@ -1,0 +1,12 @@
+{
+  "controls": [
+    "CLEAN_FIELDS",
+    "ROLE_LABELS_REMOVED",
+    "NO_RESULT",
+    "NO_ACTION_NORMALIZATION"
+  ],
+  "knowledge": "same feature-clipped K2",
+  "literal_match": "same common native fragments, generic equal-weight action/object Jaccard; mentions extracted from same clipped K2",
+  "Gold_or_new_feature_metrics_seen": false,
+  "chosen_from_existing_task_controls": true
+}

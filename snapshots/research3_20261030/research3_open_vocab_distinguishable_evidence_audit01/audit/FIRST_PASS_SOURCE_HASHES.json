@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/inputs/REVIEW_INPUTS.jsonl",
+    "bytes": 1467165,
+    "sha256": "50b87862b2d28a471644669ce21f284907dba3009293e67b3eebf2c8ed582f40",
+    "inspection": "whitelisted original log/definition/metadata only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/inputs/VISIBLE_FACT_REGISTRY.jsonl",
+    "bytes": 1895934,
+    "sha256": "7a0458d796e206361ba3d0c06eb4e91828d7bffc0325f3fd02766c31647412c7",
+    "inspection": "whitelisted original log/definition/metadata only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_384_case_blind_review01/inputs/TARGET_DEFINITIONS.json",
+    "bytes": 53143,
+    "sha256": "55e6c21e7279b2a26a5fd08a57e4a027db4dee925f3f3aa64384b9ee5a3bf87b",
+    "inspection": "whitelisted original log/definition/metadata only"
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_EVIDENCE_CARDS.jsonl",
+    "bytes": 4198583,
+    "sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80",
+    "inspection": "hash only at first pass"
+  }
+]

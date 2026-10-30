@@ -1,0 +1,94 @@
+{
+  "status": "REAL_FROZEN_SCORE_DIAGNOSIS",
+  "source_files": [
+    {
+      "path": "DIAGNOSTIC_PROTOCOL.json",
+      "sha256": "23a828d8408a9c53ccee8db44fec08d902c8afa9792ad54567caecdaf669b2e1"
+    },
+    {
+      "path": "INDEPENDENT_HIT_RECOUNT.csv",
+      "sha256": "261cd2e1ab8cf5df8e15aea021034509044f6a9b28701d780afcf251c08fc6f6"
+    },
+    {
+      "path": "QUERY_DIAGNOSTICS.csv",
+      "sha256": "2a3c756c7c799703f0bdfe47016d1156065810b44ccd28beeedc7a88d326018d"
+    },
+    {
+      "path": "UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv",
+      "sha256": "6847ea8d45d888194c444f9940ab21f41dcd49fc58151d4c42a20c95ed4daa1a"
+    },
+    {
+      "path": "COUNTERFACTUAL_COMPONENT_DIAGNOSIS.csv",
+      "sha256": "3f65dd7d90e347afd46430c7a36de22159c5a7c446e433ca3636395b53365fb3"
+    },
+    {
+      "path": "results/PRIMARY_DIAGNOSIS_BY_SCENE.csv",
+      "sha256": "d873e4fec5c592e2d4c27ee3e749c62b9959aeec0ddf854d47646b5e748210ea"
+    },
+    {
+      "path": "results/INDEPENDENT_DIAGNOSTIC_AUDIT.json",
+      "sha256": "8e836d1a385ba1717f96be11708c9efd554031640ee560ad3fb694ba3e356086"
+    },
+    {
+      "path": "results/EVIDENCE_AND_MAPPING_SUMMARY.json",
+      "sha256": "a16f64f4b8db6cde3fc0ce8ba370f4c1909bee7a30ff2926728a93ad81ef2152"
+    },
+    {
+      "path": "reports/make_figures.py",
+      "sha256": "a239176556e846739c2294e9dc4e4883844c9b2c96ca4fdc6fb0bb4a4f0212b1"
+    }
+  ],
+  "figures": [
+    {
+      "path": "reports/analysis-output/figures/figure01_unseen_failure_partition.pdf",
+      "bytes": 2343,
+      "sha256": "d47d6d52c68ec328e85dd3aa340cb53db7139ec321f549600a3ee5006cffa9b4"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure01_unseen_failure_partition.png",
+      "bytes": 70821,
+      "sha256": "dae7c98ba6f12b059ecedc899341f30e076a7578b4aaeca2ad64d0666ec0d39e"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure01_unseen_failure_partition.svg",
+      "bytes": 4687,
+      "sha256": "53327ff82a2ef59ef8734966b9998fff989ce4c583fa2a1dfd71b863c07429be"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure02_component_removal.pdf",
+      "bytes": 2312,
+      "sha256": "ec4e468ec3feeae1c7acc901d0cc85794b1926620339bc202b458243f233c5de"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure02_component_removal.png",
+      "bytes": 53682,
+      "sha256": "1b6d6aabc7fbafead69773b596f2c78bdbf7c553e3782c78b0b38aced01b699a"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure02_component_removal.svg",
+      "bytes": 5180,
+      "sha256": "45350ecccf68fd7df7730e13ec98d16fb90a5c7f8628c0faec48ee1340d51c17"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure03_scene_failure_partition.pdf",
+      "bytes": 2851,
+      "sha256": "37c76a99acbc771e519286e1f39b3a7d0da7345684da657b04a9a032881d854f"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure03_scene_failure_partition.png",
+      "bytes": 55181,
+      "sha256": "0612ae509d1f6d0ed9ca6a1575db88a564902b6b6528c1075ea6d953f8a4fd33"
+    },
+    {
+      "path": "reports/analysis-output/figures/figure03_scene_failure_partition.svg",
+      "bytes": 13267,
+      "sha256": "551c4a882c8af6f1f2b6631e72d9aeb06cc1292641078d5db3753699d10cc62d"
+    }
+  ],
+  "qualification": "DEVELOPMENT_ONLY",
+  "new_model_calls": 0,
+  "new_training": 0,
+  "parameter_search": 0,
+  "visual_qa": "root inspected3PNGs; scene6 cap corrected175 and small-segment labels omitted; final scene PNG visually rechecked",
+  "request_tail_missing": true
+}

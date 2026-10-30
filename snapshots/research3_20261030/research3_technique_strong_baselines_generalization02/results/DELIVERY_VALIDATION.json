@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "required_files": 37,
+  "conditions": 163,
+  "predictions": 145355,
+  "metric_recomputation_max_delta": 0,
+  "checks": {
+    "all_required_artifacts_present": true,
+    "all21_old_source_and_frozen_hashes_unchanged": true,
+    "P0_975_unique_ids_195_steps_385prompts": true,
+    "cleaned_data_checksums_match": true,
+    "v2_cleaned_direct_label_ids_zero": true,
+    "allowlist_1136_and_no_forbidden_steps": true,
+    "all_protocol_reference_ids_and_ban_filter": true,
+    "all_condition_metrics_recompute_exactly": true,
+    "all_prediction_ids_complete_unique": true,
+    "all_top10_unique_valid_candidates": true,
+    "flat_prediction_index_count": true,
+    "candidate_top3_score_reconstruction": true,
+    "old_BM25_TFIDF_all975_rankings_reproduced": true,
+    "metric_12_tests_pass": true,
+    "fusion_logic_tests_pass": true,
+    "all_project_code_compiles": true,
+    "deterministic_identical_input_top1_consistent": true,
+    "no_incomplete_or_invalid_initial_runs_in_result_paths": true
+  },
+  "qualifications": [
+    "P0 six fusion batch individual exitcode NOT_CAPTURED; completed outputs/hash verified",
+    "No independent generalization claim",
+    "Rank evidence is not independent gold",
+    "Source isolation is code/schema, not OS sandbox"
+  ]
+}

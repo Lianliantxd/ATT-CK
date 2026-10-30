@@ -1,0 +1,36 @@
+"""Freeze finite choices before evaluating any new fusion predictions."""
+import hashlib, json, shutil
+from datetime import datetime, timezone
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]
+p={
+ 'task':'R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION01','created_utc':datetime.now(timezone.utc).isoformat(),
+ 'qualification':'DEVELOPMENT_ONLY','primary_view':'ONE_VIEW_PER_STEP','supplementary_view':'MULTI_VIEW_AUGMENTATION',
+ 'seeds':[17,42,73],'candidate_count':216,'split_sha256':'879bac94d85a5106a36345b9d9ce3f85f0b383978d8a6b914bb2cec1374bd96d',
+ 'normalization':{'fit_rows':'TRAIN unique step r0 only','gte':'single pooled mean and population SD over train rows x all216 scores','b3':'single pooled mean and population SD over train rows x seen scores','sd_floor':1e-8,'unseen_b3':'missing; additive residual exactly zero; never -1e6','prior':'log1p(unique_train_step_support), zscore across216 for C5, across seen for P2'},
+ 'methods':{
+  'Z0':{'formula':'s_gte','grid':[{}],'default':{}},
+  'S0':{'formula':'B3 available seen logits ranked first; missing unseen appended lexical','grid':[{}],'default':{}},
+  'C0':{'formula':'unique training step support; lexical tie','grid':[{}],'default':{}},
+  'C1':{'formula':'s_gte - gamma * I_seen','grid':[{'gamma':v} for v in [0,.01,.02,.04]],'default':{'gamma':.01}},
+  'C2':{'formula':'1/(60+rank_gte_all216) + lambda*I_seen/(60+rank_b3_seen)','grid':[{'lambda':v} for v in [0,.25,.5,1]],'default':{'lambda':.5}},
+  'C3':{'formula':'z_gte + lambda*I_seen*z_b3; unweighted base for unseen','grid':[{'lambda':v} for v in [0,.25,.5,1]],'default':{'lambda':.5}},
+  'C4':{'formula':'z_gte + lambda*I_seen*z_b3 - gamma*I_seen','grid':[{'lambda':v,'gamma':g} for v in [0,.25,.5,1] for g in [0,.1,.2,.4]],'default':{'lambda':.5,'gamma':.1}},
+  'C5':{'formula':'z_gte + alpha*z_log1p_support_all216','grid':[{'alpha':v} for v in [0,.25,.5,1]],'default':{'alpha':.5}},
+  'P2':{'formula':'z_b3 - alpha*z_log1p_support_seen; absent unseen appended lexical','grid':[{'alpha':v} for v in [0,.25,.5,1]],'default':{'alpha':.5}},
+  'C6_B4':{'formula':'old B4 full216 scores','grid':[{}],'default':{}},
+  'C6_B5':{'formula':'old B5 full216 scores','grid':[{}],'default':{}}
+ },
+ 'selection':{'unit':'unique validation logical step; average five replicas then average steps','minimum_validation_steps':10,'minimum_seen_target_steps':3,'minimum_unseen_target_steps':3,'objective':'H_MRR = 2*S*U/(S+U); zero denominator => 0','tie_break':['overall validation MRR descending','grid declaration order ascending'],'fallback':'registered method default when any support requirement fails','no_retraining':True,'seed_and_view_specific':True,'parameter_fitter_reference_access':'only current fold validation_reference; no heldout_reference or allP0 reference'},
+ 'evaluation':{'topk':[1,5,10],'mrr_cutoff':10,'f1_k':5,'macro_universe':216,'support_buckets':{'UNSEEN':[0,0],'ONE_SHOT':[1,1],'FEW_SHOT':[2,4],'MORE_SHOT':[5,1000000]},'H_metrics':['MRR','Top10','Recall10'],'missing_target':'NA; not0','mixed_samples':'145 unique queries; targetSeen670 and targetUnseen450 overlap, never sum as independent','prediction':'all216 rank before reference; gold-target subsets never filter predictions'},
+ 'tradeoff':{'method':'C4','lambda':'selected on internal validation or default per fold/seed/view','gamma':[0,.1,.2,.4],'purpose':'descriptive frozen-grid sensitivity only; no outer selection','AUC':'NOT_REGISTERED_NOT_COMPUTED'},
+ 'hypotheses':{'H1':'C4 vs Z0 overall MRR and nonzero unseen MRR','H2':'C4 vs S0 unseen recovery, report Seen retention; working threshold Seen>=0.50*S0 and Unseen>=0.80*Z0; descriptive not universal criterion','H3':'C1 vs Z0 unseen MRR and seen loss','H4':'external comparison only after qualification and authentic model inputs'},
+ 'statistics':{'unit':'7 exposed scenarios; 5replicas and3seeds not independent attacks','descriptive':['query-weighted metrics','equal-scene metrics','seed mean/SD','scene differences','delete-one-scene sensitivity min/max (not confidence interval)'],'p_values':'NOT_COMPUTED: exposed dependent scenes and shared training; no confirmatory inference','no_posthoc_grid_expansion':True},
+ 'resource':{'CPU_threads':2,'new_training_updates':0,'new_GPU_calls':0,'new_model_downloads':0,'new_LLM_calls':0,'local_disk_guard_bytes':2000000000},
+ 'pre_result_status':'FROZEN_BEFORE_NEW_FUSION_OR_CALIBRATION_EVALUATION'
+}
+out=R/'FUSION_PARAMETER_REGISTRATION.json';assert not out.exists()
+out.write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n')
+(R/'frozen_protocol/REGISTRATION_SHA256.txt').write_text(hashlib.sha256(out.read_bytes()).hexdigest()+'\n')
+shutil.copyfile('/Users/tianxd/.codex/attachments/8e6d09f2-4a53-435b-801a-252ffcc50a47/已粘贴的文本.txt',R/'inherited/USER_REQUEST.txt')
+print('FROZEN',hashlib.sha256(out.read_bytes()).hexdigest())

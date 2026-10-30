@@ -1,0 +1,27 @@
+{
+  "observed_files": 281,
+  "observed_bytes": 856290657,
+  "snapshot_timing_limitation": "after input preparation/manual review, before result materialization; not a start-of-entire-task snapshot",
+  "changed_since_snapshot": [],
+  "added_since_snapshot": [],
+  "legacy_manifest_comparisons": [
+    {
+      "directory": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01",
+      "legacy_manifest_entries": 59,
+      "mismatches": []
+    },
+    {
+      "directory": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01",
+      "legacy_manifest_entries": 211,
+      "mismatches": [
+        {
+          "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+          "legacy_expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+          "current_sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+          "interpretation": "pre-existing discrepancy previously disclosed; no repair or modification in this task"
+        }
+      ]
+    }
+  ],
+  "other_historical_directories": "not rehashed in this task; no write operations targeted them"
+}

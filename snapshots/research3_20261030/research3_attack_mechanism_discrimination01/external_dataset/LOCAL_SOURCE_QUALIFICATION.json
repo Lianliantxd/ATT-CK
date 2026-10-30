@@ -1,0 +1,98 @@
+{
+  "source_receipts": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/intent_rd1_20261017/source/mordor-apt29-day1.L-noisy.gt.json",
+      "bytes": 84616,
+      "sha256": "e4bdb18f938e259b0c8fb8a6fdf2cca43244d5fb680f287812879bf6860be919",
+      "qualification": "READ_LOCAL_METADATA_ONLY_NO_RAW_ARCHIVE"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/intent_rd1_20261017/source/build_mordor_apt29_reconstruction_benchmark.py",
+      "bytes": 55669,
+      "sha256": "1b3264afcab325a147c6a0d58325212585413138644a135704d6aae8b01b3e0c",
+      "qualification": "READ_LOCAL_METADATA_ONLY_NO_RAW_ARCHIVE"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_benchmark_strong_baselines02/EXTERNAL_BENCHMARK_MANIFEST.json",
+      "bytes": 3617,
+      "sha256": "7303d2b9c6fc281309c18ca419f3fdcdbfd18cd72f81d778b2862ce42cc9891b",
+      "qualification": "READ_LOCAL_METADATA_ONLY_NO_RAW_ARCHIVE"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_benchmark_strong_baselines02/external_sources/README.md",
+      "bytes": 7736,
+      "sha256": "4a532d2ce5179dfa4e2d0ad33cfdb4e8b50fa829b88392edb0658281738edfdf",
+      "qualification": "READ_LOCAL_METADATA_ONLY_NO_RAW_ARCHIVE"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_semantic_benchmark_strong_baselines02/external_sources/LICENSE",
+      "bytes": 1142,
+      "sha256": "c075a7fdbcff0157cf50a2c2b54c7190e36e0215ec5b9145988fdd1f9efb869b",
+      "qualification": "READ_LOCAL_METADATA_ONLY_NO_RAW_ARCHIVE"
+    }
+  ],
+  "Mordor_reference_steps": 26,
+  "label_source_declared": "external_sources/Security-Datasets/datasets/compound/apt29/emulationplans/apt29.xlsx",
+  "unique_labels": [
+    "T1003",
+    "T1005",
+    "T1018",
+    "T1035",
+    "T1041",
+    "T1045",
+    "T1050",
+    "T1057",
+    "T1059",
+    "T1077",
+    "T1081",
+    "T1083",
+    "T1086",
+    "T1105",
+    "T1106",
+    "T1107",
+    "T1112",
+    "T1113",
+    "T1122",
+    "T1145",
+    "T1204",
+    "UNKNOWN"
+  ],
+  "overlap_216": [
+    "T1003",
+    "T1005",
+    "T1018",
+    "T1041",
+    "T1057",
+    "T1059",
+    "T1083",
+    "T1105",
+    "T1106",
+    "T1112",
+    "T1113",
+    "T1204"
+  ],
+  "outside_216": [
+    "T1035",
+    "T1045",
+    "T1050",
+    "T1077",
+    "T1081",
+    "T1086",
+    "T1107",
+    "T1122",
+    "T1145",
+    "UNKNOWN"
+  ],
+  "local_status_claim": {
+    "status": "human_reviewed",
+    "scope": "released reference steps, labels, supporting evidence, and derived edge evidence",
+    "note": "Machine- or rule-assisted drafts were manually checked before inclusion in this package."
+  },
+  "independent_human_review_credentials_checked": false,
+  "source_adapter": "transparent rule-aligned event cards with entity replacement; not raw untouched records",
+  "raw_dataset_expected_path": "/Users/tianxd/Documents/mid-term/datasets/Security-Datasets/datasets/compound/apt29",
+  "raw_path_exists": false,
+  "network_source_check": "web, connector and browser retrieval failed; shell backup auto-review timed out twice; no archive or weights downloaded",
+  "CAM_script_overlap": "NOT_ESTABLISHED",
+  "current_test_readiness": "EXTERNAL_TEST_NOT_READY"
+}

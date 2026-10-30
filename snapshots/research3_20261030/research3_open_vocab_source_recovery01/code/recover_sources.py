@@ -1,0 +1,69 @@
+from pathlib import Path
+import json,gzip,csv,hashlib,collections,datetime,re
+B=Path('/Users/tianxd/Documents/mid-term');R=Path(__file__).resolve().parents[1];V1=B/'research3_open_vocab_knowledge_repair01';S=B/'rp3_phase1_local_cache/enterprise-attack.json';OLD=B/'provenance_baserepro_04/data/enterprise-attack-16.1.json.gz';M=B/'research3_attack_technique_benchmark01/official_sources/mitre_matrix.json';REC=B/'audit_backups/rp3_phase1_20260902_122417/rp3_phase1/attack_kb'
+H=lambda x:hashlib.sha256(x).hexdigest()
+def save(n,x):(R/n).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+inputs={}
+def read(p,role):
+ p=Path(p);raw=p.read_bytes()
+ if str(p) not in inputs:inputs[str(p)]={'path':str(p),'role':role,'sha256':H(raw),'bytes':len(raw),'snapshot_scope':'first trackedread;some discoveryreads preceded snapshot'};save('audit/INPUT_HASH_SNAPSHOT.json',list(inputs.values()))
+ else:assert inputs[str(p)]['sha256']==H(raw)
+ return raw
+def j(p,role):return json.loads(read(p,role))
+def csvout(n,rr):
+ assert rr
+ with (R/n).open('w',newline='') as f:
+  w=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in rr for k in r)));w.writeheader()
+  for r in rr:w.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else 'NOT_AVAILABLE' if v is None else v for k,v in r.items()})
+prev=j(V1/'audit/DELIVERY_SHA256.json','precedingsealedknowledgeversionmanifest');proof=[]
+for x in prev:
+ b=read(V1/x['path'],'precedingversionhashonly');proof.append({'path':x['path'],'match':H(b)==x['sha256']})
+assert all(x['match'] for x in proof);save('audit/PREVIOUS_VERSION_HASH_CHECK.json',proof)
+raw=read(S,'existinglocal19.2_STIX_source');source=json.loads(raw);gz=read(S.with_suffix('.json.gz'),'compressedlocalcopyidentitycheck');backup=read(REC/'enterprise-attack.json','backupexistingcopyidentitycheck');source_md=read(REC/'SOURCE.md','historicalacquisitionreceipt').decode();sha_record=read(REC/'SHA256.txt','historicalhashreceipt').decode()
+assert raw==gzip.decompress(gz)==backup and H(raw) in source_md and H(raw) in sha_record
+for p in [B/'audit_backups/rp3_phase16_20260903_163220/rp3_phase16/cache/attack/enterprise-attack.json',B/'audit_backups/rp3_phase16_20260903_164025/rp3_phase16/cache/attack/enterprise-attack.json']:
+ assert H(read(p,'additionalexistingcopyhash'))==H(raw)
+# A10.0 source was inspected at discovery and does not supply targets; pin its inspected bytes.
+read(B/'provenance_baserepro_10/sources/mitre_enterprise_attack_10.0.json','discoveryolder_source;no13targetdefinitionsfound')
+old=json.loads(gzip.decompress(read(OLD,'previous16.1sourcecomparison')));matrix=j(M,'authorcandidateIDs_andmetadata');commit=j(B/'research3_attack_technique_benchmark01/official_sources/commit.json','authorrepo_commitnotATTCKrelease');v1=j(V1/'knowledge/KNOWLEDGE_V1.json','previouscanonicalversiondiff');previous={x['candidate_id']:x for x in v1['records']};ids=sorted({x.split('.')[0] for x in matrix});assert len(ids)==216 and set(ids)==set(previous)
+def patterns(bundle):
+ result={};ix={};byobject={}
+ for i,o in enumerate(bundle['objects']):
+  if o.get('type')!='attack-pattern':continue
+  for e in o.get('external_references',[]):
+   if e.get('source_name')=='mitre-attack':
+    t=e.get('external_id','');assert t not in result;result[t]=o;ix[t]=i;byobject[o['id']]=t
+ return result,ix,byobject
+p,ix,byobject=patterns(source);p16,_,_=patterns(old);collection=[o for o in source['objects'] if o.get('type')=='x-mitre-collection'];assert len(collection)==1 and collection[0]['x_mitre_version']=='19.2';assert all(t in p and p[t].get('description','').strip() for t in ids)
+relations=collections.defaultdict(list)
+for o in source['objects']:
+ if o.get('type')=='relationship':relations[o.get('source_ref')].append(o)
+records=[];migration=[];recovered=[];successors=[];childrows=[];decisions=[];allfull={};archived=[]
+for t in ids:
+ o=p[t];active=not o.get('revoked',False) and not o.get('x_mitre_deprecated',False);prior=previous[t];author=matrix.get(t,{});replacement=[]
+ for rel in relations[o['id']]:
+  if rel.get('relationship_type')=='revoked-by':
+   target=byobject.get(rel.get('target_ref'));targetobj=p.get(target,{})
+   row={'original_candidate_id':t,'original_object_id':o['id'],'original_revoked':o.get('revoked',False),'relationship_id':rel['id'],'relationship_type':'revoked-by','target_id':target,'target_name':targetobj.get('name'),'target_is_subtechnique':targetobj.get('x_mitre_is_subtechnique'),'target_parent_id_by_syntax':target.split('.')[0] if target else None,'mapping_applied':False,'source_scope':'explicit19.2relationship_only;notsemantic equivalenceorpermission tochangeGold'};successors.append(row);replacement.append(row)
+ children=[]
+ for cid in sorted(x for x in p if x.startswith(t+'.')):
+  co=p[cid];rel=[z for z in relations[co['id']] if z.get('relationship_type')=='subtechnique-of'];targets=[byobject.get(z.get('target_ref')) for z in rel];same=t in targets
+  cr={'technique_id':cid,'name':co.get('name'),'description':co.get('description',''),'description_sha256':H(co.get('description','').encode()),'revoked':co.get('revoked',False),'deprecated':co.get('x_mitre_deprecated',False),'source_object_id':co['id'],'source_object_index':ix[cid],'source_parent_ids_from_relationships':targets,'source_relationship_ids':[z['id'] for z in rel],'same_legacy_parent_relationship_present':same,'qualification':'SOURCE_FIELDS_ONLY;NO_AUTOMATIC_LEGACY_REMAP'}
+  children.append(cr);childrows.append({'child_id':cid,'legacy_parent_id':t,'revoked':cr['revoked'],'deprecated':cr['deprecated'],'explicit_source_parent_ids':targets,'same_legacy_parent_relation':same,'mapping_applied':False})
+ text=o['name']+'\n'+o['description'];allfull[t]=text
+ rec={'candidate_id':t,'candidate_role':'FIXED_LEGACY_AUTHOR_PARENT_ID','author_name':author.get('name'),'author_tactics':author.get('tactics'),'source_name':o['name'],'source_description':o['description'],'source_description_sha256':H(o['description'].encode()),'source_tactics':[z['phase_name'] for z in o.get('kill_chain_phases',[]) if z.get('kill_chain_name')=='mitre-attack'],'source_revoked':o.get('revoked',False),'source_deprecated':o.get('x_mitre_deprecated',False),'source_is_subtechnique':o.get('x_mitre_is_subtechnique',False),'source_object_id':o['id'],'source_object_index':ix[t],'source_object_version':o.get('x_mitre_version'),'source_modified':o.get('modified'),'source_snapshot_version':'19.2','source_file_sha256':H(raw),'full_parent_text':text,'full_parent_text_sha256':H(text.encode()),'truncated':False,'subtypes_separate':children,'source_replacement_relationships':replacement,'replacement_applied':False,'qualification':'BODY_RECOVERED_REVOKED_ID_CONTRACT_REVIEW_REQUIRED' if not active else 'BODY_AVAILABLE_AUTHOR_SCOPE_NOT_ADJUDICATED','independent_reference_status':'NOT_AVAILABLE','author_matrix_exact_ATTCK_release':'NOT_ENCODED;NOT_RECOVERED','legacy_scope_semantic_equivalence':'NOT_ESTABLISHED'}
+ records.append(rec)
+ if not active:archived.append(t)
+ changed16=(p16[t].get('description','')!=o['description']) if t in p16 else None
+ migration.append({'candidate_id':t,'author_name':author.get('name'),'STIX16_1_name':p16.get(t,{}).get('name'),'STIX19_2_name':o['name'],'author_name_equals19_2':author.get('name')==o['name'],'author_tactics':author.get('tactics'),'STIX19_2_tactics':rec['source_tactics'],'tactics_equal_as_set':set(author.get('tactics',[]))==set(rec['source_tactics']),'STIX16_1_description_sha256':H(p16[t].get('description','').encode()) if t in p16 else None,'STIX19_2_description_sha256':H(o['description'].encode()),'description_changed_between_sources':changed16,'previous_v1_body_missing':prior['parent_description'] is None,'new_body_nonempty':True,'new_source_revoked':rec['source_revoked'],'new_source_deprecated':rec['source_deprecated'],'explicit_successor_ids':[z['target_id'] for z in replacement],'candidate_ID_changed':False,'Gold_changed':False,'successor_mapping_applied':False,'model_metrics':None,'qualification':'CURRENT_SOURCE_DIFFERENCE_NOT_CONFIRMED_AUTHOR_LABEL_ERROR'})
+ if prior['parent_description'] is None:recovered.append({'candidate_id':t,'author_name':author.get('name'),'source_name':o['name'],'source_description':o['description'],'source_description_sha256':H(o['description'].encode()),'source_characters':len(o['description']),'source_bytes':len(o['description'].encode()),'source_object_id':o['id'],'source_object_index':ix[t],'source_modified':o.get('modified'),'source_snapshot_version':'19.2','revoked':rec['source_revoked'],'explicit_successor_ids':[z['target_id'] for z in replacement],'semantic_scope_qualification':'REQUIRES_LEGACY_CONTRACT_REVIEW' if not active else 'NOT_INDEPENDENTLY_ADJUDICATED'})
+ if not active or author.get('name')!=o['name']:
+  decisions.append({'issue_id':'CONTRACT_'+t,'candidate_id':t,'issue':'REVOKED_SOURCE_ID' if not active else 'AUTHOR_SOURCE_NAME_SCOPE_DIFFERENCE','author_name':author.get('name'),'source_name':o['name'],'source_version':'19.2','successor_ids':[z['target_id'] for z in replacement],'minimum_question':'Can archived same-ID body be used forlegacycandidateevaluation? Ifmigrating tosuccessor,define separateparent/sublevel mappingandreevaluationcontract.' if not active else 'Does source name/scope matchauthorcandidateintent? Do notinfer equivalence fromID alone.','status':'UNADJUDICATED','independent_adjudication_required':True,'mapping_applied':False})
+assert len(recovered)==13
+save('knowledge/KNOWLEDGE_V2_SOURCE19_2.json',{'version':'LEGACY216_SOURCE19_2_PARENT_FIRST_V2_CONTRACT_PENDING','status':'ALL_BODIES_RECOVERED_SEMANTIC_CONTRACT_PENDING','candidate_ids':ids,'source_file':str(S),'source_file_sha256':H(raw),'source_collection':collection,'policy':'Keep all original216IDs;renderexact same-ID19.2body;retainrevoked flags;neverapplysuccessors;parent/subtypeparate;no inference untilcontract/referencequalification.','records':records});save('knowledge/PARENT_ONLY_FULL_V2.json',allfull);csvout('SOURCE_VERSION_MIGRATION.csv',migration);csvout('RECOVERED_13_DEFINITIONS.csv',recovered);csvout('REVOCATION_CROSSWALK_NOT_APPLIED.csv',successors);csvout('CONTRACT_REVIEW_QUEUE.csv',decisions);csvout('PARENT_CHILD_SOURCE_AUDIT.csv',childrows)
+save('audit/SOURCE_PROVENANCE_RECEIPT.json',{'source_path':str(S),'source_sha256':H(raw),'internal_collection_version':'19.2','recorded_source_URL':'https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json','recorded_source_route':'local','recorded_date':'2026-09-02T12:21:24+08:00','original_receipt':str(REC/'SOURCE.md'),'receipt_hash':H(source_md.encode()),'compressed_copy_decompresses_to_exactbytes':True,'three_backup_copies_match':True,'current_network_verification':False,'upstream_git_commit':None,'author_exact_release_recovered':False,'qualification':'Existingreceipt+hash+internalversioncorroborated;notnewexternalreauthentication;notauthor-matrixsameversionproof'})
+count={'candidate_IDs':216,'body_source_available':216,'missing_bodies':0,'recovered_previous_missing':13,'active_source_parent_objects':sum(not x['source_revoked'] and not x['source_deprecated'] for x in records),'revoked_source_candidate_IDs':archived,'revocation_links':len(successors),'author_vs19_2_parent_name_differences':sum(not x['author_name_equals19_2'] for x in migration),'author_vs19_2_tactic_differences':sum(not x['tactics_equal_as_set'] for x in migration),'description_changes_for203_previous_bodies':sum(x['description_changed_between_sources'] is True for x in migration if not x['previous_v1_body_missing']),'unchanged_descriptions_for203_previous_bodies':sum(x['description_changed_between_sources'] is False for x in migration if not x['previous_v1_body_missing']),'separate_subtype_records':len(childrows),'subtype_relation_missing_same_legacyparent':sum(not x['same_legacy_parent_relation'] for x in childrows),'new_full_texts_truncated':0,'semantic_contract_review_technique_issues':len(decisions),'author_matrix_exact_release':None,'model_performance_change':None}
+save('results/RECOVERY_COUNTS.json',count)
+manifest={'task_id':'R3_OPEN_VOCAB_SOURCE_RECOVERY01','client_date':'2026-10-29','execution_status':'SOURCE_RECOVERY_COMPLETED_WITH_VERSION_AND_SCOPE_BLOCKERS','final_decision':'GO_AFTER_LABEL_SCOPE_ADJUDICATION','decision_scope':'All216same-IDbodies recoveredlocally;legacyrevokedIDs andauthor semantic scope unresolved. Exactauthorrelease remainsunknown;not claimingidenticaloriginalknowledge.','resources':{k:0 for k in ['new_model_calls','new_agent_calls','new_training_runs','GPU_tasks','network_access','downloads','server_access','uploads','old_files_modified']},'counts':count,'source_snapshot':'audit/INPUT_HASH_SNAPSHOT.json','experiment_executed':False,'Gold_or_query_payload_read_for_processing':False,'previous_version_files_hashed_only_except_canonical_knowledge':True,'correction_to_previous_scope':'Previous13missing referredto16.1 inspectedsource,not absenceacrosswholeworkspace. BroaderexistinglocalSTIXsource19.2found thisround.','actual_operations':['localmetadata discoveryofexistingknowledgefiles','read19.2/16.1/10.0knowledge andreceiptmetadata;noquerylogs','checkraw/gzipand3backuphashidentity','retain216legacycandidateIDs;recover13bodies fromonesource19.2','store3explicitrevocationcrosswalkswithoutapplying','writeall216sourceversiondifferences andnewuntruncatedversion','independentvalidationandseal follow'],'limitations':['ExactauthormatrixATTCKrelease unknown.','3same-IDsourceobjectsrevoked;successorsnotapplied.','1parentnamedifference andmanytacticchanges;semanticcompatibilitynotcertified.','NoindependentsemanticGold/no modelbenefit experiment.','Some discoveryreadsprecededfirsttrackedhashes;integrityonlyregisteredinputs.'],'stop_after_delivery':True}
+save('RUN_MANIFEST.json',manifest)
+print(json.dumps(count,ensure_ascii=False))

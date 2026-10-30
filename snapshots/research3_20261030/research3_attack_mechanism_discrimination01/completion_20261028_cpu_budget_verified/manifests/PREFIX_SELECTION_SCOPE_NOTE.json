@@ -1,0 +1,6 @@
+{
+  "clarification": "binary prefix feasibility search is deterministic and budget-checked, but normalization and partial fields may be nonmonotone; global maximality is not certified",
+  "all_saved_texts_within_budget": true,
+  "predictions_or_inputs_changed": false,
+  "no_posthoc_retuning": true
+}

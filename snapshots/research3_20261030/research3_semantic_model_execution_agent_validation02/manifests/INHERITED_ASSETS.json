@@ -1,0 +1,1538 @@
+[
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_BUDGET_PROTOCOL.md",
+    "bytes": 2708,
+    "sha256": "ff93b1ba88919d91ec00558c154078cb1864447aeb6754a38136f81127ebb28c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_COST_BENEFIT_ANALYSIS.md",
+    "bytes": 1293,
+    "sha256": "0c0a4c5efdba068f40dab22ffcea71fb8d4af20b1d0076714f1d90427aa9a180",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_ENVIRONMENT_SPEC.md",
+    "bytes": 5131,
+    "sha256": "15fe654ccf205fc149676303785cb518d31eeed1c5dc6b630fae8b61394c56f2",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_INCREMENTAL_VALUE_ANALYSIS.md",
+    "bytes": 1585,
+    "sha256": "31bf86da3de9b52d34bfd84b734bef4fe04983ac6fedf255a2a6064828eecbdf",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_TECHNIQUE_RESULTS.csv",
+    "bytes": 1352,
+    "sha256": "66bd170b680cd7cbe9e3fdf9f5031415a80e72eb30cdbac5ce88daf12503cacd",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_TOOL_SCHEMAS.json",
+    "bytes": 3680,
+    "sha256": "6ddf4da789f858394911f543dbdc336a39e12a32585ccdf676bcefdc434cda8e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_TOOL_SECURITY_TESTS.md",
+    "bytes": 1352,
+    "sha256": "9294bf9ee8cba4378e7fb1268498c586354c176973870ded2a2e79e320337644",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/AGENT_TRAJECTORIES.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/CANDIDATE_RECALL_UPPER_BOUNDS.csv",
+    "bytes": 2158,
+    "sha256": "8347d086dbbd99debf73dfd8ff8c8cebeed5cc9631d91cf350588f9e9aa58b53",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/EMBEDDING_BASELINE_RESULTS.csv",
+    "bytes": 2514,
+    "sha256": "c26f656bd44a2ded24f35cff96f2e9a3beedd273f3859873599256628fe2bb0e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/EMBEDDING_CANDIDATE_RECALL.csv",
+    "bytes": 5699,
+    "sha256": "cd47f220eba7490cc718aca350503bdaac763ded65e855da28d1b3ccbce2bdec",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/EMBEDDING_ERROR_ANALYSIS.md",
+    "bytes": 1184,
+    "sha256": "003094ebe4b7ffdf5cc8cd6bd134f8df226e7deaf39584291e912f825c403ab2",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/EMBEDDING_INPUT_ABLATION.csv",
+    "bytes": 7215,
+    "sha256": "fca0032fd648beafcd98ea2e8b415b26e4b7a9b9fad4bf42b33bcb6a596ef265",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/EMBEDDING_PREDICTIONS.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/ERROR_SOURCE_TAXONOMY.csv",
+    "bytes": 1609,
+    "sha256": "97ba8c3b164e9ca4ff86da7a55f7ec146efb1281dd1f1d7d2056ab1c3a38869f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/LLM_EXPERIMENT_PROTOCOL.md",
+    "bytes": 5023,
+    "sha256": "ee37b0938ff30cf9dc210f1c698d166163b35715936abb344f076901b640586d",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/LLM_INCREMENTAL_VALUE_ANALYSIS.md",
+    "bytes": 1385,
+    "sha256": "1f34387d70520edf687f003d5a545ff2207bb468937be998a48182574ae38678",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/LLM_PROMPTS.md",
+    "bytes": 6699,
+    "sha256": "6e15877a552184273d371ae63defcc02a19cbc7287c22a4bccdd5d4040c211f1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/LLM_TECHNIQUE_PREDICTIONS.jsonl",
+    "bytes": 169001,
+    "sha256": "fdad4dc582d161542958ff61493b8f1b76b673e0bea6c9416c1d2535988e3a75",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/LLM_TECHNIQUE_RESULTS.csv",
+    "bytes": 7963,
+    "sha256": "34c7d76714e1a89cc54da9de4294735c0762dca6ddce8158d8ba1fb17eb05bf2",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/LLM_TOKEN_AND_RUNTIME_REPORT.csv",
+    "bytes": 7354,
+    "sha256": "b8bf84fcb611c4a0cf8206daa65873ad1a1e780db3acaf4c9fd0d8b693396edb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/METHOD_HYPOTHESIS_AND_FORMULATION.md",
+    "bytes": 1736,
+    "sha256": "fa33eaa01cac894fe6469871c16a2c33775ed24fca89522c7a68a663a6813f59",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/METHOD_RESEARCH_DECISION.md",
+    "bytes": 1326,
+    "sha256": "dc173908fe39b5a386204cd63ae3c186cb5a9fb2ade68160f1ccc5b360883c21",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/MODEL_ASSET_AUTHORIZATION_AUDIT.md",
+    "bytes": 5810,
+    "sha256": "e3274b28deef935d7e1b2cbac182e3d28f075f482c6efae980d5b6cf2518771d",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/MODEL_ENVIRONMENT_MANIFEST.json",
+    "bytes": 9742,
+    "sha256": "fbc90c2f5a0d22f5613ac5253db5b39c34819412cb5a6e5ef7cef37dd8cf69e4",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/MODEL_LICENSE_AND_RESOURCE_REPORT.md",
+    "bytes": 3664,
+    "sha256": "0382b11614448890773243d120ff1e2fbcd7f7bd3ff156eedbd2c5b298ea4bc7",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/PRETRAINED_MODEL_REGISTER.csv",
+    "bytes": 3100,
+    "sha256": "a5761648df85d9611ad0adb8e98bdae6ec354a7498105e8085da17908200dfe5",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/R3_LLM_AGENT_TECHNIQUE_REASONING_RESULTS.md",
+    "bytes": 19860,
+    "sha256": "62116e247a32afb00f36cb9a8d21f6100a55d0ab4bf48608d51986912eebb926",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/RERANKER_ERROR_ANALYSIS.md",
+    "bytes": 1101,
+    "sha256": "95a55899fb65345ed668060e243114cf9d58367d447bcf7b94f76ff228ab15cd",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/RERANKER_PREDICTIONS.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/RERANKER_RESULTS.csv",
+    "bytes": 3075,
+    "sha256": "135daa1954d2ee069bf3c0a5997fd84fb8645b99f63fdcf93b0945400fe42ad9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/SEMANTIC_REPRESENTATION_COMPARISON.md",
+    "bytes": 963,
+    "sha256": "5a28e984d833f1c81f8813ebf32c39f36dffdc93258bf3922b3418998d45dfd3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/STATIC_RETRIEVAL_AGENT_CONTROLS.csv",
+    "bytes": 3910,
+    "sha256": "8720ce462eb41efddff6be23504196e9616d4642d5a0f7690a977d4a40a77322",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/agent_environment/environment.py",
+    "bytes": 12556,
+    "sha256": "c456965394ebb5d0645158cdc4adaef7ba570ea6a90c0fb68a84935c914066a1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/agent_environment/run_deterministic_controls.py",
+    "bytes": 15144,
+    "sha256": "ca6b1498fc9fbc4c7a49e55446729275b53826151a197029c393c45cb41c74ef",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/agent_tools/test_security.py",
+    "bytes": 6357,
+    "sha256": "8b1eabf000716196442fd0fa702023d3614420853f19f8de75375fca3ca2e7ca",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/agent_trajectories/DETERMINISTIC_CONTROLS.jsonl",
+    "bytes": 42748072,
+    "sha256": "7b768619fa9fde5f03331f8cbdb23fb8bfef189402ddaa65bfb26db84f894e54",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/analysis-report.md",
+    "bytes": 1824,
+    "sha256": "46ce7c11555c9f6ac1f1947330e68b6ddd715b01007c54a923af9033c2770b07",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/figure-catalog.md",
+    "bytes": 510,
+    "sha256": "d204caa08ba1db3e062be8dcef6d1848985dd435468692664685ef422f0d7a5e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/figures/figure-01-controls.pdf",
+    "bytes": 2231,
+    "sha256": "62d9e28b5f7e6c6da30c96ecc6aca18d35d3d0540a9aeb788ce1c73d6147e3e3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/figures/figure-01-controls.png",
+    "bytes": 23335,
+    "sha256": "913a0f29afafb971da61ffdfd231e9714712e423cf5329154c904ea438e012d9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/figures/figure-02-candidate-ceiling.pdf",
+    "bytes": 2056,
+    "sha256": "b51b32ad5b3f89fb10a4341b16502fe3826d3237888f6741e184f8ca5b9b0676",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/figures/figure-02-candidate-ceiling.png",
+    "bytes": 19828,
+    "sha256": "2159c7d4eb7198af73ae74411f6c0a01b5840af2bb7f59c5fe2700b006f64d4c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/scene_metrics.csv",
+    "bytes": 3538,
+    "sha256": "514c197d75c4b2495b65c7c0464a9a78bfacc1990f62fadf45737d3b9026430c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/statistics.json",
+    "bytes": 3294,
+    "sha256": "baaf9f25ac4a23ab5b3104ea4ae4a5a4695c2dd5272384f9169754156fc06b89",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/analysis-output/stats-appendix.md",
+    "bytes": 1773,
+    "sha256": "b5972b85ecb195a87e1fb88316d7864d2d9481270c287bb5a422f5207738065e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/data_manifests/NEURAL_INPUT_PROTOCOL.json",
+    "bytes": 2396,
+    "sha256": "1975159c3497b3a6f21c6acd246d64d48819879a6b9a1d53c5db35e392eb9e57",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/data_manifests/PILOT_EPISODES.json",
+    "bytes": 3100,
+    "sha256": "aee9a33645d5463b9695671d799a22cf5fcb10a7acf3966d00c2d65d8a3cc737",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/embeddings/adapters.py",
+    "bytes": 3228,
+    "sha256": "cdeba81eeb2f25812a910e4a2f8358402dcbfbee1f6b3c43743529b68b607476",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action0.json",
+    "bytes": 26492,
+    "sha256": "07f827203368e8f2c6ddf43d4b845ca68b1eb147b9020256e051b14ebf2def8e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action0_devices.json",
+    "bytes": 552,
+    "sha256": "bf61c7a7d66e58ecab4756e9b90367e2cfc1ad9be1c2556ad79ef1c953f78111",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action1.json",
+    "bytes": 27126,
+    "sha256": "76a1d86ee176798c4010115a03a0c3c27e30e1601dcd0f363a225ec589ad114a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action1_devices.json",
+    "bytes": 552,
+    "sha256": "2b329b9e37c83dcc77b4cf2ac8931fcf161f9f5ee76d96ac5e0d472364132f90",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action2.json",
+    "bytes": 27771,
+    "sha256": "4788426145dce62e263380ee5f8f3c78e58222fff525f46128d23ad9a802c430",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action2_devices.json",
+    "bytes": 552,
+    "sha256": "f0b84f122a8538f35e4641bf29a07d9c16784d802990bd164bf9a44c3bfa60a9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action3.json",
+    "bytes": 28414,
+    "sha256": "481aa97d2eeda05255c90e68fd0437fca62194acf1fc00f8f771b8240ce52c7a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_action3_devices.json",
+    "bytes": 552,
+    "sha256": "0891d1f4fda839fbf111a5a2570f69f8afcbb6fcd6bfebda0781cb2bb5199542",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_final.json",
+    "bytes": 36841,
+    "sha256": "cc91098d8a57e0f344e59c323d81de4ded7463bab549f93111e0c514bed82edb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_M_final_devices.json",
+    "bytes": 552,
+    "sha256": "d66822f80390fb84d34c827cc31521fa4fcff04f21fc65fea2f85baa642f76a1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_S_action0.json",
+    "bytes": 26493,
+    "sha256": "438c18d824db6cafb455faae44d21fa899632519789d48fb25ada5ae8bc5bab3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_S_action0_devices.json",
+    "bytes": 552,
+    "sha256": "b001bee52728162f092962dfc91cd7a3304e22582877a605aab00f54a50b81f7",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_S_action1.json",
+    "bytes": 27125,
+    "sha256": "4c143c593f184359dd523a5ecd3112a4cca4d5c9d86545e5e275650aa2007661",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_S_action1_devices.json",
+    "bytes": 552,
+    "sha256": "34a52a436bf645d19947cca816a527b9efb17ef12e6ecd44b3a63fa31043026b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_S_final.json",
+    "bytes": 36838,
+    "sha256": "564905f161081ce14586e0054cad5124d19f034974b88d5ecdb26551cb321e75",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_ADAPTIVE_AGENT_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "e5455169382cb7771fec2178bd4a810c5d5f835481203a7cb16caaf566516910",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_DIRECT216_final.json",
+    "bytes": 26099,
+    "sha256": "7f7e3da38b4b1ff162f9960cc88eba971f939a78015f78d3dfb3b6b2a5d9541e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_DIRECT216_final_devices.json",
+    "bytes": 552,
+    "sha256": "1a8e1ff3c735416bb774feb7f24bc2fca7de99b5be1efdf925d62464e58604c7",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_FIXED_QUERY_S_final.json",
+    "bytes": 69984,
+    "sha256": "4403dda01301f227ba85a8d09b847b50831848db585419c58876c1bb23d1c6e9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_FIXED_QUERY_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "24a4a2e29377e40fe6a509eaef83bc46dd29ee0b1866b71cf2dcb72b2b591144",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_KNOWLEDGE20_final.json",
+    "bytes": 36812,
+    "sha256": "a2996f4785f7e482408cfe63fb52319832bdd02d5baa16c1352bcf354d6d53f5",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_KNOWLEDGE20_final_devices.json",
+    "bytes": 552,
+    "sha256": "6c88fca6f56fefd6a9e2e2e25b255d342ce0dbd96a58cebab13b2c27ce2f9580",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_RETRIEVAL100_final.json",
+    "bytes": 35686,
+    "sha256": "bd8ab08e8ddb19d43c665e9533d3b002194097732876f7f1ed667a555d4a22e9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_RETRIEVAL100_final_devices.json",
+    "bytes": 552,
+    "sha256": "447fa0fb8ee869adf09303de383a59175faba48251d284160ef797954c00aa32",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_RETRIEVAL20_final.json",
+    "bytes": 26282,
+    "sha256": "b3334bc4dbeee545beaabbcc1f89ee185d3aaab025fbcabfd66db6ab4adca635",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_RETRIEVAL20_final_devices.json",
+    "bytes": 552,
+    "sha256": "6d2b0431b4f5c216d554deb4eb077df1ad9d11f9c96aed74b1d31e1849d93c53",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_RETRIEVAL50_final.json",
+    "bytes": 29468,
+    "sha256": "f7de1242f64afe8b9e238f353ba4d215f5b096040cef523e6c999286b68b2837",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_RETRIEVAL50_final_devices.json",
+    "bytes": 552,
+    "sha256": "990a2ec3da471e0b127c0ff98e2f9421be76b2b35d5ab51930bc36cadb0d7cf9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_STATIC_EVIDENCE_M_final.json",
+    "bytes": 63733,
+    "sha256": "b16ca5c6c7527a58d750190cdbfe06355b377d45ef832f4a8b1c1690c47dc2a9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_STATIC_EVIDENCE_M_final_devices.json",
+    "bytes": 552,
+    "sha256": "5c6068875d6ed56e85959e87a2f9065b208a67b70f2de7ab47c99143ff673593",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_STATIC_EVIDENCE_S_final.json",
+    "bytes": 63734,
+    "sha256": "02e246549f2f3d46ff7c9733b68015f44c22e2d5bd5c48d59073a01510161c84",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0000_STATIC_EVIDENCE_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "01378bde3a9eb52ed727bfeb27837910dd571a229531ece8e60d7f5662aa4ef1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action0.json",
+    "bytes": 26092,
+    "sha256": "b0f9371fe04f271ff20d6479f1de96ce65d1f060f3e61746ebcbb0b835524300",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action0_devices.json",
+    "bytes": 552,
+    "sha256": "aea4b74c7fe152d6b9c9deba2ff3371c175312d7b63c1df7ddef69fa1de6a36a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action1.json",
+    "bytes": 39054,
+    "sha256": "baeb4417ff5bbd57917bfaa76d98e9d8a0dae62762a4a0c2e2912a456302cf04",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action1_devices.json",
+    "bytes": 552,
+    "sha256": "0fda5f31a54a7e010ef050662d2bb7e639fa1ce85bbbb780b97857b3327c0e88",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action2.json",
+    "bytes": 39755,
+    "sha256": "da239ab520d2639cfc8fc2cbcf03b77d032669276d97221195af8c71a170cb85",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action2_devices.json",
+    "bytes": 552,
+    "sha256": "c10ef0688c77b65440b5ab28cde1069f077e558cb1e59bc131a1b70a942f2a27",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action3.json",
+    "bytes": 40423,
+    "sha256": "3f53a9777bbb67ffcd4e8c6d42ed2f52b5b984ede44a0471ad6544e949e55cb1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_action3_devices.json",
+    "bytes": 552,
+    "sha256": "582e1055f6a68279285cc454cb92a1ed21efb5a1ec49c66842215f0942678c36",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_final.json",
+    "bytes": 49729,
+    "sha256": "bfa1aab380779b9b345d87105475095f6d5222bc109dff9f56bbf609afd2b221",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_M_final_devices.json",
+    "bytes": 552,
+    "sha256": "15c5bf69e57b18b3841cd80e922d2c4e907e1da5c01a4b042dadf03596f587ac",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_S_action0.json",
+    "bytes": 26093,
+    "sha256": "e096e9b63a6d60192733f43481e7d0d1f5804913dfdab25c0d6178b5074bc713",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_S_action0_devices.json",
+    "bytes": 552,
+    "sha256": "3d057e003376e438582986fe25ca971c64c326562d187e666dd0048fff1ca048",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_S_action1.json",
+    "bytes": 39053,
+    "sha256": "82097b144ea869c5c8be8baa0c3c8b9eae6ce967383316b6053ab71d5689c6e0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_S_action1_devices.json",
+    "bytes": 552,
+    "sha256": "674aa791f5bb50a6e0f82ae9b2f9fb2a1cfc8e21d5136e386eb756b1aca3af79",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_S_final.json",
+    "bytes": 49719,
+    "sha256": "a3b500df635bb32dba28b270c8ff431e5400006eb589838a0d1579e93ccd9d24",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_ADAPTIVE_AGENT_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "a14170591ee386150316e95a9c95d7fd4631d9e4cad66953ebf36e34b9ff1716",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_DIRECT216_final.json",
+    "bytes": 25587,
+    "sha256": "8128f4a0dd410230e9f67f2a2a772a8d9e02e814e0961baf82a297845ac2a2fa",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_DIRECT216_final_devices.json",
+    "bytes": 552,
+    "sha256": "765fc1e955bd7c57dfac946b9e9e19c39f0be1a2c8f50d0bceb8bd7e90e8961f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_FIXED_QUERY_S_final.json",
+    "bytes": 44768,
+    "sha256": "762d55d479bb8879707da3cd7a3c436c227f8910040ddebcb68db985ef6d362a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_FIXED_QUERY_S_final_devices.json",
+    "bytes": 551,
+    "sha256": "6abc675a57349a11bdb5e1c47f5946f0554c3f96f2b5be68b9749caf13bcce5c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_KNOWLEDGE20_final.json",
+    "bytes": 37426,
+    "sha256": "233310eb25ddcaeff747edde67e30f5150cc5bc3f95c50ef9cda082af83cec0c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_KNOWLEDGE20_final_devices.json",
+    "bytes": 552,
+    "sha256": "f73236cc006ddb470aa0b088464716bc61ad497b89faa6baf7db5018c1edcb0f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_RETRIEVAL100_final.json",
+    "bytes": 35169,
+    "sha256": "b6c165623f022137232c404a5ad28da2e737860b48bf92b2f34add39643db280",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_RETRIEVAL100_final_devices.json",
+    "bytes": 552,
+    "sha256": "55dafcfa1cf92a15c1910444dd242839f8fc247bd1c2cbbe514640a83a74e1d9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_RETRIEVAL20_final.json",
+    "bytes": 25618,
+    "sha256": "6e4a9a92262305ae6d1103157f5431cb391d2aa0148c6c7af173972e42226260",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_RETRIEVAL20_final_devices.json",
+    "bytes": 552,
+    "sha256": "de377e86a79729b828633b2c81f28299f7bc90866a89f47cb908cf356f676256",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_RETRIEVAL50_final.json",
+    "bytes": 28913,
+    "sha256": "06962a2a41acc9c5a97f2f61dafe130621eef3fffa0bd45e505a17075dbbdcf9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_RETRIEVAL50_final_devices.json",
+    "bytes": 552,
+    "sha256": "096429fa34be589ee3c05a46e4c8b87e05847fadc048a3cc4be9b03a5d25e911",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_STATIC_EVIDENCE_M_final.json",
+    "bytes": 59925,
+    "sha256": "1381b6cbf26abfbcf8728d0343c0444adeddd6603baae5899025b6425e3fe33d",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_STATIC_EVIDENCE_M_final_devices.json",
+    "bytes": 552,
+    "sha256": "d1a00c42fbcb526d1f9753826b0bd9c908637649c3b7c7349753c245c818a189",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_STATIC_EVIDENCE_S_final.json",
+    "bytes": 59248,
+    "sha256": "691c5594680033f276f96e3190cb50e76462732714677584e0661fe4c9a114dc",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0001_STATIC_EVIDENCE_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "cbc2a39cc99cfdf61d2811f541e2c1868442bbe50d2957c14d3e8abf0da3b949",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action0.json",
+    "bytes": 24265,
+    "sha256": "8518949b673579d1a0fd1ae53ecf97520043fd277609f9452137069553795682",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action0_devices.json",
+    "bytes": 552,
+    "sha256": "40d86e366eee28f5650d22be4cf87439a11eeeaeb9068f040d09b10f74691281",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action1.json",
+    "bytes": 25190,
+    "sha256": "2dd840830af022cf29c032755dcae6c23a16a3fb1db59ddf5f94ec6d0a957b5f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action1_devices.json",
+    "bytes": 552,
+    "sha256": "31bdee42ec6c24db8430ba7a95e5c886e467c6f30b958968060c46c18a700170",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action2.json",
+    "bytes": 26095,
+    "sha256": "a9a2cdaec926cbbd3d3dabf229554ec4f0defdf976b0c586f182f251bb7ebf29",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action2_devices.json",
+    "bytes": 552,
+    "sha256": "aac371ff0ed9e1df28550dcfe94c91975e597856025e7988a74b1842b97bccad",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action3.json",
+    "bytes": 27022,
+    "sha256": "2b820769303054afd6bca7d93a3bba7cd45d86816d937086166513222ed15fb1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_action3_devices.json",
+    "bytes": 551,
+    "sha256": "bd6837cdf123765d482633cc62dc872a7e1c58718b916a2be16bf5dc46c4c21f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_final.json",
+    "bytes": 35667,
+    "sha256": "7f05fd1eca2e9fd3d877d3074ec1483b0b59139ad32739f431340bfb25e9310b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_M_final_devices.json",
+    "bytes": 551,
+    "sha256": "ed5e0a88529bdcaae84c1718d9e7e3e023f00d26b57c5651531372bd3798f7bd",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_S_action0.json",
+    "bytes": 24264,
+    "sha256": "1369b62391cfd54914b2a94673279aa997b82cc93b926de412f7fb85d5e6c37b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_S_action0_devices.json",
+    "bytes": 552,
+    "sha256": "a73362477bc7c6e50526640de971fee0a26a906c4ecfcd3cbe5b22251f1d1ea5",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_S_action1.json",
+    "bytes": 25189,
+    "sha256": "5fb7aae37d503021372b7d83efc4f2b03ae7a8ecd494f1668eb7d24c987dd59c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_S_action1_devices.json",
+    "bytes": 552,
+    "sha256": "b842c1d5d0d4b4ed55e24debee5fbca9816bfa0dc93c897998b5f1425c56f5c5",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_S_final.json",
+    "bytes": 35735,
+    "sha256": "765966719546b3363b66d0965c9c50949a1b386d56d7bdb19c13ef4e64ca49f3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_ADAPTIVE_AGENT_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "3c90793baf48a306c1ab29ec36a3fd2d1be7c356353e29d550c383e0e0809a92",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_DIRECT216_final.json",
+    "bytes": 24181,
+    "sha256": "878d23c852b9691fd570604fa763cbdafd26d53c6113775844df7660aa2023e1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_DIRECT216_final_devices.json",
+    "bytes": 552,
+    "sha256": "00d3246442befcb735766025df15cbd1f27277672c10a4e5bb115df76e180dbb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_FIXED_QUERY_S_final.json",
+    "bytes": 62790,
+    "sha256": "1483e2d94d43566574e8dd60c257b120cac296ea8bdf2bd42e308e3804c51f50",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_FIXED_QUERY_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "bf177e98f244290799152e883778d0678642d7375bca5639153303cec4192f6a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_KNOWLEDGE20_final.json",
+    "bytes": 35498,
+    "sha256": "4472fc7dc7b789c0daa53a1a3eb7ae4ea1560540f2b6450e4d91926da1a2fd4c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_KNOWLEDGE20_final_devices.json",
+    "bytes": 550,
+    "sha256": "39835ee649a99c4f59833169eac4bce8d324217e309aec01cbfbca2c3ec5df9b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_RETRIEVAL100_final.json",
+    "bytes": 33880,
+    "sha256": "de01d5839de2815c3d160538fd7f6c6411b1eb33c60f256d7e96f2c804538ec2",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_RETRIEVAL100_final_devices.json",
+    "bytes": 552,
+    "sha256": "57e63f0b4515c5c929d0865af9a078f1df9bc954869498cf14634317c89bf271",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_RETRIEVAL20_final.json",
+    "bytes": 23887,
+    "sha256": "9948b146604dd904f830a1ccc1650468e6784730f8fe411ad5a7aad9c928b91b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_RETRIEVAL20_final_devices.json",
+    "bytes": 552,
+    "sha256": "2f98fbc0d9ebfc1fdc42144137580550637d9468ce556526316b20e92b99add7",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_RETRIEVAL50_final.json",
+    "bytes": 27607,
+    "sha256": "51362407751ef46d6a5418898a9f29c0f3ed313d0b50f8e8dbd5d1ede377494c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_RETRIEVAL50_final_devices.json",
+    "bytes": 552,
+    "sha256": "3f6169aefdae14616f58947a6d203bd88a3471523d0b2710a47b4deeaa1e4a7c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_STATIC_EVIDENCE_M_final.json",
+    "bytes": 61438,
+    "sha256": "c5c712b48ee2dd1ae1dff6164c758ddc695d9a702d741c0e0c655a66158690fa",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_STATIC_EVIDENCE_M_final_devices.json",
+    "bytes": 552,
+    "sha256": "77199754e61a7f883255f245df3d3a9ad02921e17b7d65aedcb6fbc14ed8b653",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_STATIC_EVIDENCE_S_final.json",
+    "bytes": 55756,
+    "sha256": "3998d57021a08df5ff918a860184b0c5baf64cceb42e02739382727e6d30cbc0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0135_STATIC_EVIDENCE_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "79d111506ade3951369ba1d5780f1d7b0094c4f74ac21004fb97d96fc086d1e0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_DIRECT216_final.json",
+    "bytes": 24438,
+    "sha256": "ec4b4c24df4d6cf1443bb2998c2dc4bcde5e8de5a0a1956310f213a47a6de4c9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_DIRECT216_final_devices.json",
+    "bytes": 552,
+    "sha256": "fcd24f5cfb92c8f1d890e365bb2764caa0106b178cdd57bb0eae1d5f28d8eecc",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_KNOWLEDGE20_final.json",
+    "bytes": 36217,
+    "sha256": "1276bc1b7443122286d09f325110517782f3fc0a7aae58eff934e812e4bdb9ca",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_KNOWLEDGE20_final_devices.json",
+    "bytes": 552,
+    "sha256": "e47654c8e9d4439c6fc86b3be80d2fc7e140b9346a6c55d2aabfacd60a126534",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_RETRIEVAL100_final.json",
+    "bytes": 33984,
+    "sha256": "f638b7b06908e3dbd9a0c645e6c8d125d1433eb9ac898118ff40300734663083",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_RETRIEVAL100_final_devices.json",
+    "bytes": 552,
+    "sha256": "a0c8caceafb4af3ac3f1c7b9e8a71334ccfc6cf9f359b7476cfb4c0cdddafc0f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_RETRIEVAL20_final.json",
+    "bytes": 24798,
+    "sha256": "e16805c9714790d2c3a7d7e33d05e705a4d9b2fd90c2705cb52000cf4ce38edd",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_RETRIEVAL20_final_devices.json",
+    "bytes": 551,
+    "sha256": "cff9d4262bec9110bbd9cf2d3f0bb3e5591ac70354267bc52ac414578784fa4a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_RETRIEVAL50_final.json",
+    "bytes": 27902,
+    "sha256": "28015f861ac323117397b14dbccc3575a6c87365f9b4150c256feaaf63e181a8",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_RETRIEVAL50_final_devices.json",
+    "bytes": 552,
+    "sha256": "cf900a74a730a58e2f5037c3deae10ab50364201fe0c3445233a4cf255510ccb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_STATIC_EVIDENCE_S_final.json",
+    "bytes": 49180,
+    "sha256": "625229ac43a13cac42cf31b727eb381037a8d922d696bce19ad857b07e24de38",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_0136_STATIC_EVIDENCE_S_final_devices.json",
+    "bytes": 552,
+    "sha256": "8e506c7cf7ea6fd7002f6167538d8a91ef83d8264c182df00ce65b8496f1a9eb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_V1_INVALID_AGENT/AGENT_TRAJECTORIES.jsonl",
+    "bytes": 70681,
+    "sha256": "2e14264ceaf66364badfa6a992c873f4d12bf395e2ff9b32dda908dcc479c3cf",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_V1_INVALID_AGENT/LLM_TECHNIQUE_PREDICTIONS.jsonl",
+    "bytes": 89127,
+    "sha256": "800bbcd4f635e863915a140ff31053ecab55c3c32804eeb4b72ef97d08d08b05",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PILOT_V1_INVALID_AGENT/README.md",
+    "bytes": 673,
+    "sha256": "daf4ed2d308e2b05d5c9e5b50cfe202dc9360cc3ab468982b6256e43ef7ea381",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH.json",
+    "bytes": 1656,
+    "sha256": "18c1d47495449e617c1adb3c28b0fbf51c0abb1fac357e0b408fd5734454a80c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/PREFLIGHT_SYNTHETIC_NOT_RESEARCH_devices.json",
+    "bytes": 551,
+    "sha256": "9b398ba4fee436ed623515efd81830dc070b0199a35a8845aa76fa41fb6b6cbd",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/experiments/deterministic_controls_predictions.jsonl",
+    "bytes": 4598816,
+    "sha256": "45d180fd4f340d62b857f64828fcb512d7d68adf3d35b63c74c10df3eaaeddd0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_attack_technique_benchmark01/OFFICIAL_METRIC_RECALCULATION.csv",
+    "bytes": 3780,
+    "sha256": "2c0987bbdabf6a0b7962f37371cfc03ecb9c75a5c2db5a3d9ecec781a69d02e1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_attack_technique_benchmark01/R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md",
+    "bytes": 8648,
+    "sha256": "75d6f3222830c2ff21acdecc4a142241bc4043e7761965c649c27714fd66c0d3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_attack_technique_benchmark01/evaluate_techniques.py",
+    "bytes": 2846,
+    "sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/DATASET_DEPENDENCY_GROUPS.csv",
+    "bytes": 635323,
+    "sha256": "1e9f0d0300577bb3dd97bac6185362080645038b31e12cff8b6f06efc2b03b7f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/METHOD_ERROR_ANALYSIS.md",
+    "bytes": 25916,
+    "sha256": "e9e3db177640cb5d9469d1d2be25e0ee0b1187bf7c8ab82015e88ec96408377b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/P0_P1_P2_COMPARABILITY_REPORT.md",
+    "bytes": 5004,
+    "sha256": "a87ec38c86c8a25b4998e2135a0b833109352de5ceb57370da3717bb22d819ae",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/P2_AUTHORIZED_STEP_MANIFEST.csv",
+    "bytes": 30651,
+    "sha256": "748dbd28bab492638cd2ee1508d11556e17199b9217ee1af26c4cf59e2e937fa",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/R3_TECHNIQUE_STRONG_BASELINES_GENERALIZATION_RESULTS.md",
+    "bytes": 17247,
+    "sha256": "c1f60a1219352390fb46690af7f92bf64533daaf1379f7c0332e39213c236a9c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P0.csv",
+    "bytes": 80218,
+    "sha256": "364dcd61a2cae1fbe6a251dc97bd71d9987c4d480557ea5bcca92c44f5e078b0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P1.csv",
+    "bytes": 34747,
+    "sha256": "6a39215dc9a3d19fce2215a747095eee41649b9d1ecb96cb852a126fcaebae65",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P2.csv",
+    "bytes": 19842,
+    "sha256": "fc8a7068a267f2cdcaf016b35af9110c27fd576346764f2981f790ad78e0eb55",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "bytes": 3235,
+    "sha256": "1df6ec406dda9fca4f6fea6a3817582ac17ce4d9e2f199eb8f49b0f4bee1e45b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/datasets/manifests/STABLE_CLEANED.json",
+    "bytes": 1703,
+    "sha256": "cca25a1af38d5fb7982b277cf14aaec394ac0312ee32cf7baf6054f5ae9ac612",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "bytes": 950563,
+    "sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/results/DELIVERY_VALIDATION.json",
+    "bytes": 1287,
+    "sha256": "daab8db047d5468fdc0ad0ea2c7196bcc505847b796ad442c775034bf6995364",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/FROZEN_PROMPT_TEMPLATES.json",
+    "bytes": 2199,
+    "sha256": "4eab445469cb15eeeaf1df45363ea63626d32d3e4283892a15ff3c4b99105629",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/evaluate_pilot.py",
+    "bytes": 12012,
+    "sha256": "19c75f3e6af6b05cfe4b2e18ebe7446cb82d165dddd3eb44a71521a117ac0e1e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/local_ollama.py",
+    "bytes": 5150,
+    "sha256": "3126d04e2aaa2f41f15d56443a524c99cf23a40258187f1ff5b78fd1257b23bc",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/protocol.py",
+    "bytes": 6184,
+    "sha256": "b9b6bbd185e078ef5611ae04f9edb779eb3e1e723966503ddaa8065ff885d6ec",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/run_local_pilot.py",
+    "bytes": 11549,
+    "sha256": "ee2873c4af4cbf6924bb4b7b8e33ab59e86beecfa5d033f9c839db2179ac5e5b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/llm/run_local_pilot_v2.py",
+    "bytes": 14940,
+    "sha256": "a82f9c68815af90915fe414d63c4d2ef45f5eabc7e97e841891e1d6b56f42f2e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/EXPERIMENT_REGISTRATION.json",
+    "bytes": 2279,
+    "sha256": "bb2ebcd2bae3d66886c6f4b1bc7d4286578afae93fe8c2194710ad4305d55c88",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/EXPERIMENT_REGISTRATION_V2.json",
+    "bytes": 2678,
+    "sha256": "f500ede82f1021d4c68706eb124b2bfd9acbac20fcc045110e95846620d950bc",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/INHERITED_ASSETS.json",
+    "bytes": 9909,
+    "sha256": "cdb2a675985f39971b2ff35f106e10f513c9b1fe5de82c5cf49fa6c4cb17f6ba",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/LOCAL_LLM_PYTHON_LOCK.json",
+    "bytes": 522,
+    "sha256": "166e848e13dd37cba6cd745138fed842db5ca07c82b63c5ca40c23d5a39cbfcb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/LOCAL_LLM_REQUIREMENTS_LOCK.txt",
+    "bytes": 12,
+    "sha256": "6f2dfd3e7106a07c571ea485df61d85fb1a5dc749c1ad6c93bf84f4f4dd2b52d",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/MODEL_AUDIT_EVIDENCE.json",
+    "bytes": 32681,
+    "sha256": "660a6c2b2dfc7803def9bbe3abbca8fa8cf0f80e6d14cb0c6776e4e7e3b282c9",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/manifests/OLLAMA_RUNTIME_METADATA.json",
+    "bytes": 11410158,
+    "sha256": "90cd7fbcd0fae286caa00c919f1e7f341536da75480625448afa62958eb2bb05",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/reports/ADAPTER_INTERFACE_TESTS.md",
+    "bytes": 2304,
+    "sha256": "f21c8fd80948866a399c9d12fb394119222fe5bfb0c4a48cc7e0b0adb7d1554b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/reports/DELIVERY_STATUS.md",
+    "bytes": 402,
+    "sha256": "9834bc83a3e68f7550c10b79eb0c3e5b16f2f4243e1b6c48fff432c0f2b871c8",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/reports/DETERMINISTIC_CONTROL_ANALYSIS.md",
+    "bytes": 3676,
+    "sha256": "070523d585b3acce7aa2726f6151e852f25c8eae08b613752bf4eed450792576",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/reports/LOCAL_PILOT_CODE_AUDIT.md",
+    "bytes": 5812,
+    "sha256": "b50eb88851cb7cf1c007217b7ce300c3436d953e87bd04c8993982b3314b19af",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/reports/MODEL_SERVICE_AUDIT.md",
+    "bytes": 2428,
+    "sha256": "827183ac112e9e573f6e1094a4b878954c0bc29a039d2cb271f873582db3d688",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/reports/build_delivery.py",
+    "bytes": 40121,
+    "sha256": "cbbc2aa2e8c399ecfdb83ebe8d022869a69b10f9cc6e7a06b71814d92f3d82fa",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/rerankers/CANDIDATES_P0.jsonl",
+    "bytes": 6635795,
+    "sha256": "178dcc85a1608d7dedf2d71e9fec77068d1e666143178811d313534b08205aee",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/rerankers/CANDIDATES_P1.jsonl",
+    "bytes": 6647081,
+    "sha256": "454f98c26dd965f47710f63137314b245cdd57d66b1205289c4596663f719420",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/rerankers/CANDIDATES_P2_SAMPLED.jsonl",
+    "bytes": 2624748,
+    "sha256": "ba9ad6bebc9b34952f4a2fe0a09bc46e25b2f844b9d584bc4eeab97664a14e60",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/rerankers/adapters.py",
+    "bytes": 1995,
+    "sha256": "83510dba313bc2e8832ad5e3bcbba6ab99ee05cf323a1a5329a6bbecf915ee07",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/rerankers/candidate_recall.py",
+    "bytes": 3543,
+    "sha256": "384ef98dbfde862d72156f88b38816e80666a39a00fef965cef2863782681e9b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/AGENT_NOT_EXECUTED_CONDITIONS.jsonl",
+    "bytes": 32493,
+    "sha256": "da34bf27da8690ddecfd6f5e12a2da6b007bb97a7eb55504b3b5789576682892",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/DELIVERY_VALIDATION.json",
+    "bytes": 1721,
+    "sha256": "9c06e82c80b7fa9b543302a75bb3b36fe5fe68979f561520f4f9a3c4c1d2c7b4",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/DETERMINISTIC_CONTROL_METRICS.json",
+    "bytes": 25371,
+    "sha256": "99698343d418cde44f87c7711a04fb471ec9a1989c303c25fb8062f69f73be89",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/LEXICAL_CANDIDATE_FAILURES.csv",
+    "bytes": 54035,
+    "sha256": "c861d2278389e3549010489f14c0b737852488673bacb4b3abc3b5732ccc9a42",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/LLM_ERROR_DETAILS.csv",
+    "bytes": 21633,
+    "sha256": "20c02607f8b5826402205fce7bb5c37924ab7a0e852e922b7bfc322f87282745",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/LLM_GROUPED_RESULTS.csv",
+    "bytes": 17771,
+    "sha256": "3425d4bd26947463989724159642d05ef23c70995553a2448253742570a6eb62",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/LOCAL_PILOT_RUN_SUMMARY.json",
+    "bytes": 563,
+    "sha256": "1699957f98f5f94e0ceddd7983573c9de5c4bfa557a051956c7b38bdcdbd3789",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/PILOT_PROGRESS.json",
+    "bytes": 563,
+    "sha256": "1699957f98f5f94e0ceddd7983573c9de5c4bfa557a051956c7b38bdcdbd3789",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/V1_INTERRUPTION.json",
+    "bytes": 427,
+    "sha256": "d7143a206450482aebcac99de0ec6b1ab3bd7bbd78bb496522317c3d242f702e",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/analyze_controls.py",
+    "bytes": 8461,
+    "sha256": "7027ec069c98da4e815af7f7697a7ae41795c791c6a63e5a7365a850040bf0ec",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/candidate_recall.log",
+    "bytes": 47,
+    "sha256": "0c1c5a0ee42295acaa903bdb984d7e8b9b3c8daf19b564c9b2912f8e2541a5a3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/deterministic_recheck.log",
+    "bytes": 7949,
+    "sha256": "857de56c4a74fda0b3e4711387d3055b1669ca3a50568b05f2e550ac776f7647",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/interface_final.log",
+    "bytes": 1415,
+    "sha256": "59d5969d4750da2b31bb209d06cce0dd84ca38e5e31b6c9613c12eda9785f247",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/llm_evaluation_recheck.log",
+    "bytes": 1154,
+    "sha256": "0a5aa873bb34b835088c3dba696495bc0e498a49d44ee78cb850e88d81c2afe6",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/local_pilot.log",
+    "bytes": 5325,
+    "sha256": "3abb9e90a3546bc48234d27d087551688958c6fb8a7e7b0b97791bf2702a1bd6",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/local_pilot_v2.log",
+    "bytes": 2556,
+    "sha256": "1778bd1c9686bc12148f8ecce23496e9f3bdacbfa89eb7bb05021158052177ca",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/statistical_analysis.log",
+    "bytes": 3434,
+    "sha256": "63ae699ac34be4c442234290b7f105e43820e2028f2c35b7dd8ee6acd860568b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/tool_security_final.log",
+    "bytes": 2739,
+    "sha256": "6028c1d568e2c8c910d30a8553be0853f7b11aa4a9db9232408c2930761fc227",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/tool_security_tests.json",
+    "bytes": 1126,
+    "sha256": "6c320220e0bf0a506c553af072e4a394148d18718d5f32d9fde26b018011e87b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/tool_security_tests.log",
+    "bytes": 1614,
+    "sha256": "79b584844bd08f80bc7075e30c5638eea37e6cbd6a0d2d9e83f08f25703de643",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/results/validate_delivery.py",
+    "bytes": 8629,
+    "sha256": "e02c5d1a012da91baaec1e88e9c65a9b5747a98e6bb4c822309276f6e1e7dfd8",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/ADAPTER_README.md",
+    "bytes": 2830,
+    "sha256": "2d5bd9fb849adcff614ddd6516f20cb00d263dbcc7f018f3c46f881b5c790b3f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/admission.py",
+    "bytes": 2047,
+    "sha256": "1ef62a9665490628c1cb3263c57366dacfa19b0dc74aac1a910147af0d994b31",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views/P0.jsonl",
+    "bytes": 71486648,
+    "sha256": "c19ac100e048b6f86ae4342ac8103fa2f585c5121e94c4003f2e1bb64e6e94e0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views/P1.jsonl",
+    "bytes": 71858744,
+    "sha256": "0bde4674f57a54f335f0a370f5a6653866a2626c4cb9ccabd722caa466ee97d0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views/P2_SAMPLED.jsonl",
+    "bytes": 27248141,
+    "sha256": "5c145d4d9e5f32e4b7e4c42e4c7cc618f7724ef5349ee1e80675ae0c48fdaeae",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/input_views.py",
+    "bytes": 9410,
+    "sha256": "20dfc789122ced125190a7c156d6f0ebe5f4a8337551d3734fd966e21c14a99a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/semantic_models/test_interfaces.py",
+    "bytes": 5668,
+    "sha256": "e5f7dfa4bef044113b28bd7993a6773214f41132dcaab5a7ba49ead7b09a379a",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md",
+    "bytes": 8648,
+    "sha256": "75d6f3222830c2ff21acdecc4a142241bc4043e7761965c649c27714fd66c0d3",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py",
+    "bytes": 2846,
+    "sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_METRIC_RECALCULATION.csv",
+    "bytes": 3780,
+    "sha256": "2c0987bbdabf6a0b7962f37371cfc03ecb9c75a5c2db5a3d9ecec781a69d02e1",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/R3_TECHNIQUE_STRONG_BASELINES_GENERALIZATION_RESULTS.md",
+    "bytes": 17247,
+    "sha256": "c1f60a1219352390fb46690af7f92bf64533daaf1379f7c0332e39213c236a9c",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P0.csv",
+    "bytes": 80218,
+    "sha256": "364dcd61a2cae1fbe6a251dc97bd71d9987c4d480557ea5bcca92c44f5e078b0",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P1.csv",
+    "bytes": 34747,
+    "sha256": "6a39215dc9a3d19fce2215a747095eee41649b9d1ecb96cb852a126fcaebae65",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P2.csv",
+    "bytes": 19842,
+    "sha256": "fc8a7068a267f2cdcaf016b35af9110c27fd576346764f2981f790ad78e0eb55",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/METHOD_ERROR_ANALYSIS.md",
+    "bytes": 25916,
+    "sha256": "e9e3db177640cb5d9469d1d2be25e0ee0b1187bf7c8ab82015e88ec96408377b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/P0_P1_P2_COMPARABILITY_REPORT.md",
+    "bytes": 5004,
+    "sha256": "a87ec38c86c8a25b4998e2135a0b833109352de5ceb57370da3717bb22d819ae",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/DATASET_DEPENDENCY_GROUPS.csv",
+    "bytes": 635323,
+    "sha256": "1e9f0d0300577bb3dd97bac6185362080645038b31e12cff8b6f06efc2b03b7f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/results/DELIVERY_VALIDATION.json",
+    "bytes": 1287,
+    "sha256": "daab8db047d5468fdc0ad0ea2c7196bcc505847b796ad442c775034bf6995364",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/manifests/STABLE_CLEANED.json",
+    "bytes": 1703,
+    "sha256": "cca25a1af38d5fb7982b277cf14aaec394ac0312ee32cf7baf6054f5ae9ac612",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/P2_AUTHORIZED_STEP_MANIFEST.csv",
+    "bytes": 30651,
+    "sha256": "748dbd28bab492638cd2ee1508d11556e17199b9217ee1af26c4cf59e2e937fa",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "bytes": 950563,
+    "sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "bytes": 3235,
+    "sha256": "1df6ec406dda9fca4f6fea6a3817582ac17ce4d9e2f199eb8f49b0f4bee1e45b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_PREDICTIONS.jsonl",
+    "bytes": 100310924,
+    "sha256": "80fcb4ea61d1dca8a5043c7945b232dc80829d8b30b7a61e5d812aba1cd29c9d",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/SOURCE_LEVEL_TECHNIQUE_SCORES.jsonl",
+    "bytes": 35183713,
+    "sha256": "ecca0e2b0b6b6063864dd058a71426e5bf7085251ef21192fbc7e4d79b55b8ed",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/SOURCE_EVIDENCE_TRACES.jsonl",
+    "bytes": 55848406,
+    "sha256": "73df1bbf6f6d2fc24bdc1aa0796529c45e7e465ecc93cbcabfa639890feab137",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_prediction.jsonl",
+    "bytes": 14279534,
+    "sha256": "ea5425e98463e63d06a3b57c26376e6150789c86dcadc8e4446e93eb7f3300ed",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_reference.jsonl",
+    "bytes": 257525,
+    "sha256": "d5e1b263172de28600cffb38fcb3c81fc9cf336ac7c743dc5f98d7ebba32cd34",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/prediction.jsonl",
+    "bytes": 15029001,
+    "sha256": "a486fe1c4a9641adba2f94bf87fd0de532d835ff2a859d82f1c5f20e27b2534f",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/reference.jsonl",
+    "bytes": 388059,
+    "sha256": "0bdeaee654da3ceed9472a8a094e7f4ace54abc238c2c4879e05d33ea913a0d4",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_sampled.jsonl",
+    "bytes": 5680739,
+    "sha256": "31689aaba6b83f0763aada2035ac61fc17153218bb2b6efbc64f5139c55a4c3b",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_sampled.jsonl",
+    "bytes": 153553,
+    "sha256": "f92293d7aae78013435bd7ec64706e302c45464a48775f92d4ecb6034396fe79",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_full.jsonl",
+    "bytes": 572373877,
+    "sha256": "6757e8348e7d2392106403d1eaa6052d23de374198f2279189089634201355a6",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_full.jsonl",
+    "bytes": 152612,
+    "sha256": "841ba11edc0ed130e95b3533456165c240fc6f677187c93d950fd2109a65a179",
+    "access": "READ_ONLY_INDEXED_NOT_NEW_INFERENCE"
+  }
+]

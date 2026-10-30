@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/KnowHow/bin/python",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/baselines/predict.py",
+    "--method",
+    "KnowHow",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/prediction_view_strict.jsonl",
+    "--documents",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/experiments/KnowHowDictionaryAdaptation_strict.jsonl",
+    "--dictionary",
+    "/Users/tianxd/Documents/mid-term/research3_baseline_reproduction01/algorithms/KnowHow/original_source/tech_dic.txt"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "seconds": 29.70434454176575
+}

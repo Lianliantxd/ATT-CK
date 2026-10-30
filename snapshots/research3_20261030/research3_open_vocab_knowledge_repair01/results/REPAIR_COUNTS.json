@@ -1,0 +1,31 @@
+{
+  "candidate_count": 216,
+  "source_parent_bodies_available": 203,
+  "source_parent_bodies_missing": 13,
+  "missing_ids": [
+    "T1667",
+    "T1668",
+    "T1669",
+    "T1671",
+    "T1672",
+    "T1673",
+    "T1674",
+    "T1675",
+    "T1677",
+    "T1678",
+    "T1679",
+    "T1680",
+    "T1681"
+  ],
+  "separate_subtype_descriptions": 453,
+  "child_relationships_confirmed": 453,
+  "old_parent_body_start_not_visible": 73,
+  "old_parent_body_not_fully_visible": 164,
+  "new_full_parent_texts_truncated": 0,
+  "diagnostic1000B_texts_truncated": 129,
+  "author_vs_STIX_parent_name_differences": 2,
+  "missing_source_count_beyond_previous_competitor12_audit": 2,
+  "source_release_alignment": "NOT_AVAILABLE",
+  "independent_semantic_reference": "NOT_AVAILABLE",
+  "model_performance_change": null
+}

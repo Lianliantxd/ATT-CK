@@ -1,0 +1,14 @@
+{
+  "seconds": 1046.6961467843503,
+  "actual_samples": 975,
+  "unique_model_pairs": 54958,
+  "forward_batches": 7034,
+  "actual_pair_tokens": 75947355,
+  "memory": {
+    "GPU_peak_allocated_bytes": 915070464,
+    "GPU_peak_reserved_bytes": 1988100096,
+    "process_peak_RSS_bytes": 2619019264
+  },
+  "status": "FULL_P0_COMPLETE",
+  "scoring": "official classification raw logit; no pooled embedding substitution"
+}

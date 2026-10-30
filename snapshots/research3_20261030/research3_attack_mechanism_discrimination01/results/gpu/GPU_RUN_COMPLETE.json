@@ -1,0 +1,21 @@
+{
+  "status": "ALL_AUTHORIZED_CONDITIONS_COMPLETE",
+  "knowledge_conditions": [
+    "K2_DESCRIPTION_16_1",
+    "MECHANISM_CARD"
+  ],
+  "input_views": [
+    "RAW",
+    "LITERAL",
+    "LITERAL_PLUS_RELATIONS",
+    "RAW_PLUS_LITERAL"
+  ],
+  "queries_each": 975,
+  "embedding_forward_batches": 227,
+  "CE_unique_pairs": 54836,
+  "CE_batches": 8248,
+  "total_seconds": 395.26581608643755,
+  "Gold_loaded": false,
+  "GPU_peak_allocated_bytes": 502779392,
+  "GPU_peak_reserved_bytes": 763363328
+}

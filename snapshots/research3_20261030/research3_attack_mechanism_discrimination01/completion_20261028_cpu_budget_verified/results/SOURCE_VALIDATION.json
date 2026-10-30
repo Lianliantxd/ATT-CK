@@ -1,0 +1,29 @@
+{
+  "queries": 975,
+  "IR_events": 4368,
+  "native_fields_checked": 34510,
+  "source_mismatches": 0,
+  "card_mentions_checked": 1866,
+  "card_count": 216,
+  "relation_counts": {
+    "SAME_NATIVE_AUDIT_EVENT": 878,
+    "NATIVE_TIMESTAMP_BEFORE": 119
+  },
+  "result_status_counts": {
+    "UNKNOWN": 3805,
+    "REPORTED_SYSCALL_SUCCESS": 520,
+    "RETURN_VALUE_SEMANTICS_NOT_CERTIFIED": 14,
+    "REPORTED_SYSCALL_FAILURE": 29
+  },
+  "field_locator_counts": {
+    "native_kv": 33118,
+    "literal_regex_span": 1359,
+    "native_json_pointer": 33
+  },
+  "blind_packets_pending": 30,
+  "process_lifecycle_identity_certified": 0,
+  "observed_state_to_change_inferences": 0,
+  "semantic_mechanism_accuracy": "NA_HUMAN_REFERENCE_PENDING",
+  "raw_archives_opened": 0,
+  "scope": "complete selected-field trace validity; unrecognized prose is not claimed preserved in model views; full selected native fragment retained in IR provenance"
+}

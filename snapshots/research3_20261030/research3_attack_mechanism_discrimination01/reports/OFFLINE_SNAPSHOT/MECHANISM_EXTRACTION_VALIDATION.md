@@ -1,0 +1,11 @@
+# 机制提取与来源验证
+
+实际实现为mechanism_ir/extractor.py及build_inputs.py，名称Attack Mechanism IR v1，非NLP AMR标准。只读既有清洗P0和上一轮V2 prefix映射，不读P2完整池或原始归档，不调用LLM。parser只接收原始片段和源哈希；合成GT注入测试不改变输出。
+
+实际975查询、34510个原生字段逐一通过原始char span或JSON pointer回查；997条关系通过同source及原生事件key/时间检查；1866个卡片词形提及匹配冻结知识源span。12项安全不变量通过，包括当前uid0不升级为提权、exit0不自动成功、success=no保留失败、不同源不拼接、同PID不认证进程生命周期、普通name不当File、片段边界不完整字段弃用。
+
+这是工程来源/边界一致性，不是机制语义准确率。独立人审尚无，不能报告Precision/Recall或100%语义正确。状态只有observed_state；没有凭当前uid推导state change。result只引用原生success=yes/no，并限定为本次syscall报告，其他return值语义UNKNOWN。关系只包含SAME_NATIVE_AUDIT_EVENT和NATIVE_TIMESTAMP_BEFORE，不表示因果或跨生命周期身份。
+
+所有表示共享相同选定原始片段，日志最多2000 UTF8 bytes，知识1000 bytes；字节不是GTE Token，实际模型Token未取得，必须记NA。RAW+Literal同样受cap约束，因此共享观察有进一步截取，不能把本轮Raw14.87%与上一轮完整预算29.23%直接比较。传感器自带Txxxx注释在预测文本中等长掩码；源追溯保留原始哈希和片段，未使用官方步骤Gold生成字段。
+
+预验证阶段发现普通name字段不能总解释为文件，已在任何新排名之前改为未认证命名实体；旧开发构建保留results/prevalidation_build_v0。正式输入生成后不随分数修改规则。

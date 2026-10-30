@@ -1,0 +1,24 @@
+{
+  "status": "ACTUAL_SAVED_PREDICTIONS_EVALUATED",
+  "methods_executed": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B9_CONST"
+  ],
+  "heldout_prediction_rows": 54600,
+  "fold_seed_mode_partition_conditions": 1106,
+  "all_queries_each_seed": 975,
+  "frozen_evaluator_sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4",
+  "source_sha256": "9b5add94de642a82dc201cc3b94e080fcf5e85d147cfee12e387da66432b51db",
+  "metrics_from_saved_predictions_only": true,
+  "Gold_never_sent_to_GPU_server": true,
+  "scenarios_independent_confirmatory_tests": false
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_PREFLIGHT_TIMING_DEVIATION",
+  "checked_selected_conditions": 462,
+  "registered_grid_conditions": 1722,
+  "fit_validation_reference_count": 7,
+  "predictor_reference_read_count": 0,
+  "new_fusion_metrics_used_for_parameter_selection": false,
+  "hash_bindings_consistent": true,
+  "filesystem_stage_order_consistent": true,
+  "time_evidence_limit": "Receipts contain duration, not signed absolute stage timestamps; filesystem mtimes corroborate order but are not independent cryptographic execution proof.",
+  "pre_prediction_reference_preflight_disclosure": {
+    "occurrences": 2,
+    "purpose": "Evaluator helper loaded heldout references during synthetic math/preflight checks; only public975query195step7fold counts were inspected",
+    "new_fusion_performance_computed_during_preflight": false,
+    "labels_sent_to_predictor_or_parameter_fitter": false,
+    "frozen_protocol_or_calibration_parameters_changed_using_outer_labels": false,
+    "scope": "strict_no_reference_read_before_prediction_timing_not_met; calibration_Gold_isolation_preserved"
+  },
+  "qualification": "Fit/predict access isolation passes; do not claim no agent ever read outer references before prediction.",
+  "timeline": [
+    {
+      "path": "FUSION_PARAMETER_REGISTRATION.json",
+      "sha256": "cceb35fc46eaeb5cc4db5973e315ab0a7288cbac5a1d0d1722031944a42289e3",
+      "mtime_ns": 1793164593827658628,
+      "mtime_utc": "2026-10-28T05:16:33.827659+00:00"
+    },
+    {
+      "path": "calibration/SELECTED_PARAMETERS.json",
+      "sha256": "7947e6caea44e1507ec7ce2e6ffef1339094d333650dd2c7208a6d026a87177f",
+      "mtime_ns": 1793165105799229401,
+      "mtime_utc": "2026-10-28T05:25:05.799229+00:00"
+    },
+    {
+      "path": "calibration/FITTING_RECEIPT.json",
+      "sha256": "3933ffa73e145f639fb6873265fc9f2f0f3761ecfe85e663294fd1914963ac69",
+      "mtime_ns": 1793165105808149362,
+      "mtime_utc": "2026-10-28T05:25:05.808149+00:00"
+    },
+    {
+      "path": "FUSION_PREDICTIONS.jsonl",
+      "sha256": "3c4e950f5833716c10e748cafcba08b25afd7bad3154403545bd7a2a75c0cb24",
+      "mtime_ns": 1793165205800222001,
+      "mtime_utc": "2026-10-28T05:26:45.800222+00:00"
+    },
+    {
+      "path": "predictions/TRADEOFF_PREDICTIONS.jsonl",
+      "sha256": "f00c9447fdc87f6abe97372f46b7fa862c01cd5db3ca8fa14517be3f6202e3f1",
+      "mtime_ns": 1793165205742319063,
+      "mtime_utc": "2026-10-28T05:26:45.742319+00:00"
+    },
+    {
+      "path": "predictions/PREDICTION_RECEIPT.json",
+      "sha256": "e1cabf748bb996356828452033771758fd8453a6ebea6ca8e051f9f364264dd4",
+      "mtime_ns": 1793165206304688540,
+      "mtime_utc": "2026-10-28T05:26:46.304689+00:00"
+    },
+    {
+      "path": "FUSION_RESULTS.csv",
+      "sha256": "0263ba57a9725a30da7abb17a4a375df1b4adaa5685f9074f441e4b35d119041",
+      "mtime_ns": 1793165534508313538,
+      "mtime_utc": "2026-10-28T05:32:14.508314+00:00"
+    },
+    {
+      "path": "results/EVALUATION_AUDIT.json",
+      "sha256": "dfaff9d4e0fc96b8be49b9750501400edb71294e805b83993ba99f8d1bf4af4a",
+      "mtime_ns": 1793165538541465021,
+      "mtime_utc": "2026-10-28T05:32:18.541465+00:00"
+    },
+    {
+      "path": "SEEN_UNSEEN_TRADEOFF.csv",
+      "sha256": "004c58161fed4826482046d448a5253cf3d4266274089aefd6a8a97c4de0170f",
+      "mtime_ns": 1793166236765063403,
+      "mtime_utc": "2026-10-28T05:43:56.765064+00:00"
+    },
+    {
+      "path": "results/TRADEOFF_EVALUATION_AUDIT.json",
+      "sha256": "67d8620f19390cbde976d06d4d9716e1a771110cb42c9f39e58147e1a0ecfda9",
+      "mtime_ns": 1793166236832368548,
+      "mtime_utc": "2026-10-28T05:43:56.832369+00:00"
+    }
+  ],
+  "audit_source_sha256": "35ff03c9bc77b449860e945106f5f77ab714a251c1e5901c528c11cee2d92392"
+}

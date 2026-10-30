@@ -1,0 +1,20 @@
+{
+  "protocol": "P1_FIXED",
+  "input_view": "fixed_variant_fresh_windows_v2",
+  "knowledge_view": "K2_DESCRIPTION_16_1",
+  "representation": "bm25",
+  "method": "SourceWiseBM25_Max",
+  "command": "see fusion run.json",
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/fusion_P1_FIXED_bm25/Max.jsonl",
+  "exit_code": 0,
+  "completion_verified": true,
+  "actual_prediction_count": 975,
+  "input_sha256": "aa158f3974fd85d66ded1aa115f47ad6c392f6f548a31fecdc5d972dd5e6dd2f",
+  "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+  "execution_success_basis": "completed run summary, exact output count, input/knowledge hash verified; original exitcode NOT_CAPTURED where null",
+  "seconds": 7.784294791053981,
+  "InferenceTimeQualification": "shared batch time, not additive per-method runtime",
+  "reference_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/reference_fixed_variant.jsonl",
+  "execution_status": "ADAPTED_BASELINE",
+  "source_directory": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/fusion_P1_FIXED_bm25"
+}

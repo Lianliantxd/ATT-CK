@@ -1,0 +1,372 @@
+[
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0051_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 6747,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0272_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 4162,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0326_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 7200,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0326_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6267,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0147_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 4644,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0326_A0_DIRECT_final.json",
+    "body_token_count": 2979,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0378_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6474,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0147_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3637,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0099_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 7430,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0272_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3222,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0285_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4487,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_MINIMAL_GATE_0000_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3258,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0099_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3102,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0147_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 4538,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0286_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4823,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0159_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6139,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0159_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3170,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0285_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 2963,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0191_A0_DIRECT_final.json",
+    "body_token_count": 3003,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0286_A0_DIRECT_final.json",
+    "body_token_count": 3018,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0297_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 2821,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0378_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3144,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0378_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3926,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0297_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3738,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0051_A0_DIRECT_final.json",
+    "body_token_count": 2985,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0380_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 5621,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0285_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3718,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0380_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 7208,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0272_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 5113,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0159_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3915,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0297_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6848,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0191_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 7257,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0286_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6303,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0099_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3931,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0147_A0_DIRECT_final.json",
+    "body_token_count": 3647,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0147_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 5659,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0051_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3965,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0380_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 2930,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0191_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3970,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0286_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 3008,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0378_A0_DIRECT_final.json",
+    "body_token_count": 3154,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0378_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 6784,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0297_A0_DIRECT_final.json",
+    "body_token_count": 2831,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0099_A0_DIRECT_final.json",
+    "body_token_count": 3112,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0297_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4664,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0285_A0_DIRECT_final.json",
+    "body_token_count": 2973,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0159_A0_DIRECT_final.json",
+    "body_token_count": 3180,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0191_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4956,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0286_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3992,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0191_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 2993,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0051_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4960,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0326_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 3994,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0380_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3775,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0326_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6267,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0051_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6475,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0051_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 2975,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0191_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 6830,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0191_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 7257,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0272_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 7422,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0378_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4723,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0326_A3_ADAPTIVE_LLM_AGENT_action0.json",
+    "body_token_count": 2969,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0286_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 7160,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0286_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 6303,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0159_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4678,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0099_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4772,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_MINIMAL_GATE_0000_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4424,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0380_A0_DIRECT_final.json",
+    "body_token_count": 2940,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0380_A3_ADAPTIVE_LLM_AGENT_final.json",
+    "body_token_count": 4633,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0297_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 6109,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0380_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 5621,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0159_A2_FIXED_QUERY_LLM_final.json",
+    "body_token_count": 6970,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0147_A1_STATIC_BM25_LLM_final.json",
+    "body_token_count": 4538,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0272_A0_DIRECT_final.json",
+    "body_token_count": 3232,
+    "complete_prompt_body_in_backend_context": true
+  },
+  {
+    "receipt": "VALIDATION02_PAIRED_PILOT_0326_A3_ADAPTIVE_LLM_AGENT_action1.json",
+    "body_token_count": 3983,
+    "complete_prompt_body_in_backend_context": true
+  }
+]

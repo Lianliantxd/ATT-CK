@@ -1,0 +1,4 @@
+original_candidate_id,original_object_id,original_revoked,relationship_id,relationship_type,target_id,target_name,target_is_subtechnique,target_parent_id_by_syntax,mapping_applied,source_scope
+T1562,attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529,True,relationship--87571e4c-85c4-4c7a-9c7b-ef9aface8728,revoked-by,T1685,Disable or Modify Tools,False,T1685,False,explicit19.2relationship_only;notsemantic equivalenceorpermission tochangeGold
+T1656,attack-pattern--c9e0c59e-162e-40a4-b8b1-78fab4329ada,True,relationship--40c3f213-a3e9-449a-9e9f-30afadc66205,revoked-by,T1684.001,Impersonation,True,T1684,False,explicit19.2relationship_only;notsemantic equivalenceorpermission tochangeGold
+T1672,attack-pattern--e1c2db92-7ae3-4e6a-90b4-157c1c1565cb,True,relationship--2d44dcd9-090f-463a-84ef-2ca6d4e9856b,revoked-by,T1684.002,Email Spoofing,True,T1684,False,explicit19.2relationship_only;notsemantic equivalenceorpermission tochangeGold

@@ -1,0 +1,3 @@
+# V1 real records, invalid Agent protocol
+
+These original records are preserved, not silently rewritten. All V1 adaptive conditions have protocol status **INVALID_TOOL_RESULT_FORWARDING** and `valid_for_performance_comparison=false`, regardless of whether a particular run requested knowledge. They are real local model/tool executions and incur real cost, but cannot establish the intended Agent's gain. Nonadaptive rows remain exploratory and may be reused only under the documented exact-prompt/model/options check. See `reports/LOCAL_PILOT_CODE_AUDIT.md` and `LLM_EXPERIMENT_PROTOCOL.md` at the experiment root. No Gold repair or best-response selection was performed.

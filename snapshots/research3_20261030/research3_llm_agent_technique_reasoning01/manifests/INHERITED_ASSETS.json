@@ -1,0 +1,158 @@
+[
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_attack_technique_benchmark01/R3_ATTACK_TECHNIQUE_BENCHMARK_RESULTS.md",
+    "bytes": 8648,
+    "sha256": "75d6f3222830c2ff21acdecc4a142241bc4043e7761965c649c27714fd66c0d3"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/evaluate_techniques.py",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_attack_technique_benchmark01/evaluate_techniques.py",
+    "bytes": 2846,
+    "sha256": "6ba95c8017f9f47a67803ebe0559d88201cdaf3a09b086b6d690115af7c7a5a4"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/OFFICIAL_METRIC_RECALCULATION.csv",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_attack_technique_benchmark01/OFFICIAL_METRIC_RECALCULATION.csv",
+    "bytes": 3780,
+    "sha256": "2c0987bbdabf6a0b7962f37371cfc03ecb9c75a5c2db5a3d9ecec781a69d02e1"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/R3_TECHNIQUE_STRONG_BASELINES_GENERALIZATION_RESULTS.md",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/R3_TECHNIQUE_STRONG_BASELINES_GENERALIZATION_RESULTS.md",
+    "bytes": 17247,
+    "sha256": "c1f60a1219352390fb46690af7f92bf64533daaf1379f7c0332e39213c236a9c"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P0.csv",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P0.csv",
+    "bytes": 80218,
+    "sha256": "364dcd61a2cae1fbe6a251dc97bd71d9987c4d480557ea5bcca92c44f5e078b0"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P1.csv",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P1.csv",
+    "bytes": 34747,
+    "sha256": "6a39215dc9a3d19fce2215a747095eee41649b9d1ecb96cb852a126fcaebae65"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P2.csv",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_RESULTS_P2.csv",
+    "bytes": 19842,
+    "sha256": "fc8a7068a267f2cdcaf016b35af9110c27fd576346764f2981f790ad78e0eb55"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/METHOD_ERROR_ANALYSIS.md",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/METHOD_ERROR_ANALYSIS.md",
+    "bytes": 25916,
+    "sha256": "e9e3db177640cb5d9469d1d2be25e0ee0b1187bf7c8ab82015e88ec96408377b"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/P0_P1_P2_COMPARABILITY_REPORT.md",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/P0_P1_P2_COMPARABILITY_REPORT.md",
+    "bytes": 5004,
+    "sha256": "a87ec38c86c8a25b4998e2135a0b833109352de5ceb57370da3717bb22d819ae"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/DATASET_DEPENDENCY_GROUPS.csv",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/DATASET_DEPENDENCY_GROUPS.csv",
+    "bytes": 635323,
+    "sha256": "1e9f0d0300577bb3dd97bac6185362080645038b31e12cff8b6f06efc2b03b7f"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/results/DELIVERY_VALIDATION.json",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/results/DELIVERY_VALIDATION.json",
+    "bytes": 1287,
+    "sha256": "daab8db047d5468fdc0ad0ea2c7196bcc505847b796ad442c775034bf6995364"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/manifests/STABLE_CLEANED.json",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/datasets/manifests/STABLE_CLEANED.json",
+    "bytes": 1703,
+    "sha256": "cca25a1af38d5fb7982b277cf14aaec394ac0312ee32cf7baf6054f5ae9ac612"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/P2_AUTHORIZED_STEP_MANIFEST.csv",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/P2_AUTHORIZED_STEP_MANIFEST.csv",
+    "bytes": 30651,
+    "sha256": "748dbd28bab492638cd2ee1508d11556e17199b9217ee1af26c4cf59e2e937fa"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "bytes": 950563,
+    "sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "frozen": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/frozen_baselines/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "bytes": 3235,
+    "sha256": "1df6ec406dda9fca4f6fea6a3817582ac17ce4d9e2f199eb8f49b0f4bee1e45b"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/STRONG_BASELINE_PREDICTIONS.jsonl",
+    "bytes": 100310924,
+    "sha256": "80fcb4ea61d1dca8a5043c7945b232dc80829d8b30b7a61e5d812aba1cd29c9d",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/SOURCE_LEVEL_TECHNIQUE_SCORES.jsonl",
+    "bytes": 35183713,
+    "sha256": "ecca0e2b0b6b6063864dd058a71426e5bf7085251ef21192fbc7e4d79b55b8ed",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/SOURCE_EVIDENCE_TRACES.jsonl",
+    "bytes": 55848406,
+    "sha256": "73df1bbf6f6d2fc24bdc1aa0796529c45e7e465ecc93cbcabfa639890feab137",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_prediction.jsonl",
+    "bytes": 14279534,
+    "sha256": "ea5425e98463e63d06a3b57c26376e6150789c86dcadc8e4446e93eb7f3300ed",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_reference.jsonl",
+    "bytes": 257525,
+    "sha256": "d5e1b263172de28600cffb38fcb3c81fc9cf336ac7c743dc5f98d7ebba32cd34",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/prediction.jsonl",
+    "bytes": 15029001,
+    "sha256": "a486fe1c4a9641adba2f94bf87fd0de532d835ff2a859d82f1c5f20e27b2534f",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/reference.jsonl",
+    "bytes": 388059,
+    "sha256": "0bdeaee654da3ceed9472a8a094e7f4ace54abc238c2c4879e05d33ea913a0d4",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_sampled.jsonl",
+    "bytes": 5680739,
+    "sha256": "31689aaba6b83f0763aada2035ac61fc17153218bb2b6efbc64f5139c55a4c3b",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_sampled.jsonl",
+    "bytes": 153553,
+    "sha256": "f92293d7aae78013435bd7ec64706e302c45464a48775f92d4ecb6034396fe79",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/prediction_full.jsonl",
+    "bytes": 572373877,
+    "sha256": "6757e8348e7d2392106403d1eaa6052d23de374198f2279189089634201355a6",
+    "reuse": "read-only indexed asset, not recopied"
+  },
+  {
+    "source": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_full.jsonl",
+    "bytes": 152612,
+    "sha256": "841ba11edc0ed130e95b3533456165c240fc6f677187c93d950fd2109a65a179",
+    "reuse": "read-only indexed asset, not recopied"
+  }
+]

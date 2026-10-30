@@ -1,0 +1,24 @@
+{
+  "native_receipts": 54,
+  "final_rankings": 36,
+  "action_decisions": 18,
+  "qualification_counts": {
+    "INVALID_TRANSPORT_RESPONSE": 24,
+    "INVALID_OUTPUT_CONTRACT_RESPONSE": 12,
+    "VALID_STATIC_RAG_RESPONSE": 16,
+    "VALID_DIRECT_LLM_RESPONSE": 2
+  },
+  "valid_final_ranking_contract_count_including_invalid_agent_protocol": 20,
+  "eligible_final_rankings": 18,
+  "eligible_unique_execution_steps": 4,
+  "eligible_unique_logical_steps": 4,
+  "total_proposed_IDs_in_final_receipts": 360,
+  "invalid_attack_IDs": 0,
+  "duplicate_ID_occurrences": 63,
+  "native_prompt_tokens": 130642,
+  "native_output_tokens": 8265,
+  "known_wall_seconds": 1999.4604757130146,
+  "additional_interrupted_attempt_upper_bound": 1,
+  "interrupted_cost": "UNKNOWN",
+  "new_model_calls": 0
+}

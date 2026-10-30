@@ -1,0 +1,116 @@
+[
+  {
+    "path": "logs/error.log.1",
+    "p0_source_type": "application",
+    "p2_source_type": "other",
+    "file_count": 8
+  },
+  {
+    "path": "logs/log/cloud-init.log",
+    "p0_source_type": "other",
+    "p2_source_type": "system",
+    "file_count": 2
+  },
+  {
+    "path": "logs/log/debug",
+    "p0_source_type": "other",
+    "p2_source_type": "system",
+    "file_count": 2
+  },
+  {
+    "path": "logs/log/unattended-upgrades/unattended-upgrades-shutdown.log",
+    "p0_source_type": "other",
+    "p2_source_type": "system",
+    "file_count": 2
+  },
+  {
+    "path": "logs/log/zm/web_php.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 11
+  },
+  {
+    "path": "logs/log/zm/zmdc.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 3
+  },
+  {
+    "path": "logs/log/zm/zmfilter_1.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 3
+  },
+  {
+    "path": "logs/log/zm/zmfilter_2.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 3
+  },
+  {
+    "path": "logs/log/zm/zmpkg.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 3
+  },
+  {
+    "path": "logs/log/zm/zmstats.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 3
+  },
+  {
+    "path": "logs/log/zm/zmupdate.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 1
+  },
+  {
+    "path": "logs/log/zm/zmwatch.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 3
+  },
+  {
+    "path": "logs/error.log.2",
+    "p0_source_type": "application",
+    "p2_source_type": "other",
+    "file_count": 1
+  },
+  {
+    "path": "logs/log/dpkg.log",
+    "p0_source_type": "other",
+    "p2_source_type": "system",
+    "file_count": 4
+  },
+  {
+    "path": "logs/log/exim4/mainlog",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 13
+  },
+  {
+    "path": "logs/log/cron.log",
+    "p0_source_type": "other",
+    "p2_source_type": "system",
+    "file_count": 7
+  },
+  {
+    "path": "logs/log/shorewall-init.log",
+    "p0_source_type": "other",
+    "p2_source_type": "system",
+    "file_count": 1
+  },
+  {
+    "path": "logs/log/squid/cache.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 4
+  },
+  {
+    "path": "logs/containers/9d0ef814b64bee018f64c6dc1ca99c71434598848265022b10b864b0f09cc63b/9d0ef814b64bee018f64c6dc1ca99c71434598848265022b10b864b0f09cc63b-json.log",
+    "p0_source_type": "other",
+    "p2_source_type": "application",
+    "file_count": 2
+  }
+]

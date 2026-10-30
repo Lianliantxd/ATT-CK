@@ -1,0 +1,78 @@
+{
+  "source": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/AGENT_PAIRED_COMPARISON.csv",
+  "rows": [
+    {
+      "static_scope": "PAIRED_PILOT",
+      "static_method": "A0_DIRECT",
+      "agent_scope": "PAIRED_PILOT",
+      "valid_same_case_pairs": "1",
+      "sample_ids": "v2_sampled_0326",
+      "static_Top10": "0.0",
+      "agent_Top10": "0.0",
+      "static_MRR": "0.0",
+      "agent_MRR": "0.0",
+      "qualification": "PREREGISTERED_DEV_PILOT_VALID_SUBSET"
+    },
+    {
+      "static_scope": "PAIRED_PILOT",
+      "static_method": "A1_STATIC_BM25_LLM",
+      "agent_scope": "PAIRED_PILOT",
+      "valid_same_case_pairs": "1",
+      "sample_ids": "v2_sampled_0326",
+      "static_Top10": "0.0",
+      "agent_Top10": "0.0",
+      "static_MRR": "0.0",
+      "agent_MRR": "0.0",
+      "qualification": "PREREGISTERED_DEV_PILOT_VALID_SUBSET"
+    },
+    {
+      "static_scope": "PAIRED_PILOT",
+      "static_method": "A2_FIXED_QUERY_LLM",
+      "agent_scope": "PAIRED_PILOT",
+      "valid_same_case_pairs": "0",
+      "sample_ids": "",
+      "static_Top10": "NA",
+      "agent_Top10": "NA",
+      "static_MRR": "NA",
+      "agent_MRR": "NA",
+      "qualification": "PREREGISTERED_DEV_PILOT_VALID_SUBSET"
+    },
+    {
+      "static_scope": "CONTEXT_FIT_STATIC_V4",
+      "static_method": "A0_DIRECT",
+      "agent_scope": "PAIRED_PILOT",
+      "valid_same_case_pairs": "0",
+      "sample_ids": "",
+      "static_Top10": "NA",
+      "agent_Top10": "NA",
+      "static_MRR": "NA",
+      "agent_MRR": "NA",
+      "qualification": "POSTHOC_CONTEXT_CONTROL"
+    },
+    {
+      "static_scope": "CONTEXT_FIT_STATIC_V4",
+      "static_method": "A1_STATIC_BM25_LLM",
+      "agent_scope": "PAIRED_PILOT",
+      "valid_same_case_pairs": "2",
+      "sample_ids": "v2_sampled_0297|v2_sampled_0326",
+      "static_Top10": "0.5",
+      "agent_Top10": "0.5",
+      "static_MRR": "0.25",
+      "agent_MRR": "0.25",
+      "qualification": "POSTHOC_CONTEXT_CONTROL"
+    },
+    {
+      "static_scope": "CONTEXT_FIT_STATIC_V4",
+      "static_method": "A2_FIXED_QUERY_LLM",
+      "agent_scope": "PAIRED_PILOT",
+      "valid_same_case_pairs": "0",
+      "sample_ids": "",
+      "static_Top10": "NA",
+      "agent_Top10": "NA",
+      "static_MRR": "NA",
+      "agent_MRR": "NA",
+      "qualification": "POSTHOC_CONTEXT_CONTROL"
+    }
+  ],
+  "interpretation": "3 valid engineering episodes reported;valid same-case pairs are0,1 or2 depending control;not full12-case valid comparison or incremental-gain proof;no new execution"
+}

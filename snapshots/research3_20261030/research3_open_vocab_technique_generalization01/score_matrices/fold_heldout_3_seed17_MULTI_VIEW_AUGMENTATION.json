@@ -1,0 +1,53 @@
+{
+  "fold_id": "fold_heldout_3",
+  "seed": 17,
+  "augmentation": "MULTI_VIEW_AUGMENTATION",
+  "knowledge_version": "ATTACK_16_1",
+  "knowledge_sha256": "0a358a76a45db26972dd17b0345c1666e8d57e9ad4a080f0fd21a6daba7e98df",
+  "source_feature_sha256": "c66d200cc54c8e3599fdcaa0686d40b653e431882d6a3c789ab6a5e83ae4ea56",
+  "source_split_sha256": "879bac94d85a5106a36345b9d9ce3f85f0b383978d8a6b914bb2cec1374bd96d",
+  "source_train_one_view_sha256": "c60d39e2aecaa0ee953d9e4ca884a05066b1f50beed5adee622d05a73206b7ff",
+  "source_train_sha256": "4c4083111405b731fa4263abdc9fa7ede3354863d31fbff3edd67b54dad0de10",
+  "source_validation_inputs_sha256": "e71dbd74eb5f073b801d7fb396485c5ff7f2d042bac3f73ab86e40007599c1f4",
+  "source_heldout_inputs_sha256": "d51f5a76a5f53d8c2fffef8d910f07754031e8976c231abc9b10edfd438cea37",
+  "model_revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+  "weight_sha256": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba",
+  "source_models": {
+    "B3": {
+      "checkpoint_path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/checkpoints/heads/B3_fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "checkpoint_sha256": "1ff22519ab309ce5cb82e00e9c443b03e94c218e5dc4a79a2858f0ea64f87d41",
+      "historical_predictions_sha256": "1d58def60fa6ee393442261395cbc2172ba8853db5d8bb5ea39d5dedce81f19b"
+    },
+    "B4": {
+      "checkpoint_path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/checkpoints/heads/B4_fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "checkpoint_sha256": "deed53ffd2cffd0ca5384a89e9a78afb31f43888d081dbb8d8f569287eba55e7",
+      "historical_predictions_sha256": "5043eac96624a77fe51ff9d96d0b6e9a462995ab28ce266936140b32b2c82325"
+    },
+    "B5": {
+      "checkpoint_path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/checkpoints/heads/B5_fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "checkpoint_sha256": "b1ad615ceea71f4ee9d6d74dc202b28e17f40e38fd8d38505c0533fc49b93d7b",
+      "historical_predictions_sha256": "e1565b744229efe25a8e366b241a9cc80b71a3fce88bef336522e06c9f10869d"
+    }
+  },
+  "path": "score_matrices/fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.npz",
+  "sha256": "eaf1b1c4e50850d7a12f708ee967edb7c4d0dcd62eda4f2fd8aad0a6fe410df5",
+  "bytes": 2042844,
+  "rows": 453,
+  "columns": 216,
+  "partition_rows": {
+    "TRAIN": 128,
+    "VALIDATION": 95,
+    "HELDOUT": 230
+  },
+  "B3_missing_representation": "NaN; availability=seen; no supervised classifier; never sentinel in fusion",
+  "row_order": [
+    "TRAIN",
+    "VALIDATION",
+    "HELDOUT"
+  ],
+  "column_order": "LEXICOGRAPHIC_TECHNIQUE_ID",
+  "heldout_reference_read": false,
+  "validation_reference_read": false,
+  "new_training_updates": 0,
+  "new_GPU_calls": 0
+}

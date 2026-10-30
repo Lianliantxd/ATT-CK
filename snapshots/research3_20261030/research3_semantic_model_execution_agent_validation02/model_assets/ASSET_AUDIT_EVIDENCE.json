@@ -1,0 +1,319 @@
+{
+  "created_utc": "2026-10-27T10:55:11.373400+00:00",
+  "scope": "One complete inspection of seven explicitly listed known cache roots; not whole-disk absence proof",
+  "authorization": {
+    "new_weight_downloads": false,
+    "new_model_calls": 0,
+    "external_llm_calls": 0,
+    "new_GPU_experiments": false,
+    "old_budget_remaining_seconds": 0,
+    "new_budget_grant": "NOT_PRESENT_IN_USER_ATTACHMENT"
+  },
+  "python": {
+    "executable": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "process_machine": "arm64"
+  },
+  "os": "macOS-14.5-arm64-arm-64bit",
+  "disk": {
+    "total": 494384795648,
+    "used": 483468529664,
+    "free": 10916265984
+  },
+  "hardware": {
+    "args": [
+      "system_profiler",
+      "SPHardwareDataType",
+      "SPDisplaysDataType",
+      "-json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"SPDisplaysDataType\": [{\"_name\": \"Apple M3\", \"spdisplays_vendor\": \"sppci_vendor_Apple\", \"sppci_cores\": \"10\", \"sppci_device_type\": \"spdisplays_gpu\", \"sppci_model\": \"Apple M3\"}], \"SPHardwareDataType\": [{\"_name\": \"hardware_overview\", \"chip_type\": \"Apple M3\", \"machine_model\": \"Mac15,12\", \"machine_name\": \"MacBook Air\", \"number_processors\": \"proc 8:4:4\", \"physical_memory\": \"24 GB\"}]}",
+    "stderr": "",
+    "unrelated_serial_identifiers_removed": true
+  },
+  "framework_distributions_in_audit_python": {
+    "torch": null,
+    "transformers": null,
+    "sentence-transformers": null,
+    "onnxruntime": null,
+    "FlagEmbedding": null,
+    "tokenizers": null,
+    "safetensors": null,
+    "numpy": "2.3.5"
+  },
+  "known_existing_venv": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01/venvs/DeepSeek-R1-1.5B-OllamaCPU",
+  "cache_inventory": [
+    {
+      "root": "/Users/tianxd/.cache/huggingface",
+      "exists": true,
+      "files": [
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/150367d8744161cd17b3f6462a14f3a9648752da.lock",
+          "bytes": 0,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/949a6f013d67eb8a5b4b5b46026217b888021b88.lock",
+          "bytes": 0,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/e5c73d8a50df1f56fb5b0b8002d7cf4010afdccb.lock",
+          "bytes": 0,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/.locks/models--distilbert-base-uncased/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock",
+          "bytes": 0,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/models--distilbert-base-uncased/refs/main",
+          "bytes": 40,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.cache/huggingface/hub/version.txt",
+          "bytes": 1,
+          "symlink": false
+        }
+      ]
+    },
+    {
+      "root": "/Users/tianxd/.cache/torch",
+      "exists": false,
+      "files": []
+    },
+    {
+      "root": "/Users/tianxd/.cache/transformers",
+      "exists": false,
+      "files": []
+    },
+    {
+      "root": "/Users/tianxd/.ollama/models",
+      "exists": true,
+      "files": [
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+          "bytes": 387,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-40fb844194b25e429204e5163fb379ab462978a262b86aadd73d8944445c09fd",
+          "bytes": 487,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+          "bytes": 1065,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49",
+          "bytes": 4683073184,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+          "bytes": 487,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+          "bytes": 1117320512,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/blobs/sha256-f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+          "bytes": 148,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/1.5b",
+          "bytes": 857,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/7b",
+          "bytes": 857,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/metadata/sha256-96c415656d377afbff962f6cdb2394ab092ccbcbaab4b82525bc4ca800fe8a49.json",
+          "bytes": 3372,
+          "symlink": false
+        },
+        {
+          "path": "/Users/tianxd/.ollama/models/metadata/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc.json",
+          "bytes": 3375,
+          "symlink": false
+        }
+      ]
+    },
+    {
+      "root": "/Users/tianxd/.lmstudio/models",
+      "exists": false,
+      "files": []
+    },
+    {
+      "root": "/Users/tianxd/.cache/lm-studio/models",
+      "exists": false,
+      "files": []
+    },
+    {
+      "root": "/Users/tianxd/Library/Caches/huggingface",
+      "exists": false,
+      "files": []
+    }
+  ],
+  "verified_local_generation_asset": {
+    "manifest_path": "/Users/tianxd/.ollama/models/manifests/registry.ollama.ai/library/deepseek-r1/1.5b",
+    "exists": true,
+    "manifest_sha256": "a42b25d8c10a841bd24724309898ae851466696a7d7f3a0a408b895538ccbc96",
+    "layers": [
+      {
+        "path": "/Users/tianxd/.ollama/models/blobs/sha256-a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+        "media_type": "application/vnd.docker.container.image.v1+json",
+        "exists": true,
+        "expected_bytes": 487,
+        "actual_bytes": 487,
+        "expected_sha256": "a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01",
+        "actual_sha256": "a85fe2a2e58e2426116d3686dfdc1a6ea58640c1e684069976aa730be6c1fa01"
+      },
+      {
+        "path": "/Users/tianxd/.ollama/models/blobs/sha256-aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+        "media_type": "application/vnd.ollama.image.model",
+        "exists": true,
+        "expected_bytes": 1117320512,
+        "actual_bytes": 1117320512,
+        "expected_sha256": "aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc",
+        "actual_sha256": "aabd4debf0c8f08881923f2c25fc0fdeed24435271c2b3e92c4af36704040dbc"
+      },
+      {
+        "path": "/Users/tianxd/.ollama/models/blobs/sha256-369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+        "media_type": "application/vnd.ollama.image.template",
+        "exists": true,
+        "expected_bytes": 387,
+        "actual_bytes": 387,
+        "expected_sha256": "369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150",
+        "actual_sha256": "369ca498f347f710d068cbb38bf0b8692dd3fa30f30ca2ff755e211c94768150"
+      },
+      {
+        "path": "/Users/tianxd/.ollama/models/blobs/sha256-6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+        "media_type": "application/vnd.ollama.image.license",
+        "exists": true,
+        "expected_bytes": 1065,
+        "actual_bytes": 1065,
+        "expected_sha256": "6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4",
+        "actual_sha256": "6e4c38e1172f42fdbff13edf9a7a017679fb82b0fde415a3e8b3c31c6ed4a4e4"
+      },
+      {
+        "path": "/Users/tianxd/.ollama/models/blobs/sha256-f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+        "media_type": "application/vnd.ollama.image.params",
+        "exists": true,
+        "expected_bytes": 148,
+        "actual_bytes": 148,
+        "expected_sha256": "f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588",
+        "actual_sha256": "f4d24e9138dd4603380add165d2b0d970bef471fac194b436ebd50e6147c6588"
+      }
+    ],
+    "all_layers_complete": true
+  },
+  "service_readonly_metadata": {
+    "version": {
+      "url": "http://127.0.0.1:11434/api/version",
+      "data": {
+        "version": "0.35.1"
+      }
+    },
+    "tags": {
+      "url": "http://127.0.0.1:11434/api/tags",
+      "data": {
+        "models": [
+          {
+            "name": "deepseek-r1:7b",
+            "model": "deepseek-r1:7b",
+            "modified_at": "2025-04-01T16:16:00.000692215+08:00",
+            "size": 4683075271,
+            "digest": "0a8c266910232fd3291e71e5ba1e058cc5af9d411192cf88b6d30e92b6e73163",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "qwen2",
+              "families": [
+                "qwen2"
+              ],
+              "parameter_size": "7.6B",
+              "quantization_level": "Q4_K_M",
+              "context_length": 131072,
+              "embedding_length": 3584
+            },
+            "capabilities": [
+              "tools",
+              "thinking",
+              "completion"
+            ]
+          },
+          {
+            "name": "deepseek-r1:1.5b",
+            "model": "deepseek-r1:1.5b",
+            "modified_at": "2025-04-01T16:02:41.652749897+08:00",
+            "size": 1117322599,
+            "digest": "a42b25d8c10a841bd24724309898ae851466696a7d7f3a0a408b895538ccbc96",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "qwen2",
+              "families": [
+                "qwen2"
+              ],
+              "parameter_size": "1.8B",
+              "quantization_level": "Q4_K_M",
+              "context_length": 131072,
+              "embedding_length": 1536
+            },
+            "capabilities": [
+              "tools",
+              "thinking",
+              "completion"
+            ]
+          }
+        ]
+      }
+    },
+    "ps": {
+      "url": "http://127.0.0.1:11434/api/ps",
+      "data": {
+        "models": []
+      }
+    }
+  },
+  "official_model_metadata_only": {
+    "Alibaba-NLP/gte-modernbert-base": {
+      "url": "https://huggingface.co/api/models/Alibaba-NLP/gte-modernbert-base?blobs=true",
+      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "Qwen/Qwen3-Embedding-0.6B": {
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-Embedding-0.6B?blobs=true",
+      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "BAAI/bge-m3": {
+      "url": "https://huggingface.co/api/models/BAAI/bge-m3?blobs=true",
+      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "Alibaba-NLP/gte-reranker-modernbert-base": {
+      "url": "https://huggingface.co/api/models/Alibaba-NLP/gte-reranker-modernbert-base?blobs=true",
+      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "Qwen/Qwen3-Reranker-0.6B": {
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-Reranker-0.6B?blobs=true",
+      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  },
+  "new_model_inference_calls": 0,
+  "weight_files_downloaded": 0,
+  "server_connections": 0,
+  "upstream_HF_revision_of_Ollama_weights": "UNKNOWN; local manifest/blob pinned",
+  "dedicated_GPU_VRAM": "NOT_ESTABLISHED; Apple unified memory is not dedicated VRAM"
+}

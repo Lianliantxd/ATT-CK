@@ -1,0 +1,1412 @@
+{
+  "scope": "two source experiment directories; hash bytes only, no semantic content review",
+  "timing": "after input preparation/manual review, before result materialization; not a start-of-entire-task snapshot",
+  "created_utc": "2026-10-28T12:37:47.099044+00:00",
+  "files": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/CANDIDATE_COMPARISON.csv.gz",
+      "bytes": 64934597,
+      "sha256": "3f818ac88c38f8ec908a4733ddbaff77c87ef65b6848b55f469479e76fd6644d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/COUNTERFACTUAL_COMPONENT_DIAGNOSIS.csv",
+      "bytes": 558,
+      "sha256": "3f65dd7d90e347afd46430c7a36de22159c5a7c446e433ca3636395b53365fb3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/DIAGNOSTIC_PROTOCOL.json",
+      "bytes": 2482,
+      "sha256": "23a828d8408a9c53ccee8db44fec08d902c8afa9792ad54567caecdaf669b2e1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/FAILURE_MECHANISM_RESEARCH_DECISION.md",
+      "bytes": 1255,
+      "sha256": "79a7e025cf26ec62610917901aa926bcd131d79ea2859b34d39d2c180dcd9639"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GOLD_TECHNIQUE_HIT_MISS_SETS.json",
+      "bytes": 436683,
+      "sha256": "f87c64cceaf3b5a8ba0c5ba5a7d81094671d37793192fa40f28446bc466e721f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_HIT_C4_LOST_CASES.jsonl",
+      "bytes": 1600089,
+      "sha256": "e4406a489fc2f1fad86dd53801b50e8873a06a0195e7acd2096eb50b84d9d696"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_HIT_C4_LOST_DIAGNOSTICS.csv",
+      "bytes": 190118,
+      "sha256": "e9970237cf85f1174287494e32c7da6feeb4d3570efbca55161df34c02d3d480"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_EVIDENCE_CARDS.jsonl",
+      "bytes": 4198583,
+      "sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/GTE_MISS_GOLD_DIAGNOSTICS.csv",
+      "bytes": 3018911,
+      "sha256": "dd3d702b1926773395889e4e0f6698af3d5372ab0f916c1e1a630ecd4f109b73"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/IDENTICAL_VIEW_DIFFERENT_STEP_AUDIT.csv",
+      "bytes": 18,
+      "sha256": "ef7c684795b2a4654821f651b84bff971f8e456daf7a41440edd8ef2d2cc81ab"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/INDEPENDENT_HIT_RECOUNT.csv",
+      "bytes": 1262,
+      "sha256": "261cd2e1ab8cf5df8e15aea021034509044f6a9b28701d780afcf251c08fc6f6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/INPUT_LABEL_MAPPING_AUDIT.csv",
+      "bytes": 233552,
+      "sha256": "db7585dc7149528cfa0c2a22012b31acea5f9a1ce70ffa78fc8c6afeb911b969"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/LOST_CASES_FULL_ANALYSIS.md",
+      "bytes": 49158,
+      "sha256": "9d5b4a0d858538b18cb5d58cedb121bb3c82c3b7af83a9a2e3ba7cc03dd7b224"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/QUERY_DIAGNOSTICS.csv",
+      "bytes": 2482526,
+      "sha256": "2a3c756c7c799703f0bdfe47016d1156065810b44ccd28beeedc7a88d326018d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/QUERY_HIT_MISS_SETS.json",
+      "bytes": 143742,
+      "sha256": "a29a779dc0bd2806d4bd01bbfce916ce3e9977889047af1515989d28e836c2a5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/R3_OPEN_VOCAB_FAILURE_MECHANISM_DIAGNOSIS_RESULTS.md",
+      "bytes": 15390,
+      "sha256": "c39ea4e654dbcf8001793f29586add252abe37bc6ee831b2d19241cf9a4e476b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/README.md",
+      "bytes": 1195,
+      "sha256": "b41d5395960925b059a3a4541c2ad2f0c349fa961969619348ab98e7f8f8ee1f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/UNSEEN_GOLD_TECHNIQUE_DIAGNOSTICS.csv",
+      "bytes": 3382935,
+      "sha256": "6847ea8d45d888194c444f9940ab21f41dcd49fc58151d4c42a20c95ed4daa1a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/common.py",
+      "bytes": 988,
+      "sha256": "64b2f4471b92a9e5366b9708e97657ab072061924c416dd3840649c9ac9c27e1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/diagnostics/audit_input_interface.py",
+      "bytes": 1931,
+      "sha256": "6368cd89ed569bcd1a1662037ecc147ee8d746fd51f66136b2600b6550731d89"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/diagnostics/independent_audit.py",
+      "bytes": 8216,
+      "sha256": "fbd4221bfb461db4d3806fb639af42ba52cee0e401f8691126abcd3699f433c0"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/diagnostics/qualify_evidence_cards.py",
+      "bytes": 990,
+      "sha256": "d47a99d1c20eaedb6df663f3146d83823d7014238b173022cb76fd445fb58d27"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/diagnostics/run_diagnosis.py",
+      "bytes": 18608,
+      "sha256": "296239da003822b4aa4b46a0d38672002eb8dc89e45ad89b69c33ba4547bca26"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/diagnostics/summarize_evidence.py",
+      "bytes": 6376,
+      "sha256": "fd4c4e36b79ecf088b5605e19a7f0cefd0e15cbc2aa626862a18dfc9db06e59c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/diagnostics/verify_inheritance.py",
+      "bytes": 2880,
+      "sha256": "8a2da2c8e02f745fdfd10b7d29f3522bef4b4110dc19bf404f3f351e9a9c2654"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/inherited/ASSET_HASH_AUDIT.json",
+      "bytes": 27453,
+      "sha256": "50a1bca7624a3b34cd5142f386df699f72d6244661fb2b55ecdfc3f771a76258"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/inherited/PRIOR_REPORT_WHITESPACE_DIFF.patch",
+      "bytes": 1266,
+      "sha256": "7287e6c63677937d84f252014c5ed7058c68e363bb48ee98afb53a55fd4de830"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/inherited/USER_REQUEST_LATEST.txt",
+      "bytes": 11303,
+      "sha256": "ed637444812a7a11b0c9c4759236576cd4f726f26d5729b1aaab2ef877ee8c67"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/inherited/USER_REQUEST_SUPERSEDED.txt",
+      "bytes": 11312,
+      "sha256": "f7ee47f650c08718f714e0be24c5d23839781ddfa685b6512c22e4ddf14d5000"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/manifests/DELIVERY_SHA256.json",
+      "bytes": 9679,
+      "sha256": "aad9f0b978c37b74bdacc9fae2060b7dd83746d3a87c68fedd965af82a5f158f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/manifests/final_validate.py",
+      "bytes": 7867,
+      "sha256": "ff7056f2421b8c3284164e9705c07050d98acb773fcc0495ff529b7aba12c9cd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/protocol/DIAGNOSTIC_PROTOCOL_PREVIOUS_REQUEST.json",
+      "bytes": 2408,
+      "sha256": "afa315eca20eae0f5223bc141db898827100399950585f2bfb88747eb1ff73f4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/protocol/PROTOCOL_SHA256.txt",
+      "bytes": 65,
+      "sha256": "597e16d5f3522e71fb6732ee642c2b1f4e9fb541bf7da3d3a22545faef596568"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/protocol/register.py",
+      "bytes": 2832,
+      "sha256": "f1d51203e3585ca4f5178a82133795b8ae0837a3c5198d328931b100fcc1767b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/2026-10-28--open-vocab-failure--r01--ranking-diagnosis.md",
+      "bytes": 15390,
+      "sha256": "c39ea4e654dbcf8001793f29586add252abe37bc6ee831b2d19241cf9a4e476b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/analysis-report.md",
+      "bytes": 4139,
+      "sha256": "15fcd1865bfbb4b7db51cbf9d531ee7799d6f2a80021e6261f2233b56650a8d1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figure-catalog.md",
+      "bytes": 1319,
+      "sha256": "74904677ab259cdba132b6a69c2ca6e7efeccef659a007511a626d30fb267613"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure01_unseen_failure_partition.pdf",
+      "bytes": 2343,
+      "sha256": "d47d6d52c68ec328e85dd3aa340cb53db7139ec321f549600a3ee5006cffa9b4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure01_unseen_failure_partition.png",
+      "bytes": 70821,
+      "sha256": "dae7c98ba6f12b059ecedc899341f30e076a7578b4aaeca2ad64d0666ec0d39e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure01_unseen_failure_partition.svg",
+      "bytes": 4687,
+      "sha256": "53327ff82a2ef59ef8734966b9998fff989ce4c583fa2a1dfd71b863c07429be"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure02_component_removal.pdf",
+      "bytes": 2312,
+      "sha256": "ec4e468ec3feeae1c7acc901d0cc85794b1926620339bc202b458243f233c5de"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure02_component_removal.png",
+      "bytes": 53682,
+      "sha256": "1b6d6aabc7fbafead69773b596f2c78bdbf7c553e3782c78b0b38aced01b699a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure02_component_removal.svg",
+      "bytes": 5180,
+      "sha256": "45350ecccf68fd7df7730e13ec98d16fb90a5c7f8628c0faec48ee1340d51c17"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure03_scene_failure_partition.pdf",
+      "bytes": 2851,
+      "sha256": "37c76a99acbc771e519286e1f39b3a7d0da7345684da657b04a9a032881d854f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure03_scene_failure_partition.png",
+      "bytes": 55181,
+      "sha256": "0612ae509d1f6d0ed9ca6a1575db88a564902b6b6528c1075ea6d953f8a4fd33"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/figures/figure03_scene_failure_partition.svg",
+      "bytes": 13267,
+      "sha256": "551c4a882c8af6f1f2b6631e72d9aeb06cc1292641078d5db3753699d10cc62d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/provenance.json",
+      "bytes": 3494,
+      "sha256": "17df9b22b35eb45e6ee35905dafcfcd46804ad829a5efd5f3029b8e63866a8c6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/analysis-output/stats-appendix.md",
+      "bytes": 2569,
+      "sha256": "52601321f33d2b4d954c45987925036e53431ca49fadba12e9065ca7ebc0c8d6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/build_reports.py",
+      "bytes": 28479,
+      "sha256": "01d22033ca8ad9b927fd915f261cce24bade083037d8401834efcfed88628000"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/reports/make_figures.py",
+      "bytes": 5307,
+      "sha256": "a239176556e846739c2294e9dc4e4883844c9b2c96ca4fdc6fb0bb4a4f0212b1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/DIAGNOSIS_EXECUTION_RECEIPT.json",
+      "bytes": 1033,
+      "sha256": "5a475208daba5261fe294680ebb80f17defb7bfde5c8283d52358efed46af2e9"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/EVIDENCE_AND_MAPPING_SUMMARY.json",
+      "bytes": 1066,
+      "sha256": "a16f64f4b8db6cde3fc0ce8ba370f4c1909bee7a30ff2926728a93ad81ef2152"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/EVIDENCE_CARD_QUALIFICATION_RECEIPT.json",
+      "bytes": 474,
+      "sha256": "0b7a3d056aed808b269cd8e4b3d8af6311cc5396299a48244859bb8a9e05a892"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/FINAL_VALIDATION.json",
+      "bytes": 1644,
+      "sha256": "37f2c00997dea78cccafa4b05064ffb0884efce7b0e04e9e2788b4e1a3f6dc8a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/HIT_COUNTS_BY_FOLD_SEED_VIEW.csv",
+      "bytes": 4559,
+      "sha256": "e12b966329cb116361d49201bee3f8bf0b156412c61f96a7d3aeafd477a39650"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/INDEPENDENT_DIAGNOSTIC_AUDIT.json",
+      "bytes": 581,
+      "sha256": "8e836d1a385ba1717f96be11708c9efd554031640ee560ad3fb694ba3e356086"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/INPUT_OR_SCORE_MISMATCHES.csv",
+      "bytes": 18,
+      "sha256": "ef7c684795b2a4654821f651b84bff971f8e456daf7a41440edd8ef2d2cc81ab"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/PRIMARY_DIAGNOSIS_BY_SCENE.csv",
+      "bytes": 368,
+      "sha256": "d873e4fec5c592e2d4c27ee3e749c62b9959aeec0ddf854d47646b5e748210ea"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/RESEARCH_STATUS.json",
+      "bytes": 481,
+      "sha256": "ed06fc696d19e236b83a89ec4cbbc57d2acbb2b2a0fe2a98fe9a27394cac7737"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/SCORE_MARGIN_DESCRIPTIVES.csv",
+      "bytes": 1941,
+      "sha256": "1c8ef1f79635ad87fea533c37771d4dfc3675bf444e344540923afbaa653167f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/SOURCE_INTERFACE_AUDIT.json",
+      "bytes": 481,
+      "sha256": "3ecca5c8641bd18503cac93e9d5705592bd9c95c40911f95f16957c70f7f6e48"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/diagnosis.log",
+      "bytes": 6979,
+      "sha256": "ac5344fb9de3959bfa69d28820a4650d767e2f23d5cb2b3a7e34fdb249e1c4bc"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/evidence_summary.log",
+      "bytes": 1066,
+      "sha256": "a16f64f4b8db6cde3fc0ce8ba370f4c1909bee7a30ff2926728a93ad81ef2152"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_failure_mechanism_diagnosis01/results/independent_audit.log",
+      "bytes": 56,
+      "sha256": "7d76416475254c510d6fbf135332d4dc8bb42351157312d7a98c6e4fac2be34c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/B3_SUPERVISED_SCORES.jsonl",
+      "bytes": 122560311,
+      "sha256": "1b9de300ce9cc4292aa1459bbe9ac90fa4da82cbae9dd91ff372b801bfb53d88"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/CLASS_BIAS_ANALYSIS.md",
+      "bytes": 1347,
+      "sha256": "568d4e036b5ec063e89976c6d9aa4d3d72965b06cb2f61de35f244f7973a7f94"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/CLASS_FREQUENCY_ERROR_ANALYSIS.md",
+      "bytes": 2097,
+      "sha256": "2cefe7909f167163cceb41ae3605f9cd4da6f50e2f971d0d997f76bf6e9dc160"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/EXTERNAL_DATASET_QUALIFICATION.md",
+      "bytes": 4210,
+      "sha256": "c424c857a8d44538ccffa179d8b2d4c06125117fc3ab8824bd5d3625197c5548"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/EXTERNAL_DATA_INSTANCE_REGISTER.csv",
+      "bytes": 769,
+      "sha256": "b1355f2d14855dccb3ce0e419cc5e8b2eeac8c9b1e6bff533cdd3246162fd3d1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/EXTERNAL_EVALUATION_PREDICTIONS.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/EXTERNAL_EVALUATION_RESULTS.csv",
+      "bytes": 2671,
+      "sha256": "30ee9dd18a7be9a131dd9a19daedd0937b9030ff216fab5575234b23d33f686d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/EXTERNAL_LABEL_UNIT_AUDIT.md",
+      "bytes": 3509,
+      "sha256": "1c360dab02090f0c3b3143960c96bddc00e1c4b9f4542122687aa6c2e3801c64"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FROZEN_GTE_SCORES.jsonl",
+      "bytes": 22700783,
+      "sha256": "c57ac126ce8873c7ecb8b60a369d5f84997daa22541d110d4bd7928ed61d7741"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FULL_216_SCORE_MATRIX_MANIFEST.json",
+      "bytes": 129585,
+      "sha256": "f51eac4670ea4e23aeedcfc9c865c1962b7e8fde5fd4ec11d1626c6f935f83b8"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FUSION_METHOD_DEFINITIONS.md",
+      "bytes": 1638,
+      "sha256": "3e1a47d94b3cfb04a59a267f38f8a9e5a43ff74758c4251b27539d66daffb2b7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FUSION_PARAMETER_REGISTRATION.json",
+      "bytes": 7142,
+      "sha256": "cceb35fc46eaeb5cc4db5973e315ab0a7288cbac5a1d0d1722031944a42289e3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FUSION_PREDICTIONS.jsonl",
+      "bytes": 364917904,
+      "sha256": "3c4e950f5833716c10e748cafcba08b25afd7bad3154403545bd7a2a75c0cb24"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FUSION_RESULTS.csv",
+      "bytes": 47385,
+      "sha256": "0263ba57a9725a30da7abb17a4a375df1b4adaa5685f9074f441e4b35d119041"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/GENERALIZED_ZERO_SHOT_PROTOCOL.md",
+      "bytes": 2379,
+      "sha256": "eb436936631a117b3a8c46807801cc845b909d2ffcada559dd028b795036a295"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/INHERITED_MODEL_SCORE_AUDIT.md",
+      "bytes": 3183,
+      "sha256": "4da81af63f1d02a77a0c8477ca8443a89824c78f9ca312728ecfba714e21de6f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/LONG_TAIL_TECHNIQUE_RESULTS.csv",
+      "bytes": 80284,
+      "sha256": "455cd6061e213c74e00788fe61a6a0108d84a1d038740fab526d64632231dd41"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/MACRO_F1_COMPARISON.csv",
+      "bytes": 8214,
+      "sha256": "54711aebd39e619ce958ffcd91a4be9e4a73d0e8c6aa95e3daa4ed44c4a1508d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/METHOD_RESEARCH_DECISION.md",
+      "bytes": 1498,
+      "sha256": "602d38cbe52d6bb267159a37c07aa5598b0ca339f35dff0a5ee735321bf18e78"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/MIXED_SAMPLE_COVERAGE.csv",
+      "bytes": 6371,
+      "sha256": "cac82cd916724bf25874da942a1b82bfbf15677a7373fa3e9bdbf077376775a2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/OPEN_VOCAB_ERROR_ANALYSIS.md",
+      "bytes": 1721,
+      "sha256": "05754362091bccec0d252f3cf30b0be321a058567d10c018c9171e004883e797"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/OPEN_VOCAB_METHOD_COMPARISON.md",
+      "bytes": 4211,
+      "sha256": "c86fa603b3495094139eb779f060bf8af76f3b2e7679085d5fb5371d8fce5fa7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/PRIOR_BASELINE_RESULTS.csv",
+      "bytes": 22609,
+      "sha256": "37d007d949b6ab560620a51781763daa285dee51369e492db7a6ee33c15ae9e0"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+      "bytes": 33327,
+      "sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/README.md",
+      "bytes": 969,
+      "sha256": "737a67f4824a4ce9d0b30bec22c206cfaead5207165d3f677434f9c76aefa488"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/SCORE_CALIBRATION_DIAGNOSTICS.csv",
+      "bytes": 459617,
+      "sha256": "77b4bb86ca85afaf718dab63a4acb928e2cd204b34bbe676e0307c87124a69e5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/SEEN_CLASS_INVENTORY_BY_FOLD.csv",
+      "bytes": 108573,
+      "sha256": "5a85153b1fa2898388cbd7609f0783902adbb10deadceee416e6b0bd429cf242"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/SEEN_UNSEEN_MIXED_RESULTS.csv",
+      "bytes": 134777,
+      "sha256": "6d7359576c57d325cd742b893657d9c7c20b663b97df23f3e6d30e9690d2be77"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/SEEN_UNSEEN_TRADEOFF.csv",
+      "bytes": 23646,
+      "sha256": "004c58161fed4826482046d448a5253cf3d4266274089aefd6a8a97c4de0170f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/TRAINING_CLASS_PRIORS.csv",
+      "bytes": 296966,
+      "sha256": "c22e1912296a5cbb7029eb4344a774a30181305c57a68116ee0230f5063f1b5b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/calibration/ALL_PARAMETER_CANDIDATES.csv",
+      "bytes": 343455,
+      "sha256": "cfa1687f0706272f224b6cfc8abebfbd1714d18519fad7d05e73f8629aee9634"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/calibration/FITTING_RECEIPT.json",
+      "bytes": 14663,
+      "sha256": "3933ffa73e145f639fb6873265fc9f2f0f3761ecfe85e663294fd1914963ac69"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/calibration/SELECTED_PARAMETERS.json",
+      "bytes": 1943975,
+      "sha256": "7947e6caea44e1507ec7ce2e6ffef1339094d333650dd2c7208a6d026a87177f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/calibration/fit_calibrators.py",
+      "bytes": 5519,
+      "sha256": "258339b53d3fc07868778585f4167a1d6e13550b1b7ae77835562e4229b7f6e7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/class_priors/analyze_frequency.py",
+      "bytes": 4037,
+      "sha256": "132b4d21f486c5fdad066683f9bd4b164493ccd280273c8f634bd25e16c1f8f7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/EXTERNAL_DOWNLOAD_AUTHORIZATION_REQUEST.json",
+      "bytes": 5192,
+      "sha256": "8cedb59467ca0d29c3917d257b2d98c4e2f1bec68e966cb0e6450308303a6675"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/EXTERNAL_DOWNLOAD_AUTHORIZATION_REQUEST.md",
+      "bytes": 3396,
+      "sha256": "28e707eba53a212661a792a893d6e88cefe44a1cf119f921f05b4df27bdee106"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/INHERITED_EXTERNAL_AUDIT.json",
+      "bytes": 5767,
+      "sha256": "c6f5e0f46c38658b46a5987a7a6d7a65ef1897314b09fe3a0b0d107a34cc2dac"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/METADATA_ONLY_QUALIFICATION_AUDIT.json",
+      "bytes": 2195,
+      "sha256": "c6acfea5a610eb866f95ba6493fd18699bd5994be34721c860c59320ab36dc51"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/QUALIFICATION_AUDIT.json",
+      "bytes": 3501,
+      "sha256": "9b25d7fe2ba29eb08085d3f48895a867337ef20afe39b77c967a193e841a0bb2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/SERVER_DOWNLOAD_AUTHORIZATION.json",
+      "bytes": 1427,
+      "sha256": "470bb2cc313480163ecb3297dcbc5e0387197f36bbe27699a3266fb444b12e88"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/SERVER_DOWNLOAD_AUTHORIZATION_V1.json",
+      "bytes": 1085,
+      "sha256": "4151b16ae5a814868d38c986f026e2c184a4e08d4ec889e8edc0c5108a4ca682"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/SERVER_DOWNLOAD_FAILURE_V1.json",
+      "bytes": 427,
+      "sha256": "ab212a3b59fb067590fc2c6f35ad0e4aa44866a5cd2bcbafd5cb47bde19ef83f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/SERVER_DOWNLOAD_MANIFEST.json",
+      "bytes": 5557,
+      "sha256": "07d1e522f19ca58abb4bc386c74b170ba312054b19d14c451aa5c6e14b692e77"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/SERVER_STORAGE_AUTHORIZATION.md",
+      "bytes": 1572,
+      "sha256": "eb143f099a4dd428e0648d93148c0e685a3153d32ca85bab561d33dd1527d2ff"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/audit_qualification.py",
+      "bytes": 3806,
+      "sha256": "f559eb9176959cdb691603e66a0f4ddeeb741c1cbd20ba1cac75992595eea552"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/build_qualification.py",
+      "bytes": 7262,
+      "sha256": "63867df459d6f99a3085b53a82d0e04c109538e9cd9b2148f7e2917abdcb3c94"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/download_server_payloads.py",
+      "bytes": 5434,
+      "sha256": "44c110630de9f9de3a0a599faa21d646dc91e396fe62ce28e2131445bd084db7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/download_server_payloads_v2.py",
+      "bytes": 6599,
+      "sha256": "8a215cbc4c08a3616da89c04133792d064b939e921823ebd8bb1e98883315749"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/finalize_server_qualification.py",
+      "bytes": 10511,
+      "sha256": "d0f3218e07f234628c2da2bdd4f4365bece613467b59ecbde2bad00e3f425be9"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/metadata/4688_windows-security.lfs",
+      "bytes": 130,
+      "sha256": "06126201367df42134ac4dffce205b7b6f00dfdcb34a98f9ba71ed0da16a6c47"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/metadata/LICENSE",
+      "bytes": 11344,
+      "sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/metadata/SOURCE_RECEIPTS.json",
+      "bytes": 89441,
+      "sha256": "42b93945e9066ef047fcbbb22f1bd620de15f7e9ffafb349946003bb93aded6d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/metadata/atomic_red_team.yml",
+      "bytes": 1259,
+      "sha256": "eebac0c9661cabf3b1bf36f200880516e19db43a1c3680ef17e6db43c78ac4f8"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/metadata/crowdstrike_falcon.lfs",
+      "bytes": 130,
+      "sha256": "024996eeb06a5a3943a5564b6505b48dc64097a916df49c5c865199cd22d6a80"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/metadata/windows-sysmon.lfs",
+      "bytes": 133,
+      "sha256": "1002df7512e9df20132bde0ca5b526ae863cf19a81b2f913e9a522d569f305de"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/prepare_bag.py",
+      "bytes": 8435,
+      "sha256": "ef3c06f47444ea97540119350ca41d870ffe9bf05988a0a013c5a1ddd094b7cf"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/prepare_server_bag.py",
+      "bytes": 8419,
+      "sha256": "6d8966965a8df1733aaba825f0ba6dd04051d219bf22b31d8c6fa229c11efc36"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/server_receipts/PREPROCESS_AUDIT.json",
+      "bytes": 1351,
+      "sha256": "801f9899544f62288f00aa1497e2d92ebf1d7bc7e36153c07609c86616601ea7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/server_receipts/SERVER_DOWNLOAD_RECEIPT.json",
+      "bytes": 2266,
+      "sha256": "541d8c1cbe75f5d463a62a06658bb5c6d533b2a9f32c624b12656bec4cb47ff3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/external_dataset/server_receipts/SERVER_INTEGRITY_STDOUT_CAPTURE.json",
+      "bytes": 1383,
+      "sha256": "7b218b6f3ee7e7603257d148df5e375b4ef20445ff4528fde81fb31882650212"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/frozen_protocol/REGISTRATION_SHA256.txt",
+      "bytes": 65,
+      "sha256": "1454549045a06b7be3693d11ad89d278f6e89b1adde1a59b68c5708d651850c5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/frozen_protocol/register.py",
+      "bytes": 4851,
+      "sha256": "1886f85d179900d56bf2c9ca9fcb55f14712f97f95fa4385dce82d181d9c7745"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/fusion/core.py",
+      "bytes": 2445,
+      "sha256": "dc503c5bcbcaf1cb98eecd1468f8f7dca83a32479e709bbf4cfcec132de8c27f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/fusion/independent_audit.py",
+      "bytes": 22596,
+      "sha256": "73a3a9fb85554e6fcdf4aeb9125452389b2931429aecbed4a61f6920ef08a62c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/fusion/predict.py",
+      "bytes": 4979,
+      "sha256": "d6e444237ce78808985502e80a05c84647272490dffafd4f1ea904ea7b0680fc"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/fusion/record_audit_timing_disclosure.py",
+      "bytes": 2459,
+      "sha256": "89f3e7004dfeb6a84991788e61f869dbdce797e7c060dc1f37106b67401384df"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/CHECKPOINT_VERIFICATION.json",
+      "bytes": 202086,
+      "sha256": "a3cdce117f1d4289beeabb70534fba851b8f4cf030c1be70fd5aa0d4f30e07e4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/DELIVERY_HASH_VERIFICATION.json",
+      "bytes": 466065,
+      "sha256": "b936ff3d79b84e81cf103c19a25edf3653763430985e9d17ca8e31d13d00c302"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/EXPORT_SCHEMA_VALIDATION.json",
+      "bytes": 905,
+      "sha256": "cde5c2f3dc1558cbb718c18abc66c9869d0c6801cc5a1bfafb67652511ddf1fd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/FOLD_SUPPORT_SUMMARY.csv",
+      "bytes": 372,
+      "sha256": "7772b789ee2773f197d63f557d793e391e59a4ed3d090e883e254f5723aade0f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/PREDICTION_RECONSTRUCTION_COMPARISON.csv",
+      "bytes": 7199,
+      "sha256": "4f23755c6c8e3f2baf83b9f1118819dda7043ff9e14470c5c68ef7c460d37272"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/PREDICTION_RECONSTRUCTION_DIFFERENCES.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/SCORE_RECONSTRUCTION_VALIDATION.json",
+      "bytes": 966,
+      "sha256": "4fdf70d1dba106d18c02e6af677a319df971a59b53ec6508f9ed3b833b62f150"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/SPLITS_WITHOUT_EVALUATION_LABEL_SUMMARIES.json",
+      "bytes": 131729,
+      "sha256": "c6e46bec7bd93619692967d29b5004db3dcb88884327b34209de131ae5186446"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/inherited/USER_REQUEST.txt",
+      "bytes": 37870,
+      "sha256": "1d74a1728ab2ec16cdd4f09c6cd2bf0e5101a7675e01e4be1a783621be9829cd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/manifests/DELIVERY_SHA256.json",
+      "bytes": 36760,
+      "sha256": "fbb8d5879d04395f090315e0c037febf2bb096851e393ab88ce9c8ef90ec4df2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/manifests/final_validate.py",
+      "bytes": 19028,
+      "sha256": "b882b444b064ed1382c8d6c225fa0e2a54e508e12a520a6dfd9b44f8aa7cf14d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/open_vocab_evaluation/EVALUATION_IMPLEMENTATION.md",
+      "bytes": 5112,
+      "sha256": "06c939afda85e4a207784617729222bb5231445f56dd8e1152867e6abe084cd2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/open_vocab_evaluation/audit_pipeline_lineage.py",
+      "bytes": 4968,
+      "sha256": "35ff03c9bc77b449860e945106f5f77ab714a251c1e5901c528c11cee2d92392"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/open_vocab_evaluation/evaluate_saved.py",
+      "bytes": 41143,
+      "sha256": "0f49e256c605314db7a1fd947641e9e64b86708c3d7f73cc5d24bf7c4b3042ce"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/open_vocab_evaluation/evaluation.log",
+      "bytes": 198,
+      "sha256": "c7d805e690795f496f7af0a37455bcd3513d54ad040e93db65a4dca6204156bc"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/open_vocab_evaluation/tradeoff_evaluation.log",
+      "bytes": 195,
+      "sha256": "4a53f5a27e7df5c7aaa08db848c787f3dd5a44c05ec5c0b52811556d98f29f9e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/predictions/PREDICTION_RECEIPT.json",
+      "bytes": 8025,
+      "sha256": "e1cabf748bb996356828452033771758fd8453a6ebea6ca8e051f9f364264dd4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/predictions/TRADEOFF_PREDICTIONS.jsonl",
+      "bytes": 151050416,
+      "sha256": "f00c9447fdc87f6abe97372f46b7fa862c01cd5db3ca8fa14517be3f6202e3f1"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/2026-10-28--open-vocab-technique--r01--seen-unseen-review.md",
+      "bytes": 33326,
+      "sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/EVALUATOR_GOLD_ACCESS_TIMING_DISCLOSURE.json",
+      "bytes": 879,
+      "sha256": "c485eaabd6c79f8d7eb3e1f32b423bae3411c71c18077d3e0331520887f549b4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/FUSION_INDEPENDENT_AUDIT.md",
+      "bytes": 3238,
+      "sha256": "0beb8ea094b27fff412ac9e52d7b4d61d1001a4c6f717d05ca8d33240672d73d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/analysis-report.md",
+      "bytes": 5744,
+      "sha256": "54952bf9f0158fd2086dc077e6191fe6d49d61c8b327e4c7d1144822cf33f233"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figure-catalog.md",
+      "bytes": 3659,
+      "sha256": "dc78611d3ee0205f23eb47f40a599ccb98a5f53a187bceed0aeeab74ee47fc74"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure01_main_seen_unseen.pdf",
+      "bytes": 4924,
+      "sha256": "c03e13e907a91b941d7e6ecdb4479df645f762d7b8c4bd7c868bc5dc32ecf6a5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure01_main_seen_unseen.png",
+      "bytes": 123588,
+      "sha256": "eacadf8f7c06fa65ed9197d87cee63aad4a423abbaa2325985c43b647e0e7c48"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure01_main_seen_unseen.svg",
+      "bytes": 33105,
+      "sha256": "3d56b89957b70ece581d421c739544ef6c31361435cf0810e7de38c54f8a30af"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure02_seen_unseen_tradeoff.pdf",
+      "bytes": 4839,
+      "sha256": "5011f8683f36567e148f7144f8b714a62c02060cf843213ab9a9f5c3561a645f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure02_seen_unseen_tradeoff.png",
+      "bytes": 104500,
+      "sha256": "2f91cedb70a49be747217db6e7c11c07e089799b4c5c78fa30707aa6914cd914"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure02_seen_unseen_tradeoff.svg",
+      "bytes": 21769,
+      "sha256": "2a0d115b153e9994d0d7ad4e7e1b5727a763823c3e7ff18d55190fb282ff6407"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure03_mixed_coverage.pdf",
+      "bytes": 3474,
+      "sha256": "27b73320cd60780c564d2fc6b19922d538687bc62396abe5c3ca3101d0078199"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure03_mixed_coverage.png",
+      "bytes": 81108,
+      "sha256": "310473e6f2f51f0b0fa2e22dfaf37c81efc1bee4558149f23a959c75a2a291cd"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure03_mixed_coverage.svg",
+      "bytes": 16034,
+      "sha256": "db1e578577692105662d99a2fa31070523ff7c4fe22ca50fd940ecfd5cebc49c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure04_long_tail_class_mrr.pdf",
+      "bytes": 3602,
+      "sha256": "4a196cf3e009e83a0c552da76a9caabb3a8aa1f57eddc066a8ac9aa66b9a706e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure04_long_tail_class_mrr.png",
+      "bytes": 78737,
+      "sha256": "034a558d9609002caa68326f15a81bc52c3be5d1bc0171bd0e65369498aafb39"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/figures/figure04_long_tail_class_mrr.svg",
+      "bytes": 15719,
+      "sha256": "8b2fc460e747b22ed903c91d3bae4b0db963b662646d8f956fd3e3bd44cb79b8"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/provenance.json",
+      "bytes": 5790,
+      "sha256": "12f17d89ea0290d9f52c55d9af85125355266c7344a097eae42db927f431d53f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/analysis-output/stats-appendix.md",
+      "bytes": 3173,
+      "sha256": "4e82487db4ac6f47a24e44e49a51fd8b76afbbc7edc2388dc0e4eb7f60ef9e7c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/build_analysis_bundle.py",
+      "bytes": 15782,
+      "sha256": "639bfe15fd6a944c0d1b3d652051aa65d86a71b36f8f8b7a448da2fdf5425096"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/build_report.py",
+      "bytes": 30478,
+      "sha256": "0294be728593e9cfa4fd3b41cd0a25764fc41f9d1f0ee98f24de22cd73730787"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/reports/figures_open_vocab.py",
+      "bytes": 12659,
+      "sha256": "110d27619cb583cf1761c42bdfcfd011fe2c97fff1ffc59c0ceae64415a3dc34"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/DELETE_ONE_SCENE_SENSITIVITY.csv",
+      "bytes": 16945,
+      "sha256": "2e8281f7592adf8fcdcb30a13abdc08a5ec0fd24fc3d80afb19c583c493f2ec8"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/EVALUATION_AUDIT.json",
+      "bytes": 10165,
+      "sha256": "dfaff9d4e0fc96b8be49b9750501400edb71294e805b83993ba99f8d1bf4af4a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/FINAL_VALIDATION.json",
+      "bytes": 4293,
+      "sha256": "b34f33ce949d6f534ce190ec0fcf0432b0982807856fbb863859b297b3866a7d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/FREQUENCY_PERFORMANCE_ASSOCIATION.csv",
+      "bytes": 6486,
+      "sha256": "0d4ae9423eea0cee32271f3b688933710021816ccbfc03c9d925e5bd6b78a024"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/FUSION_INDEPENDENT_AUDIT.json",
+      "bytes": 6481,
+      "sha256": "0749badef18ee7d51087804926ec61f39f54bc9bf4c832da8e28db3f9a72ed50"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/HISTORICAL_BASELINE_METRIC_RECONSTRUCTION.csv",
+      "bytes": 1386,
+      "sha256": "33524986cea6e19fd31cf8a3d09755a74cda0b5f10dad0dc1b6738e9da39dbb6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/OVERALL_RESULTS_BY_SEED.csv",
+      "bytes": 74670,
+      "sha256": "06d7f7205b940b28e1325dc23d7f1f7f17c79d7822bc36dec029a009796e64ae"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/PER_CLASS_RESULTS.csv",
+      "bytes": 9334605,
+      "sha256": "6af5450837a9182712d81c5907643a9f9784445a471cb1c8a4b3c7ee4f2aa284"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/PER_SAMPLE_RESULTS.csv",
+      "bytes": 13366225,
+      "sha256": "7ac2e3d365fc62e9b5c391d0b941cf44c9c198dae86ca8f4b88365a1920d3e9c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/PIPELINE_LINEAGE_AUDIT.json",
+      "bytes": 3724,
+      "sha256": "bb64570ca92451d453a7c327952044801f7de36988e345bb44f2423cfa26b282"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/PRIMARY_HYPOTHESES_BY_SCENE.csv",
+      "bytes": 8891,
+      "sha256": "a8b1ef6a05b62ed7e5217cb655d51ba4b12fcc80586196970c02d1763d01682f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/PRIMARY_HYPOTHESIS_SUMMARY.csv",
+      "bytes": 10815,
+      "sha256": "0e11406c1313be3fdb723eee981b7f6983b2d71382e80d9c34a6b21e798e78db"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/RANK_FAILURE_PHENOMENA.csv",
+      "bytes": 7504974,
+      "sha256": "3f818e34c75613557cc642a92c2aba859e53acf0da42854b9fe897e6690771dc"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/RANK_FAILURE_PHENOMENA_BY_SEED.csv",
+      "bytes": 7469,
+      "sha256": "e2ebfa8e21ba1ee09c7cb2921ff5f6cb0673252989a349cae3b9300b31f5040f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/RANK_FAILURE_PHENOMENA_SUMMARY.csv",
+      "bytes": 6284,
+      "sha256": "177b27a6b7901f8452ca6b1cd0d161d57c577a29784ae3ba0dba06a22d6491de"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/RESEARCH_STATUS.json",
+      "bytes": 510,
+      "sha256": "3daac78af133595fbaf7caacbd26d606df3c3d09707a76754fd4905b6f60a732"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/SCENE_RESULTS.csv",
+      "bytes": 198639,
+      "sha256": "0c581c643521e6a3767269923896156930a858a4b11585730fcde587e4d3943d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/STRATA_BY_SCENE.csv",
+      "bytes": 1100584,
+      "sha256": "7647cdd35dcf48139f3265fff8f5497645529d61cf419f99533b534d4692554d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/STRATA_BY_SEED.csv",
+      "bytes": 395065,
+      "sha256": "0b946486dbd2491f7a880bc2f1616b1ad987e6bd56fc1f4a4b056b61505ab050"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/TRADEOFF_BY_SCENE.csv",
+      "bytes": 90565,
+      "sha256": "a38b995d4c8a5be3b572028e7386bee06d190c5e82904a00494829f3ca274364"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/TRADEOFF_BY_SEED.csv",
+      "bytes": 33151,
+      "sha256": "1dc6648ef712bc922cd4f18ac6d6ba49e60c23efeb9fbf7a42cf550134460dd3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/TRADEOFF_EVALUATION_AUDIT.json",
+      "bytes": 10131,
+      "sha256": "67d8620f19390cbde976d06d4d9716e1a771110cb42c9f39e58147e1a0ecfda9"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/results/fusion_independent_audit.log",
+      "bytes": 5707,
+      "sha256": "ca8755af676379c1ac1f451074dde57fe574c542793297a0fc6e63c95fcdf1c4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2836,
+      "sha256": "df1f0f357a99cb5623088c13d256878a9e2c2141d221780b7c23e418dd760d83"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2082613,
+      "sha256": "df0dc0d89c54730fe4c3374beee4ea197db63f5df3e92adf167af46ab12e10b7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2806,
+      "sha256": "62cddd5d09e09dd7458b0ced9e859dbdaf33655adec2461dfc73f0d7c8369822"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2081355,
+      "sha256": "d34c5d7456474f83c94ceb4af35c3e82ae4f594d36f9b113f468422e0120e9b5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2836,
+      "sha256": "36264c3e078bf686a5cfb46d894fd2bcdff5e43aefdab628dc4071960eac8c98"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2084221,
+      "sha256": "a80f282e13151ec922e54a8c5f3383dd4888f3c4ac1c7a53ed0ce54293c525b5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2806,
+      "sha256": "128b21160e1f4414f45424f636255ca2561e8a99b22e614c71cea2caece38716"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2083680,
+      "sha256": "a029f34eab1e36828f2828cffdb1c95e962ce6a7a8196565d19e68787e83ff79"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2836,
+      "sha256": "6b35b6e55ebb8566144d9386e9f4915df0279d54ae811ef261f9fcdf8e4b6366"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2080220,
+      "sha256": "c5597420e2721aa58e1afd4cfb39b8554410a0d4bbb66b37dcb0e24164024305"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2806,
+      "sha256": "bfd052540b127728183e8c519313f576eca61e557cdea7dfe7270659196cd50d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_1_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2079017,
+      "sha256": "b4ee1b23474ae0ca1200a2e398c6382c7841041cac139bc6fe1e497e5ca4e93d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2836,
+      "sha256": "df39a578a01d37a385a5f413fa27a54b774b296cc6801cbcd07ef1a5593438cf"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2134224,
+      "sha256": "75c918b314efde151a67b1562db00472986630010e6277ae16411954e1810005"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2806,
+      "sha256": "4f16e8a263eab7257316f88fabf8437bc23bd2b48f47ec8c6cbb3832eda21415"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2133810,
+      "sha256": "5b648575481ef6a3672eb4c1df2f8734aeed3c1b0417647509ac69c3d147adea"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2836,
+      "sha256": "10868ba2f416f9746548ef10d6969155f950edec5cb3d73c2d23e1290c0a5846"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2135830,
+      "sha256": "14a54aaf3c25af943469a1db02d08d2bb22d5d268bab0d7dbb16e6c559fdf525"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2806,
+      "sha256": "e5901e5dec4f19e6031ce81967e38f45a899deada56794227859482449d697ed"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2134608,
+      "sha256": "71bebbef0fc451a7f67bde44ca89a95255c392f538b2f20949dca797e792eeb8"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2836,
+      "sha256": "66b94239bdff1277784e05fbc29820422ee48443477a804ce89e660ef6ba114a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2132889,
+      "sha256": "97e1848c77dda83a28bf03c8d1d1abb63f1ccdf4e7f19aef5bc6c3c404ebd797"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2806,
+      "sha256": "8c7bfacda3bcfd90970b072d1e8b5c6807734ad215dd8c8e05e7df8bf70e571a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_2_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2132066,
+      "sha256": "cae89538c03fed308e8fcafca26fe78e8bb07814f9499c09f9b0fcd2f6131701"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "6ad3015a9c02f3ccbede29ecfbd4a81e2b85cab7acf5cc972f063189e881c672"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2042844,
+      "sha256": "eaf1b1c4e50850d7a12f708ee967edb7c4d0dcd62eda4f2fd8aad0a6fe410df5"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "a40c4deb001da834346df3a0f2823a44fa85d46ea9d3a0af295dc41e451050c8"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2043726,
+      "sha256": "466b45591ebc7d348ee2101aeffcc6df4d65174fe9dd3f47b22c837492758843"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "4f10696553d524f25d7e22a76218f8e7b13a1bee5d271f20b5e693a825c3b0f7"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2044315,
+      "sha256": "b6cbb8ef30da4bca7e1823351673fbf5110c7960413ca81528c820777a3ee27e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "7a525290031ba8358e1bd48ef275dac52c49838145439c8c7153d4c80b0a6d02"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2045213,
+      "sha256": "91cbe9eac12f397d8fab9450bcb1fe63c50c52afb96f6574ae3989a6f6c28a9d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "3d3ffa06bb9f4e0f3e7ddd2afb128f8cd62a566bacdb36a6a33228b2636fc5ca"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 2042109,
+      "sha256": "ab39fa5285a0e9e1d903a87c9338febf58127255e830f57c0b04a2f27d0310c9"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "086781db5dea57c8f31ddefe1c64b4b56cb15ede35dfba17a986c3666f33a35a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_3_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 2041520,
+      "sha256": "cb051285040bd95a3dce8d721b0c1d1f50121a76ac0859fb06494947614e6a5c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2834,
+      "sha256": "cf4c54c8e50a2e92e852107540a6ede054a8e2f02482d86449189239eb611863"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1222908,
+      "sha256": "13092c5b47ad0d11008b3d515206a8aba3ccbde95221b430479351fa5b3e5c50"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2804,
+      "sha256": "14b23f8fa2e27fd5928d48d1db4a1c67500368a9d018525b41521b9a9e0911a0"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1223175,
+      "sha256": "26eb115b57649bc748dfbc5b0967464039df0bb600b4d90a3bfe5d55d2111dc9"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2834,
+      "sha256": "a2a050b3de8f41273b90c8fb9d89a1331aec765256fae95b38ec33faf84fa50c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1224531,
+      "sha256": "ec24e6a10cfe9e8053445cda36e7eb633f5ce6c719cd76fa5f4c332ba8197c78"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2804,
+      "sha256": "8a3762f39e261f59a77f02786c05208ccef1928e8a301d9ee2d8945cce537efc"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1224236,
+      "sha256": "d47b9b4e118bd1635c0c4ae2b4cc77f6211ecbcf8cf15431f694ba944e1f2701"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2834,
+      "sha256": "e3b15d3b4fb89d75a98c3776919279e45cbf02403ff0609f62742701210d915f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1222878,
+      "sha256": "c82f9027d521600e9c360e07fba5c764e6fae9cead2e2eaf5eaa38f771e184f4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2804,
+      "sha256": "555a1c2c61084b4d0c2824a1e0e0e06a32627e3eda507113c50e712f53d2c259"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_4_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1222033,
+      "sha256": "290bf352cb09166116a54099683b2ab1d44665e6393404e334aedebc9521728b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "36ae555991607bc65ed2d1408999218f104d8eab42816d3f820d71184ff0632f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1766258,
+      "sha256": "e614a47cc4cdb52abb15277cb7ec2cf05730e40fd99af69ef061bb2d65207515"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "9b20f42068b8b6f2c10ab269d7d1c0e31a871a3840f0f35b16543d0e9ff9f694"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1764566,
+      "sha256": "442b4f019bd7e0d4478c73d0b127992183903e70abd9aa7a495b3483b8e43ab9"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "19bc3be383e08948486996aa72f908fb83cb4c1b3c6744ef8204dbf13f8f6d8a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1766664,
+      "sha256": "d49c2525115a0957c14deba06d6ad9b41a2933a156ce7964d0909a510819875d"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "5d0ed3a136f2353aec40fcec6cf90f99b23a6d75e30ddf8181832e24d36549f6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1766377,
+      "sha256": "7e9e569f4bce3febd89412a500a178d01d8a2b1d0e30c4a0066c0fe65ab7f73a"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "1a7b6e4f7fbaa160ca1e21dc8d842307062a320796342e0fdfe6c0d6042cdb49"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1764195,
+      "sha256": "655e3be834b95aa8cebfb089fff97698ed436f76e95a2bdb2b5f0e00ad545915"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "5a0f5cc050c4f300356e484bc98f12e174912e71923d96341548e24fe6fdffe6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_5_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1763741,
+      "sha256": "4ee13c90d5215f8a258de726c2a3508e699d0929516ef77b6fb73cd714d1a03c"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "b9d8ed461c62a28dc4854d62e4b76d79fcd4b68c5cdfd2b9e06aa1c08ec3376e"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1757635,
+      "sha256": "0d5ffadc0483f06f1dbff4ff11388fdff9f390955f0086f4608d8973e850f3c4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "e2fb49d18e103e1c8e55e163f01eae47d2406862c97366279aa60f8ca5ad4dc3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1757727,
+      "sha256": "2a6d1f36647f3fb0d4133a4e51dfc61601e1176a304b52ab884f2e3ee556e0b2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "b89136070717e1ba67e00cb75802f9100cb20a1efba74f3c259afed089ed5f27"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1759793,
+      "sha256": "04f06b86167981c1f83dc97a48345537f8df810861a801f69c093e81a14e72c3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "eaf94d4b9f5c9eb22e272f8ac76cd6072df263cc1a7dce3dbbb73c9f9a2d9fb4"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1758124,
+      "sha256": "b5701d987599df9441e5de9be33348da858c2f68e0932bc25c5fd1f32e23caed"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "64a124a88c324b6b4bf3e48cbd0337a11e7b8914ab56959a84bc252de203e570"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1756271,
+      "sha256": "a6ca2ad77c5c3384873d44cd9129b4ce3effedd40df19acd46aeb2c7515a280f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "d4ad25f67128d686e69b56c8055db933f10b9749c681abbe871378d9ccd031e3"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_6_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1755728,
+      "sha256": "38e4758cb2e07ca52e390fa010e37c342f62217abc5fec21f1106952d46da564"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed17_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "19fbeaa2ebb1fdcae6c96e07a9776e906ff9fa71b284c460d0c0f2760ab3def6"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed17_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1681377,
+      "sha256": "88140a04819b07caa01342362e583ae6c10921519945c1cee20e0f54ac9c17b2"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed17_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "251605608b6b0f6046292b302d94d6956f615db75726676ffda9d1fa43133caa"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed17_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1680895,
+      "sha256": "356a70ab73cdea959f143066fbbd9a92e7c160694cc6ba23538615074d5d1f79"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed42_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "5ce09bbb37dbbb3e546f389ac314ca56aee753ecdadb78a4ea565a258f1ddb05"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed42_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1682376,
+      "sha256": "14b862c6d7d0b250fd6d59aebbd168152632d3d83b75ab1336296424bd3d466f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed42_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "5c9da251ab1005d323c076e03db2bb2fc2618151a202738923be528642b5e47b"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed42_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1681883,
+      "sha256": "7025a2cd6767fdb04bcd527f11fbb0ca15551bae7f0e886e685bb003d505fe87"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed73_MULTI_VIEW_AUGMENTATION.json",
+      "bytes": 2835,
+      "sha256": "dd3edfd6d42187318a9e1318e9a1cd885dfc129dddbee3762fc1bcce6f7cb992"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed73_MULTI_VIEW_AUGMENTATION.npz",
+      "bytes": 1680896,
+      "sha256": "3a3d1e31888403cee94f44efcd81b1e45b2253a41b6d7dfebaa498cc9f564669"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed73_ONE_VIEW_PER_STEP.json",
+      "bytes": 2805,
+      "sha256": "3c71d140d931c7022b86cb9314a5ab75c1a5e876a29310ea1fd7ddd1ab525c12"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/fold_heldout_7_seed73_ONE_VIEW_PER_STEP.npz",
+      "bytes": 1679582,
+      "sha256": "ce495dfa0932dfd3944ab52cc9a404e719527dae98e584cadd6444db3fe1db80"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/reconstruct_scores.py",
+      "bytes": 26076,
+      "sha256": "62f1991056e66666ad3c99c77edc772db63e9c0ab782841f7b09a85f25599d8f"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/reconstruction.log",
+      "bytes": 3734,
+      "sha256": "9ed0f8baf0b490f682f957afa5ab609cf1b8cd9a83ee3b78b47349ed0770d582"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/score_matrices/validate_score_exports.py",
+      "bytes": 3605,
+      "sha256": "fef1b4d4888b06e5139979e9447a4f5085db04402665c9d8f40e8265fc3c4797"
+    }
+  ]
+}

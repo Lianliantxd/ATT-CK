@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "log_shape": [
+    975,
+    768
+  ],
+  "knowledge_shape": [
+    216,
+    768
+  ],
+  "features_sha256": "c66d200cc54c8e3599fdcaa0686d40b653e431882d6a3c789ab6a5e83ae4ea56",
+  "all_input_and_knowledge_hashes_match": true,
+  "unit_L2_normalized": true,
+  "B1_recomputed_from_same_features_as_trainable_heads": true,
+  "prior_B1_preserved": "inherited/CPU_ONLY_B1_PREDICTIONS.jsonl",
+  "queries_with_changed_B1_top10_order": 49,
+  "cause_of_possible_minor_changes": "prior extraction used different duplicate batching; no score direction or Gold-based selection",
+  "Gold_read": false
+}

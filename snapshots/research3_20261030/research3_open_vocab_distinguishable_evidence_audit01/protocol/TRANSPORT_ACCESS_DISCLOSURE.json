@@ -1,0 +1,11 @@
+{
+  "preseal_mixed_source_card_JSON_parsed_for_schema": true,
+  "prediction_fields_present_in_parsed_container": true,
+  "reviewer_visible_candidate_values_or_scores_newly_displayed_before_first_pass_seal": false,
+  "historical_predictions_previously_exposed": true,
+  "independent_coordinator": false,
+  "OS_or_byte_access_isolation_claimed": false,
+  "blinding_status": "INDEPENDENT_BLIND_REVIEW_NOT_AVAILABLE",
+  "seal_field_meaning": "payload access false is restricted to reviewer-visible value exposure this run,not programmatic parsing or OS bytes",
+  "source_record_retained": "original schema inspection tool call and original disclosure/seal fields retained;no restored blind qualification"
+}

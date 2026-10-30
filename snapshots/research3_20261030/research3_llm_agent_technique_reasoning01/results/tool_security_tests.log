@@ -1,0 +1,31 @@
+test_arbitrary_episode_index_rejected (__main__.SecurityTests) ... ok
+test_bm25_zero_match_declared (__main__.SecurityTests) ... ok
+test_budget_invalid_calls_count (__main__.SecurityTests) ... ok
+test_context_native_order (__main__.SecurityTests) ... ok
+test_cross_episode_id (__main__.SecurityTests) ... ok
+test_evidence_unseen (__main__.SecurityTests) ... ok
+test_initial_is_copy (__main__.SecurityTests) ... ok
+test_invalid_candidate (__main__.SecurityTests) ... ok
+test_knowledge_counts_query_calls (__main__.SecurityTests) ... ok
+test_literal_no_regex_execution (__main__.SecurityTests) ... ok
+test_new_row_limit (__main__.SecurityTests) ... ok
+test_path_traversal (__main__.SecurityTests) ... ok
+test_public_knowledge_separate_budget (__main__.SecurityTests) ... ok
+test_ranking_duplicate (__main__.SecurityTests) ... ok
+test_ranking_length (__main__.SecurityTests) ... ok
+test_real_native_evidence (__main__.SecurityTests) ... ok
+test_repeated_query_counts (__main__.SecurityTests) ... ok
+test_sql_literal_rejected (__main__.SecurityTests) ... ok
+test_submit_once_no_gold_feedback (__main__.SecurityTests) ... ok
+test_time_range_explicit_rejection (__main__.SecurityTests) ... ok
+test_token_limit_truncates (__main__.SecurityTests) ... ok
+test_unknown_context_id (__main__.SecurityTests) ... ok
+test_unknown_field_gold (__main__.SecurityTests) ... ok
+test_unknown_source (__main__.SecurityTests) ... ok
+test_unknown_tool (__main__.SecurityTests) ... ok
+test_unseen_context_id (__main__.SecurityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.875s
+
+OK

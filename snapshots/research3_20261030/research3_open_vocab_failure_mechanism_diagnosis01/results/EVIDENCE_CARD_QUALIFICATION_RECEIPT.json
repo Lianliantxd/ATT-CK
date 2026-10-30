@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "records": 384,
+  "input_sha256": "80661cd468330a4de63011f2ad4ca02c9286eadfe6270053074ae181c8bbefe0",
+  "output_sha256": "d1bcc8cbaf993f15f8ba1eca14a1958988f92e1d06a8fe94be485c32e9256f80",
+  "change": "Replaced unverified per-case truncation assertion with limited-view fact and explicit unknown; no scores/ranks/text content changed",
+  "no_model_calls": true,
+  "source_sha256": "d47a99d1c20eaedb6df663f3146d83823d7014238b173022cb76fd445fb58d27"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "episode_index": 0,
+    "sample_id": "v2_sampled_0000",
+    "scenario_id": "1",
+    "simulation_id": "1_autostart_localaccount",
+    "step_id": "15",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 1,
+    "sample_id": "v2_sampled_0001",
+    "scenario_id": "1",
+    "simulation_id": "1_autostart_localaccount",
+    "step_id": "23",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 135,
+    "sample_id": "v2_sampled_0135",
+    "scenario_id": "2",
+    "simulation_id": "2_cron",
+    "step_id": "1",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 136,
+    "sample_id": "v2_sampled_0136",
+    "scenario_id": "2",
+    "simulation_id": "2_cron",
+    "step_id": "10",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 176,
+    "sample_id": "v2_sampled_0176",
+    "scenario_id": "3",
+    "simulation_id": "3_ssh_apt",
+    "step_id": "1",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 177,
+    "sample_id": "v2_sampled_0177",
+    "scenario_id": "3",
+    "simulation_id": "3_ssh_apt",
+    "step_id": "10",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 266,
+    "sample_id": "v2_sampled_0266",
+    "scenario_id": "4",
+    "simulation_id": "4",
+    "step_id": "10",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 267,
+    "sample_id": "v2_sampled_0267",
+    "scenario_id": "4",
+    "simulation_id": "4",
+    "step_id": "12",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 285,
+    "sample_id": "v2_sampled_0285",
+    "scenario_id": "5",
+    "simulation_id": "5",
+    "step_id": "2",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 286,
+    "sample_id": "v2_sampled_0286",
+    "scenario_id": "5",
+    "simulation_id": "5",
+    "step_id": "3",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 287,
+    "sample_id": "v2_sampled_0287",
+    "scenario_id": "6",
+    "simulation_id": "6_macro_binary",
+    "step_id": "1",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 288,
+    "sample_id": "v2_sampled_0288",
+    "scenario_id": "6",
+    "simulation_id": "6_macro_binary",
+    "step_id": "11",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 373,
+    "sample_id": "v2_sampled_0373",
+    "scenario_id": "7",
+    "simulation_id": "7",
+    "step_id": "1",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  },
+  {
+    "episode_index": 374,
+    "sample_id": "v2_sampled_0374",
+    "scenario_id": "7",
+    "simulation_id": "7",
+    "step_id": "10",
+    "selection": "metadata-only lexicographic first2 per scene, no Gold"
+  }
+]

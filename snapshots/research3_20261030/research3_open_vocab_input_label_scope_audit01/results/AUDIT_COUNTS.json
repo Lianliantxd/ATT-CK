@@ -1,0 +1,41 @@
+{
+  "all_frozen_queries": 384,
+  "all_logical_steps": 80,
+  "all_target_gold_assignments": 520,
+  "target_techniques_checked": 12,
+  "gold_scope_queries": 34,
+  "gold_scope_logical_steps": 8,
+  "scope_flagged_query_gold_assignments": 34,
+  "scope_query_all_author_parent_assignments_checked": 51,
+  "scope_query_prior_target_gold_assignments": 46,
+  "scope_query_original_label_assignments_checked": 51,
+  "unique_affected_queries": 379,
+  "affected_logical_steps": 79,
+  "affected_gold_assignments": 515,
+  "affected_candidate_pairs": 1700,
+  "affected_competitor_instances": 1171,
+  "multi_defect_queries": 327,
+  "affected_intersect_gold_scope": 34,
+  "affected_intersect_AI_insufficient": 251,
+  "triple_intersection": 0,
+  "defect_count_distribution": {
+    "1": 52,
+    "2": 60,
+    "3": 128,
+    "4": 87,
+    "5": 45,
+    "6": 7
+  },
+  "T1574_affected_queries": 130,
+  "affected_actual_model_error_causes_unknown": 379,
+  "known_query_prediction_errors_causally_attributed_to_definition_defects": null,
+  "affected_queries_unconfirmed": 0,
+  "comparison_input_defects_confirmed": 12,
+  "causes_confirmed_in_bounded_pipeline": {
+    "TEXT_TRUNCATION_CONFIRMED": 1,
+    "DESCRIPTION_NOT_IN_CURRENT_SOURCE": 11
+  },
+  "exact_matrix_vs_STIX_release_mismatch_count": null,
+  "local_source_ID_coverage_gaps_for_target_techniques": 11,
+  "mapping_errors_found_in_checked_original_label_chains": 0
+}

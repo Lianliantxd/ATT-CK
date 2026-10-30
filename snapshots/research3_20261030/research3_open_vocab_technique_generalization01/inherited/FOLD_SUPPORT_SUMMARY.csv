@@ -1,0 +1,8 @@
+fold_id,seen_techniques,unseen_techniques,unique_train_steps,train_r0_rows,validation_rows,heldout_rows
+fold_heldout_1,56,160,124,124,125,220
+fold_heldout_2,60,156,122,122,225,130
+fold_heldout_3,66,150,128,128,95,230
+fold_heldout_4,75,141,174,174,10,95
+fold_heldout_5,69,147,147,147,230,10
+fold_heldout_6,66,150,137,137,60,230
+fold_heldout_7,56,160,137,137,220,60

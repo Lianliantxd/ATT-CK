@@ -1,0 +1,20 @@
+{
+  "protocol": "P2",
+  "input_view": "sampled10_per_source",
+  "knowledge_view": "K2_DESCRIPTION_16_1",
+  "representation": "word",
+  "method": "SourceWiseTFIDF_Max",
+  "command": "see fusion run.json",
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/fusion_P2_word/Max.jsonl",
+  "exit_code": 0,
+  "completion_verified": true,
+  "actual_prediction_count": 385,
+  "input_sha256": "31689aaba6b83f0763aada2035ac61fc17153218bb2b6efbc64f5139c55a4c3b",
+  "knowledge_sha256": "77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb",
+  "execution_success_basis": "completed run summary, exact output count, input/knowledge hash verified; original exitcode NOT_CAPTURED where null",
+  "seconds": 1.2385625839233398,
+  "InferenceTimeQualification": "shared batch time, not additive per-method runtime",
+  "reference_path": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p2_v2/reference_sampled.jsonl",
+  "execution_status": "ADAPTED_BASELINE",
+  "source_directory": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/fusion_P2_word"
+}

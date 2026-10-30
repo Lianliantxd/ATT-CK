@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/LexicalTechniqueMatching/bin/python",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/baselines/predict.py",
+    "--method",
+    "Lexical",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/prediction_view_strict.jsonl",
+    "--documents",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/datasets/official_knowledge_documents.json",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/experiments/Lexical_strict.jsonl"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "seconds": 0.2205627909861505
+}

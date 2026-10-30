@@ -1,0 +1,10 @@
+{
+  "tag": "VALIDATION02_CONTEXT_FIT_STATIC_V4_0147_A1_STATIC_BM25_LLM_final",
+  "start_unix": 1793105816.992296,
+  "reserved_input_tokens": 4573,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": 4541,
+  "output_tokens": 210,
+  "status": "COMPLETED_CPU_VERIFIED",
+  "wall_seconds": 63.836024291813374
+}

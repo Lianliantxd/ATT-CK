@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/source_fusion.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p1_resampled/prediction.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "--representation",
+    "bm25",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/fusion_P1_bm25",
+    "--skip-evidence",
+    "--only-fixed-fusions"
+  ],
+  "exit_code": 0,
+  "seconds": 7.06458616675809,
+  "stdout": "{\"n\": 975, \"seconds\": 6.211245417129248, \"representation\": \"bm25\", \"knowledge_sha256\": \"77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb\", \"input_sha256\": \"a486fe1c4a9641adba2f94bf87fd0de532d835ff2a859d82f1c5f20e27b2534f\", \"methods\": [\"Max\", \"Mean\", \"RRF\", \"SourceScoreNormalization\"], \"ground_truth_read\": false, \"python_executable\": \"/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25/bin/python\"}\n",
+  "stderr": ""
+}

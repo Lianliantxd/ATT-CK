@@ -1,0 +1,42 @@
+[
+  {
+    "id": "B1",
+    "status": "OPEN",
+    "scope": "all384",
+    "blocker": "独立预测盲化未成立",
+    "evidence": "当前助手上下文在此前工作中已接触历史排名/诊断；输入去字段不能消除记忆。",
+    "effect": "独立盲审完成数0；全部结果只能是同上下文AI预审。"
+  },
+  {
+    "id": "B2",
+    "status": "OPEN",
+    "scope": "all384 competitor components",
+    "blocker": "Q2要求Top10比较，与§5审查输入禁止读取预测候选存在合同冲突",
+    "evidence": "本轮审查包只输出日志、目标Gold定义及元数据；未向审查者展示Top10。",
+    "effect": "Top10比较完成0、受阻384；可区分竞争技术的数量为null/未评价，不能记为零。"
+  },
+  {
+    "id": "B3",
+    "status": "OPEN",
+    "scope": "request completeness",
+    "blocker": "附件缺少§8.3后半至§13.3",
+    "evidence": "第一份附件在“没”字处结束；第二份直接从§13.4开始。",
+    "effect": "不能确认缺失章节中特定文件名或额外合同已经满足；按已收到内容尽量完整交付。"
+  },
+  {
+    "id": "B4",
+    "status": "OPEN",
+    "scope": "all384 adjudication",
+    "blocker": "没有独立人工Gold、完整源日志、省略数量或原生Fact ID",
+    "evidence": "本轮仅审查既有冻结卡。2178个Fact ID是显示行定位符。",
+    "effect": "不得计算正式准确率或因果根因份额；当前未见不代表原始事件未发生。"
+  },
+  {
+    "id": "B5",
+    "status": "DISCLOSED_PRE_EXISTING",
+    "scope": "legacy integrity",
+    "blocker": "融合项目一份旧报告与其历史交付清单哈希不一致",
+    "evidence": "详见OLD_ASSET_INTEGRITY_AUDIT.json中的完整路径和两个SHA256；此前已披露该差异。",
+    "effect": "本轮不修复，不声称全部历史清单无差异。281个观察文件在本轮快照后未变化；快照在预审后建立。"
+  }
+]

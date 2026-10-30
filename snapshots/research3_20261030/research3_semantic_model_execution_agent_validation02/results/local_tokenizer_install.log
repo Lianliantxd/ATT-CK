@@ -1,0 +1,6 @@
+Collecting tokenizers==0.22.2
+  Downloading tokenizers-0.22.2-cp39-abi3-macosx_11_0_arm64.whl.metadata (7.3 kB)
+Downloading tokenizers-0.22.2-cp39-abi3-macosx_11_0_arm64.whl (3.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 7.8 MB/s eta 0:00:00
+Installing collected packages: tokenizers
+Successfully installed tokenizers-0.22.2

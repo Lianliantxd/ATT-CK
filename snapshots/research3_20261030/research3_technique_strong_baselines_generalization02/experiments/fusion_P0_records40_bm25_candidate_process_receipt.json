@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/source_fusion.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_records40.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K2_DESCRIPTION_16_1.json",
+    "--representation",
+    "bm25",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/fusion_P0_records40_bm25_candidate",
+    "--skip-evidence",
+    "--only-candidate"
+  ],
+  "exit_code": 0,
+  "seconds": 8.698931875173002,
+  "stdout": "{\"n\": 975, \"seconds\": 8.574774832930416, \"representation\": \"bm25\", \"knowledge_sha256\": \"77b9aa7f5caf8f11b033e531920e2835170ee600d38bfc18385fdbc4ca0700eb\", \"input_sha256\": \"d9f1d84e9abd9e2a0b9a2e4503e3fece911e567f6499936872c6abb26f78c67e\", \"methods\": [\"EvidenceLineFusion\", \"EvidenceLineFusion_NoLineSelection\", \"EvidenceLineFusion_NoDiscrimination\", \"EvidenceLineFusion_NoSourceCalibration\"], \"ground_truth_read\": false, \"python_executable\": \"/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion/bin/python\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FROZEN_GTE_SCORES.jsonl",
+    "rows": 2909,
+    "schema_invalid_rows": 0,
+    "null_B3_cells": 0,
+    "groups": [
+      {
+        "method": "score_export",
+        "seed": "FROZEN",
+        "view": "SHARED_ONE_MULTI",
+        "rows": 2909
+      }
+    ],
+    "new_metrics_or_rankings_computed": false
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/B3_SUPERVISED_SCORES.jsonl",
+    "rows": 17454,
+    "schema_invalid_rows": 0,
+    "null_B3_cells": 2666400,
+    "groups": [
+      {
+        "method": "score_export",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 2909
+      },
+      {
+        "method": "score_export",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 2909
+      },
+      {
+        "method": "score_export",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 2909
+      },
+      {
+        "method": "score_export",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 2909
+      },
+      {
+        "method": "score_export",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 2909
+      },
+      {
+        "method": "score_export",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 2909
+      }
+    ],
+    "new_metrics_or_rankings_computed": false
+  },
+  {
+    "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/FUSION_PREDICTIONS.jsonl",
+    "rows": 64350,
+    "schema_invalid_rows": 0,
+    "null_B3_cells": 0,
+    "groups": [
+      {
+        "method": "Z0",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "S0",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C0",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C1",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C2",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C3",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C4",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C5",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "P2",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C6_B4",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C6_B5",
+        "seed": "17",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "Z0",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "S0",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C0",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C1",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C2",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C3",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C4",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C5",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "P2",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C6_B4",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C6_B5",
+        "seed": "17",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "Z0",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "S0",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C0",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C1",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C2",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C3",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C4",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C5",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "P2",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C6_B4",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C6_B5",
+        "seed": "42",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "Z0",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "S0",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C0",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C1",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C2",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C3",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C4",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C5",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "P2",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C6_B4",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C6_B5",
+        "seed": "42",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "Z0",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "S0",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C0",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C1",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C2",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C3",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C4",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C5",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "P2",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C6_B4",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "C6_B5",
+        "seed": "73",
+        "view": "MULTI_VIEW_AUGMENTATION",
+        "rows": 975
+      },
+      {
+        "method": "Z0",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "S0",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C0",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C1",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C2",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C3",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C4",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C5",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "P2",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C6_B4",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      },
+      {
+        "method": "C6_B5",
+        "seed": "73",
+        "view": "ONE_VIEW_PER_STEP",
+        "rows": 975
+      }
+    ],
+    "new_metrics_or_rankings_computed": false
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "configurations": 42,
+  "all_weights_changed": true,
+  "all_reload_max_diff_zero": true,
+  "all_rankings_unique_216": true,
+  "total_optimizer_updates": 5040,
+  "sum_config_wall_seconds": 13.862571589183062,
+  "sum_config_cpu_seconds": 13.044140999999996,
+  "peak_process_rss_bytes": 109543424,
+  "checkpoint_bytes": 40649823,
+  "heldout_prediction_rows": 5850,
+  "validation_prediction_rows": 5790,
+  "prediction_counts": {
+    "fold_heldout_1__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 220,
+      "validation": 125
+    },
+    "fold_heldout_1__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 220,
+      "validation": 125
+    },
+    "fold_heldout_1__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 220,
+      "validation": 125
+    },
+    "fold_heldout_1__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 220,
+      "validation": 125
+    },
+    "fold_heldout_1__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 220,
+      "validation": 125
+    },
+    "fold_heldout_1__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 220,
+      "validation": 125
+    },
+    "fold_heldout_2__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 130,
+      "validation": 225
+    },
+    "fold_heldout_2__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 130,
+      "validation": 225
+    },
+    "fold_heldout_2__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 130,
+      "validation": 225
+    },
+    "fold_heldout_2__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 130,
+      "validation": 225
+    },
+    "fold_heldout_2__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 130,
+      "validation": 225
+    },
+    "fold_heldout_2__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 130,
+      "validation": 225
+    },
+    "fold_heldout_3__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 230,
+      "validation": 95
+    },
+    "fold_heldout_3__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 230,
+      "validation": 95
+    },
+    "fold_heldout_3__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 230,
+      "validation": 95
+    },
+    "fold_heldout_3__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 230,
+      "validation": 95
+    },
+    "fold_heldout_3__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 230,
+      "validation": 95
+    },
+    "fold_heldout_3__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 230,
+      "validation": 95
+    },
+    "fold_heldout_4__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 95,
+      "validation": 10
+    },
+    "fold_heldout_4__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 95,
+      "validation": 10
+    },
+    "fold_heldout_4__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 95,
+      "validation": 10
+    },
+    "fold_heldout_4__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 95,
+      "validation": 10
+    },
+    "fold_heldout_4__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 95,
+      "validation": 10
+    },
+    "fold_heldout_4__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 95,
+      "validation": 10
+    },
+    "fold_heldout_5__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 10,
+      "validation": 230
+    },
+    "fold_heldout_5__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 10,
+      "validation": 230
+    },
+    "fold_heldout_5__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 10,
+      "validation": 230
+    },
+    "fold_heldout_5__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 10,
+      "validation": 230
+    },
+    "fold_heldout_5__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 10,
+      "validation": 230
+    },
+    "fold_heldout_5__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 10,
+      "validation": 230
+    },
+    "fold_heldout_6__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 230,
+      "validation": 60
+    },
+    "fold_heldout_6__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 230,
+      "validation": 60
+    },
+    "fold_heldout_6__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 230,
+      "validation": 60
+    },
+    "fold_heldout_6__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 230,
+      "validation": 60
+    },
+    "fold_heldout_6__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 230,
+      "validation": 60
+    },
+    "fold_heldout_6__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 230,
+      "validation": 60
+    },
+    "fold_heldout_7__seed17__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 60,
+      "validation": 220
+    },
+    "fold_heldout_7__seed17__ONE_VIEW_PER_STEP": {
+      "heldout": 60,
+      "validation": 220
+    },
+    "fold_heldout_7__seed42__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 60,
+      "validation": 220
+    },
+    "fold_heldout_7__seed42__ONE_VIEW_PER_STEP": {
+      "heldout": 60,
+      "validation": 220
+    },
+    "fold_heldout_7__seed73__MULTI_VIEW_AUGMENTATION": {
+      "heldout": 60,
+      "validation": 220
+    },
+    "fold_heldout_7__seed73__ONE_VIEW_PER_STEP": {
+      "heldout": 60,
+      "validation": 220
+    }
+  },
+  "training_references_opened": "TRAIN_ONLY; heldout/validation reference files never opened by trainer or this validation",
+  "all_input_source_hashes": {
+    "GROUPED_TRAIN_VALIDATION_SPLITS.json": "879bac94d85a5106a36345b9d9ce3f85f0b383978d8a6b914bb2cec1374bd96d",
+    "data/train/fold_heldout_1.jsonl": "09928563b5cc59d19ce6b3bad37d27ffe568eaf535d5cf0a86e51398fe4e72bc",
+    "data/train/fold_heldout_1_one_view.jsonl": "3401afb36555bb7bb6892ed7191ec3f9b5e0a4ef20fa6cde14de9c447d9cc87e",
+    "data/train/fold_heldout_2.jsonl": "f7e302434d20306553e28a2d3cf419fad64f835927775faca8a92996a1394752",
+    "data/train/fold_heldout_2_one_view.jsonl": "367640b13d9f29abad84c910d4c55b590536b5083ce921e379a04123e350e946",
+    "data/train/fold_heldout_3.jsonl": "4c4083111405b731fa4263abdc9fa7ede3354863d31fbff3edd67b54dad0de10",
+    "data/train/fold_heldout_3_one_view.jsonl": "c60d39e2aecaa0ee953d9e4ca884a05066b1f50beed5adee622d05a73206b7ff",
+    "data/train/fold_heldout_4.jsonl": "632dd6fd1a07d9d3c5f27cd314b619f1e25cdbee85d42b7a3fa9a50b07d061ab",
+    "data/train/fold_heldout_4_one_view.jsonl": "1037031c74b4ebedb106bd4de85ec5fe3ba03c235cc29ffa11b42335563bce58",
+    "data/train/fold_heldout_5.jsonl": "aa011a2813cec83f062efda308c040448337597057f3804f18e1ec0d87b59f56",
+    "data/train/fold_heldout_5_one_view.jsonl": "1db835e22a7c9dd4fa2ebc18d14ce4b1cb4115861850d5279db7794fcf3c80c6",
+    "data/train/fold_heldout_6.jsonl": "80032c9df851dbc2d66eaa78de34ee22822d51a714f331d182b8f54e3c114a5c",
+    "data/train/fold_heldout_6_one_view.jsonl": "fe04027131554cfe525ff00f12463537bfa963a8b209c7796a0ad3cd06c249f3",
+    "data/train/fold_heldout_7.jsonl": "56353a6c2deb9fdfb8be58fed25c437925161ba2fd8878066fef94918d2440ac",
+    "data/train/fold_heldout_7_one_view.jsonl": "52d30b68417857da4650c1d1c056191b3b6adc0e9f2ce4560d9456b2423a09b6",
+    "data/heldout/fold_heldout_1_inputs.jsonl": "a8cd57942f347d8a6c8b420a165f8562b40cfe0287f6957639903809510837b7",
+    "data/heldout/fold_heldout_2_inputs.jsonl": "04c1f2cda5cf7dfe5e846499e76f04b3608a87dcf1675175a5972615c3bff4ba",
+    "data/heldout/fold_heldout_3_inputs.jsonl": "d51f5a76a5f53d8c2fffef8d910f07754031e8976c231abc9b10edfd438cea37",
+    "data/heldout/fold_heldout_4_inputs.jsonl": "e5b6bfd42116cfea43e9445e0c20e05c75f58b208d58b05ae217ae5ef49a4aff",
+    "data/heldout/fold_heldout_5_inputs.jsonl": "75e3c606e99190d13498c994d500d710f73cb077bb7b5e4495f86f3750d3557a",
+    "data/heldout/fold_heldout_6_inputs.jsonl": "e0a46186b3c8e6dc2417bb6d21c85690af55470fa0040051ac55fb63903ecd46",
+    "data/heldout/fold_heldout_7_inputs.jsonl": "2787bb1e2cebb22c65e7cb75f767cf62b7d7b1ec0c3a3e217907a83a50aaf7a2",
+    "data/validation/fold_heldout_1_inputs.jsonl": "33a89a73918c1ab8bfe0a4cdefde5bdc4a3fb0eb3d396cab23a51271111cd0b4",
+    "data/validation/fold_heldout_2_inputs.jsonl": "ed2ff5f9e5ae75ed34eced7797eef3f0b751547ad7a5359a139002051f11f5fe",
+    "data/validation/fold_heldout_3_inputs.jsonl": "e71dbd74eb5f073b801d7fb396485c5ff7f2d042bac3f73ab86e40007599c1f4",
+    "data/validation/fold_heldout_4_inputs.jsonl": "052ca2426a2d54f67763d3f13918808cf1ffd17ca2b996d0f5f166f743e01349",
+    "data/validation/fold_heldout_5_inputs.jsonl": "85ae010c9195bdc2e1d2aa9ed59ca0b2c2152ef7ae2be90d44e7eacc6645f3f4",
+    "data/validation/fold_heldout_6_inputs.jsonl": "8d7c74630c02354cb7fcef7d47d44cdf053f66bdab59fa5bb296fe563c46d7a2",
+    "data/validation/fold_heldout_7_inputs.jsonl": "97cf103e0d1af6f9ee16d4d38de277ccc5676ab638368dad11158c07e3f017b4"
+  },
+  "cost_scope_note": "Per-config timing includes optimizer/checkpoint/reload/prediction; fold vectorizer fit and feature construction occur once outside per-config timing."
+}

@@ -1,0 +1,26 @@
+{
+  "protocol": "P0",
+  "input_view": "all",
+  "knowledge_view": "K0_NAMES_ONLY",
+  "representation": "word",
+  "method": "TFIDF",
+  "command": [
+    "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TFIDFTechniqueRetrieval/bin/python",
+    "-B",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/baselines/engine.py",
+    "--inputs",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/datasets/p0_prediction.jsonl",
+    "--knowledge",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/knowledge/K0_NAMES_ONLY.json",
+    "--representation",
+    "word",
+    "--output",
+    "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_word_K0_NAMES_ONLY_all.jsonl"
+  ],
+  "output": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/experiments/P0_word_K0_NAMES_ONLY_all.jsonl",
+  "exit_code": 0,
+  "seconds": 0.3957595410756767,
+  "stdout": "{\"n\": 975, \"seconds\": 0.3563108341768384, \"representation\": \"word\", \"cache\": \"CacheInfo(hits=590, misses=385, maxsize=8192, currsize=385)\"}\n",
+  "stderr": "",
+  "execution_status": "PROJECT_NEW_INFERENCE"
+}

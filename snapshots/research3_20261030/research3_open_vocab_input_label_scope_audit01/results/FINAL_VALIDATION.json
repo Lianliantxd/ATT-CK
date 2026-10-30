@@ -1,0 +1,146 @@
+{
+  "status": "PASS_MECHANICAL_AUDIT_WITH_DOCUMENTED_BLOCKERS",
+  "execution_status": "PARTIAL_WITH_REFERENCE_AND_DEFINITION_BLOCKERS",
+  "assets_checked": 99,
+  "asset_paths_checked": 101,
+  "assets_checked_scope": "historical/project/requestassets hashed;includes hashonly supporting files,not allsemanticread;no workspacewideproof",
+  "missing_assets": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_distinguishable_evidence_audit01/review/GOLD_TECHNIQUE_SUMMARY.csv",
+      "role": "REQUESTED_SUMMARY_PATH_CHECK",
+      "blocking": false,
+      "resolution": "actual summary atresults/GOLD_TECHNIQUE_SUMMARY.csv"
+    },
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/official_sources/tree.json",
+      "role": "LOCAL_PROVENANCE_OR_FREEZE_CODE",
+      "blocking": false,
+      "resolution": "optional discovery path;not a claimed upstreamsource"
+    },
+    {
+      "path": null,
+      "artifact": "compatible versionedbehavior source for11targets",
+      "blocking": true,
+      "resolution": "requires source recovery;source path not supplied"
+    },
+    {
+      "path": null,
+      "artifact": "author matrix export/generation recipe andexactATTCKrelease",
+      "blocking": true,
+      "resolution": "requires source recovery"
+    },
+    {
+      "path": null,
+      "artifact": "independent semantic adjudication for34scopequeries",
+      "blocking": true,
+      "resolution": "requires qualified human review"
+    }
+  ],
+  "hash_mismatches": [
+    {
+      "path": "/Users/tianxd/Documents/mid-term/research3_open_vocab_technique_generalization01/R3_OPEN_VOCAB_TECHNIQUE_GENERALIZATION_RESULTS.md",
+      "expected_sha256": "915ba7a6d9030102cfa367b11505517e36cdc93eee86c4b08f2ddaf759284310",
+      "actual_sha256": "950167a78a289e0d5b5c17a80c0b026fffaead653b11c8059fb4a29f3e1d61ee",
+      "expected_source": "previous explicitly disclosed legacy manifest",
+      "match": false,
+      "qualification": "PREEXISTING_MISMATCH_PRESERVED_NOT_REPAIRED"
+    }
+  ],
+  "target_techniques_checked": 12,
+  "target_techniques_missing": [],
+  "gold_scope_cases_expected": 34,
+  "gold_scope_cases_checked": 34,
+  "gold_scope_cases_missing": [],
+  "affected_queries_expected": 379,
+  "affected_queries_reconstructed": 379,
+  "affected_queries_unconfirmed": 0,
+  "confirmed_definition_defects": 12,
+  "unresolved_definition_causes": 11,
+  "confirmed_mapping_errors": 0,
+  "unresolved_mapping_cases": 34,
+  "confirmed_source_version_mismatches": null,
+  "confirmed_text_truncations": 1,
+  "confirmed_parent_scope_definition_prefix_exclusions": 5,
+  "all_checked_documents_with_confirmed_fixed_prefix_truncation": 10,
+  "confirmed_current_source_ID_coverage_gaps": 11,
+  "affected_gold_assignments": 515,
+  "affected_candidate_pairs": 1700,
+  "unique_affected_queries": 379,
+  "affected_competitor_instances": 1171,
+  "overlapping_defects": {
+    "queries_with_multiple_defects": 327,
+    "intersect_gold_scope_queries": 34,
+    "intersect_previous_AI_insufficient_queries": 251,
+    "triple_intersection": 0
+  },
+  "repairability_status": {
+    "T1574": "REPAIRABLE_FROM_EXISTING_FROZEN_ASSETS;PLAN_ONLY",
+    "other_11_targets": "REQUIRES_MISSING_SOURCE_ARTIFACT",
+    "scope34": "REQUIRES_HUMAN_ADJUDICATION",
+    "repair_executed": false
+  },
+  "human_adjudication_required": {
+    "required": true,
+    "scope_queries": 34,
+    "scope_target_assignments": 34,
+    "documented_independent_adjudications_in_checked_records": 0
+  },
+  "new_model_calls": 0,
+  "new_agent_calls": 0,
+  "new_training_runs": 0,
+  "GPU_tasks": 0,
+  "server_access": 0,
+  "network_access": 0,
+  "downloads": 0,
+  "uploads": 0,
+  "old_files_modified": 0,
+  "old_files_changed": [],
+  "required_artifacts_present": {
+    "INPUT_LABEL_SCOPE_AUDIT_REPORT.md": true,
+    "ASSET_SOURCE_INVENTORY.csv": true,
+    "TECHNIQUE_DEFINITION_AUDIT.csv": true,
+    "GOLD_SCOPE_AUDIT.csv": true,
+    "EXTRACTION_PIPELINE_AUDIT.csv": true,
+    "PARENT_CHILD_MAPPING_AUDIT.csv": true,
+    "AFFECTED_QUERY_MAP.csv": true,
+    "DEFINITION_IMPACT_SUMMARY.csv": true,
+    "REPAIRABILITY_REGISTER.csv": true,
+    "HUMAN_ADJUDICATION_QUEUE.csv": true,
+    "protocol/INPUT_LABEL_AUDIT_PROTOCOL.md": true,
+    "protocol/BLOCKER_REGISTER.json": true,
+    "protocol/SCOPE_AND_PROVENANCE_LIMITATIONS.md": true,
+    "RUN_MANIFEST.json": true,
+    "results/FINAL_VALIDATION.json": true
+  },
+  "final_decision": "GO_AFTER_SOURCE_RECOVERY",
+  "mechanical_checks_executed": 965,
+  "mechanical_checks_failed": 0,
+  "failed_checks": [],
+  "experiment_executed": false,
+  "reference_status": "NOT_AVAILABLE",
+  "independent_test_status": "NOT_AVAILABLE",
+  "causal_model_error_count": null,
+  "field_counting_contract": {
+    "confirmed_definition_defects": "12competitor frozenbodydefects;11local-sourcecoveragegaps+1conversionclip",
+    "unresolved_definition_causes": "11upstreamcompatible-source/releaseorigin explanations unresolved;boundedlocalabsence confirmed",
+    "confirmed_mapping_errors": "0observedIDtransporterrors in51checkedoriginalauthorlabelchains;not0semanticlabelerrors",
+    "unresolved_mapping_cases": "34scopeapplicabilitycases;mechanicalIDtransportmatches",
+    "confirmed_source_version_mismatches": "null:matrixexactreleaseunknown;11IDcoveragegapsseparate",
+    "confirmed_text_truncations": "1of12targetcompetitordefinitions;5scopeparentprefixexclusionsand10of21documenttruncationsrecordedseparately",
+    "affected_gold_assignments": "unique(sample_id,prior_targetUnseenGoldID),notallauthorlabels",
+    "affected_candidate_pairs": "unique(sample_id,prior_targetUnseenGoldID,defective_competitorID)",
+    "overlapping_defects": "queryIDintersections;priorAIdiagnosisnotnewtruth"
+  },
+  "limitations": [
+    "MechanicalPASSisnotsemanticqualification;AIhistorynotindependentGold.",
+    "Author matrix upstreamgenerator/exactATTCKrelease missing;localSTIXcollection16.1verified internallyonly.",
+    "Compatiblebehavior sources for11IDsnotprovided;no officialdefinition reconstructedfrommemory.",
+    "34scopelabels stillunadjudicated;51IDchainsmatchingdoesnotprovelabelcorrectness.",
+    "379inputimpactconfirmed;all379actualmodelerrorcauses remainunknown;no performanceexperiment.",
+    "Earlydiscovery/schema readspreceded somefirsttrackedhashsnapshots;onlyregisteredassetsrechecked.",
+    "Mixedlabelscontainerparsed;earlyschemaoutputincludedaccompanyingcommandfield;notexecutedorusedasbehaviorproof;notbytelevelisolation.",
+    "Oneknownpreexistinglegacyreporthashdifferencepreserved.",
+    "Previousreview/GOLD_TECHNIQUE_SUMMARYpathmissing;actualresults/pathused;optionaltree.jsonabsent.",
+    "Sourceproofscopeiscurrentlocalbytes;noexternalreauthentication."
+  ]
+}

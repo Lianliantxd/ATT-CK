@@ -1,0 +1,10 @@
+{
+  "tag": "VALIDATION02_PAIRED_PILOT_0286_A1_STATIC_BM25_LLM_final",
+  "start_unix": 1793102080.778071,
+  "reserved_input_tokens": 6338,
+  "reserved_output_tokens": 512,
+  "prompt_tokens": 6306,
+  "output_tokens": 229,
+  "status": "COMPLETED_CPU_VERIFIED",
+  "wall_seconds": 93.22632391704246
+}

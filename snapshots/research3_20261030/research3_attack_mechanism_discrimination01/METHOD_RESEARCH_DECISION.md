@@ -1,0 +1,9 @@
+# GO / NO-GO
+
+主状态：NO_SUPPORTED_ALGORITHMIC_GAIN（未建立独立算法贡献，不等于所有开发差为零）。次状态：MECHANISM_REPRESENTATION_EXECUTED、RERANKER_FAILURE_DIAGNOSED、EXTERNAL_TEST_NOT_READY。
+
+授权主实验已完成，非MODEL_FORWARD_AUTHORIZATION_BLOCKED。本组神经表示对比没有获得经292项联合Holm校正后显著的正向增益。 完整量化对比见reports/GPU_MAIN_EXPERIMENT_RESULTS.md及292项统计。当前仍不能将清洗/元字段/不同实际Token或知识可见内容的差异归因于攻击机制推理。关系文本的因果、身份和必要条件没有额外认证；BM25关系标签接口未生效。
+
+NO-GO：继续堆叠现有规则、关系图、Agent、Reflection、RL或DGPR；不将卡片与成熟检索器组合称独立创新。
+
+条件GO：保留IR作证据审查资产，完成已冻结30例的真实独立人审，区分标签不可观察、主体对象绑定与领域排序偏差。若要修正renderer使动作/关系有匹配知识通道，必须作为新工程版本单独冻结，不能回改本轮输入或成绩。若无法证实有独立机制信息，再另立领域对比学习/困难负例适配实验；本轮不自动训练。外部TEST及机制语义评价仍未就绪。

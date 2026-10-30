@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "query_count": 975,
+  "logical_steps": 195,
+  "parent_multilabel_queries": 285,
+  "all_outer_heldout_queries_evaluated_once": true,
+  "gold_absent_from_input_files": true,
+  "actual_fold_boundaries_disjoint": true,
+  "shared_full_window_overlap_across_roles": false,
+  "source_and_generated_manifest_hashes_verified": true,
+  "folds": [
+    {
+      "fold_id": "fold_heldout_1",
+      "train": 620,
+      "validation": 125,
+      "heldout": 220,
+      "status": "PASS"
+    },
+    {
+      "fold_id": "fold_heldout_2",
+      "train": 610,
+      "validation": 225,
+      "heldout": 130,
+      "status": "PASS"
+    },
+    {
+      "fold_id": "fold_heldout_3",
+      "train": 640,
+      "validation": 95,
+      "heldout": 230,
+      "status": "PASS"
+    },
+    {
+      "fold_id": "fold_heldout_4",
+      "train": 870,
+      "validation": 10,
+      "heldout": 95,
+      "status": "PASS"
+    },
+    {
+      "fold_id": "fold_heldout_5",
+      "train": 735,
+      "validation": 230,
+      "heldout": 10,
+      "status": "PASS"
+    },
+    {
+      "fold_id": "fold_heldout_6",
+      "train": 685,
+      "validation": 60,
+      "heldout": 230,
+      "status": "PASS"
+    },
+    {
+      "fold_id": "fold_heldout_7",
+      "train": 685,
+      "validation": 220,
+      "heldout": 60,
+      "status": "PASS"
+    }
+  ],
+  "script_independence": "UNKNOWN_EXACT_SCRIPT; this validation does not establish script identity"
+}

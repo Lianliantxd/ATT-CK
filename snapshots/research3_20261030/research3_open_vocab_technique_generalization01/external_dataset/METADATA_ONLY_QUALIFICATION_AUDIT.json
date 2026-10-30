@@ -1,0 +1,55 @@
+{
+  "status": "PASS_METADATA_ONLY",
+  "qualification": "E0",
+  "scientific_state": "EXTERNAL_TEST_NOT_READY",
+  "git_blob_checks": [
+    {
+      "path": "external_dataset/metadata/LICENSE",
+      "git_blob_sha1": "f7767c079267dd20fc4ccf01ec2dd908ae012dce",
+      "sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a",
+      "bytes": 11344
+    },
+    {
+      "path": "external_dataset/metadata/atomic_red_team.yml",
+      "git_blob_sha1": "0f2d7bbb3a00de032fd1f09648a0760e261c6697",
+      "sha256": "eebac0c9661cabf3b1bf36f200880516e19db43a1c3680ef17e6db43c78ac4f8",
+      "bytes": 1259
+    },
+    {
+      "path": "external_dataset/metadata/windows-sysmon.lfs",
+      "git_blob_sha1": "0cf6c0ab5d3158b89a01158b5728c64cd9aacfce",
+      "sha256": "1002df7512e9df20132bde0ca5b526ae863cf19a81b2f913e9a522d569f305de",
+      "bytes": 133
+    },
+    {
+      "path": "external_dataset/metadata/4688_windows-security.lfs",
+      "git_blob_sha1": "fa6801c55f7e7f0f82551914332e9773738b2ded",
+      "sha256": "06126201367df42134ac4dffce205b7b6f00dfdcb34a98f9ba71ed0da16a6c47",
+      "bytes": 130
+    },
+    {
+      "path": "external_dataset/metadata/crowdstrike_falcon.lfs",
+      "git_blob_sha1": "7b8073d9297e325fd1998950d819958de0a6a59c",
+      "sha256": "024996eeb06a5a3943a5564b6505b48dc64097a916df49c5c865199cd22d6a80",
+      "bytes": 130
+    }
+  ],
+  "license_ancestor_directories_checked": 5,
+  "candidate_count": 216,
+  "parent_id": "T1003",
+  "candidate_inventory_path": "/Users/tianxd/Documents/mid-term/research3_domain_adaptive_contrastive_learning01/data/CANDIDATE_TECHNIQUE_IDS.json",
+  "candidate_inventory_sha256": "ec524a5afb6fcc1ebf38d1021c48c6926e7ddcc313c874fad2975868f32a6f3c",
+  "request_sha256": "8cedb59467ca0d29c3917d257b2d98c4e2f1bec68e966cb0e6450308303a6675",
+  "payload_bytes_requested": 12905849,
+  "new_log_body_bytes_downloaded": 0,
+  "bags_evaluated": 0,
+  "prediction_rows": 0,
+  "not_executed_result_rows": 9,
+  "remaining_blockers": [
+    "CURRENT_EXPLICIT_DOWNLOAD_AUTHORIZATION_MISSING",
+    "RAW_PAYLOADS_NOT_ACQUIRED",
+    "SCRIPT_INDEPENDENCE_UNRESOLVED",
+    "EXTERNAL_GTE_FEATURES_UNAVAILABLE",
+    "ONE_BAG_ONE_LABEL_LIMITED_COVERAGE"
+  ]
+}

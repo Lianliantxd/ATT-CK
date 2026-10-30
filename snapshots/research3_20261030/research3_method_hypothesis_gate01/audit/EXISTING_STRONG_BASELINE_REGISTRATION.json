@@ -1,0 +1,210 @@
+[
+  {
+    "algorithm": "BM25",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2;P2_FULL",
+    "conditions": "22",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/BM25TechniqueRetrieval",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "CharacterNgramTFIDF",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2;P2_FULL",
+    "conditions": "12",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/CharacterNgramTFIDF",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_NoDiscrimination_bm25",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_NoDiscrimination_word",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_NoLineSelection_bm25",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_NoLineSelection_word",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_NoSourceCalibration_bm25",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_NoSourceCalibration_word",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_bm25",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "EvidenceLineFusion_word",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/EvidenceLineFusion",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseBM25_Max",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseBM25_Mean",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseBM25_RRF",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseBM25_SourceScoreNormalization",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "8",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseBM25",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseTFIDF_Max",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseTFIDF",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseTFIDF_Mean",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseTFIDF",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseTFIDF_RRF",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseTFIDF",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "SourceWiseTFIDF_SourceScoreNormalization",
+    "status": "ADAPTED_BASELINE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "4",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/SourceWiseTFIDF",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "TFIDF",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2;P2_FULL",
+    "conditions": "22",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01/venvs/TFIDFTechniqueRetrieval",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "WordCharacterHybrid",
+    "status": "PROJECT_NEW_INFERENCE",
+    "protocols": "P0;P1;P1_FIXED;P2",
+    "conditions": "11",
+    "environment": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02/venvs/WordCharacterHybrid",
+    "qualification": "deterministic retrieval/fusion, not full external paper reproduction"
+  },
+  {
+    "algorithm": "KnowHow",
+    "status": "OFFICIAL_COMPONENT_ONLY",
+    "protocols": "P0 inherited",
+    "conditions": "0",
+    "environment": "existing read-only where available; no empty new environment",
+    "qualification": "Existing official dictionary adaptation retained from frozen P0; not full model rerun this round"
+  },
+  {
+    "algorithm": "TREC",
+    "status": "NOT_EXECUTED",
+    "protocols": "N/A",
+    "conditions": "0",
+    "environment": "existing read-only where available; no empty new environment",
+    "qualification": "No new certified source/model/NOI/graph-GT/splits"
+  },
+  {
+    "algorithm": "APTREC",
+    "status": "NOT_EXECUTED",
+    "protocols": "N/A",
+    "conditions": "0",
+    "environment": "existing read-only where available; no empty new environment",
+    "qualification": "No new graph-GT/LoRA/official core implementation"
+  },
+  {
+    "algorithm": "OCR-APT",
+    "status": "NOT_EXECUTED",
+    "protocols": "N/A",
+    "conditions": "0",
+    "environment": "existing read-only where available; no empty new environment",
+    "qualification": "Official component code exists; matching input/service unavailable"
+  },
+  {
+    "algorithm": "SentenceSemanticEncoder",
+    "status": "NOT_EXECUTED",
+    "protocols": "N/A",
+    "conditions": "0",
+    "environment": "existing read-only where available; no empty new environment",
+    "qualification": "EMBEDDING_BASELINE_RESOURCE_BLOCKED; weights/tokenizer/license/dependencies incomplete"
+  },
+  {
+    "algorithm": "SupervisedClassifier",
+    "status": "NOT_EXECUTED",
+    "protocols": "N/A",
+    "conditions": "0",
+    "environment": "existing read-only where available; no empty new environment",
+    "qualification": "No credible independent train split; not run"
+  }
+]

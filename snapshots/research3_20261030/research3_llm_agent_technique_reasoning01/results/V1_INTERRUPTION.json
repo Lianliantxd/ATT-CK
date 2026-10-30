@@ -1,0 +1,8 @@
+{
+  "own_process_id": 65731,
+  "reason": "Correct omitted knowledge results and full budget/cost accounting; no label driven parameter change",
+  "time_unix": 1793084793.2122822,
+  "interrupted_request_count_upper_bound": 1,
+  "interrupted_tokens": "unknown unless native receipt exists; not fabricated",
+  "V1_qualification": "adaptive conditions INVALID_TOOL_RESULT_FORWARDING; nonadaptive can reuse identical prompts only"
+}

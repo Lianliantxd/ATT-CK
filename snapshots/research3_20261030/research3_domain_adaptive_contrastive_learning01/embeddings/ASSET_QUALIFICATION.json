@@ -1,0 +1,110 @@
+{
+  "task": "R3_DOMAIN_ADAPTIVE_CONTRASTIVE_LEARNING01",
+  "date": "2026-10-28",
+  "status": "REAL_FROZEN_EMBEDDINGS_NOT_SAVED_LOCALLY",
+  "scope": "Read-only local scans of the five inherited research roots; no SSH, GPU forward, download, LLM or source archive access. This does not assert anything about uninspected remote filesystem contents.",
+  "local_file_scans": [
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_attack_technique_benchmark01",
+      "file_count": 7038,
+      "array_or_weight_candidates": []
+    },
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_technique_strong_baselines_generalization02",
+      "file_count": 4988,
+      "array_or_weight_candidates": []
+    },
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_llm_agent_technique_reasoning01",
+      "file_count": 1108,
+      "array_or_weight_candidates": []
+    },
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02",
+      "file_count": 1402,
+      "array_or_weight_candidates": []
+    },
+    {
+      "root": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01",
+      "file_count": 290,
+      "array_or_weight_candidates": []
+    }
+  ],
+  "required_feature_qualification": {
+    "log_features": "NOT_FOUND",
+    "technique_description_features": "NOT_FOUND",
+    "expected_feature_dim": 768,
+    "ranking_scores_are_features": false,
+    "recover_vectors_from_rankings_or_scores": false
+  },
+  "inspected_newest_runner": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/experiments/run_gpu_if_authorized.py",
+    "sha256": "457998880e19f5addd31c2716692fff8e4dbe27defc7d152c9ef73867a8325f2",
+    "observed_behavior": "encode() returns normalized CLS representations into process-local cache; subsequent output saves full 216 candidate ranking and cosine scores. No np.save/torch.save/feature serialization exists in this runner.",
+    "embedding_runtime": {
+      "batches": 227,
+      "unique_texts": 1797,
+      "seconds_from_experiment_start": 17.085992795415223
+    }
+  },
+  "actual_prediction_schema": {
+    "path": "/Users/tianxd/Documents/mid-term/research3_attack_mechanism_discrimination01/results/gpu/NEW_EMBEDDING_PREDICTIONS.jsonl",
+    "sha256": "f8502dd739c7f42878522e12ace8a16d364473ff4fcfdb08be7477c2185bba7e",
+    "keys": [
+      "sample_id",
+      "method",
+      "input_view",
+      "knowledge",
+      "predictions",
+      "scores",
+      "qualification"
+    ],
+    "ranking_length": 216,
+    "score_length": 216,
+    "score_semantics": "dot products with candidate description embeddings, not hidden-state coordinates"
+  },
+  "existing_models_historical_receipts": {
+    "source_path": "/Users/tianxd/Documents/mid-term/research3_semantic_model_execution_agent_validation02/results/server_gpu/manifests/MODEL_DOWNLOAD_RECEIPTS.json",
+    "source_sha256": "cff83506f551ef8d38c85a19f9fad01b14b576a6466e5f8c0cc9a9c6ba0fadf1",
+    "current_remote_verification": false,
+    "models": [
+      {
+        "model_id": "Alibaba-NLP/gte-modernbert-base",
+        "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+        "remote_directory": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/model_assets/GTE-ModernBERT",
+        "weight_sha256": "3e85899d5728cb7de79781c0c3acfb91ccef9f875f1f7e0b3c9f3dd4b6a724ba",
+        "local_weight_found": false
+      },
+      {
+        "model_id": "Alibaba-NLP/gte-reranker-modernbert-base",
+        "revision": "f7481e6055501a30fb19d090657df9ec1f79ab2c",
+        "remote_directory": "/home/tianxiaodan/projects/R3_SEMANTIC_MODEL_EXECUTION_AND_AGENT_VALIDATION02/model_assets/GTE-ModernBERT-Reranker",
+        "weight_sha256": "13c533d902d6a48fa97375c6856c3e60854f9228ea760e3fc18ebde057e0cf31",
+        "local_weight_found": false
+      }
+    ]
+  },
+  "local_huggingface_cache": {
+    "root": "/Users/tianxd/.cache/huggingface/hub",
+    "only_model_directory": "models--distilbert-base-uncased",
+    "files_present": [
+      "refs/main"
+    ],
+    "model_weights_present": false,
+    "usable_gte": false
+  },
+  "method_eligibility": {
+    "B0_CharacterTFIDF": "AVAILABLE_LOCAL_IMPLEMENTATION",
+    "B1_FrozenGTE": "HISTORICAL_PREDICTIONS_AVAILABLE_ONLY_REUSE_REQUIRES_EXACT_INPUT_AND_KNOWLEDGE_MATCH",
+    "B2_TFIDF_LINEAR": "NUMPY_CPU_TRAINING_POSSIBLE",
+    "B3_FROZEN_GTE_LINEAR": "BLOCKED_MISSING_REAL_VECTORS",
+    "B4_GTE_PROJECTION": "BLOCKED_MISSING_REAL_VECTORS",
+    "B5_STANDARD_CONTRASTIVE": "BLOCKED_MISSING_REAL_VECTORS",
+    "B6_RANDOM_NEGATIVE": "BLOCKED_MISSING_REAL_VECTORS",
+    "B7_SEMANTIC_HARD_NEGATIVE": "BLOCKED_MISSING_REAL_VECTORS",
+    "B8_MODEL_MINED_HARD_NEGATIVE": "BLOCKED_MISSING_REAL_VECTORS",
+    "B9_RELIABILITY_HARD_NEGATIVE": "BLOCKED_MISSING_REAL_VECTORS",
+    "B10_LORA": "NEW_GPU_TRAINING_AUTHORIZATION_REQUIRED"
+  },
+  "next_required_action": "Produce a concrete new model-forward/training authorization request; preserve actual original 768-d normalized CLS log and technique features with model/input hashes if authorized. No Gold needs to be transferred merely to export frozen features."
+}

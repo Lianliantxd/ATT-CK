@@ -1,0 +1,7 @@
+{
+  "source": "/Users/tianxd/Documents/mid-term/research3_baseline_reproduction01/algorithms/KnowHow/original_source/tech_dic.txt",
+  "sha256": "c2d3432600b8ff1bbfe5c170c2de9b72cc681dbf32350c9e695f1bdf24fed04c",
+  "parents_covered": 185,
+  "phrase_count": 11803,
+  "adaptation": "count phrase substrings over unified strict raw text; parent merge; top10; ascending ID ties; not official KnowHow score or full model"
+}

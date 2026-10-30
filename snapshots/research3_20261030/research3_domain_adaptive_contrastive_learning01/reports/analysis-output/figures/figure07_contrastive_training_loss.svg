@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1050" height="430" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1050 430" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1050" height="430"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-430)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1050" height="430" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="55" y="402" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,804) scale(1,-1)">Actual CPU projection training curves: seed42, ONE view</text>
+			<text x="55" y="381" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,762) scale(1,-1)">Each line averages 7 overlapping training folds. Loss definitions differ; levels do not establish cross-method superiority.</text>
+			<path d="M 65,85 L 1015,85 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="82.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,164) scale(1,-1)">0</text>
+			<path d="M 65,122.142857 L 1015,122.142857 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="119.14285714285714" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,238) scale(1,-1)">1</text>
+			<path d="M 65,159.285714 L 1015,159.285714 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="156.28571428571428" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,312) scale(1,-1)">2</text>
+			<path d="M 65,196.428571 L 1015,196.428571 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="193.42857142857144" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,386) scale(1,-1)">3</text>
+			<path d="M 65,233.571429 L 1015,233.571429 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="230.57142857142858" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,461) scale(1,-1)">4</text>
+			<path d="M 65,270.714286 L 1015,270.714286 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="267.7142857142857" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,535) scale(1,-1)">5</text>
+			<path d="M 65,307.857143 L 1015,307.857143 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="304.8571428571429" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,609) scale(1,-1)">6</text>
+			<path d="M 65,345 L 1015,345 Z" style="stroke: rgb(87%,89%,91%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="53.5" y="342.0" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">7</text>
+			<polyline points="72.91667 289.9178, 144.1667 179.9752, 223.3333 125.9781, 302.5 110.3954, 381.6667 104.1939, 460.8333 100.8876, 540 99.66399, 619.1667 99.01761, 698.3333 98.61129, 777.5 98.31479, 856.6667 98.07042, 935.8333 97.85719, 1015 97.6644" style="stroke: rgb(25%,43%,57%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<text x="65" y="358" style="font-family: Times-Roman; font-size: 10px;fill: rgb(25%,43%,57%); stroke:none;" transform="translate(0,716) scale(1,-1)">B5</text>
+			<polyline points="72.91667 224.9856, 144.1667 140.4894, 223.3333 109.9979, 302.5 102.2109, 381.6667 99.61439, 460.8333 98.28075, 540 97.75055, 619.1667 97.43995, 698.3333 97.20806, 777.5 97.01066, 856.6667 96.83162, 935.8333 96.66517, 1015 96.53227" style="stroke: rgb(81%,54%,27%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<text x="375" y="358" style="font-family: Times-Roman; font-size: 10px;fill: rgb(81%,54%,27%); stroke:none;" transform="translate(0,716) scale(1,-1)">B7</text>
+			<polyline points="72.91667 226.7955, 144.1667 163.7796, 223.3333 119.0185, 302.5 106.8259, 381.6667 101.8128, 460.8333 99.6225, 540 98.74188, 619.1667 98.25436, 698.3333 97.92617, 777.5 97.66611, 856.6667 97.44033, 935.8333 97.2421, 1015 97.13875" style="stroke: rgb(39%,50%,43%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<text x="685" y="358" style="font-family: Times-Roman; font-size: 10px;fill: rgb(39%,50%,43%); stroke:none;" transform="translate(0,716) scale(1,-1)">B9</text>
+			<text x="62.5" y="67" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,134) scale(1,-1)">0</text>
+			<text x="297.5" y="67" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,134) scale(1,-1)">30</text>
+			<text x="535.0" y="67" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,134) scale(1,-1)">60</text>
+			<text x="772.5" y="67" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,134) scale(1,-1)">90</text>
+			<text x="1007.5" y="67" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,134) scale(1,-1)">120</text>
+			<text x="65" y="24" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,48) scale(1,-1)">120 fixed Adam updates, no early stopping or heldout selection. Full logs/checkpoints saved; optimization convergence is not independent generalization.</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "Python": "3.12.14",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "numpy": "2.3.5",
+  "algorithm_environments": {
+    "algorithm_environments": [
+      "TFIDF-Linear",
+      "FrozenGTE-Linear",
+      "GTE-Projection",
+      "GTE-StandardContrastive",
+      "GTE-HardNegative"
+    ],
+    "numpy_source_readonly": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages",
+    "python": "/Users/tianxd/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "no_packages_installed": true,
+    "new_downloads": 0
+  },
+  "system_python_modified": false,
+  "new_packages_downloaded": false,
+  "new_GPU_training_authorized": false,
+  "new_feature_extraction_authorized": true,
+  "new_LLM_calls": 0
+}

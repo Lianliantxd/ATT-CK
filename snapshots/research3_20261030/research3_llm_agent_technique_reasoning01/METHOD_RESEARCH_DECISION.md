@@ -1,0 +1,11 @@
+# 科研决策
+
+主状态：PARTIAL_COMPLETION_WITH_DOCUMENTED_BLOCKERS。
+
+已成立的工程状态：AGENT_ENVIRONMENT_READY。生成式LLM真实推理与极小开发pilot评分已完成；不能将LLM_TECHNIQUE_BASELINES_READY解释为全量强基线。Embedding/Cross-Encoder仍NEURAL_MODEL_EXECUTION_BLOCKED。Agent收益：AGENT_NO_SUPPORTED_INCREMENTAL_GAIN（未有有效配对，不等于证伪）。
+
+目前没有论文核心算法的充分实验证据。停止围绕旧EvidenceLineFusion调权，停止增加Agent角色、反思轮数和强化学习。M预算动态启发式不同指标方向不一致，不能通过挑选Top1单项宣称胜出。
+
+建议下一项最小研究：取得明确准入的一个Embedding资产后，固定输入及K2文本测全量语义候选召回，先确认是否突破P0 Top20 38.97%的词汇上界；再补受控Cross-Encoder。若召回已充分且静态LLM仍存在可观测、可恢复的候选混淆，再用修复后工具协议测试定义差异驱动证据需求。保留静态/固定/启发式对照与失败率；独立测试来源须另行冻结。本轮不自动下载、不新增预算、不运行后续试验。
+
+语义召回是否提升、知识是否独立有效、有效Agent是否定位区别性证据均暂无法验证。H1是研究候选而非已证明贡献。
